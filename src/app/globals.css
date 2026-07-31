@@ -1,26 +1,108 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink-bg: #f3efe6;
+  --ink-surface: #ebe4d6;
+  --ink-border: #d4cbb8;
+  --ink-text: #1a2332;
+  --ink-muted: #5a6578;
+  --ink-faint: #8a93a3;
+  --accent: #0f766e;
+  --accent-soft: rgba(15, 118, 110, 0.12);
+  --hero-glow: rgba(15, 118, 110, 0.18);
+
+  --background: var(--ink-bg);
+  --foreground: var(--ink-text);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), "Noto Sans TC", system-ui, sans-serif;
+}
+
+/* Soft paper grain + wash — marketing surfaces */
+.home-shell {
+  background:
+    radial-gradient(ellipse 80% 50% at 10% -10%, var(--hero-glow), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(180, 140, 80, 0.12), transparent 50%),
+    linear-gradient(180deg, #f7f3eb 0%, var(--ink-bg) 40%, #ebe6dc 100%);
+}
+
+/* DSE Study Hub — academic dark immersion */
+.dse-root {
+  --dse-bg: #09090b;
+  --dse-surface: #18181b;
+  --dse-border: #3f3f46;
+  --accent: #2dd4bf;
+  --accent-soft: rgba(45, 212, 191, 0.14);
+  --ink-bg: #09090b;
+  --ink-surface: #18181b;
+  --ink-border: #27272a;
+  --ink-text: #f4f4f5;
+  --ink-muted: #a1a1aa;
+  --ink-faint: #71717a;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.dse-root ::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: #fff;
+}
+
+.dse-progress {
+  background: linear-gradient(90deg, #0d9488 0%, #2dd4bf 55%, #5eead4 100%);
+}
+
+.dse-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.dse-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.dse-card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.dse-card-back {
+  transform: rotateY(180deg);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim-fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.anim-fade-up-delay {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+}
+
+.anim-fade-up-delay-2 {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.24s both;
 }

@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 學途 StudyPath
 
-## Getting Started
+香港升學資訊網站：**DSE 備考**（已上線）＋ **K3 選小學**（架構預留）。
 
-First, run the development server:
+## 開發
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+開啟 [http://localhost:3000](http://localhost:3000)。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 部署（Vercel）
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+本專案是標準 Next.js App Router，**Root Directory 請留空（倉庫根目錄）**，Framework 選 Next.js。
 
-## Learn More
+上線前請改 `src/lib/site.ts` 的 `SITE_URL`。
 
-To learn more about Next.js, take a look at the following resources:
+## 路由
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Path | 用途 |
+|------|------|
+| `/` | 首頁 |
+| `/dse` | DSE 科目總覽 |
+| `/dse/chinese` | 中文指定範文 |
+| `/dse/chinese/analects` | 《論語》60 題閃卡 |
+| `/k3` | K3 選小學（Coming Soon） |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+原稿／草稿在 [`_draft/`](./_draft/)。

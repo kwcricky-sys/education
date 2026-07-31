@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local drafts / leftover scaffold
+/_draft/
+/web/
+build-log.txt
