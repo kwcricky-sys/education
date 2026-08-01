@@ -79,3 +79,6 @@ export type CatSessionKind = "adaptive" | "remediation" | "mistake-retest";
 export const CAT_MIN_ITEMS = 15;
 export const CAT_MAX_ITEMS = 20;
 export const CAT_DEFAULT_TARGET = 18;
+/** Extended diagnostic to unlock more untested skill categories. */
+export const CAT_EXTENDED_TARGET = 30;
+export const CAT_EXTENDED_MAX = 30;

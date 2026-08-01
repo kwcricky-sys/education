@@ -1,6 +1,10 @@
 import type { QuizDifficulty } from "@/lib/dse/types";
 import type { CatPoolItem } from "@/lib/dse/cat/types";
-import { CAT_MAX_ITEMS, CAT_MIN_ITEMS } from "@/lib/dse/cat/types";
+import {
+  CAT_EXTENDED_MAX,
+  CAT_MAX_ITEMS,
+  CAT_MIN_ITEMS,
+} from "@/lib/dse/cat/types";
 
 const DIFF_RANK: Record<QuizDifficulty, number> = {
   easy: 0,
@@ -119,9 +123,17 @@ export function shouldStopCat(opts: {
   poolRemaining: number;
 }): boolean {
   if (opts.poolRemaining <= 0) return true;
-  if (opts.answeredCount >= CAT_MAX_ITEMS) return true;
+  const hardCap = Math.min(
+    CAT_EXTENDED_MAX,
+    Math.max(opts.targetCount, CAT_MAX_ITEMS),
+  );
+  if (opts.answeredCount >= hardCap) return true;
   if (opts.answeredCount >= opts.targetCount) return true;
-  if (opts.answeredCount >= CAT_MIN_ITEMS) {
+
+  // Early θ-stability stop only for standard (≤20) diagnostics —
+  // extended runs intentionally cover more untested categories.
+  const allowEarlyStop = opts.targetCount <= CAT_MAX_ITEMS;
+  if (allowEarlyStop && opts.answeredCount >= CAT_MIN_ITEMS) {
     const window = opts.recentThetaDeltas.slice(-3);
     if (window.length >= 3) {
       const avg =

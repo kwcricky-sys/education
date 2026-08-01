@@ -17,7 +17,11 @@ import type {
   CatReport,
   CatSessionKind,
 } from "@/lib/dse/cat/types";
-import { CAT_DEFAULT_TARGET, CAT_MAX_ITEMS } from "@/lib/dse/cat/types";
+import {
+  CAT_DEFAULT_TARGET,
+  CAT_EXTENDED_TARGET,
+  CAT_MAX_ITEMS,
+} from "@/lib/dse/cat/types";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
 import { useErrorNotebook } from "@/store/error-notebook";
 
@@ -46,6 +50,7 @@ type CatSessionState = {
   setTargetCount: (n: number) => void;
   startSession: () => StartResult;
   startRemediationSession: () => StartResult;
+  startExtendedDiagnostic: () => StartResult;
   startMistakeRetest: (items: CatPoolItem[]) => StartResult;
   submitAnswer: (selectedAnswer: string) => void;
   resetSession: () => void;
@@ -164,6 +169,45 @@ export const useCatSession = create<CatSessionState>((set, get) => ({
       report: null,
       targetCount,
       lastAdaptiveSlugs: selectedSlugs,
+      lastHistoryUids: [],
+    });
+    return { ok: true };
+  },
+
+  startExtendedDiagnostic: () => {
+    const { lastAdaptiveSlugs, selectedSlugs } = get();
+    const slugs =
+      lastAdaptiveSlugs.length > 0 ? lastAdaptiveSlugs : selectedSlugs;
+    if (slugs.length === 0) {
+      return { ok: false, error: "請先完成一次極速診斷，或重新選擇範文。" };
+    }
+    const pool = buildCatPool(slugs);
+    if (pool.length < 20) {
+      return {
+        ok: false,
+        error: "題庫不足以開啟 30 題完整診斷，請選擇更多範文。",
+      };
+    }
+    const first = selectNextItem(pool, new Set(), "medium");
+    if (!first) {
+      return { ok: false, error: "找不到可用題目，請稍後再試。" };
+    }
+    set({
+      phase: "testing",
+      sessionKind: "adaptive",
+      selectedSlugs: slugs,
+      pool,
+      current: first,
+      usedUids: [first.uid],
+      answers: [],
+      theta: 0,
+      consecutiveCorrect: 0,
+      consecutiveWrong: 0,
+      recentThetaDeltas: [],
+      questionStartedAt: Date.now(),
+      report: null,
+      targetCount: CAT_EXTENDED_TARGET,
+      lastAdaptiveSlugs: slugs,
       lastHistoryUids: [],
     });
     return { ok: true };
