@@ -68,7 +68,7 @@ export default function DseHomePage() {
             href="/dse/chinese/cat"
             className="inline-flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-            CAT 自適應診斷
+            範文 AI 診斷室
           </Link>
         </div>
       </section>

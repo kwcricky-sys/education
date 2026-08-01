@@ -7,29 +7,30 @@ import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 const PATH = "/dse/chinese/cat";
 
 export const metadata = createPageMetadata({
-  title: `DSE 中文指定範文自適應診斷測驗（CAT）| ${SITE_NAME}`,
-  description: `${SITE_NAME}｜${SITE_TAGLINE}。電腦化自適應測驗（CAT）：依答題表現動態調整難度，產出 DSE 等級估算、能力雷達與弱點檢討。`,
+  title: `全港首創 DSE 中文範文 3分鐘極速診斷室 | ${SITE_NAME}`,
+  description: `${SITE_NAME}｜${SITE_TAGLINE}。全港首創 DSE 範文 AI 診斷室：免刷 720 題，動態適應演算法 15 題測出預測等級與知識盲區。`,
   path: PATH,
   keywords: [
-    "DSE CAT",
-    "自適應測驗",
+    "全港首創",
+    "DSE 範文 AI 診斷室",
+    "自適應診斷",
     "中文指定範文",
-    "能力診斷",
     "DSE 等級預測",
-    "弱點分析",
+    "弱點專攻",
+    "動態適應演算法",
   ],
 });
 
 const faqs = [
   {
-    question: "什麼是自適應測驗（CAT）？",
+    question: "什麼是「自適應診斷」？和普通刷題有何分別？",
     answer:
-      "系統會依你上一題的對錯與當前能力估算，動態選擇下一題難度（基礎／中等／高階），用較少題數更準確地診斷能力與弱點。",
+      "普通刷題要你做完大量重複題。自適應診斷會「看人出題」：答對推高難度、答錯降至基礎，約 15–20 題就能估算 DSE 等級並找出弱點，全程在瀏覽器本地運行。",
   },
   {
-    question: "一次測驗會出多少題？",
+    question: "一次診斷會出多少題？",
     answer:
-      "預設約 15–20 題。若能力值已趨於穩定，可能在不少於 15 題時提早結束。",
+      "預設約 15–20 題。若演算法判斷能力值已穩定，可能在不少於 15 題時提早結束。",
   },
   {
     question: "預測等級是否等於正式 DSE 成績？",
@@ -47,7 +48,7 @@ export default function CatPage() {
           { name: "首頁", path: "/" },
           { name: "DSE 備考", path: "/dse" },
           { name: "中國語文", path: "/dse/chinese" },
-          { name: "自適應測驗", path: PATH },
+          { name: "範文 AI 診斷室", path: PATH },
         ])}
       />
       <CatApp />

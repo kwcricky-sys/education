@@ -1,7 +1,9 @@
 import type { QuizDifficulty } from "@/lib/dse/types";
+import { findOverthinkingItems } from "@/lib/dse/cat/remediation";
 import type {
   CatAnswerRecord,
   CatReport,
+  CatSessionKind,
   CategoryStat,
   DifficultyStat,
   PredictedGrade,
@@ -113,7 +115,7 @@ export function predictDseGrade(
     label: "預計 DSE 等級 1／2",
     confidence: overallAccuracy < 0.35 ? "高" : "低",
     rationale:
-      "整體正確率偏低，建議先用閃卡模式重溫指定範文基礎字詞與句譯，再進行下一次 CAT。",
+      "整體正確率偏低，建議先用閃卡模式重溫指定範文基礎字詞與句譯，再進入診斷室重測。",
   };
 }
 
@@ -127,8 +129,9 @@ export function buildCatReport(opts: {
   answers: CatAnswerRecord[];
   theta: number;
   scopeLabels: string[];
+  sessionKind?: CatSessionKind;
 }): CatReport {
-  const { answers, theta, scopeLabels } = opts;
+  const { answers, theta, scopeLabels, sessionKind = "adaptive" } = opts;
   const correct = answers.filter((a) => a.isCorrect).length;
   const overallAccuracy = rate(correct, answers.length);
   const difficultyStats = buildDifficultyStats(answers);
@@ -151,5 +154,7 @@ export function buildCatReport(opts: {
     questionCount: answers.length,
     totalTimeMs: answers.reduce((s, a) => s + a.timeSpentMs, 0),
     finishedAt: new Date().toISOString(),
+    overthinking: findOverthinkingItems(answers),
+    sessionKind,
   };
 }

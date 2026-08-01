@@ -46,6 +46,14 @@ export type PredictedGrade = {
   rationale: string;
 };
 
+export type OverthinkingFlag = {
+  uid: string;
+  questionId: string;
+  category: string;
+  timeSpentMs: number;
+  textLabel: string;
+};
+
 export type CatReport = {
   theta: number;
   abilityPercentile: number;
@@ -59,9 +67,14 @@ export type CatReport = {
   questionCount: number;
   totalTimeMs: number;
   finishedAt: string;
+  overthinking: OverthinkingFlag[];
+  sessionKind: CatSessionKind;
 };
 
 export type CatPhase = "setup" | "testing" | "report";
+
+/** adaptive = full CAT; practice = sequential remediation / mistake retest */
+export type CatSessionKind = "adaptive" | "remediation" | "mistake-retest";
 
 export const CAT_MIN_ITEMS = 15;
 export const CAT_MAX_ITEMS = 20;

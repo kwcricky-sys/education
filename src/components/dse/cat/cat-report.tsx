@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+import Link from "next/link";
 import {
   PolarAngleAxis,
   PolarGrid,
@@ -16,7 +18,10 @@ import {
 } from "recharts";
 import {
   AlertTriangle,
+  BookMarked,
   CheckCircle2,
+  Clock3,
+  Crosshair,
   RotateCcw,
   Target,
   XCircle,
@@ -34,12 +39,22 @@ const DIFF_COLORS = {
 export function CatReport() {
   const report = useCatSession((s) => s.report);
   const resetSession = useCatSession((s) => s.resetSession);
+  const startRemediationSession = useCatSession(
+    (s) => s.startRemediationSession,
+  );
+  const [remediationError, setRemediationError] = useState<string | null>(null);
 
   if (!report) {
     return (
       <p className="text-center text-sm text-slate-400">尚無報告資料。</p>
     );
   }
+
+  const onRemediation = () => {
+    const result = startRemediationSession();
+    if (!result.ok) setRemediationError(result.error);
+    else setRemediationError(null);
+  };
 
   const radarData = report.categoryStats.slice(0, 8).map((c) => ({
     category:
@@ -61,7 +76,7 @@ export function CatReport() {
     <div className="space-y-10">
       <section className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-900 via-[#0b1220] to-emerald-950/30 px-6 py-10 sm:px-10">
         <p className="text-xs font-semibold tracking-[0.22em] text-emerald-300 uppercase">
-          Diagnostic Report
+          診斷報告 · AI 診斷室
         </p>
         <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-white sm:text-4xl">
           {report.predictedGrade.label}
@@ -92,7 +107,49 @@ export function CatReport() {
             hint={report.scopeLabels.length > 1 ? `${report.scopeLabels.length} 篇範文` : report.scopeLabels[0] ?? "—"}
           />
         </div>
+
+        {report.overthinking.length > 0 ? (
+          <div className="mt-6 flex items-start gap-3 rounded-2xl border border-amber-400/30 bg-amber-400/10 px-4 py-3.5 text-sm text-amber-100">
+            <Clock3 className="mt-0.5 size-4 shrink-0 text-amber-300" />
+            <p>
+              <span className="font-semibold">⚠️ 進階提示：</span>
+              系統偵測到有 {report.overthinking.length}{" "}
+              條題目雖然答對，但思考時間超過 60
+              秒（屬於「險勝／猜對」），建議複習該範文的深層概念！
+            </p>
+          </div>
+        ) : null}
       </section>
+
+      {report.sessionKind === "adaptive" && report.weaknesses.length > 0 ? (
+        <section className="rounded-[1.75rem] border border-orange-400/25 bg-gradient-to-r from-orange-400/10 via-sky-400/5 to-transparent p-6 sm:p-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <h2 className="flex items-center gap-2 font-[family-name:var(--font-display)] text-xl font-bold text-white">
+                <Crosshair className="size-5 text-orange-300" />
+                弱點專攻特訓
+              </h2>
+              <p className="mt-2 text-sm text-slate-400">
+                針對最低分類別（
+                {report.weaknesses.map((w) => w.category).join("、")}
+                ）從未作答題庫抽出 5–10 題，本地規則即時生成，零 API 成本。
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={onRemediation}
+              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl bg-orange-400 px-5 py-3.5 text-sm font-bold text-slate-950 shadow-[0_12px_36px_rgba(251,146,60,0.28)] transition hover:bg-orange-300"
+            >
+              一鍵生成「弱點專攻」特訓
+            </button>
+          </div>
+          {remediationError ? (
+            <p className="mt-4 rounded-xl border border-rose-400/30 bg-rose-500/10 px-4 py-3 text-sm text-rose-200">
+              {remediationError}
+            </p>
+          ) : null}
+        </section>
+      ) : null}
 
       <section className="grid gap-6 lg:grid-cols-2">
         <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-5 sm:p-6">
@@ -218,6 +275,11 @@ export function CatReport() {
                   <span className="rounded-full bg-white/5 px-2 py-0.5 text-slate-400">
                     {a.category}
                   </span>
+                  {report.overthinking.some((o) => o.uid === a.uid) ? (
+                    <span className="rounded-full bg-amber-400/15 px-2 py-0.5 font-medium text-amber-200 ring-1 ring-amber-400/30">
+                      僥倖答對／思考過久
+                    </span>
+                  ) : null}
                 </div>
                 <p className="mt-3 text-sm leading-relaxed text-slate-200">
                   {a.question}
@@ -272,7 +334,11 @@ export function CatReport() {
                   <td className="px-3 py-2.5 text-slate-300">{a.category}</td>
                   <td className="px-3 py-2.5">
                     {a.isCorrect ? (
-                      <span className="text-emerald-300">正確</span>
+                      report.overthinking.some((o) => o.uid === a.uid) ? (
+                        <span className="text-amber-300">正確（過久）</span>
+                      ) : (
+                        <span className="text-emerald-300">正確</span>
+                      )
                     ) : (
                       <span className="text-rose-300">錯誤</span>
                     )}
@@ -290,14 +356,23 @@ export function CatReport() {
         </div>
       </section>
 
-      <button
-        type="button"
-        onClick={resetSession}
-        className="inline-flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-      >
-        <RotateCcw className="size-4" />
-        再測一次
-      </button>
+      <div className="flex flex-wrap gap-3">
+        <button
+          type="button"
+          onClick={resetSession}
+          className="inline-flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+        >
+          <RotateCcw className="size-4" />
+          再測一次
+        </button>
+        <Link
+          href="/dse/chinese/error-notebook"
+          className="inline-flex items-center gap-2 rounded-2xl border border-sky-400/25 bg-sky-400/10 px-5 py-3 text-sm font-semibold text-sky-200 transition hover:bg-sky-400/20"
+        >
+          <BookMarked className="size-4" />
+          開啟錯題本
+        </Link>
+      </div>
     </div>
   );
 }

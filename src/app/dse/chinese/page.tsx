@@ -48,7 +48,8 @@ export default function DseChinesePage() {
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-400">
           以下 12
           篇指定文言經典均已開放極速閃卡練習（每篇 60
-          題，基礎／中等／高階）。點選任一篇章即可開始刷題；或使用自適應診斷測驗一次評估多篇弱點。
+          題，基礎／中等／高階）。點選任一篇章即可開始刷題；或進入「範文 AI
+          診斷室」用動態適應演算法一次找出弱點。
         </p>
       </div>
 
@@ -61,10 +62,10 @@ export default function DseChinesePage() {
         </span>
         <span className="min-w-0 flex-1">
           <span className="block font-semibold text-white">
-            自適應診斷測驗（CAT）
+            全港首創 · DSE 範文 AI 診斷室
           </span>
           <span className="mt-1 block text-sm text-slate-400">
-            選單篇／多篇／全範文 · 動態調難度 · 雷達圖弱點報告與 DSE 等級估算
+            免刷 720 題 · 約 15 題動態適應出題 · 預測等級 + 弱點雷達報告
           </span>
         </span>
         <ArrowRight className="size-4 shrink-0 text-orange-300" />

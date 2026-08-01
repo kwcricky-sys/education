@@ -1,7 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Activity, Check, Layers } from "lucide-react";
+import Link from "next/link";
+import { BookMarked, Check } from "lucide-react";
+import { CatHero } from "@/components/dse/cat/cat-hero";
+import { HowItWorks } from "@/components/dse/cat/how-it-works";
 import { countPoolByDifficulty, buildCatPool } from "@/lib/dse/cat/pool";
 import { CAT_DEFAULT_TARGET, CAT_MAX_ITEMS, CAT_MIN_ITEMS } from "@/lib/dse/cat/types";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
@@ -30,38 +33,23 @@ export function CatSetup() {
 
   return (
     <div className="space-y-8">
-      <section className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-900/80 via-[#0b1220] to-sky-950/40 px-6 py-10 sm:px-10">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -right-16 -top-16 size-64 rounded-full bg-sky-400/15 blur-3xl"
-        />
-        <p className="text-xs font-semibold tracking-[0.22em] text-sky-300 uppercase">
-          Computerized Adaptive Testing
-        </p>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-white sm:text-4xl">
-          中文指定範文 · 自適應診斷測驗
-        </h1>
-        <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
-          系統會依你的答題表現動態調整難度（基礎／中等／高階），約{" "}
-          {CAT_MIN_ITEMS}–{CAT_MAX_ITEMS}{" "}
-          題後產出 DSE 等級估算、能力雷達與弱點檢討。
-        </p>
-        <ul className="mt-6 flex flex-wrap gap-3 text-xs text-slate-400">
-          <li className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-3 py-1.5 ring-1 ring-white/10">
-            <Activity className="size-3.5 text-sky-300" />
-            簡化 IRT 能力值 θ
-          </li>
-          <li className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-3 py-1.5 ring-1 ring-white/10">
-            <Layers className="size-3.5 text-orange-300" />
-            多範文題庫混合出題
-          </li>
-        </ul>
-      </section>
+      <CatHero />
+      <HowItWorks />
+
+      <div className="flex flex-wrap gap-3">
+        <Link
+          href="/dse/chinese/error-notebook"
+          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-sky-400/30 hover:text-white"
+        >
+          <BookMarked className="size-3.5 text-sky-300" />
+          開啟錯題本
+        </Link>
+      </div>
 
       <section className="space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
-            1. 選擇測試範圍
+            1. 選擇診斷範圍
           </h2>
           <div className="flex gap-2">
             <button
@@ -130,7 +118,7 @@ export function CatSetup() {
 
       <section className="space-y-4">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
-          2. 題數目標
+          2. 診斷題數
         </h2>
         <div className="flex flex-wrap gap-2">
           {[CAT_MIN_ITEMS, CAT_DEFAULT_TARGET, CAT_MAX_ITEMS].map((n) => (
@@ -150,7 +138,7 @@ export function CatSetup() {
           ))}
         </div>
         <p className="text-xs text-slate-500">
-          能力值穩定時可能提早結束（不少於 {CAT_MIN_ITEMS} 題）。
+          演算法判斷能力已穩定時，可能提早結束（不少於 {CAT_MIN_ITEMS} 題）。
         </p>
       </section>
 
@@ -165,7 +153,7 @@ export function CatSetup() {
         onClick={onStart}
         className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-sky-400 px-5 py-3.5 text-sm font-bold text-slate-950 shadow-[0_12px_40px_rgba(56,189,248,0.28)] transition hover:bg-sky-300 sm:w-auto"
       >
-        開始自適應測驗
+        進入診斷室，開始測驗
       </button>
     </div>
   );

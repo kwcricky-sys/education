@@ -10,6 +10,7 @@ export function CatQuiz() {
   const answers = useCatSession((s) => s.answers);
   const targetCount = useCatSession((s) => s.targetCount);
   const theta = useCatSession((s) => s.theta);
+  const sessionKind = useCatSession((s) => s.sessionKind);
   const submitAnswer = useCatSession((s) => s.submitAnswer);
   const [selected, setSelected] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -45,12 +46,23 @@ export function CatQuiz() {
       <div className="space-y-2">
         <div className="flex items-center justify-between text-xs text-slate-500">
           <span>
-            第 {progressIndex} / ~{targetCount} 題
+            {sessionKind === "adaptive"
+              ? `第 ${progressIndex} / ~${targetCount} 題`
+              : `第 ${progressIndex} / ${targetCount} 題`}
+            {sessionKind === "remediation"
+              ? " · 弱點專攻"
+              : sessionKind === "mistake-retest"
+                ? " · 錯題重測"
+                : ""}
           </span>
-          <span>
-            能力值 θ {theta >= 0 ? "+" : ""}
-            {theta.toFixed(2)}
-          </span>
+          {sessionKind === "adaptive" ? (
+            <span>
+              能力值 θ {theta >= 0 ? "+" : ""}
+              {theta.toFixed(2)}
+            </span>
+          ) : (
+            <span>固定題組練習</span>
+          )}
         </div>
         <div className="h-1.5 overflow-hidden rounded-full bg-white/10">
           <div
