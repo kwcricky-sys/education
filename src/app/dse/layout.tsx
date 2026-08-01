@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, BookOpen } from "lucide-react";
+import { Activity, ArrowLeft, BookOpen } from "lucide-react";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -46,6 +46,13 @@ export default function DseLayout({
             >
               <BookOpen className="size-3.5" />
               中文科
+            </Link>
+            <Link
+              href="/dse/chinese/cat"
+              className="hidden items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:inline-flex"
+            >
+              <Activity className="size-3.5" />
+              CAT 診斷
             </Link>
             <Link
               href="/"

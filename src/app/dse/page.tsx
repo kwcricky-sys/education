@@ -56,13 +56,21 @@ export default function DseHomePage() {
           ——專注刷題節奏。中文科 12 篇指定範文閃卡已全部開放；其餘科目 Coming
           Soon。
         </p>
-        <Link
-          href="/dse/chinese"
-          className="relative mt-8 inline-flex items-center gap-2 rounded-2xl bg-sky-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_12px_40px_rgba(56,189,248,0.28)] transition hover:bg-sky-300"
-        >
-          進入中文科
-          <ArrowRight className="size-4" />
-        </Link>
+        <div className="relative mt-8 flex flex-wrap gap-3">
+          <Link
+            href="/dse/chinese"
+            className="inline-flex items-center gap-2 rounded-2xl bg-sky-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_12px_40px_rgba(56,189,248,0.28)] transition hover:bg-sky-300"
+          >
+            進入中文科
+            <ArrowRight className="size-4" />
+          </Link>
+          <Link
+            href="/dse/chinese/cat"
+            className="inline-flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+          >
+            CAT 自適應診斷
+          </Link>
+        </div>
       </section>
 
       <section className="space-y-4">

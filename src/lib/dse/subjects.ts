@@ -15,7 +15,7 @@ export const DSE_SUBJECTS: DseSubject[] = [
     nameEn: "Chinese Language",
     href: "/dse/chinese",
     open: true,
-    desc: "指定文言經典 12 篇 · 每篇 60 題閃卡已上線",
+    desc: "12 篇閃卡 + CAT 自適應診斷測驗已上線",
   },
   {
     id: "english",

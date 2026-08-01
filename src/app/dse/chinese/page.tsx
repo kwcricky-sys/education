@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { Activity, ArrowLeft, ArrowRight } from "lucide-react";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getQuiz } from "@/lib/dse/quizzes";
 import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
@@ -48,9 +48,27 @@ export default function DseChinesePage() {
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-400">
           以下 12
           篇指定文言經典均已開放極速閃卡練習（每篇 60
-          題，基礎／中等／高階）。點選任一篇章即可開始刷題。
+          題，基礎／中等／高階）。點選任一篇章即可開始刷題；或使用自適應診斷測驗一次評估多篇弱點。
         </p>
       </div>
+
+      <Link
+        href="/dse/chinese/cat"
+        className="panel-lift flex items-center gap-4 rounded-[1.5rem] border border-orange-400/25 bg-gradient-to-r from-orange-400/10 to-sky-400/10 px-5 py-5 transition hover:border-orange-400/40"
+      >
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-orange-400/15 text-orange-300 ring-1 ring-orange-400/25">
+          <Activity className="size-5" />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-semibold text-white">
+            自適應診斷測驗（CAT）
+          </span>
+          <span className="mt-1 block text-sm text-slate-400">
+            選單篇／多篇／全範文 · 動態調難度 · 雷達圖弱點報告與 DSE 等級估算
+          </span>
+        </span>
+        <ArrowRight className="size-4 shrink-0 text-orange-300" />
+      </Link>
 
       <ol className="space-y-2">
         {CHINESE_PRESCRIBED_TEXTS.map((text, i) => {
