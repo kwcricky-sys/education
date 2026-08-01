@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Noto_Sans_TC, Noto_Serif_TC } from "next/font/google";
+import { Noto_Sans_TC, Sora } from "next/font/google";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildWebSiteJsonLd } from "@/lib/seo";
 import { SITE_NAME, SITE_NAME_EN, SITE_TAGLINE, SITE_URL } from "@/lib/site";
@@ -12,20 +12,20 @@ const bodyFont = Noto_Sans_TC({
   display: "swap",
 });
 
-const displayFont = Noto_Serif_TC({
+const displayFont = Sora({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["500", "600", "700", "800"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} ${SITE_NAME_EN}｜K3 選小學與 DSE 備考`,
+    default: `${SITE_NAME}｜${SITE_TAGLINE}`,
     template: `%s | ${SITE_NAME}`,
   },
-  description: SITE_TAGLINE,
+  description: `${SITE_NAME}（${SITE_NAME_EN}）— ${SITE_TAGLINE}。DSE 備考閃卡與 K3 選小學資訊。`,
   applicationName: SITE_NAME,
   authors: [{ name: SITE_NAME }],
   openGraph: {
@@ -33,6 +33,8 @@ export const metadata: Metadata = {
     locale: "zh_HK",
     siteName: SITE_NAME,
     url: SITE_URL,
+    title: `${SITE_NAME}｜${SITE_TAGLINE}`,
+    description: `${SITE_TAGLINE}。免費 DSE 中文指定範文練習與升學資源。`,
   },
   twitter: {
     card: "summary_large_image",

@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, GraduationCap } from "lucide-react";
-import { SITE_NAME } from "@/lib/site";
+import { ArrowLeft, BookOpen } from "lucide-react";
+import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
     absolute: `DSE 學習與備考專區 | ${SITE_NAME}`,
   },
-  description:
-    "學途 DSE Study Hub：沉浸式學術介面，中文科指定範文《論語》閃卡刷題與備考資源。",
+  description: `${SITE_NAME}｜${SITE_TAGLINE}。DSE 中文科 12 篇指定文言經典閃卡刷題與備考資源。`,
 };
 
 export default function DseLayout({
@@ -17,22 +16,22 @@ export default function DseLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="dse-root dark min-h-screen bg-zinc-950 text-zinc-100 antialiased">
-      <header className="sticky top-0 z-50 border-b border-zinc-800/80 bg-zinc-950/85 backdrop-blur-xl">
-        <div className="mx-auto flex h-14 max-w-5xl items-center justify-between gap-3 px-4 sm:h-16 sm:px-6">
+    <div className="dse-root dark min-h-screen text-slate-100 antialiased">
+      <header className="sticky top-0 z-50 border-b border-white/5 bg-[#070a12]/80 backdrop-blur-xl">
+        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
           <Link
             href="/dse"
-            className="group flex items-center gap-2.5 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-teal-400/60"
+            className="group flex items-center gap-3 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-sky-400/60"
           >
-            <span className="flex size-8 items-center justify-center rounded-lg bg-teal-500/15 text-teal-300 ring-1 ring-teal-400/25">
-              <GraduationCap className="size-4" />
+            <span className="flex size-9 items-center justify-center rounded-xl bg-sky-400 font-[family-name:var(--font-display)] text-sm font-bold text-slate-950 shadow-[0_0_24px_rgba(56,189,248,0.35)]">
+              途
             </span>
             <span className="flex flex-col leading-tight">
-              <span className="text-[11px] font-medium tracking-wider text-zinc-500 uppercase">
-                {SITE_NAME}
+              <span className="font-[family-name:var(--font-display)] text-sm font-bold tracking-tight text-white sm:text-[15px]">
+                {SITE_NAME} · DSE
               </span>
-              <span className="text-sm font-semibold tracking-tight text-zinc-100 sm:text-[15px]">
-                DSE Study Hub
+              <span className="hidden text-[11px] text-slate-500 sm:block">
+                {SITE_TAGLINE}
               </span>
             </span>
           </Link>
@@ -43,14 +42,14 @@ export default function DseLayout({
           >
             <Link
               href="/dse/chinese"
-              className="hidden items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm text-zinc-400 transition hover:bg-zinc-800/80 hover:text-zinc-100 sm:inline-flex"
+              className="hidden items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white sm:inline-flex"
             >
               <BookOpen className="size-3.5" />
               中文科
             </Link>
             <Link
               href="/"
-              className="inline-flex items-center gap-1.5 rounded-full border border-zinc-700/80 bg-zinc-900/80 px-3 py-1.5 text-xs font-medium text-zinc-200 shadow-sm transition hover:border-teal-400/40 hover:bg-zinc-800 hover:text-white sm:text-sm"
+              className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-medium text-slate-200 transition hover:border-sky-400/40 hover:bg-sky-400/10 hover:text-white sm:text-sm"
             >
               <ArrowLeft className="size-3.5 opacity-70" />
               返回首頁
@@ -59,16 +58,16 @@ export default function DseLayout({
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+      <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
         {children}
       </main>
 
-      <footer className="border-t border-zinc-800/80 py-8">
-        <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+      <footer className="border-t border-white/5 py-8">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <p>
-            © {new Date().getFullYear()} {SITE_NAME} · DSE 學習專區
+            © {new Date().getFullYear()} {SITE_NAME} · {SITE_TAGLINE}
           </p>
-          <p className="text-xs text-zinc-600">
+          <p className="text-xs text-slate-600">
             學術練習用途 · 非考評局官方教材
           </p>
         </div>

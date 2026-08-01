@@ -1,17 +1,26 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Lock } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { JsonLd } from "@/components/seo/json-ld";
-import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/analects";
+import { getQuiz } from "@/lib/dse/quizzes";
+import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
 import { createPageMetadata } from "@/lib/page-metadata";
 import { buildBreadcrumbJsonLd } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 
 export const metadata = createPageMetadata({
-  title: `DSE 中文科指定範文 · 12 篇總覽 | ${SITE_NAME}`,
+  title: `DSE 中文科指定範文 · 12 篇閃卡總覽 | ${SITE_NAME}`,
   description:
-    "DSE 中國語文指定文言經典 12 篇列表。現已開放《論語》論仁、論孝、論君子 60 題極速閃卡刷題。",
+    "DSE 中國語文 12 篇指定文言經典極速閃卡：論語、魚我所欲也、逍遙遊、勸學、廉頗藺相如列傳、出師表、師說、西山宴遊記、岳陽樓記、六國論、唐詩三首、詞三首。",
   path: "/dse/chinese",
-  keywords: ["DSE 中文", "指定範文", "論語", "文言", "卷一"],
+  keywords: [
+    "DSE 中文",
+    "指定範文",
+    "文言",
+    "卷一",
+    "論語",
+    "唐詩三首",
+    "詞三首",
+  ],
 });
 
 export default function DseChinesePage() {
@@ -28,73 +37,52 @@ export default function DseChinesePage() {
       <div>
         <Link
           href="/dse"
-          className="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition hover:text-teal-300"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-sky-300"
         >
           <ArrowLeft className="size-3.5" />
           科目總覽
         </Link>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-zinc-50">
+        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-white sm:text-4xl">
           中國語文 · 指定範文
         </h1>
-        <p className="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
-          以下為 12
-          篇指定文言經典學習材料列表。目前開放第一篇《論語》（論仁、論孝、論君子）極速閃卡練習，其餘篇章標示
-          Coming Soon，之後可按 slug 獨立上線。
+        <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-400">
+          以下 12
+          篇指定文言經典均已開放極速閃卡練習（每篇 60
+          題，基礎／中等／高階）。點選任一篇章即可開始刷題。
         </p>
       </div>
 
       <ol className="space-y-2">
         {CHINESE_PRESCRIBED_TEXTS.map((text, i) => {
-          const body = (
-            <>
-              <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-zinc-800 text-sm font-semibold tabular-nums text-zinc-300">
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <span className="min-w-0 flex-1">
-                <span className="flex flex-wrap items-center gap-2">
-                  <span className="font-semibold text-zinc-100">
-                    {text.title}
-                  </span>
-                  <span className="text-xs text-zinc-500">{text.source}</span>
-                  {text.open ? (
-                    <span className="rounded-md bg-emerald-500/15 px-2 py-0.5 text-[10px] font-medium text-emerald-300 ring-1 ring-emerald-400/25">
-                      可練習
-                    </span>
-                  ) : (
-                    <span className="inline-flex items-center gap-1 rounded-md bg-zinc-800 px-2 py-0.5 text-[10px] font-medium text-zinc-500">
-                      <Lock className="size-2.5" />
-                      Coming Soon
-                    </span>
-                  )}
-                </span>
-                <span className="mt-1 block text-sm text-zinc-500">
-                  {text.blurb}
-                </span>
-              </span>
-              {text.open ? (
-                <ArrowRight className="size-4 shrink-0 text-teal-300" />
-              ) : null}
-            </>
-          );
-
-          if (text.open && text.href) {
-            return (
-              <li key={text.slug}>
-                <Link
-                  href={text.href}
-                  className="flex items-center gap-4 rounded-2xl border border-teal-500/25 bg-teal-500/5 px-4 py-4 transition hover:border-teal-400/45 hover:bg-teal-500/10 sm:px-5"
-                >
-                  {body}
-                </Link>
-              </li>
-            );
-          }
+          const quiz = getQuiz(text.slug);
+          const total = quiz?.meta?.total ?? quiz?.questions.length ?? 60;
+          const href = textHref(text.slug);
 
           return (
             <li key={text.slug}>
-              <div className="flex items-center gap-4 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-4 opacity-80 sm:px-5">
-                {body}
-              </div>
+              <Link
+                href={href}
+                className="panel-lift flex items-center gap-4 rounded-2xl border border-sky-400/20 bg-sky-400/5 px-4 py-4 transition hover:border-sky-400/40 hover:bg-sky-400/10 sm:px-5"
+              >
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-sm font-semibold tabular-nums text-slate-300 ring-1 ring-white/10">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="flex flex-wrap items-center gap-2">
+                    <span className="font-semibold text-white">
+                      {text.title}
+                    </span>
+                    <span className="text-xs text-slate-500">{text.source}</span>
+                    <span className="rounded-full bg-emerald-400/15 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 ring-1 ring-emerald-400/25">
+                      {total} 題
+                    </span>
+                  </span>
+                  <span className="mt-1 block text-sm text-slate-500">
+                    {text.blurb}
+                  </span>
+                </span>
+                <ArrowRight className="size-4 shrink-0 text-sky-300" />
+              </Link>
             </li>
           );
         })}

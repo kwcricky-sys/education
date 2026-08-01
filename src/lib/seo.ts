@@ -1,4 +1,4 @@
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 export type FaqItem = {
   question: string;
@@ -43,8 +43,7 @@ export function buildWebSiteJsonLd() {
     alternateName: "StudyPath",
     url: SITE_URL,
     inLanguage: "zh-HK",
-    description:
-      "香港升學資訊平台：DSE 備考練習與 K3 選小學指南，免費線上學習資源。",
+    description: `${SITE_NAME}｜${SITE_TAGLINE}。DSE 備考練習與 K3 選小學指南，免費線上學習資源。`,
   };
 }
 

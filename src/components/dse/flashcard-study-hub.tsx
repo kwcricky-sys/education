@@ -11,19 +11,19 @@ import {
 } from "lucide-react";
 import {
   DIFFICULTY_LABEL,
-  filterAnalectsQuestions,
-  type AnalectsDifficulty,
-  type AnalectsQuestion,
-} from "@/lib/dse/analects";
+  filterQuizQuestions,
+  type QuizDifficulty,
+  type QuizQuestion,
+} from "@/lib/dse/types";
 import { cn } from "@/lib/utils";
 
 type Mode = "flash" | "list";
-type Filter = AnalectsDifficulty | "all";
+type Filter = QuizDifficulty | "all";
 
-export function AnalectsStudyHub({
+export function FlashcardStudyHub({
   questions,
 }: {
-  questions: AnalectsQuestion[];
+  questions: QuizQuestion[];
 }) {
   const [filter, setFilter] = useState<Filter>("all");
   const [mode, setMode] = useState<Mode>("flash");
@@ -33,7 +33,7 @@ export function AnalectsStudyHub({
   const [known, setKnown] = useState<Set<string>>(() => new Set());
 
   const filtered = useMemo(
-    () => filterAnalectsQuestions(questions, filter),
+    () => filterQuizQuestions(questions, filter),
     [questions, filter],
   );
 
@@ -133,8 +133,8 @@ export function AnalectsStudyHub({
               className={cn(
                 "rounded-lg px-3 py-1.5 text-sm font-medium transition",
                 filter === f
-                  ? "bg-[var(--accent)] text-[#041512]"
-                  : "bg-zinc-900 text-zinc-400 ring-1 ring-zinc-800 hover:text-zinc-200",
+                  ? "bg-sky-400 text-slate-950"
+                  : "bg-white/5 text-slate-400 ring-1 ring-white/10 hover:text-white",
               )}
             >
               {DIFFICULTY_LABEL[f].zh}
@@ -146,7 +146,7 @@ export function AnalectsStudyHub({
           <button
             type="button"
             onClick={() => setMode(mode === "flash" ? "list" : "flash")}
-            className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-900 px-3 py-1.5 text-sm text-zinc-300 ring-1 ring-zinc-800 transition hover:text-white"
+            className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-3 py-1.5 text-sm text-slate-300 ring-1 ring-white/10 transition hover:text-white"
           >
             <List className="size-3.5" />
             {mode === "flash" ? "題目總覽" : "閃卡模式"}
@@ -154,7 +154,7 @@ export function AnalectsStudyHub({
           <button
             type="button"
             onClick={resetSession}
-            className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-900 px-3 py-1.5 text-sm text-zinc-300 ring-1 ring-zinc-800 transition hover:text-white"
+            className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-3 py-1.5 text-sm text-slate-300 ring-1 ring-white/10 transition hover:text-white"
             title="重置本節進度"
           >
             <RotateCcw className="size-3.5" />
@@ -190,48 +190,46 @@ export function AnalectsStudyHub({
             aria-label={flipped ? "顯示題目" : "顯示答案"}
           >
             <div className="relative h-[min(420px,58vh)] w-full">
-              <div
-                className={cn("dse-flip-inner", flipped && "is-flipped")}
-              >
-                <div className="dse-card-face flex flex-col rounded-2xl border border-zinc-700/80 bg-zinc-900 p-6 shadow-xl sm:p-8">
+              <div className={cn("dse-flip-inner", flipped && "is-flipped")}>
+                <div className="dse-card-face flex flex-col rounded-3xl border border-white/10 bg-gradient-to-b from-slate-900 to-[#0b1220] p-6 shadow-[0_20px_60px_rgba(0,0,0,0.45)] sm:p-8">
                   <div className="flex flex-wrap items-center gap-2 text-xs">
-                    <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-zinc-400">
+                    <span className="rounded-full bg-white/5 px-2.5 py-0.5 text-slate-400 ring-1 ring-white/10">
                       {current.id}
                     </span>
                     <span
                       className={cn(
-                        "rounded-md bg-zinc-800 px-2 py-0.5 font-medium",
+                        "rounded-full bg-white/5 px-2.5 py-0.5 font-medium ring-1 ring-white/10",
                         DIFFICULTY_LABEL[current.difficulty].className,
                       )}
                     >
                       {DIFFICULTY_LABEL[current.difficulty].zh}
                     </span>
-                    <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-zinc-400">
+                    <span className="rounded-full bg-white/5 px-2.5 py-0.5 text-slate-400 ring-1 ring-white/10">
                       {current.category}
                     </span>
                   </div>
-                  <p className="mt-6 flex-1 text-base leading-relaxed text-zinc-100 sm:text-lg">
+                  <p className="mt-6 flex-1 text-base leading-relaxed text-slate-50 sm:text-lg">
                     {current.question}
                   </p>
-                  <ul className="mt-4 space-y-1.5 text-sm text-zinc-400">
+                  <ul className="mt-4 space-y-1.5 text-sm text-slate-400">
                     {current.options.map((opt) => (
                       <li key={opt}>{opt}</li>
                     ))}
                   </ul>
-                  <p className="mt-auto pt-6 text-center text-xs text-zinc-600">
+                  <p className="mt-auto pt-6 text-center text-xs text-slate-600">
                     點擊或按 Space 翻牌
                   </p>
                 </div>
 
-                <div className="dse-card-face dse-card-back flex flex-col rounded-2xl border border-[color-mix(in_srgb,var(--accent)_35%,#3f3f46)] bg-zinc-900 p-6 shadow-xl sm:p-8">
-                  <p className="text-xs font-medium tracking-wide text-[var(--accent)] uppercase">
+                <div className="dse-card-face dse-card-back flex flex-col rounded-3xl border border-sky-400/30 bg-gradient-to-b from-slate-900 to-[#0b1220] p-6 shadow-[0_20px_60px_rgba(14,165,233,0.15)] sm:p-8">
+                  <p className="text-xs font-semibold tracking-wide text-sky-300 uppercase">
                     答案
                   </p>
-                  <p className="mt-3 text-lg font-semibold text-zinc-50 sm:text-xl">
+                  <p className="mt-3 text-lg font-semibold text-white sm:text-xl">
                     {current.answer}
                   </p>
                   <div className="mt-5 flex-1 overflow-y-auto">
-                    <p className="text-sm leading-relaxed text-zinc-400">
+                    <p className="text-sm leading-relaxed text-slate-400">
                       {current.explanation}
                     </p>
                   </div>

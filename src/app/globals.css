@@ -1,15 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --ink-bg: #f3efe6;
-  --ink-surface: #ebe4d6;
-  --ink-border: #d4cbb8;
-  --ink-text: #1a2332;
-  --ink-muted: #5a6578;
-  --ink-faint: #8a93a3;
-  --accent: #0f766e;
-  --accent-soft: rgba(15, 118, 110, 0.12);
-  --hero-glow: rgba(15, 118, 110, 0.18);
+  --ink-bg: #f4f6fa;
+  --ink-surface: #ffffff;
+  --ink-border: #e2e8f0;
+  --ink-text: #0b1220;
+  --ink-muted: #5b6578;
+  --ink-faint: #94a3b8;
+  --accent: #0ea5e9;
+  --accent-strong: #0284c7;
+  --accent-soft: rgba(14, 165, 233, 0.12);
+  --accent-2: #f97316;
+  --hero-glow: rgba(14, 165, 233, 0.22);
 
   --background: var(--ink-bg);
   --foreground: var(--ink-text);
@@ -28,37 +30,67 @@ body {
   font-family: var(--font-body), "Noto Sans TC", system-ui, sans-serif;
 }
 
-/* Soft paper grain + wash — marketing surfaces */
-.home-shell {
-  background:
-    radial-gradient(ellipse 80% 50% at 10% -10%, var(--hero-glow), transparent 55%),
-    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(180, 140, 80, 0.12), transparent 50%),
-    linear-gradient(180deg, #f7f3eb 0%, var(--ink-bg) 40%, #ebe6dc 100%);
+::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--ink-text);
 }
 
-/* DSE Study Hub — academic dark immersion */
+/* Cool studio wash + soft grid */
+.home-shell {
+  background:
+    radial-gradient(ellipse 70% 45% at 15% -5%, var(--hero-glow), transparent 55%),
+    radial-gradient(ellipse 50% 35% at 90% 10%, rgba(249, 115, 22, 0.12), transparent 50%),
+    linear-gradient(180deg, #eef3fb 0%, var(--ink-bg) 38%, #eef2f7 100%);
+}
+
+.home-shell::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.35;
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(180deg, #000 0%, transparent 70%);
+}
+
+.home-shell > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* DSE Study Hub — modern dark studio */
 .dse-root {
-  --dse-bg: #09090b;
-  --dse-surface: #18181b;
-  --dse-border: #3f3f46;
-  --accent: #2dd4bf;
-  --accent-soft: rgba(45, 212, 191, 0.14);
-  --ink-bg: #09090b;
-  --ink-surface: #18181b;
-  --ink-border: #27272a;
-  --ink-text: #f4f4f5;
-  --ink-muted: #a1a1aa;
-  --ink-faint: #71717a;
+  --dse-bg: #070a12;
+  --dse-surface: #111827;
+  --dse-border: #1f2937;
+  --accent: #38bdf8;
+  --accent-strong: #0ea5e9;
+  --accent-soft: rgba(56, 189, 248, 0.14);
+  --accent-2: #fb923c;
+  --ink-bg: #070a12;
+  --ink-surface: #111827;
+  --ink-border: #1f2937;
+  --ink-text: #f8fafc;
+  --ink-muted: #94a3b8;
+  --ink-faint: #64748b;
   font-feature-settings: "kern" 1, "liga" 1;
+  background:
+    radial-gradient(ellipse 60% 40% at 80% -10%, rgba(14, 165, 233, 0.16), transparent 50%),
+    radial-gradient(ellipse 40% 30% at 10% 20%, rgba(249, 115, 22, 0.08), transparent 45%),
+    #070a12;
 }
 
 .dse-root ::selection {
-  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  background: color-mix(in srgb, var(--accent) 40%, transparent);
   color: #fff;
 }
 
 .dse-progress {
-  background: linear-gradient(90deg, #0d9488 0%, #2dd4bf 55%, #5eead4 100%);
+  background: linear-gradient(90deg, #0284c7 0%, #38bdf8 50%, #fb923c 100%);
 }
 
 .dse-flip-inner {
@@ -87,7 +119,7 @@ body {
 @keyframes fade-up {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(16px);
   }
   to {
     opacity: 1;
@@ -95,14 +127,58 @@ body {
   }
 }
 
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes shimmer-bar {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 .anim-fade-up {
-  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: fade-up 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .anim-fade-up-delay {
-  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.12s both;
+  animation: fade-up 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
 }
 
 .anim-fade-up-delay-2 {
-  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.24s both;
+  animation: fade-up 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+}
+
+.anim-float {
+  animation: float-soft 5s ease-in-out infinite;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 55%, #0369a1 100%);
+  color: #fff;
+  box-shadow: 0 10px 28px rgba(14, 165, 233, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(14, 165, 233, 0.34);
+}
+
+.panel-lift {
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.panel-lift:hover {
+  transform: translateY(-3px);
 }

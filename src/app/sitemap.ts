@@ -1,24 +1,38 @@
 import type { MetadataRoute } from "next";
+import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
 import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const routes: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[0]["changeFrequency"] }[] = [
-    { path: "/", priority: 1, changeFrequency: "weekly" },
-    { path: "/dse", priority: 0.9, changeFrequency: "weekly" },
-    { path: "/dse/chinese", priority: 0.85, changeFrequency: "weekly" },
+
+  const core: MetadataRoute.Sitemap = [
+    { url: SITE_URL, lastModified: now, changeFrequency: "weekly", priority: 1 },
     {
-      path: "/dse/chinese/analects",
-      priority: 0.95,
-      changeFrequency: "monthly",
+      url: `${SITE_URL}/dse`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
-    { path: "/k3", priority: 0.5, changeFrequency: "monthly" },
+    {
+      url: `${SITE_URL}/dse/chinese`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/k3`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
   ];
 
-  return routes.map((r) => ({
-    url: r.path === "/" ? SITE_URL : `${SITE_URL}${r.path}`,
+  const texts = CHINESE_PRESCRIBED_TEXTS.map((t) => ({
+    url: `${SITE_URL}${textHref(t.slug)}`,
     lastModified: now,
-    changeFrequency: r.changeFrequency,
-    priority: r.priority,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
   }));
+
+  return [...core, ...texts];
 }

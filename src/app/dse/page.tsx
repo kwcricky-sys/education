@@ -10,14 +10,13 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { DSE_SUBJECTS } from "@/lib/dse/subjects";
 import { createPageMetadata } from "@/lib/page-metadata";
 import { buildBreadcrumbJsonLd } from "@/lib/seo";
-import { SITE_NAME } from "@/lib/site";
+import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata = createPageMetadata({
-  title: `DSE 學習與備考專區（DSE Study Hub）| ${SITE_NAME}`,
-  description:
-    "沉浸式學術介面的 DSE 備考專區。先開放中文科指定範文《論語》60 題極速閃卡，其餘科目陸續推出。",
+  title: `DSE 學習與備考專區 | ${SITE_NAME}`,
+  description: `${SITE_NAME}｜${SITE_TAGLINE}。中文科 12 篇指定文言經典閃卡已上線，其餘科目陸續推出。`,
   path: "/dse",
-  keywords: ["DSE", "DSE 備考", "中文科", "論語", "閃卡", "Study Hub"],
+  keywords: ["DSE", "DSE 備考", "中文科", "指定範文", "閃卡", "學途"],
 });
 
 const ICONS = {
@@ -37,24 +36,29 @@ export default function DseHomePage() {
         ])}
       />
 
-      <section className="relative overflow-hidden rounded-3xl border border-zinc-800 bg-gradient-to-br from-zinc-900 via-zinc-950 to-teal-950/40 px-6 py-10 sm:px-10 sm:py-14">
+      <section className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-slate-900/80 via-[#0b1220] to-sky-950/50 px-6 py-12 sm:px-12 sm:py-16">
         <div
           aria-hidden
-          className="pointer-events-none absolute -right-16 -top-16 size-64 rounded-full bg-teal-500/10 blur-3xl"
+          className="pointer-events-none absolute -right-20 -top-20 size-72 rounded-full bg-sky-400/15 blur-3xl"
         />
-        <p className="text-xs font-semibold tracking-[0.2em] text-teal-300/80 uppercase">
-          Academic Immersion
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -bottom-16 left-10 size-56 rounded-full bg-orange-400/10 blur-3xl"
+        />
+        <p className="relative text-xs font-semibold tracking-[0.22em] text-sky-300/90 uppercase">
+          Study Studio
         </p>
-        <h1 className="mt-3 max-w-2xl font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight text-zinc-50 sm:text-4xl">
+        <h1 className="relative mt-3 max-w-2xl font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-white sm:text-5xl">
           DSE 學習與備考專區
         </h1>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-          專注閱讀與刷題節奏的沉浸式介面。現階段先開放中文科指定範文練習，其餘科目標示
-          Coming Soon，方便日後按科目擴充。
+        <p className="relative mt-4 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg">
+          {SITE_TAGLINE}
+          ——專注刷題節奏。中文科 12 篇指定範文閃卡已全部開放；其餘科目 Coming
+          Soon。
         </p>
         <Link
           href="/dse/chinese"
-          className="mt-7 inline-flex items-center gap-2 rounded-xl bg-teal-500 px-5 py-2.5 text-sm font-semibold text-zinc-950 shadow-lg shadow-teal-500/20 transition hover:bg-teal-400"
+          className="relative mt-8 inline-flex items-center gap-2 rounded-2xl bg-sky-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-[0_12px_40px_rgba(56,189,248,0.28)] transition hover:bg-sky-300"
         >
           進入中文科
           <ArrowRight className="size-4" />
@@ -62,37 +66,39 @@ export default function DseHomePage() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-lg font-semibold text-zinc-100">科目總覽</h2>
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
+          科目總覽
+        </h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {DSE_SUBJECTS.map((s) => {
             const Icon = ICONS[s.id as keyof typeof ICONS] ?? BookMarked;
             const inner = (
               <>
-                <span className="flex size-10 items-center justify-center rounded-xl bg-teal-500/10 text-teal-300 ring-1 ring-teal-400/20">
+                <span className="flex size-11 items-center justify-center rounded-2xl bg-sky-400/10 text-sky-300 ring-1 ring-sky-400/20">
                   <Icon className="size-5" />
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex items-center gap-2">
-                    <span className="font-semibold text-zinc-100">{s.name}</span>
+                    <span className="font-semibold text-white">{s.name}</span>
                     {!s.open ? (
-                      <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-[10px] font-medium tracking-wide text-zinc-400 uppercase">
-                        Coming Soon
+                      <span className="rounded-full bg-white/5 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-slate-500 uppercase">
+                        Soon
                       </span>
                     ) : (
-                      <span className="rounded-md bg-emerald-500/15 px-2 py-0.5 text-[10px] font-medium text-emerald-300 ring-1 ring-emerald-400/25">
+                      <span className="rounded-full bg-emerald-400/15 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 ring-1 ring-emerald-400/25">
                         Open
                       </span>
                     )}
                   </span>
-                  <span className="mt-0.5 block text-xs text-zinc-500">
+                  <span className="mt-0.5 block text-xs text-slate-500">
                     {s.nameEn}
                   </span>
-                  <span className="mt-2 block text-sm text-zinc-400">
+                  <span className="mt-2 block text-sm text-slate-400">
                     {s.desc}
                   </span>
                 </span>
                 {s.open ? (
-                  <ArrowRight className="size-4 shrink-0 text-zinc-500" />
+                  <ArrowRight className="size-4 shrink-0 text-slate-500" />
                 ) : null}
               </>
             );
@@ -102,7 +108,7 @@ export default function DseHomePage() {
                 <Link
                   key={s.id}
                   href={s.href}
-                  className="flex items-start gap-4 rounded-2xl border border-zinc-800 bg-zinc-900/50 p-5 transition hover:border-teal-400/35 hover:bg-zinc-900"
+                  className="panel-lift flex items-start gap-4 rounded-2xl border border-white/8 bg-white/[0.03] p-5 transition hover:border-sky-400/35 hover:bg-white/[0.06]"
                 >
                   {inner}
                 </Link>
@@ -112,7 +118,7 @@ export default function DseHomePage() {
             return (
               <div
                 key={s.id}
-                className="flex items-start gap-4 rounded-2xl border border-zinc-800/70 bg-zinc-900/30 p-5 opacity-75"
+                className="flex items-start gap-4 rounded-2xl border border-white/5 bg-white/[0.02] p-5 opacity-70"
               >
                 {inner}
               </div>
