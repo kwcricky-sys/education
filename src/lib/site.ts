@@ -5,3 +5,6 @@ export const SITE_NAME_EN = "StudyPath";
 /** Brand descriptor — shown under the name across the site. */
 export const SITE_TAGLINE = "香港一站式學習研究工作室";
 export const CONTACT_EMAIL = "hello@studypath.hk";
+
+export const ADSENSE_CLIENT_ID = "ca-pub-1843237936524816";
+export const ADSENSE_PUB_ID = "pub-1843237936524816";

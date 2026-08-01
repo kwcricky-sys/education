@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Noto_Sans_TC, Sora } from "next/font/google";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildWebSiteJsonLd } from "@/lib/seo";
-import { SITE_NAME, SITE_NAME_EN, SITE_TAGLINE, SITE_URL } from "@/lib/site";
+import {
+  ADSENSE_CLIENT_ID,
+  SITE_NAME,
+  SITE_NAME_EN,
+  SITE_TAGLINE,
+  SITE_URL,
+} from "@/lib/site";
 import "./globals.css";
 
 const bodyFont = Noto_Sans_TC({
@@ -28,6 +35,9 @@ export const metadata: Metadata = {
   description: `${SITE_NAME}（${SITE_NAME_EN}）— ${SITE_TAGLINE}。DSE 備考閃卡與 K3 選小學資訊。`,
   applicationName: SITE_NAME,
   authors: [{ name: SITE_NAME }],
+  other: {
+    "google-adsense-account": ADSENSE_CLIENT_ID,
+  },
   openGraph: {
     type: "website",
     locale: "zh_HK",
@@ -51,6 +61,15 @@ export default function RootLayout({
       lang="zh-HK"
       className={`${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
     >
+      <head>
+        <meta name="google-adsense-account" content={ADSENSE_CLIENT_ID} />
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="flex min-h-full flex-col">
         <JsonLd data={buildWebSiteJsonLd()} />
         {children}
