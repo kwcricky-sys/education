@@ -93,6 +93,30 @@ body {
   background: linear-gradient(90deg, #0284c7 0%, #38bdf8 50%, #fb923c 100%);
 }
 
+/* CAT Diagnostic Room — premium clean light shell */
+.dse-cat-light {
+  --cat-bg: #f8fafc;
+  --cat-card: #ffffff;
+  --cat-border: #e2e8f0;
+  --cat-ink: #0f172a;
+  --cat-muted: #64748b;
+  --cat-accent: #4f46e5;
+  color: var(--cat-ink);
+  background:
+    radial-gradient(ellipse 50% 35% at 90% 0%, rgba(99, 102, 241, 0.08), transparent 50%),
+    radial-gradient(ellipse 40% 30% at 0% 20%, rgba(16, 185, 129, 0.06), transparent 45%),
+    #f8fafc;
+}
+
+.dse-cat-light ::selection {
+  background: rgba(99, 102, 241, 0.22);
+  color: #0f172a;
+}
+
+.dse-cat-progress {
+  background: linear-gradient(90deg, #6366f1 0%, #14b8a6 100%);
+}
+
 .dse-flip-inner {
   position: relative;
   width: 100%;

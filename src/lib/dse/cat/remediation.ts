@@ -11,6 +11,36 @@ export const OVERTHINKING_MS = 60_000;
  * Rule-based weakness remediation quiz generator (no AI).
  * Picks unanswered items whose category matches weakCategories.
  */
+/** Pull unanswered items from a single weak article for focused drills. */
+export function generateArticleFocusQuiz(opts: {
+  textSlug: string;
+  historyUids: string[];
+  count?: number;
+}): { items: CatPoolItem[]; error?: string } {
+  const { textSlug, historyUids, count = REMEDIATION_DEFAULT } = opts;
+  const history = new Set(historyUids);
+  const pool = buildCatPool([textSlug]).filter((q) => !history.has(q.uid));
+
+  if (pool.length === 0) {
+    return {
+      items: [],
+      error: "該範文已無未作答題目。可改用錯題本重測，或擴大範圍再診斷。",
+    };
+  }
+
+  const ranked = [...pool].sort((a, b) => {
+    const rank = { hard: 0, medium: 1, easy: 2 } as const;
+    return rank[a.difficulty] - rank[b.difficulty];
+  });
+
+  const target = Math.max(
+    REMEDIATION_MIN,
+    Math.min(REMEDIATION_MAX, count, ranked.length),
+  );
+
+  return { items: ranked.slice(0, target) };
+}
+
 export function generateRemediationQuiz(opts: {
   sourceSlugs: string[];
   weakCategories: string[];

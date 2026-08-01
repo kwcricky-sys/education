@@ -1,4 +1,5 @@
 import type { QuizDifficulty, QuizQuestion } from "@/lib/dse/types";
+import type { CoreSkillId } from "@/lib/dse/cat/skills";
 
 export type CatPoolItem = QuizQuestion & {
   /** Unique across all texts: `${slug}:${id}` */
@@ -23,6 +24,9 @@ export type CatAnswerRecord = {
   timeSpentMs: number;
   thetaBefore: number;
   thetaAfter: number;
+  /** Anti-guessing: super-fast Hard correct or student marked unsure */
+  isGuess?: boolean;
+  markedUnsure?: boolean;
 };
 
 export type CategoryStat = {
@@ -34,6 +38,23 @@ export type CategoryStat = {
 
 export type DifficultyStat = {
   difficulty: QuizDifficulty;
+  correct: number;
+  total: number;
+  rate: number;
+};
+
+export type ArticleMasteryStat = {
+  textSlug: string;
+  textLabel: string;
+  correct: number;
+  total: number;
+  rate: number;
+};
+
+export type CoreSkillStat = {
+  skillId: CoreSkillId;
+  label: string;
+  blurb: string;
   correct: number;
   total: number;
   rate: number;
@@ -54,6 +75,15 @@ export type OverthinkingFlag = {
   textLabel: string;
 };
 
+export type LuckyGuessFlag = {
+  uid: string;
+  questionId: string;
+  category: string;
+  timeSpentMs: number;
+  textLabel: string;
+  reason: "too-fast" | "marked-unsure";
+};
+
 export type CatReport = {
   theta: number;
   abilityPercentile: number;
@@ -61,6 +91,8 @@ export type CatReport = {
   overallAccuracy: number;
   difficultyStats: DifficultyStat[];
   categoryStats: CategoryStat[];
+  articleStats: ArticleMasteryStat[];
+  coreSkillStats: CoreSkillStat[];
   weaknesses: CategoryStat[];
   answers: CatAnswerRecord[];
   scopeLabels: string[];
@@ -68,6 +100,7 @@ export type CatReport = {
   totalTimeMs: number;
   finishedAt: string;
   overthinking: OverthinkingFlag[];
+  luckyGuesses: LuckyGuessFlag[];
   sessionKind: CatSessionKind;
 };
 

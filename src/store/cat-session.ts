@@ -2,13 +2,17 @@
 
 import { create } from "zustand";
 import {
+  isLuckyGuess,
   selectNextDifficulty,
   selectNextItem,
   shouldStopCat,
   updateTheta,
 } from "@/lib/dse/cat/engine";
 import { buildCatPool } from "@/lib/dse/cat/pool";
-import { generateRemediationQuiz } from "@/lib/dse/cat/remediation";
+import {
+  generateArticleFocusQuiz,
+  generateRemediationQuiz,
+} from "@/lib/dse/cat/remediation";
 import { buildCatReport } from "@/lib/dse/cat/scoring";
 import type {
   CatAnswerRecord,
@@ -50,9 +54,13 @@ type CatSessionState = {
   setTargetCount: (n: number) => void;
   startSession: () => StartResult;
   startRemediationSession: () => StartResult;
+  startArticleFocusSession: (textSlug: string) => StartResult;
   startExtendedDiagnostic: () => StartResult;
   startMistakeRetest: (items: CatPoolItem[]) => StartResult;
-  submitAnswer: (selectedAnswer: string) => void;
+  submitAnswer: (
+    selectedAnswer: string,
+    opts?: { markedUnsure?: boolean },
+  ) => void;
   resetSession: () => void;
 };
 
@@ -213,6 +221,43 @@ export const useCatSession = create<CatSessionState>((set, get) => ({
     return { ok: true };
   },
 
+  startArticleFocusSession: (textSlug) => {
+    const { report, lastHistoryUids } = get();
+    if (!report) {
+      return { ok: false, error: "請先完成一次診斷，才可開啟篇章專攻。" };
+    }
+    const historyUids =
+      lastHistoryUids.length > 0
+        ? lastHistoryUids
+        : report.answers.map((a) => a.uid);
+
+    const { items, error } = generateArticleFocusQuiz({
+      textSlug,
+      historyUids,
+    });
+    if (error || items.length === 0) {
+      return { ok: false, error: error ?? "無法生成篇章專攻測驗。" };
+    }
+
+    set({
+      phase: "testing",
+      sessionKind: "remediation",
+      pool: items,
+      current: items[0],
+      usedUids: [items[0].uid],
+      answers: [],
+      theta: report.theta,
+      consecutiveCorrect: 0,
+      consecutiveWrong: 0,
+      recentThetaDeltas: [],
+      questionStartedAt: Date.now(),
+      report: null,
+      targetCount: items.length,
+      selectedSlugs: [textSlug],
+    });
+    return { ok: true };
+  },
+
   startRemediationSession: () => {
     const { report, lastAdaptiveSlugs, selectedSlugs, lastHistoryUids } =
       get();
@@ -281,21 +326,29 @@ export const useCatSession = create<CatSessionState>((set, get) => ({
     return { ok: true };
   },
 
-  submitAnswer: (selectedAnswer) => {
+  submitAnswer: (selectedAnswer, opts) => {
     const state = get();
     const { current, pool, theta, questionStartedAt, sessionKind } = state;
     if (!current || state.phase !== "testing") return;
 
+    const markedUnsure = Boolean(opts?.markedUnsure);
     const isCorrect = selectedAnswer === current.answer;
-    const thetaAfter =
-      sessionKind === "adaptive"
-        ? updateTheta(theta, current.difficulty, isCorrect)
-        : theta;
-    const delta = thetaAfter - theta;
     const timeSpentMs = Math.max(
       0,
       Date.now() - (questionStartedAt ?? Date.now()),
     );
+    const isGuess = isLuckyGuess({
+      difficulty: current.difficulty,
+      isCorrect,
+      timeSpentMs,
+      markedUnsure,
+    });
+
+    const thetaAfter =
+      sessionKind === "adaptive"
+        ? updateTheta(theta, current.difficulty, isCorrect, { isGuess })
+        : theta;
+    const delta = thetaAfter - theta;
 
     const record: CatAnswerRecord = {
       uid: current.uid,
@@ -313,10 +366,14 @@ export const useCatSession = create<CatSessionState>((set, get) => ({
       timeSpentMs,
       thetaBefore: theta,
       thetaAfter,
+      isGuess,
+      markedUnsure,
     };
 
     const answers = [...state.answers, record];
-    const consecutiveCorrect = isCorrect ? state.consecutiveCorrect + 1 : 0;
+    // Guesses do not build an escalation streak
+    const consecutiveCorrect =
+      isCorrect && !isGuess ? state.consecutiveCorrect + 1 : 0;
     const consecutiveWrong = isCorrect ? 0 : state.consecutiveWrong + 1;
     const recentThetaDeltas = [...state.recentThetaDeltas, delta];
     const used = new Set(state.usedUids);
@@ -374,6 +431,7 @@ export const useCatSession = create<CatSessionState>((set, get) => ({
       lastCorrect: isCorrect,
       consecutiveCorrect,
       consecutiveWrong,
+      lastWasGuess: isGuess,
     });
     const next = selectNextItem(pool, used, nextDiff);
     if (!next) {

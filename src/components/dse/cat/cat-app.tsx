@@ -15,7 +15,7 @@ export function CatApp() {
       {phase === "setup" ? (
         <Link
           href="/dse/chinese"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-sky-300"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-indigo-600"
         >
           <ArrowLeft className="size-3.5" />
           指定範文列表

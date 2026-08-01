@@ -21,15 +21,42 @@ export function difficultyFromTheta(theta: number): QuizDifficulty {
   return "medium";
 }
 
+/** Hard item answered correctly faster than this → likely lucky guess. */
+export const LUCKY_GUESS_MS = 8_000;
+
+/**
+ * Rule-based anti-guessing: super-fast Hard corrects, or student-marked unsure.
+ * Wrong answers are never flagged as lucky guesses.
+ */
+export function isLuckyGuess(opts: {
+  difficulty: QuizDifficulty;
+  isCorrect: boolean;
+  timeSpentMs: number;
+  markedUnsure?: boolean;
+}): boolean {
+  if (!opts.isCorrect) return false;
+  if (opts.markedUnsure) return true;
+  return (
+    opts.difficulty === "hard" && opts.timeSpentMs < LUCKY_GUESS_MS
+  );
+}
+
 /**
  * Update ability θ after a response (simplified 1PL-style step).
  * Correct on hard raises θ more; wrong on easy lowers θ more.
+ * Lucky guesses do NOT boost θ (stay near current level to confirm ability).
  */
 export function updateTheta(
   theta: number,
   difficulty: QuizDifficulty,
   isCorrect: boolean,
+  opts?: { isGuess?: boolean },
 ): number {
+  // Anti-guessing: score the point in the report, but do not inflate θ.
+  if (opts?.isGuess && isCorrect) {
+    return Math.max(-2, Math.min(2, theta + 0.02));
+  }
+
   const gain: Record<QuizDifficulty, number> = {
     easy: 0.18,
     medium: 0.32,
@@ -59,11 +86,18 @@ export function selectNextDifficulty(opts: {
   lastCorrect?: boolean;
   consecutiveCorrect: number;
   consecutiveWrong: number;
+  /** When true, do not escalate difficulty — confirm at current band. */
+  lastWasGuess?: boolean;
 }): QuizDifficulty {
   if (opts.answeredCount === 0) return "medium";
 
   if (opts.lastCorrect === false || opts.consecutiveWrong >= 1) {
     return "easy";
+  }
+
+  // Lucky guess / marked unsure: hold difficulty to verify real ability
+  if (opts.lastWasGuess) {
+    return difficultyFromTheta(opts.theta);
   }
 
   if (opts.consecutiveCorrect >= 2) {

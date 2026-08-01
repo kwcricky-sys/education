@@ -6,7 +6,11 @@ import { BookMarked, Check } from "lucide-react";
 import { CatHero } from "@/components/dse/cat/cat-hero";
 import { HowItWorks } from "@/components/dse/cat/how-it-works";
 import { countPoolByDifficulty, buildCatPool } from "@/lib/dse/cat/pool";
-import { CAT_DEFAULT_TARGET, CAT_MAX_ITEMS, CAT_MIN_ITEMS } from "@/lib/dse/cat/types";
+import {
+  CAT_DEFAULT_TARGET,
+  CAT_MAX_ITEMS,
+  CAT_MIN_ITEMS,
+} from "@/lib/dse/cat/types";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
 import { useCatSession } from "@/store/cat-session";
 import { cn } from "@/lib/utils";
@@ -39,32 +43,30 @@ export function CatSetup() {
       <div className="flex flex-wrap gap-3">
         <Link
           href="/dse/chinese/error-notebook"
-          className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-sky-400/30 hover:text-white"
+          className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-indigo-200 hover:text-indigo-700"
         >
-          <BookMarked className="size-3.5 text-sky-300" />
+          <BookMarked className="size-3.5 text-indigo-600" />
           開啟錯題本
         </Link>
       </div>
 
       <section className="space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
+          <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-slate-900">
             1. 選擇診斷範圍
           </h2>
           <div className="flex gap-2">
             <button
               type="button"
               onClick={selectAllTexts}
-              className="rounded-full bg-sky-400/15 px-3 py-1.5 text-xs font-semibold text-sky-300 ring-1 ring-sky-400/25 transition hover:bg-sky-400/25"
+              className="rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1.5 text-xs font-semibold text-indigo-700 transition hover:bg-indigo-100"
             >
               全範文綜合
             </button>
             <button
               type="button"
-              onClick={() =>
-                useCatSession.setState({ selectedSlugs: [] })
-              }
-              className="rounded-full bg-white/5 px-3 py-1.5 text-xs font-medium text-slate-400 ring-1 ring-white/10 transition hover:text-white"
+              onClick={() => useCatSession.setState({ selectedSlugs: [] })}
+              className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-500 transition hover:text-slate-800"
             >
               清除
             </button>
@@ -82,22 +84,22 @@ export function CatSetup() {
                 className={cn(
                   "flex items-start gap-3 rounded-2xl border px-4 py-3.5 text-left transition",
                   selected
-                    ? "border-sky-400/40 bg-sky-400/10"
-                    : "border-white/8 bg-white/[0.02] hover:border-white/15 hover:bg-white/[0.04]",
+                    ? "border-indigo-300 bg-indigo-50 shadow-sm"
+                    : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50",
                 )}
               >
                 <span
                   className={cn(
-                    "mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-md ring-1",
+                    "mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-md border",
                     selected
-                      ? "bg-sky-400 text-slate-950 ring-sky-300"
-                      : "bg-transparent text-transparent ring-white/20",
+                      ? "border-indigo-500 bg-indigo-600 text-white"
+                      : "border-slate-300 bg-white text-transparent",
                   )}
                 >
                   <Check className="size-3.5" strokeWidth={3} />
                 </span>
                 <span className="min-w-0">
-                  <span className="block font-semibold text-white">
+                  <span className="block font-semibold text-slate-900">
                     {text.title}
                   </span>
                   <span className="mt-0.5 block text-xs text-slate-500">
@@ -111,13 +113,13 @@ export function CatSetup() {
 
         <p className="text-sm text-slate-500">
           已選 {selectedSlugs.length} 篇 · 題庫{" "}
-          <span className="font-medium text-slate-300">{counts.total}</span>{" "}
+          <span className="font-medium text-slate-800">{counts.total}</span>{" "}
           題（基礎 {counts.easy}／中等 {counts.medium}／高階 {counts.hard}）
         </p>
       </section>
 
       <section className="space-y-4">
-        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-slate-900">
           2. 診斷題數
         </h2>
         <div className="flex flex-wrap gap-2">
@@ -129,8 +131,8 @@ export function CatSetup() {
               className={cn(
                 "rounded-full px-4 py-2 text-sm font-semibold transition",
                 targetCount === n
-                  ? "bg-sky-400 text-slate-950"
-                  : "bg-white/5 text-slate-400 ring-1 ring-white/10 hover:text-white",
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50",
               )}
             >
               {n} 題
@@ -143,7 +145,7 @@ export function CatSetup() {
       </section>
 
       {error ? (
-        <p className="rounded-xl border border-rose-400/30 bg-rose-500/10 px-4 py-3 text-sm text-rose-200">
+        <p className="rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
           {error}
         </p>
       ) : null}
@@ -151,7 +153,7 @@ export function CatSetup() {
       <button
         type="button"
         onClick={onStart}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-sky-400 px-5 py-3.5 text-sm font-bold text-slate-950 shadow-[0_12px_40px_rgba(56,189,248,0.28)] transition hover:bg-sky-300 sm:w-auto"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-5 py-3.5 text-sm font-bold text-white shadow-sm transition hover:bg-indigo-500 sm:w-auto"
       >
         進入診斷室，開始測驗
       </button>
