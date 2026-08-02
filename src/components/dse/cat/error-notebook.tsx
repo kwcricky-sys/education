@@ -56,20 +56,20 @@ export function ErrorNotebook() {
       <div>
         <Link
           href="/dse/chinese/cat"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-sky-300"
+          className="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors duration-300 hover:text-cyan-400"
         >
           <ArrowLeft className="size-3.5" />
           返回診斷室
         </Link>
         <div className="mt-4 flex flex-wrap items-end justify-between gap-4">
           <div>
-            <p className="text-xs font-semibold tracking-[0.2em] text-sky-300 uppercase">
+            <p className="text-xs font-semibold tracking-[0.2em] text-cyan-400 uppercase">
               Spaced Review
             </p>
-            <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-bold text-white">
+            <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-bold text-zinc-100">
               錯題本
             </h1>
-            <p className="mt-2 text-sm text-slate-400">
+            <p className="mt-2 text-sm leading-relaxed text-zinc-400">
               診斷室答錯的題目會自動存入本機。重測答對後移除，形成溫習閉環。
             </p>
           </div>
@@ -78,7 +78,7 @@ export function ErrorNotebook() {
               type="button"
               onClick={onRetest}
               disabled={items.length === 0}
-              className="inline-flex items-center gap-2 rounded-2xl bg-sky-400 px-4 py-2.5 text-sm font-bold text-slate-950 transition hover:bg-sky-300 disabled:cursor-not-allowed disabled:opacity-40"
+              className="inline-flex items-center gap-2 rounded-2xl bg-cyan-400 px-4 py-2.5 text-sm font-bold text-zinc-950 transition-all duration-300 hover:bg-cyan-300 disabled:cursor-not-allowed disabled:opacity-40"
             >
               <RotateCcw className="size-4" />
               錯題重測
@@ -87,7 +87,7 @@ export function ErrorNotebook() {
               type="button"
               onClick={clearAll}
               disabled={items.length === 0}
-              className="inline-flex items-center gap-2 rounded-2xl border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-medium text-slate-300 transition hover:bg-white/10 disabled:opacity-40"
+              className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-all duration-300 hover:bg-zinc-800 disabled:opacity-40"
             >
               <Trash2 className="size-4" />
               清空
@@ -97,7 +97,7 @@ export function ErrorNotebook() {
       </div>
 
       {error ? (
-        <p className="rounded-xl border border-rose-400/30 bg-rose-500/10 px-4 py-3 text-sm text-rose-200">
+        <p className="rounded-xl border border-rose-400/20 bg-rose-400/10 px-4 py-3 text-sm leading-relaxed text-rose-300">
           {error}
         </p>
       ) : null}
@@ -114,10 +114,10 @@ export function ErrorNotebook() {
             type="button"
             onClick={() => setGroupBy(key)}
             className={cn(
-              "rounded-full px-3 py-1.5 text-xs font-semibold transition",
+              "rounded-md px-3 py-1.5 text-xs font-semibold transition-all duration-300",
               groupBy === key
-                ? "bg-sky-400 text-slate-950"
-                : "bg-white/5 text-slate-400 ring-1 ring-white/10",
+                ? "bg-cyan-400/10 text-cyan-400 ring-1 ring-cyan-400/30"
+                : "bg-zinc-900 text-zinc-400 ring-1 ring-white/5 hover:bg-zinc-800",
             )}
           >
             {label}
@@ -126,14 +126,14 @@ export function ErrorNotebook() {
       </div>
 
       {items.length === 0 ? (
-        <div className="rounded-[1.75rem] border border-dashed border-white/15 bg-white/[0.02] px-6 py-16 text-center">
-          <BookMarked className="mx-auto size-8 text-slate-600" />
-          <p className="mt-4 text-sm text-slate-400">
+        <div className="rounded-xl border border-dashed border-white/10 bg-zinc-900 px-6 py-16 text-center shadow-lg">
+          <BookMarked className="mx-auto size-8 text-zinc-600" />
+          <p className="mt-4 text-sm leading-relaxed text-zinc-400">
             尚未有錯題。完成一次診斷室測驗後，答錯的題目會自動收進這裡。
           </p>
           <Link
             href="/dse/chinese/cat"
-            className="mt-6 inline-flex rounded-2xl bg-sky-400 px-5 py-2.5 text-sm font-bold text-slate-950"
+            className="mt-6 inline-flex rounded-2xl bg-cyan-400 px-5 py-2.5 text-sm font-bold text-zinc-950 transition-all duration-300 hover:bg-cyan-300"
           >
             進入診斷室
           </Link>
@@ -142,9 +142,9 @@ export function ErrorNotebook() {
         <div className="space-y-8">
           {groups.map(([title, list]) => (
             <section key={title} className="space-y-3">
-              <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-white">
+              <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-zinc-100">
                 {title}{" "}
-                <span className="text-sm font-normal text-slate-500">
+                <span className="text-sm font-normal text-zinc-500">
                   ({list.length})
                 </span>
               </h2>
@@ -152,39 +152,39 @@ export function ErrorNotebook() {
                 {list.map((item) => (
                   <li
                     key={item.uid}
-                    className="rounded-2xl border border-white/8 bg-white/[0.03] p-5"
+                    className="rounded-xl border border-white/5 bg-zinc-900 p-5 shadow-lg transition-all duration-300 hover:border-white/10 hover:bg-zinc-800"
                   >
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       <span
                         className={cn(
-                          "rounded-full px-2 py-0.5 font-medium",
+                          "rounded-md bg-zinc-800 px-2 py-1 font-medium",
                           DIFFICULTY_LABEL[item.difficulty].className,
                         )}
                       >
                         {DIFFICULTY_LABEL[item.difficulty].zh}
                       </span>
-                      <span className="rounded-full bg-white/5 px-2 py-0.5 text-slate-400">
+                      <span className="rounded-md bg-cyan-400/10 px-2 py-1 text-cyan-400">
                         {item.category}
                       </span>
-                      <span className="text-slate-600">
+                      <span className="text-zinc-500">
                         錯 {item.wrongCount} 次
                       </span>
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed text-slate-200">
+                    <p className="mt-3 text-sm leading-relaxed text-zinc-200">
                       {item.question}
                     </p>
-                    <p className="mt-2 text-sm text-rose-300">
+                    <p className="mt-2 text-sm text-rose-400">
                       你的答案：{item.userAnswer}
                     </p>
-                    <p className="mt-1 text-sm text-emerald-300">
+                    <p className="mt-1 text-sm text-emerald-400">
                       正確答案：{item.answer}
                     </p>
                     <p
                       className={cn(
-                        "mt-3 rounded-xl px-3 py-2.5 text-sm leading-relaxed text-slate-300",
+                        "mt-3 rounded-xl px-3 py-2.5 text-sm leading-relaxed text-zinc-300",
                         item.explanation.includes("考評局")
-                          ? "border border-orange-400/25 bg-orange-400/10"
-                          : "bg-white/5",
+                          ? "border border-amber-400/20 bg-amber-400/10"
+                          : "border border-white/5 bg-zinc-950/50",
                       )}
                     >
                       {item.explanation}
@@ -192,7 +192,7 @@ export function ErrorNotebook() {
                     <button
                       type="button"
                       onClick={() => removeItem(item.uid)}
-                      className="mt-3 text-xs text-slate-500 transition hover:text-rose-300"
+                      className="mt-3 text-xs text-zinc-500 transition-colors duration-300 hover:text-rose-400"
                     >
                       移除此題
                     </button>

@@ -46,23 +46,23 @@ body {
   color: var(--ink-text);
 }
 
-/* Dark high-tech SaaS shell (Vercel / Linear vibe) */
+/* Premium Zinc Dim SaaS shell (Linear / Vercel) */
 .home-shell {
-  --ink-bg: #030712;
-  --ink-surface: #0a0f1a;
-  --ink-border: #1f2937;
-  --ink-text: #f8fafc;
-  --ink-muted: #94a3b8;
-  --ink-faint: #64748b;
-  --accent: #00f2fe;
-  --accent-strong: #4facfe;
-  --accent-soft: rgba(0, 242, 254, 0.12);
-  --hero-glow: rgba(0, 242, 254, 0.18);
+  --ink-bg: #09090b; /* zinc-950 */
+  --ink-surface: #18181b; /* zinc-900 */
+  --ink-border: rgba(255, 255, 255, 0.1);
+  --ink-text: #f4f4f5; /* zinc-100 */
+  --ink-muted: #a1a1aa; /* zinc-400 */
+  --ink-faint: #71717a; /* zinc-500 */
+  --accent: #22d3ee; /* cyan-400 */
+  --accent-strong: #06b6d4; /* cyan-500 */
+  --accent-soft: rgba(34, 211, 238, 0.12);
+  --hero-glow: rgba(34, 211, 238, 0.12);
   color: var(--ink-text);
   background:
-    radial-gradient(ellipse 60% 40% at 15% -5%, var(--hero-glow), transparent 55%),
-    radial-gradient(ellipse 45% 30% at 90% 0%, rgba(79, 172, 254, 0.14), transparent 50%),
-    #030712;
+    radial-gradient(ellipse 55% 40% at 12% -8%, var(--hero-glow), transparent 55%),
+    radial-gradient(ellipse 40% 28% at 88% 0%, rgba(6, 182, 212, 0.1), transparent 50%),
+    #09090b;
 }
 
 .home-shell::before {
@@ -71,10 +71,10 @@ body {
   position: fixed;
   inset: 0;
   z-index: 0;
-  opacity: 0.4;
+  opacity: 0.35;
   background-image:
-    linear-gradient(rgba(148, 163, 184, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: linear-gradient(180deg, #000 0%, transparent 65%);
 }
@@ -84,59 +84,56 @@ body {
   z-index: 1;
 }
 
-/* DSE Study Hub — modern dark studio */
+/* DSE Study Hub — zinc dim studio */
 .dse-root {
-  --dse-bg: #070a12;
-  --dse-surface: #111827;
-  --dse-border: #1f2937;
-  --accent: #38bdf8;
-  --accent-strong: #0ea5e9;
-  --accent-soft: rgba(56, 189, 248, 0.14);
+  --dse-bg: #09090b;
+  --dse-surface: #18181b;
+  --dse-border: rgba(255, 255, 255, 0.1);
+  --accent: #22d3ee;
+  --accent-strong: #06b6d4;
+  --accent-soft: rgba(34, 211, 238, 0.12);
   --accent-2: #fb923c;
-  --ink-bg: #070a12;
-  --ink-surface: #111827;
-  --ink-border: #1f2937;
-  --ink-text: #f8fafc;
-  --ink-muted: #94a3b8;
-  --ink-faint: #64748b;
+  --ink-bg: #09090b;
+  --ink-surface: #18181b;
+  --ink-border: rgba(255, 255, 255, 0.1);
+  --ink-text: #f4f4f5;
+  --ink-muted: #a1a1aa;
+  --ink-faint: #71717a;
   font-feature-settings: "kern" 1, "liga" 1;
   background:
-    radial-gradient(ellipse 60% 40% at 80% -10%, rgba(14, 165, 233, 0.16), transparent 50%),
-    radial-gradient(ellipse 40% 30% at 10% 20%, rgba(249, 115, 22, 0.08), transparent 45%),
-    #070a12;
+    radial-gradient(ellipse 55% 38% at 80% -10%, rgba(34, 211, 238, 0.1), transparent 50%),
+    radial-gradient(ellipse 40% 28% at 8% 18%, rgba(249, 115, 22, 0.06), transparent 45%),
+    #09090b;
 }
 
 .dse-root ::selection {
-  background: color-mix(in srgb, var(--accent) 40%, transparent);
-  color: #fff;
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: #f4f4f5;
 }
 
 .dse-progress {
-  background: linear-gradient(90deg, #0284c7 0%, #38bdf8 50%, #fb923c 100%);
+  background: linear-gradient(90deg, #0891b2 0%, #22d3ee 55%, #67e8f9 100%);
 }
 
-/* CAT Diagnostic Room — premium clean light shell */
+/* CAT Diagnostic Room — zinc dim (matches DSE shell) */
 .dse-cat-light {
-  --cat-bg: #f8fafc;
-  --cat-card: #ffffff;
-  --cat-border: #e2e8f0;
-  --cat-ink: #0f172a;
-  --cat-muted: #64748b;
-  --cat-accent: #4f46e5;
+  --cat-bg: #09090b;
+  --cat-card: #18181b;
+  --cat-border: rgba(255, 255, 255, 0.1);
+  --cat-ink: #f4f4f5;
+  --cat-muted: #a1a1aa;
+  --cat-accent: #22d3ee;
   color: var(--cat-ink);
-  background:
-    radial-gradient(ellipse 50% 35% at 90% 0%, rgba(99, 102, 241, 0.08), transparent 50%),
-    radial-gradient(ellipse 40% 30% at 0% 20%, rgba(16, 185, 129, 0.06), transparent 45%),
-    #f8fafc;
+  background: transparent;
 }
 
 .dse-cat-light ::selection {
-  background: rgba(99, 102, 241, 0.22);
-  color: #0f172a;
+  background: rgba(34, 211, 238, 0.28);
+  color: #f4f4f5;
 }
 
 .dse-cat-progress {
-  background: linear-gradient(90deg, #6366f1 0%, #14b8a6 100%);
+  background: linear-gradient(90deg, #0891b2 0%, #22d3ee 100%);
 }
 
 .dse-flip-inner {
@@ -209,22 +206,22 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 55%, #0369a1 100%);
-  color: #fff;
-  box-shadow: 0 10px 28px rgba(14, 165, 233, 0.28);
+  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 55%, #0891b2 100%);
+  color: #09090b;
+  box-shadow: 0 10px 28px rgba(34, 211, 238, 0.22);
   transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
 }
 
 .btn-primary:hover {
   filter: brightness(1.06);
   transform: translateY(-1px);
-  box-shadow: 0 14px 32px rgba(14, 165, 233, 0.34);
+  box-shadow: 0 14px 32px rgba(34, 211, 238, 0.28);
 }
 
 .panel-lift {
-  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
 }
 
 .panel-lift:hover {
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 }
