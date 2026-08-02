@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Noto_Sans_TC, Sora } from "next/font/google";
+import { Inter, Noto_Sans_TC, Sora } from "next/font/google";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildWebSiteJsonLd } from "@/lib/seo";
 import {
@@ -11,6 +11,12 @@ import {
   SITE_URL,
 } from "@/lib/site";
 import "./globals.css";
+
+const sansFont = Inter({
+  variable: "--font-sans-latin",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const bodyFont = Noto_Sans_TC({
   variable: "--font-body",
@@ -59,7 +65,7 @@ export default function RootLayout({
   return (
     <html
       lang="zh-HK"
-      className={`${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
+      className={`${sansFont.variable} ${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
     >
       <head>
         <meta name="google-adsense-account" content={ADSENSE_CLIENT_ID} />

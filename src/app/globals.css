@@ -27,7 +27,18 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-body), "Noto Sans TC", system-ui, sans-serif;
+  font-family:
+    var(--font-body),
+    var(--font-sans-latin),
+    "PingFang HK",
+    "PingFang TC",
+    "Noto Sans TC",
+    "Helvetica Neue",
+    system-ui,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 ::selection {
@@ -35,12 +46,23 @@ body {
   color: var(--ink-text);
 }
 
-/* Cool studio wash + soft grid */
+/* Dark high-tech SaaS shell (Vercel / Linear vibe) */
 .home-shell {
+  --ink-bg: #030712;
+  --ink-surface: #0a0f1a;
+  --ink-border: #1f2937;
+  --ink-text: #f8fafc;
+  --ink-muted: #94a3b8;
+  --ink-faint: #64748b;
+  --accent: #00f2fe;
+  --accent-strong: #4facfe;
+  --accent-soft: rgba(0, 242, 254, 0.12);
+  --hero-glow: rgba(0, 242, 254, 0.18);
+  color: var(--ink-text);
   background:
-    radial-gradient(ellipse 70% 45% at 15% -5%, var(--hero-glow), transparent 55%),
-    radial-gradient(ellipse 50% 35% at 90% 10%, rgba(249, 115, 22, 0.12), transparent 50%),
-    linear-gradient(180deg, #eef3fb 0%, var(--ink-bg) 38%, #eef2f7 100%);
+    radial-gradient(ellipse 60% 40% at 15% -5%, var(--hero-glow), transparent 55%),
+    radial-gradient(ellipse 45% 30% at 90% 0%, rgba(79, 172, 254, 0.14), transparent 50%),
+    #030712;
 }
 
 .home-shell::before {
@@ -49,12 +71,12 @@ body {
   position: fixed;
   inset: 0;
   z-index: 0;
-  opacity: 0.35;
+  opacity: 0.4;
   background-image:
-    linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: linear-gradient(180deg, #000 0%, transparent 70%);
+    linear-gradient(rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(180deg, #000 0%, transparent 65%);
 }
 
 .home-shell > * {
@@ -200,9 +222,9 @@ body {
 }
 
 .panel-lift {
-  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .panel-lift:hover {
-  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
 }

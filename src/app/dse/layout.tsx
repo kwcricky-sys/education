@@ -23,12 +23,12 @@ export default function DseLayout({
             href="/dse"
             className="group flex items-center gap-3 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-sky-400/60"
           >
-            <span className="flex size-9 items-center justify-center rounded-xl bg-sky-400 font-[family-name:var(--font-display)] text-sm font-bold text-slate-950 shadow-[0_0_24px_rgba(56,189,248,0.35)]">
-              途
+            <span className="flex size-9 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-sky-500 font-[family-name:var(--font-display)] text-sm font-extrabold text-slate-950 shadow-[0_0_24px_rgba(0,242,254,0.35)]">
+              H
             </span>
             <span className="flex flex-col leading-tight">
               <span className="font-[family-name:var(--font-display)] text-sm font-bold tracking-tight text-white sm:text-[15px]">
-                {SITE_NAME} · DSE
+                {SITE_NAME}
               </span>
               <span className="hidden text-[11px] text-slate-500 sm:block">
                 {SITE_TAGLINE}

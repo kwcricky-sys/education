@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { SITE_NAME, SITE_NAME_EN, SITE_TAGLINE } from "@/lib/site";
+import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const alt = `${SITE_NAME} — ${SITE_TAGLINE}`;
 export const size = { width: 1200, height: 630 };
@@ -17,29 +17,49 @@ export default function OpenGraphImage() {
           justifyContent: "center",
           padding: 72,
           background:
-            "linear-gradient(145deg, #0b1220 0%, #132033 45%, #0c4a6e 130%)",
+            "linear-gradient(145deg, #030712 0%, #070b14 40%, #0c1a2e 100%)",
           color: "#f8fafc",
         }}
       >
         <div
           style={{
-            fontSize: 26,
-            letterSpacing: 8,
-            color: "#7dd3fc",
+            display: "flex",
+            alignItems: "center",
+            gap: 12,
+            fontSize: 22,
+            letterSpacing: 2,
+            color: "#00f2fe",
             fontWeight: 600,
           }}
         >
-          {SITE_NAME_EN}
+          ⚡️ AI Powered · CAT System
         </div>
-        <div style={{ fontSize: 96, fontWeight: 800, marginTop: 12 }}>
+        <div
+          style={{
+            fontSize: 88,
+            fontWeight: 800,
+            marginTop: 16,
+            letterSpacing: -2,
+          }}
+        >
           {SITE_NAME}
         </div>
         <div
           style={{
-            fontSize: 34,
-            marginTop: 24,
-            color: "#e0f2fe",
+            fontSize: 32,
+            marginTop: 20,
+            color: "#94a3b8",
             maxWidth: 900,
+            lineHeight: 1.35,
+          }}
+        >
+          用 AI 10 題 Hack 穿你嘅 DSE 盲點
+        </div>
+        <div
+          style={{
+            marginTop: 28,
+            fontSize: 20,
+            color: "#64748b",
           }}
         >
           {SITE_TAGLINE}
