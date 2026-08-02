@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     default: `${SITE_NAME}｜${SITE_TAGLINE}`,
     template: `%s | ${SITE_NAME}`,
   },
-  description: `${SITE_NAME}（${SITE_NAME_EN}）— ${SITE_TAGLINE}。DSE 備考閃卡與 K3 選小學資訊。`,
+  description: `${SITE_NAME}（${SITE_NAME_EN}）— ${SITE_TAGLINE}。DSE 備考閃卡與範文診斷練習。`,
   applicationName: SITE_NAME,
   authors: [{ name: SITE_NAME }],
   other: {
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     url: SITE_URL,
     title: `${SITE_NAME}｜${SITE_TAGLINE}`,
-    description: `${SITE_TAGLINE}。免費 DSE 中文指定範文練習與升學資源。`,
+    description: `${SITE_TAGLINE}。免費 DSE 中文指定範文練習與自適應診斷。`,
   },
   twitter: {
     card: "summary_large_image",

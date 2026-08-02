@@ -43,7 +43,7 @@ export function buildWebSiteJsonLd() {
     alternateName: "StudyPath",
     url: SITE_URL,
     inLanguage: "zh-HK",
-    description: `${SITE_NAME}｜${SITE_TAGLINE}。DSE 備考練習與 K3 選小學指南，免費線上學習資源。`,
+    description: `${SITE_NAME}｜${SITE_TAGLINE}。DSE 備考練習與範文 AI 診斷室，免費線上學習資源。`,
   };
 }
 
