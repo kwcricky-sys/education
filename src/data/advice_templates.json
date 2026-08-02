@@ -1,0 +1,414 @@
+{
+  "version": 1,
+  "description": "36 種小一自行分配家長 Persona 建議模板（廣東話）",
+  "variables": [
+    "persona_name",
+    "target_school",
+    "school_net",
+    "score",
+    "success_rate",
+    "discretionary_rate",
+    "gender_modifier",
+    "strategy_modifier",
+    "matched_schools",
+    "site_name"
+  ],
+  "templates": [
+    {
+      "id": "p_15_academic_coed_low",
+      "persona": "15分 · 傳統學術 · 男女校 · 尚未準備",
+      "match": {
+        "score": 15,
+        "style": "academic",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意傳統學術、紀律同測驗節奏。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_academic_coed_high",
+      "persona": "15分 · 傳統學術 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 15,
+        "style": "academic",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意傳統學術、紀律同測驗節奏。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_academic_single_low",
+      "persona": "15分 · 傳統學術 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 15,
+        "style": "academic",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意傳統學術、紀律同測驗節奏。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_academic_single_high",
+      "persona": "15分 · 傳統學術 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 15,
+        "style": "academic",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意傳統學術、紀律同測驗節奏。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_bilingual_coed_low",
+      "persona": "15分 · 雙語國際 · 男女校 · 尚未準備",
+      "match": {
+        "score": 15,
+        "style": "bilingual",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意雙語／偏國際嘅學習氛圍。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_bilingual_coed_high",
+      "persona": "15分 · 雙語國際 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 15,
+        "style": "bilingual",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意雙語／偏國際嘅學習氛圍。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_bilingual_single_low",
+      "persona": "15分 · 雙語國際 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 15,
+        "style": "bilingual",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意雙語／偏國際嘅學習氛圍。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_bilingual_single_high",
+      "persona": "15分 · 雙語國際 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 15,
+        "style": "bilingual",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你鍾意雙語／偏國際嘅學習氛圍。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_happy_coed_low",
+      "persona": "15分 · 愉快學習 · 男女校 · 尚未準備",
+      "match": {
+        "score": 15,
+        "style": "happy",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你較重視愉快學習同全人發展。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_happy_coed_high",
+      "persona": "15分 · 愉快學習 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 15,
+        "style": "happy",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你較重視愉快學習同全人發展。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_happy_single_low",
+      "persona": "15分 · 愉快學習 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 15,
+        "style": "happy",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你較重視愉快學習同全人發展。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_15_happy_single_high",
+      "persona": "15分 · 愉快學習 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 15,
+        "style": "happy",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數偏緊，要靠策略；你較重視愉快學習同全人發展。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議降低『必入神校』預期，把火力集中喺匹配度高、競爭稍緩嘅學校。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_academic_coed_low",
+      "persona": "20分 · 傳統學術 · 男女校 · 尚未準備",
+      "match": {
+        "score": 20,
+        "style": "academic",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意傳統學術、紀律同測驗節奏。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_academic_coed_high",
+      "persona": "20分 · 傳統學術 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 20,
+        "style": "academic",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意傳統學術、紀律同測驗節奏。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_academic_single_low",
+      "persona": "20分 · 傳統學術 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 20,
+        "style": "academic",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意傳統學術、紀律同測驗節奏。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_academic_single_high",
+      "persona": "20分 · 傳統學術 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 20,
+        "style": "academic",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意傳統學術、紀律同測驗節奏。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_bilingual_coed_low",
+      "persona": "20分 · 雙語國際 · 男女校 · 尚未準備",
+      "match": {
+        "score": 20,
+        "style": "bilingual",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意雙語／偏國際嘅學習氛圍。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_bilingual_coed_high",
+      "persona": "20分 · 雙語國際 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 20,
+        "style": "bilingual",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意雙語／偏國際嘅學習氛圍。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_bilingual_single_low",
+      "persona": "20分 · 雙語國際 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 20,
+        "style": "bilingual",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意雙語／偏國際嘅學習氛圍。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_bilingual_single_high",
+      "persona": "20分 · 雙語國際 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 20,
+        "style": "bilingual",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你鍾意雙語／偏國際嘅學習氛圍。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_happy_coed_low",
+      "persona": "20分 · 愉快學習 · 男女校 · 尚未準備",
+      "match": {
+        "score": 20,
+        "style": "happy",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你較重視愉快學習同全人發展。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_happy_coed_high",
+      "persona": "20分 · 愉快學習 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 20,
+        "style": "happy",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你較重視愉快學習同全人發展。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_happy_single_low",
+      "persona": "20分 · 愉快學習 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 20,
+        "style": "happy",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你較重視愉快學習同全人發展。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_20_happy_single_high",
+      "persona": "20分 · 愉快學習 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 20,
+        "style": "happy",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數屬中游偏上；你較重視愉快學習同全人發展。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，建議採用『進取 + 穩陣』雙軌：第一志願可以稍高，第二、三志願要務實。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_academic_coed_low",
+      "persona": "25分 · 傳統學術 · 男女校 · 尚未準備",
+      "match": {
+        "score": 25,
+        "style": "academic",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意傳統學術、紀律同測驗節奏。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_academic_coed_high",
+      "persona": "25分 · 傳統學術 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 25,
+        "style": "academic",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意傳統學術、紀律同測驗節奏。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_academic_single_low",
+      "persona": "25分 · 傳統學術 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 25,
+        "style": "academic",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意傳統學術、紀律同測驗節奏。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_academic_single_high",
+      "persona": "25分 · 傳統學術 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 25,
+        "style": "academic",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意傳統學術、紀律同測驗節奏。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意傳統學術、紀律同測驗節奏。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_bilingual_coed_low",
+      "persona": "25分 · 雙語國際 · 男女校 · 尚未準備",
+      "match": {
+        "score": 25,
+        "style": "bilingual",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意雙語／偏國際嘅學習氛圍。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_bilingual_coed_high",
+      "persona": "25分 · 雙語國際 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 25,
+        "style": "bilingual",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意雙語／偏國際嘅學習氛圍。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_bilingual_single_low",
+      "persona": "25分 · 雙語國際 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 25,
+        "style": "bilingual",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意雙語／偏國際嘅學習氛圍。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_bilingual_single_high",
+      "persona": "25分 · 雙語國際 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 25,
+        "style": "bilingual",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你鍾意雙語／偏國際嘅學習氛圍。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你鍾意雙語／偏國際嘅學習氛圍。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_happy_coed_low",
+      "persona": "25分 · 愉快學習 · 男女校 · 尚未準備",
+      "match": {
+        "score": 25,
+        "style": "happy",
+        "gender_pref": "coed",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你較重視愉快學習同全人發展。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_happy_coed_high",
+      "persona": "25分 · 愉快學習 · 男女校 · 已經準備充足",
+      "match": {
+        "score": 25,
+        "style": "happy",
+        "gender_pref": "coed",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你較重視愉快學習同全人發展。男女校選擇彈性大啲，爆額壓力相對分散。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_happy_single_low",
+      "persona": "25分 · 愉快學習 · 單性別學校 · 尚未準備",
+      "match": {
+        "score": 25,
+        "style": "happy",
+        "gender_pref": "single",
+        "readiness": "low"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你較重視愉快學習同全人發展。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：而家開始都唔遲，建議用 2–3 個週末補齊資料夾同面試練習\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    },
+    {
+      "id": "p_25_happy_single_high",
+      "persona": "25分 · 愉快學習 · 單性別學校 · 已經準備充足",
+      "match": {
+        "score": 25,
+        "style": "happy",
+        "gender_pref": "single",
+        "readiness": "high"
+      },
+      "report_md": "## 🎯 你嘅家長 Persona：{persona_name}\n\n你好！根據你提供嘅資料，系統配對到 **{persona_name}** 類型。\n\n### 成功率速覽\n- **目標學校**：{target_school}\n- **校網**：{school_net}\n- **自行分配分數**：{score} 分\n- **估算自行分配成功率**：约 **{success_rate}%**\n- **參考基礎派位率**：{discretionary_rate}%\n- **性別／爆額修正**：×{gender_modifier}\n- **位次／準備策略修正**：×{strategy_modifier}\n\n> 分數優勢好明顯；你較重視愉快學習同全人發展。單性別學校競爭可以好激烈，尤其名校網。\n\n### 📝 個人化備戰建議\n1. **校網部署**：你而家嘅校網係 {school_net}。自行分配階段可以跨網申請，但統一派位仍以本網為主——建議 A 位放「最想要＋有勝算」嘅學校。\n2. **分數策略**：以 {score} 分為錨，可以衝刺心儀第一志願，同時準備 1 間穩陣保底。\n3. **風格匹配**：你較重視愉快學習同全人發展。下面推薦學校已按此風格同性別偏好篩選。\n4. **準備清單**：你已經有一定準備，可以專心優化位次同備戰細節\n   - 整理出生證明、住址證明、計分證明文件\n   - 做一份 1 頁 A4 小朋友介紹（可用本站「叩門 Portfolio」）\n   - 模擬面試 2 次（自我介紹 + 日常情境題）\n\n### 🏫 Match 學校（供參考）\n{matched_schools}\n\n### ⚠️ 免責\n呢個計算器係 **規則引擎估算**（0 AI Token），唔等於教育局或學校官方結果。實際受每年申請人數、計分辦法同隨機抽籤影響。\n\n—— {site_name} 升學研究室\n"
+    }
+  ]
+}

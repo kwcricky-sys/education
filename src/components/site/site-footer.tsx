@@ -28,7 +28,7 @@ export function SiteFooter() {
             >
               DSE 備考
             </Link>
-            <Link href="/k3" className="block text-[var(--ink-faint)]">
+            <Link href="/schools" className="block text-[var(--ink-faint)]">
               K3 選小學
             </Link>
           </div>

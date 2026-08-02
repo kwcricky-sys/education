@@ -1,0 +1,48 @@
+{
+  "id": "1",
+  "name_zh": "範例小學（請替換成真實數據）",
+  "name_en": "Example Primary School",
+  "school_net": "11",
+  "finance_type": "資助",
+  "gender": "男女",
+  "district": "中西區",
+  "address": "香港示例道 1 號",
+  "website": "https://www.edb.gov.hk/",
+  "phone": "2123 4567",
+  "seo_summary": {
+    "cantonese": "呢間係示範用學校頁，用嚟核對 UI。放好 Hermes 數據之後記得刪除呢個範例檔（檔名用底線開頭唔會被 generateStaticParams 掃入）。",
+    "highlights": ["示範數據", "校網 11", "資助"]
+  },
+  "secondary_allocation": {
+    "through_train": ["範例直屬中學"],
+    "linked_secondary": ["範例聯繫中學 A", "範例聯繫中學 B"],
+    "band1_estimate": "約 60–70%",
+    "common_elite_schools": ["名校甲", "名校乙"],
+    "notes": "數字僅供示範。"
+  },
+  "interview_prep": {
+    "questions": [
+      {
+        "question": "請用英文自我介紹。",
+        "tips": "30 秒內講完名字、興趣、點解想入呢間學校。"
+      },
+      {
+        "question": "如果你同同學爭執，你會點做？",
+        "tips": "強調傾聽、道歉同尋求老師協助。"
+      }
+    ],
+    "tips": ["提早到場 15 分鐘", "眼神接觸同笑容好重要"]
+  },
+  "admission_info": {
+    "application_deadline": "2026-09-30",
+    "interview_dates": ["2026-11-08", "2026-11-15"],
+    "open_day": "2026-10-12",
+    "timeline": [
+      { "label": "開始接受報名", "date": "2026-09-01" },
+      { "label": "報名截止", "date": "2026-09-30" },
+      { "label": "面試", "date": "2026-11-08 / 11-15" },
+      { "label": "結果公布", "date": "2026-12 上旬" }
+    ],
+    "notes": "請以學校最新通告為準。"
+  }
+}
