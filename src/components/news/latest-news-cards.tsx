@@ -35,7 +35,7 @@ export function LatestNewsCards({
             </h2>
             {generatedAt ? (
               <p className="mt-1 text-xs text-[var(--ink-faint)]">
-                更新於 {new Date(generatedAt).toLocaleString("zh-HK")}
+                資料更新：{new Date(generatedAt).toLocaleDateString("zh-HK")}
               </p>
             ) : null}
           </div>

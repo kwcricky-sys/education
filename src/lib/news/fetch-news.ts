@@ -29,7 +29,7 @@ function normalizePayload(data: SchoolNewsPayload): SchoolNewsItem[] {
 
 /**
  * Fetch latest news.json.
- * Prefer public R2 URL (NEXT_PUBLIC_R2_URL) with ISR revalidate 3600;
+ * Prefer public R2 URL (NEXT_PUBLIC_R2_URL);
  * fall back to local sync file from `npm run sync:schools`.
  */
 export async function getLatestSchoolNews(
