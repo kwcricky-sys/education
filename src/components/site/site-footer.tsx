@@ -6,9 +6,6 @@ import {
   SITE_TAGLINE_FULL,
 } from "@/lib/site";
 
-/** Sister primary-school product */
-const PRIMARY_NAV_URL = "https://primary.studypath.hk";
-
 export function SiteFooter() {
   const year = new Date().getFullYear();
   return (
@@ -81,17 +78,6 @@ export function SiteFooter() {
               </a>
             </div>
           </div>
-        </div>
-
-        <div className="rounded-xl border border-white/10 bg-zinc-900 px-4 py-3 text-sm leading-relaxed text-zinc-400">
-          家有 K3 幼兒？造訪我們的{" "}
-          <a
-            href={PRIMARY_NAV_URL}
-            className="font-semibold text-cyan-400 underline-offset-2 hover:underline"
-            rel="noopener noreferrer"
-          >
-            升小指南 PrimaryNav →
-          </a>
         </div>
 
         <p className="text-xs leading-relaxed text-zinc-500">
