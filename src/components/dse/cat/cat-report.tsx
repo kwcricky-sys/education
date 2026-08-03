@@ -107,32 +107,51 @@ export function CatReport() {
     else setActionError(null);
   };
 
+  const accuracyPct = Math.round(report.overallAccuracy * 100);
+
   return (
     <div className="space-y-8">
-      {/* Section C header — grade + precision */}
-      <section className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-cyan-500/50 bg-cyan-400/10 px-3 py-1 text-xs font-semibold text-cyan-400">
-            <Sparkles className="size-3.5" />
-            DSE 範文 AI 診斷室
-          </span>
-          <span className="rounded-full border border-white/10 bg-zinc-900 px-3 py-1 text-xs text-zinc-400">
-            {report.sessionKind === "remediation"
-              ? "專攻特訓報告"
-              : report.sessionKind === "mistake-retest"
-                ? "錯題重測報告"
-                : "極速診斷報告"}
-          </span>
-        </div>
-
-        <h1 className="mt-4 font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl">
-          {report.predictedGrade.label}
+      <div>
+        <p className="text-xs font-semibold tracking-[0.2em] text-cyan-400 uppercase">
+          Diagnostic Complete
+        </p>
+        <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-4xl">
+          Performance Report
         </h1>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">
           {report.predictedGrade.rationale}
         </p>
+      </div>
 
-        <div className="mt-5 flex flex-col gap-3 rounded-2xl border border-white/10 bg-zinc-900 p-4 sm:flex-row sm:items-center sm:justify-between">
+      <section className="grid gap-3 sm:grid-cols-3">
+        <MiniStat
+          label="Expected Level"
+          value={report.predictedGrade.label}
+          hint={`精準度 ${precision.label} · ${precision.percent}%`}
+          icon={<Target className="size-4 text-cyan-400" />}
+          accent
+        />
+        <MiniStat
+          label="Time Taken"
+          value={formatDuration(report.totalTimeMs)}
+          hint={
+            report.scopeLabels.length > 1
+              ? `${report.scopeLabels.length} 篇範文`
+              : (report.scopeLabels[0] ?? "—")
+          }
+          icon={<Clock3 className="size-4 text-zinc-400" />}
+        />
+        <MiniStat
+          label="Accuracy"
+          value={`${accuracyPct}%`}
+          hint={`答對 ${correct}/${report.questionCount} 題`}
+          icon={<Sparkles className="size-4 text-cyan-400" />}
+          progress={accuracyPct}
+        />
+      </section>
+
+      <section className="rounded-xl border border-white/10 bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md sm:p-5">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm font-semibold text-zinc-100">
               診斷精準度：{precision.label}
@@ -161,41 +180,19 @@ export function CatReport() {
           <button
             type="button"
             onClick={() => setShowPrecisionTip((v) => !v)}
-            className="inline-flex items-center gap-1.5 self-start rounded-full border border-white/10 bg-zinc-900/80 px-3 py-1.5 text-xs font-medium text-zinc-400 backdrop-blur-md transition-all duration-300 hover:border-white/10 hover:bg-zinc-800 sm:self-center"
+            className="inline-flex items-center gap-1.5 self-start rounded-full border border-white/10 bg-zinc-950/50 px-3 py-1.5 text-xs font-medium text-zinc-400 transition-all duration-300 hover:bg-zinc-800 sm:self-center"
           >
             <Info className="size-3.5" />
             這是什麼？
           </button>
         </div>
         {showPrecisionTip ? (
-          <p className="mt-2 rounded-xl border border-cyan-500/50 bg-cyan-400/10 px-4 py-3 text-xs leading-relaxed text-cyan-400">
+          <p className="mt-3 rounded-xl border border-cyan-500/30 bg-cyan-400/10 px-4 py-3 text-xs leading-relaxed text-cyan-300">
             系統依據你完成的{" "}
             <span className="font-semibold">{report.questionCount} 條</span>{" "}
             自適應題目動態推算。答題越多、涵蓋難度越廣，預測越精準；疑似瞎猜題會略為降低精準度。
           </p>
         ) : null}
-
-        <div className="mt-5 grid gap-3 sm:grid-cols-3">
-          <MiniStat
-            label="整體正確率"
-            value={`${Math.round(report.overallAccuracy * 100)}%`}
-            hint={`答對 ${correct}/${report.questionCount} 題`}
-          />
-          <MiniStat
-            label="診斷用時"
-            value={formatDuration(report.totalTimeMs)}
-            hint={
-              report.scopeLabels.length > 1
-                ? `${report.scopeLabels.length} 篇範文`
-                : (report.scopeLabels[0] ?? "—")
-            }
-          />
-          <MiniStat
-            label="風險標記"
-            value={`${report.luckyGuesses.length + report.overthinking.length}`}
-            hint="瞎猜／思考過久"
-          />
-        </div>
       </section>
 
       {/* Section A — Article mastery */}
@@ -565,20 +562,42 @@ function MiniStat({
   label,
   value,
   hint,
+  icon,
+  accent,
+  progress,
 }: {
   label: string;
   value: string;
   hint: string;
+  icon?: ReactNode;
+  accent?: boolean;
+  progress?: number;
 }) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-zinc-900 px-4 py-3">
-      <p className="text-[11px] font-medium tracking-wide text-zinc-400 uppercase">
+    <div className="relative rounded-xl border border-white/10 bg-zinc-900 p-5 shadow-lg">
+      {icon ? (
+        <span className="absolute right-4 top-4 opacity-80">{icon}</span>
+      ) : null}
+      <p className="text-[11px] font-medium tracking-[0.16em] text-zinc-500 uppercase">
         {label}
       </p>
-      <p className="mt-1 font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
+      <p
+        className={cn(
+          "mt-2 font-[family-name:var(--font-display)] text-2xl font-extrabold",
+          accent ? "text-cyan-400" : "text-zinc-100",
+        )}
+      >
         {value}
       </p>
-      <p className="mt-1 text-xs text-zinc-400">{hint}</p>
+      <p className="mt-1 text-xs leading-relaxed text-zinc-400">{hint}</p>
+      {typeof progress === "number" ? (
+        <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-800">
+          <div
+            className="h-full rounded-full bg-cyan-400 transition-all duration-300"
+            style={{ width: `${Math.min(100, progress)}%` }}
+          />
+        </div>
+      ) : null}
     </div>
   );
 }

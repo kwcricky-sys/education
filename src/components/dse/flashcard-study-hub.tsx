@@ -3,11 +3,12 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   Check,
-  ChevronLeft,
   ChevronRight,
+  Eye,
   List,
   RotateCcw,
-  X,
+  Smile,
+  Frown,
 } from "lucide-react";
 import {
   DIFFICULTY_LABEL,
@@ -19,6 +20,8 @@ import { cn } from "@/lib/utils";
 
 type Mode = "flash" | "list";
 type Filter = QuizDifficulty | "all";
+
+const LETTERS = ["A", "B", "C", "D", "E", "F"] as const;
 
 export function FlashcardStudyHub({
   questions,
@@ -163,120 +166,125 @@ export function FlashcardStudyHub({
         </div>
       </div>
 
-      <div className="space-y-2">
-        <div className="flex items-center justify-between text-xs text-zinc-500">
-          <span>
-            {total === 0 ? "沒有題目" : `${index + 1} / ${total}`}
-          </span>
-          <span>
-            記牢 {known.size} · 記錯 {missed.size}
-          </span>
-        </div>
-        <div className="h-1.5 overflow-hidden rounded-full bg-zinc-800">
-          <div
-            className="dse-progress h-full rounded-full transition-[width] duration-300"
-            style={{ width: `${progress}%` }}
-          />
-        </div>
-      </div>
-
       {mode === "flash" && current ? (
-        <div className="space-y-4">
-          <button
-            type="button"
-            onClick={() => setFlipped((v) => !v)}
-            className="group relative mx-auto block w-full max-w-2xl text-left outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
-            style={{ perspective: 1200 }}
-            aria-label={flipped ? "顯示題目" : "顯示答案"}
-          >
-            <div className="relative h-[min(420px,58vh)] w-full">
-              <div className={cn("dse-flip-inner", flipped && "is-flipped")}>
-                <div className="dse-card-face flex flex-col rounded-xl border border-white/10 bg-zinc-900 p-5 shadow-lg sm:p-8">
-                  <div className="flex flex-wrap items-center gap-2 text-xs">
-                    <span className="rounded-md bg-cyan-400/10 px-2 py-1 text-cyan-400">
-                      {current.id}
-                    </span>
-                    <span
-                      className={cn(
-                        "rounded-md bg-zinc-800/80 px-2 py-1 font-medium",
-                        DIFFICULTY_LABEL[current.difficulty].className,
-                      )}
-                    >
-                      {DIFFICULTY_LABEL[current.difficulty].zh}
-                    </span>
-                    <span className="rounded-md bg-zinc-800/80 px-2 py-1 text-zinc-400">
-                      {current.category}
-                    </span>
-                  </div>
-                  <p className="mt-6 flex-1 text-base leading-relaxed text-zinc-100 sm:text-lg">
-                    {current.question}
-                  </p>
-                  <ul className="mt-4 space-y-1.5 text-sm leading-relaxed text-zinc-400">
-                    {current.options.map((opt) => (
-                      <li key={opt}>{opt}</li>
-                    ))}
-                  </ul>
-                  <p className="mt-auto pt-6 text-center text-xs text-zinc-500">
-                    點擊或按 Space 翻牌
-                  </p>
-                </div>
-
-                <div className="dse-card-face dse-card-back flex flex-col rounded-xl border border-cyan-400/20 bg-zinc-900 p-5 shadow-lg sm:p-8">
-                  <p className="text-xs font-semibold tracking-wide text-cyan-400 uppercase">
-                    答案
-                  </p>
-                  <p className="mt-3 text-lg font-semibold leading-relaxed text-zinc-100 sm:text-xl">
-                    {current.answer}
-                  </p>
-                  <div className="mt-5 flex-1 overflow-y-auto">
-                    <p className="text-sm leading-relaxed text-zinc-400">
-                      {current.explanation}
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div className="mx-auto max-w-2xl space-y-4">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex flex-wrap items-center gap-2 text-xs">
+              <span className="rounded-md bg-cyan-400 px-2 py-1 font-bold text-zinc-950">
+                {current.id}
+              </span>
+              <span className="rounded-md border border-white/10 bg-zinc-900 px-2 py-1 text-zinc-400">
+                {DIFFICULTY_LABEL[current.difficulty].zh}
+              </span>
+              <span className="rounded-md border border-white/10 bg-zinc-900 px-2 py-1 text-zinc-400">
+                {current.category}
+              </span>
             </div>
-          </button>
+            <span className="text-[11px] font-medium tracking-wide text-zinc-500 uppercase">
+              {index + 1} / {total}
+            </span>
+          </div>
 
-          <div className="mx-auto flex max-w-2xl items-center justify-between gap-2">
+          <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
+            <p className="text-[11px] font-semibold tracking-[0.2em] text-zinc-500 uppercase">
+              {flipped ? "Answer Reveal" : "Question Fragment"}
+            </p>
+            {!flipped ? (
+              <>
+                <p className="mt-4 text-lg leading-relaxed text-zinc-100 sm:text-xl">
+                  {current.question}
+                </p>
+                <div className="mt-6 space-y-2.5">
+                  {current.options.map((opt, i) => (
+                    <div
+                      key={opt}
+                      className="flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-950/50 px-4 py-3.5 transition-all duration-300"
+                    >
+                      <span className="flex size-8 shrink-0 items-center justify-center rounded-md border border-white/10 bg-zinc-900 text-xs font-bold text-zinc-400">
+                        {LETTERS[i] ?? i + 1}
+                      </span>
+                      <span className="text-sm leading-relaxed text-zinc-200">
+                        {opt}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+                <p className="mt-5 text-center text-[11px] tracking-wide text-zinc-600 uppercase">
+                  Select mentally · Press Space to flip
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="mt-4 text-lg font-semibold leading-relaxed text-cyan-400 sm:text-xl">
+                  {current.answer}
+                </p>
+                <p className="mt-4 text-sm leading-relaxed text-zinc-400">
+                  {current.explanation}
+                </p>
+              </>
+            )}
+          </div>
+
+          {/* Progress strip */}
+          <div className="rounded-xl border border-white/10 bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md">
+            <div className="h-2 overflow-hidden rounded-full bg-zinc-800">
+              <div
+                className="h-full rounded-full bg-cyan-400 transition-[width] duration-300"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+            <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
+              <div className="flex gap-4">
+                <span className="inline-flex items-center gap-1.5 text-emerald-400">
+                  <Check className="size-3.5" />
+                  {known.size} Mastery
+                </span>
+                <span className="inline-flex items-center gap-1.5 text-rose-400">
+                  <Frown className="size-3.5" />
+                  {missed.size} Review
+                </span>
+              </div>
+              <span className="font-medium text-cyan-400">
+                Progress: {Math.round(progress)}%
+              </span>
+            </div>
+          </div>
+
+          {/* Action bar */}
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
             <button
               type="button"
-              onClick={() => go(index - 1)}
-              className="inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-900 hover:text-zinc-100"
+              onClick={() => setFlipped((v) => !v)}
+              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-all duration-300 hover:border-white/20 hover:bg-zinc-800"
             >
-              <ChevronLeft className="size-4" />
-              上一題
+              <Eye className="size-4" />
+              翻牌 [Space]
             </button>
-            <div className="flex gap-2">
-              <button
-                type="button"
-                onClick={markMissed}
-                className="inline-flex items-center gap-1.5 rounded-lg bg-rose-500/10 px-3 py-2 text-sm font-medium text-rose-300 ring-1 ring-rose-500/25 transition hover:bg-rose-500/20"
-              >
-                <X className="size-4" />
-                記錯
-              </button>
-              <button
-                type="button"
-                onClick={markKnown}
-                className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-500/10 px-3 py-2 text-sm font-medium text-emerald-300 ring-1 ring-emerald-500/25 transition hover:bg-emerald-500/20"
-              >
-                <Check className="size-4" />
-                記牢
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={markKnown}
+              className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-400/5 px-5 py-2.5 text-sm font-semibold text-emerald-400 transition-all duration-300 hover:bg-emerald-400/10"
+            >
+              <Smile className="size-4" />
+              記牢
+            </button>
+            <button
+              type="button"
+              onClick={markMissed}
+              className="inline-flex items-center gap-2 rounded-full border border-rose-400/40 bg-rose-400/5 px-5 py-2.5 text-sm font-semibold text-rose-400 transition-all duration-300 hover:bg-rose-400/10"
+            >
+              <Frown className="size-4" />
+              記錯
+            </button>
             <button
               type="button"
               onClick={() => go(index + 1)}
-              className="inline-flex items-center gap-1 rounded-lg px-3 py-2 text-sm text-zinc-400 transition hover:bg-zinc-900 hover:text-zinc-100"
+              className="inline-flex size-11 items-center justify-center rounded-full border border-white/10 bg-zinc-900 text-zinc-300 transition-all duration-300 hover:border-cyan-500/40 hover:text-cyan-400"
+              aria-label="下一題"
             >
-              下一題
-              <ChevronRight className="size-4" />
+              <ChevronRight className="size-5" />
             </button>
           </div>
-          <p className="text-center text-xs text-zinc-600">
-            快捷鍵：Space 翻牌 · ← → 切換
-          </p>
         </div>
       ) : null}
 
@@ -294,7 +302,9 @@ export function FlashcardStudyHub({
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex flex-wrap items-center gap-2 text-xs">
-                    <span className="text-zinc-500">{q.id}</span>
+                    <span className="rounded-md bg-cyan-400/10 px-2 py-0.5 font-semibold text-cyan-400">
+                      {q.id}
+                    </span>
                     <span
                       className={cn(
                         "font-medium",

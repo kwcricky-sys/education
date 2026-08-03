@@ -23,16 +23,8 @@ export default function DseLayout({
             href="/dse"
             className="group flex items-center gap-3 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/50"
           >
-            <span className="flex size-9 items-center justify-center rounded-xl bg-cyan-400/10 font-[family-name:var(--font-display)] text-sm font-extrabold text-cyan-400 ring-1 ring-cyan-400/25">
-              H
-            </span>
-            <span className="flex flex-col leading-tight">
-              <span className="font-[family-name:var(--font-display)] text-sm font-bold tracking-tight text-zinc-100 sm:text-[15px]">
-                {SITE_NAME}
-              </span>
-              <span className="hidden text-[11px] text-zinc-500 sm:block">
-                {SITE_TAGLINE}
-              </span>
+            <span className="font-[family-name:var(--font-display)] text-base font-extrabold tracking-tight text-cyan-400 sm:text-lg">
+              {SITE_NAME}
             </span>
           </Link>
 

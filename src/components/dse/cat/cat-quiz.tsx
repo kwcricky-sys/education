@@ -6,10 +6,12 @@ import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 import { useCatSession } from "@/store/cat-session";
 import { cn } from "@/lib/utils";
 
+const LETTERS = ["A", "B", "C", "D", "E", "F"] as const;
+
 const DIFF_PILL: Record<string, string> = {
-  easy: "bg-emerald-400/10 text-emerald-400 border-emerald-400/20",
-  medium: "bg-amber-400/10 text-amber-400 border-amber-400/20",
-  hard: "bg-rose-400/10 text-rose-400 border-rose-400/20",
+  easy: "border-white/10 bg-zinc-900 text-zinc-400",
+  medium: "border-white/10 bg-zinc-900 text-amber-400",
+  hard: "border-white/10 bg-zinc-900 text-rose-400",
 };
 
 export function CatQuiz() {
@@ -28,6 +30,18 @@ export function CatQuiz() {
     setSubmitting(false);
   }, [current?.uid]);
 
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (!current || submitting) return;
+      const n = Number(e.key);
+      if (n >= 1 && n <= current.options.length) {
+        setSelected(current.options[n - 1] ?? null);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [current, submitting]);
+
   if (!current) {
     return (
       <p className="rounded-2xl border border-white/10 bg-zinc-900/80 p-8 text-center text-sm leading-relaxed text-zinc-400 shadow-lg backdrop-blur-md">
@@ -39,6 +53,8 @@ export function CatQuiz() {
   const progressIndex = answers.length + 1;
   const progressMax = Math.max(targetCount, progressIndex);
   const progressPct = (answers.length / progressMax) * 100;
+  const correctSoFar = answers.filter((a) => a.isCorrect).length;
+  const wrongSoFar = answers.length - correctSoFar;
 
   const onSubmit = () => {
     if (!selected || submitting) return;
@@ -49,63 +65,54 @@ export function CatQuiz() {
   };
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6">
-      <div className="space-y-2">
-        <div className="flex items-center justify-between text-xs text-zinc-400">
-          <span>
-            {sessionKind === "adaptive"
-              ? `第 ${progressIndex} / ~${targetCount} 題`
-              : `第 ${progressIndex} / ${targetCount} 題`}
-            {sessionKind === "remediation"
-              ? " · 專攻特訓"
-              : sessionKind === "mistake-retest"
-                ? " · 錯題重測"
-                : ""}
-          </span>
-          <span className="font-medium text-cyan-400">診斷進行中</span>
-        </div>
-        <div className="h-2 overflow-hidden rounded-full bg-zinc-800">
-          <div
-            className="dse-cat-progress h-full rounded-full transition-[width] duration-300"
-            style={{ width: `${Math.min(100, progressPct)}%` }}
-          />
-        </div>
-      </div>
-
-      <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
+    <div className="mx-auto max-w-2xl space-y-4">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-2 text-xs">
+          <span className="rounded-md bg-cyan-400 px-2 py-1 font-bold text-zinc-950">
+            Q{String(progressIndex).padStart(3, "0")}
+          </span>
           <span
             className={cn(
-              "rounded-md border px-2 py-1 font-semibold",
+              "rounded-md border px-2 py-1 font-medium",
               DIFF_PILL[current.difficulty],
             )}
           >
             {DIFFICULTY_LABEL[current.difficulty].zh}
           </span>
-          <span className="rounded-md border border-white/10 bg-zinc-800/50 px-2 py-1 text-zinc-400">
+          <span className="rounded-md border border-white/10 bg-zinc-900 px-2 py-1 text-zinc-400">
             {current.category}
           </span>
-          <span className="rounded-md border border-white/10 bg-zinc-800/50 px-2 py-1 text-zinc-500">
+          <span className="rounded-md border border-white/10 bg-zinc-900 px-2 py-1 text-zinc-500">
             {current.textLabel}
           </span>
         </div>
+        <span className="text-[11px] font-medium tracking-wide text-zinc-500 uppercase">
+          {sessionKind === "adaptive"
+            ? `${progressIndex} / ~${targetCount}`
+            : `${progressIndex} / ${targetCount}`}
+        </span>
+      </div>
 
-        <p className="mt-6 text-base leading-relaxed text-zinc-100 sm:text-lg">
+      <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
+        <p className="text-[11px] font-semibold tracking-[0.2em] text-zinc-500 uppercase">
+          Question Fragment
+        </p>
+        <p className="mt-4 text-lg leading-relaxed text-zinc-100 sm:text-xl">
           {current.question}
         </p>
 
         <fieldset className="mt-6 space-y-2.5" disabled={submitting}>
           <legend className="sr-only">選擇答案</legend>
-          {current.options.map((opt) => {
+          {current.options.map((opt, i) => {
             const active = selected === opt;
             return (
               <label
                 key={opt}
                 className={cn(
-                  "flex cursor-pointer items-start gap-3 rounded-xl border px-4 py-3.5 text-sm transition-all duration-300",
+                  "flex cursor-pointer items-center gap-3 rounded-xl border px-4 py-3.5 text-sm transition-all duration-300",
                   active
-                    ? "border-cyan-500/50 bg-cyan-400/10 text-zinc-100 shadow-lg"
-                    : "border-zinc-700 bg-zinc-800/50 text-zinc-300 hover:border-cyan-500/50 hover:bg-zinc-800",
+                    ? "border-cyan-500/50 bg-cyan-400/10 text-zinc-100 shadow-[0_0_20px_rgba(34,211,238,0.12)]"
+                    : "border-white/10 bg-zinc-950/50 text-zinc-300 hover:border-cyan-500/40 hover:bg-zinc-800/60",
                 )}
               >
                 <input
@@ -114,15 +121,29 @@ export function CatQuiz() {
                   value={opt}
                   checked={active}
                   onChange={() => setSelected(opt)}
-                  className="mt-1 accent-cyan-400"
+                  className="sr-only"
                 />
+                <span
+                  className={cn(
+                    "flex size-8 shrink-0 items-center justify-center rounded-md border text-xs font-bold",
+                    active
+                      ? "border-cyan-400 bg-cyan-400 text-zinc-950"
+                      : "border-white/10 bg-zinc-900 text-zinc-400",
+                  )}
+                >
+                  {LETTERS[i] ?? i + 1}
+                </span>
                 <span className="leading-relaxed">{opt}</span>
               </label>
             );
           })}
         </fieldset>
 
-        <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-dashed border-amber-400/25 bg-amber-400/5 px-4 py-3 text-sm text-amber-200/90 transition-all duration-300">
+        <p className="mt-4 text-center text-[11px] tracking-wide text-zinc-600 uppercase">
+          Select an option or press [1–{current.options.length}]
+        </p>
+
+        <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-dashed border-amber-400/25 bg-amber-400/5 px-4 py-3 text-sm text-amber-200/90">
           <input
             type="checkbox"
             checked={markedUnsure}
@@ -132,23 +153,41 @@ export function CatQuiz() {
           <span className="leading-relaxed">
             <span className="inline-flex items-center gap-1 font-semibold text-amber-300">
               <HelpCircle className="size-3.5" />
-              我不是很確定（Not Sure / Guessing）
+              我不是很確定（Not Sure）
             </span>
             <span className="mt-0.5 block text-xs text-zinc-400">
               勾選後仍會計分，但不會讓系統過快推高難度。
             </span>
           </span>
         </label>
-
-        <button
-          type="button"
-          onClick={onSubmit}
-          disabled={!selected || submitting}
-          className="mt-6 w-full rounded-2xl bg-cyan-400 px-5 py-3.5 text-sm font-bold text-zinc-950 shadow-lg shadow-cyan-400/20 transition-all duration-300 hover:bg-cyan-300 disabled:cursor-not-allowed disabled:opacity-40"
-        >
-          {submitting ? "出下一題…" : "提交答案"}
-        </button>
       </div>
+
+      <div className="rounded-xl border border-white/10 bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md">
+        <div className="h-2 overflow-hidden rounded-full bg-zinc-800">
+          <div
+            className="h-full rounded-full bg-cyan-400 transition-[width] duration-300"
+            style={{ width: `${Math.min(100, progressPct)}%` }}
+          />
+        </div>
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div className="flex gap-4">
+            <span className="text-emerald-400">{correctSoFar} Mastery</span>
+            <span className="text-rose-400">{wrongSoFar} Review</span>
+          </div>
+          <span className="font-medium text-cyan-400">
+            Progress: {Math.round(Math.min(100, progressPct))}%
+          </span>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        onClick={onSubmit}
+        disabled={!selected || submitting}
+        className="w-full rounded-xl bg-cyan-400 px-5 py-3.5 text-sm font-bold text-zinc-950 shadow-[0_0_24px_rgba(34,211,238,0.3)] transition-all duration-300 hover:bg-cyan-300 disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none"
+      >
+        {submitting ? "出下一題…" : "提交答案"}
+      </button>
     </div>
   );
 }
