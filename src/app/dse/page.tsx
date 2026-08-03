@@ -50,10 +50,9 @@ const SUBJECT_META: Record<
 };
 
 const STATS = [
-  { label: "FLASHCARDS", value: "720+", tone: "text-sky-400" },
-  { label: "CAT DIAGNOSTICS", value: "本地引擎", tone: "text-emerald-400" },
+  { label: "閃卡題庫", value: "720+", tone: "text-sky-400" },
+  { label: "CAT 診斷", value: "本地引擎", tone: "text-emerald-400" },
   { label: "範文覆蓋", value: "12 篇", tone: "text-zinc-100" },
-  { label: "DAYS TO EXAM", value: "備戰中", tone: "text-rose-400" },
 ] as const;
 
 export default function DseHomePage() {
@@ -73,10 +72,7 @@ export default function DseHomePage() {
           className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(56,189,248,0.16),transparent_55%),radial-gradient(ellipse_at_80%_80%,rgba(99,102,241,0.08),transparent_45%)]"
         />
         <div className="relative">
-          <span className="inline-flex items-center rounded-full border border-sky-400/30 bg-sky-400/10 px-3 py-1 text-[11px] font-bold tracking-[0.18em] text-sky-300 uppercase">
-            2025 EXAM SEASON
-          </span>
-          <h1 className="mt-5 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-5xl">
+          <h1 className="font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-5xl">
             DSE 學習與備考專區
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
@@ -103,7 +99,7 @@ export default function DseHomePage() {
       </section>
 
       {/* Stats */}
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid gap-3 sm:grid-cols-3">
         {STATS.map((s) => (
           <div
             key={s.label}
@@ -127,7 +123,7 @@ export default function DseHomePage() {
           <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100 sm:text-2xl">
             主修與選修科目
           </h2>
-          <span className="text-xs font-medium text-zinc-500">View All</span>
+          <span className="text-xs font-medium text-zinc-500">全部科目</span>
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
           {DSE_SUBJECTS.map((s) => {
@@ -148,12 +144,12 @@ export default function DseHomePage() {
                   <span className="flex flex-wrap items-center gap-2">
                     <span className="font-semibold text-zinc-100">{s.name}</span>
                     {s.open ? (
-                      <span className="rounded-md bg-emerald-400/10 px-2 py-0.5 text-[10px] font-bold tracking-wide text-emerald-400 uppercase">
-                        Open
+                      <span className="rounded-md bg-emerald-400/10 px-2 py-0.5 text-[10px] font-bold tracking-wide text-emerald-400">
+                        已開放
                       </span>
                     ) : (
-                      <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-[10px] font-bold tracking-wide text-zinc-500 uppercase">
-                        Soon
+                      <span className="rounded-md bg-zinc-800 px-2 py-0.5 text-[10px] font-bold tracking-wide text-zinc-500">
+                        即將推出
                       </span>
                     )}
                   </span>
@@ -191,8 +187,8 @@ export default function DseHomePage() {
         <div className="rounded-xl border border-white/10 bg-zinc-900 p-6 shadow-lg lg:col-span-3">
           <div className="flex items-center gap-2 text-cyan-400">
             <Sparkles className="size-4" />
-            <p className="text-xs font-bold tracking-[0.16em] uppercase">
-              AI Report
+            <p className="text-xs font-bold tracking-wide">
+              AI 報告
             </p>
           </div>
           <h3 className="mt-3 font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
@@ -213,8 +209,8 @@ export default function DseHomePage() {
         <div className="rounded-xl border border-white/10 bg-zinc-900 p-6 shadow-lg lg:col-span-2">
           <div className="flex items-center gap-2 text-emerald-400">
             <BookMarked className="size-4" />
-            <p className="text-xs font-bold tracking-[0.16em] uppercase">
-              Progress
+            <p className="text-xs font-bold tracking-wide">
+              學習進度
             </p>
           </div>
           <h3 className="mt-3 font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
@@ -225,7 +221,7 @@ export default function DseHomePage() {
           </p>
           <div className="mt-5">
             <div className="mb-2 flex items-center justify-between text-xs text-zinc-500">
-              <span>Flashcard Ready</span>
+              <span>閃卡就緒</span>
               <span className="font-medium text-zinc-300">本地就緒</span>
             </div>
             <div className="h-2 overflow-hidden rounded-full bg-zinc-800">

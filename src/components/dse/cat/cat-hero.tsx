@@ -16,7 +16,7 @@ export function CatHero() {
       <div className="relative">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3.5 py-1 text-[11px] font-bold tracking-[0.18em] text-cyan-400 uppercase">
           <Sparkles className="size-3" />
-          Adaptive Engine V2.0
+          自適應引擎 V2.0
         </span>
         <h1 className="mt-5 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-4xl">
           DSE 中文範文

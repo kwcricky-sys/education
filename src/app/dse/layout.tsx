@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Activity, ArrowLeft, BookMarked, BookOpen } from "lucide-react";
+import { SiteFooter } from "@/components/site/site-footer";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -16,7 +17,7 @@ export default function DseLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="dse-root dark min-h-screen text-slate-100 antialiased">
+    <div className="dse-root dark flex min-h-screen flex-col text-zinc-100 antialiased">
       <header className="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/80 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
           <Link
@@ -64,20 +65,11 @@ export default function DseLayout({
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6 sm:py-10">
         {children}
       </main>
 
-      <footer className="border-t border-white/10 py-8">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 text-sm text-zinc-400 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <p>
-            © {new Date().getFullYear()} {SITE_NAME} · {SITE_TAGLINE}
-          </p>
-          <p className="text-xs text-zinc-500">
-            學術練習用途 · 非考評局官方教材
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

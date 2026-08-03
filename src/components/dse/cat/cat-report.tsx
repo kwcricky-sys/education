@@ -112,11 +112,11 @@ export function CatReport() {
   return (
     <div className="space-y-8">
       <div>
-        <p className="text-xs font-semibold tracking-[0.2em] text-cyan-400 uppercase">
-          Diagnostic Complete
+        <p className="text-xs font-semibold tracking-[0.18em] text-cyan-400">
+          診斷完成
         </p>
         <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-4xl">
-          Performance Report
+          診斷報告
         </h1>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">
           {report.predictedGrade.rationale}
@@ -125,14 +125,14 @@ export function CatReport() {
 
       <section className="grid gap-3 sm:grid-cols-3">
         <MiniStat
-          label="Expected Level"
+          label="預估等級"
           value={report.predictedGrade.label}
           hint={`精準度 ${precision.label} · ${precision.percent}%`}
           icon={<Target className="size-4 text-cyan-400" />}
           accent
         />
         <MiniStat
-          label="Time Taken"
+          label="診斷用時"
           value={formatDuration(report.totalTimeMs)}
           hint={
             report.scopeLabels.length > 1
@@ -142,7 +142,7 @@ export function CatReport() {
           icon={<Clock3 className="size-4 text-zinc-400" />}
         />
         <MiniStat
-          label="Accuracy"
+          label="正確率"
           value={`${accuracyPct}%`}
           hint={`答對 ${correct}/${report.questionCount} 題`}
           icon={<Sparkles className="size-4 text-cyan-400" />}
@@ -578,7 +578,7 @@ function MiniStat({
       {icon ? (
         <span className="absolute right-4 top-4 opacity-80">{icon}</span>
       ) : null}
-      <p className="text-[11px] font-medium tracking-[0.16em] text-zinc-500 uppercase">
+      <p className="text-[11px] font-medium tracking-wide text-zinc-500">
         {label}
       </p>
       <p

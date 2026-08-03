@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { createPageMetadata } from "@/lib/page-metadata";
-import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
 
 export const metadata = createPageMetadata({
-  title: `${SITE_NAME}｜用 AI Hack 穿你嘅 DSE 盲點`,
-  description: `${SITE_NAME} — ${SITE_TAGLINE}。全港首創 AI CAT 適應性評估系統 ✕ 範文記憶閃卡，精準算出你嘅真心 Level。`,
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   path: "/",
   keywords: [
     "DSE.hack",
@@ -13,8 +13,11 @@ export const metadata = createPageMetadata({
     "CAT",
     "適應性評估",
     "範文閃卡",
+    "Flashcards",
     "DSE 中文",
+    "文言文",
     "AI 診斷",
+    "5**",
   ],
 });
 

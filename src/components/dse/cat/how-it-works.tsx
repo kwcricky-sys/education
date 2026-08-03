@@ -43,8 +43,8 @@ export function HowItWorks() {
         aria-expanded={open}
       >
         <span>
-          <span className="block text-xs font-semibold tracking-[0.18em] text-cyan-400 uppercase">
-            How it works
+          <span className="block text-xs font-semibold tracking-wide text-cyan-400">
+            運作原理
           </span>
           <span className="mt-1 block font-[family-name:var(--font-display)] text-lg font-bold text-zinc-100 sm:text-xl">
             什麼是「自適應診斷（Adaptive Test）」？

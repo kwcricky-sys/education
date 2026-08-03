@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
-import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
-export const alt = `${SITE_NAME} — ${SITE_TAGLINE}`;
+export const alt = SITE_DESCRIPTION;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -58,11 +58,13 @@ export default function OpenGraphImage() {
         <div
           style={{
             marginTop: 28,
-            fontSize: 20,
+            fontSize: 18,
             color: "#64748b",
+            maxWidth: 900,
+            lineHeight: 1.4,
           }}
         >
-          {SITE_TAGLINE}
+          AI CAT 適應性評估 · 12 篇範文閃卡
         </div>
       </div>
     ),

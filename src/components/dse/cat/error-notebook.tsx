@@ -63,8 +63,8 @@ export function ErrorNotebook() {
         </Link>
         <div className="mt-4 flex flex-wrap items-end justify-between gap-4">
           <div>
-            <p className="text-xs font-semibold tracking-[0.2em] text-cyan-400 uppercase">
-              Spaced Review
+            <p className="text-xs font-semibold tracking-wide text-cyan-400">
+              間隔複習
             </p>
             <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-bold text-zinc-100">
               錯題本

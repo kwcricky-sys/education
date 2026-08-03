@@ -128,8 +128,8 @@ export function CatSetup() {
 
       <div className="flex flex-col gap-4 rounded-xl border border-white/10 bg-zinc-900/80 p-5 shadow-lg backdrop-blur-md sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-xs font-semibold tracking-[0.16em] text-zinc-500 uppercase">
-            Question Count
+          <p className="text-xs font-semibold tracking-wide text-zinc-500">
+            診斷題數
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
             {[CAT_MIN_ITEMS, CAT_DEFAULT_TARGET, CAT_MAX_ITEMS].map((n) => (

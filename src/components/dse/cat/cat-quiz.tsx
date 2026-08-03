@@ -94,10 +94,7 @@ export function CatQuiz() {
       </div>
 
       <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
-        <p className="text-[11px] font-semibold tracking-[0.2em] text-zinc-500 uppercase">
-          Question Fragment
-        </p>
-        <p className="mt-4 text-lg leading-relaxed text-zinc-100 sm:text-xl">
+        <p className="text-lg leading-relaxed text-zinc-100 sm:text-xl">
           {current.question}
         </p>
 
@@ -139,10 +136,6 @@ export function CatQuiz() {
           })}
         </fieldset>
 
-        <p className="mt-4 text-center text-[11px] tracking-wide text-zinc-600 uppercase">
-          Select an option or press [1–{current.options.length}]
-        </p>
-
         <label className="mt-5 flex cursor-pointer items-start gap-3 rounded-xl border border-dashed border-amber-400/25 bg-amber-400/5 px-4 py-3 text-sm text-amber-200/90">
           <input
             type="checkbox"
@@ -153,7 +146,7 @@ export function CatQuiz() {
           <span className="leading-relaxed">
             <span className="inline-flex items-center gap-1 font-semibold text-amber-300">
               <HelpCircle className="size-3.5" />
-              我不是很確定（Not Sure）
+              我不是很確定
             </span>
             <span className="mt-0.5 block text-xs text-zinc-400">
               勾選後仍會計分，但不會讓系統過快推高難度。
@@ -171,11 +164,11 @@ export function CatQuiz() {
         </div>
         <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
           <div className="flex gap-4">
-            <span className="text-emerald-400">{correctSoFar} Mastery</span>
-            <span className="text-rose-400">{wrongSoFar} Review</span>
+            <span className="text-emerald-400">記牢 {correctSoFar}</span>
+            <span className="text-rose-400">記錯 {wrongSoFar}</span>
           </div>
           <span className="font-medium text-cyan-400">
-            Progress: {Math.round(Math.min(100, progressPct))}%
+            進度 {Math.round(Math.min(100, progressPct))}%
           </span>
         </div>
       </div>

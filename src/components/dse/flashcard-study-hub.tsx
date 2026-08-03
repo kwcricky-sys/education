@@ -186,12 +186,9 @@ export function FlashcardStudyHub({
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
-            <p className="text-[11px] font-semibold tracking-[0.2em] text-zinc-500 uppercase">
-              {flipped ? "Answer Reveal" : "Question Fragment"}
-            </p>
             {!flipped ? (
               <>
-                <p className="mt-4 text-lg leading-relaxed text-zinc-100 sm:text-xl">
+                <p className="text-lg leading-relaxed text-zinc-100 sm:text-xl">
                   {current.question}
                 </p>
                 <div className="mt-6 space-y-2.5">
@@ -209,13 +206,10 @@ export function FlashcardStudyHub({
                     </div>
                   ))}
                 </div>
-                <p className="mt-5 text-center text-[11px] tracking-wide text-zinc-600 uppercase">
-                  Select mentally · Press Space to flip
-                </p>
               </>
             ) : (
               <>
-                <p className="mt-4 text-lg font-semibold leading-relaxed text-cyan-400 sm:text-xl">
+                <p className="text-lg font-semibold leading-relaxed text-cyan-400 sm:text-xl">
                   {current.answer}
                 </p>
                 <p className="mt-4 text-sm leading-relaxed text-zinc-400">
@@ -237,15 +231,15 @@ export function FlashcardStudyHub({
               <div className="flex gap-4">
                 <span className="inline-flex items-center gap-1.5 text-emerald-400">
                   <Check className="size-3.5" />
-                  {known.size} Mastery
+                  記牢 {known.size}
                 </span>
                 <span className="inline-flex items-center gap-1.5 text-rose-400">
                   <Frown className="size-3.5" />
-                  {missed.size} Review
+                  記錯 {missed.size}
                 </span>
               </div>
               <span className="font-medium text-cyan-400">
-                Progress: {Math.round(progress)}%
+                進度 {Math.round(progress)}%
               </span>
             </div>
           </div>

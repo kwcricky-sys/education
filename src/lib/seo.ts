@@ -1,4 +1,4 @@
-import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export type FaqItem = {
   question: string;
@@ -40,10 +40,10 @@ export function buildWebSiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    alternateName: "StudyPath",
+    alternateName: ["DSE hack", "DSE CAT"],
     url: SITE_URL,
     inLanguage: "zh-HK",
-    description: `${SITE_NAME}｜${SITE_TAGLINE}。DSE 備考練習與範文 AI 診斷室，免費線上學習資源。`,
+    description: SITE_DESCRIPTION,
   };
 }
 

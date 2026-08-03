@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Noto_Sans_TC, Sora } from "next/font/google";
+import { CookieConsent } from "@/components/site/cookie-consent";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildWebSiteJsonLd } from "@/lib/seo";
 import {
   ADSENSE_CLIENT_ID,
+  SITE_DESCRIPTION,
   SITE_NAME,
-  SITE_NAME_EN,
-  SITE_TAGLINE,
+  SITE_TITLE,
   SITE_URL,
 } from "@/lib/site";
 import "./globals.css";
@@ -35,12 +36,24 @@ const displayFont = Sora({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME}｜${SITE_TAGLINE}`,
+    default: SITE_TITLE,
     template: `%s | ${SITE_NAME}`,
   },
-  description: `${SITE_NAME}（${SITE_NAME_EN}）— ${SITE_TAGLINE}。DSE 備考閃卡與範文診斷練習。`,
+  description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   authors: [{ name: SITE_NAME }],
+  keywords: [
+    "DSE.hack",
+    "DSE",
+    "DSE 中文",
+    "CAT",
+    "適應性評估",
+    "範文閃卡",
+    "Flashcards",
+    "文言文",
+    "AI 診斷",
+    "香港 DSE",
+  ],
   other: {
     "google-adsense-account": ADSENSE_CLIENT_ID,
   },
@@ -49,11 +62,17 @@ export const metadata: Metadata = {
     locale: "zh_HK",
     siteName: SITE_NAME,
     url: SITE_URL,
-    title: `${SITE_NAME}｜${SITE_TAGLINE}`,
-    description: `${SITE_TAGLINE}。免費 DSE 中文指定範文練習與自適應診斷。`,
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -79,6 +98,7 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col">
         <JsonLd data={buildWebSiteJsonLd()} />
         {children}
+        <CookieConsent />
       </body>
     </html>
   );
