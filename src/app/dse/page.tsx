@@ -14,13 +14,21 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { DSE_SUBJECTS } from "@/lib/dse/subjects";
 import { createPageMetadata } from "@/lib/page-metadata";
 import { buildBreadcrumbJsonLd } from "@/lib/seo";
-import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { SITE_NAME } from "@/lib/site";
 
 export const metadata = createPageMetadata({
-  title: `DSE 學習與備考專區 | ${SITE_NAME}`,
-  description: `${SITE_NAME}｜${SITE_TAGLINE}。中文科 12 篇指定文言經典閃卡已上線，其餘科目陸續推出。`,
+  title: `DSE 學習與備考專區｜免費溫習工具 vs 補習 | ${SITE_NAME}`,
+  description: `${SITE_NAME} DSE 備考專區：中文 12 篇指定範文閃卡、AI CAT 診斷。搵 DSE 補習推薦前，先免費找出盲點。`,
   path: "/dse",
-  keywords: ["DSE", "DSE 備考", "中文科", "指定範文", "閃卡", "DSE.hack"],
+  keywords: [
+    "DSE",
+    "DSE 備考",
+    "DSE 補習",
+    "中文科",
+    "指定範文",
+    "閃卡",
+    "DSE.hack",
+  ],
 });
 
 const SUBJECT_META: Record<

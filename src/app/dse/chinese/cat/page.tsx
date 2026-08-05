@@ -2,21 +2,22 @@ import { CatApp } from "@/components/dse/cat/cat-app";
 import { JsonLd } from "@/components/seo/json-ld";
 import { createPageMetadata } from "@/lib/page-metadata";
 import { buildBreadcrumbJsonLd, buildFaqJsonLd } from "@/lib/seo";
-import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { SITE_NAME } from "@/lib/site";
 
 const PATH = "/dse/chinese/cat";
 
 export const metadata = createPageMetadata({
-  title: `全港首創 DSE 中文範文 3分鐘極速診斷室 | ${SITE_NAME}`,
-  description: `${SITE_NAME}｜${SITE_TAGLINE}。全港首創 DSE 範文 AI 診斷室：免刷 720 題，動態適應演算法 15 題測出預測等級與知識盲區。`,
+  title: `全港首創 DSE 中文範文 CAT 診斷室｜免費替代盲目補習 | ${SITE_NAME}`,
+  description: `唔使先交 DSE 補習學費：${SITE_NAME} 範文 AI 診斷室用自適應演算法約 15 題測出預測等級與知識盲區，配合 12 篇指定範文閃卡極速溫習。`,
   path: PATH,
   keywords: [
-    "全港首創",
+    "DSE 補習",
     "DSE 範文 AI 診斷室",
     "自適應診斷",
+    "CAT",
     "中文指定範文",
     "DSE 等級預測",
-    "弱點專攻",
+    "免費 DSE 溫習",
     "動態適應演算法",
   ],
 });

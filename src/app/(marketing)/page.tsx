@@ -1,24 +1,13 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { createPageMetadata } from "@/lib/page-metadata";
-import { SITE_DESCRIPTION, SITE_TITLE } from "@/lib/site";
+import { SITE_DESCRIPTION, SITE_KEYWORDS, SITE_TITLE } from "@/lib/site";
 
 export const metadata = createPageMetadata({
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
   path: "/",
-  keywords: [
-    "DSE.hack",
-    "DSE",
-    "CAT",
-    "適應性評估",
-    "範文閃卡",
-    "Flashcards",
-    "DSE 中文",
-    "文言文",
-    "AI 診斷",
-    "5**",
-  ],
+  keywords: [...SITE_KEYWORDS],
 });
 
 export default function HomePage() {
@@ -50,8 +39,8 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-sm leading-relaxed text-zinc-400 sm:text-base">
-              專為 DSE 考生打造——結合 CAT (Computerized Adaptive Testing)
-              智能演算法 ✕ 記憶閃卡，精準算出你嘅真心 Level，強行拉高 Cutoff。
+              搵 DSE 補習之前，先用 CAT 自適應診斷 ✕ 12
+              篇指定範文閃卡，精準算出你嘅真心 Level——免費、極速、專為香港考生。
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">
@@ -71,7 +60,13 @@ export default function HomePage() {
             </div>
 
             <p className="mt-6 text-xs font-medium leading-relaxed text-zinc-500 sm:text-sm">
-              ✨ 零廣告 · 免費使用 · 支援手機 9:16 極速刷題
+              免費使用 · 本機進度 · 支援手機極速刷題 ·{" "}
+              <Link
+                href="/guides/dse-buxi"
+                className="text-cyan-400 underline-offset-2 hover:underline"
+              >
+                DSE 補習選擇指南
+              </Link>
             </p>
           </div>
         </section>

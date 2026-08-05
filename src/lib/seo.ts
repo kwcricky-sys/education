@@ -40,7 +40,7 @@ export function buildWebSiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    alternateName: ["DSE hack", "DSE CAT"],
+    alternateName: ["DSE hack", "DSE CAT", "DSE 補習 免費工具"],
     url: SITE_URL,
     inLanguage: "zh-HK",
     description: SITE_DESCRIPTION,

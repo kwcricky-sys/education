@@ -53,6 +53,12 @@ export function SiteFooter() {
               >
                 CAT 診斷室
               </Link>
+              <Link
+                href="/guides/dse-buxi"
+                className="block font-medium text-zinc-400 transition-colors duration-300 hover:text-cyan-400"
+              >
+                DSE 補習指南
+              </Link>
             </div>
             <div className="space-y-2.5">
               <p className="text-xs font-semibold tracking-wider text-zinc-500">

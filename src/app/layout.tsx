@@ -7,6 +7,7 @@ import { buildWebSiteJsonLd } from "@/lib/seo";
 import {
   ADSENSE_CLIENT_ID,
   SITE_DESCRIPTION,
+  SITE_KEYWORDS,
   SITE_NAME,
   SITE_TITLE,
   SITE_URL,
@@ -46,6 +47,7 @@ export const metadata: Metadata = {
     "DSE.hack",
     "DSE",
     "DSE 中文",
+    "DSE 補習",
     "CAT",
     "適應性評估",
     "範文閃卡",
@@ -53,6 +55,7 @@ export const metadata: Metadata = {
     "文言文",
     "AI 診斷",
     "香港 DSE",
+    ...SITE_KEYWORDS,
   ],
   other: {
     "google-adsense-account": ADSENSE_CLIENT_ID,
