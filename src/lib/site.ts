@@ -1,5 +1,5 @@
 /** Replace SITE_URL with your production domain before launch. */
-export const SITE_URL = "https://studypath.hk";
+export const SITE_URL = "https://dse.hkxoptima.com";
 export const SITE_NAME = "DSE.hack";
 export const SITE_NAME_EN = "DSE.hack";
 /** Brand descriptor — shown under the name across the site. */
