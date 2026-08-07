@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Inter, Noto_Sans_TC, Sora } from "next/font/google";
 import { CookieConsent } from "@/components/site/cookie-consent";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildWebSiteJsonLd } from "@/lib/seo";
 import {
-  ADSENSE_CLIENT_ID,
   SITE_DESCRIPTION,
   SITE_KEYWORDS,
   SITE_NAME,
@@ -57,9 +55,6 @@ export const metadata: Metadata = {
     "香港 DSE",
     ...SITE_KEYWORDS,
   ],
-  other: {
-    "google-adsense-account": ADSENSE_CLIENT_ID,
-  },
   openGraph: {
     type: "website",
     locale: "zh_HK",
@@ -90,12 +85,9 @@ export default function RootLayout({
       className={`${sansFont.variable} ${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
     >
       <head>
-        <meta name="google-adsense-account" content={ADSENSE_CLIENT_ID} />
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
+        <link
+          rel="indexnow"
+          href="https://dse.hkxoptima.com/d1686ef364e230ddaf65f46d612e0847.txt"
         />
       </head>
       <body className="flex min-h-full flex-col">

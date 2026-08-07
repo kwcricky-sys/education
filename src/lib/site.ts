@@ -35,8 +35,5 @@ export const SITE_KEYWORDS = [
 
 export const CONTACT_EMAIL = "admin@hkxoptima.com";
 
-export const ADSENSE_CLIENT_ID = "ca-pub-1843237936524816";
-export const ADSENSE_PUB_ID = "pub-1843237936524816";
-
 export const LEGAL_DISCLAIMER =
   "免責聲明：本網站內容及題庫均收集自網上公開資料，僅供溫習及學術參考之用，並非考評局官方教材。正式考試內容及評分標準請以香港考試及評核局官方公佈為準。";
