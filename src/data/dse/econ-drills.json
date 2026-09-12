@@ -1,0 +1,348 @@
+{
+ "meta": {
+  "title": "DSE Econ Drill Bank (SAMPLE)",
+  "subject": "DSE econ",
+  "language": "en",
+  "total": 18,
+  "version": "sample",
+  "reviewed": true,
+  "rejected_count": 7,
+  "retry_count": 1
+ },
+ "questions": [
+  {
+   "id": "ECON-DEMA-001",
+   "topic": "demand-and-supply",
+   "difficulty": "easy",
+   "question": "According to the law of demand, when the price of a good rises (ceteris paribus), the quantity demanded will:",
+   "options": [
+    "A. Increase",
+    "B. Decrease",
+    "C. Remain unchanged",
+    "D. First increase then decrease"
+   ],
+   "answer": "B",
+   "explanation": "The law of demand states an inverse relationship between price and quantity demanded, holding other factors constant. As price rises, consumers buy less. Option A is the opposite, C ignores the relationship, D is unrealistic.",
+   "tags": [
+    "law of demand",
+    "ceteris paribus"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-003",
+   "topic": "demand-and-supply",
+   "difficulty": "easy",
+   "question": "At market equilibrium, which of the following is true?",
+   "options": [
+    "A. Quantity demanded exceeds quantity supplied",
+    "B. Quantity supplied exceeds quantity demanded",
+    "C. Quantity demanded equals quantity supplied",
+    "D. There is a shortage or surplus depending on price"
+   ],
+   "answer": "C",
+   "explanation": "Equilibrium is where the demand and supply curves intersect, meaning the quantity buyers want equals the quantity sellers offer. Options A and B describe shortages and surpluses, respectively. D is incorrect because equilibrium clears the market.",
+   "tags": [
+    "market equilibrium"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-004",
+   "topic": "demand-and-supply",
+   "difficulty": "easy",
+   "question": "If the government sets a price ceiling below the equilibrium price, the most likely result is:",
+   "options": [
+    "A. A surplus",
+    "B. A shortage",
+    "C. No change in the market",
+    "D. An increase in equilibrium price"
+   ],
+   "answer": "B",
+   "explanation": "A price ceiling below equilibrium makes the legal price lower than the market-clearing price, so quantity demanded exceeds quantity supplied, creating a shortage. A surplus occurs with a price floor, not a ceiling.",
+   "tags": [
+    "price ceiling",
+    "shortage"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-005",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "A technological improvement lowers production costs. In a competitive market, this will lead to:",
+   "options": [
+    "A. A decrease in supply, raising price and lowering quantity",
+    "B. An increase in supply, lowering price and increasing quantity",
+    "C. An increase in demand, raising price and quantity",
+    "D. A decrease in demand, lowering price and quantity"
+   ],
+   "answer": "B",
+   "explanation": "Lower production costs shift the supply curve rightward. At the original price, there is a surplus, pushing price down and quantity up. This is a supply-side change, not a demand shift.",
+   "tags": [
+    "supply shift",
+    "technology"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-006",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "A price floor is set above the equilibrium price. Which of the following is the direct consequence?",
+   "options": [
+    "A. A shortage of the good",
+    "B. A surplus of the good",
+    "C. The market remains at equilibrium",
+    "D. Demand increases to meet the higher price"
+   ],
+   "answer": "B",
+   "explanation": "A price floor above equilibrium makes the legal minimum price higher than the market-clearing price, causing quantity supplied to exceed quantity demanded, i.e., a surplus. A shortage occurs with a price ceiling.",
+   "tags": [
+    "price floor",
+    "surplus"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-007",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "An increase in the price of a complementary good will, ceteris paribus, cause:",
+   "options": [
+    "A. A rightward shift in the demand curve for the good",
+    "B. A leftward shift in the demand curve for the good",
+    "C. A movement along the demand curve for the good",
+    "D. A rightward shift in the supply curve for the good"
+   ],
+   "answer": "B",
+   "explanation": "Complementary goods are used together. If the complement's price rises, consumers buy less of it, reducing demand for the related good. This shifts the demand curve left, not a movement along the curve.",
+   "tags": [
+    "complements",
+    "demand shift"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-008",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "If both demand and supply increase, which of the following is definitely true?",
+   "options": [
+    "A. Equilibrium price rises",
+    "B. Equilibrium price falls",
+    "C. Equilibrium quantity increases",
+    "D. Equilibrium quantity decreases"
+   ],
+   "answer": "C",
+   "explanation": "Both curves shift right, so the new equilibrium quantity is higher. The price change is ambiguous because the demand increase pushes price up while the supply increase pushes it down; the net effect depends on the magnitudes.",
+   "tags": [
+    "simultaneous shifts",
+    "equilibrium"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-010",
+   "topic": "demand-and-supply",
+   "difficulty": "hard",
+   "question": "Suppose both demand and supply decrease simultaneously. What is the certain effect on equilibrium price and quantity?",
+   "options": [
+    "A. Price falls, quantity falls",
+    "B. Price rises, quantity falls",
+    "C. Quantity falls, price is indeterminate",
+    "D. Price rises, quantity is indeterminate"
+   ],
+   "answer": "C",
+   "explanation": "Both curves shift left, so quantity unambiguously decreases. Price depends on the relative size of the shifts: if demand falls more, price falls; if supply falls more, price rises; thus price is indeterminate.",
+   "tags": [
+    "simultaneous shifts",
+    "indeterminate price"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-002",
+   "topic": "elasticity",
+   "difficulty": "easy",
+   "question": "If the price elasticity of demand for a good is 0.5, a 10% increase in price will cause the quantity demanded to:",
+   "options": [
+    "A. Decrease by 5%",
+    "B. Decrease by 20%",
+    "C. Increase by 5%",
+    "D. Decrease by 10%"
+   ],
+   "answer": "A",
+   "explanation": "PED = %ΔQd / %ΔP. Given PED = 0.5, a 10% price increase leads to %ΔQd = 0.5 × 10% = 5%. Since price and quantity move inversely, quantity decreases by 5%. B would be PED=2, C has wrong sign, D implies unit elasticity.",
+   "tags": [
+    "PED calculation"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-005",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "A firm increases the price of its product. If the demand is price elastic, total revenue will:",
+   "options": [
+    "A. Increase",
+    "B. Decrease",
+    "C. Remain unchanged",
+    "D. Increase only if the price rise is small"
+   ],
+   "answer": "B",
+   "explanation": "When demand is elastic, %ΔQd > %ΔP. A price rise causes a proportionally larger fall in quantity, so total revenue (P × Q) decreases. Option A would be true for inelastic demand. C occurs only with unit elasticity. D is irrelevant.",
+   "tags": [
+    "PED and total revenue"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-007",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "The price elasticity of supply of a product is likely to be more elastic in the long run because:",
+   "options": [
+    "A. Firms have more time to adjust production",
+    "B. Firms have less time to adjust production",
+    "C. The product is perishable",
+    "D. There are no close substitutes in production"
+   ],
+   "answer": "A",
+   "explanation": "In the long run, firms can change all inputs, expand capacity, or enter/leave the market, making supply more responsive to price changes. B describes the short run, leading to inelastic supply. Perishability and lack of substitutes also reduce elasticity.",
+   "tags": [
+    "PES and time"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-009",
+   "topic": "elasticity",
+   "difficulty": "hard",
+   "question": "A firm knows that the price elasticity of demand for its product is -1.5. If the firm cuts the price by 10%, the percentage change in total revenue is approximately:",
+   "options": [
+    "A. 3.5% increase",
+    "B. 5% increase",
+    "C. 5% decrease",
+    "D. 3.5% decrease"
+   ],
+   "answer": "A",
+   "explanation": "PED = -1.5, so %ΔQd = -1.5 × (-10%) = +15%. New total revenue = (0.9P) × (1.15Q) = 1.035PQ, a 3.5% increase. Option B ignores the cross term (simple sum: -10%+15%=5%), but exact calculation gives 3.5%. C and D have wrong signs or magnitudes.",
+   "tags": [
+    "PED and TR calculation"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-002",
+   "topic": "demand-and-supply",
+   "difficulty": "easy",
+   "question": "Which of the following will cause a rightward shift in the demand curve for a normal good?",
+   "options": [
+    "A. A decrease in consumers' income",
+    "B. An increase in the price of a substitute",
+    "C. A decrease in the price of the good itself",
+    "D. An increase in the price of a complement"
+   ],
+   "answer": "B",
+   "explanation": "A higher substitute price makes this good relatively cheaper, so consumers switch to it and demand increases (rightward shift). A: lower income reduces demand for a normal good (leftward shift). C: a change in the good's own price causes a movement along the demand curve, not a shift. D: since complements are consumed together, a higher complement price reduces demand for this good (leftward shift).",
+   "tags": [
+    "demand shifters",
+    "substitutes",
+    "normal goods"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-009",
+   "topic": "demand-and-supply",
+   "difficulty": "hard",
+   "question": "A price ceiling is imposed below the equilibrium price. Which of the following is NOT a likely consequence?",
+   "options": [
+    "A. A shortage of the good",
+    "B. Non-price rationing such as queuing",
+    "C. A black market may emerge",
+    "D. A surplus of the good"
+   ],
+   "answer": "D",
+   "explanation": "A price ceiling below equilibrium creates a shortage (quantity demanded > quantity supplied). To allocate scarce goods, non-price rationing and black markets often arise. A surplus is associated with a price floor, not a ceiling.",
+   "tags": [
+    "price ceiling",
+    "consequences"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-001",
+   "topic": "elasticity",
+   "difficulty": "easy",
+   "question": "Which of the following correctly defines price elasticity of demand?",
+   "options": [
+    "A. Percentage change in quantity demanded divided by percentage change in price",
+    "B. Change in quantity demanded divided by change in price",
+    "C. Percentage change in price divided by percentage change in quantity demanded",
+    "D. Change in total revenue divided by change in price"
+   ],
+   "answer": "A",
+   "explanation": "Price elasticity of demand measures responsiveness of quantity demanded to a price change, calculated as %ΔQd / %ΔP. Option B is the slope of the demand curve, not elasticity. C is the inverse (elasticity of price with respect to quantity). D is unrelated to elasticity.",
+   "tags": [
+    "PED definition"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-006",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "Which factor would make the price elasticity of demand for a good more elastic?",
+   "options": [
+    "A. The good has many close substitutes",
+    "B. The good is a necessity",
+    "C. The good has few substitutes",
+    "D. The good is a small proportion of the consumer's budget"
+   ],
+   "answer": "A",
+   "explanation": "Availability of close substitutes makes demand more elastic because consumers can easily switch. Necessities and few substitutes make demand inelastic. A small budget share also tends to make demand inelastic, as consumers are less sensitive to price changes.",
+   "tags": [
+    "determinants of PED"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-008",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "If the cross elasticity of demand between goods X and Y is -2, then a 5% increase in the price of X will cause the quantity demanded of Y to:",
+   "options": [
+    "A. Decrease by 10%",
+    "B. Increase by 10%",
+    "C. Decrease by 2.5%",
+    "D. Increase by 2.5%"
+   ],
+   "answer": "A",
+   "explanation": "Cross elasticity of demand = %ΔQd of Y ÷ %ΔP of X. Since cross elasticity is -2 (X and Y are complements), %ΔQd of Y = -2 × 5% = -10%, so the quantity demanded of Y decreases by 10%. B has the wrong sign; C and D have the wrong magnitude (they would follow if the elasticity were -0.5).",
+   "tags": [
+    "cross elasticity calculation"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-010",
+   "topic": "elasticity",
+   "difficulty": "easy",
+   "question": "For a straight-line downward-sloping demand curve, the price elasticity of demand at the midpoint of the curve is:",
+   "options": [
+    "A. Unitary elastic",
+    "B. Elastic",
+    "C. Inelastic",
+    "D. Zero"
+   ],
+   "answer": "A",
+   "explanation": "On a linear demand curve, slope is constant but elasticity varies. At the midpoint, price and quantity are such that the percentage changes are equal, giving PED = 1 (unitary). Above the midpoint, demand is elastic; below, it is inelastic. Zero occurs at the quantity intercept (where price is zero).",
+   "tags": [
+    "linear demand curve elasticity"
+   ],
+   "subject": "econ"
+  }
+ ]
+}

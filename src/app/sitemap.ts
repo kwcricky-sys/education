@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
+import { getDrillBank, DRILL_SUBJECTS, questionHref } from "@/lib/dse/drills";
 import { SITE_URL } from "@/lib/site";
 
 /** DSE-only sitemap (primary school product lives on PrimaryNav). */
@@ -59,5 +60,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...core, ...texts];
+  // Drill pages: subject hubs, topic hubs, and every question (long-tail SEO).
+  const drillUrls: MetadataRoute.Sitemap = [];
+  for (const s of DRILL_SUBJECTS) {
+    const bank = getDrillBank(s);
+    if (!bank) continue;
+    drillUrls.push({
+      url: `${SITE_URL}/dse/${s}`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.9,
+    });
+    const topics = [...new Set(bank.questions.map((q) => q.topic))];
+    for (const t of topics) {
+      drillUrls.push({
+        url: `${SITE_URL}/dse/${s}/${t}`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.8,
+      });
+    }
+    for (const q of bank.questions) {
+      drillUrls.push({
+        url: `${SITE_URL}${questionHref(s, q)}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.6,
+      });
+    }
+  }
+
+  return [...core, ...texts, ...drillUrls];
 }
