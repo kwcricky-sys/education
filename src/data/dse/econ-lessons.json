@@ -1,0 +1,1003 @@
+{
+ "L1.1": {
+  "id": "L1.1",
+  "title": "The Law of Demand",
+  "concept": "The Law of Demand states that, ceteris paribus, as the price of a good increases, the quantity demanded of that good decreases; and as the price decreases, the quantity demanded increases. This is an inverse relationship between price (P) and quantity demanded (Qd). 'Ceteris paribus' means 'all other things being equal' — it is a crucial assumption because factors other than price, such as income, tastes, prices of related goods, and expectations, also affect buyers' decisions. Holding these factors constant isolates the pure effect of price on quantity demanded. The law of demand can be illustrated by a downward-sloping demand curve, with price on the vertical axis and quantity demanded on the horizontal axis. A movement along the demand curve occurs only when the price of the good itself changes. A shift of the entire demand curve occurs when a non-price factor changes, such as income or preferences. In HKDSE Economics, it is essential to distinguish between 'demand' and 'quantity demanded'. 'Quantity demanded' is a specific amount consumers are willing and able to buy at a particular price, shown as a point on the demand curve. 'Demand' refers to the whole relationship between price and quantity demanded, shown as the entire demand curve. Confusing these two ideas is a common source of marks lost in exams.",
+  "example": {
+   "scenario": "In a Hong Kong supermarket, the price of a pack of instant noodles rises from $5 to $7, while consumers' incomes, tastes, and the prices of other goods remain unchanged.",
+   "walkthrough": "Because the price of instant noodles rises and all other factors are held constant (ceteris paribus), the law of demand predicts that the quantity demanded of instant noodles will fall. This is shown as an upward movement along the same demand curve from a higher quantity at $5 to a lower quantity at $7. The demand curve itself does not shift, because no non-price determinant has changed. If instead consumers' incomes increased, the effect on demand would depend on the nature of the good: assuming instant noodles are a normal good, the entire demand curve would shift rightward, meaning at every price, quantity demanded is higher — that would be a change in demand, not a change in quantity demanded. (If instant noodles were treated as an inferior good, an income rise would shift the demand curve leftward instead.)"
+  },
+  "traps": [
+   "Saying 'demand decreases when price increases' — this is wrong: a change in price causes a change in quantity demanded (movement along the curve), not a change in demand (shift of the curve).",
+   "Forgetting 'ceteris paribus' — if other factors change at the same time as price, you cannot isolate the effect of price, so the law of demand may appear to be violated.",
+   "Confusing 'willingness' with 'ability to pay' — quantity demanded requires both willingness and ability; wanting a good without being able to afford it does not count as demand.",
+   "Drawing an upward-sloping demand curve — the HKDSE syllabus expects a downward-sloping demand curve to show the inverse P-Qd relationship.",
+   "Assuming an income rise always shifts demand rightward — demand shifts right only for normal goods; for inferior goods, an income rise shifts demand leftward."
+  ],
+  "terms": [
+   {
+    "term": "Demand",
+    "definition": "The entire relationship between the price of a good and the quantity demanded at each price, ceteris paribus, shown by the whole demand curve."
+   },
+   {
+    "term": "Quantity demanded",
+    "definition": "The specific amount of a good that consumers are willing and able to buy at a particular price, shown as a point on the demand curve."
+   },
+   {
+    "term": "Ceteris paribus",
+    "definition": "The assumption that all other factors affecting demand are held constant while the price of the good changes."
+   },
+   {
+    "term": "Law of demand",
+    "definition": "A principle stating that, ceteris paribus, price and quantity demanded are inversely related: a higher price leads to a lower quantity demanded, and vice versa."
+   },
+   {
+    "term": "Normal good",
+    "definition": "A good for which demand increases (demand curve shifts rightward) when consumers' incomes rise, ceteris paribus."
+   },
+   {
+    "term": "Inferior good",
+    "definition": "A good for which demand decreases (demand curve shifts leftward) when consumers' incomes rise, ceteris paribus."
+   }
+  ],
+  "unit": 1,
+  "practice": "demand-and-supply",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.2": {
+  "id": "L1.2",
+  "title": "Shifts vs Movements",
+  "concept": "A movement along a demand curve occurs only when the price of the good itself changes. A fall in price moves you down the curve (extension in quantity demanded); a rise in price moves you up the curve (contraction in quantity demanded). The curve itself does not move. A shift of the demand curve occurs when a non-price determinant of demand changes: income, tastes, population, expectations, or the price of substitutes and complements. An increase in demand shifts the curve right; a decrease shifts it left. The same distinction applies to supply. A movement along the supply curve is caused only by a change in the price of the good itself. A shift of the supply curve is caused by a change in a non-price determinant of supply: production costs, technology, number of suppliers, expectations, or prices of related outputs. A common exam question shows a price fall and asks whether demand has increased. The correct answer is: quantity demanded has increased, not demand. Remember: price changes cause movements; non-price factors cause shifts.",
+  "example": {
+   "scenario": "The price of a bowl of fish ball noodles in a Central cha chaan teng rises from $38 to $42, so customers order fewer bowls. At the same time, a new university campus opens in the area, bringing thousands of students to the neighbourhood.",
+   "walkthrough": "The price rise from $38 to $42 causes a movement along the existing demand curve for fish ball noodles: quantity demanded falls. The demand curve itself does not shift because the good's own price changed. The opening of the university campus is a non-price factor (population of potential buyers increases), so this shifts the demand curve to the right. At every price, more bowls are now demanded. In an exam, you should show the price rise as an upward movement along the old curve, and the population change as a rightward shift of the whole curve."
+  },
+  "traps": [
+   "Saying 'demand decreases' when price rises: a price change causes a movement along the demand curve, i.e. a change in quantity demanded, not a shift in demand.",
+   "Treating a change in the price of a substitute as a movement along the demand curve: a substitute's price is a non-price determinant of demand for the original good, so it shifts the original good's demand curve.",
+   "Confusing 'quantity supplied' with 'supply': a rise in the market price of a good increases quantity supplied, but it does not shift the supply curve.",
+   "Thinking a lower production cost shifts the demand curve: production cost is a supply-side factor, so it shifts the supply curve, not the demand curve."
+  ],
+  "terms": [
+   {
+    "term": "Demand",
+    "definition": "The quantity of a good that consumers are willing and able to buy at each price over a given period, ceteris paribus."
+   },
+   {
+    "term": "Quantity demanded",
+    "definition": "The specific amount of a good consumers are willing and able to buy at one particular price."
+   },
+   {
+    "term": "Supply",
+    "definition": "The quantity of a good that producers are willing and able to sell at each price over a given period, ceteris paribus."
+   },
+   {
+    "term": "Quantity supplied",
+    "definition": "The specific amount of a good producers are willing and able to sell at one particular price."
+   },
+   {
+    "term": "Substitute goods",
+    "definition": "Goods that can be used in place of each other; a rise in the price of one increases demand for the other."
+   },
+   {
+    "term": "Complement goods",
+    "definition": "Goods that are used together; a rise in the price of one decreases demand for the other."
+   }
+  ],
+  "unit": 1,
+  "practice": "demand-and-supply",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.3": {
+  "id": "L1.3",
+  "title": "Market Equilibrium",
+  "concept": "Market equilibrium occurs when quantity demanded equals quantity supplied at a given price. At the equilibrium price, there is no tendency for the price to change because the market clears: buyers are willing and able to buy exactly the amount sellers are willing and able to sell. If the price is set above equilibrium, quantity supplied exceeds quantity demanded, creating a surplus. Sellers compete to attract buyers by lowering price, so the price falls until equilibrium is restored. If the price is set below equilibrium, quantity demanded exceeds quantity supplied, creating a shortage. Buyers compete to secure the limited goods by bidding up the price, so the price rises until equilibrium is restored. This adjustment mechanism is the core of the market process. In a demand-supply diagram, equilibrium is the intersection of the demand curve and the supply curve. When both demand and supply shift simultaneously, the final effect on price or quantity can be indeterminate. If demand and supply shift in the same direction, equilibrium quantity changes unambiguously, but the direction of price change is indeterminate. If demand and supply shift in opposite directions, equilibrium price changes unambiguously, but the direction of quantity change is indeterminate. The actual outcome depends on the relative magnitudes of the shifts.",
+  "example": {
+   "scenario": "When a typhoon signal is hoisted in Hong Kong, the supply of fresh vegetables falls because farms and transport are disrupted, while demand for vegetables rises because households stock up.",
+   "walkthrough": "The supply curve shifts left, and the demand curve shifts right. Both shifts push the equilibrium price upward, so the price of vegetables rises clearly. The change in equilibrium quantity is indeterminate: if the demand increase is larger than the supply decrease, quantity increases; if the supply decrease is larger, quantity decreases; if they are equal, quantity stays the same. Thus, in this simultaneous shift, price is determined but quantity is not."
+  },
+  "traps": [
+   "Students often say a surplus exists when 'there is not enough demand' or a shortage exists when 'there is not enough supply'; in fact, surplus and shortage are defined only relative to a price above or below equilibrium.",
+   "Students may think simultaneous shifts always make both equilibrium price and quantity indeterminate. Actually, one of them is determinate depending on whether the shifts are in the same or opposite directions.",
+   "Students confuse a movement along the demand curve caused by a price change with a shift of the demand curve caused by a non-price factor. Only a shift of a curve can change equilibrium in the way described in simultaneous shifts.",
+   "Students forget the adjustment mechanism: price falls in a surplus because sellers compete, and price rises in a shortage because buyers compete, not because the government or any authority changes the price."
+  ],
+  "terms": [
+   {
+    "term": "Equilibrium price",
+    "definition": "The price at which quantity demanded equals quantity supplied, so the market clears with no tendency for price to change."
+   },
+   {
+    "term": "Equilibrium quantity",
+    "definition": "The quantity bought and sold at the equilibrium price."
+   },
+   {
+    "term": "Surplus",
+    "definition": "A situation in which quantity supplied exceeds quantity demanded at a price above equilibrium."
+   },
+   {
+    "term": "Shortage",
+    "definition": "A situation in which quantity demanded exceeds quantity supplied at a price below equilibrium."
+   },
+   {
+    "term": "Simultaneous shifts",
+    "definition": "A change in both demand and supply caused by non-price factors, making one of the equilibrium outcomes (price or quantity) indeterminate unless relative shift sizes are known."
+   }
+  ],
+  "unit": 1,
+  "practice": "demand-and-supply",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.1": {
+  "id": "L2.1",
+  "title": "Price Elasticity of Demand",
+  "concept": "Price Elasticity of Demand (PED) measures how responsive the quantity demanded is to a change in price. It is calculated as: PED = % change in quantity demanded / % change in price, with percentage changes measured relative to the original values. Since price and quantity demanded move in opposite directions (law of demand), PED is negative, and we usually compare its absolute value |PED|. If |PED| > 1, demand is price-elastic: quantity demanded changes proportionally more than price. If |PED| < 1, demand is price-inelastic: quantity demanded changes proportionally less than price. If |PED| = 1, demand is unitary elastic. The key determinants are: availability of substitutes (more substitutes = more elastic), necessity vs luxury (necessities are more inelastic), budget share (items taking a small share of income are more inelastic), and time period (demand becomes more elastic over time as consumers adjust). The revenue test links PED to total revenue (price × quantity): when price falls, total revenue rises if demand is elastic, falls if demand is inelastic, and stays the same if unitary elastic; when price rises, the opposite holds. PED is not the same as slope: it uses percentage changes, so it varies along a straight-line demand curve even though the slope is constant.",
+  "example": {
+   "scenario": "The MTR raises fares by 10%. In the first month, the quantity of trips demanded falls by 2%; after one year, it falls by 6%. Calculate PED in each period and explain what happens to MTR's total revenue.",
+   "walkthrough": "In the first month, quantity demanded falls by 2%, so %ΔQd = −2%. PED = −2% / 10% = −0.2, i.e. |PED| = 0.2 < 1, so demand is price-inelastic. After one year, quantity demanded falls by 6%, so PED = −6% / 10% = −0.6, i.e. |PED| = 0.6 < 1 — still inelastic, but more elastic than before because commuters have had time to adjust by taking buses or changing travel habits. Since |PED| < 1 in both periods, the 10% fare rise causes a smaller percentage fall in quantity demanded, so total revenue (price × quantity) increases. The revenue increase is smaller after one year than in the first month because demand has become relatively more responsive."
+  },
+  "traps": [
+   "Saying 'inelastic demand means quantity demanded does not change at all' — that is only perfectly inelastic demand; ordinary inelastic demand means %ΔQd is smaller than %ΔP, but quantity demanded still changes.",
+   "Confusing 'flat slope' with 'elastic demand' — elasticity is based on percentage changes, so a steep or flat slope alone does not determine elasticity; elasticity varies along a straight-line demand curve.",
+   "Assuming a price cut always reduces total revenue — it depends on PED: a price cut increases total revenue only if demand is price-elastic.",
+   "Treating necessities as always perfectly inelastic — necessities tend to be inelastic, but they can still have some responsiveness if substitutes exist or if budget share is significant.",
+   "Dropping the sign inconsistently — quantity demanded falls when price rises, so PED is negative (e.g. −0.2); always state PED with the negative sign or consistently use |PED| when classifying elasticity."
+  ],
+  "terms": [
+   {
+    "term": "Price Elasticity of Demand (PED)",
+    "definition": "A measure of the responsiveness of quantity demanded to a change in price, calculated as % change in quantity demanded divided by % change in price (both measured relative to original values)."
+   },
+   {
+    "term": "Elastic demand",
+    "definition": "Demand with |PED| > 1, where quantity demanded changes proportionally more than price."
+   },
+   {
+    "term": "Inelastic demand",
+    "definition": "Demand with |PED| < 1, where quantity demanded changes proportionally less than price."
+   },
+   {
+    "term": "Unitary elastic demand",
+    "definition": "Demand with |PED| = 1, where quantity demanded changes by the same percentage as price, in the opposite direction."
+   },
+   {
+    "term": "Total revenue test",
+    "definition": "A method to determine price elasticity by observing whether total revenue (price × quantity) rises, falls, or stays the same after a price change."
+   }
+  ],
+  "unit": 2,
+  "practice": "elasticity",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.2": {
+  "id": "L2.2",
+  "title": "Income & Cross Elasticity; PES",
+  "concept": "Income elasticity of demand (YED) measures how quantity demanded responds to a change in consumer income: YED = %ΔQd / %ΔY. For normal goods, YED is positive: necessities have 0 < YED < 1, while luxuries have YED > 1. For inferior goods, YED is negative, meaning demand falls as income rises. Cross elasticity of demand (XED) measures how quantity demanded of one good responds to a price change of another good: XED = %ΔQd of A / %ΔP of B. If XED is positive, the goods are substitutes; if XED is negative, they are complements. Price elasticity of supply (PES) measures how quantity supplied responds to a price change: PES = %ΔQs / %ΔP. PES is normally positive because supply rises with price. Key determinants of PES include production time, spare capacity, availability of stocks, factor mobility, and complexity of production. The time horizon matters greatly: in the immediate period and short run, supply is often fixed or slow to adjust, so PES is relatively inelastic; in the long run, producers can reallocate resources, expand capacity, or enter the market, making PES more elastic. HKDSE questions often test the sign of each elasticity and the effect of time on PES.",
+  "example": {
+   "scenario": "In Hong Kong, a restaurant finds that after consumers' income rises by 10%, demand for its economy set meals falls by 5% while demand for its premium hotpot rises by 15%. Separately, when a competitor raises bubble tea prices by 8%, the restaurant's iced lemon tea sales increase by 4%; after a typhoon, fresh seafood supply cannot be adjusted quickly.",
+   "walkthrough": "For economy set meals, YED = -5% / 10% = -0.5, so they are inferior goods. For premium hotpot, YED = 15% / 10% = +1.5, so it is a luxury normal good. For iced lemon tea and bubble tea, XED = +4% / +8% = +0.5, so they are substitutes. For fresh seafood after a typhoon, the very short time horizon means PES is inelastic; over a longer period, fishermen can adjust their operations, so PES becomes more elastic."
+  },
+  "traps": [
+   "Confusing YED sign with XED sign: YED positive = normal good, YED negative = inferior good; XED positive = substitutes, XED negative = complements.",
+   "Thinking all normal goods are luxuries: normal goods include necessities (0 < YED < 1) and luxuries (YED > 1).",
+   "Saying XED is negative for substitutes: substitutes have a positive XED because a rise in the price of one good increases demand for the other.",
+   "Assuming PES is always elastic in the short run: in the short run supply is usually inelastic; PES becomes more elastic only as the time horizon lengthens."
+  ],
+  "terms": [
+   {
+    "term": "YED",
+    "definition": "Income elasticity of demand: %ΔQd / %ΔY, measuring how quantity demanded responds to income changes."
+   },
+   {
+    "term": "Normal good",
+    "definition": "A good with positive YED; demand rises when income rises."
+   },
+   {
+    "term": "Inferior good",
+    "definition": "A good with negative YED; demand falls when income rises."
+   },
+   {
+    "term": "Luxury good",
+    "definition": "A normal good with YED > 1, so demand rises more than proportionally as income rises."
+   },
+   {
+    "term": "Necessity",
+    "definition": "A normal good with 0 < YED < 1, so demand rises less than proportionally as income rises."
+   },
+   {
+    "term": "XED",
+    "definition": "Cross elasticity of demand: %ΔQd of good A / %ΔP of good B, measuring how demand for one good responds to a price change of another."
+   },
+   {
+    "term": "Substitutes",
+    "definition": "Two goods with positive XED; a price rise of one increases demand for the other."
+   },
+   {
+    "term": "Complements",
+    "definition": "Two goods with negative XED; a price rise of one decreases demand for the other."
+   },
+   {
+    "term": "PES",
+    "definition": "Price elasticity of supply: %ΔQs / %ΔP, measuring how quantity supplied responds to a price change."
+   }
+  ],
+  "unit": 2,
+  "practice": "elasticity",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.1": {
+  "id": "L3.1",
+  "title": "Price Controls",
+  "concept": "Price controls are government-imposed limits on prices. A price ceiling is a maximum legal price; when set below the equilibrium price, it is binding. At that price, quantity demanded exceeds quantity supplied, creating a shortage. Because the legal price cannot rise to clear the market, non-price rationing methods appear: queuing, first-come-first-served, favouritism, or black markets where goods are sold illegally above the ceiling. A price floor is a minimum legal price; when set above equilibrium, it is binding, causing quantity supplied to exceed quantity demanded, i.e. a surplus. Examples include minimum wage (labour surplus) and agricultural support prices. Binding price controls remove the market's rationing function and create persistent disequilibrium. They also reduce total surplus because some mutually beneficial transactions are blocked. For HKDSE, identify whether the control is above or below equilibrium, then state the resulting shortage or surplus and the rationing mechanism. Non-price rationing allocates scarce goods by criteria other than willingness to pay, such as time spent queuing. Price controls do not eliminate scarcity; they change how scarcity is rationed.",
+  "example": {
+   "scenario": "Suppose the Hong Kong government imposes a rent ceiling of $5,000 per month on small flats in Sham Shui Po, while the equilibrium rent is $8,000.",
+   "walkthrough": "Since the ceiling is below equilibrium, it is binding. Quantity demanded rises because more tenants want cheap flats, while quantity supplied falls because landlords may withdraw flats or convert them to other uses, creating a shortage. With the legal price fixed, flats are rationed by queuing and landlord discretion. Some tenants pay illegal 'key money' above the ceiling, which is a black market transaction. The shortage persists because the price cannot rise to equilibrium."
+  },
+  "traps": [
+   "A binding price ceiling is set above equilibrium, or a binding price floor is set below equilibrium. Remember: binding ceiling is below equilibrium; binding floor is above equilibrium.",
+   "Confusing a shortage caused by a price ceiling with scarcity. Scarcity always exists; a shortage is a disequilibrium condition where quantity demanded exceeds quantity supplied at the controlled price.",
+   "Thinking the black market price will equal the legal ceiling. In a black market, the illegal price is usually above the ceiling, often near or above the equilibrium price.",
+   "Believing that removing a price control causes a shortage or surplus. Removing a binding control lets the price adjust to equilibrium, eliminating the shortage or surplus."
+  ],
+  "terms": [
+   {
+    "term": "Price ceiling",
+    "definition": "A legal maximum price set by the government; binding if set below the equilibrium price."
+   },
+   {
+    "term": "Price floor",
+    "definition": "A legal minimum price set by the government; binding if set above the equilibrium price."
+   },
+   {
+    "term": "Binding price control",
+    "definition": "A price control that prevents the market from reaching equilibrium, resulting in a shortage or surplus."
+   },
+   {
+    "term": "Shortage",
+    "definition": "A situation where quantity demanded exceeds quantity supplied at the prevailing price."
+   },
+   {
+    "term": "Surplus",
+    "definition": "A situation where quantity supplied exceeds quantity demanded at the prevailing price."
+   },
+   {
+    "term": "Non-price rationing",
+    "definition": "Allocating scarce goods by criteria other than price, such as queuing, lotteries, or favouritism."
+   },
+   {
+    "term": "Black market",
+    "definition": "Illegal buying and selling of goods at prices that violate a price control, usually above a legal ceiling."
+   }
+  ],
+  "unit": 3,
+  "practice": "market-intervention",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.2": {
+  "id": "L3.2",
+  "title": "Quotas, Taxes & Subsidies",
+  "concept": "A per-unit tax is a fixed amount charged by the government on each unit of a good sold or produced. It raises the seller's cost, shifting the supply curve upward by a vertical distance exactly equal to the tax. This raises the price paid by consumers and lowers the price received by producers after tax, so the tax burden is shared between them. A per-unit subsidy is a fixed amount paid by the government to producers for each unit sold. It lowers the seller's cost, shifting the supply curve downward by a vertical distance exactly equal to the subsidy. This lowers the price paid by consumers and raises the price received by producers, with the benefit shared. A quota is a physical limit on the quantity of a good that can be imported or supplied. If the quota is set below the free-market equilibrium quantity, it restricts supply and the effective supply curve becomes vertical (perfectly inelastic) at the quota quantity. Compared with the free-market equilibrium, a binding quota raises the domestic price, reduces quantity traded, and creates a deadweight loss. For HKDSE, you must be able to show these shifts on a supply-and-demand diagram, identify the new equilibrium price and quantity, and compare the effects on consumer surplus, producer surplus, government revenue/expenditure, and total surplus. Incidence analysis focuses on who actually bears the tax or receives the subsidy, which depends on the relative price elasticity of demand and supply, not on who legally pays or receives the money.",
+  "example": {
+   "scenario": "The Hong Kong government imposes a $6 per-unit tax on each box of imported mangoes. Before the tax, the equilibrium price is $30 and quantity is 1,000 boxes. After the tax, the price paid by consumers rises to $34 and the price received by sellers falls to $28.",
+   "walkthrough": "Draw the original demand and supply curves intersecting at P = $30, Q = 1,000. The $6 per-unit tax shifts the supply curve vertically upward by $6. The new equilibrium is where the shifted supply curve meets demand. Suppose the new equilibrium quantity is 900 boxes; consumers then pay $34 per box, and sellers receive $34 − $6 = $28 per box after tax. Tax revenue = $6 × 900 = $5,400. The burden is shared: consumers pay $4 more per box ($34 − $30) and producers receive $2 less per box ($30 − $28). The deadweight loss is the triangle bounded by the demand curve and the ORIGINAL (pre-tax) supply curve over the units no longer traded (from Q = 900 to Q = 1,000). Its vertical height at Q = 900 is $34 − $28 = $6, so DWL = ½ × $6 × (1,000 − 900) = $300. This triangle represents the total surplus from the 100 lost mutually beneficial trades."
+  },
+  "traps": [
+   "Thinking the legal payer of a tax is the one who bears the whole burden. In fact, the incidence depends on elasticity: the more inelastic side of the market bears the larger burden.",
+   "Drawing a per-unit subsidy as a shift of the supply curve upward instead of downward. A subsidy lowers costs, so supply shifts down by a vertical distance equal to the subsidy amount.",
+   "Confusing a quota with a tax: a quota does not generate government revenue (assuming licences are not auctioned); it creates a deadweight loss and quota rents for licence holders, but no tax revenue.",
+   "Assuming the consumer price after a per-unit tax rises by the full amount of the tax. The price rise is less than the tax unless supply is perfectly elastic or demand is perfectly inelastic.",
+   "Shading the deadweight-loss triangle against the SHIFTED supply curve. The DWL triangle is always measured between the demand curve and the ORIGINAL supply curve over the lost output range."
+  ],
+  "terms": [
+   {
+    "term": "Per-unit tax",
+    "definition": "A fixed tax levied on each unit of a good sold, shifting the supply curve upward by a vertical distance equal to the tax amount."
+   },
+   {
+    "term": "Per-unit subsidy",
+    "definition": "A fixed payment to producers for each unit sold, shifting the supply curve downward by a vertical distance equal to the subsidy amount."
+   },
+   {
+    "term": "Import quota",
+    "definition": "A physical limit on the quantity of a good that may be imported; if binding, it restricts supply and raises the domestic price."
+   },
+   {
+    "term": "Tax incidence",
+    "definition": "The division of the tax burden between buyers and sellers, determined by the relative price elasticity of demand and supply, not by who legally pays the tax."
+   },
+   {
+    "term": "Quota rent",
+    "definition": "The extra profit earned by quota/licence holders, equal to (price paid by consumers − price received by sellers at the quota quantity) × quota quantity."
+   },
+   {
+    "term": "Deadweight loss",
+    "definition": "The loss of total surplus (consumer surplus + producer surplus + government revenue) caused by a market distortion such as a tax or quota, arising because output deviates from the competitive equilibrium."
+   }
+  ],
+  "unit": 3,
+  "practice": "market-intervention",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.1": {
+  "id": "L4.1",
+  "title": "Production & Factors",
+  "concept": "Production is the process of turning inputs (factors of production) into outputs (goods and services). The four factors of production are land, labour, capital and entrepreneurship. Land includes all natural resources; labour is human effort; capital means man-made aids to production such as machinery and tools, not money; entrepreneurship is the risk-taking and organising ability that combines the other factors. In economics, the short run is the period in which at least one factor is fixed, usually capital, while the long run is the period in which all factors can be varied. This distinction matters because the law of diminishing returns only applies in the short run. The law states that as more and more units of a variable factor are added to a fixed factor, the marginal product of the variable factor will eventually decrease. For example, adding more workers to a fixed amount of machinery will initially raise output, but after a point each extra worker adds less output than the previous worker. This is not because workers become worse, but because the fixed factor becomes overcrowded. In the long run, since no factor is fixed, the law of diminishing returns does not apply; firms can expand all inputs to increase output.",
+  "example": {
+   "scenario": "A small Hong Kong bakery has one oven and employs more workers to produce egg tarts during the Lunar New Year rush.",
+   "walkthrough": "Initially, the first few workers raise output significantly because they can specialise in mixing, rolling and baking. As more workers are hired, the single oven becomes a bottleneck: workers may have to wait to use it, so each additional worker contributes less to total output. The marginal product of labour therefore falls, demonstrating the law of diminishing returns in the short run. If the bakery wants to keep increasing output, it would need to buy another oven, which means moving into the long run where all factors are variable."
+  },
+  "traps": [
+   "Students confuse diminishing returns with negative returns: diminishing returns means marginal product falls, but total output can still rise; negative returns means total output actually falls.",
+   "Students think the short run is a fixed calendar time (e.g. one year); in economics it is defined by the existence of at least one fixed factor, so its length differs between industries.",
+   "Students treat money as capital; capital is physical man-made inputs like machines, tools and buildings, not financial capital.",
+   "Students apply the law of diminishing returns to the long run; it only applies when at least one factor is fixed, so it is a short-run concept."
+  ],
+  "terms": [
+   {
+    "term": "Factors of production",
+    "definition": "The inputs used to produce goods and services: land, labour, capital and entrepreneurship."
+   },
+   {
+    "term": "Land",
+    "definition": "All natural resources used in production, including land itself, minerals, water and weather."
+   },
+   {
+    "term": "Labour",
+    "definition": "The human physical and mental effort used in producing goods and services."
+   },
+   {
+    "term": "Capital",
+    "definition": "Man-made physical goods such as machinery, tools and equipment used to produce other goods and services."
+   },
+   {
+    "term": "Entrepreneurship",
+    "definition": "The factor that organises, manages and bears the risk of production, combining the other factors."
+   },
+   {
+    "term": "Short run",
+    "definition": "The period in which at least one factor of production is fixed, so output can only be changed by changing variable factors."
+   },
+   {
+    "term": "Long run",
+    "definition": "The period in which all factors of production are variable, so a firm can change its scale of production."
+   },
+   {
+    "term": "Law of diminishing returns",
+    "definition": "In the short run, as more units of a variable factor are added to a fixed factor, the marginal product of the variable factor eventually decreases."
+   }
+  ],
+  "unit": 4,
+  "practice": "production-costs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.2": {
+  "id": "L4.2",
+  "title": "Costs & Economies of Scale",
+  "concept": "In the short run, at least one factor of production is fixed, so total cost is split into fixed cost (FC) and variable cost (VC). FC does not change with output (e.g. rent), while VC changes with output (e.g. raw materials). Average fixed cost (AFC = FC/Q) falls continuously as output rises. Average variable cost (AVC = VC/Q) and marginal cost (MC = ΔTC/ΔQ) are typically U-shaped because of the law of diminishing marginal returns: as more variable inputs are added to a fixed input, marginal product eventually falls, pushing MC up. Average total cost (ATC = TC/Q = AFC + AVC) is also U-shaped: it falls initially because AFC falls quickly, then rises when increasing AVC dominates. MC cuts AVC and ATC at their minimum points. In the long run, all inputs are variable, and the firm can choose its scale. Economies of scale are reductions in long-run average cost as output increases. Internal economies arise from the firm's own growth: technical, managerial, financial, marketing, and risk-bearing economies. External economies arise from the growth of the whole industry, such as better infrastructure, specialised suppliers, or a larger skilled labour pool. If the firm becomes too large, diseconomies of scale may appear due to poor communication and coordination, causing long-run average cost to rise.",
+  "example": {
+   "scenario": "A Hong Kong bubble tea chain expands from 10 shops to 20 shops. Its shop rent is fixed in the short run, while tapioca pearls, milk, and labour are variable inputs.",
+   "walkthrough": "At each shop, rent is fixed, so AFC falls as more cups are sold. Initially, hiring more workers lets each worker specialise, so AVC falls; eventually, a crowded kitchen causes diminishing returns, so MC and AVC rise. In the long run, the chain buys ingredients in bulk, negotiates cheaper loans, and centralises accounting, creating internal economies of scale that lower long-run average cost. If it expands too fast, head-office coordination may become slow and costly, leading to diseconomies of scale."
+  },
+  "traps": [
+   "Confusing short-run falling AFC with long-run economies of scale: economies of scale refer to falling long-run average cost when the whole scale of production increases, not merely spreading fixed costs over more output.",
+   "Thinking MC is the same as AVC: MC is the cost of producing one more unit; it cuts AVC and ATC at their minimum points, but it is not the average cost.",
+   "Believing ATC always falls when AFC falls: ATC falls only when the fall in AFC is larger than the rise in AVC; after a certain output, rising AVC dominates.",
+   "Mixing up internal and external economies: internal economies come from the growth of the individual firm, while external economies come from the growth of the entire industry."
+  ],
+  "terms": [
+   {
+    "term": "Fixed cost (FC)",
+    "definition": "A cost that does not vary with output in the short run, e.g. rent."
+   },
+   {
+    "term": "Variable cost (VC)",
+    "definition": "A cost that changes with the level of output, e.g. raw materials."
+   },
+   {
+    "term": "Average fixed cost (AFC)",
+    "definition": "Fixed cost per unit of output; AFC = FC/Q and always falls as output rises."
+   },
+   {
+    "term": "Average variable cost (AVC)",
+    "definition": "Variable cost per unit of output; AVC = VC/Q and is typically U-shaped."
+   },
+   {
+    "term": "Average total cost (ATC)",
+    "definition": "Total cost per unit of output; ATC = TC/Q = AFC + AVC."
+   },
+   {
+    "term": "Marginal cost (MC)",
+    "definition": "The extra cost of producing one more unit; MC = ΔTC/ΔQ."
+   },
+   {
+    "term": "Economies of scale",
+    "definition": "Falling long-run average cost as the firm's scale of production increases."
+   },
+   {
+    "term": "Internal economies of scale",
+    "definition": "Cost advantages that arise from the growth of the individual firm itself."
+   },
+   {
+    "term": "External economies of scale",
+    "definition": "Cost advantages that arise from the growth of the whole industry."
+   },
+   {
+    "term": "Diseconomies of scale",
+    "definition": "Rising long-run average cost caused by the firm becoming too large, often due to management and coordination problems."
+   }
+  ],
+  "unit": 4,
+  "practice": "production-costs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.2": {
+  "id": "L5.2",
+  "title": "Monopoly & Imperfect Competition",
+  "concept": "A monopoly is a market structure with a single seller of a good or service that has no close substitutes. Because the monopolist is the whole market, it faces the downward-sloping market demand curve and is a price maker: it can choose any price-quantity combination on the demand curve, but it cannot choose both a high price and a high quantity. To maximise profit, a monopolist produces where MR = MC and charges the price consumers are willing to pay for that quantity. Barriers to entry, such as legal restrictions, patents, control of key resources, or large economies of scale, protect the monopolist from competition and allow long-run economic profit. Compared with perfect competition, monopoly is less efficient: it produces a smaller quantity and charges a higher price, creating a deadweight loss and causing allocative inefficiency (P > MC) and productive inefficiency (not producing at minimum average cost). Oligopoly is a market structure with a few large firms that are interdependent; each firm's decisions affect rivals, leading to strategic behaviour such as collusion, price rigidity, or non-price competition. In HKDSE, you should be able to compare monopoly with perfect competition and identify features of imperfect competition from real-world examples.",
+  "example": {
+   "scenario": "The MTR Corporation is the only provider of metro rail services in Hong Kong. Suppose the MTR charges a fare of $20 per trip and carries 5 million passengers per day. If it raises the fare to $25, ridership falls to 4 million passengers per day.",
+   "walkthrough": "The MTR is a price maker because it faces the whole market demand for metro trips. Using the two points, the demand curve is downward sloping, so a higher fare leads to fewer passengers. The MTR maximises profit by choosing the fare where MR = MC, not by charging the highest possible fare. Because of barriers to entry, such as huge infrastructure costs and government franchising, no competitor can enter to undercut the fare. Compared with a competitive market, the MTR's profit-maximising quantity is lower and price is higher, so allocative inefficiency exists: price exceeds marginal cost, creating a deadweight loss for society."
+  },
+  "traps": [
+   "Thinking a monopolist can charge any price it wants and still make a profit: the monopolist is constrained by the demand curve and must consider marginal cost; if demand is too low, it can make a loss.",
+   "Confusing 'price maker' with 'price setter without limits': a monopoly chooses a price-quantity combination on the demand curve, but it cannot choose both a high price and a high quantity.",
+   "Assuming monopoly always makes economic profit in the long run: barriers to entry protect profit, but if demand is insufficient or costs are too high, a monopolist can still sustain losses.",
+   "For oligopoly, forgetting interdependence: unlike monopoly or perfect competition, an oligopolist must consider how rivals will react to its price or output decisions."
+  ],
+  "terms": [
+   {
+    "term": "Monopoly",
+    "definition": "A market structure with a single seller producing a good with no close substitutes, protected by barriers to entry."
+   },
+   {
+    "term": "Price maker",
+    "definition": "A firm with market power that can influence the market price by changing its output, facing a downward-sloping demand curve."
+   },
+   {
+    "term": "Barriers to entry",
+    "definition": "Obstacles that prevent new firms from entering a market, such as patents, licences, high start-up costs, or control of key resources."
+   },
+   {
+    "term": "Oligopoly",
+    "definition": "A market structure dominated by a few large firms whose decisions are interdependent and where barriers to entry exist."
+   },
+   {
+    "term": "Allocative inefficiency",
+    "definition": "A situation where price is not equal to marginal cost (P > MC), so resources are not allocated to their highest-valued uses."
+   },
+   {
+    "term": "Deadweight loss",
+    "definition": "The loss of total surplus (consumer surplus plus producer surplus) that occurs when the market quantity is below the socially efficient level."
+   }
+  ],
+  "unit": 5,
+  "practice": "market-structures",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.1": {
+  "id": "L6.1",
+  "title": "Measuring GDP",
+  "concept": "Gross Domestic Product (GDP) is the total market value of all final goods and services produced within an economy's domestic territory in a given period. GDP can be measured using three approaches, which should give the same result. The expenditure approach sums total spending on final output: GDP = C + I + G + X - M, where C is private consumption expenditure, I is investment expenditure (gross investment: purchases of newly produced capital goods, construction, and changes in inventories), G is government consumption expenditure, X is exports of goods and services, and M is imports of goods and services. The income approach sums the factor incomes (wages, rent, interest and profit) earned from current production. The output approach sums the value added at each stage of production to avoid double counting. Only newly produced final goods and services count. Second-hand goods, transfer payments, and purchases of financial assets are excluded because they do not reflect current production. Intermediate goods are excluded under the final-goods method, but are included through value added under the output approach. In Hong Kong, GDP is compiled mainly by the expenditure approach, with the output approach used for detailed analysis of output by industry.",
+  "example": {
+   "scenario": "A Hong Kong bakery buys $10,000 of locally produced flour and $20,000 of imported butter, then sells all its bread to local households for $50,000 and to tourists for $15,000. The flour producer adds $10,000 in value.",
+   "walkthrough": "Under the expenditure approach, local household spending on bread is C = $50,000. Tourist spending on Hong Kong-produced bread is an export, so X = $15,000. The imported butter is a leakage, so M = $20,000. GDP = C + I + G + X - M = $50,000 + 0 + 0 + $15,000 - $20,000 = $45,000. Under the output approach, the flour producer's value added is $10,000, and the bakery's value added is its sales of $65,000 ($50,000 + $15,000) minus its intermediate input costs of $30,000 ($10,000 + $20,000) = $35,000. Total value added = $10,000 + $35,000 = $45,000. Both approaches give the same GDP."
+  },
+  "traps": [
+   "Counting intermediate goods as final output causes double counting; use only final goods or value added.",
+   "Second-hand sales (e.g. a used car) are not counted in GDP because no new production has occurred, though a dealer's service fee (a current service) is counted.",
+   "Transfer payments such as Comprehensive Social Security Assistance and purchases of shares or bonds are not counted because they do not represent payment for newly produced goods or services.",
+   "Spending by tourists in Hong Kong counts as exports (X), not as local consumption (C), while imported inputs must be subtracted from GDP as imports (M).",
+   "Transfer payments are not part of G; G covers only government consumption expenditure, while government capital spending is included in I."
+  ],
+  "terms": [
+   {
+    "term": "Gross Domestic Product (GDP)",
+    "definition": "The total market value of all final goods and services produced within an economy's domestic territory in a given period."
+   },
+   {
+    "term": "Final goods",
+    "definition": "Goods purchased by their final user and not used as inputs into further production during the period."
+   },
+   {
+    "term": "Intermediate goods",
+    "definition": "Goods used as inputs in the production of other goods and services, which are excluded from the final-goods method to avoid double counting."
+   },
+   {
+    "term": "Value added",
+    "definition": "The market value added at each stage of production, equal to the value of output (sales revenue) minus the cost of intermediate inputs."
+   },
+   {
+    "term": "Expenditure approach",
+    "definition": "Measuring GDP by summing total spending on final goods and services: C + I + G + X - M."
+   },
+   {
+    "term": "Income approach",
+    "definition": "Measuring GDP by summing all factor incomes (wages, rent, interest and profit) earned from current production."
+   },
+   {
+    "term": "Output approach",
+    "definition": "Measuring GDP by summing the value added of all producers in the economy."
+   },
+   {
+    "term": "Investment expenditure (I)",
+    "definition": "Spending on newly produced capital goods and construction, plus changes in inventories; includes both private and government capital formation."
+   },
+   {
+    "term": "Government consumption expenditure (G)",
+    "definition": "Government spending on goods and services produced during the period; excludes transfer payments."
+   },
+   {
+    "term": "Net exports (X - M)",
+    "definition": "The value of exports of goods and services minus the value of imports of goods and services."
+   },
+   {
+    "term": "Transfer payment",
+    "definition": "A payment made without any corresponding good or service provided in return (e.g. CSSA); excluded from GDP."
+   }
+  ],
+  "unit": 6,
+  "practice": "gdp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.2": {
+  "id": "L6.2",
+  "title": "Nominal vs Real GDP",
+  "concept": "Nominal GDP measures the total value of final goods and services produced in an economy at current market prices in a given year. Real GDP measures the same output using constant base-year prices, so it reflects changes in physical output rather than changes in the price level. To convert nominal GDP into real GDP, we use the GDP deflator, which is a price index covering all final goods and services produced domestically. The formula is: Real GDP = (Nominal GDP ÷ GDP deflator) × 100. If nominal GDP rises but real GDP is unchanged, the increase is purely due to inflation, not more production. Comparing real GDP across years is therefore the correct way to measure economic growth. Real GDP per capita, calculated by dividing real GDP by the population, is often used as a rough indicator of average living standards. However, HKDSE candidates must remember that GDP is not a perfect welfare measure. It excludes non-market activities such as household work, ignores the underground economy, does not account for environmental damage, income distribution, or leisure time, and says nothing about the quality or composition of output. Therefore, higher real GDP per capita does not necessarily mean higher social welfare.",
+  "example": {
+   "scenario": "In 2023, Hong Kong's nominal GDP is estimated at $2.98 trillion, and the GDP deflator is 105 with 2021 as the base year (2021 = 100). Compute Hong Kong's real GDP in 2021 prices and explain what the deflator value indicates.",
+   "walkthrough": "Apply the formula: Real GDP = (Nominal GDP ÷ GDP deflator) × 100 = ($2.98 trillion ÷ 105) × 100 = $2.838 trillion in 2021 prices. The GDP deflator of 105 means the general price level of all final goods and services produced in Hong Kong has risen by 5% since 2021. Because the deflator is above 100, part of the nominal GDP figure is due to inflation rather than an increase in actual output. If we compare this real GDP with a previous year's real GDP, any change will reflect the true change in production volume, not price changes."
+  },
+  "traps": [
+   "Students often think nominal GDP is always larger than real GDP, but if the current price level is below the base-year level, real GDP can exceed nominal GDP.",
+   "Confusing the GDP deflator with the CPI: the GDP deflator covers all domestically produced final goods and services, while the CPI covers a fixed basket of consumer goods and services, including imports.",
+   "Using nominal GDP to compare economic growth across years: this mixes changes in output with changes in prices, so it overstates growth during inflation and understates it during deflation.",
+   "Believing that rising real GDP per capita automatically improves welfare, ignoring income distribution, environmental damage, non-market work, and other limitations of GDP."
+  ],
+  "terms": [
+   {
+    "term": "Nominal GDP",
+    "definition": "The total value of final goods and services produced in an economy in a given year, measured at current market prices."
+   },
+   {
+    "term": "Real GDP",
+    "definition": "The total value of final goods and services produced in an economy in a given year, measured at constant base-year prices."
+   },
+   {
+    "term": "GDP deflator",
+    "definition": "A price index that measures the average change in prices of all final goods and services produced domestically, calculated as (Nominal GDP ÷ Real GDP) × 100."
+   },
+   {
+    "term": "Real GDP per capita",
+    "definition": "Real GDP divided by the population, used as a rough indicator of average income or living standards in an economy."
+   }
+  ],
+  "unit": 6,
+  "practice": "gdp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.1": {
+  "id": "L7.1",
+  "title": "Inflation",
+  "concept": "Inflation is a sustained rise in the general price level, commonly measured by the percentage change in the Consumer Price Index (CPI). In Hong Kong, the Census and Statistics Department constructs the CPI by selecting a fixed basket of goods and services commonly purchased by households, weighting each item according to its share in household expenditure, and comparing the total cost of the basket over time. Because the basket is fixed, the CPI tends to overstate increases in the cost of living: when relative prices change, consumers substitute toward relatively cheaper goods, but the basket does not immediately reflect this substitution. Demand-pull inflation occurs when aggregate demand exceeds the economy's productive capacity, pushing up prices. Cost-push inflation occurs when production costs, such as wages or imported raw materials, rise, shifting the aggregate supply curve leftward and raising the price level. Inflation redistributes income and wealth: borrowers and holders of real assets tend to gain, while lenders, savers, and people on fixed incomes lose when inflation is unanticipated. It also creates menu costs, the real costs of changing listed prices, and shoe-leather costs, the time and effort spent reducing money holdings because money loses purchasing power. In the HKDSE, distinguish between a one-off price rise and sustained inflation, and identify whether a given shock affects aggregate demand or aggregate supply.",
+  "example": {
+   "scenario": "A Hong Kong worker receives a fixed monthly salary of $20,000. The CPI rises from 100 to 105 in one year, while the price of a typical 'sik fan' meal rises from $40 to $44.",
+   "walkthrough": "The inflation rate is (105 − 100)/100 × 100% = 5%. The worker's nominal salary is unchanged at $20,000, so his real income falls by about 5% in purchasing power. The price of the meal rises by (44 − 40)/40 × 100% = 10%, which is faster than the general price level, so this specific good's relative price has increased. Because the salary is fixed in nominal terms, the worker is worse off: he can buy fewer meals and fewer goods overall. This illustrates the redistribution effect of unanticipated inflation from fixed-income earners to those whose incomes rise with the price level."
+  },
+  "traps": [
+   "Treating any price increase as inflation: only a sustained rise in the general price level, not a rise in one good's price, is inflation.",
+   "Confusing nominal income with real income: if nominal income rises by 10% and inflation is 10%, real income is unchanged, not higher.",
+   "Thinking CPI measures the cost of living for all people: Hong Kong's CPI is based on an average household expenditure pattern, so individual experience may differ.",
+   "Saying demand-pull inflation is caused by cost increases or cost-push is caused by too much money: demand-pull is from excess aggregate demand; cost-push is from rising production costs shifting short-run aggregate supply."
+  ],
+  "terms": [
+   {
+    "term": "Consumer Price Index (CPI)",
+    "definition": "An index measuring the average price of a fixed basket of consumer goods and services commonly purchased by households, with each item weighted by its share in household expenditure; the percentage change in the CPI measures inflation."
+   },
+   {
+    "term": "Demand-pull inflation",
+    "definition": "A sustained rise in the general price level caused by aggregate demand exceeding the economy's productive capacity (potential output)."
+   },
+   {
+    "term": "Cost-push inflation",
+    "definition": "A sustained rise in the general price level caused by an increase in production costs, which shifts the aggregate supply curve leftward."
+   },
+   {
+    "term": "Redistribution effect",
+    "definition": "The transfer of real income or wealth between groups, such as from lenders to borrowers or from fixed-income earners to those with incomes rising with prices, due to unanticipated inflation."
+   },
+   {
+    "term": "Menu cost",
+    "definition": "The real cost to a firm of changing its listed prices during inflation."
+   },
+   {
+    "term": "Shoe-leather cost",
+    "definition": "The time and effort people spend reducing their money holdings because inflation erodes the purchasing power of money."
+   }
+  ],
+  "unit": 7,
+  "practice": "inflation-unemployment",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.2": {
+  "id": "L7.2",
+  "title": "Unemployment",
+  "concept": "Unemployment is measured by the unemployment rate: unemployment rate = (number of unemployed persons ÷ labour force) × 100%. The labour force comprises all persons aged 15 and above who are either employed or unemployed; the unemployed are those without a job but available for work and actively seeking work during the reference period. People not in the labour force — full-time students, homemakers, retirees, and discouraged workers who have stopped searching — are excluded. The HKDSE syllabus distinguishes three main types of unemployment. Frictional unemployment arises from the normal time lag between jobs as workers search for better matches. Structural unemployment occurs when there is a mismatch between workers' skills and the skills demanded by employers, often due to technological change or industrial restructuring. Cyclical unemployment is caused by a fall in aggregate demand during a downturn in the business cycle. Underemployment refers to employed persons who involuntarily work fewer hours than they are willing to work; these workers are counted as employed in the official rate, so the unemployment rate can understate labour underutilisation. The underemployment rate = (number of underemployed persons ÷ labour force) × 100% is reported separately. In Hong Kong, the Census and Statistics Department conducts the General Household Survey to compile these statistics. A rising unemployment rate usually indicates a weakening economy, while falling unemployment may signal recovery, but frictional and structural unemployment can persist even when the economy is at full employment.",
+  "example": {
+   "scenario": "In Hong Kong, during a tourism downturn, hotel and retail workers lose their jobs. At the same time, the IT sector has many vacancies for programmers, but some unemployed hotel workers lack coding skills. A part-time delivery rider who wants full-time work is also counted as employed.",
+   "walkthrough": "The hotel and retail workers laid off as tourist spending falls are cyclically unemployed: the fall in tourism spending (part of Hong Kong's aggregate demand) reduces the demand for their labour. The hotel workers who cannot fill IT vacancies because they lack coding skills are structurally unemployed, as their skills do not match available jobs. The many IT vacancies also imply frictional unemployment, because even workers with the right skills need time to search and match with suitable positions. The part-time delivery rider is underemployed: he is counted as employed in the unemployment rate, but his labour is underutilised because he involuntarily works fewer hours than he is willing to work. Thus the official unemployment rate would understate the true degree of labour underutilisation in Hong Kong."
+  },
+  "traps": [
+   "Students often think discouraged workers are unemployed, but they are excluded from the labour force because they are not actively seeking work, so they are not counted in the unemployment rate.",
+   "Students confuse underemployment with unemployment: underemployed people have jobs and are counted as employed, even if they work fewer hours than they are willing to work.",
+   "Students may classify all job losses during a recession as cyclical, but if the worker's skills no longer match available jobs, structural unemployment is also present.",
+   "Students forget that the unemployment rate is a percentage of the labour force, not of the total population, so changes in labour force participation (e.g. discouraged workers leaving the labour force) can affect the rate even without changes in employment."
+  ],
+  "terms": [
+   {
+    "term": "Unemployment rate",
+    "definition": "The percentage of the labour force that is unemployed: (unemployed persons ÷ labour force) × 100%."
+   },
+   {
+    "term": "Labour force",
+    "definition": "All persons aged 15 and above who are either employed or unemployed during the reference period."
+   },
+   {
+    "term": "Unemployed persons",
+    "definition": "Persons aged 15 and above without a job, who are available for work and actively seeking work during the reference period."
+   },
+   {
+    "term": "Discouraged workers",
+    "definition": "Persons who want a job but have given up actively seeking work; they are not in the labour force and are not counted as unemployed."
+   },
+   {
+    "term": "Frictional unemployment",
+    "definition": "Unemployment caused by the time workers spend searching for a new job or transitioning between jobs."
+   },
+   {
+    "term": "Structural unemployment",
+    "definition": "Unemployment caused by a mismatch between the skills workers have and the skills employers demand."
+   },
+   {
+    "term": "Cyclical unemployment",
+    "definition": "Unemployment caused by a fall in aggregate demand during a downturn in the business cycle."
+   },
+   {
+    "term": "Underemployment",
+    "definition": "A situation where employed persons involuntarily work fewer hours than they are willing to work; the underemployment rate = (underemployed persons ÷ labour force) × 100%."
+   }
+  ],
+  "unit": 7,
+  "practice": "inflation-unemployment",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.1": {
+  "id": "L5.1",
+  "title": "Perfect Competition & Monopoly Basics",
+  "concept": "Market structure describes the competitive environment in which firms operate, determined by the number of firms, product differentiation, barriers to entry, and information availability. Perfect competition and monopoly sit at opposite extremes. In perfect competition, there are many small firms selling identical products, no barriers to entry or exit, and perfect information. Each firm is a price taker, facing a perfectly elastic demand curve at the market price. In the short run, firms produce where marginal cost equals marginal revenue (MC = MR = P) and earn normal profit, supernormal profit, or incur losses depending on whether price exceeds, equals, or falls below average total cost. In the long run, free entry and exit drive profits to normal levels: supernormal profits attract entry, shifting market supply right and lowering price; losses trigger exit, shifting supply left and raising price. A monopoly, by contrast, is a single seller of a unique product with high barriers to entry (legal, natural, or strategic). The monopolist is a price maker facing the downward-sloping market demand curve. It maximises profit by producing where MC = MR, then charges the highest price consumers will pay for that quantity (from the demand curve). This results in a higher price, lower output, and deadweight loss compared to perfect competition. The monopolist can sustain supernormal profits in the long run because barriers prevent entry. Monopolies may also engage in price discrimination, charging different prices to different consumers based on willingness to pay, converting consumer surplus into producer surplus.",
+  "example": {
+   "scenario": "Hong Kong's MTR operates as a legal monopoly on heavy rail, while the minibus (public light bus) industry approximates perfect competition with many operators on low-barrier routes.",
+   "walkthrough": "The MTR sets fares above marginal cost because it faces the full market demand curve; it produces where MC = MR and charges the corresponding price on the demand curve, earning supernormal profit protected by its statutory franchise. A minibus operator on a saturated route like Mong Kok to Tsuen Wan cannot raise fares above the market rate — if it tries, passengers switch instantly to identical competitors. In the long run, any supernormal profit on that route attracts new minibus operators, pushing fares down until only normal profit remains. The contrast shows how barriers to entry (MTR's franchise vs. minibus's low licensing barrier) determine pricing power and long-run profitability."
+  },
+  "traps": [
+   "Students confuse the firm's demand curve with the market demand curve in perfect competition: the firm faces a horizontal demand curve at the market price, not the downward-sloping market curve.",
+   "Students think monopolists can charge any price; they are constrained by the demand curve — raising price reduces quantity sold, so profit maximisation still requires MC = MR.",
+   "Students assume perfect competition always means zero economic profit; in the short run firms can earn supernormal profit or losses, only in the long run does entry/exit force normal profit.",
+   "Students treat 'barriers to entry' as only legal; natural barriers (economies of scale, control of essential resources) and strategic barriers (limit pricing, predatory pricing) also create monopoly power."
+  ],
+  "terms": [
+   {
+    "term": "Perfect competition",
+    "definition": "A market structure with many firms, identical products, no barriers to entry or exit, and perfect information; firms are price takers."
+   },
+   {
+    "term": "Monopoly",
+    "definition": "A market structure with a single seller of a unique product, high barriers to entry, and price-making power."
+   },
+   {
+    "term": "Price taker",
+    "definition": "A firm that cannot influence the market price and must accept it as given; its demand curve is perfectly elastic."
+   },
+   {
+    "term": "Price maker",
+    "definition": "A firm with market power that can influence the price by choosing its output level; it faces the downward-sloping market demand curve."
+   },
+   {
+    "term": "Barriers to entry",
+    "definition": "Obstacles that prevent new firms from entering a market, including legal, natural, and strategic barriers."
+   },
+   {
+    "term": "Deadweight loss",
+    "definition": "The loss of total surplus (consumer + producer) when a market is not allocatively efficient, e.g. under monopoly pricing where P > MC."
+   }
+  ],
+  "unit": 5,
+  "practice": "market-structures",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.1": {
+  "id": "L8.1",
+  "title": "Functions & Characteristics of Money, Money Supply",
+  "concept": "Money is anything generally accepted as a medium of exchange. It performs four key functions: medium of exchange (eliminates the double coincidence of wants in barter), unit of account (provides a common measure of value for pricing and accounting), store of value (holds purchasing power over time, though inflation erodes it), and standard of deferred payment (enables contracts and loans to be settled in the future). For money to perform these functions well, it should possess six characteristics: acceptability (widely recognised and trusted), divisibility (can be split into small units for small transactions), portability (easy to carry and transfer), durability (withstands wear), uniformity (each unit is identical), and limited supply (scarcity maintains value). Modern money is fiat money — government-issued currency not backed by a commodity but declared legal tender. Its value derives from trust in the issuing authority and its limited supply. Money supply measures the total stock of money in an economy. In Hong Kong, the Hong Kong Monetary Authority (HKMA) publishes three main aggregates: M1 (narrow money) = currency in circulation + demand deposits (chequeable/sight deposits); M2 = M1 + savings deposits + time deposits with licensed banks; M3 = M2 + deposits with restricted licence banks and deposit-taking companies. M1 is the most liquid, used for transactions; M2 and M3 capture broader liquidity. The monetary base (high-powered money) = currency in circulation + bank reserves at the central bank. Changes in money supply affect interest rates, inflation, and economic activity.",
+  "example": {
+   "scenario": "A Hong Kong resident pays for dim sum using an Octopus card, then transfers savings to a time deposit at HSBC, and later the HKMA adjusts the monetary base via the Exchange Fund.",
+   "walkthrough": "The Octopus payment uses stored value — an electronic form of money serving as a medium of exchange and store of value. The funds are ultimately backed by HKD deposits at authorised institutions, counted in M2. When the resident moves money from a demand deposit (part of M1) to a 3-month time deposit, M1 falls but M2 stays unchanged since both are in M2. If the HKMA sells Exchange Fund Bills to banks, banks' reserves at the HKMA fall, reducing the monetary base. Through the money multiplier, this can contract M2 and M3, raising interest rates. The example shows how different money measures capture different liquidity layers and how central bank operations transmit to broader aggregates."
+  },
+  "traps": [
+   "Students confuse money with income or wealth; money is a stock (balance at a point in time), income is a flow (earnings per period), wealth is the value of all assets.",
+   "Students think credit cards are money; they are a payment instrument that creates a loan, not a store of value or medium of exchange in the monetary aggregate sense.",
+   "Students assume M1, M2, M3 are mutually exclusive; they are nested — M1 is a subset of M2, which is a subset of M3.",
+   "Students treat 'limited supply' as meaning the money supply never changes; it means the supply is controlled (by the central bank), not that it is fixed forever."
+  ],
+  "terms": [
+   {
+    "term": "Medium of exchange",
+    "definition": "The function of money that allows it to be used to buy and sell goods and services, avoiding barter's double coincidence of wants."
+   },
+   {
+    "term": "Unit of account",
+    "definition": "The function of money as a common standard for measuring and comparing the value of goods, services, and assets."
+   },
+   {
+    "term": "Store of value",
+    "definition": "The function of money that allows purchasing power to be saved and retrieved later; inflation reduces this function."
+   },
+   {
+    "term": "Fiat money",
+    "definition": "Government-issued currency not backed by a physical commodity, declared legal tender by decree."
+   },
+   {
+    "term": "Monetary base",
+    "definition": "Currency in circulation plus commercial banks' reserves held at the central bank; also called high-powered money."
+   },
+   {
+    "term": "Money supply (M1, M2, M3)",
+    "definition": "Measures of the total stock of money in an economy, with M1 the narrowest (most liquid) and M3 the broadest."
+   }
+  ],
+  "unit": 8,
+  "practice": "money-banking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.2": {
+  "id": "L8.2",
+  "title": "Banking System & Credit Creation / Money Multiplier",
+  "concept": "Commercial banks create money through credit creation. When a bank receives a deposit, it keeps a fraction as reserves (to meet withdrawals) and lends out the rest. The loan becomes a new deposit in the banking system, which can be relent, creating more deposits. This process expands the money supply beyond the initial monetary base. The simple money multiplier = 1 / required reserve ratio (rrr). If rrr = 10%, an initial deposit of $1,000 can support up to $10,000 in total deposits ($1,000 / 0.1). In reality, the actual multiplier is smaller because: (1) banks may hold excess reserves above the required ratio, (2) the public may hold currency rather than redepositing all loan proceeds (currency drain), and (3) some funds may leak into non-bank financial institutions. The HKMA sets the required reserve ratio for licensed banks (currently 0% for HKD, but banks hold voluntary reserves for liquidity) and operates the Discount Window and Liquidity Facility. The monetary base (currency + reserves) is controlled by the HKMA through Exchange Fund operations. Total money supply = monetary base × actual money multiplier. Credit creation is constrained by capital adequacy requirements (Basel III), liquidity coverage ratios, and the demand for loans. Banks cannot lend without limit — they need creditworthy borrowers and must manage risk. The process is symmetric: loan repayment destroys deposits and contracts money supply.",
+  "example": {
+   "scenario": "A Hong Kong SME deposits $1 million at Bank of East Asia; the bank lends $900,000 to a retailer who pays a supplier, who deposits at Hang Seng Bank, which lends $810,000, and so on.",
+   "walkthrough": "Assume a 10% reserve ratio for illustration. The SME's $1M deposit creates $1M in new reserves. BoEA keeps $100k as required reserves, lends $900k. The retailer pays the supplier, who deposits $900k at Hang Seng. Hang Seng keeps $90k reserves, lends $810k. This continues: each round creates a smaller loan and deposit. The theoretical maximum total deposits = $1M × (1/0.1) = $10M. In practice, if banks hold 5% excess reserves and the public holds 15% of loans as currency, the actual multiplier falls to 1 / (0.1 + 0.05 + 0.15) = 4, so total deposits reach only $4M. The HKMA monitors this via M2/M3 statistics and adjusts the monetary base through Exchange Fund operations to meet its monetary policy objectives."
+  },
+  "traps": [
+   "Students think the money multiplier is a policy tool the central bank sets directly; it is an outcome of behaviour (reserve ratio, currency drain, excess reserves), not a lever.",
+   "Students assume banks lend out reserves; banks create deposits when they lend, and reserves are used for interbank settlement, not lent to customers.",
+   "Students confuse the required reserve ratio with the capital adequacy ratio; the former is a liquidity rule (fraction of deposits held as reserves), the latter is a solvency rule (capital as a fraction of risk-weighted assets).",
+   "Students treat credit creation as unlimited; it is constrained by borrower demand, bank capital, regulatory ratios, and the central bank's monetary base."
+  ],
+  "terms": [
+   {
+    "term": "Credit creation",
+    "definition": "The process by which commercial banks expand the money supply by making loans that become new deposits in the banking system."
+   },
+   {
+    "term": "Money multiplier",
+    "definition": "The ratio of the money supply to the monetary base; in the simple model, 1 / required reserve ratio."
+   },
+   {
+    "term": "Required reserve ratio (rrr)",
+    "definition": "The fraction of deposits that banks are legally required to hold as reserves at the central bank."
+   },
+   {
+    "term": "Excess reserves",
+    "definition": "Reserves held by banks above the required minimum, kept for liquidity management or due to lack of lending opportunities."
+   },
+   {
+    "term": "Currency drain",
+    "definition": "The leakage of money from the banking system when the public holds cash instead of redepositing loan proceeds."
+   },
+   {
+    "term": "Monetary base",
+    "definition": "Currency in circulation plus commercial bank reserves at the central bank; the liability side of the central bank's balance sheet."
+   }
+  ],
+  "unit": 8,
+  "practice": "money-banking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.1": {
+  "id": "L9.1",
+  "title": "Fiscal Policy: Government Spending, Taxation & Budget",
+  "concept": "Fiscal policy is the use of government spending and taxation to influence aggregate demand, output and employment. Government expenditure (G) is a direct component of aggregate demand (AD = C + I + G + X - M). When the government increases spending on infrastructure, education, healthcare or transfer payments, it injects demand directly into the economy. Taxation affects disposable income (Yd = Y - T), which influences consumption (C) and saving. A cut in salaries tax or profits tax raises disposable income, encouraging households to spend more and firms to invest more. The government budget records revenues (mainly tax) and expenditures. A budget surplus occurs when revenue exceeds expenditure; a deficit when expenditure exceeds revenue; a balanced budget when they are equal. Deficits are financed by borrowing (issuing bonds), which increases public debt. Expansionary fiscal policy (raise G, cut T) fights recession; contractionary fiscal policy (cut G, raise T) cools overheating. Automatic stabilisers — progressive tax and unemployment benefits — work without new legislation: in a boom, tax revenue rises and benefits fall, dampening demand; in a slump, the reverse happens. The multiplier effect means an initial change in G or T leads to a larger final change in GDP: multiplier = 1 / (1 - MPC) for a simple closed economy. In an open economy with imports and taxes, the multiplier is smaller: 1 / (1 - MPC + MPM + MPT). Time lags (recognition, implementation, impact) and crowding out (government borrowing raising interest rates and reducing private investment) limit effectiveness. The composition of spending matters: capital expenditure (infrastructure) raises long-run productive capacity, while current expenditure (wages, transfers) mainly affects short-run demand. Ricardian equivalence suggests rational households may save tax cuts to pay for future taxes, weakening the multiplier. In Hong Kong, the fiscal reserves act as a buffer, allowing counter-cyclical spending without immediate borrowing.",
+  "example": {
+   "scenario": "The Hong Kong SAR Government announces a HK$10,000 cash handout to permanent residents and increases public housing expenditure in the Budget to support the economy during a global downturn.",
+   "walkthrough": "Step 1: Identify the policy tools — cash handout is a transfer payment (raises disposable income), housing spending is government expenditure (direct AD injection). Step 2: Trace the initial impact — residents receive HK$10,000; with an MPC of 0.7, each spends HK$7,000 and saves HK$3,000. Step 3: Apply the multiplier — the HK$7,000 spending becomes someone else's income, who spends 0.7 × HK$7,000 = HK$4,900, and so on. Total GDP increase = HK$7,000 / (1 - 0.7) ≈ HK$23,333 per recipient. Step 4: Housing spending directly creates construction jobs and demand for materials; workers then spend wages, generating further rounds. Step 5: Assess budget impact — if the handout and housing cost HK$50 billion total and tax revenue is unchanged, the budget moves from surplus to deficit, financed by issuing Exchange Fund Bills. Step 6: Consider limitations — if the economy is near full capacity, the extra demand may raise rents and wages rather than output; if residents save most of the handout due to uncertainty, the multiplier is smaller."
+  },
+  "traps": [
+   "Students confuse fiscal policy with monetary policy: fiscal is government spending and taxation; monetary is interest rates and money supply controlled by the central bank.",
+   "Students think a budget deficit always means the government is 'spending too much'; deficits can be deliberate counter-cyclical policy or caused by falling tax revenue in a recession.",
+   "Students assume the multiplier is the same in every situation; it depends on MPC, marginal tax rate, and marginal propensity to import — leakages reduce its size.",
+   "Students ignore the financing side: government borrowing to fund a deficit can raise interest rates and crowd out private investment, offsetting the stimulus."
+  ],
+  "terms": [
+   {
+    "term": "Fiscal policy",
+    "definition": "The use of government spending and taxation to influence aggregate demand and economic activity."
+   },
+   {
+    "term": "Government expenditure (G)",
+    "definition": "Spending by the government on goods, services and transfer payments; a component of aggregate demand."
+   },
+   {
+    "term": "Taxation (T)",
+    "definition": "Compulsory payments to government that reduce disposable income and affect consumption and investment decisions."
+   },
+   {
+    "term": "Budget surplus/deficit",
+    "definition": "Surplus: government revenue > expenditure; deficit: expenditure > revenue."
+   },
+   {
+    "term": "Multiplier effect",
+    "definition": "An initial change in spending leads to a larger final change in GDP through successive rounds of income and consumption."
+   },
+   {
+    "term": "Crowding out",
+    "definition": "Government borrowing increases demand for loanable funds, raising interest rates and reducing private investment."
+   }
+  ],
+  "unit": 9,
+  "practice": "fiscal-monetary-policy",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.2": {
+  "id": "L9.2",
+  "title": "Monetary Policy & Its Limitations",
+  "concept": "Monetary policy is the use of interest rates and money supply by the monetary authority to influence aggregate demand, inflation and employment. In Hong Kong, the Hong Kong Monetary Authority (HKMA) operates a Currency Board system: the HK dollar is pegged to the US dollar at 7.80 (trading band 7.75–7.85), and the monetary base is backed 100% by US dollar reserves. This means HKMA cannot independently set interest rates — they follow the US Federal Reserve. The key tool is the Base Rate (discount window), which moves in line with the US Fed Funds Rate. When the US raises rates, HKMA raises the Base Rate; banks raise their prime and HIBOR rates, increasing borrowing costs for mortgages, business loans and credit cards. Higher rates reduce consumption (especially durables) and investment, shifting AD left, lowering inflation. Lower rates do the opposite. The transmission mechanism: policy rate → interbank rates (HIBOR) → retail lending rates → borrowing costs → C and I → AD → output and prices. Quantitative easing (QE) is not available under a Currency Board. Limitations: (1) No independent monetary policy — HK imports US monetary conditions, which may not suit HK's economic cycle (e.g. US tightening when HK is in recession). (2) Interest rate changes affect asset prices (property, stocks) more than goods prices, creating financial stability risks. (3) High household debt means rate hikes sharply increase debt servicing, reducing disposable income. (4) Capital flows: the peg attracts hot money; the Aggregate Balance (banks' clearing balances) fluctuates, affecting liquidity. (5) Long and variable lags: it takes 12–18 months for rate changes to fully affect inflation. The Convertibility Undertakings (strong-side at 7.80, weak-side at 7.75) anchor market expectations. When the Aggregate Balance is large, HIBOR stays low; when it shrinks, HIBOR rises. The HKMA also uses the Discount Window and Liquidity Adjustment Facility to manage short-term liquidity.",
+  "example": {
+   "scenario": "The US Federal Reserve raises the Fed Funds Rate by 0.5% to combat high US inflation. HKMA follows by raising the Base Rate from 4.75% to 5.25%. A Hong Kong family with a HK$6 million mortgage at H+1.5% sees their monthly repayment rise.",
+   "walkthrough": "Step 1: Identify the trigger — US tightening forces HKMA to raise Base Rate to maintain the peg and prevent capital outflow. Step 2: Trace the transmission — Base Rate ↑ → HIBOR ↑ → banks' prime rate ↑ (from 5.5% to 6.0%) → mortgage rate (prime - 2.5% or HIBOR + spread) ↑. Step 3: Calculate household impact — original mortgage rate 3.0% (prime 5.5% - 2.5%), monthly repayment ~HK$25,300; new rate 3.5%, repayment ~HK$27,000, extra HK$1,700/month or HK$20,400/year. Step 4: Macro effect — thousands of mortgage holders cut discretionary spending; property prices soften as borrowing costs rise; business investment loans become costlier; AD shifts left. Step 5: Assess limitations — if HK's inflation is driven by supply-side factors (e.g. global food prices) rather than excess demand, higher rates may not lower inflation but will hurt output. Step 6: Note the peg constraint — HKMA cannot cut rates to support the economy if the US is tightening, even if HK enters recession."
+  },
+  "traps": [
+   "Students think HKMA sets interest rates independently; under the Currency Board, rates must follow the US to maintain the peg.",
+   "Students confuse the Base Rate with the prime rate or HIBOR; the Base Rate is the discount window rate, while prime and HIBOR are market rates that move with it.",
+   "Students assume monetary policy affects all sectors equally; interest-sensitive sectors (property, construction, durables) respond more than services or necessities.",
+   "Students overlook the time lag: a rate hike today takes 12–18 months to fully feed through to inflation, so policy must be forward-looking."
+  ],
+  "terms": [
+   {
+    "term": "Monetary policy",
+    "definition": "The use of interest rates and money supply by the central bank to influence aggregate demand, inflation and employment."
+   },
+   {
+    "term": "Currency Board system",
+    "definition": "A monetary regime where the domestic currency is fully backed by foreign reserves and pegged to an anchor currency (HKD to USD at 7.80)."
+   },
+   {
+    "term": "Base Rate",
+    "definition": "The interest rate HKMA charges banks for overnight borrowing through the discount window; the key policy rate in Hong Kong."
+   },
+   {
+    "term": "HIBOR (Hong Kong Interbank Offered Rate)",
+    "definition": "The rate at which banks lend to each other in the Hong Kong interbank market; a benchmark for floating-rate loans."
+   },
+   {
+    "term": "Transmission mechanism",
+    "definition": "The process by which changes in the policy rate affect borrowing costs, spending, output and prices."
+   },
+   {
+    "term": "Hot money",
+    "definition": "Short-term capital flows that move quickly between countries seeking interest rate differentials or exchange rate gains."
+   }
+  ],
+  "unit": 9,
+  "practice": "fiscal-monetary-policy",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.1": {
+  "id": "L10.1",
+  "title": "Absolute & Comparative Advantage, Gains from Trade",
+  "concept": "International trade allows countries to specialise and exchange, raising world output and consumption. Absolute advantage: a country produces a good using fewer resources (lower absolute cost) than another. Comparative advantage: a country produces a good at a lower opportunity cost than another — this is the basis for mutually beneficial trade. Even if one country has absolute advantage in everything, both gain by specialising according to comparative advantage. Opportunity cost of good X = quantity of good Y forgone / quantity of good X produced. If Hong Kong's opportunity cost of 1 financial service unit is 0.5 manufacturing units, and Vietnam's is 2 manufacturing units, HK has comparative advantage in financial services; Vietnam in manufacturing. Terms of trade (ToT) = export price index / import price index × 100. Gains from trade exist when the terms of trade lie between the two countries' domestic opportunity cost ratios. Specialisation increases total world output; trade allows each country to consume outside its production possibility frontier (PPF). Sources of comparative advantage: factor endowments (Heckscher-Ohlin: capital-abundant countries export capital-intensive goods), technology differences (Ricardian), economies of scale, and acquired advantage (skills, infrastructure). Limitations: transport costs, tariffs, non-tariff barriers, exchange rate volatility, and strategic/industrial policy considerations may prevent full specialisation. Dynamic gains from trade include technology transfer, competition-driven innovation, and economies of scale from larger markets. Intra-industry trade (e.g. HK imports and exports different varieties of electronics) is explained by product differentiation and economies of scale, not comparative advantage. The gravity model predicts trade flows are proportional to economic size and inversely proportional to distance.",
+  "example": {
+   "scenario": "Hong Kong and Vietnam each have 100 units of labour. HK can produce 100 financial service units or 50 manufacturing units. Vietnam can produce 20 financial service units or 80 manufacturing units.",
+   "walkthrough": "Step 1: Calculate opportunity costs. HK: 1 financial service = 50/100 = 0.5 manufacturing; 1 manufacturing = 100/50 = 2 financial services. Vietnam: 1 financial service = 80/20 = 4 manufacturing; 1 manufacturing = 20/80 = 0.25 financial services. Step 2: Identify comparative advantage — HK has lower opportunity cost in financial services (0.5 < 4); Vietnam in manufacturing (0.25 < 2). Step 3: Specialise — HK allocates all 100 labour to financial services → 100 units. Vietnam allocates all 100 labour to manufacturing → 80 units. Step 4: Agree on terms of trade — e.g. 1 financial service = 1 manufacturing unit (between 0.5 and 2 for HK, between 0.25 and 4 for Vietnam). Step 5: Trade — HK exports 40 financial services, imports 40 manufacturing. HK consumes 60 financial services + 40 manufacturing. Vietnam consumes 40 financial services + 40 manufacturing. Step 6: Compare with no-trade — without trade, HK could only have 60 financial services + 20 manufacturing (if split 60/40 labour); Vietnam 12 financial services + 48 manufacturing. Both consume more with trade. Step 7: Real-world link — HK specialises in finance, logistics, professional services; Vietnam in electronics assembly, textiles, footwear. Trade lets HK import cheaper manufactured goods, Vietnam access world-class financial services."
+  },
+  "traps": [
+   "Students confuse absolute advantage with comparative advantage: a country can have absolute advantage in everything but still gain from trade by specialising in its comparative advantage.",
+   "Students think opportunity cost is the money cost of production; it is the value of the next best alternative forgone, measured in units of the other good.",
+   "Students assume both countries must gain equally; gains depend on terms of trade — the closer ToT is to a country's domestic opportunity cost, the smaller its gain.",
+   "Students ignore that comparative advantage can change over time as factor endowments, technology and skills evolve (e.g. HK's shift from manufacturing to services)."
+  ],
+  "terms": [
+   {
+    "term": "Absolute advantage",
+    "definition": "The ability of a country to produce a good using fewer resources than another country."
+   },
+   {
+    "term": "Comparative advantage",
+    "definition": "The ability of a country to produce a good at a lower opportunity cost than another country."
+   },
+   {
+    "term": "Opportunity cost",
+    "definition": "The quantity of one good that must be forgone to produce an additional unit of another good."
+   },
+   {
+    "term": "Terms of trade",
+    "definition": "The ratio of export prices to import prices (Export Price Index / Import Price Index × 100)."
+   },
+   {
+    "term": "Production possibility frontier (PPF)",
+    "definition": "The maximum combinations of two goods an economy can produce with its given resources and technology."
+   },
+   {
+    "term": "Gains from trade",
+    "definition": "The increase in consumption possibilities that results from specialisation and exchange at mutually beneficial terms of trade."
+   }
+  ],
+  "unit": 10,
+  "practice": "international-trade",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.2": {
+  "id": "L10.2",
+  "title": "Balance of Payments & Exchange Rates Basics",
+  "concept": "The Balance of Payments (BoP) is a systematic record of all economic transactions between residents of an economy and the rest of the world in a given period. It has three main accounts: (1) Current Account — trade in goods (visible), services (invisible), primary income (wages, investment income), secondary income (transfers). A current account surplus means the economy is a net lender to the world; deficit means net borrower. (2) Capital & Financial Account — capital transfers (e.g. debt forgiveness) and financial transactions: direct investment (FDI), portfolio investment, financial derivatives, reserve assets. (3) Net Errors & Omissions — balancing item. By double-entry bookkeeping, BoP always balances: Current Account + Capital & Financial Account + Net Errors & Omissions = 0. A current account deficit must be financed by a financial account surplus (capital inflow). Exchange rate is the price of one currency in terms of another. HKD uses a linked exchange rate system: USD/HKD fixed at 7.80 (band 7.75–7.85), backed by US dollar reserves. The HKMA undertakes to convert HKD to USD at 7.80 (strong-side Convertibility Undertaking) and USD to HKD at 7.75 (weak-side). Market forces keep the rate within the band. Appreciation (stronger currency) makes exports dearer, imports cheaper — worsens trade balance; depreciation does the opposite. Real exchange rate = nominal rate × (domestic price level / foreign price level) — reflects true competitiveness. Purchasing Power Parity (PPP) theory: in the long run, exchange rates adjust to equalise price levels across countries. The J-curve effect: after a depreciation, the trade balance may worsen before improving because import/export volumes adjust slowly. Marshall-Lerner condition: depreciation improves the trade balance only if the sum of export and import demand elasticities exceeds 1. In HK's linked rate system, nominal exchange rate stability means competitiveness adjusts through domestic prices and wages (internal devaluation).",
+  "example": {
+   "scenario": "A Hong Kong logistics firm exports HK$500 million of freight services to the US, imports HK$200 million of fuel, receives HK$50 million in investment income from overseas subsidiaries, and its parent company in the UK invests HK$300 million in new warehouses in HK.",
+   "walkthrough": "Step 1: Record in Current Account. Exports of services: +HK$500m (credit). Imports of goods (fuel): -HK$200m (debit). Primary income (investment income received): +HK$50m (credit). Current Account balance = +500 - 200 + 50 = +HK$350m surplus. Step 2: Record in Financial Account. UK parent's FDI in HK warehouses: +HK$300m (credit, inflow). Assume no other financial flows. Financial Account balance = +HK$300m surplus. Step 3: Check BoP identity — Current Account (+350) + Financial Account (+300) = +650. This cannot be; there must be offsetting outflows. Step 4: Find the missing entry — the firm pays for fuel imports by drawing down its USD bank deposits abroad (financial account debit -HK$200m), and the HK$500m service export is paid by US clients depositing USD in HK banks (financial account credit +HK$500m). Revised Financial Account: +300 (FDI) -200 (deposit drawdown) +500 (deposit inflow) = +600. Step 5: Net Errors & Omissions = -HK$250m to balance. Step 6: Exchange rate context — under linked rate, USD inflows expand Aggregate Balance, putting downward pressure on HIBOR; HKMA may need to sell HKD/buy USD to keep rate at 7.80."
+  },
+  "traps": [
+   "Students think a current account deficit is 'bad' and surplus 'good'; a deficit can reflect high investment (capital inflow) which raises future capacity, while a surplus may indicate weak domestic demand.",
+   "Students confuse the financial account with the capital account; the capital account covers capital transfers (small), while the financial account covers investment flows (large).",
+   "Students assume the exchange rate is always floating; HK's linked rate means the nominal USD/HKD rate is fixed, so competitiveness adjusts via domestic prices/wages, not the exchange rate.",
+   "Students forget double-entry bookkeeping: every transaction has a credit and debit entry of equal value, so the BoP always balances overall — a current account deficit implies a financial account surplus."
+  ],
+  "terms": [
+   {
+    "term": "Balance of Payments (BoP)",
+    "definition": "A systematic record of all economic transactions between residents of an economy and the rest of the world in a given period."
+   },
+   {
+    "term": "Current Account",
+    "definition": "Records trade in goods and services, primary income (wages, investment income) and secondary income (transfers)."
+   },
+   {
+    "term": "Financial Account",
+    "definition": "Records cross-border financial transactions: direct investment, portfolio investment, derivatives, and reserve assets."
+   },
+   {
+    "term": "Linked exchange rate system",
+    "definition": "A currency board arrangement where HKD is pegged to USD at 7.80, fully backed by USD reserves, with convertibility undertakings at 7.75 and 7.80."
+   },
+   {
+    "term": "Appreciation / Depreciation",
+    "definition": "Appreciation: currency becomes stronger (fewer units per foreign currency); depreciation: currency becomes weaker."
+   },
+   {
+    "term": "Real exchange rate",
+    "definition": "Nominal exchange rate adjusted for price level differences; measures true international competitiveness."
+   }
+  ],
+  "unit": 10,
+  "practice": "international-trade",
+  "passThreshold": 7,
+  "reviewed": true
+ }
+}

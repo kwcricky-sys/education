@@ -343,6 +343,1404 @@
     "linear demand curve elasticity"
    ],
    "subject": "econ"
+  },
+  {
+   "id": "ECON-MINT-001",
+   "topic": "market-intervention",
+   "difficulty": "easy",
+   "question": "The HKSAR government imposes a price ceiling on MTR fares below the market equilibrium. What is the most likely outcome?",
+   "options": [
+    "A. A shortage of MTR rides",
+    "B. A surplus of MTR rides",
+    "C. No change in quantity demanded",
+    "D. An increase in MTR's profit"
+   ],
+   "answer": "A",
+   "explanation": "A price ceiling below equilibrium creates a shortage because quantity demanded exceeds quantity supplied at the controlled price."
+  },
+  {
+   "id": "ECON-MINT-002",
+   "topic": "market-intervention",
+   "difficulty": "easy",
+   "question": "A binding price floor on residential rents in Hong Kong would most likely cause:",
+   "options": [
+    "A. A shortage of rental flats",
+    "B. A surplus of rental flats",
+    "C. An increase in rental demand",
+    "D. Lower maintenance costs for landlords"
+   ],
+   "answer": "B",
+   "explanation": "A price floor above equilibrium leads to quantity supplied exceeding quantity demanded, creating a surplus of unsold/unsold rental units."
+  },
+  {
+   "id": "ECON-MINT-003",
+   "topic": "market-intervention",
+   "difficulty": "easy",
+   "question": "When the government imposes a per-unit tax on cigarettes in Hong Kong, the tax burden shared between buyers and sellers depends primarily on:",
+   "options": [
+    "A. Who legally pays the tax to the government",
+    "B. The price elasticities of demand and supply",
+    "C. The total tax revenue collected",
+    "D. Whether the tax is ad valorem or specific"
+   ],
+   "answer": "B",
+   "explanation": "Tax incidence depends on relative elasticities — the more inelastic side bears more of the burden, regardless of statutory incidence."
+  },
+  {
+   "id": "ECON-MINT-004",
+   "topic": "market-intervention",
+   "difficulty": "easy",
+   "question": "A subsidy given to hawker stall operators in Hong Kong will shift the supply curve:",
+   "options": [
+    "A. Leftward, increasing equilibrium price",
+    "B. Rightward, decreasing equilibrium price",
+    "C. Leftward, decreasing equilibrium price",
+    "D. Rightward, increasing equilibrium price"
+   ],
+   "answer": "B",
+   "explanation": "A subsidy lowers production costs, shifting supply rightward, which reduces equilibrium price and increases equilibrium quantity."
+  },
+  {
+   "id": "ECON-MINT-005",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "The HKSAR government sets a quota on the number of taxi licences. If the quota is binding, which area represents the deadweight loss?",
+   "options": [
+    "A. The rectangle between quota price and marginal cost",
+    "B. The triangle between demand and supply curves beyond the quota quantity",
+    "C. The entire consumer surplus under the demand curve",
+    "D. The producer surplus gained by licence holders"
+   ],
+   "answer": "B",
+   "explanation": "A binding quota restricts quantity below equilibrium, creating deadweight loss equal to the triangle between demand and supply from the quota quantity to the equilibrium quantity."
+  },
+  {
+   "id": "ECON-MINT-006",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "Hong Kong imposes a specific tax of $10 per unit on a good with perfectly inelastic demand and upward-sloping supply. Who bears the full tax burden?",
+   "options": [
+    "A. Consumers",
+    "B. Producers",
+    "C. Shared equally",
+    "D. The government"
+   ],
+   "answer": "A",
+   "explanation": "With perfectly inelastic demand, consumers cannot reduce quantity demanded when price rises, so they bear the entire tax burden regardless of supply elasticity."
+  },
+  {
+   "id": "ECON-MINT-007",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "A price ceiling on public housing rents in Hong Kong creates a black market. The black market price will:",
+   "options": [
+    "A. Equal the price ceiling",
+    "B. Be between the price ceiling and the original equilibrium price",
+    "C. Equal the original equilibrium price",
+    "D. Exceed the original equilibrium price"
+   ],
+   "answer": "D",
+   "explanation": "Black market prices typically exceed the original equilibrium because the effective supply is further restricted by the risk and transaction costs of illegal trading."
+  },
+  {
+   "id": "ECON-MINT-008",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "The government subsidises electric vehicle purchases in Hong Kong. If demand is relatively elastic and supply is relatively inelastic, the subsidy benefit primarily goes to:",
+   "options": [
+    "A. Consumers via lower prices",
+    "B. Producers via higher prices received",
+    "C. Both equally",
+    "D. Neither — deadweight loss absorbs it"
+   ],
+   "answer": "B",
+   "explanation": "With inelastic supply and elastic demand, producers capture most of the subsidy because they cannot easily expand output, while consumers are very price-sensitive."
+  },
+  {
+   "id": "ECON-MINT-009",
+   "topic": "market-intervention",
+   "difficulty": "hard",
+   "question": "Hong Kong introduces a minimum wage for domestic helpers. In a monopsonistic labour market, a binding minimum wage set above the monopsony wage but below the competitive wage will:",
+   "options": [
+    "A. Decrease employment",
+    "B. Increase employment",
+    "C. Leave employment unchanged",
+    "D. Cause indefinite unemployment"
+   ],
+   "answer": "B",
+   "explanation": "In monopsony, the firm faces an upward-sloping labour supply. A minimum wage flattens the marginal cost of labour curve up to the competitive level, increasing employment."
+  },
+  {
+   "id": "ECON-MINT-010",
+   "topic": "market-intervention",
+   "difficulty": "hard",
+   "question": "The government imposes a per-unit tax on a monopolist's output in Hong Kong. Compared to a competitive market with identical demand and cost curves, the monopolist's tax burden is:",
+   "options": [
+    "A. Always larger",
+    "B. Always smaller",
+    "C. Indeterminate — depends on demand elasticity and cost structure",
+    "D. Exactly the same"
+   ],
+   "answer": "C",
+   "explanation": "Monopoly tax incidence depends on demand curvature and marginal cost. It can shift more or less than 100% of the tax to consumers, unlike competitive markets where incidence is determined solely by elasticities."
+  },
+  {
+   "id": "ECON-PRDC-001",
+   "topic": "production-costs",
+   "difficulty": "easy",
+   "question": "Which of the following is a factor of production for a Hong Kong bakery?",
+   "options": [
+    "A. The revenue from selling bread",
+    "B. The flour used to make bread",
+    "C. The profit earned by the owner",
+    "D. The market price of bread"
+   ],
+   "answer": "B",
+   "explanation": "Factors of production are inputs — land, labour, and capital. Flour is a raw material (land/capital input), while revenue, profit, and price are outputs or returns."
+  },
+  {
+   "id": "ECON-PRDC-002",
+   "topic": "production-costs",
+   "difficulty": "easy",
+   "question": "A hawker stall in Mong Kok pays $30,000 monthly rent regardless of how many bowls of noodles it sells. This rent is:",
+   "options": [
+    "A. A variable cost",
+    "B. A fixed cost",
+    "C. A marginal cost",
+    "D. An opportunity cost only"
+   ],
+   "answer": "B",
+   "explanation": "Fixed costs do not vary with output level. Rent must be paid even if zero bowls are sold."
+  },
+  {
+   "id": "ECON-PRDC-003",
+   "topic": "production-costs",
+   "difficulty": "easy",
+   "question": "As a construction firm in Hong Kong hires more workers while keeping capital fixed, the marginal product of labour eventually falls. This illustrates:",
+   "options": [
+    "A. Economies of scale",
+    "B. Diminishing marginal returns",
+    "C. Decreasing returns to scale",
+    "D. The law of demand"
+   ],
+   "answer": "B",
+   "explanation": "Diminishing marginal returns occurs when adding more of a variable input (labour) to fixed inputs (capital) eventually yields smaller increases in output."
+  },
+  {
+   "id": "ECON-PRDC-004",
+   "topic": "production-costs",
+   "difficulty": "easy",
+   "question": "If a property developer's total cost is TC = 500,000 + 200Q, where Q is the number of flats built, the fixed cost is:",
+   "options": [
+    "A. $200",
+    "B. $200Q",
+    "C. $500,000",
+    "D. $500,000 + 200Q"
+   ],
+   "answer": "C",
+   "explanation": "Fixed cost is the component of total cost that does not vary with output (Q). In TC = 500,000 + 200Q, $500,000 is the constant term."
+  },
+  {
+   "id": "ECON-PRDC-005",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "A dim sum restaurant in Hong Kong has average variable cost (AVC) of $80 per customer at 100 customers, and $85 at 101 customers. The marginal cost of the 101st customer is:",
+   "options": [
+    "A. $80",
+    "B. $85",
+    "C. $135",
+    "D. $165"
+   ],
+   "answer": "C",
+   "explanation": "TVC at 100 = 80×100 = 8,000. TVC at 101 = 85×101 = 8,585. MC = ΔTVC/ΔQ = 585/1 = $135. MC exceeds AVC when AVC is rising."
+  },
+  {
+   "id": "ECON-PRDC-006",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "In the short run, a Hong Kong printing firm's average total cost (ATC) curve is U-shaped. The minimum point of ATC occurs where:",
+   "options": [
+    "A. MC = AVC",
+    "B. MC = ATC",
+    "C. MC = AFC",
+    "D. AVC = AFC"
+   ],
+   "answer": "B",
+   "explanation": "MC intersects ATC at its minimum point. When MC < ATC, ATC falls; when MC > ATC, ATC rises."
+  },
+  {
+   "id": "ECON-PRDC-007",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "A logistics company in Hong Kong experiences constant returns to scale in the long run. Its long-run average cost (LRAC) curve is:",
+   "options": [
+    "A. Upward-sloping",
+    "B. Downward-sloping",
+    "C. Horizontal",
+    "D. U-shaped"
+   ],
+   "answer": "C",
+   "explanation": "Constant returns to scale means doubling all inputs doubles output, so average cost remains constant at all output levels — a horizontal LRAC."
+  },
+  {
+   "id": "ECON-PRDC-008",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "A tech startup in Cyberport has total fixed cost of $1,000,000 and marginal cost of $50 per user. At what output level does average total cost equal $150?",
+   "options": [
+    "A. 5,000 users",
+    "B. 10,000 users",
+    "C. 15,000 users",
+    "D. 20,000 users"
+   ],
+   "answer": "B",
+   "explanation": "ATC = TFC/Q + MC. Set 1,000,000/Q + 50 = 150 → 1,000,000/Q = 100 → Q = 10,000."
+  },
+  {
+   "id": "ECON-PRDC-009",
+   "topic": "production-costs",
+   "difficulty": "hard",
+   "question": "A Hong Kong factory's production function is Q = 10L^0.5K^0.5. If capital is fixed at K=100 in the short run, the marginal product of labour (MPL) is:",
+   "options": [
+    "A. 50L^-0.5",
+    "B. 100L^-0.5",
+    "C. 50L^0.5",
+    "D. 10L^0.5"
+   ],
+   "answer": "A",
+   "explanation": "Substitute K=100: Q = 10L^0.5(100)^0.5 = 100L^0.5. MPL = dQ/dL = 50L^-0.5."
+  },
+  {
+   "id": "ECON-PRDC-010",
+   "topic": "production-costs",
+   "difficulty": "hard",
+   "question": "A firm in Hong Kong faces a kinked isoquant due to a production process with fixed proportions (Leontief technology). The firm's expansion path is:",
+   "options": [
+    "A. A straight line from the origin",
+    "B. A vertical line",
+    "C. A horizontal line",
+    "D. A ray from the origin with slope determined by the fixed ratio"
+   ],
+   "answer": "D",
+   "explanation": "With fixed-proportions technology, cost-minimising input combinations must maintain the fixed ratio. The expansion path is a ray from the origin with slope equal to the required capital-labour ratio."
+  },
+  {
+   "id": "ECON-MSTR-001",
+   "topic": "market-structures",
+   "difficulty": "easy",
+   "question": "In perfect competition, a Hong Kong vegetable stall faces a demand curve that is:",
+   "options": [
+    "A. Downward-sloping",
+    "B. Horizontal",
+    "C. Vertical",
+    "D. Upward-sloping"
+   ],
+   "answer": "B",
+   "explanation": "A perfectly competitive firm is a price taker and faces a perfectly elastic (horizontal) demand curve at the market price."
+  },
+  {
+   "id": "ECON-MSTR-002",
+   "topic": "market-structures",
+   "difficulty": "easy",
+   "question": "Which is a characteristic of a monopoly but NOT perfect competition?",
+   "options": [
+    "A. Many buyers and sellers",
+    "B. Homogeneous products",
+    "C. Barriers to entry",
+    "D. Perfect information"
+   ],
+   "answer": "C",
+   "explanation": "Monopolies have high barriers to entry; perfect competition has free entry and exit."
+  },
+  {
+   "id": "ECON-MSTR-003",
+   "topic": "market-structures",
+   "difficulty": "easy",
+   "question": "A profit-maximising monopolist in Hong Kong produces where:",
+   "options": [
+    "A. P = MC",
+    "B. MR = MC",
+    "C. P = ATC",
+    "D. MR = AVC"
+   ],
+   "answer": "B",
+   "explanation": "All firms maximise profit where marginal revenue equals marginal cost. For a monopolist, MR < P due to downward-sloping demand."
+  },
+  {
+   "id": "ECON-MSTR-004",
+   "topic": "market-structures",
+   "difficulty": "easy",
+   "question": "Compared to a perfectly competitive market with the same demand and cost curves, a monopolist produces:",
+   "options": [
+    "A. More output at a lower price",
+    "B. Less output at a higher price",
+    "C. The same output at the same price",
+    "D. More output at a higher price"
+   ],
+   "answer": "B",
+   "explanation": "Monopoly restricts output to raise price above marginal cost, creating deadweight loss relative to competitive equilibrium."
+  },
+  {
+   "id": "ECON-MSTR-005",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "The MTR Corporation is the sole provider of heavy rail services in Hong Kong. This market structure is best described as:",
+   "options": [
+    "A. Perfect competition",
+    "B. Monopolistic competition",
+    "C. Natural monopoly",
+    "D. Oligopoly"
+   ],
+   "answer": "C",
+   "explanation": "Rail networks have high fixed costs and declining average costs over the relevant output range, making a single firm more efficient — a natural monopoly."
+  },
+  {
+   "id": "ECON-MSTR-006",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "In monopolistic competition, Hong Kong coffee shops differentiate their products. In long-run equilibrium, each shop earns:",
+   "options": [
+    "A. Positive economic profit",
+    "B. Zero economic profit",
+    "C. Negative economic profit",
+    "D. Maximum possible profit"
+   ],
+   "answer": "B",
+   "explanation": "Free entry drives economic profit to zero in the long run, though firms maintain excess capacity and price exceeds marginal cost."
+  },
+  {
+   "id": "ECON-MSTR-007",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "A natural monopoly arises when:",
+   "options": [
+    "A. The government grants an exclusive licence",
+    "B. A single firm owns a key resource",
+    "C. Economies of scale persist over the entire market demand",
+    "D. There are network externalities"
+   ],
+   "answer": "C",
+   "explanation": "Natural monopoly occurs when LRAC is declining throughout the relevant range of market demand, making one firm more efficient than multiple firms."
+  },
+  {
+   "id": "ECON-MSTR-008",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "Hong Kong's supermarket industry is dominated by two major chains. This market structure is:",
+   "options": [
+    "A. Monopoly",
+    "B. Duopoly",
+    "C. Perfect competition",
+    "D. Monopolistic competition"
+   ],
+   "answer": "B",
+   "explanation": "A duopoly is an oligopoly with exactly two dominant firms, such as the two major supermarket chains in Hong Kong."
+  },
+  {
+   "id": "ECON-MSTR-009",
+   "topic": "market-structures",
+   "difficulty": "hard",
+   "question": "A monopolist faces demand P = 200 - 2Q and has constant MC = 40. If the government imposes a price ceiling at the competitive price, the resulting output is:",
+   "options": [
+    "A. 40",
+    "B. 80",
+    "C. 60",
+    "D. 20"
+   ],
+   "answer": "B",
+   "explanation": "Competitive price = MC = 40. Set 200 - 2Q = 40 → 2Q = 160 → Q = 80. Monopoly output without regulation: MR = 200 - 4Q = 40 → Q = 40."
+  },
+  {
+   "id": "ECON-MSTR-010",
+   "topic": "market-structures",
+   "difficulty": "hard",
+   "question": "In a Cournot duopoly with identical firms facing Hong Kong market demand P = 100 - Q and MC = 20 for each, the total equilibrium output is:",
+   "options": [
+    "A. 40",
+    "B. 53.33",
+    "C. 60",
+    "D. 80"
+   ],
+   "answer": "B",
+   "explanation": "Each firm's reaction: q = (100 - 20 - q_other)/2 = 40 - 0.5q_other. Symmetric equilibrium: q = 40 - 0.5q → 1.5q = 40 → q = 80/3 ≈ 26.67. Total Q = 160/3 ≈ 53.33."
+  },
+  {
+   "id": "ECON-GDPA-001",
+   "topic": "gdp",
+   "difficulty": "easy",
+   "question": "Which of the following is included in the calculation of Hong Kong's GDP using the expenditure approach?",
+   "options": [
+    "A. Purchase of a second-hand flat in Tsuen Wan",
+    "B. Government spending on the Sha Tin to Central Link construction",
+    "C. Transfer payments to CSSA recipients",
+    "D. Purchase of shares listed on the Hong Kong Stock Exchange"
+   ],
+   "answer": "B",
+   "explanation": "GDP measures final goods and services produced in the current period. Government infrastructure spending is government expenditure (G). Second-hand goods, transfer payments, and financial assets are excluded.",
+   "tags": [
+    "expenditure approach",
+    "government spending",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-002",
+   "topic": "gdp",
+   "difficulty": "easy",
+   "question": "In the national income identity Y = C + I + G + (X - M), what does 'X - M' represent?",
+   "options": [
+    "A. Net factor income from abroad",
+    "B. Net exports",
+    "C. Government budget balance",
+    "D. Private savings minus investment"
+   ],
+   "answer": "B",
+   "explanation": "X - M represents net exports (exports minus imports), the external sector's contribution to aggregate expenditure.",
+   "tags": [
+    "national income identity",
+    "net exports"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-003",
+   "topic": "gdp",
+   "difficulty": "easy",
+   "question": "Which activity would be counted in Hong Kong's GDP but NOT in its GNP?",
+   "options": [
+    "A. A Hong Kong resident working in Shenzhen and sending money home",
+    "B. A Japanese-owned factory in Yuen Long producing electronics for export",
+    "C. A Hong Kong bank earning interest from loans to US firms",
+    "D. Dividends received by Hong Kong residents from overseas investments"
+   ],
+   "answer": "B",
+   "explanation": "GDP is based on geographic location; GNP is based on ownership/residence. Production by foreign-owned firms in HK counts in HK's GDP but not GNP. Options A, C, D are HK residents' factor income from abroad (in GNP, not GDP).",
+   "tags": [
+    "GDP vs GNP",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-004",
+   "topic": "gdp",
+   "difficulty": "easy",
+   "question": "Nominal GDP in 2023 was HK$2,800 billion and real GDP (base year 2020) was HK$2,500 billion. The GDP deflator is approximately:",
+   "options": [
+    "A. 89.3",
+    "B. 100.0",
+    "C. 112.0",
+    "D. 120.0"
+   ],
+   "answer": "C",
+   "explanation": "GDP deflator = (Nominal GDP / Real GDP) × 100 = (2800/2500) × 100 = 112.0. It measures the overall price level relative to the base year.",
+   "tags": [
+    "GDP deflator",
+    "nominal vs real",
+    "calculation"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-005",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "A Hong Kong resident buys a newly built flat from a developer for HK$8 million. In the expenditure approach, this is classified as:",
+   "options": [
+    "A. Consumption (C)",
+    "B. Investment (I)",
+    "C. Government spending (G)",
+    "D. Net exports (X - M)"
+   ],
+   "answer": "B",
+   "explanation": "Residential construction (new housing) counts as investment (I) in national accounts, not consumption. Only the imputed rental value of owner-occupied housing enters C annually.",
+   "tags": [
+    "investment vs consumption",
+    "housing",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-006",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "If the Hong Kong dollar appreciates significantly against the US dollar, ceteris paribus, the most likely short-run effect on Hong Kong's nominal GDP measured in HK$ is:",
+   "options": [
+    "A. Increase due to higher export revenue in HK$",
+    "B. Decrease due to lower export revenue in HK$",
+    "C. No change as GDP is measured in domestic currency",
+    "D. Increase due to cheaper imported intermediate goods"
+   ],
+   "answer": "B",
+   "explanation": "HKD appreciation makes HK exports more expensive to foreigners, reducing export volume and HK$-denominated export revenue (X falls). Import value (M) may fall too but net exports typically decline, reducing nominal GDP.",
+   "tags": [
+    "exchange rates",
+    "net exports",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-007",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "Which of the following is a limitation of using real GDP per capita as a measure of living standards in Hong Kong?",
+   "options": [
+    "A. It includes the value of illegal drug trade",
+    "B. It excludes non-market activities like unpaid domestic work",
+    "C. It overstates income inequality by including transfer payments",
+    "D. It uses market exchange rates instead of PPP for international comparison"
+   ],
+   "answer": "B",
+   "explanation": "Real GDP per capita excludes non-market production (unpaid household work, volunteer services), underground economy, environmental degradation, and leisure time. It also doesn't capture inequality. Option A is false (illegal activity excluded), C is false (transfers excluded from GDP), D is a separate PPP issue.",
+   "tags": [
+    "limitations of GDP",
+    "non-market activity",
+    "living standards"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-008",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "The Census and Statistics Department reports that Hong Kong's chain volume measure of GDP grew by 3.2% in 2023. This means:",
+   "options": [
+    "A. Nominal GDP grew by 3.2%",
+    "B. Real GDP grew by 3.2% using a fixed base year",
+    "C. Real GDP grew by 3.2% using annually updated weights",
+    "D. The GDP deflator increased by 3.2%"
+   ],
+   "answer": "C",
+   "explanation": "Chain volume measures (used by HK since 2000) update weights annually to reflect changing price structures, avoiding base-year bias. This is real GDP growth with chained weights, not a fixed base year.",
+   "tags": [
+    "chain volume measure",
+    "real GDP",
+    "HK statistical practice"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-009",
+   "topic": "gdp",
+   "difficulty": "hard",
+   "question": "In 2022, Hong Kong's nominal GDP was HK$2,850 billion and GDP deflator was 108.5 (2020=100). In 2023, nominal GDP was HK$2,950 billion and deflator was 112.0. The approximate real GDP growth rate from 2022 to 2023 was:",
+   "options": [
+    "A. -1.2%",
+    "B. 0.3%",
+    "C. 2.1%",
+    "D. 3.5%"
+   ],
+   "answer": "B",
+   "explanation": "Real GDP 2022 = 2850/108.5 × 100 = 2626.7; Real GDP 2023 = 2950/112.0 × 100 = 2633.9. Growth = (2633.9-2626.7)/2626.7 ≈ 0.27% ≈ 0.3%. Nominal growth was 3.5% but inflation (~3.2%) nearly offset it.",
+   "tags": [
+    "real GDP calculation",
+    "growth rate",
+    "deflator",
+    "HK data"
+   ]
+  },
+  {
+   "id": "ECON-GDPA-010",
+   "topic": "gdp",
+   "difficulty": "hard",
+   "question": "Hong Kong's GDP compilation uses the 'ownership transfer' principle for recording imports/exports of goods. This means goods are recorded when:",
+   "options": [
+    "A. They physically cross the customs frontier",
+    "B. Ownership changes between resident and non-resident",
+    "C. Payment is received by the exporter",
+    "D. The shipping bill of lading is issued"
+   ],
+   "answer": "B",
+   "explanation": "HK follows UN SNA 2008: trade in goods is recorded at change of ownership, not physical crossing. This affects timing for goods sent abroad for processing, merchanting, and goods under financial lease.",
+   "tags": [
+    "ownership transfer principle",
+    "SNA 2008",
+    "HK trade statistics"
+   ]
+  },
+  {
+   "id": "ECON-INFA-001",
+   "topic": "inflation-unemployment",
+   "difficulty": "easy",
+   "question": "The Consumer Price Index (CPI) in Hong Kong measures the average price change of:",
+   "options": [
+    "A. All goods and services produced in Hong Kong",
+    "B. A fixed basket of goods and services consumed by households",
+    "C. Only imported consumer goods",
+    "D. Capital goods and raw materials"
+   ],
+   "answer": "B",
+   "explanation": "CPI tracks a fixed basket representing household consumption expenditure. It excludes investment goods and uses expenditure weights from the Household Expenditure Survey.",
+   "tags": [
+    "CPI definition",
+    "basket of goods",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INFA-002",
+   "topic": "inflation-unemployment",
+   "difficulty": "easy",
+   "question": "If the CPI rises from 105 to 108 over a year, the inflation rate is approximately:",
+   "options": [
+    "A. 2.8%",
+    "B. 2.9%",
+    "C. 3.0%",
+    "D. 3.3%"
+   ],
+   "answer": "A",
+   "explanation": "Inflation rate = (108 - 105) / 105 × 100% = 2.86% ≈ 2.8%.",
+   "tags": [
+    "inflation rate calculation",
+    "CPI"
+   ]
+  },
+  {
+   "id": "ECON-INFA-003",
+   "topic": "inflation-unemployment",
+   "difficulty": "easy",
+   "question": "Which type of unemployment occurs when workers are between jobs, searching for better matches?",
+   "options": [
+    "A. Structural unemployment",
+    "B. Cyclical unemployment",
+    "C. Frictional unemployment",
+    "D. Seasonal unemployment"
+   ],
+   "answer": "C",
+   "explanation": "Frictional unemployment is short-term job search unemployment due to imperfect information and mobility. Structural is skills mismatch; cyclical is demand-deficient; seasonal is predictable pattern.",
+   "tags": [
+    "frictional unemployment",
+    "types of unemployment"
+   ]
+  },
+  {
+   "id": "ECON-INFA-004",
+   "topic": "inflation-unemployment",
+   "difficulty": "easy",
+   "question": "Demand-pull inflation is caused by:",
+   "options": [
+    "A. Increases in wages and raw material costs",
+    "B. Aggregate demand exceeding aggregate supply at full employment",
+    "C. A decrease in the money supply",
+    "D. Supply shocks such as oil price hikes"
+   ],
+   "answer": "B",
+   "explanation": "Demand-pull inflation: 'too much money chasing too few goods' — AD > AS at full employment. Option A is cost-push; C would reduce inflation; D is cost-push/supply shock.",
+   "tags": [
+    "demand-pull inflation",
+    "causes of inflation"
+   ]
+  },
+  {
+   "id": "ECON-INFA-005",
+   "topic": "inflation-unemployment",
+   "difficulty": "medium",
+   "question": "Hong Kong's Composite CPI increased by 2.1% in 2023. If the underlying CPI (excluding one-off government relief measures) increased by 1.7%, this suggests:",
+   "options": [
+    "A. Government relief measures increased inflation",
+    "B. Government relief measures dampened headline inflation",
+    "C. The CPI basket weights are outdated",
+    "D. There is measurement error in the CPI"
+   ],
+   "answer": "B",
+   "explanation": "Underlying CPI excludes one-off relief (e.g., rates concession, electricity subsidy). If headline (2.1%) > underlying (1.7%), relief measures lowered headline inflation. Without them, inflation would have been higher.",
+   "tags": [
+    "composite CPI",
+    "underlying CPI",
+    "government relief",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INFA-006",
+   "topic": "inflation-unemployment",
+   "difficulty": "medium",
+   "question": "The natural rate of unemployment in Hong Kong is estimated at around 3.5-4%. If the actual unemployment rate falls to 2.8%, this suggests:",
+   "options": [
+    "A. The economy is in a recession",
+    "B. Cyclical unemployment is negative (overheating)",
+    "C. Structural unemployment has been eliminated",
+    "D. Frictional unemployment has increased"
+   ],
+   "answer": "B",
+   "explanation": "Actual unemployment < natural rate implies negative cyclical unemployment — the economy is operating above potential (overheating), creating upward pressure on wages and prices.",
+   "tags": [
+    "natural rate",
+    "cyclical unemployment",
+    "output gap",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INFA-007",
+   "topic": "inflation-unemployment",
+   "difficulty": "medium",
+   "question": "Which of the following best describes cost-push inflation in the Hong Kong context?",
+   "options": [
+    "A. Tourist spending surge drives up hotel and retail prices",
+    "B. Minimum wage increase raises labour costs for restaurants and retail",
+    "C. Low interest rates stimulate mortgage demand and property prices",
+    "D. Government infrastructure spending boosts construction demand"
+   ],
+   "answer": "B",
+   "explanation": "Cost-push inflation originates from supply-side cost increases (wages, raw materials, rent). Minimum wage hike directly raises labour costs. Options A, C, D are demand-side (demand-pull).",
+   "tags": [
+    "cost-push inflation",
+    "minimum wage",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INFA-008",
+   "topic": "inflation-unemployment",
+   "difficulty": "medium",
+   "question": "The Phillips curve shows a short-run trade-off between:",
+   "options": [
+    "A. Inflation and economic growth",
+    "B. Unemployment and inflation",
+    "C. Interest rates and unemployment",
+    "D. Money supply and price level"
+   ],
+   "answer": "B",
+   "explanation": "The short-run Phillips curve depicts an inverse relationship between unemployment and inflation. In the long run, it is vertical at the natural rate (no trade-off).",
+   "tags": [
+    "Phillips curve",
+    "short-run trade-off"
+   ]
+  },
+  {
+   "id": "ECON-INFA-009",
+   "topic": "inflation-unemployment",
+   "difficulty": "hard",
+   "question": "Hong Kong's CPI(A) and Composite CPI often diverge. The main reason is that CPI(A) has a higher weight on:",
+   "options": [
+    "A. Housing (private rental)",
+    "B. Food and basic necessities",
+    "C. Transport and telecommunications",
+    "D. Education and medical services"
+   ],
+   "answer": "B",
+   "explanation": "CPI(A) covers the lowest 50% of households by expenditure and has higher weights on food (≈27% vs ≈21% in Composite) and basic necessities. Lower-income households spend more on essentials.",
+   "tags": [
+    "CPI(A) vs Composite CPI",
+    "expenditure weights",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INFA-010",
+   "topic": "inflation-unemployment",
+   "difficulty": "hard",
+   "question": "If the Hong Kong Monetary Authority (HKMA) raises the Base Rate under the Linked Exchange Rate System, the most likely transmission to unemployment is:",
+   "options": [
+    "A. Higher interest rates → lower investment → lower AD → higher cyclical unemployment",
+    "B. Higher interest rates → HKD depreciation → higher exports → lower unemployment",
+    "C. Higher interest rates → higher money supply → higher inflation → lower real wages → lower unemployment",
+    "D. No effect on unemployment as the Linked Exchange Rate System fixes interest rates"
+   ],
+   "answer": "A",
+   "explanation": "Under the LERS, HKMA Base Rate follows US Fed. Higher rates increase borrowing costs, reduce I and C, lower AD, creating demand-deficient (cyclical) unemployment. HKD doesn't depreciate (pegged); money supply contracts, not expands.",
+   "tags": [
+    "monetary transmission",
+    "Linked Exchange Rate System",
+    "cyclical unemployment",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-MONA-001",
+   "topic": "money-banking",
+   "difficulty": "easy",
+   "question": "Which of the following is a function of money that allows it to be used to compare the value of different goods?",
+   "options": [
+    "A. Medium of exchange",
+    "B. Unit of account",
+    "C. Store of value",
+    "D. Standard of deferred payment"
+   ],
+   "answer": "B",
+   "explanation": "Unit of account (measure of value) means money provides a common denominator for pricing goods. Medium of exchange facilitates transactions; store of value holds purchasing power over time.",
+   "tags": [
+    "functions of money",
+    "unit of account"
+   ]
+  },
+  {
+   "id": "ECON-MONA-002",
+   "topic": "money-banking",
+   "difficulty": "easy",
+   "question": "In Hong Kong, M1 consists of:",
+   "options": [
+    "A. Currency in circulation + demand deposits",
+    "B. Currency in circulation + all deposits",
+    "C. M2 + certificates of deposit",
+    "D. M3 + negotiable certificates of deposit"
+   ],
+   "answer": "A",
+   "explanation": "M1 = currency in circulation + demand deposits (licensed banks). M2 = M1 + savings deposits + time deposits. M3 = M2 + deposits with restricted licence banks and deposit-taking companies.",
+   "tags": [
+    "money supply definitions",
+    "M1",
+    "HKMA"
+   ]
+  },
+  {
+   "id": "ECON-MONA-003",
+   "topic": "money-banking",
+   "difficulty": "easy",
+   "question": "If the required reserve ratio is 10% and a bank receives a new deposit of HK$1,000, the maximum amount it can lend out in the first round is:",
+   "options": [
+    "A. HK$100",
+    "B. HK$900",
+    "C. HK$1,000",
+    "D. HK$10,000"
+   ],
+   "answer": "B",
+   "explanation": "Required reserves = 10% × HK$1,000 = HK$100. Excess reserves (lendable) = HK$1,000 - HK$100 = HK$900.",
+   "tags": [
+    "required reserves",
+    "credit creation",
+    "calculation"
+   ]
+  },
+  {
+   "id": "ECON-MONA-004",
+   "topic": "money-banking",
+   "difficulty": "easy",
+   "question": "The simple money multiplier is calculated as:",
+   "options": [
+    "A. 1 / required reserve ratio",
+    "B. Required reserve ratio / 1",
+    "C. 1 / (1 - required reserve ratio)",
+    "D. (1 - required reserve ratio) / 1"
+   ],
+   "answer": "A",
+   "explanation": "Simple money multiplier = 1 / rrr. With rrr = 10%, multiplier = 10. Maximum money supply change = initial deposit × multiplier.",
+   "tags": [
+    "money multiplier",
+    "formula"
+   ]
+  },
+  {
+   "id": "ECON-MONA-005",
+   "topic": "money-banking",
+   "difficulty": "medium",
+   "question": "Hong Kong's Linked Exchange Rate System requires the Monetary Base to be fully backed by US dollar reserves. If the HKMA issues HK$10 billion in new Exchange Fund Bills, the US dollar reserves must:",
+   "options": [
+    "A. Increase by HK$10 billion",
+    "B. Increase by US$ equivalent of HK$10 billion at the linked rate",
+    "C. Decrease by US$ equivalent of HK$10 billion",
+    "D. Remain unchanged as Bills are not part of Monetary Base"
+   ],
+   "answer": "B",
+   "explanation": "Exchange Fund Bills are HKMA liabilities, part of Monetary Base. Under LERS, every HK$ issued must be backed by US$ reserves at 7.80. New Bills → Monetary Base expands → US$ reserves must increase correspondingly.",
+   "tags": [
+    "Linked Exchange Rate System",
+    "Monetary Base",
+    "Exchange Fund Bills",
+    "HKMA"
+   ]
+  },
+  {
+   "id": "ECON-MONA-006",
+   "topic": "money-banking",
+   "difficulty": "medium",
+   "question": "A Hong Kong bank has HK$500 million in deposits and HK$50 million in reserves. The required reserve ratio is 8%. The bank's excess reserves are:",
+   "options": [
+    "A. HK$10 million",
+    "B. HK$40 million",
+    "C. HK$100 million",
+    "D. HK$450 million"
+   ],
+   "answer": "A",
+   "explanation": "Required reserves = 8% × HK$500m = HK$40m. Excess reserves = Actual reserves - Required reserves = HK$50m - HK$40m = HK$10m.",
+   "tags": [
+    "excess reserves",
+    "required reserves",
+    "calculation"
+   ]
+  },
+  {
+   "id": "ECON-MONA-007",
+   "topic": "money-banking",
+   "difficulty": "medium",
+   "question": "Which of the following would cause the money supply (M3) to DECREASE in Hong Kong?",
+   "options": [
+    "A. HKMA buys Exchange Fund Bills from banks",
+    "B. Public deposits more cash into banks",
+    "C. Banks increase lending to property developers",
+    "D. Public withdraws cash from banks and holds it as currency"
+   ],
+   "answer": "D",
+   "explanation": "Currency withdrawal reduces bank reserves, shrinking the deposit creation base. M3 = currency + deposits; if public holds more currency, deposits fall by a multiple (money multiplier in reverse). Options A, B, C expand money supply.",
+   "tags": [
+    "money supply contraction",
+    "currency drain",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-MONA-008",
+   "topic": "money-banking",
+   "difficulty": "medium",
+   "question": "Under the Linked Exchange Rate System, when the US Federal Reserve raises the federal funds rate, the HKMA's Base Rate typically:",
+   "options": [
+    "A. Rises by the same magnitude",
+    "B. Rises by a smaller magnitude",
+    "C. Falls to maintain the peg",
+    "D. Remains unchanged as HKMA sets rates independently"
+   ],
+   "answer": "A",
+   "explanation": "Under the Currency Board arrangement, HK interest rates must track US rates to maintain the 7.80 peg and prevent arbitrage. HKMA Base Rate is set at a fixed spread (currently 0.5% above Fed's IORB) and moves in lockstep.",
+   "tags": [
+    "Linked Exchange Rate System",
+    "interest rate parity",
+    "HKMA Base Rate"
+   ]
+  },
+  {
+   "id": "ECON-MONA-009",
+   "topic": "money-banking",
+   "difficulty": "hard",
+   "question": "If the currency-to-deposit ratio (c) increases while the reserve ratio (r) stays constant, the money multiplier will:",
+   "options": [
+    "A. Increase",
+    "B. Decrease",
+    "C. Remain unchanged",
+    "D. Become negative"
+   ],
+   "answer": "B",
+   "explanation": "Realistic money multiplier = (1 + c) / (r + c). As c rises, denominator rises faster than numerator, so multiplier falls. More currency held by public means less deposit base for multiple creation.",
+   "tags": [
+    "money multiplier",
+    "currency drain",
+    "formula"
+   ]
+  },
+  {
+   "id": "ECON-MONA-010",
+   "topic": "money-banking",
+   "difficulty": "hard",
+   "question": "A Hong Kong bank faces a sudden withdrawal of HK$200 million in deposits. With a required reserve ratio of 8% and no excess reserves initially, the maximum potential contraction of M3 is:",
+   "options": [
+    "A. HK$200 million",
+    "B. HK$250 million",
+    "C. HK$1.6 billion",
+    "D. HK$2.5 billion"
+   ],
+   "answer": "D",
+   "explanation": "Money multiplier = 1/0.08 = 12.5. Initial reserve loss = HK$200m × 8% = HK$16m? No — the full HK$200m deposit withdrawal reduces reserves by HK$200m (bank must pay out). Contraction = HK$200m × 12.5 = HK$2.5bn. (Deposit multiplier works in reverse.)",
+   "tags": [
+    "money multiplier",
+    "contraction",
+    "bank run",
+    "calculation"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-001",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "easy",
+   "question": "Which of the following is an example of expansionary fiscal policy?",
+   "options": [
+    "A. Increasing profits tax rate from 16.5% to 18%",
+    "B. Reducing government spending on public housing",
+    "C. Increasing infrastructure spending on the Northern Metropolis development",
+    "D. Raising the Base Rate by 0.25%"
+   ],
+   "answer": "C",
+   "explanation": "Expansionary fiscal policy: increase G or decrease T to boost AD. Option C increases government spending. A and B are contractionary fiscal; D is monetary policy.",
+   "tags": [
+    "expansionary fiscal policy",
+    "government spending",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-002",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "easy",
+   "question": "The Hong Kong government runs a budget surplus when:",
+   "options": [
+    "A. Government revenue exceeds government expenditure",
+    "B. Government expenditure exceeds government revenue",
+    "C. Tax revenue equals transfer payments",
+    "D. Public debt is zero"
+   ],
+   "answer": "A",
+   "explanation": "Budget surplus = Revenue > Expenditure. Deficit = Expenditure > Revenue. Public debt is accumulated past deficits; a surplus doesn't require zero debt.",
+   "tags": [
+    "budget surplus",
+    "fiscal balance"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-003",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "easy",
+   "question": "A proportional tax means that as income rises, the:",
+   "options": [
+    "A. Average tax rate rises",
+    "B. Average tax rate falls",
+    "C. Average tax rate remains constant",
+    "D. Marginal tax rate falls"
+   ],
+   "answer": "C",
+   "explanation": "Proportional (flat) tax: constant marginal and average tax rate at all income levels. Progressive: average rate rises with income; regressive: average rate falls.",
+   "tags": [
+    "proportional tax",
+    "tax structure"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-004",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "easy",
+   "question": "The HKMA's primary monetary policy objective under the Linked Exchange Rate System is:",
+   "options": [
+    "A. Full employment",
+    "B. Economic growth",
+    "C. Exchange rate stability (HKD 7.80 per USD)",
+    "D. Inflation targeting at 2%"
+   ],
+   "answer": "C",
+   "explanation": "Under the Currency Board, the HKMA's sole mandate is maintaining the linked exchange rate (HKD 7.75-7.85/USD). It cannot independently target inflation or employment.",
+   "tags": [
+    "HKMA mandate",
+    "Linked Exchange Rate System",
+    "monetary policy objective"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-005",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "medium",
+   "question": "In Hong Kong's 2024-25 Budget, the Financial Secretary announced a one-off tax rebate of 100% of salaries tax, capped at HK$3,000. This is classified as:",
+   "options": [
+    "A. Expansionary fiscal policy (increase in government transfers)",
+    "B. Contractionary fiscal policy (decrease in government revenue)",
+    "C. Neutral fiscal policy (no change in structural balance)",
+    "D. Monetary policy (affects money supply)"
+   ],
+   "answer": "A",
+   "explanation": "A tax rebate reduces tax liabilities (negative T), increasing disposable income and AD — expansionary fiscal policy. It's a one-off measure (temporary), but still expansionary in the year implemented.",
+   "tags": [
+    "tax rebate",
+    "expansionary fiscal",
+    "HK Budget 2024-25"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-006",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "medium",
+   "question": "The 'crowding out effect' of expansionary fiscal policy refers to:",
+   "options": [
+    "A. Government spending displacing private consumption",
+    "B. Higher government borrowing raising interest rates and reducing private investment",
+    "C. Tax cuts reducing government revenue and increasing debt",
+    "D. Inflation eroding the real value of government spending"
+   ],
+   "answer": "B",
+   "explanation": "Crowding out: expansionary fiscal policy (deficit) → increased government borrowing → higher interest rates → lower private investment. In HK under LERS, rates track US, so crowding out via interest rates is limited; it operates via exchange rate/confidence channels.",
+   "tags": [
+    "crowding out",
+    "fiscal policy",
+    "interest rates"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-007",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "medium",
+   "question": "If Hong Kong enters a recession, automatic stabilizers will cause the budget balance to move toward:",
+   "options": [
+    "A. A larger surplus",
+    "B. A smaller surplus or deficit",
+    "C. No change as HK has no automatic stabilizers",
+    "D. A surplus due to falling interest payments"
+   ],
+   "answer": "B",
+   "explanation": "Automatic stabilizers: in recession, tax revenue falls (progressive tax) and transfer payments rise (unemployment benefits, CSSA), moving budget toward deficit. HK has progressive salaries tax and comprehensive social security.",
+   "tags": [
+    "automatic stabilizers",
+    "recession",
+    "budget balance"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-008",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "medium",
+   "question": "The HKMA uses the Discount Window (Base Rate) as its key policy rate. When the Base Rate increases, the most direct effect on commercial banks is:",
+   "options": [
+    "A. Their lending rates (Prime/Best Lending Rate) typically increase",
+    "B. Their required reserve ratio increases",
+    "C. Their capital adequacy ratio decreases",
+    "D. Their deposit insurance premium decreases"
+   ],
+   "answer": "A",
+   "explanation": "Base Rate is the rate at which banks can borrow from HKMA via Discount Window. It anchors interbank rates (HIBOR) and banks' Prime/Best Lending Rates, which move in tandem.",
+   "tags": [
+    "Discount Window",
+    "Base Rate",
+    "Prime rate",
+    "HKMA"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-009",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "hard",
+   "question": "Hong Kong's fiscal reserves stood at HK$800 billion. The government runs a deficit of HK$100 billion in Year 1 and HK$150 billion in Year 2. Assuming no investment income, the fiscal reserves at end of Year 2 are:",
+   "options": [
+    "A. HK$550 billion",
+    "B. HK$650 billion",
+    "C. HK$700 billion",
+    "D. HK$950 billion"
+   ],
+   "answer": "A",
+   "explanation": "Fiscal reserves = 800 - 100 - 150 = 550. Deficits draw down reserves. HK's large reserves act as a buffer for counter-cyclical fiscal policy.",
+   "tags": [
+    "fiscal reserves",
+    "budget deficit",
+    "calculation",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-FISCA-010",
+   "topic": "fiscal-monetary-policy",
+   "difficulty": "hard",
+   "question": "Under the Linked Exchange Rate System, an expansionary US monetary policy (lower Fed rate) leads to capital inflows to Hong Kong. To maintain the peg, the HKMA must:",
+   "options": [
+    "A. Sell USD and buy HKD, reducing Monetary Base",
+    "B. Buy USD and sell HKD, expanding Monetary Base",
+    "C. Raise the Base Rate above the Fed rate",
+    "D. Impose capital controls to stop inflows"
+   ],
+   "answer": "B",
+   "explanation": "US rate cut → capital flows to HK for higher yield → HKD appreciates pressure. HKMA sells HKD / buys USD to prevent appreciation above 7.75. This increases HKD Monetary Base (currency board mechanics).",
+   "tags": [
+    "capital flows",
+    "currency board mechanics",
+    "Monetary Base",
+    "LERS"
+   ]
+  },
+  {
+   "id": "ECON-INTA-001",
+   "topic": "international-trade",
+   "difficulty": "easy",
+   "question": "According to the law of comparative advantage, a country should specialise in producing goods for which it has:",
+   "options": [
+    "A. The lowest absolute production cost",
+    "B. The lowest opportunity cost",
+    "C. The highest labour productivity",
+    "D. The most natural resources"
+   ],
+   "answer": "B",
+   "explanation": "Comparative advantage is based on lower opportunity cost, not absolute cost. A country can have comparative advantage even if it's less efficient in absolute terms (Ricardo's classic example).",
+   "tags": [
+    "comparative advantage",
+    "opportunity cost"
+   ]
+  },
+  {
+   "id": "ECON-INTA-002",
+   "topic": "international-trade",
+   "difficulty": "easy",
+   "question": "Hong Kong's major trading partner for both imports and exports is:",
+   "options": [
+    "A. United States",
+    "B. Mainland China",
+    "C. Japan",
+    "D. Taiwan"
+   ],
+   "answer": "B",
+   "explanation": "Mainland China is HK's largest trading partner, accounting for ~50% of total trade. Much is re-exports and processing trade.",
+   "tags": [
+    "HK trade partners",
+    "Mainland China"
+   ]
+  },
+  {
+   "id": "ECON-INTA-003",
+   "topic": "international-trade",
+   "difficulty": "easy",
+   "question": "A tariff on imported goods will:",
+   "options": [
+    "A. Increase consumer surplus and decrease producer surplus",
+    "B. Decrease consumer surplus and increase producer surplus",
+    "C. Increase both consumer and producer surplus",
+    "D. Decrease both consumer and producer surplus"
+   ],
+   "answer": "B",
+   "explanation": "Tariff raises domestic price → consumers buy less (consumer surplus falls), domestic producers sell more at higher price (producer surplus rises). Government gains revenue; deadweight loss occurs.",
+   "tags": [
+    "tariff effects",
+    "consumer surplus",
+    "producer surplus"
+   ]
+  },
+  {
+   "id": "ECON-INTA-004",
+   "topic": "international-trade",
+   "difficulty": "easy",
+   "question": "The balance of payments current account includes:",
+   "options": [
+    "A. Trade in goods, services, primary income, and secondary income",
+    "B. Only exports and imports of goods",
+    "C. Foreign direct investment and portfolio investment",
+    "D. Changes in official reserves"
+   ],
+   "answer": "A",
+   "explanation": "Current account = goods trade + services trade + primary income (wages, investment income) + secondary income (transfers). Capital/financial account covers FDI, portfolio, reserves.",
+   "tags": [
+    "balance of payments",
+    "current account components"
+   ]
+  },
+  {
+   "id": "ECON-INTA-005",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "Hong Kong's merchandise trade statistics show large re-export values. Re-exports are goods that:",
+   "options": [
+    "A. Are produced in Hong Kong and sold abroad",
+    "B. Are imported and then exported without substantial transformation",
+    "C. Are exported to the Mainland for processing and re-imported",
+    "D. Are transit goods that never clear Hong Kong customs"
+   ],
+   "answer": "B",
+   "explanation": "Re-exports: imported goods subsequently exported without substantial transformation (no value-added manufacturing). They dominate HK's trade stats due to its entrepôt role. Domestic exports are HK-origin; outward processing involves transformation.",
+   "tags": [
+    "re-exports",
+    "HK trade statistics",
+    "entrepôt trade"
+   ]
+  },
+  {
+   "id": "ECON-INTA-006",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "If the HKD appreciates against the RMB, the most likely effect on Hong Kong's domestic exports to the Mainland is:",
+   "options": [
+    "A. Increase in volume as HK goods become cheaper to Mainland buyers",
+    "B. Decrease in volume as HK goods become more expensive to Mainland buyers",
+    "C. No change as trade is invoiced in USD",
+    "D. Increase in value but decrease in volume"
+   ],
+   "answer": "B",
+   "explanation": "HKD appreciation = RMB depreciation. HK goods cost more RMB → Mainland demand falls. Volume decreases. Invoicing in USD doesn't eliminate the relative price effect.",
+   "tags": [
+    "exchange rate appreciation",
+    "export competitiveness",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INTA-007",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "Hong Kong consistently runs a merchandise trade deficit but a services trade surplus. The overall current account is typically:",
+   "options": [
+    "A. In large deficit",
+    "B. In small deficit",
+    "C. In surplus",
+    "D. Exactly balanced"
+   ],
+   "answer": "C",
+   "explanation": "HK's services surplus (financial, logistics, business services) typically exceeds the merchandise trade deficit, resulting in a current account surplus (often 3-7% of GDP).",
+   "tags": [
+    "current account",
+    "services surplus",
+    "merchandise deficit",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INTA-008",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "A quota on imported cars differs from an equivalent tariff in that:",
+   "options": [
+    "A. A quota generates government revenue; a tariff does not",
+    "B. A quota creates quota rents for import licence holders; a tariff generates government revenue",
+    "C. A quota always reduces imports more than a tariff",
+    "D. A quota benefits consumers; a tariff harms them"
+   ],
+   "answer": "B",
+   "explanation": "Quota: government sets quantity limit; licence holders earn quota rents (difference between domestic and world price). Tariff: government collects revenue. Both restrict imports and raise domestic prices.",
+   "tags": [
+    "quota vs tariff",
+    "quota rents",
+    "government revenue"
+   ]
+  },
+  {
+   "id": "ECON-INTA-009",
+   "topic": "international-trade",
+   "difficulty": "hard",
+   "question": "In the balance of payments, Hong Kong's large positive 'net errors and omissions' item often reflects:",
+   "options": [
+    "A. Statistical errors in merchandise trade data",
+    "B. Unrecorded capital inflows (e.g., hot money, round-tripping)",
+    "C. Undervaluation of service exports",
+    "D. Overstatement of primary income receipts"
+   ],
+   "answer": "B",
+   "explanation": "Net errors & omissions (NEO) is the residual balancing item. In HK, persistently positive NEO suggests unrecorded capital inflows — hot money, round-tripping FDI via HK, or mis-invoicing. It's a known feature of HK's BoP.",
+   "tags": [
+    "balance of payments",
+    "net errors and omissions",
+    "capital flows",
+    "HK context"
+   ]
+  },
+  {
+   "id": "ECON-INTA-010",
+   "topic": "international-trade",
+   "difficulty": "hard",
+   "question": "Hong Kong's Linked Exchange Rate System operates as a currency board. If the HKMA's US dollar reserves are US$450 billion and the Monetary Base is HK$3,510 billion, the implied backing ratio is:",
+   "options": [
+    "A. 95%",
+    "B. 100%",
+    "C. 105%",
+    "D. 110%"
+   ],
+   "answer": "B",
+   "explanation": "Backing ratio = (US$ reserves × 7.80) / Monetary Base. US$450bn × 7.80 = HK$3,510bn. Ratio = 3510/3510 = 100%. The system requires ≥100% backing; HKMA typically maintains ~100-110%.",
+   "tags": [
+    "currency board",
+    "backing ratio",
+    "US dollar reserves",
+    "Monetary Base",
+    "HKMA"
+   ]
+  },
+  {
+   "id": "ECON-ELAS-009",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "A bookstore cuts the price of a bestseller by 10% and total revenue from the book rises. The price elasticity of demand for the book is:",
+   "options": [
+    "A. Inelastic (less than 1)",
+    "B. Elastic (greater than 1)",
+    "C. Unit elastic (equal to 1)",
+    "D. Perfectly inelastic"
+   ],
+   "answer": "B",
+   "explanation": "If total revenue rises when price falls, the percentage rise in quantity demanded exceeds the percentage fall in price, so demand is elastic."
+  },
+  {
+   "id": "ECON-ELAS-010",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "A 10% rise in consumers' incomes leads to a 5% fall in demand for instant noodles. Instant noodles are:",
+   "options": [
+    "A. A normal good with income elasticity 0.5",
+    "B. A normal good with income elasticity 2",
+    "C. An inferior good with income elasticity -0.5",
+    "D. An inferior good with income elasticity -2"
+   ],
+   "answer": "C",
+   "explanation": "Demand falls when income rises, so the good is inferior. Income elasticity = -5%/10% = -0.5."
   }
  ]
 }
