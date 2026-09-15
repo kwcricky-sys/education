@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Activity, ArrowLeft, BookMarked, BookOpen } from "lucide-react";
+import { Activity, ArrowLeft, BookMarked, BookOpen, PlayCircle } from "lucide-react";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
@@ -39,6 +39,27 @@ export default function DseLayout({
             >
               <BookOpen className="size-3.5" />
               中文科
+            </Link>
+            <Link
+              href="/dse/videos"
+              className="hidden items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm text-zinc-400 transition-all duration-300 hover:bg-zinc-900 hover:text-zinc-100 md:inline-flex"
+            >
+              <PlayCircle className="size-3.5" />
+              溫習片庫
+            </Link>
+            <Link
+              href="/dse/jupas"
+              className="hidden items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm text-zinc-400 transition-all duration-300 hover:bg-zinc-900 hover:text-zinc-100 md:inline-flex"
+            >
+              <BookOpen className="size-3.5" />
+              JUPAS 揀科
+            </Link>
+            <Link
+              href="/dse/english/learn"
+              className="hidden items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm text-zinc-400 transition-all duration-300 hover:bg-zinc-900 hover:text-zinc-100 md:inline-flex"
+            >
+              <BookOpen className="size-3.5" />
+              自學路徑
             </Link>
             <Link
               href="/dse/chinese/cat"

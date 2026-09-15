@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
 import { getDrillBank, DRILL_SUBJECTS, questionHref } from "@/lib/dse/drills";
+import { getAllVideoLibraries } from "@/lib/dse/videos";
 import { SITE_URL } from "@/lib/site";
 
 /** DSE-only sitemap (primary school product lives on PrimaryNav). */
@@ -32,6 +33,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/dse/econ/learn`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/dse/english/learn`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/dse/jupas`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.93,
+    },
+    {
+      url: `${SITE_URL}/dse/jupas/compare`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
       url: `${SITE_URL}/guides/dse-buxi`,
@@ -90,5 +115,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...core, ...texts, ...drillUrls];
+  // Curated YouTube video library: hub + one page per subject.
+  const videoUrls: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/dse/videos`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...getAllVideoLibraries().map((lib) => ({
+      url: `${SITE_URL}/dse/videos/${lib.meta.subject}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    })),
+  ];
+
+  return [...core, ...texts, ...drillUrls, ...videoUrls];
 }

@@ -1,0 +1,822 @@
+{
+ "L1.1": {
+  "id": "L1.1",
+  "title": "卷一閱讀：整份卷的結構與時間分配",
+  "concept": "卷一 Reading 佔全科 20%，考試時間 1 小時 30 分鐘。全卷分兩部分，各佔 10%：Part A 必答，Part B 就由你選 B1 或 B2。這裡有一個很多同學到考完都未搞清楚的重點——選 B1 的話，就算你答到滿分，最高等級只到 Level 4；想衝 5 或以上，一定要做 B2。所以「B1 容易拎分」這個想法只在小部分情況成立，長遠會封死自己的上限。另一個評卷重心是：卷一每一題獨立計分，題與題之間無連帶關係，所以策略應該是先把全卷的題型掃一次，會做的先做，唔好順序死守一題。一般建議 Part A 用約 40 分鐘，Part B 用約 45 分鐘，剩 5 分鐘檢查拼字與漏答。卷一失分最常見的原因不是唔識字，而是時間用錯，最後幾題空白。",
+  "example": {
+   "scenario": "你模擬考做卷一，Part A 用了 55 分鐘，去到 Part B2 只剩 30 分鐘，最後一篇文章的長題目完全空白。",
+   "walkthrough": "問題核心不是英語能力，而是分配。Part A 的文章通常較短、題型較直接，理應 40 分鐘內完成；如果在 Part A 卡住超過 45 分鐘，就應該跳去 Part B，因為 Part B 的長題目每一分同樣是一分，但需要更多時間組織答案。改做方法：開卷先花 2 分鐘翻一次全卷，數清有幾篇文章、幾條長題目；然後按「Part A 40 分鐘 — Part B 45 分鐘 — 檢查 5 分鐘」設三個時間檢查點。做卷時按時鐘推進，唔好等到最後才發現長題目未開始。"
+  },
+  "traps": [
+   "以為選 B1 就一定高分：B1 最高只到 Level 4，等於自己封頂，程度中上的同學應該直接操 B2。",
+   "在 Part A 一題上花超過 5 分鐘：卷一題目分值細，一題卡死會直接吃掉後面長題目的時間。",
+   "答案直接抄原文整句：評卷是看你有無理解，抄句通常唔會給分，要用自己的字重寫（paraphrase）。",
+   "做完 Part A 才發現 Part B 要選 B1 或 B2：選卷決定要在開卷時就想清楚，中途改選會浪費時間。",
+   "沒有預留檢查時間，漏答、拼錯字、寫錯題號這些低級失分全部出現在最後五分鐘。"
+  ],
+  "terms": [
+   {
+    "term": "Part A (Compulsory)",
+    "definition": "卷一必答部分，佔全科 10%，所有考生都要做。"
+   },
+   {
+    "term": "Part B1 / B2",
+    "definition": "卷一選答部分，各佔全科 10%。B1 較淺，最高等級為 Level 4；B2 較深，可取最高等級。"
+   },
+   {
+    "term": "Paraphrase",
+    "definition": "用自己嘅字詞重寫原文意思。閱讀題的答案大多要求 paraphrase，而不是照抄原文句子。"
+   },
+   {
+    "term": "Time checkpoint",
+    "definition": "做卷前預設的時間檢查點，例如 Part A 必須在開考後 40 分鐘內完成，用來防止超時。"
+   }
+  ],
+  "unit": 1,
+  "practice": "reading-locating",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.2": {
+  "id": "L1.2",
+  "title": "定位題：關鍵字、同義改寫、順序線索",
+  "concept": "定位題（detail question）問的是文章明寫過的資料，例如 who、when、how much、according to paragraph 3。這類題目其實是考「搵料」，不是考理解深度，所以方法好機械：先抽題目關鍵詞，再回文章掃描同一意思的字眼。考評局的出題習慣是——題目的字眼通常唔會同文章一樣，會用同義詞或改寫（paraphrase），例如題目問 reduce waste，文章寫 cut down on rubbish。所以你要搵的是「意思」，唔係「字面」。另外一個非常有用的線索：卷一題目編號通常跟文章段落順序。如果第 5 題的答案在第二段，第 6 題的答案極少會跳回第一段。當你發現自己搵到上一段，通常代表你上一題搵錯位置。定位題是整份卷一最應該全取的部分，因為它唔靠領悟力，只靠紀律。",
+  "example": {
+   "scenario": "題目問：「What did the writer do to reduce his plastic use? (paragraph 2)」文章第二段寫 “I swapped bottled water for a refillable flask and stopped buying packaged snacks.”",
+   "walkthrough": "題目關鍵詞是 reduce / plastic use；文章中對應的字眼是 swapped…for、stopped buying packaged snacks，這些都是「減少塑膠」的具體做法。答案應該用自己的語言寫成一句完整句子，例如 “He replaced bottled water with a refillable flask and gave up packaged snacks.” 如果你只是抄回整句原文，評卷時只會當你搬字過紙，未展示理解；如果答案只寫 “refillable flask”，就會被視為資料不完整，因為題目問的是 do（至少兩件事）。定位題的滿分做法是：準確定位 ＋ 完整回答 ＋ 自己組織語言。"
+  },
+  "traps": [
+   "用題目原字回文章搜尋：出題人刻意改用同義詞或改寫，字面唔同不代表位置唔對。",
+   "答案只抄一個名詞：題目問 how / what did he do，就要寫完整動作，唔係只寫物件。",
+   "忽略括號提示（paragraph 2）：括號是出題人給你的位置，唔用等於自己增加難度。",
+   "答題位置跳來跳去：題號大致跟段落順序，跳位通常代表上一題搵錯。",
+   "答案抄原文整句：評卷重點是理解後的改寫，直接搬句容易失分。"
+  ],
+  "terms": [
+   {
+    "term": "Detail question",
+    "definition": "問文章明寫資料的題目，例如人物、時間、數字、做法，答案可以在文中直接定位。"
+   },
+   {
+    "term": "Synonym / paraphrase clue",
+    "definition": "題目與文章用唔同字眼表達同一個意思，考生要靠意思配對而唔係字面對照。"
+   },
+   {
+    "term": "Signpost",
+    "definition": "文章或題目中提示位置的線索，例如段落編號、however、in addition 這類標記。"
+   }
+  ],
+  "unit": 1,
+  "practice": "reading-locating",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.3": {
+  "id": "L1.3",
+  "title": "長題目：分點作答的評分邏輯",
+  "concept": "卷一的長題目（extended / open-ended response）通常佔 4 至 8 分，是拉開等級的地方。考評局的評卷方式多數是 point-based：marking scheme 逐點列明，答中一點得一分，所以答題結構比文字優美重要得多。實戰寫法有三個紀律。第一，分點寫，一點一行，用 a、b 或 bullet，唔好寫成一大段散文，因為評卷員要在短時間內找到你的得分點。第二，每點先寫結論再寫證據，例如先把 the main reason 講清楚，再引文章的字詞支持。第三，答案的長度要跟分數成正比——4 分的題目通常要 3 至 4 個獨立要點，唔係寫得多就高分。常見錯誤是同學把同一點用唔同講法寫三次，以為可以多拿分，其實 marking scheme 只會計一次。寫完之後回頭數一次：我的答案有幾多個「唔同」的點？如果少過題目分數，就要補。",
+  "example": {
+   "scenario": "題目問：「Give two reasons why the writer thinks online learning is not suitable for everyone. (4 marks)」",
+   "walkthrough": "4 分代表每點 2 分（一點內容 ＋ 相關支持）。答案應該分兩點寫，每點一句結論加一句證據。示範：「(1) Not everyone has a quiet place to study — the writer mentions students sharing a flat with siblings. (2) Some learners need face-to-face help — he says weaker students cannot ask questions instantly online.」如果只寫一段文字講「online learning has problems」，即使意思對，評卷員只見到一個模糊的點，最多拿一半分。反之，如果寫了四點但其中兩點重複，就是用時間換唔到分。"
+  },
+  "traps": [
+   "把所有內容寫成一大段：評卷要點式，分點寫才能讓評卷員快速找到得分點。",
+   "同一點換句話重複三次：marking scheme 只計一次，重複等於浪費時間。",
+   "答題少過題目要求的分點數目：4 分題只寫兩點，通常封頂在中間分數。",
+   "只寫結論沒有證據：長題目一般要求內容加支持，缺一項就會扣分。",
+   "寫得越長越著數：長題目看的是「點數」與「準確度」，冗長而重複反而掩蓋重點。"
+  ],
+  "terms": [
+   {
+    "term": "Point-based marking",
+    "definition": "評卷方式之一，marking scheme 逐點計分，答中一點得一分的分數。"
+   },
+   {
+    "term": "Extended response",
+    "definition": "需要數句以上、通常 4 分或以上的開放式題目，要求考生組織並支持自己的答案。"
+   },
+   {
+    "term": "Supporting evidence",
+    "definition": "支持答案的文中證據，例如引述人物、數字、例子，令得分點成立。"
+   }
+  ],
+  "unit": 1,
+  "practice": "reading-locating",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.1": {
+  "id": "L2.1",
+  "title": "推論題：讀出作者冇明講的意思",
+  "concept": "推論題（inference question）是卷一第二個戰場：文章冇明寫答案，你要由字裡行間推出結論。出題方式通常是 “What can be inferred about X?”、“Why does the writer mention Y?”，或者要求你由人物的說話推斷他的性格、處境或動機。做推論題的正確心法，是把問題拆成兩步：第一步，問自己「文章有邊個具體細節？」把相關句子圈出來；第二步，問自己「這個細節合邏輯地指向什麼結論？」兩個步驟都要有文中根據，唔可以靠常識或個人感覺硬填。考評局的 marking 對推論題通常比 detail 題寬鬆一點，容許不同措辭的答案，但要求答案緊扣文本，所以「合理但文章冇線索」的答案一樣無分。另外一個實用原則：文章和題目總會有落差（gap），你的工作就是把落差補上一句合理的橋樑，句子要短，一句搞掂，唔好順便評論。",
+  "example": {
+   "scenario": "文章寫：「My grandfather still keeps the old radio on the shelf, though nobody has switched it on for over a decade.」題目問：「What can be inferred about the grandfather?」",
+   "walkthrough": "具體細節有兩個——舊收音機仍然保留（still keeps），以及十多年冇開過（nobody has switched it on for over a decade）。由「保留但不使用」這個組合，可以推論收音機對他而言有紀念價值、帶來情感或回憶，而不是實用價值。合格答案：「He keeps the radio for sentimental reasons rather than for use.」不及格的答案包括「He likes listening to the radio」（與文中事實矛盾）、「He is poor and cannot buy a new one」（文章完全冇提到經濟狀況）。推論一定要由文中細節推出去，唔可以自己補一個故事。"
+  },
+  "traps": [
+   "用常識代替文本：答案合常理但文章冇線索，一樣無分。",
+   "寫得太含糊，例如「the writer likes him」：推論要有具體方向，唔係一句感覺。",
+   "把推論寫成事實斷言：題目問 inferred，答案應該反映由證據推出來的結論，唔係一句絕對事實。",
+   "忽略人物語氣與對比：作者常用轉折（but、though）暗示態度，跳過轉折位就會推錯方向。",
+   "答案寫成一大段評論：推論題通常一至兩句就夠，寫多反而暴露離題。"
+  ],
+  "terms": [
+   {
+    "term": "Inference",
+    "definition": "由文章提供的細節推出冇明寫的結論，結論必須有文本根據。"
+   },
+   {
+    "term": "Textual clue",
+    "definition": "支撐推論的字詞、語氣或對比結構，例如 however、still、rather than。"
+   },
+   {
+    "term": "Gap filling",
+    "definition": "推論題的核心動作——由事實細節（fact）到結論（conclusion）之間補上一句合理的推理。"
+   }
+  ],
+  "unit": 2,
+  "practice": "reading-inference",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.2": {
+  "id": "L2.2",
+  "title": "語氣與態度：tone 題的判斷方法",
+  "concept": "語氣題（tone / attitude）表面難，其實有一套可以練的程序。第一，鎖定說話的人在講什麼題材（科技、環保、教育），第二，找出他的評價詞——這些詞直接反映喜惡同立場，例如 brilliant、ridiculous、overrated、regrettably。第三，留意句子的形式：反問句（Are we really expected to…?）通常帶批評或諷刺；連續的疑問句多數是不滿或質疑；讓步結構（although… , it is still…）通常表示保留態度。第四，如果文章同時有正反兩面，語氣多是 cautious / objective，而唔係 strongly supportive。考試常見的選項有 critical、sympathetic、objective、sarcastic、optimistic、doubtful、detached、enthusiastic。考評局的 marking 通常只有一個最貼合全文的答案，所以判斷時要以作者整體立場為準，唔可以只看一句。避免只捉到一兩個負面字就選 critical——要先看負面講的是題材本身，定係局部批評。",
+  "example": {
+   "scenario": "文章最後一段寫：「The new app promises to change how students revise. It is a bold claim, though one cannot help wondering how many will abandon it by the second week.」題目問：The writer's tone in the last paragraph is ——?",
+   "walkthrough": "先抽評價詞：bold claim 是中性偏保留，完整的讓步結構 It is a bold claim, though… 表示「講得大，但…」；one cannot help wondering 是含蓄質疑，唔係嘲笑。綜合起來是 cautious / sceptical，而唔係 sarcastic（文章冇貶損或挖苦的措辭）也唔係 enthusiastic（完全冇熱情支持）。作答時即使只選一個字，都要在心入面講得出根據：讓步結構 ＋ 含蓄疑問 = 保留。這個程序比「憑感覺揀」穩定得多。"
+  },
+  "traps": [
+   "只捉一個負面形容詞就選 critical：要分清是批評題材本身，還是局部保留態度。",
+   "將 cautious / sceptical 誤當 sarcastic：sarcasm 需要挖苦或反諷的語言特徵，單單質疑唔算。",
+   "忽略讓步結構：although、though、it is true that… entirely 這些結構代表作者有保留，不是全盤支持。",
+   "以一句話決定全篇語氣：tone 題看整體立場，唔可以抽一句獨立判斷。",
+   "選項詞義唔清就亂揀：critical、detached、objective、cynical 這些詞要先搞清楚差別。"
+  ],
+  "terms": [
+   {
+    "term": "Tone",
+    "definition": "作者對題材的態度與語調，例如 critical、objective、optimistic，由用詞與句式共同決定。"
+   },
+   {
+    "term": "Concessive structure",
+    "definition": "讓步結構，例如 although…、it is true that…；表示作者承認一面但仍保留另一面立場。"
+   },
+   {
+    "term": "Rhetorical question",
+    "definition": "反問句，形式是問句但功能是表達立場，通常帶質疑或批評。"
+   }
+  ],
+  "unit": 2,
+  "practice": "reading-inference",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.3": {
+  "id": "L2.3",
+  "title": "詞彙題與語言特徵題",
+  "concept": "詞彙題（vocabulary / contextual meaning）問 “What does X mean in paragraph 4?”，答案是從上下文推出來的意思，往往唔是字典第一個解釋。方法是把該字前後 1 至 2 句讀齊，然後問自己三條問題：這個字在這裡是褒、貶、還是中性？它修飾誰？如果把它換成另一個字，句子意思會不會變？常見的陷阱是熟詞僻義——你熟悉的字在文中用的是另一個意思，例如 address（處理、正視）、bear（承受）、fine（細微的）、firm（堅定的、公司）。與詞彙題同一家族的是語言特徵題（language feature），例如問作者用 metaphor、rhetorical question、repetition 有咩效果。答題公式是：指出手法（name the device）＋ 指出它強調什麼（what it highlights）＋ 指出對讀者的效果（what effect it creates）。評卷對這三項通常都要見到，只寫「令文章生動」是太籠統的答案，唔會給分。",
+  "example": {
+   "scenario": "句子上文：「City officials have finally decided to address the housing problem.」題目問：What does “address” mean here?",
+   "walkthrough": "如果背字典，address 會是「地址」或「向…講話」，兩個都不通。看上下文：主語是 officials，受詞是 housing problem，動作是 decided to。在官員與問題的組合之下，address 的意思是「正視、處理」——同 tackle、deal with 相近。作答時要用一個意思相近的字或短語去解釋，例如 “to deal with / tackle the problem”，唔好只寫 “to speak to”，亦唔好把「地址」這個常見意思硬塞進去。詞彙題答題技巧：先用上下文確認褒貶與搭配，再用同義詞解釋，最後確認你的解釋放入原文仍然通順。"
+  },
+  "traps": [
+   "用字典第一個解釋作答：熟詞僻義是出題熱點，必須用上下文確認。",
+   "只寫同義詞而沒有配合句子：解釋後放入原文要通順，才算正確。",
+   "語言特徵題只寫「令文章生動」：必須點明手法、強調什麼、對讀者有何效果。",
+   "混淆手法名稱：metaphor（暗喻）、simile（明喻）、personification（擬人）、repetition（重複）要分清。",
+   "忽略詞語的褒貶色彩：同意思但語氣不同的字，會令答案偏離作者的立場。"
+  ],
+  "terms": [
+   {
+    "term": "Contextual meaning",
+    "definition": "字詞在特定文章脈絡中的意思，可能與字典主要意思不同。"
+   },
+   {
+    "term": "Language feature",
+    "definition": "語言特徵或修辭手法，例如 metaphor、simile、rhetorical question、repetition。"
+   },
+   {
+    "term": "Collocation",
+    "definition": "固定搭配，例如 address the problem、draw a conclusion，用上下文判斷意思的重要線索。"
+   }
+  ],
+  "unit": 2,
+  "practice": "reading-inference",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.1": {
+  "id": "L3.1",
+  "title": "卷二 Part A 短題目：格式、語氣與字數",
+  "concept": "卷二 Writing 佔 25%、兩小時。Part A 是引導式短題目，約 200 字，佔 10%：題目會給你處境、寫作目的與部分資料，你要把資料整合成一篇短文。這部分的評分重心是 appropriacy（語域與格式對唔對）同內容完整度，唔係文采。實戰三步：第一步，圈出題目指定的身份、讀者與目的（who you are / who you write to / why），因為這三者決定語氣：寫給校長要用 formal，寫給朋友用 informal，寫給校報文章可以用 semi-formal 但唔應該加 Dear 或 Yours sincerely。第二步，把所有 bullet points 逐項覆蓋，缺一項就直接扣內容分。第三步，用 4 至 5 段組織：開頭講目的，中段逐項交代，結尾一句總結或呼籲。字數目標 190 至 220 字之間，低過 180 字通常內容不足，寫到 260 字以上會浪費 Part B 的寶貴時間。",
+  "example": {
+   "scenario": "Part A 題目：你要以學生會主席身份寫一封信給校長，建議在校內增設飲水機，並說明兩個好處及一項需要學校提供的支援。",
+   "walkthrough": "先定身份與語氣：學生會主席寫給校長，屬正式但有請求性質，用 Dear Principal、Yours sincerely 結尾，代名詞用 I / we，唔用 hey 或 gonna。然後數題目要求：建議（飲水機）、兩個好處、一項支援，共四項內容，必須逐一覆蓋，例如「減少買瓶裝水」與「方便運動後補水」是兩個好處，「需要學校額外電力工程」是支援。最後檢查語域：正式信唔應該出現 emoticon、縮寫或口語。字數控制在 200 字左右，段落清晰，比堆砌深字更易拿分。"
+  },
+  "traps": [
+   "忽略題目給的身份與讀者：語氣與格式錯，會直接拉低 appropriacy 分。",
+   "漏做 bullet points 其中一項：內容完整度是按項計分，缺一項就是明顯失分。",
+   "正式書信混入口語：例如 gonna、super cool、lots of，在寫給校長的信中格格不入。",
+   "字數嚴重不足或爆字：約 200 字的題目寫 150 字內容單薄，寫 300 字則犧牲 Part B 時間。",
+   "把所有內容寫成一大段：缺乏段落會影響 coherence 的評分。"
+  ],
+  "terms": [
+   {
+    "term": "Appropriacy",
+    "definition": "語域與格式是否配合處境、讀者與目的，是卷二評分的重要項目。"
+   },
+   {
+    "term": "Register",
+    "definition": "語域，即正式程度。寫給校長用 formal，寫給朋友用 informal，兩者不能混用。"
+   },
+   {
+    "term": "Guided task",
+    "definition": "引導式寫作任務，題目提供處境、目的及 bullet points，考生須全部覆蓋。"
+   }
+  ],
+  "unit": 3,
+  "practice": "writing-formats",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.2": {
+  "id": "L3.2",
+  "title": "卷二 Part B 長題目：四選一與文章骨架",
+  "concept": "Part B 是開放式長題目，約 400 字，佔 15%，四題選一。評分重心有三個：內容（ideas relevant to the question）、組織（paragraphing 與推進）、語言（準確度與多樣性）。很多同學花太多時間選題，其實選題只應該用 3 至 5 分鐘，判斷標準是「邊題我講得出三個具體點子」。既然四題都可以取同等分數，就唔需要揀「最有深度」的題目——揀自己最有話說的題目。下筆前用 3 分鐘寫一個骨架：立場一句、三個支持點各一句、結尾一句。400 字的結構通常是四至五段：引言（背景加立場）＋ 三段主體（每段一個點）＋ 結論（重申立場或提出建議）。考評局對長題目的評分唔要求你用深字，而要求「每段有一個清楚的主張並有解釋或例子」。字數目標 380 至 430 字，段落長度平均，避免第一段爆字、後面單句收尾。",
+  "example": {
+   "scenario": "題目其中一選：「Some people think school should ban smartphones. Write an article for your school magazine giving your views.」",
+   "walkthrough": "選題後先寫骨架：立場是「唔應該全面禁止，應該分時段規管」；三個支持點可以是（1）手機是學習工具，查資料需要；（2）上課時間可以統一收機，唔需要全日禁止；（3）全面禁止會令學生偷偷用，更難管理。每個支持點寫一段，段內順序是主張、解釋、實例。引言用兩三句交代背景：學校正討論應否全面禁止手機。結論兩三句重申「規管比禁止可行」，可以加一句讓步（雖然手機確實令人分心），這種讓步會顯示思考立體。全文控制在 400 字左右，段與段之間用 firstly、more importantly、admittedly 這類銜接詞推進。"
+  },
+  "traps": [
+   "花 10 分鐘以上選題：選題時間應控制在 5 分鐘內，標準是「講得出三個具體點子」。",
+   "沒有骨架就落筆：沒有骨架會導致段落重複或中途離題，越寫越亂。",
+   "只講立場唔講解釋：每個支持段都要有主張、解釋與例子，缺一就會被評為發展不足。",
+   "段落嚴重不均：引言寫 150 字、主體一段 60 字，組織分會明顯受影響。",
+   "為了用深字而寫錯：用錯的複雜字比準確的簡單字更失分，語言分看準確度先於難度。"
+  ],
+  "terms": [
+   {
+    "term": "Content relevance",
+    "definition": "內容是否緊扣題目要求，離題即使語言流暢亦會大幅失分。"
+   },
+   {
+    "term": "Coherence & cohesion",
+    "definition": "段落與句子之間的連貫性，靠段落劃分與銜接詞維持。"
+   },
+   {
+    "term": "Concession",
+    "definition": "讓步，即先承認對方論點有一部分成立，再提出自己的立場，能顯示思考深度。"
+   }
+  ],
+  "unit": 3,
+  "practice": "writing-formats",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.1": {
+  "id": "L4.1",
+  "title": "段落推進：主張、解釋、例子三件套",
+  "concept": "寫作失分唔通常因為語法，而係段落冇推進——同一件事講三次。解決方法是每個主體段落都用同一個三件套：Topic sentence（主張）＋ Explanation（為什麼）＋ Example / Evidence（實例或數據）。這個組合叫 PEE 或 PEEL，評卷員一眼就見到你的段落「有無做功」。第一句必須是可辯論的主張，例如「Uniform rules are outdated」比「Uniform rules are common」好，因為前者可以支持或反駁，後者只是描述。第二句解釋機制，講清楚「所以怎樣」，例如「因為學生無法透過衣着學習場合禮儀」。第三句給實例、情境或數據，讓論點落地。段落之間要有邏輯次序：由最有力的點講到次有力，或者由普遍講到具體。最後，每段結尾唔一定要總結，反而可以用一句「推進句」指向下一段，令全文有方向。這個結構適用於卷二、卷三的延伸寫作，亦適用於卷四說話的組織。",
+  "example": {
+   "scenario": "題目要求討論「學生應否做兼職」。一個同學的段落寫：「Students should work part-time. Many students work part-time. Working part-time is good for students.」",
+   "walkthrough": "這段有三句，但只有一個意思，來回講「做兼職好」。用 PEE 重寫：「Students should be allowed to work part-time because it teaches money management skills. (主張) 當青少年自己賺錢，就要為支出負責，這種經驗是課堂教唔到的。(解釋) 例如我的一位同學在便利店兼職後，開始記帳並為大學儲錢，成績並無下滑。(實例)」改寫後三句各有功能：主張可辯論、解釋提供機制、實例提供可信度。評卷員讀到這裡會清楚見到「內容有發展」，這是長題目拿分的關鍵。"
+  },
+  "traps": [
+   "Topic sentence 只是描述：例如「Many people use phones」不能作為主張，因為冇立場可支持。",
+   "有主張冇解釋：跳過「為什麼」會令段落顯得單薄，內容分上不去。",
+   "例子太籠統：寫「for example, many people」等於冇例子，要有具體情境、人物或數字。",
+   "段落之間冇次序：點子隨機排列會令文章顯得散亂，應該由最強到較弱或由普遍到具體。",
+   "同一點重複：段落最常見的死法是三句講同一件事，改寫時要數清段落有幾個獨立要點。"
+  ],
+  "terms": [
+   {
+    "term": "Topic sentence",
+    "definition": "段落第一句的功能句，提出該段可辯論的主張。"
+   },
+   {
+    "term": "PEE / PEEL",
+    "definition": "Point、Explanation、Example（／Link）的段落結構，確保每段都有主張、解釋與實例。"
+   },
+   {
+    "term": "Development",
+    "definition": "內容發展。評卷看段落是否能由主張推進到解釋與實例，而非只重複立場。"
+   }
+  ],
+  "unit": 4,
+  "practice": "writing-argument",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.2": {
+  "id": "L4.2",
+  "title": "句式多樣性：由簡單句到複合句",
+  "concept": "卷二語言分（language）看兩樣東西：準確度與多樣性。多樣性唔等於寫長句，而係在同一篇文章內混合唔同句式，令節奏有變化。實用做法有三招。第一招，用從屬連接詞把兩個短句連成複合句：although、while、whereas、because、since、so that、unless。例如 “Students are busy. They still need exercise.” 可以變成 “Although students are busy, they still need regular exercise.” 第二招，把其中一句變成關係子句（which / who / that）或分詞片語（V-ing / V-ed），例如 “The campaign, which was launched in March, attracted 500 students.” 第三招，偶爾用倒裝或強調結構，例如 “Not only does it save money, but it also reduces waste.” 但要節制——一篇 400 字的文章用兩次就夠，用得太密反而顯得做作。另一個實用檢查：數一次全文有幾多句以 “I think” 或 “It is” 開頭，如果超過三句，就應該改寫其中一兩句。",
+  "example": {
+   "scenario": "原句：“The club organises activities. The activities are popular. Students learn teamwork.”",
+   "walkthrough": "三句短句、同一個主語風格，讀起來機械。改寫：“The club organises activities which are popular among students, and through them members learn teamwork.” 這裡用了關係子句 which are popular，再用 and 串連結果，句子長短有變化而意思唔變。另一種改法：“Organising popular activities, the club gives students a chance to learn teamwork.” 用分詞片語開頭，句子重心放在 club 的作用。兩種改法都可以，重點是同一篇文內唔好全部用同一種句式。改寫後要讀一次，確保連接詞後的時態與主謂一致冇出錯——連接詞用得多，語法風險亦同時上升。"
+  },
+  "traps": [
+   "把多樣性理解為越長越好：長句寫錯語法，失分比用簡單句更嚴重。",
+   "全篇用 which 開頭的關係子句：句式重複反而暴露出機械化寫作。",
+   "連接詞配對錯誤：although 與 but 不能同時使用，because 與 so 亦不應連用。",
+   "分詞片語邏輯主語錯：分詞片語的主語必須與主句主語一致，否則變成 dangling modifier。",
+   "全篇以 I think 開頭：自我立場句寫三次以上，語言多樣性分數會受影響。"
+  ],
+  "terms": [
+   {
+    "term": "Complex sentence",
+    "definition": "由主要子句加上從屬子句組成的句子，用 although、because、which 等連接。"
+   },
+   {
+    "term": "Participle phrase",
+    "definition": "分詞片語，例如 V-ing / V-ed 開頭的片語，可簡化句子並改變節奏。"
+   },
+   {
+    "term": "Dangling modifier",
+    "definition": "分詞片語的主語與主句主語不一致，造成語法錯，例如 Walking home, the rain started."
+   }
+  ],
+  "unit": 4,
+  "practice": "writing-argument",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.3": {
+  "id": "L4.3",
+  "title": "常見扣分位：離題、字數、語域與港式英文",
+  "concept": "卷二最痛的失分通常唔係唔識寫，而係犯了幾個可以事前避免的錯。第一，離題：Part B 要回應題目的關鍵動作，例如題目問「應否」（should / ought to），你只描述「現況」就是冇回應題目。第二，字數：約 200 字與約 400 字是社群慣例，嚴重不足會被視為內容發展不足，寫得過多亦會擠壓時間。第三，語域（register）錯：文章（article）唔應該有 Dear Editor，信件（letter）亦唔應該用 “Hey guys”；題目指定的格式要逐項核對，包括稱呼、結尾與署名。第四，港式英文：open the light（應該係 turn on the light）、discuss about（discuss 後面唔加 about）、I very like（應該係 I like it very much）、borrow me your pen（應該係 lend me）。第五，時態一致：敘述過去事件時突然跳回現在式，是最常見的低級失分。寫完之後留 3 分鐘做「錯處獵人」：只看連接詞、時態、介詞與冠詞，唔理內容。",
+  "example": {
+   "scenario": "一段學生作文：「Discussing about the issue, I very like the idea of banning plastic bags. It can open a new habit for citizens.」",
+   "walkthrough": "這段有三個可即時修正的錯。第一，discuss about 應改為 discuss；第二，I very like 應改為 I like … very much；第三，open a new habit 是中文直譯，英文應說 develop / build a new habit。改寫後：“Discussing the issue, I am very much in favour of banning plastic bags, as it can help citizens develop a new habit.” 修正三個錯誤只花了半分鐘，但如果留在卷上，會直接拖低語言分的準確度評分。這類港式英文有共通來源——由廣東話句式直譯，所以背一張「高危清單」比背生字更有效。"
+  },
+  "traps": [
+   "題目問立場但你只描述現況：沒有回應 is / should 的動作，屬內容離題。",
+   "格式與題目指定不符：文章加了書信稱呼，或書信缺少署名，屬 appropriacy 失分。",
+   "港式英文直譯：discuss about、open the light、I very like、borrow me，這些都是常見扣分位。",
+   "時態中途跳躍：過去事件與現在評論需要清楚分開，例如用 had been 交代更早的事件。",
+   "冇預留檢查時間：時態、介詞、冠詞這些小錯分散在全文，需要專門一輪檢查才捉得到。"
+  ],
+  "terms": [
+   {
+    "term": "Chinglish",
+    "definition": "由中文句式直譯而成的英文，例如 discuss about、open the light，屬準確度失分位。"
+   },
+   {
+    "term": "Register mismatch",
+    "definition": "語域錯配，例如正式書信混入口語，或文章加了書信格式。"
+   },
+   {
+    "term": "Task fulfilment",
+    "definition": "是否完成題目要求的動作，例如回應 should 問題、覆蓋全部 bullet points。"
+   }
+  ],
+  "unit": 4,
+  "practice": "writing-argument",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.1": {
+  "id": "L5.1",
+  "title": "卷三 Part A 聆聽：筆記法與答案欄",
+  "concept": "卷三 Listening & Integrated Skills 佔全科 30%，時間約兩小時，是佔分最重的卷；Part A 與 Part B 各佔 15%。錄音只播一次（或按考評安排），所以在播之前你要用讀題時間做兩件事：圈出每題的關鍵詞，並判斷答案類型（人名、數字、地點、原因、時間）。聽的時候有三個實戰原則。第一，重複即答案——錄音中出現兩次的資訊，通常是題目要你填的關鍵詞。第二，唔好等完整句子，聽到相關字立即記低縮寫；第三，唔識串字就寫拼音或近似音，事後再補，唔好停低思考，因為停一秒就會漏下一題。填空題要特別注意字數限制，例如 Write ONE word，如果你寫了三個字，即使意思對都無分。另外，答案欄的拼字要準確，常見的專有名詞（例如活動名稱、機構名）通常在題目紙或 Data File 出現過，可以直接抄。",
+  "example": {
+   "scenario": "題目：「The workshop will be held in the ______ on 15 June.」錄音：「Unfortunately the library is closed for renovation, so the workshop on 15 June will take place in the multi-purpose room instead.」",
+   "walkthrough": "聽到 15 June 之後，注意轉折詞 unfortunately 與 instead——這是出題人設的陷阱：圖書館是「原定但取消」的地點，正確答案是 multi-purpose room。做法是在讀題時先把 15 June 圈起，聽的時候以日期為錨點追蹤，一聽到 instead 就知道後面才是答案。另外要留意字數限制；若題目沒有限制，寫 multi-purpose room 兩個字是合理的。這題示範了兩個原則：唔好聽到第一個相關名詞就填（library），以及要靠轉折詞判斷哪個資訊是最終答案。"
+  },
+  "traps": [
+   "聽到第一個相關名詞就當答案：錄音常用轉折（but、instead、actually）推翻前面說的資料。",
+   "忽略字數限制：Write ONE word 的題目寫兩個字，即使意思正確亦不給分。",
+   "停低思考拼字：停一秒就漏下一題，應該先寫拼音或縮寫，最後再補。",
+   "只記關鍵詞不記數字單位：例如寫 25 而非 25 minutes，答案會因資料不完整而失分。",
+   "不利用讀題時間：冇事先圈關鍵詞，聽的時候不知道要捕捉什麼類型的資料。"
+  ],
+  "terms": [
+   {
+    "term": "Distractor",
+    "definition": "錄音或文章中出現但並非答案的干擾資訊，通常出現在轉折詞之前。"
+   },
+   {
+    "term": "Note-taking shorthand",
+    "definition": "用縮寫、符號或近似音快速記低聽到的資料，避免錯過後續內容。"
+   },
+   {
+    "term": "Word limit",
+    "definition": "題目指定的字數限制，例如 Write ONE word，超額即使意思正確亦不給分。"
+   }
+  ],
+  "unit": 5,
+  "practice": "listening-integrated",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.2": {
+  "id": "L5.2",
+  "title": "卷三 Part B 綜合任務：Data File 運用與延伸寫作",
+  "concept": "Part B（B1 或 B2）是聆聽與閱讀綜合任務，用同一個主題，要求你從 Data File 與錄音中抽取資料，再完成寫作任務，其中至少一項是 100 至 200 字的延伸寫作。評分分兩邊：內容／任務完成度，以及語言（準確度與語域）。實戰流程有四步。第一步，先用幾分鐘通讀 Data File 的標題與小標題，知道有邊幾類資料可用（價目、時間表、意見調查）。第二步，聽的時候把與任務相關的資料標上編號，方便寫作時引用。第三步，寫作時唔好原文照抄整句 Data File；要改寫（例如把 “The cost is $120 per person” 改為 “A place costs $120 each”），直接抄句通常唔會拿語言分，亦可能被視為沒有完成改寫要求。第四步，格式要跟任務要求：email、report、article 各有自己的開頭與結尾，題目通常會寫明 “Write an email to…”，唔跟格式就是 appropriacy 失分。時間分配上，聆聽部分約 50 至 55 分鐘，剩餘時間要留給延伸寫作。",
+  "example": {
+   "scenario": "任務要求寫一封 email 給老師，報告活動安排，須包括日期、地點、每人費用及一項建議。Data File 寫：「Venue: Sai Kung Outdoor Centre. Fee: $120 per student. Date: 20 April.」錄音補充：「The centre suggests bringing a hat because the trail has little shade.」",
+   "walkthrough": "內容四項要全部覆蓋，並改寫而唔係照抄：「The trip will take place on 20 April at the Sai Kung Outdoor Centre. The fee is $120 per student, and the centre advises wearing a hat as the trail is mostly unshaded.」改寫後用了自己的句式與連接詞，語言分才有機會拿。最後補上 email 格式：開頭 Dear Mr Chan，結尾 Thank you for your time. 加署名。兩個細節通常被忽略：一、Data File 已有資料唔需要自己創作，題目要求「運用」而唔係「構思」；二、錄音提到的建議要主動納入，因為題目要求的「一項建議」通常藏在錄音而唔在 Data File。"
+  },
+  "traps": [
+   "整句抄 Data File：任務要求改寫並整合，照抄會影響語言分。",
+   "只抄 Data File 忽略錄音：部分必要資料只在錄音出現，例如建議或變更。",
+   "格式唔跟指示：題目要求 email 卻寫成 report，屬 appropriacy 失分。",
+   "延伸寫作超時：100 至 200 字的任務寫 300 字，會令後面任務冇時間完成。",
+   "漏做其中一項任務：Part B 通常有兩至三個任務，缺一項即損失相當比例的內容分。"
+  ],
+  "terms": [
+   {
+    "term": "Data File",
+    "definition": "卷三 Part B 提供的書面資料檔案，與錄音內容互補，是完成任務的資料來源。"
+   },
+   {
+    "term": "Integrated task",
+    "definition": "綜合任務，要求考生從聆聽與閱讀資料中選取、整合並改寫，最終以指定格式輸出。"
+   },
+   {
+    "term": "Extended writing",
+    "definition": "Part B 中至少一項 100 至 200 字的寫作任務，評分包括內容與語言。"
+   }
+  ],
+  "unit": 5,
+  "practice": "listening-integrated",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.1": {
+  "id": "L6.1",
+  "title": "卷四小組討論：開場、承接、推進、收尾",
+  "concept": "卷四 Speaking 佔 10%，時間約 20 分鐘：四人一組做小組討論，準備時間 10 分鐘（可以寫筆記並在討論時參考），討論約 8 分鐘，之後每人單獨回應考官問題。評分重點不是「講得多」，而是能否建立並維持對話：有無開場、有無回應他人、有無推進話題、有無收尾。開場的做法是先覆蓋題目要求的第一項，然後邀請他人加入，例如 “Shall we start with the first point?”。承接是最容易被忽略但最值錢的部分——你要明確引用前一位同學的內容再補充，例如 “Building on what Sam said about cost, I think…”，這一句就同時顯示你在聽、在連繫、在推進。推進是當討論停頓時提供新角度，例如把話題由個人經驗轉向社會層面。收尾要在最後一至兩分鐘做，總結大家同意與分歧，例如 “It seems we all agree on X, though we differ on Y.” 全程語速中等、咬字清楚、望住組員，唔好望天花板或筆記。",
+  "example": {
+   "scenario": "題目要求討論「學校應否要求學生參加義工服務」。組員 A 講「義工服務可以幫人」，之後冇人接話，出現五秒沉默。",
+   "walkthrough": "沉默是小組討論的致命傷，因為評分要觀察互動。正確做法是立即承接：“Building on that idea, volunteering also helps us understand people from different backgrounds.” 然後補一個新角度：“On the other hand, making it compulsory might reduce the genuine intention to help.” 這樣既回應了 A，又提供了對立觀點，其他組員自然有話可接。等候期間亦應該主動交波：“What do you think, Kelly?” 被問到的組員有回應，整組的互動分一齊上升。切記唔好獨自講足 8 分鐘——評分是個人計，但觀察對象是互動。"
+  },
+  "traps": [
+   "自己講完就靜默：唔交波、唔回應，會被評為缺乏互動能力。",
+   "重複前一位同學的話：只覆述冇新增，屬內容空轉，唔會拿分。",
+   "全程望筆記或天花板：眼神接觸是評分項目之一，需要望住組員。",
+   "為了講贏而打斷組員：壟斷發言會影響整組互動，個人分亦受損。",
+   "冇收尾：時間到就散場，未整理共識與分歧，會影響組織與溝通表現。"
+  ],
+  "terms": [
+   {
+    "term": "Group interaction",
+    "definition": "卷四 Part A 的小組討論，四人一組，評分重點在互動、組織與語言運用。"
+   },
+   {
+    "term": "Building on",
+    "definition": "承接句式，先引用前一位考生的意見再補充，顯示聆聽與連繫能力。"
+   },
+   {
+    "term": "Turn-taking",
+    "definition": "輪流發言，包括交波、回應與適時讓位，是小組討論的評分觀察點。"
+   }
+  ],
+  "unit": 6,
+  "practice": "speaking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.2": {
+  "id": "L6.2",
+  "title": "個人回應：一分鐘準備法與立場句",
+  "concept": "小組討論結束後，每位考生須獨立回應考官的問題，題目由小組討論的題材衍生，形式常是「講出你的選擇並解釋」或「你就某立場講出理由」。這部分唔可以背事先準備好的稿，因為題目即場才知，所以你要有一套通用結構。做法是：先用幾秒確認題目要你做什麼（選擇、解釋、還是論證），然後用一段 30 至 45 秒的回答，含三層：立場句、兩個理由、一個例子或讓步。示範結構：“I would choose A. First, because… Second, because… Although B has the advantage of…, A suits me better since…”。語速要穩，唔好因為緊張而加快，因為急會令咬字變差。評分項目包括發音清晰度、詞彙與句式、組織與內容、以及是否有適度例子。最後一點非常實用：講完唔好自己加評語（例如 “That's all, sorry my English is bad.”），自我貶抑只會令考官對你的整體印象變差。",
+  "example": {
+   "scenario": "考官問：“Which of the two options in the leaflet would you choose, and why?”",
+   "walkthrough": "回應示範：「I would choose the second option, the weekend programme. First, it fits students' schedules better because weekdays are packed with lessons. Second, the weekend group is smaller, so participants get more individual attention. Admittedly the weekday course starts earlier and finishes sooner, but the flexibility of the weekend programme matters more to me.」這段約 40 秒，包含立場、兩個理由與一個讓步。結構清楚，考官一聽就知道你的立場與依據。如果只答 “I choose the second one because it is better.”，即使發音標準，內容與組織分都會偏低，因為冇解釋、冇例子。"
+  },
+  "traps": [
+   "只講選擇唔講理由：內容分需要有解釋，單一立場句不足以取分。",
+   "講得太長而離題：個人回應宜 30 至 45 秒，講到兩分鐘會失去焦點。",
+   "語速過快：緊張導致趕拍，咬字與重音會變差，直接影響發音評分。",
+   "自我貶抑的收尾：講完加一句道歉或自嘲，唔會加分只會扣印象。",
+   "背誦事先準備的內容：題目即場才知，硬套內容會出現答非所問。"
+  ],
+  "terms": [
+   {
+    "term": "Individual response",
+    "definition": "卷四中考生獨立回應考官提問的環節，題目與小組討論題材相關。"
+   },
+   {
+    "term": "Position statement",
+    "definition": "立場句，用一句清楚表明自己的選擇或主張，是回應的開頭。"
+   },
+   {
+    "term": "Pronunciation clarity",
+    "definition": "發音清晰度，包括咬字、重音與語速，是卷四的評分項目之一。"
+   }
+  ],
+  "unit": 6,
+  "practice": "speaking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.1": {
+  "id": "L7.1",
+  "title": "時態：唔靠感覺，靠時間線",
+  "concept": "時態錯是卷二、卷三語言分最常見的扣分來源，而它其實不需要靠語感——你可以靠一條時間線解決。先問自己三個問題：一、動作發生在過去、現在還是將來？二、它同另一個事件的先後關係是什麼？三、它是否持續到現在或重複發生？答案就決定了時態。過去完成式（had + p.p.）用在「比另一個過去動作更早」的事件，例如 By the time we arrived, the film had started. 現在完成式（have + p.p.）用在過去發生但影響現在，或持續到現在，例如 I have lived here for ten years. 現在完成進行式（have been + V-ing）強調持續與未完成，例如 She has been revising all morning. 而敘述過去事件時，全段的背景時態應該保持過去式，唔可以在中段突然跳回現在式——這是考生最常見的一致性錯誤。另一個實戰規則：時間標記詞係時態的指示牌，last week、in 2019、yesterday 必定配過去式；since、for、already、yet、so far 通常配現在完成式。",
+  "example": {
+   "scenario": "學生作文寫：「Last summer I have joined a volunteer programme. Before that, I never do any community service.」",
+   "walkthrough": "第一句有明確過去時間標記 last summer，應該用過去式：I joined a volunteer programme last summer. have joined 是現在完成式，不能與已結束的過去時間同用。第二句講的是一個比 last summer 更早的過去事件，屬「過去的過去」，應該用過去完成式：Before that, I had never done any community service. 兩處修改都是靠時間線決定，唔需要語感。養成一個習慣：寫完每段之後，圈出所有時間標記詞，然後檢查它們附近的時態是否匹配——這一步通常在兩分鐘內可捉到大部分的時態錯。"
+  },
+  "traps": [
+   "現在完成式配已結束的過去時間：I have joined… last summer 是矛盾，應改為過去式。",
+   "'過去的過去' 用過去式：比另一個過去事件更早的事要用 had + p.p.。",
+   "for 與 since 混用：since 接時間點（since 2019），for 接時間長度（for three years）。",
+   "全段時態跳躍：敘述過去事件時忽而現在式、忽而過去式，屬一致性錯誤。",
+   "持續動作誤用現在完成式：強調仍在進行應用 have been + V-ing，例如 has been revising。"
+  ],
+  "terms": [
+   {
+    "term": "Past perfect",
+    "definition": "過去完成式 had + p.p.，用於比另一個過去事件更早發生的動作。"
+   },
+   {
+    "term": "Present perfect",
+    "definition": "現在完成式 have + p.p.，用於過去發生而影響現在，或由過去持續到現在的狀態。"
+   },
+   {
+    "term": "Time marker",
+    "definition": "時間標記詞，例如 last week、since、already、so far，是判斷時態的指示牌。"
+   }
+  ],
+  "unit": 7,
+  "practice": "grammar-core-1",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.2": {
+  "id": "L7.2",
+  "title": "被動語態與條件句：兩個最容易寫錯的結構",
+  "concept": "被動語態（passive voice）出現的場合是：你不知道、唔想講或唔重要誰是動作者，或者重點在受事者。結構是 be + p.p.，時態變化全部由 be 承擔：is done、was done、has been done、will be done、must be done。考生最常錯的兩處：一、漏 be 動詞，寫成 The report finished yesterday（應為 was finished）；二、不及物動詞誤用被動，例如 happen、occur、rise、arrive 沒有被動語態。條件句有四類：零條件（事實，If you heat water, it boils）、第一類（真實可能，If it rains tomorrow, we will cancel the trip）、第二類（假設與現在相反，If I were you, I would apply）、第三類（與過去事實相反，If I had studied harder, I would have passed）。最常見的錯誤是把 will 放進第二類條件句，寫成 If I will have more time, I would… 這句同時出現 will 與 would，語法上不通。另一個細節：第二類條件句的 be 動詞用 were，例如 If he were here，即使主語是單數。",
+  "example": {
+   "scenario": "學生寫：「If the government will ban plastic bags, the amount of waste would be reduce.」",
+   "walkthrough": "這句話有兩個問題。第一，條件句混用 will 與 would：如果主句用 would（假設與現在相反），從句就要用過去式，寫成 If the government banned plastic bags, the amount of waste would be reduced. 如果你想表達真實可能的未來，就全句用第一類：If the government bans plastic bags, the amount of waste will be reduced. 第二，be reduce 漏了過去分詞形式，被動語態是 be + p.p.，應為 be reduced。修正原則：先決定條件句屬第一類還是第二類，兩個子句的動詞要配套；再檢查每個被動結構是否都有正確形式的 be 動詞。"
+  },
+  "traps": [
+   "被動語態漏 be 動詞：The report finished yesterday 應為 was finished。",
+   "不及物動詞用被動：happen、occur、rise、arrive 沒有被動語態。",
+   "條件句混用：If + will 配 would 是典型錯誤，兩個子句的時態要配套。",
+   "第二類條件句的 were：即使主語單數，也常用 If he were…。",
+   "第三類條件句結構不完整：If + had + p.p.，主句要接 would have + p.p.。"
+  ],
+  "terms": [
+   {
+    "term": "Passive voice",
+    "definition": "被動語態 be + p.p.，用於重點在受事者或動作者不明的情況。"
+   },
+   {
+    "term": "Second conditional",
+    "definition": "第二類條件句，If + 過去式，主句 would + 原形，表示與現在事實相反的假設。"
+   },
+   {
+    "term": "Third conditional",
+    "definition": "第三類條件句，If + had + p.p.，主句 would have + p.p.，表示與過去事實相反。"
+   }
+  ],
+  "unit": 7,
+  "practice": "grammar-core-1",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.1": {
+  "id": "L8.1",
+  "title": "句子結構：fragment、run-on 與平行結構",
+  "concept": "批改作文時，最影響閱讀的唔係用字深淺，而係句子結構出事。三種常見問題。第一，sentence fragment（句子不完整）：一個句子必須有主語與限定動詞，例如 “Because the weather was bad.” 就只是從屬子句，不能獨立成句，要接上主句才完整。第二，run-on / comma splice：兩個完整句子只用逗號連接，例如 “The trip was cancelled, we stayed home.” 修法是分號（;）、加連接詞（so we stayed home）、或分句成兩句。第三，平行結構（parallelism）：當你用 and、or、both…and、not only…but also 連接項目，形式要一致——如果前面是 V-ing，後面都要 V-ing，例如 “The scheme helps students save money and reduce waste.” 就正確；“…save money and reducing waste” 就唔一致。改卷時把每句的動詞找出來，如果一句有兩個或以上限定動詞而又冇連接詞，就一定要修改。",
+  "example": {
+   "scenario": "學生寫：「The campaign was successful, it encouraged many students to recycle, because it was well designed.」",
+   "walkthrough": "這句有三個問題疊在一起。第一，the campaign was successful 與 it encouraged… 之間只有逗號，是 comma splice，應改為分號或加連接詞：The campaign was successful; it encouraged many students to recycle. 第二，最後的 because it was well designed 既然是從屬子句，就要附在它所修飾的主句上，唔應該用逗號隔開當作獨立部分。改寫示範：「Because it was well designed, the campaign successfully encouraged many students to recycle.」改完只有一句、一個主要子句，意思完整、無 splice。檢查習慣：數一句裡有幾個限定動詞，再問有無對應的連接詞，這一步可捉到大部分結構錯。"
+  },
+  "traps": [
+   "Because / Although 開頭的從屬子句獨立成句：這是 fragment，必須接主句。",
+   "逗號連接兩個完整句：comma splice 屬結構錯，要用分號或連接詞。",
+   "平行結構不一致：list 裡的項目形式要統一，例如全部用原形動詞或全部 V-ing。",
+   "一句塞入三四個連接詞：句子過長容易失控，寧可分成兩句。",
+   "主語與動詞距離太遠：修飾語太長會導致主謂一致出錯，應把主語與動詞拉近。"
+  ],
+  "terms": [
+   {
+    "term": "Sentence fragment",
+    "definition": "句子不完整，缺少主語或限定動詞，例如只有從屬子句而沒有主要子句。"
+   },
+   {
+    "term": "Comma splice",
+    "definition": "用逗號連接兩個完整句子，屬結構錯誤，應改為分號或加連接詞。"
+   },
+   {
+    "term": "Parallelism",
+    "definition": "平行結構，系列中每個項目的語法形式要保持一致。"
+   }
+  ],
+  "unit": 8,
+  "practice": "grammar-core-2",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.2": {
+  "id": "L8.2",
+  "title": "主謂一致、冠詞與介詞：三大零碎失分位",
+  "concept": "這三類錯誤每個都唔大，但散落在全篇就會累積成明顯的準確度扣分。主謂一致（subject-verb agreement）要留意三種情況：一、主語與動詞之間插入了修飾語，例如 The list of items is long（動詞跟 list 而唔係 items）；二、不定代詞當主語，everyone、each、neither 通常配單數動詞；三、either…or、neither…nor 的原則是用最近的主語決定動詞，例如 Neither the teacher nor the students were informed。冠詞方面，a 用於首次提及的可數單數名詞，the 用於已提及或唯一的事物；抽象名詞與複數泛指通常不用冠詞，例如 Education is important 唔寫 The education。介詞是最難靠規則解決的部分，因為它依賴搭配——但考試常見的高頻組合其實有限：interested in、good at、depend on、responsible for、in spite of、on time、in time、at the weekend。背搭配比背規則有效得多。",
+  "example": {
+   "scenario": "學生寫：「The informations about the courses is useful, and every students are interested in the workshop.」",
+   "walkthrough": "這段有四個錯。第一，information 是不可數名詞，唔可以加 s，應寫 The information。第二，is useful 這個動詞其實正確（information 為單數），但如果前面主語改成 informations，就會連帶出錯，所以要由名詞的可數性開始檢查。第三，every students 錯，every 後面接單數名詞：every student。第四，are interested in 改為 is interested in，因為主語 every student 是單數。修正後：「The information about the courses is useful, and every student is interested in the workshop.」檢查次序建議：先確認名詞可數性與單複數，再看主謂一致，最後檢查冠詞與介詞搭配。"
+  },
+  "traps": [
+   "被插入語騙到：動詞應跟真正的主語，例如 The list of items is long。",
+   "every / each / everyone 配複數動詞：這些詞通常配單數動詞。",
+   "可數與不可數名詞混淆：information、advice、furniture 不可數，唔可以加 s。",
+   "冠詞濫用或漏用：抽象名詞泛指時不加 the，例如 Education is important。",
+   "介詞搭配憑感覺：interested in、depend on、responsible for 這一類要按搭配記憶。"
+  ],
+  "terms": [
+   {
+    "term": "Subject-verb agreement",
+    "definition": "主謂一致，動詞的單複數必須配合真正的主語。"
+   },
+   {
+    "term": "Uncountable noun",
+    "definition": "不可數名詞，例如 information、advice、equipment，沒有複數形式亦不與 a 連用。"
+   },
+   {
+    "term": "Preposition collocation",
+    "definition": "介詞的固定搭配，例如 interested in、depend on，考試需要按組合記憶。"
+   }
+  ],
+  "unit": 8,
+  "practice": "grammar-core-2",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.3": {
+  "id": "L8.3",
+  "title": "關係子句與分詞片語：把兩句合成一句",
+  "concept": "寫作要顯示句式多樣性，最實用的兩個工具是關係子句與分詞片語。關係子句由 who（人）、which（事物）、that（兩者皆可）、whose（所屬）、where（地方）引導，附在名詞後面補充資料。要留意兩種形式：defining clause 提供必要資訊，唔加逗號，例如 The man who called you is my uncle；non-defining clause 提供額外資訊，要用逗號隔開，而且唔可以用 that，例如 My uncle, who lives in Macau, is visiting us。分詞片語是把一個子句壓縮：主動關係用 V-ing，被動關係用 V-ed / being + p.p.。例如 The bridge which was built in 1997 is now closed，可壓縮為 The bridge built in 1997 is now closed。分詞片語有一個必須遵守的規則：片語的隱含主語要跟主句主語一致，否則就是 dangling modifier，例如 Walking home, the rain started 錯，因為 rain 唔會 walking，要改成 Walking home, I was caught in the rain。",
+  "example": {
+   "scenario": "學生寫：「The workshop teaches students how to code. The workshop was held last week. Many students joined it.」",
+   "walkthrough": "三句短句可以用一個關係子句加一個分詞片語整合：「The coding workshop, which was held last week and attracted many students, teaches participants how to code.」或者更精簡：「Held last week, the coding workshop attracted many students and taught participants how to code.」前者用 non-defining 關係子句（有逗號、用 which），後者用過去分詞片語 Held last week 開頭。兩種寫法都同時達到兩個目的：減少重複主語、增加句式變化。要注意分詞片語的主語：Held last week 的隱含主語是 the coding workshop，與主句主語一致，所以正確。若寫成 Held last week, students learned to code，主語就唔一致，屬 dangling modifier。"
+  },
+  "traps": [
+   "non-defining 關係子句用 that：逗號隔開的補充資料唔可以用 that 引導。",
+   "defining 與 non-defining 逗號混用：逗號會改變句子意思，唔可以隨意加。",
+   "分詞片語主語不一致：Walking home, the rain started 是 dangling modifier。",
+   "被動分詞漏 being：表示正在被進行的動作要用 being + p.p.，例如 being repaired。",
+   "為求多樣性而把所有句子都加關係子句：句式重複反而顯得機械。"
+  ],
+  "terms": [
+   {
+    "term": "Relative clause",
+    "definition": "關係子句，由 who、which、that、whose、where 引導，附於名詞後補充或限定資料。"
+   },
+   {
+    "term": "Non-defining clause",
+    "definition": "非限定關係子句，提供額外資訊，以逗號隔開，不可以使用 that。"
+   },
+   {
+    "term": "Participle phrase",
+    "definition": "分詞片語，以 V-ing（主動）或 V-ed / being + p.p.（被動）壓縮子句，主語須與主句一致。"
+   }
+  ],
+  "unit": 8,
+  "practice": "grammar-core-2",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.1": {
+  "id": "L9.1",
+  "title": "主題詞庫：環保、科技、教育、健康",
+  "concept": "DSE 英文的寫作與說話題材高度集中，來來去去都係幾個大主題：環保與消費、科技與社交媒體、教育與學習、健康與生活方式、青少年成長。與其漫無目的地背生字表，不如每個主題準備 12 至 15 個可用的詞組，並且要「用得順」而唔係「識得解釋」。以環保主題為例，值得記的係：carbon footprint、single-use plastic、renewable energy、waste reduction、sustainable、eco-friendly、recycling scheme、disposable。科技主題：screen time、digital literacy、cyberbullying、online privacy、social media addiction、face-to-face communication。教育主題：rote learning、critical thinking、extracurricular activities、self-directed learning、academic pressure。健康主題：sedentary lifestyle、balanced diet、mental well-being、peer pressure。每個詞組要配一個例句，例如 “Cutting down on single-use plastic is one of the simplest ways to reduce our carbon footprint.” 有例句的詞才是「可用的詞」。",
+  "example": {
+   "scenario": "題目要求寫一篇關於「青少年用手機時間過長」的文章，你要在三段內各用一個精準詞組。",
+   "walkthrough": "第一段描述現象可用 excessive screen time；第二段講影響可用 sleep deprivation and reduced face-to-face communication；第三段提建議可用 set daily screen-time limits and encourage offline hobbies。三個詞組各自對應描述、影響、建議，句子就自然有內容而唔流於空泛。相反，如果全篇只講 “students use phones too much and it is not good”，雖然文法正確，但詞彙範圍窄，語言分會被評為 limited range。準備方法：每個主題先寫三句自己的句子（描述、影響、建議各一），把詞組放入自己的句子後，考試時才可以即時調用。"
+  },
+  "traps": [
+   "只背生字唔背例句：唔知搭配的詞，寫落句子就會出錯。",
+   "全篇重複同一組詞：詞彙範圍窄會拉低語言分。",
+   "用錯語氣或褒貶：例如 controversy 是中性偏負，唔適合描述純粹的新事物。",
+   "硬套深字：用錯的難詞比準確的常用詞更失分。",
+   "忽略主題的常用對立面：寫環保只講好處，冇提 cost 或 convenience，內容會顯得單薄。"
+  ],
+  "terms": [
+   {
+    "term": "Lexical resource",
+    "definition": "詞彙資源，評分考慮詞彙的廣度、準確度與搭配是否自然。"
+   },
+   {
+    "term": "Topic vocabulary",
+    "definition": "主題詞庫，例如環保主題的 carbon footprint、single-use plastic，須連例句一併記。"
+   },
+   {
+    "term": "Word family",
+    "definition": "詞族，例如 pollute / pollution / pollutant，同一意思的不同詞性要一併掌握。"
+   }
+  ],
+  "unit": 9,
+  "practice": "vocabulary",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.2": {
+  "id": "L9.2",
+  "title": "搭配詞與港式英文：寫得似英文而唔係翻譯",
+  "concept": "很多同學的作文文法正確，但讀起來唔似英文，原因通常係搭配（collocation）唔自然。搭配是母語者慣用的固定組合，例如「提出建議」是 make a suggestion 而唔係 give a suggestion 都得，但「做功課」是 do homework 而唔係 make homework；「嚴重問題」是 serious problem，而唔係 big problem（雖然口語可用 big problem）；「達到目標」是 achieve a goal；「作出決定」是 make a decision。第二類是港式英文（Chinglish），特徵是由廣東話句式直譯，例如 open the light（turn on the light）、close the light、I very like it、borrow me your pen（lend me）、discuss about、according to my opinion（in my opinion）、reply me（reply to me）、the society（泛指社會唔加 the）。第三類是詞形錯（word form），例如用 responsible 代替 responsibility、用 success 代替 successful。實用做法：把作文裡每一個「動詞 ＋ 名詞」的組合圈出來，逐個問自己「英文係咁講咩？」，唔肯定就改用你有信心的簡單組合——準確永遠優先於花巧。",
+  "example": {
+   "scenario": "學生寫：「According to my opinion, we should make a decision quickly and reply the students as soon as possible. It is very important for the society.」",
+   "walkthrough": "這一段有三處典型問題。第一，according to my opinion 唔是自然搭配，應改為 In my opinion。第二，reply the students 應為 reply to the students（或 respond to the students）。第三，the society 泛指社會時唔加冠詞，應寫 society 或者 the community 視語境而定；make a decision quickly 其實可以接受，但更自然的是 reach a decision quickly。修正後：「In my opinion, we should reach a decision quickly and reply to the students as soon as possible. It matters to society as a whole.」這類修正唔需要高深詞彙，只需要一張高危清單與檢查的習慣。"
+  },
+  "traps": [
+   "港式英文直譯：open the light、I very like、discuss about、reply me 都是典型扣分位。",
+   "搭配不自然：例如 make homework、give a suggestion（應為 do homework、make a suggestion）。",
+   "詞形錯：success / successful、responsible / responsibility 混用。",
+   "泛指時濫用 the：the society、the education 在泛指情況唔應加冠詞。",
+   "為求花巧而用冇信心的組合：唔確定的搭配應改用簡單而準確的說法。"
+  ],
+  "terms": [
+   {
+    "term": "Collocation",
+    "definition": "母語者慣用的固定組合，例如 make a decision、achieve a goal。"
+   },
+   {
+    "term": "Chinglish",
+    "definition": "由中文直譯而產生的唔自然英文，例如 borrow me your pen。"
+   },
+   {
+    "term": "Word form",
+    "definition": "詞形，包括名詞、動詞、形容詞、副詞的形態，例如 responsible 與 responsibility 的分別。"
+   }
+  ],
+  "unit": 9,
+  "practice": "vocabulary",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.1": {
+  "id": "L10.1",
+  "title": "溫習時間表：如何真正用 Past Paper",
+  "concept": "Past Paper 是英文科最重要的資源，但用錯方法會浪費——很多同學做了十年試題，成績唔升，原因是每次都在「做題」而冇「診斷」。正確用法分三輪。第一輪（診斷）：取一份完整卷，限時做，然後唔只看分數，而係逐題標記錯因，分類成四類——詞彙唔識、定位出錯、答題格式錯、時間不足。第二輪（針對性）：每星期集中掃一類錯因，例如只做閱讀定位題 20 題，或只練習卷二 Part A 的 200 字書信三篇。第三輪（整合）：考前四至六星期，每星期做一份完整限時卷，重點練時間分配與狀態切換，做完即日核對。時間表建議：卷一與卷三每週各一次限時練習；卷二每週一篇 Part A 加一篇 Part B（寫完要有人改，唔係自己看一次就算）；卷四每週與同學練習一次小組討論，用手機錄音回聽。記住一個原則：同一份卷做三次，比做三份新卷更有用——第二次做同一份卷，你會清楚見到自己重複犯的錯。",
+  "example": {
+   "scenario": "你做了 2018 至 2025 年的閱讀卷，每次都有 60 分左右，但幾個月都沒有進步。",
+   "walkthrough": "分數停滯通常代表錯誤類型固定。做法是取其中三份卷，把錯題寫在一張紙上，並為每題標記錯因。假設結果顯示：八成錯題是答題格式問題（只寫一個名詞、抄原文），而唔係睇唔明文章。那麼下一步就唔應該再大量做卷，而是專門練長題目的分點作答：用同一篇文章，把每條長題目按 marking 要求重寫答法，寫足五篇。兩星期後再測，若格式錯題明顯減少，就證明方法有效，可以轉練下一類錯因。診斷比重複更值錢，因為它把「唔知點解錯」變成「知道要改什麼」。"
+  },
+  "traps": [
+   "只做卷唔診斷：唔標記錯因，做十份卷都只會重複同一個錯。",
+   "每次都用新卷：同一份卷重複做更能暴露固定錯誤。",
+   "只練閱讀與聆聽：卷二寫作需要定期實寫並找人批改，卷四說話要開口練。",
+   "唔限時練習：冇時間壓力就練唔到節奏，考試時容易超時。",
+   "考前才做整合練習：時間分配與狀態切換需要至少四至六星期養成。"
+  ],
+  "terms": [
+   {
+    "term": "Diagnostic marking",
+    "definition": "把每條錯題按錯因分類，例如詞彙、定位、答題格式、時間，用來決定下一步練什麼。"
+   },
+   {
+    "term": "Timed practice",
+    "definition": "限時練習，即在真實時間限制下完成試卷，訓練節奏與分配。"
+   },
+   {
+    "term": "Error log",
+    "definition": "錯題紀錄，把重複出現的錯誤集中記錄，考前重點複習。"
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-workflow",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.2": {
+  "id": "L10.2",
+  "title": "考場實戰：四卷之間的心態與時間控制",
+  "concept": "英文科是筆試中最考體力的一科：四卷分散在幾日內進行，而且每卷都有獨立的節奏要求。實戰細節不少是可以在考前一星期準備好的。第一，卷一開考的兩分鐘應該用來翻卷，確定 Part B 選 B1 還是 B2，然後把時間檢查點寫在題目紙上。第二，卷二落筆前預留 5 分鐘列提綱，並且在最後 5 分鐘做錯處檢查（時態、介詞、冠詞、連接詞）。第三，卷三的關鍵是資料運用與時間，唔好因為一題聽唔到而影響後面——漏答一題只損失一兩分，慌亂會損失十幾分。第四，卷四要保持中等語速，主動交波，唔好壟斷，亦唔好沉默。第五，每卷之間的休息時間唔應該重新操題，而應該做輕度複習，例如看自己的錯誤清單。最後一個常被忽略的心理技巧：如果某卷自覺表現差，唔要把它帶去下一卷——英文四卷獨立計分，前面的表現唔會影響後面的分數，這是制度上可以放心的部分。",
+  "example": {
+   "scenario": "卷一自覺失手，你出考場後心情低落，第二日要考卷二（佔分 25%）。",
+   "walkthrough": "處理方法分兩步。第一步，當日唔再重做卷一或反覆對答案，改為寫一份卷二提綱：三個常考題材（環保、科技、青少年成長）各寫立場與三個支持點。第二步，第二日開考前只做一些低強度準備，例如看自己的港式英文高危清單與連接詞表，唔寫新文章。心態上的重點是：四卷獨立計分，卷一表現唔會改變卷二的分數線；你能控制的只有眼前一卷的節奏。這個處理方式同時解決兩個風險——情緒消耗與時間浪費。"
+  },
+  "traps": [
+   "開卷即寫：冇先翻卷確認 B1／B2 與時間檢查點，容易中途才發現分配失誤。",
+   "卷二唔列提綱直接寫：冇骨架會導致離題或段落重複。",
+   "卷三因一題聽唔到而慌亂：漏一題只損失少數分數，慌亂會連累後面整部分。",
+   "卷四壟斷發言或全程沉默：兩者都直接拉低互動分。",
+   "把上一卷的表現帶到下一卷：四卷獨立計分，情緒外溢是自己造成的失分。"
+  ],
+  "terms": [
+   {
+    "term": "Paper independence",
+    "definition": "英文四卷各自計分，某一卷的表現唔會影響其他卷的分數。"
+   },
+   {
+    "term": "Outline",
+    "definition": "寫作提綱，落筆前列出立場與支持點，避免離題與重複。"
+   },
+   {
+    "term": "Pacing",
+    "definition": "節奏控制，包括各部分的時間檢查點與檢查時間的預留。"
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-workflow",
+  "passThreshold": 7,
+  "reviewed": true
+ }
+}

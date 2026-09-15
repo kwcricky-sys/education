@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "subject": "english",
+    "name": "英國語文",
+    "nameEn": "English Language",
+    "description": "DSE 英文科策展溫習片庫：Paper 1 閱讀策略、Paper 2 各類文字寫作（Article、Debate Speech）、Paper 3 Integrated Skills 技巧與 Data File 題型、常見文法和失分錯誤。每條片附摘要、重點筆記、溫習階段建議同編輯分析。",
+    "videoCount": 10,
+    "verification": "每個 YouTube ID 已用 oembed API 驗證（HTTP 200）；404 死片、401 禁止嵌入一律唔收錄。",
+    "curatedAt": "2026-09-15",
+    "curator": "DSE.hack 編輯部"
+  },
+  "videos": [
+    {
+      "id": "Ws0mQiQoH8I",
+      "title": "Top Tips for HKDSE English Exam: Paper 1 (Reading)",
+      "channel": "HKU Faculty of Education",
+      "duration": "4:23",
+      "topics": [
+        "Paper 1",
+        "Reading",
+        "應試策略"
+      ],
+      "summary": "香港大學教育學院「Top Tips for DSE」系列，由 PGDE 英文科準教師分享自己當年準備 Paper 1 的方法：時間分配、長題目點樣先搵到答案出處、點樣避免讀完全文才開始答題。",
+      "keyPoints": [
+        "先睇題目再讀文章，帶著問題去掃描段落。",
+        "長答題的分數按 point 計，答案要分段寫清楚。",
+        "字詞題要靠上下文推，而唔係單靠背詞義。",
+        "時間分配：預留最後 10 分鐘覆核同補答。"
+      ],
+      "studyStage": "中五至中六皆可；中六開考前一個月當「策略校準」用。",
+      "analysis": "權威性高（大學教育學院出品，非補習招生），內容偏策略層面而非技巧教學，唔會教你點答某一題型。長度四分鐘、快靚正，適合作為整個 Paper 1 準備流程的起點。相比補習頻道的同類片，優點完全無廣告成份，缺點係練習量不足，要自己配 past paper。"
+    },
+    {
+      "id": "FdlRAdYuZ4s",
+      "title": "Top Tips for HKDSE English Exam 2021: Paper 2 (Writing)",
+      "channel": "HKU Faculty of Education",
+      "duration": "3:37",
+      "topics": [
+        "Paper 2",
+        "Writing",
+        "應試策略"
+      ],
+      "summary": "同一系列的 Paper 2 版本（2021 年），由準教師分享寫作的備考心得：如何選題、如何在有限時間內規劃段落、常見失分位。片長三分半鐘，屬入門級策略提示。",
+      "keyPoints": [
+        "選題要一分鐘內決定，揀自己真的有素材寫的題目。",
+        "寫前要花兩三分鐘列大綱，唔好即席發揮。",
+        "每段一個中心句，避免一段塞幾件事。",
+        "留時間檢查 tense、agreement、spelling 這類低級錯誤。"
+      ],
+      "studyStage": "中五開始練寫作時睇；中六模擬考前一星期重溫。",
+      "analysis": "與 Paper 1 那條同一系列，優點係務實、無推銷，缺點係只談大方向、唔會示範成篇作文。定位係「檢查自己有冇漏做基本功」，配合 Stand by U 的逐個文字類型教學片先有實質提升。"
+    },
+    {
+      "id": "hZefbsGbJAQ",
+      "title": "[HKDSE English] Paper 2 Writing Ep10 Debate Speech",
+      "channel": "Stand by U 和你入U",
+      "duration": "22:25",
+      "topics": [
+        "Paper 2",
+        "Writing",
+        "Debate Speech"
+      ],
+      "summary": "22 分鐘專題教學：Debate Speech 這種文字類型的完整寫法，包括開場問候與立場、正反論點鋪排、反駁段、收結呼籲，中間帶真實試題示範。",
+      "keyPoints": [
+        "Debate Speech 必須先清楚表態，第一段就要講立場。",
+        "論點要「一個 point＋一個支持理由＋一個例子」，唔好只有口號。",
+        "反駁段要正面回應對方最強論點，唔係自說自話。",
+        "結尾要有具體呼籲（action），唔好只講「多謝」。"
+      ],
+      "studyStage": "中五開始教文字類型時睇；中六 Paper 2 前重溫該類型的格式。",
+      "analysis": "長度足夠講清一個文字類型，好處係一次過教你成篇而非只有格式。缺點係 2020 年錄製、畫面樸素、節奏偏慢，需要肯花 20 分鐘的耐性。呢個系列（Ep10、Ep11 Article、Paper 3 各集）適合按類型逐集追，係免費資源中較有系統的一套。"
+    },
+    {
+      "id": "yWz-w1q82LA",
+      "title": "[HKDSE English] Paper 2 Writing Ep11 Article",
+      "channel": "Stand by U 和你入U",
+      "duration": "33:35",
+      "topics": [
+        "Paper 2",
+        "Writing",
+        "Article"
+      ],
+      "summary": "同系列的 Article 專題，33 分鐘完整示範：標題點訂、開首點吸引讀者、段落如何用例子與數據充實、結尾如何回應題目要求，並用 past paper 題目逐步寫出內容。",
+      "keyPoints": [
+        "Article 要有明顯的讀者意識（寫給誰、語氣點調整）。",
+        "標題同首段必須扣題眼，唔可以寫成日記式開場。",
+        "內容段落用「現象＋原因／影響＋例子」推進。",
+        "結尾要收束立場，避免中段講完就停筆。"
+      ],
+      "studyStage": "中五練習 Article 時睇；中六 Paper 2 前作為格式及結構覆核。",
+      "analysis": "係免費資源中少有的「完整示範型」長片，適合唔想補習但想要系統教學的同學。缺點係時長偏長、語速平緩，建議 1.25 倍速加邊睇邊寫筆記。與 Oxford 那條 5 分鐘的「文字類型概述」比較，呢條深入得多，但需要更多自制力。"
+    },
+    {
+      "id": "TS4JH-f6qyw",
+      "title": "[HKDSE English] Paper 3 Ep01: Integrated skills overview + Introduction to proposal, speech",
+      "channel": "Stand by U 和你入U",
+      "duration": "19:46",
+      "topics": [
+        "Paper 3",
+        "Integrated Skills",
+        "Proposal",
+        "Speech"
+      ],
+      "summary": "Paper 3 Integrated Skills 系列第一集，講清整份卷的結構：三個 task 的分數比重、data file 點用、integrated task 的作答流程，並分別介紹 proposal 同 speech 兩種文字類型的框架。",
+      "keyPoints": [
+        "Integrated Skills 的分數集中喺 task 完成度，唔係抄得多就好。",
+        "Data file 要按 task 篩選，唔係全文照抄。",
+        "Proposal 要有目的、建議、理據三部分。",
+        "Speech 要考慮聽眾，句式要口語化但仍要正式。"
+      ],
+      "studyStage": "中五開始接觸 Paper 3 時睇；中六考前當整個系列的第一集重睇。",
+      "analysis": "呢個系列係免費 Paper 3 資源中最有系統的一套（Ep01 至 Ep05 逐個 task 拆），優點係以真實 past paper 為例子。缺點係 2019-2020 年製作，未涵蓋近年試題變化，而 Paper 3 的材料年年唔同，所以只能學方法、唔可以背內容。"
+    },
+    {
+      "id": "io7qSfXNlY4",
+      "title": "[HKDSE English] Paper 3 Integrated skills Ep03: Paraphrasing skills + Linking words",
+      "channel": "Stand by U 和你入U",
+      "duration": "11:08",
+      "topics": [
+        "Paper 3",
+        "Integrated Skills",
+        "Paraphrasing"
+      ],
+      "summary": "系列第三集，專攻 integrated skills 最核心的技巧：paraphrasing。片中提供同義詞／反義詞對照表，並解釋點樣用 linking words 把 data file 的散裝資料組成通順段落。描述欄亦註明片中有一處口誤（把 language 講成 content），誠實度高。",
+      "keyPoints": [
+        "抄 data file 原文唔會有分，必須改寫句式與字詞。",
+        "建立自己的同義詞表，考場上直接替換。",
+        "Linking words 用嚟標示邏輯關係，唔係裝飾。",
+        "改寫後要檢查語法：換詞之後主謂一致、時態仍然要對。"
+      ],
+      "studyStage": "中五至中六練 Paper 3 期間；考前一個月配合 past paper 實操。",
+      "analysis": "呢條係整個系列中最實用的一集，因為 paraphrasing 正是大部分同學失分的主因。優點係有附表可以照抄落筆記；缺點係影片節奏平實，要靠自己動手練習轉化。相比同系列其他集數，呢集可以獨立睇，唔需要順序。"
+    },
+    {
+      "id": "KPo61se7XAU",
+      "title": "DSE英文 | DSE English Paper 3 Listening & Integrated Skills Data File 常見2大題型 (DSE 2021)",
+      "channel": "Antonia Cheng DSE English",
+      "duration": "7:32",
+      "topics": [
+        "Paper 3",
+        "Data File",
+        "Email",
+        "Report"
+      ],
+      "summary": "七分半鐘針對 Paper 3 Data File 兩個最常見題型：Email 同 Report。導師指出同學習慣背格式、以為寫齊 content points 就會高分，實際失分位在語氣、措辭同組織，片中逐段示範如何修正。",
+      "keyPoints": [
+        "格式只佔極少分，分數主要落在措辭與內容完整度。",
+        "Email 要按收件人身份調整語氣（正式 vs 半正式）。",
+        "Report 要有小標題與分段，方便改卷員找到 points。",
+        "所有 content points 必須改寫，唔可以整句搬 data file。"
+      ],
+      "studyStage": "中六 Paper 3 前一個月，用作格式與失分位覆核。",
+      "analysis": "直接針對「背格式」這種常見錯誤心態，對症下藥。優點係有時間戳可以跳段重看；缺點係只覆蓋兩個 text type，其他類型要靠自己補充。與 Stand by U 系列的 Paper 3 教學互補：一個講流程、一個針對題型。"
+    },
+    {
+      "id": "fVtsg7CV6L8",
+      "title": "【Simple Present Tense 簡單現在式】English Grammar 英文文法 | IELTS | DSE | 中學",
+      "channel": "English with Mr Lam",
+      "duration": "6:48",
+      "topics": [
+        "Grammar",
+        "Tenses",
+        "基礎"
+      ],
+      "summary": "六分半鐘英文文法基礎課，專講 simple present tense 的用法：何時用、第三人稱加 s 的規則、常見錯誤（例如 always/usually 配 simple present 而唔係 continuous），並附例子對照。",
+      "keyPoints": [
+        "Simple present 用於習慣、事實、時間表，唔係「現在發生的事」。",
+        "第三人稱單數變化要看動詞結尾（-s、-es、-ies）。",
+        "頻率副詞（always、usually、never）與 simple present 天然配搭。",
+        "要與 present continuous 分清：一個講習慣，一個講此刻。"
+      ],
+      "studyStage": "中四打文法基礎最合適；中六校對自己寫作的低級錯誤時重溫。",
+      "analysis": "單一文法點、講得清楚、附例子，網站同資歷（港大應用語言學碩士）亦寫明。缺點係只覆蓋一個時態，需要自行按需搜尋同一頻道的其他文法片。對 Paper 2 經常錯 tense 的同學，呢類短文法片比通論式 tips 更直接有效。"
+    },
+    {
+      "id": "2Z8bUgRREIY",
+      "title": "DSE English DSE英文 Paper 2 Writing 五大錯誤 睇完升2Lv! 送免費筆記",
+      "channel": "Lucas IELTS DSE",
+      "duration": "8:48",
+      "topics": [
+        "Paper 2",
+        "Writing",
+        "常見錯誤"
+      ],
+      "summary": "約九分鐘列出 Paper 2 Writing 最常見五大錯誤，說明每一個錯誤如何在 content、language、organisation 三個評分維度上扣分，並暗示修正之後可以直接升一個 level。",
+      "keyPoints": [
+        "失分通常唔係唔識英文，而係唔跟題目要求。",
+        "Introduction 抄題目、conclusion 重複前文都唔會加分。",
+        "句式單一（全部 simple sentence）會壓住 language 分。",
+        "Organisation 分靠段落與連接詞，唔靠字數。"
+      ],
+      "studyStage": "中五至中六寫作練習期；中六模擬考後檢視自己的錯誤清單。",
+      "analysis": "以「錯誤清單」形式切入，比正面教寫作更易記，因為同學可以即刻對照自己最近一份作文。缺點係有明顯的課程推銷（描述欄的 Discord 同 crash course），內容密度因此被拉低。適合當 checklist，唔適合作為主要學習材料。"
+    },
+    {
+      "id": "EgoIRAoWr30",
+      "title": "Exam Tips for Acing HKDSE English Language Paper 2: Common text types and topics (1/3)",
+      "channel": "Oxford Senior Secondary English Language",
+      "duration": "4:47",
+      "topics": [
+        "Paper 2",
+        "Writing",
+        "文字類型"
+      ],
+      "summary": "牛津出版社支援系列的 Paper 2 第一集（共三集），由中學英文科主任講解卷二常見文字類型與題目類型的分佈，幫同學認清卷一、卷二考核的分別同常見題材範圍。",
+      "keyPoints": [
+        "先認清題目要求的文字類型（letter、article、report、speech 等）。",
+        "常見題材集中在校園、社會議題、科技影響、環保等範圍。",
+        "不同文字類型要對應不同的稱呼與結尾格式。",
+        "審題時圈出「身份、對象、目的」三個要素。"
+      ],
+      "studyStage": "中五開始練卷二時睇；中六當總覽重溫。",
+      "analysis": "出版社出品、無補習推銷，資料性強，四分鐘內把卷二範圍講清楚，適合做「第一課」。缺點係完全無示範寫作，深度有限，必須配合其他逐類型的教學片（例如 Stand by U 系列）。"
+    }
+  ]
+}

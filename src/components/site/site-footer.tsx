@@ -54,6 +54,24 @@ export function SiteFooter() {
                 CAT 診斷室
               </Link>
               <Link
+                href="/dse/jupas"
+                className="block font-medium text-zinc-400 transition-colors duration-300 hover:text-cyan-400"
+              >
+                JUPAS 揀科指南
+              </Link>
+              <Link
+                href="/dse/videos"
+                className="block font-medium text-zinc-400 transition-colors duration-300 hover:text-cyan-400"
+              >
+                溫習片庫
+              </Link>
+              <Link
+                href="/dse/english/learn"
+                className="block font-medium text-zinc-400 transition-colors duration-300 hover:text-cyan-400"
+              >
+                English 自學路徑
+              </Link>
+              <Link
                 href="/guides/dse-buxi"
                 className="block font-medium text-zinc-400 transition-colors duration-300 hover:text-cyan-400"
               >

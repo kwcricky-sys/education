@@ -44,3 +44,9 @@ next-env.d.ts
 /_draft/
 /web/
 build-log.txt
+
+# generator artifacts
+*-sample.json
+*-sample-retry.json
+*-reviewed.json
+*-schema-example.json

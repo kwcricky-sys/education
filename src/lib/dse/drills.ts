@@ -1,5 +1,6 @@
 import econDrills from "@/data/dse/econ-drills.json";
 import englishDrills from "@/data/dse/english-drills.json";
+import englishLearnDrills from "@/data/dse/english-learn-drills.json";
 
 export type DrillQuestion = {
   id: string;
@@ -26,9 +27,25 @@ export type DrillBank = {
   questions: DrillQuestion[];
 };
 
+const PUBLISHED_ENGLISH = englishDrills as DrillBank;
+const LEARN_ENGLISH = englishLearnDrills as DrillBank;
+
+/**
+ * The English bank = published drills + Learn Mode practice questions, so the
+ * topic and question pages resolve for the /dse/english/learn course too.
+ */
+const ENGLISH_BANK: DrillBank = {
+  meta: {
+    ...PUBLISHED_ENGLISH.meta,
+    total: PUBLISHED_ENGLISH.questions.length + LEARN_ENGLISH.questions.length,
+    reviewed: PUBLISHED_ENGLISH.meta.reviewed ?? false,
+  },
+  questions: [...PUBLISHED_ENGLISH.questions, ...LEARN_ENGLISH.questions],
+};
+
 const BANKS: Record<string, DrillBank> = {
   econ: econDrills as DrillBank,
-  english: englishDrills as DrillBank,
+  english: ENGLISH_BANK,
 };
 
 export const DRILL_SUBJECTS = Object.keys(BANKS) as Array<keyof typeof BANKS>;

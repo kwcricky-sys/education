@@ -1,0 +1,1945 @@
+{
+  "meta": {
+    "scoreYear": 2025,
+    "scoreScale": "入學分數指數（0–7）：院校公布收生分數經正規化後的綜合表達",
+    "scoreSource": "dse.bigexam.hk 聯招課程資料庫（院校公布收生分數之正規化指數），2025 年入學數據",
+    "paySources": [
+      "醫管局／政府總薪級表（一般職系薪級表 HGPS）：2024-04-01 及 2026-04-01 生效版本",
+      "教資會（UGC）2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+      "行業薪酬資料：CTgoodjobs 等媒體報道（僅作 marketNote 定性參考）"
+    ],
+    "caveat": "收生分數每年變動；出路薪酬受經濟周期、僱主及個人能力影響。只適用於有公開入職薪級表嘅專業（醫療、護理、社工等）會計算「效益比」；其餘課程顯示嘅係所屬學科大類平均年薪，並非本課程數據。全部內容只作參考，非官方資料。"
+  },
+  "programmes": [
+    {
+      "code": "JS1801",
+      "university": "香港城市大學",
+      "name": "獸醫學學士",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 6.7,
+        "lower": 6.4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "窄門",
+        "marketNote": "全港唯一獸醫學位課程，學額極少；出路集中在私人診所同漁護署等少數僱主。",
+        "categoryFit": "loose",
+        "fitNote": "UGC「醫科、牙科及護理」大類平均主要反映醫生及護士，獸醫畢業生實際收入明顯不同。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "6.70 分係全港最高收生分數之一，但出路選擇遠少過人醫——典型「分數溢價」。如果你唔係真心鍾意動物醫學，用全港最高分之一去換一個窄市場，性價比要打個大問號。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6107",
+      "university": "香港大學",
+      "name": "牙醫學士",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 6.41,
+        "lower": 6.31,
+        "upper": 6.63,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 71010,
+        "derivedMonthly": 71010,
+        "payIsCategoryAverage": false,
+        "payBasis": "政府牙科醫生職級起薪，總薪級表第 30–32 點區間（2024-04-01 生效：$71,010–$77,855），取下限",
+        "demand": "飽和爭議中",
+        "marketNote": "行業內部近年有「鐵棺材」講法：私人市場競爭激烈、開診成本高，畢業生收入分化極大。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "起薪七萬，帳面靚到無得輸。但收 6.41 分——全港第二高——買到嘅係高薪入場券，唔係躺贏。私人市場飽和係真議題，分數溢價要靠「牙醫牌照值幾錢」自己判斷。",
+      "valuePerPoint": 11078,
+      "tag": "神科級回報"
+    },
+    {
+      "code": "JS4501",
+      "university": "香港中文大學",
+      "name": "內外全科醫學士課程",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 6.27,
+        "lower": 6.13,
+        "upper": 6.4,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 77855,
+        "derivedMonthly": 77855,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局駐院醫生，總薪級表第 32 點（2024-04-01 生效）",
+        "demand": "極短缺",
+        "marketNote": "中大醫科為 6 年制；環球醫學領袖組別（JS4502）收分再高一截。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "同港大醫科同一條路、同一個薪級表，收分 6.27 略高於港大。兩者之間嘅選擇應該睇教學醫院同你住邊，唔係睇 0.05 分。",
+      "valuePerPoint": 12417,
+      "tag": "神科級回報"
+    },
+    {
+      "code": "JS5332",
+      "university": "香港科技大學",
+      "name": "理學士（量化金融學）",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 6.26,
+        "lower": 6.08,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "窄門高波動",
+        "marketNote": "出路高度依賴投行、對沖基金 headcount；金融業 2024–26 年持續裁員並以 AI 取代部分交易台職位。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "最典型嘅「高分但唔保底」。6.26 分——全港第四高——但出路完全押注金融業招聘。上年景好，量化畢業生首年可以 4 至 6 萬；市差就整個梯隊唔請人。呢科係高賠率賭注，唔係穩定選擇。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6456",
+      "university": "香港大學",
+      "name": "內外全科醫學士",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 6.22,
+        "lower": 6,
+        "upper": 6.56,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 77855,
+        "derivedMonthly": 77855,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局駐院醫生，總薪級表第 32 點（2024-04-01 生效）",
+        "demand": "極短缺",
+        "marketNote": "醫科須 6 年學位加 1 年實習；實習年薪酬遠低於駐院醫生，計投資回報要連實習年一齊算。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "神科之王。6.22 分換到約 $7.8 萬起薪，係全港「每分回報」最高嘅一科。但六年學位加實習，時間成本同淘汰壓力都要計落去——分數夠係入場券，唔係畢業保證。",
+      "valuePerPoint": 12517,
+      "tag": "神科級回報"
+    },
+    {
+      "code": "JS4682",
+      "university": "香港中文大學",
+      "name": "數學精研",
+      "category": "理科",
+      "score": {
+        "year": 2025,
+        "median": 6.0,
+        "lower": 5.93,
+        "upper": 6.47,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "sciences",
+        "ugcCategoryLabel": "理科",
+        "ugcAnnualSalaryK": 299,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24917,
+        "payIsCategoryAverage": true,
+        "payBasis": "理科畢業生平均年薪 HK$299,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "數學精研為尖子專班，多數畢業生選擇讀研或轉量化金融。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "6.00 分讀數學，本科直接就業冇明顯溢價——呢科嘅回報出口係研究院同量化交易。如果你唔打算讀研或者入行量化，6 分用喺度機會成本很高。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6157",
+      "university": "香港大學",
+      "name": "理學士（言語及語言病理學）",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.87,
+        "lower": 5.87,
+        "upper": 6,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "學額少、需求穩",
+        "marketNote": "港大言語及語言病理學為 5 年制，註冊後可於醫管局、教育局及私家執業。",
+        "categoryFit": "loose",
+        "fitNote": "言語及語言病理學職位市場容量小，UGC 大類平均僅作粗略參考。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "同一個專業、港大版本收 5.87 分，比理大高 0.53 分。如果你嘅目標只係做言語治療師，呢 0.53 分就係「品牌溢價」——睇你認唔認同港大品牌值呢個價。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS4416",
+      "university": "香港中文大學",
+      "name": "計算數據科學",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 5.87,
+        "lower": 5.75,
+        "upper": 6.25,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "sciences",
+        "ugcCategoryLabel": "理科",
+        "ugcAnnualSalaryK": 299,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24917,
+        "payIsCategoryAverage": true,
+        "payBasis": "理科畢業生平均年薪 HK$299,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高需求",
+        "marketNote": "數據科學畢業生流向科技公司、金融業數據部門及顧問；AI 相關職位需求持續上升。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.87 分係理科中極高，但數據科學係少數「高分有合理回報」嘅理科——AI 人才需求真實存在。前提係你數學根基要夠，唔係靠背。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3612",
+      "university": "香港理工大學",
+      "name": "放射學（榮譽）理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.85,
+        "lower": 5.71,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 33405,
+        "derivedMonthly": 33405,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局放射技師（診斷），總薪級表第 14 點（2024-04-01 生效）",
+        "demand": "短缺",
+        "marketNote": "放射技師職系約 945 人，公私營影像中心持續擴張，專業註冊保障執業門檻。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "水泡寶藏頭號候選。5.85 分，起薪 $33,405 加專業註冊，公私營都有出路——同分數水平嘅商科、社科課程，UGC 大類平均月薪只有兩萬四上下，差距一目了然。放射科唔算搶手係因為學生唔熟，唔係因為出路差。",
+      "valuePerPoint": 5710,
+      "tag": "中性"
+    },
+    {
+      "code": "JS6767",
+      "university": "香港大學",
+      "name": "經濟學學士 / 經濟金融學學士",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 5.78,
+        "lower": 5.67,
+        "upper": 5.78,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "經濟系出路分散（銀行、諮詢、政府、研究），薪酬離散度高。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.78 分。經濟學嘅回報極度取決於你有冇加上「數」同「實習」——純讀經濟嘅畢業生薪酬中位數同商科平均差唔多，唔會有 5.78 分應該有嘅溢價。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6482",
+      "university": "香港大學",
+      "name": "中醫全科學士",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 5.73,
+        "lower": 5.47,
+        "upper": 5.87,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "成長中",
+        "marketNote": "中醫註冊制度 2025 年起全面落實；公立中醫醫院投入服務帶動職位，但起薪普遍低於西醫體系。",
+        "categoryFit": "loose",
+        "fitNote": "UGC 醫療大類平均由醫生及護士帶動，中醫畢業生起薪普遍低於西醫體系。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.73 分買中醫——收分接近藥劑學，但薪酬同職位數量完全唔同級數。呢科係典型「高分、中等回報」：如果你真心信中醫，值得；如果只係想「入到醫療系」，同分數嘅放射、藥劑回報更高。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6494",
+      "university": "香港大學",
+      "name": "藥劑學學士",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 5.67,
+        "lower": 5.55,
+        "upper": 5.89,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 49230,
+        "derivedMonthly": 49230,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局藥劑師，總薪級表第 21 點（2024-04-01 生效）",
+        "demand": "穩定",
+        "marketNote": "藥劑師職系約 591 人，公私營需求穩定，亦可走藥廠／監管路線。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "5.67 分換 $49,230 起薪，係醫療系裡面「相對易入、回報唔差」嘅一科。註冊藥劑師牌照有硬價值，係穩陣之選。",
+      "valuePerPoint": 8683,
+      "tag": "水泡寶藏"
+    },
+    {
+      "code": "JS4525",
+      "university": "香港中文大學",
+      "name": "藥劑學",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 5.6,
+        "lower": 5.4,
+        "upper": 5.8,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 49230,
+        "derivedMonthly": 49230,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局藥劑師，總薪級表第 21 點（2024-04-01 生效）",
+        "demand": "穩定",
+        "marketNote": "中大藥劑學 5.60 分，比港大低約 0.07 分，出路薪酬制度相同。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "同一張牌照、同一個薪級表，收分低過港大少少。呢種情況應該揀中大——同一出路少 0.07 分，係純粹嘅「性價比套利」。",
+      "valuePerPoint": 8791,
+      "tag": "水泡寶藏"
+    },
+    {
+      "code": "JS3636",
+      "university": "香港理工大學",
+      "name": "物理治療學（榮譽）理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.6,
+        "lower": 5.6,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 33405,
+        "derivedMonthly": 33405,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局二級物理治療師，總薪級表第 14 點（2024-04-01 生效）",
+        "demand": "供應轉飽和",
+        "marketNote": "2025 年有物理治療畢業生公開表示投遞多份申請、三個月無回音，甚至被要求做送文具、清潔治療床等非專業工作（CTgoodjobs 報道）；物理治療師職系約 1,089 人。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "曾經嘅「黃金飯碗」，而家係最值得警惕嘅一科。收 5.60 分——唔算低——但院校畢業生數量急增，市場供應明顯擴大。呢個就係「高分遇上飽和」：分數只反映入學競爭，唔反映畢業時嘅職位數量。",
+      "valuePerPoint": 5965,
+      "tag": "中性"
+    },
+    {
+      "code": "JS6717",
+      "university": "香港大學",
+      "name": "社會科學學士",
+      "category": "社會科學",
+      "score": {
+        "year": 2025,
+        "median": 5.47,
+        "lower": 5.2,
+        "upper": 5.87,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24500,
+        "payIsCategoryAverage": true,
+        "payBasis": "社會科學畢業生平均年薪 HK$294,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "港大社科覆蓋政治、心理、地理等，出路分散，多數畢業生需再進修。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.47 分讀港大社科——收分屬中上，但出路薪酬接近 UGC 社科平均（年薪 29.4 萬、每月約 $24,500）。呢個就係「分數溢價」最明顯嘅一科：高分買嘅係校名同學術訓練，唔係薪酬。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3478",
+      "university": "香港理工大學",
+      "name": "醫療化驗科學（榮譽）理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.45,
+        "lower": 5.42,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 31795,
+        "derivedMonthly": 31795,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局醫務化驗師，總薪級表第 13 點（2024-04-01 生效）",
+        "demand": "穩定",
+        "marketNote": "醫務化驗師職系約 1,538 人，係專職醫療中最大職系之一。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "5.45 分換 $31,795 起薪，回報屬中上。化驗師係醫療體系嘅幕後支柱，需求隨人口老化穩定上升，但人工級表工具性地低過 PT／OT／放射一級。",
+      "valuePerPoint": 5834,
+      "tag": "中性"
+    },
+    {
+      "code": "JS4542",
+      "university": "香港中文大學",
+      "name": "中醫學",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 5.4,
+        "lower": 5.2,
+        "upper": 5.4,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "成長中",
+        "marketNote": "中大中醫 6 年制，出路集中公立中醫門診、私家診所及教研。",
+        "categoryFit": "loose",
+        "fitNote": "UGC 醫療大類平均由醫生及護士帶動，中醫畢業生起薪普遍低於西醫體系。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.40 分，比港大中醫低 0.33 分，出路性質相同。中醫行業正在制度化，長線有增長空間，但短期薪酬明顯低於西醫系。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS1001",
+      "university": "香港城市大學",
+      "name": "工商管理學士（環球商業）",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 5.36,
+        "lower": 5.09,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "窄門",
+        "marketNote": "強調三次海外交流同哥倫比亞大學雙聯學位，目標跨國企業管理培訓生（MT）。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.36 分買「環球商業」品牌。MT 職位數量有限而且極度看重面試同實習，分數只係篩選門檻。呢科嘅真實回報係校友網絡，唔係課堂內容。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3242",
+      "university": "香港理工大學",
+      "name": "言語治療（榮譽）理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.34,
+        "lower": 5.27,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "學額少、需求穩",
+        "marketNote": "言語治療學額極少，公私營（學校、醫院、私家）需求穩定，但職位僧多粥少。",
+        "categoryFit": "loose",
+        "fitNote": "言語治療師職位市場容量小，UGC 大類平均僅作粗略參考。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.34 分買一個學額極少嘅專業。言語治療師出路穩定，但市場容量細，唔似護理咁可以大量吸納畢業生。適合真心想做嘅人，唔適合當「穩陣牌」。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6858",
+      "university": "香港大學",
+      "name": "理學士及法學士",
+      "category": "法律",
+      "score": {
+        "year": 2025,
+        "median": 5.33,
+        "lower": 5.04,
+        "upper": 5.48,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24500,
+        "payIsCategoryAverage": true,
+        "payBasis": "社會科學畢業生平均年薪 HK$294,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "窄門",
+        "marketNote": "雙學位 5 年制，須再完成 PCLL 及實習才能執業；大型律師行見習律師薪酬遠高於中小型行。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.33 分，雙學位。法律行業薪酬離散度極大——大行見習可以 4 至 5 萬，細行可能 2 萬。分數只決定你入到邊間學校，唔決定你入到邊間行。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3624",
+      "university": "香港理工大學",
+      "name": "職業治療學（榮譽）理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.28,
+        "lower": null,
+        "upper": null,
+        "quartileNote": "來源數據中下四分位與中位數不一致，已剔除"
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 33405,
+        "derivedMonthly": 33405,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局二級職業治療師，總薪級表第 14 點（2024-04-01 生效）",
+        "demand": "穩定",
+        "marketNote": "職業治療師職系約 878 人，人口老化帶動復康需求。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "5.28 分、$33,405 起薪、註冊專業——同物理治療同一薪級表但收分低 0.32 分。同一個薪級表之下，收分低嘅永遠係更抵嘅一科。",
+      "valuePerPoint": 6327,
+      "tag": "中性"
+    },
+    {
+      "code": "JS3290",
+      "university": "香港理工大學",
+      "name": "眼科視光學（榮譽）理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 5.27,
+        "lower": 4.85,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "穩定",
+        "marketNote": "視光師須向視光師管理委員會註冊；出路包括眼鏡連鎖、私家眼科診所及公立眼科。",
+        "categoryFit": "loose",
+        "fitNote": "視光師多受僱於私家市場，收入結構與公營薪級表不同，UGC 大類平均僅作參考。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.27 分、專業註冊、市場以私家為主——公立職位數量有限，收入好大程度睇你入邊個僱主。註冊係硬資產，但唔似醫管局職系咁有透明薪級表。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6731",
+      "university": "香港大學",
+      "name": "社會工作學學士",
+      "category": "社會科學",
+      "score": {
+        "year": 2025,
+        "median": 5.07,
+        "lower": 4.8,
+        "upper": 5.07,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 37585,
+        "derivedMonthly": 37585,
+        "payIsCategoryAverage": false,
+        "payBasis": "助理社會工作主任（ASWO）起薪，總薪級表第 16 點（2026-04-01 生效）",
+        "demand": "高需求",
+        "marketNote": "註冊社工須持認可學位；NGO 及政府社署職位薪酬跟隨總薪級表。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "5.07 分換 $37,585 起薪加專業註冊——社工係香港少數「薪酬透明、需求穩定」嘅專業。回報好過唔少 5.5 分嘅商科社科課程。代價係情緒勞動重、個案壓力大。",
+      "valuePerPoint": 7413,
+      "tag": "抵讀"
+    },
+    {
+      "code": "JS4513",
+      "university": "香港中文大學",
+      "name": "護理學",
+      "category": "護理",
+      "score": {
+        "year": 2025,
+        "median": 5.0,
+        "lower": 4.96,
+        "upper": 5.19,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 35780,
+        "derivedMonthly": 35780,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局註冊護士（普通科），總薪級表第 15 點（2026-04-01 生效）",
+        "demand": "極短缺",
+        "marketNote": "中大護理 5 年制，收 5.00 分，較港大護理高約 0.07 分。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "同一個薪級表，中大收 5.00 而港大收 4.93。差 0.07 分換同一個註冊護士資格——如果只想做護士，港大版本係更抵嘅選擇。",
+      "valuePerPoint": 7156,
+      "tag": "抵讀"
+    },
+    {
+      "code": "JS4725",
+      "university": "香港中文大學",
+      "name": "生物科技、創業與醫療管理",
+      "category": "醫療相關",
+      "score": {
+        "year": 2025,
+        "median": 5.0,
+        "lower": 5.0,
+        "upper": 5.2,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "跨學科課程，出路分散於生物科技公司、醫療行政及初創。",
+        "categoryFit": "loose",
+        "fitNote": "跨學科課程，UGC 醫療大類平均並不代表本課程畢業生。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.00 分，但課程定位係「跨學科」——即係冇一個硬專業身份。生物科技在香港產業規模細，呢科嘅實際回報高度取決於你自己做過咩實習同項目。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS5312",
+      "university": "香港科技大學",
+      "name": "工商管理學士（金融學）",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 5.0,
+        "lower": 4.87,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高波動",
+        "marketNote": "金融主修集中銀行、資產管理、證券業，招聘周期敏感。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "5.00 分入科大金融，比量化金融低 1.25 分，但同樣押注金融業。如果你想要金融業門票、又唔想用 6.26 分去買，呢條係合理替代路線。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6468",
+      "university": "香港大學",
+      "name": "護理學學士",
+      "category": "護理",
+      "score": {
+        "year": 2025,
+        "median": 4.93,
+        "lower": 4.8,
+        "upper": 5.07,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 35780,
+        "derivedMonthly": 35780,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局註冊護士（普通科），總薪級表第 15 點（2026-04-01 生效）",
+        "demand": "極短缺",
+        "marketNote": "護理係全港最穩定嘅大量吸納職系；公立醫院長期人手短缺，亦可升護士長（第 26 點起）。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "4.93 分換 $35,780 起薪 + 極高就業保障——護理係全港「分數回報」最穩嘅一科，而且係少數唔怕經濟周期的工種。代價係輪班同體力勞動，唔係個個頂得住。",
+      "valuePerPoint": 7258,
+      "tag": "抵讀"
+    },
+    {
+      "code": "JS6901",
+      "university": "香港大學",
+      "name": "理學士",
+      "category": "理科",
+      "score": {
+        "year": 2025,
+        "median": 4.86,
+        "lower": 4.76,
+        "upper": 5.05,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "sciences",
+        "ugcCategoryLabel": "理科",
+        "ugcAnnualSalaryK": 299,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24917,
+        "payIsCategoryAverage": true,
+        "payBasis": "理科畢業生平均年薪 HK$299,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "港大理學士提供廣泛理科主修，多數畢業生轉讀研究院、教育文憑或進入企業管理培訓。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.86 分讀港大純理科。香港理科本科直接就業出路窄，薪酬接近 UGC 理科平均（年薪 29.9 萬、每月約 $24,900）。呢科嘅價值取決於你之後讀咩。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS4202",
+      "university": "香港中文大學",
+      "name": "工商管理學士綜合課程",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 4.8,
+        "lower": 4.8,
+        "upper": 5.0,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "中大 BBA 綜合課程，出路覆蓋會計、金融、市務、管理。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.80 分。中大 BBA 係香港商科主流大戶，畢業生數量多，僱主認受性穩定但冇特別溢價。呢科係「唔會錯但唔會贏」嘅安全牌。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS4240",
+      "university": "香港中文大學",
+      "name": "專業會計學",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 4.8,
+        "lower": 4.8,
+        "upper": 5.0,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "穩定但低起薪",
+        "marketNote": "會計師樓（Big4）審計起薪長期約 $2 萬水平，靠考取執業資格後薪酬才明顯上升。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.80 分換一個起薪約兩萬嘅專業。專業會計嘅回報曲線係「前期低、後期陡」——頭三年捱得住考牌，之後薪酬才追返。如果你追求即時高薪，呢科會令你失望。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS2410",
+      "university": "香港浸會大學",
+      "name": "中醫學學士及生物醫學理學士（榮譽）",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 4.78,
+        "lower": 4.63,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "成長中",
+        "marketNote": "浸大中醫為 6 年雙學位課程，結合中西醫基礎。",
+        "categoryFit": "loose",
+        "fitNote": "UGC 醫療大類平均由醫生及護士帶動，中醫畢業生起薪普遍低於西醫體系。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.78 分入中醫，係三間有中醫課程院校中收分最低。同一個專業認證制度下，低 0.62–0.95 分入同一行業，係明顯嘅性價比選擇。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS4812",
+      "university": "香港中文大學",
+      "name": "建築學",
+      "category": "建築",
+      "score": {
+        "year": 2025,
+        "median": 4.73,
+        "lower": 4.55,
+        "upper": 4.73,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "周期敏感",
+        "marketNote": "建築師須完成認可課程加實務訓練才能註冊；行業受樓市及基建周期影響大。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.73 分。建築學係「長線專業」——註冊建築師過程要 5 年學位加實務，期間薪酬偏低。地產周期下行時，建築師樓裁員往往最先反映。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS4537",
+      "university": "香港中文大學",
+      "name": "公共衞生",
+      "category": "醫療相關",
+      "score": {
+        "year": 2025,
+        "median": 4.69,
+        "lower": 4.67,
+        "upper": 5.08,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "公共衞生學士並非臨床註冊專業，多數畢業生轉讀碩士或進入衞生署、NGO、藥廠。",
+        "categoryFit": "loose",
+        "fitNote": "公共衞生並非臨床專業，UGC 醫療大類平均並不代表本課程畢業生。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.69 分換一個唔可以直接執業嘅醫療相關學位。呢科嘅價值在於「讀完仲要再讀」——如果你想做公共衞生研究，路係通；如果以為讀完就有醫療專業身份，會失望。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS1040",
+      "university": "香港城市大學",
+      "name": "卓越創藝與科技課程",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.67,
+        "lower": 4.08,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "涵蓋創意媒體、新媒體等方向，出路覆蓋影視、遊戲、數碼內容產業。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.67 分買創意科技。呢科係文科之中少數接觸到技術（新媒體、遊戲）嘅路線，出路比純文科闊，但要自己累積作品集。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS1204",
+      "university": "香港城市大學",
+      "name": "理學士（計算機科學）",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 4.6,
+        "lower": 4.4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高需求",
+        "marketNote": "城大計算機科學設 AI、網絡安全、數據科學等專修；科技業職位需求穩定。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.60 分讀計算機科學——同分數嘅商科、文科課程相比，CS 起薪普遍高一截。呢科係「分數唔高但出路扎實」嘅代表。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3868",
+      "university": "香港理工大學",
+      "name": "電子計算及人工智能（榮譽）理學士組合課程",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 4.6,
+        "lower": 4.39,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高需求",
+        "marketNote": "理大計算及 AI 組合課程，2025 年加權收生中位數 230（加權分）。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.60 分，AI 相關學位。留意 AI 課程近年爆炸式增長，畢業生供應會唔會追過需求係 3–4 年後嘅風險。現階段仍然係抵讀之選。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS1061",
+      "university": "香港城市大學",
+      "name": "法律學學士",
+      "category": "法律",
+      "score": {
+        "year": 2025,
+        "median": 4.6,
+        "lower": 4.3,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24500,
+        "payIsCategoryAverage": true,
+        "payBasis": "社會科學畢業生平均年薪 HK$294,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "窄門",
+        "marketNote": "城大法律學士須完成 PCLL 方可執業；PCLL 入學競爭激烈。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.60 分入法律系，係全港法律課程中收分最低之一。留意 PCLL 收生係另一個關卡，法律學位唔保證執業資格。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS1106",
+      "university": "香港城市大學",
+      "name": "媒體與傳播",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.56,
+        "lower": 4.44,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "競爭激烈",
+        "marketNote": "城大媒體與傳播涵蓋數碼電視、廣播及媒體研究，行業職位受 AI 內容生成衝擊。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.56 分。同浸大傳理一樣面對傳媒業結構性收縮。分數唔算低但回報偏低，係「高分低效」嘅文科代表。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS4006",
+      "university": "香港中文大學",
+      "name": "人類學",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.54,
+        "lower": 4.4,
+        "upper": 4.6,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "人類學在香港就業市場直接對口職位極少，多數畢業生轉行或讀研。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.54 分讀人類學。老實講：呢科喺香港冇直接職業出口。如果你唔打算讀研、或者唔打算轉行做 PR／NGO，呢 4.5 分應該用喺更有針對性嘅課程。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS5300",
+      "university": "香港科技大學",
+      "name": "工商管理",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 4.51,
+        "lower": 4.41,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "科大 BBA，四年制，可選主修；科大商學院僱主認受性強。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.51 分讀科大 BBA。留意：商科畢業生薪酬中位數同 UGC 商科平均（年薪 29.2 萬、每月約 $24,300）掛鈎，唔會因為校名而暴漲。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3223",
+      "university": "香港理工大學",
+      "name": "數據科學及人工智能（榮譽）理學士組合課程",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 4.46,
+        "lower": 4.33,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高需求",
+        "marketNote": "理大數據科學及 AI，2025 年加權中位數 220。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.46 分入 AI／數據科學，係目前科技類最高性價比嘅入場位之一。同樣要留意供應風險。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3180",
+      "university": "香港理工大學",
+      "name": "資訊及人工智能工程學（榮譽）工學士／理學士組合課程",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 4.43,
+        "lower": 4.31,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高需求",
+        "marketNote": "涵蓋物聯網、人工智能、資訊安全三個方向，2025 年加權中位數 218。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.43 分。工程學士路線，註冊工程師路徑較長，但科技職位唔睇註冊、睇實作能力。呢科係低分入科技業嘅實用通道。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JSSU55",
+      "university": "香港都會大學",
+      "name": "物理治療學榮譽理學士",
+      "category": "專職醫療",
+      "score": {
+        "year": 2025,
+        "median": 4.4,
+        "lower": 4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 33405,
+        "derivedMonthly": 33405,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局二級物理治療師，總薪級表第 14 點（2024-04-01 生效）",
+        "demand": "供應轉飽和",
+        "marketNote": "都大物理治療同樣可註冊；市場整體正面對畢業生供應急增嘅壓力。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "4.40 分換 $33,405 起薪，比率比理大物理治療（5.60 分）高一大截。同一張牌照、同一個薪級表，用 4.40 分入到就係明顯套利——前提係你要接受市場整體趨向飽和。",
+      "valuePerPoint": 7592,
+      "tag": "抵讀"
+    },
+    {
+      "code": "JS2020",
+      "university": "香港浸會大學",
+      "name": "文學士（榮譽）（中國語言文學／創意及專業寫作／英國語言文學／人文學／翻譯學）",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.4,
+        "lower": 4.2,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "浸大文學院出路覆蓋教學、出版、傳媒、翻譯。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.40 分。同屬文科大類，平均年薪水平同上。如果你嘅目標係做老師，要留意仲需要 PGDE 教育文憑——呢層唔計入 JUPAS 分數，但係必要成本。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3005",
+      "university": "香港理工大學",
+      "name": "工程學科組合學士課程",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 4.39,
+        "lower": 4.24,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "穩定",
+        "marketNote": "理大工程組合課程，涵蓋土木、機械、電機等；香港工程師學會認可路徑。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.39 分入工程，係香港基建行業嘅主要人才來源。工程起薪唔高，但專業資格（HKIE）累積後薪酬走勢穩定，屬「慢熱型」出路。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3006",
+      "university": "香港理工大學",
+      "name": "計算機及數學科學組合學士課程",
+      "category": "工程科技",
+      "score": {
+        "year": 2025,
+        "median": 4.39,
+        "lower": 4.31,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "高需求",
+        "marketNote": "結合理論數學與計算機科學，可轉數據科學或軟件開發。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.39 分，同分數之下有計算機元素，出路比純理科闊。係一個穩陣嘅中位選擇。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS2420",
+      "university": "香港浸會大學",
+      "name": "中藥學學士（榮譽）",
+      "category": "醫療專業",
+      "score": {
+        "year": 2025,
+        "median": 4.38,
+        "lower": 4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 46167,
+        "payIsCategoryAverage": true,
+        "payBasis": "醫科、牙科及護理畢業生平均年薪 HK$554,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "穩定",
+        "marketNote": "中藥師走藥廠、檢測、零售連鎖及中醫醫院路線，起薪一般低於註冊藥劑師。",
+        "categoryFit": "loose",
+        "fitNote": "中藥學畢業生不可註冊為藥劑師，收入水平與 UGC 醫療大類平均相差甚遠。",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.38 分，門檻低。但要清楚：中藥學唔等於藥劑學，唔可以註冊做藥劑師，薪酬級表亦完全唔同。低分入場嘅代價就係出路天花板較低。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3060",
+      "university": "香港理工大學",
+      "name": "會計及金融（榮譽）工商管理學士組合課程",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 4.35,
+        "lower": 4.34,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "穩定但低起薪",
+        "marketNote": "理大會計及金融 2025 年收生中位數 185.5（加權分），組合課程容許後期選主修。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.35 分，理大會計。比中大專業會計低 0.45 分，出路性質接近——同一個行業，低分入場就係賺。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS5812",
+      "university": "香港科技大學",
+      "name": "理學士（環境管理及科技）",
+      "category": "理科",
+      "score": {
+        "year": 2025,
+        "median": 4.28,
+        "lower": 4.15,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "sciences",
+        "ugcCategoryLabel": "理科",
+        "ugcAnnualSalaryK": 299,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24917,
+        "payIsCategoryAverage": true,
+        "payBasis": "理科畢業生平均年薪 HK$299,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "對應環保署、顧問公司及 ESG 相關職位，市場規模有限。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.28 分。ESG 概念熱但香港實際職位數量少，呢科出路偏向政府同顧問。分數唔高，當作穩陣兜底可以。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS1108",
+      "university": "香港城市大學",
+      "name": "社會科學學士（公共事務與管理）",
+      "category": "社會科學",
+      "score": {
+        "year": 2025,
+        "median": 4.27,
+        "lower": 4.18,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24500,
+        "payIsCategoryAverage": true,
+        "payBasis": "社會科學畢業生平均年薪 HK$294,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "出路集中在政府、公營機構及政策研究，公務員職位需另行投考。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.27 分。公共事務學位唔等於公務員職位——政府職位要自行投考，學位只係滿足學歷要求。當作考公務員嘅踏腳石可以。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3310",
+      "university": "香港理工大學",
+      "name": "酒店及旅遊管理（榮譽）理學士組合課程",
+      "category": "商科",
+      "score": {
+        "year": 2025,
+        "median": 4.26,
+        "lower": 4.19,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "business",
+        "ugcCategoryLabel": "商科及管理",
+        "ugcAnnualSalaryK": 292,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24333,
+        "payIsCategoryAverage": true,
+        "payBasis": "商科及管理畢業生平均年薪 HK$292,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "理大酒店及旅遊管理長年獲國際排名前列，但行業起薪普遍偏低、工時長。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.26 分。理大酒店管理係「排名靚、起薪平」嘅經典例子——業界認可度高，但酒店業薪酬結構本身偏低。選呢科要為興趣，唔好為收入。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS6054",
+      "university": "香港大學",
+      "name": "文學士",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.25,
+        "lower": 4.17,
+        "upper": 4.42,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "港大文學院覆蓋語言、文學、歷史、哲學等；出路高度依賴第二技能。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.25 分。文科係 UGC 七個學科大類中平均年薪最低（27.9 萬、每月約 $23,250）。呢個唔係要貶低文科——而係提醒你：讀文科一定要刻意加上數碼、語言或教學等第二技能，否則起薪會被理工科拉開。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3648",
+      "university": "香港理工大學",
+      "name": "護理學（榮譽）理學士",
+      "category": "護理",
+      "score": {
+        "year": 2025,
+        "median": 4.24,
+        "lower": 4.18,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 35780,
+        "derivedMonthly": 35780,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局註冊護士（普通科），總薪級表第 15 點（2026-04-01 生效）",
+        "demand": "極短缺",
+        "marketNote": "理大護理為公立體系主要供應來源之一，畢業生就業率長期高企。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "4.24 分換 $35,780 起薪——每分接近 $8,400，係全港最高效嘅組合之一。呢科就係典型「收分唔高、出路極硬」：4 分頭嘅成績可以有 3.5 萬起薪加穩定職業，市場上冇幾科做得到。",
+      "valuePerPoint": 8439,
+      "tag": "水泡寶藏"
+    },
+    {
+      "code": "JS3050",
+      "university": "香港理工大學",
+      "name": "時裝（榮譽）文學士組合課程",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.21,
+        "lower": 4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "涵蓋時裝設計、商務及創新科技，理大時裝在亞洲有較強業界網絡。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "3.56 分，係本表收分最低嘅課程之一。低分入理大、有業界網絡、出路靠作品集——適合清楚自己方向嘅設計人，唔適合求穩定嘅人。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS2660",
+      "university": "香港浸會大學",
+      "name": "社會工作學士（榮譽）",
+      "category": "社會科學",
+      "score": {
+        "year": 2025,
+        "median": 4.18,
+        "lower": 4.18,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 37585,
+        "derivedMonthly": 37585,
+        "payIsCategoryAverage": false,
+        "payBasis": "助理社會工作主任（ASWO）起薪，總薪級表第 16 點（2026-04-01 生效）",
+        "demand": "高需求",
+        "marketNote": "浸大社工同樣可註冊，出路覆盖社署、NGO、學校社工。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "4.18 分！同一個註冊社工資格、同一條薪級表，收分比港大社工低 0.89 分。呢科係全港最被低估嘅選擇之一：4 分頭有 3.7 萬起薪加專業身份。",
+      "valuePerPoint": 8992,
+      "tag": "水泡寶藏"
+    },
+    {
+      "code": "JS2310",
+      "university": "香港浸會大學",
+      "name": "傳理學學士（榮譽）",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 4.18,
+        "lower": 4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "競爭激烈",
+        "marketNote": "浸大傳理係香港傳媒業主要人才來源，但傳媒行業薪酬長期偏低、職位數量收縮。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.18 分。浸大傳理名氣大、業界網絡強，但傳媒業現實係起薪低、工時長、AI 衝擊內容生產。為理想入可以，為收入入會失望。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS8714",
+      "university": "香港教育大學",
+      "name": "人工智能與教育科技榮譽理學士",
+      "category": "教育",
+      "score": {
+        "year": 2025,
+        "median": 4.17,
+        "lower": 4.08,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "education",
+        "ugcCategoryLabel": "教育",
+        "ugcAnnualSalaryK": 363,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 30250,
+        "payIsCategoryAverage": true,
+        "payBasis": "教育畢業生平均年薪 HK$363,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "對應教育科技、EdTech 公司及學校 IT 職位；教席須另修教育文憑。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.17 分。教育大類平均年薪 36.3 萬（每月約 $30,250）係七類中第二高，但主要反映教師職系。呢科係技術路線，唔係直接教席路線。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS5102",
+      "university": "香港科技大學",
+      "name": "理學Ａ組",
+      "category": "理科",
+      "score": {
+        "year": 2025,
+        "median": 4.14,
+        "lower": 4.1,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "sciences",
+        "ugcCategoryLabel": "理科",
+        "ugcAnnualSalaryK": 299,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24917,
+        "payIsCategoryAverage": true,
+        "payBasis": "理科畢業生平均年薪 HK$299,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "科大主要理科入口，涵蓋物理、化學、數學、生物等。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.14 分。科大理科入口分數唔高，出路同上——本科理科在香港需要再讀一層才有專業溢價。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS8651",
+      "university": "香港教育大學",
+      "name": "心理學榮譽社會科學學士",
+      "category": "社會科學",
+      "score": {
+        "year": 2025,
+        "median": 4,
+        "lower": 4,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24500,
+        "payIsCategoryAverage": true,
+        "payBasis": "社會科學畢業生平均年薪 HK$294,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "心理學學士唔等於心理學家——須再讀碩士及實習方可註冊。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "4.00 分讀心理學。香港心理學學位供應多，但註冊心理學家職位少，本科畢業多數走人力資源、市場研究路線。想清楚你想做嘅係「心理學家」定「讀過心理學」。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS7101",
+      "university": "嶺南大學",
+      "name": "中文（榮譽）文學士",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 3.98,
+        "lower": 3.89,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "靠升學",
+        "marketNote": "嶺大中文出路以教學、出版、文化機構為主。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "3.98 分。低分入中大中文系（嶺大中文）屬實用兜底選擇，但如果志在教中文，記得規劃 PGDE。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JSSU40",
+      "university": "香港都會大學",
+      "name": "護理學榮譽學士（普通科）",
+      "category": "護理",
+      "score": {
+        "year": 2025,
+        "median": 3.89,
+        "lower": 3.7,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "medicine",
+        "ugcCategoryLabel": "醫科、牙科及護理",
+        "ugcAnnualSalaryK": 554,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": 35780,
+        "derivedMonthly": 35780,
+        "payIsCategoryAverage": false,
+        "payBasis": "醫管局註冊護士（普通科），總薪級表第 15 點（2026-04-01 生效）",
+        "demand": "極短缺",
+        "marketNote": "都大護理同樣取得香港護士管理局註冊資格，可投考醫管局職位。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": true
+      },
+      "verdict": "3.89 分換 $35,780 起薪，每分近 $9,200——數字上係全港最高。留意自資院校嘅臨床實習名額同教學資源係另一回事，但論「分數回報」，呢科幾乎無對手。",
+      "valuePerPoint": 9198,
+      "tag": "水泡寶藏"
+    },
+    {
+      "code": "JS1201",
+      "university": "香港城市大學",
+      "name": "建築學及土木工程學",
+      "category": "建築",
+      "score": {
+        "year": 2025,
+        "median": 3.78,
+        "lower": 3.7,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "engineering",
+        "ugcCategoryLabel": "工程及科技",
+        "ugcAnnualSalaryK": 287,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23917,
+        "payIsCategoryAverage": true,
+        "payBasis": "工程及科技畢業生平均年薪 HK$287,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "周期敏感",
+        "marketNote": "涵蓋建築工程、土木工程及測量三個主修，對應不同專業註冊。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "3.78 分就入到土木工程路線——係香港基建行業最低分嘅入口之一。工程行業起薪平但穩，適合唔介意慢慢累積專業資格嘅人。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS7301",
+      "university": "嶺南大學",
+      "name": "社會科學（榮譽）學士 - 經濟學",
+      "category": "社會科學",
+      "score": {
+        "year": 2025,
+        "median": 3.77,
+        "lower": 3.71,
+        "upper": null,
+        "quartileNote": null
+      },
+      "outcome": {
+        "ugcCategoryKey": "social",
+        "ugcCategoryLabel": "社會科學",
+        "ugcAnnualSalaryK": 294,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 24500,
+        "payIsCategoryAverage": true,
+        "payBasis": "社會科學畢業生平均年薪 HK$294,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "嶺大經濟學基礎訓練為主，出路分散。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "3.77 分。低分讀經濟學，出路同高分經濟系無本質差別——都係睇你有冇加上數據技能。屬穩陣兜底。",
+      "valuePerPoint": null,
+      "tag": null
+    },
+    {
+      "code": "JS3569",
+      "university": "香港理工大學",
+      "name": "設計學（榮譽）文學士組合課程",
+      "category": "文科",
+      "score": {
+        "year": 2025,
+        "median": 3.56,
+        "lower": null,
+        "upper": null,
+        "quartileNote": "來源數據中下四分位與中位數不一致，已剔除"
+      },
+      "outcome": {
+        "ugcCategoryKey": "arts",
+        "ugcCategoryLabel": "文科及人文",
+        "ugcAnnualSalaryK": 279,
+        "ugcAnnualSalarySource": "教資會 2024/25 學年全日制學士課程畢業生平均年薪（全職就業者）",
+        "entryPayMonthly": null,
+        "derivedMonthly": 23250,
+        "payIsCategoryAverage": true,
+        "payBasis": "文科及人文畢業生平均年薪 HK$279,000（全職就業者）÷ 12，非入職起薪",
+        "demand": "中等",
+        "marketNote": "九個設計主修方向，出路覆蓋品牌、室內、產品、體驗設計。",
+        "categoryFit": "direct",
+        "hasPublishedEntryPay": false
+      },
+      "verdict": "3.56 分。理大設計係亞洲頂尖設計學院之一，但設計行業薪酬天花板明顯，收入靠自己接案同作品口碑。低分入好學校，係好事；但要接受設計嘅收入曲線唔似工程師。",
+      "valuePerPoint": null,
+      "tag": null
+    }
+  ]
+}

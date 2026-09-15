@@ -25,8 +25,8 @@ const SUBJECT_META: Record<
   },
   english: {
     name: "English 英文科",
-    desc: "Free HKDSE English grammar drills: tenses, conditionals, relative clauses, phrasal verbs, connectives and more. MCQ practice with teaching explanations.",
-    keywords: ["DSE English grammar", "DSE English exercise", "English MCQ DSE", "dse english practice", "english grammar drill hong kong"],
+    desc: "Free HKDSE English practice: reading question types, inference & tone, writing formats and argument, listening & integrated skills, speaking patterns, grammar (tenses, conditionals, passive, agreement) and vocabulary. MCQ practice with teaching explanations.",
+    keywords: ["DSE English grammar", "DSE English reading", "DSE English writing", "DSE English exercise", "English MCQ DSE", "dse english practice", "english grammar drill hong kong"],
   },
 };
 
@@ -95,6 +95,25 @@ export default async function DrillSubjectPage({ params }: Props) {
         Every question is independently verified and comes with a teaching
         explanation. Free, no sign-up.
       </p>
+
+      {subject === "english" && (
+        <Link
+          href="/dse/english/learn"
+          className="mt-5 flex items-center justify-between gap-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-5 transition hover:border-emerald-300"
+        >
+          <span>
+            <span className="block font-semibold text-emerald-900">
+              English 自學路徑（由零開始）
+            </span>
+            <span className="mt-1 block text-sm text-emerald-800/80">
+              10 個單元：閱讀、寫作、聆聽及綜合、說話、語法、詞彙，每單元附練習關卡。
+            </span>
+          </span>
+          <span className="shrink-0 text-sm font-semibold text-emerald-700">
+            開始 →
+          </span>
+        </Link>
+      )}
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
         {topics.map((topic) => {

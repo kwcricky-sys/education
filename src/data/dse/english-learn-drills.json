@@ -1,0 +1,1613 @@
+{
+ "meta": {
+  "title": "DSE English Learn Mode Practice Bank",
+  "subject": "DSE english",
+  "language": "zh-HK",
+  "total": 100,
+  "version": "learn-mode-1",
+  "reviewed": false,
+  "note": "Practice sets for the /dse/english/learn step-by-step course. Content written from teaching analysis of HKDSE English paper structure and marking practice; not HKEAA material."
+ },
+ "questions": [
+  {
+   "id": "ENGL-READLOC-001",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “The new library opens at 9 a.m. on weekdays, but at 11 a.m. on Sundays.” According to the passage, when does the library open on Sundays?",
+   "options": [
+    "A. At 9 a.m.",
+    "B. At 11 a.m.",
+    "C. It does not open on Sundays.",
+    "D. The passage does not say."
+   ],
+   "answer": "B",
+   "explanation": "這是定位題：答案明寫在文章內，關鍵詞是 Sundays，對應句子的後半部分 but at 11 a.m.。前面的 9 a.m. on weekdays 是干擾資訊，只適用於平日。",
+   "tags": ["detail question", "location"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-002",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “Waste has been cut by half since the scheme began.” Which option best expresses the same meaning?",
+   "options": [
+    "A. The scheme has stopped producing waste.",
+    "B. The amount of rubbish has dropped by 50%.",
+    "C. Waste has doubled since the scheme started.",
+    "D. The scheme was cancelled halfway."
+   ],
+   "answer": "B",
+   "explanation": "考評局的題目習慣用同義改寫。cut by half 等於減少一半，即 dropped by 50%。選項 A、C、D 都改變了原文意思，屬典型的字面誤讀。",
+   "tags": ["paraphrase", "synonym"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-003",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "你已經確定第 5 題的答案在第二段。第 6 題的答案最可能在邊個位置？",
+   "options": [
+    "A. 第一段",
+    "B. 第二段之前的任何一段",
+    "C. 第二段或第三段",
+    "D. 最後一段"
+   ],
+   "answer": "C",
+   "explanation": "卷一題目編號大致跟文章段落順序推進。如果第 5 題在第二段，第 6 題通常在同一段或下一段，很少會跳回第一段。若發現自己往回跳，通常代表前一題搵錯位置。",
+   "tags": ["signpost", "question order"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-004",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "題目：“Give two reasons why the writer thinks online learning is not suitable for everyone. (4 marks)” 邊種寫法最有效？",
+   "options": [
+    "A. 寫一段總論，說明 online learning 有好有壞",
+    "B. 分兩點寫，每點一句結論加一句文中支持",
+    "C. 把文章相關段落整段抄一次",
+    "D. 寫四點，把同一理由用不同字眼重複"
+   ],
+   "answer": "B",
+   "explanation": "長題目通常是 point-based marking：4 分代表兩個獨立要點，每點要有結論與支持。A 太籠統、C 屬搬字過紙、D 重複同一點只計一次。分點寫讓評卷員快速找到得分點。",
+   "tags": ["extended response", "point-based marking"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-005",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "題目後面寫住 “(paragraph 3)”，這個括號的作用是？",
+   "options": [
+    "A. 提示答案在第三段，直接去該段搵料",
+    "B. 說明該題目佔 3 分",
+    "C. 要求你只讀第三段便能回答全份卷",
+    "D. 表示該段可以跳過"
+   ],
+   "answer": "A",
+   "explanation": "段落編號是出題人給的位置提示，可以直接縮窄搜尋範圍。忽略括號等於自己增加難度，白白浪費時間。",
+   "tags": ["signpost", "paragraph reference"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-006",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "題目用 “reduce plastic use”，文章寫 “cut down on single-use items”。你應該點做？",
+   "options": [
+    "A. 只搜尋 reduce 這個字，搵唔到就跳到下一題",
+    "B. 搜尋同義表達，例如 cut down on、fewer、less",
+    "C. 認定題目與文章無關，選 the passage does not say",
+    "D. 只讀第一段就算"
+   ],
+   "answer": "B",
+   "explanation": "出題人刻意改用同義詞或改寫，字面唔同不代表位置唔對。定位題搵的是「意思」，所以要搜尋整組近義表達，而唔係單一字眼。",
+   "tags": ["paraphrase", "synonym clue"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-007",
+   "topic": "reading-locating",
+   "difficulty": "hard",
+   "question": "以下邊一種答案形式最符合閱讀卷的評分要求？",
+   "options": [
+    "A. 完整抄回原文句子，確保意思準確",
+    "B. 只寫一個關鍵名詞，愈短愈好",
+    "C. 用自己嘅字詞改寫，並包含題目要求的全部要點",
+    "D. 寫一段個人評論，講自己對該議題的看法"
+   ],
+   "answer": "C",
+   "explanation": "評卷看的是理解後的改寫（paraphrase）＋ 要點完整。抄原文通常不給分，只寫一個名詞會因資料不完整失分，寫個人評論則屬離題。",
+   "tags": ["paraphrase", "answer form"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-008",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "做定位題的第一步應該是？",
+   "options": [
+    "A. 先讀全文並背下所有細節",
+    "B. 先抽題目關鍵詞，再回文章掃描對應位置",
+    "C. 先估答案，再用文章確認",
+    "D. 先做長題目，最後才做定位題"
+   ],
+   "answer": "B",
+   "explanation": "定位題考「搵料」，方法很機械：抽關鍵詞、回文章掃描。先讀全文再答題會浪費時間，先估答案容易被自己的印象帶錯方向。",
+   "tags": ["method", "scanning"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-009",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "卷一有 90 分鐘，你在 Part A 用了 55 分鐘。最合理的做法是？",
+   "options": [
+    "A. 繼續慢慢做，Quality 比速度重要",
+    "B. 立即轉做 Part B，之後有剩時間才回頭補 Part A",
+    "C. 放棄 Part B，把時間全部用來檢查 Part A",
+    "D. 加快速度但唔改變做題次序"
+   ],
+   "answer": "B",
+   "explanation": "Part A 通常較短較直接，理應 40 分鐘內完成。超過 45 分鐘就要轉去 Part B，因為長題目一樣逐分計，但組織需要更多時間。等到最後才發現長題目未開始，是最常見的卷一失分模式。",
+   "tags": ["time management", "Paper 1"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-010",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "關於卷一選答 Part B1 或 B2，以下邊一項描述正確？",
+   "options": [
+    "A. B1 較易，選 B1 對拉高整體等級最有利",
+    "B. 做 B1 的考生最高只可達 Level 4",
+    "C. B1 與 B2 的分數比重不同，B2 佔更多分",
+    "D. 考生可以同時做 B1 與 B2，取較高分者"
+   ],
+   "answer": "B",
+   "explanation": "根據考評局的評核框架，B1 與 B2 各佔全科 10%，比重相同，但做 Part B1 的考生最高只可達 Level 4。程度中上的同學應該直接操 B2，避免自己封頂。",
+   "tags": ["paper structure", "B1 B2"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-001",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “My grandfather still keeps the old radio on the shelf, though nobody has switched it on for over a decade.” What can be inferred about the grandfather?",
+   "options": [
+    "A. He listens to the radio every night.",
+    "B. He keeps the radio for sentimental reasons rather than for use.",
+    "C. He cannot afford a new radio.",
+    "D. He wants to repair the radio."
+   ],
+   "answer": "B",
+   "explanation": "文中細節有兩個：仍然保留（still keeps）＋ 十多年冇開過。由兩者推論，收音機對他有紀念價值。A 與文中事實矛盾；C、D 文章完全冇線索——推論必須有文本根據。",
+   "tags": ["inference", "textual clue"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-002",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “The new app promises to change how students revise. It is a bold claim, though one cannot help wondering how many will abandon it by the second week.” The writer's tone is best described as —",
+   "options": [
+    "A. enthusiastic",
+    "B. sarcastic",
+    "C. cautious and sceptical",
+    "D. completely indifferent"
+   ],
+   "answer": "C",
+   "explanation": "讓步結構 “It is a bold claim, though…” 加上含蓄疑問 “one cannot help wondering” 表示保留與質疑，屬 cautious / sceptical。文中冇挖苦或反諷的語言特徵，所以唔係 sarcastic；亦冇熱情支持的措辭。",
+   "tags": ["tone", "concessive structure"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-003",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "“Are we really expected to believe that?” 這句話的主要功能是？",
+   "options": [
+    "A. 提出疑問，等待對方提供資料",
+    "B. 表達質疑或批評的立場",
+    "C. 表示自己唔明白題目",
+    "D. 純粹的讚美"
+   ],
+   "answer": "B",
+   "explanation": "這是反問句（rhetorical question），形式是問句但功能是表態。考生遇到反問句要理解為作者表達質疑或批評，而唔係真的在提問。",
+   "tags": ["rhetorical question", "tone"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-004",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “City officials have finally decided to address the housing problem.” What does “address” mean in this context?",
+   "options": [
+    "A. To write an address on a letter",
+    "B. To deal with or tackle the problem",
+    "C. To speak formally to the problem",
+    "D. To ignore the problem"
+   ],
+   "answer": "B",
+   "explanation": "這是典型的熟詞僻義。受詞是 problem、主語是 officials，搭配之下 address 的意思是「正視、處理」，等同 deal with / tackle。用字典第一個解釋（地址）會完全唔通。",
+   "tags": ["contextual meaning", "vocabulary"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-005",
+   "topic": "reading-inference",
+   "difficulty": "hard",
+   "question": "以下邊一個答案屬於有效的推論？題目問 “What can be inferred about the writer's attitude towards the scheme?”",
+   "options": [
+    "A. He thinks the scheme is a complete waste of money.",
+    "B. He welcomes the scheme's aims but doubts whether it can be enforced.",
+    "C. Most people in Hong Kong dislike the scheme.",
+    "D. The scheme will be cancelled next year."
+   ],
+   "answer": "B",
+   "explanation": "有效推論要緊扣文本的證據結構，B 對應文中「肯定目的、質疑執行」的讓步寫法。A 是過度的絕對判斷，C 把文章範圍擴大到全港市民，D 是對未來的無根據預測——三者都超出文中線索。",
+   "tags": ["inference", "textual clue"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-006",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "作者連續三次用 “Again and again, we were told…” 這種句式的效果是？",
+   "options": [
+    "A. Repetition 強調重複發生的經驗，帶出不耐煩或無奈的語氣",
+    "B. 表示作者記性唔好",
+    "C. 純粹為了增加字數",
+    "D. Metaphor，把說話比喻成雨"
+   ],
+   "answer": "A",
+   "explanation": "語言特徵題答題公式是：指出手法（repetition）＋ 強調什麼（重複的經驗）＋ 對讀者的效果（感受到不耐煩或無奈）。只寫「令文章生動」太籠統，評卷唔會視為完整答案。",
+   "tags": ["language feature", "repetition"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-007",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “She did not complain, even though the shift lasted twelve hours. She simply wrote her report and left.” What can be inferred?",
+   "options": [
+    "A. She was lazy at work.",
+    "B. She was patient and uncomplaining.",
+    "C. She enjoyed writing reports more than anything else.",
+    "D. She planned to resign immediately."
+   ],
+   "answer": "B",
+   "explanation": "證據是 did not complain 與 simply wrote her report and left——由「不抱怨、照做事」可以推出她沉默而具耐性。C 與 D 文章冇線索，屬於自己補故事。",
+   "tags": ["inference", "character"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-008",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "做語氣題（tone）時，最應該留意邊樣？",
+   "options": [
+    "A. 文章中出現的所有數字",
+    "B. 作者的評價詞與句子的形式（反問、讓步）",
+    "C. 文章的長度",
+    "D. 題目有幾多分"
+   ],
+   "answer": "B",
+   "explanation": "語氣由評價詞（brilliant、ridiculous、overrated）與句式（反問、讓步結構）共同決定。捉這些線索比憑感覺揀選項穩定得多，而且判斷要以作者整體立場為準。",
+   "tags": ["tone", "method"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-009",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “The company had to bear the full cost of the recall.” What does “bear” mean here?",
+   "options": [
+    "A. To carry a heavy animal",
+    "B. To accept and pay for something",
+    "C. To give birth to",
+    "D. To run away from"
+   ],
+   "answer": "B",
+   "explanation": "bear 的常見意思是「熊／忍受」，但在 bear the cost 這個搭配中是「承擔、負擔」。判斷方法是用上下文與搭配：受詞是 cost，主語是公司，所以是承擔費用的意思。",
+   "tags": ["contextual meaning", "collocation"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-010",
+   "topic": "reading-inference",
+   "difficulty": "hard",
+   "question": "以下邊一句唔可以作為推論題的答案？",
+   "options": [
+    "A. He keeps the tickets because they remind him of that summer.",
+    "B. She probably felt nervous, as she kept checking her watch.",
+    "C. Everyone in Hong Kong agrees with this policy anyway.",
+    "D. He values the letters more than the money."
+   ],
+   "answer": "C",
+   "explanation": "C 的「全港所有人都同意」既冇文本根據，亦是無法由文章推出的普遍化斷言。其餘三項都能對應文章細節（提醒往事、反覆看錶、重視信件）。推論要有文本線索，唔可以靠常識或概括。",
+   "tags": ["inference", "traps"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-001",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "根據卷二（Writing）的評核框架，Part A 與 Part B 的字數要求分別約為？",
+   "options": [
+    "A. Part A 約 100 字，Part B 約 250 字",
+    "B. Part A 約 200 字，Part B 約 400 字",
+    "C. Part A 約 400 字，Part B 約 200 字",
+    "D. 兩部分都約 300 字"
+   ],
+   "answer": "B",
+   "explanation": "考評局的評核框架列明：Part A 是引導式短題目（約 200 字，佔 10%），Part B 是較開放式的長題目（約 400 字，四選一，佔 15%）。嚴重偏離字數會影響內容發展的評分。",
+   "tags": ["paper structure", "word count"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-002",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "題目要求 “Write an article for your school magazine.” 以下邊一項格式處理正確？",
+   "options": [
+    "A. 用 Dear Editor 開頭，Yours faithfully 結尾",
+    "B. 可以加一個標題，內文用段落推進，唔加書信稱呼",
+    "C. 一定要寫地點與日期在右上角",
+    "D. 文章必須用第一人稱單數並且唔可以有段落"
+   ],
+   "answer": "B",
+   "explanation": "文章（article）唔屬於書信格式，加 Dear Editor 或 Yours faithfully 屬語域與格式錯配，會影響 appropriacy 分。文章可加標題、分段推進，語域可 semi-formal 視刊物對象而定。",
+   "tags": ["format", "appropriacy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-003",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "Part A 要求你以學生會主席身份寫信給校長。以下邊句語氣最合適？",
+   "options": [
+    "A. Hey! We wanna add some water coolers, cool?",
+    "B. I am writing to propose installing water dispensers in the school campus.",
+    "C. Water dispensers are great, everyone will love it, no doubt.",
+    "D. Listen, we need water dispensers, please do it."
+   ],
+   "answer": "B",
+   "explanation": "正式而有請求性質的書信應該用完整句式與中性語氣。A 的口語（Hey、wanna）與 C 的誇張斷言、D 的命令式語氣都唔符合與校長溝通的身份與語域，屬 appropriacy 失分。",
+   "tags": ["register", "letter writing"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-004",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "Part A 題目列出四個 bullet points，你漏做其中一項。結果是？",
+   "options": [
+    "A. 唔影響，只要總字數足夠就可以",
+    "B. 內容完整度是按項計分，缺一項等於直接失去該部分分數",
+    "C. 會由語言分補回",
+    "D. 只在字數不足時才扣分"
+   ],
+   "answer": "B",
+   "explanation": "引導式短題目的內容要求以 bullet points 為單位，缺一項就是明確的內容失分。落筆前應該先數清題目要求幾多項，寫完後逐項核對。",
+   "tags": ["task fulfilment", "bullet points"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-005",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "Part B 四題選一，選題應該用幾多時間？判斷標準是什麼？",
+   "options": [
+    "A. 用 10 分鐘，揀最有深度的一題",
+    "B. 用 3 至 5 分鐘，揀自己講得出三個具體點子的一題",
+    "C. 用 15 分鐘，逐題寫一段測試可行性",
+    "D. 隨機揀一題，唔需要考慮"
+   ],
+   "answer": "B",
+   "explanation": "四題可以取得同等分數，所以選題標準是「我能否講出三個具體支持點」，而唔係題目聽起來有幾高深。選題時間控制在 3 至 5 分鐘，把時間留給寫作。",
+   "tags": ["question choice", "time management"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-006",
+   "topic": "writing-formats",
+   "difficulty": "hard",
+   "question": "Part B 題目問 “Should schools ban smartphones?” 以下邊種寫法回應了題目要求？",
+   "options": [
+    "A. 描述香港學生使用智能手機的現況與數據",
+    "B. 明確表態，並用兩至三個支持點解釋理由",
+    "C. 列出智能手機的發明歷史與功能",
+    "D. 只寫一段個人經歷，唔表態"
+   ],
+   "answer": "B",
+   "explanation": "題目用 should 提問，要求的是立場與論證。A 只描述現況、C 屬背景資料、D 冇回應題目動作，三者都屬內容離題，即使語言流暢亦會大幅失分。",
+   "tags": ["task fulfilment", "argument"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-007",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "寫 Part B 之前，應該預留幾多分鐘列提綱？",
+   "options": [
+    "A. 0 分鐘，直接落筆",
+    "B. 約 3 至 5 分鐘，寫立場與三個支持點",
+    "C. 約 20 分鐘，寫一份完整草稿",
+    "D. 約 15 分鐘，逐字抄題目"
+   ],
+   "answer": "B",
+   "explanation": "提綱只需數行：立場一句、三個支持點各一句、結尾方向一句。太長時間的計劃會擠壓寫作時間，完全冇提綱則容易段落重複或中途離題。",
+   "tags": ["planning", "outline"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-008",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "約 400 字的 Part B 文章，最合適的段落安排是？",
+   "options": [
+    "A. 一段到底，令論述更連貫",
+    "B. 引言 ＋ 三段主體 ＋ 結論，每段長度相若",
+    "C. 引言寫 150 字，主體一段 60 字，結論一句",
+    "D. 七至八段，每段一至兩句"
+   ],
+   "answer": "B",
+   "explanation": "四至五段是 400 字的自然結構，每段一個要點可支持 coherence 評分。一段到底會影響組織分；段落嚴重不均或過度碎片化同樣唔理想。",
+   "tags": ["organisation", "paragraphing"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-009",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "題目要求寫一封 email 給同學，邀請他參加活動。以下邊句最符合語域？",
+   "options": [
+    "A. I am writing to formally invite you to participate in the forthcoming event.",
+    "B. We're holding the event next Friday — fancy joining us?",
+    "C. Pursuant to our discussion, kindly revert to us at your earliest convenience.",
+    "D. You are hereby invited to attend the said function."
+   ],
+   "answer": "B",
+   "explanation": "寫給同學的 email 屬非正式或半正式，縮寫與直接邀請最自然。A 與 C、D 過度正式，甚至屬商業書信用語，與讀者身份不符，會被視為語域錯配。",
+   "tags": ["register", "email"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-010",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "卷二共有 2 小時，以下邊一種時間分配較合理？",
+   "options": [
+    "A. Part A 30 分鐘完成約 200 字，其餘時間留給 Part B 的構思與寫作",
+    "B. Part A 用 60 分鐘精雕細琢，Part B 用 45 分鐘",
+    "C. 兩部分平均各 60 分鐘",
+    "D. 先寫 Part B，最後用 15 分鐘寫 Part A"
+   ],
+   "answer": "A",
+   "explanation": "Part A 佔 10%，字數約 200 字；Part B 佔 15%，約 400 字並需要構思。把較多時間留給 Part B 較符合分數比重。Part A 花 60 分鐘而在佔分更重的部分趕稿，屬典型分配失誤。",
+   "tags": ["time management", "Paper 2"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-001",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "以下邊一句最適合作為一段的 topic sentence？",
+   "options": [
+    "A. Many students use social media every day.",
+    "B. Social media should be taught as part of the school curriculum.",
+    "C. Social media was invented in the early 2000s.",
+    "D. My cousin is on social media."
+   ],
+   "answer": "B",
+   "explanation": "Topic sentence 必須是可辯論的主張。A、C、D 都只是描述事實，冇立場可以支持或反駁，所以帶唔起一段論證。B 提出 should，可以接上解釋與例子。",
+   "tags": ["topic sentence", "PEE"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-002",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "PEE / PEEL 段落結構指的是？",
+   "options": [
+    "A. Point — Explanation — Example（— Link）",
+    "B. Plan — Edit — End",
+    "C. Paragraph — Evidence — End",
+    "D. Point — Extract — Elaborate only"
+   ],
+   "answer": "A",
+   "explanation": "PEE 是三件套：主張（Point）、解釋（Explanation）、例子（Example），PEEL 的最後 L 是連接下一段的 Link。這個結構確保每段都有推進，而唔係重複同一件事。",
+   "tags": ["PEE", "development"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-003",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "以下哪句寫法錯誤，需要修正？",
+   "options": [
+    "A. The trip was cancelled, we stayed home.",
+    "B. The trip was cancelled; we stayed home.",
+    "C. The trip was cancelled, so we stayed home.",
+    "D. Because the trip was cancelled, we stayed home."
+   ],
+   "answer": "A",
+   "explanation": "A 是 comma splice：兩個完整句子只用逗號連接。修法有三：用分號（B）、加連接詞（C）、或改成從屬結構（D）。結構錯是最影響閱讀的作文問題。",
+   "tags": ["comma splice", "sentence structure"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-004",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "「The scheme helps students save money and reducing waste.」這句話的問題是？",
+   "options": [
+    "A. 平行結構不一致，reducing 應改為 reduce",
+    "B. 時態錯，should 改為 saved",
+    "C. 主謂不一致",
+    "D. 介詞錯，應改為 save on money for"
+   ],
+   "answer": "A",
+   "explanation": "and 連接的兩個項目形式要一致：save 是原形，後面亦應是原形 reduce。“save money and reduce waste” 才符合平行結構。用 V-ing 混搭原形是常見的平行結構錯。",
+   "tags": ["parallelism", "structure"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-005",
+   "topic": "writing-argument",
+   "difficulty": "hard",
+   "question": "以下哪一句屬有效的讓步（concession）？",
+   "options": [
+    "A. Phones are useful, so schools should allow them.",
+    "B. Admittedly phones can be distracting, but a ban is hard to enforce.",
+    "C. Phones are bad and should be banned.",
+    "D. Everyone knows phones are useful."
+   ],
+   "answer": "B",
+   "explanation": "讓步是「先承認對方論點有部分成立，再提出自己的立場」，用 admittedly、although、while、it is true that 這一類結構。B 先承認分心問題，再提出執行困難，顯示思考立體。A 只是因果，C 是單邊斷言，D 是訴諸普遍。",
+   "tags": ["concession", "argument"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-006",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "要在段落之間顯示「這一點比上一點更重要」，最合適的銜接詞是？",
+   "options": [
+    "A. For example",
+    "B. More importantly",
+    "C. In other words",
+    "D. Finally"
+   ],
+   "answer": "B",
+   "explanation": "More importantly 表示遞進並強調重要性。For example 引出例子、In other words 是重述、Finally 表示順序結束，三者都唔表達「更重要」的比較關係。",
+   "tags": ["cohesion", "connectives"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-007",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "「Students should work part-time. Many students work part-time. Working part-time is good for students.」這段的主要問題是？",
+   "options": [
+    "A. 三句講同一件事，段落冇推進",
+    "B. 時態不一致",
+    "C. 引用數據不足",
+    "D. 用字太深"
+   ],
+   "answer": "A",
+   "explanation": "三句只有一個意思，沒有解釋與例子，屬內容發展不足。用 PEE 重寫：主張（教會理財）＋ 解釋（要為支出負責）＋ 例子（兼職後開始記帳），段落才有推進。",
+   "tags": ["development", "PEE"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-008",
+   "topic": "writing-argument",
+   "difficulty": "hard",
+   "question": "「Walking home from school, the rain started suddenly.」這句錯在邊度？",
+   "options": [
+    "A. 分詞片語的主語與主句主語不一致（dangling modifier）",
+    "B. 時態錯，應改為 has started",
+    "C. from 應改為 to",
+    "D. 應改為被動語態"
+   ],
+   "answer": "A",
+   "explanation": "Walking home 的隱含主語應該是人，但主句主語是 the rain，兩者不一致，形成 dangling modifier。修正：「Walking home from school, I was caught in the rain.」",
+   "tags": ["dangling modifier", "participle"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-009",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "以下哪一句是港式英文，需要修正？",
+   "options": [
+    "A. Let's discuss the proposal.",
+    "B. Let's discuss about the proposal.",
+    "C. We should talk about the proposal.",
+    "D. The proposal needs discussion."
+   ],
+   "answer": "B",
+   "explanation": "discuss 是及物動詞，後面唔加 about。要保留 about 就改用 talk about。這類由中文直譯的錯誤（討論 about）是作文準確度的高頻扣分位。",
+   "tags": ["Chinglish", "preposition"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIARG-010",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "主體三段的排列次序，較有效的做法是？",
+   "options": [
+    "A. 隨機排列，反正評卷唔看次序",
+    "B. 由最有說服力的點寫到最弱的點",
+    "C. 由最弱的點寫到最強的點，最後才交代立場",
+    "D. 三段都講同一個點，用不同例子加強"
+   ],
+   "answer": "B",
+   "explanation": "把最有力的論點放在前面，可以立即建立立場的可信度，亦避免評卷員讀到最後仍未見到最強理由。D 屬重複，會令內容發展分受損。",
+   "tags": ["organisation", "argument"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-001",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "題目寫明 “Write ONE word”，你寫了兩個字，意思正確。結果是？",
+   "options": [
+    "A. 照樣給分",
+    "B. 因超出字數限制而不給分",
+    "C. 扣一分",
+    "D. 由考官酌情加分"
+   ],
+   "answer": "B",
+   "explanation": "筆試的填空題字數限制是硬性要求，超過字數即使意思正確亦不給分。做卷時要養成先看限制的習慣，例如 ONE word 的答案通常是最直接的關鍵詞。",
+   "tags": ["word limit", "listening"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-002",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "題目：「The workshop will be held in the ______ on 15 June.」錄音：「Unfortunately the library is closed for renovation, so the workshop on 15 June will take place in the multi-purpose room instead.」答案應為？",
+   "options": [
+    "A. library",
+    "B. renovation",
+    "C. multi-purpose room",
+    "D. 15 June"
+   ],
+   "answer": "C",
+   "explanation": "錄音先提到 library，但隨即用 unfortunately 與 instead 推翻，最終地點是 multi-purpose room。這題示範兩個原則：唔好聽到第一個相關名詞就填；要靠轉折詞判斷最終資訊。",
+   "tags": ["distractor", "listening"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-003",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "錄音播到一半你聽唔到一個關鍵詞。最合理的處理是？",
+   "options": [
+    "A. 停低回想，直到想清楚為止",
+    "B. 先用縮寫或近似音記低，繼續聽下一段，最後再補",
+    "C. 立即跳過整份卷的該部分",
+    "D. 舉手問監考員"
+   ],
+   "answer": "B",
+   "explanation": "錄音唔會停，停一秒就漏後面的內容。正確做法是先記縮寫或近似音，繼續跟住錄音，最後有時間才回頭補。漏一題只損失少數分數，慌亂會連累整部分。",
+   "tags": ["note-taking", "strategy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-004",
+   "topic": "listening-integrated",
+   "difficulty": "hard",
+   "question": "Part B 寫作任務要用 Data File 的資料，以下邊種做法最符合評分要求？",
+   "options": [
+    "A. 整句原文照抄，確保資料準確",
+    "B. 抽取必要資料並改寫成自己的句式，配合任務格式",
+    "C. 完全唔用 Data File，只憑自己的想像寫",
+    "D. 抄錄 Data File 全部內容，字數越多越好"
+   ],
+   "answer": "B",
+   "explanation": "綜合任務要求選取、整合並改寫。整句照抄會影響語言分，完全唔用資料則無法完成任務，全部搬入卷則浪費時間並可能離題。",
+   "tags": ["Data File", "integrated task"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-005",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "任務寫明 “Write an email to your teacher.” 你若寫成一份 memo 格式，會出現什麼問題？",
+   "options": [
+    "A. 冇問題，內容一樣就得",
+    "B. 屬格式與語域錯配，影響 appropriacy 評分",
+    "C. 只會扣發音分",
+    "D. 只會影響字數計算"
+   ],
+   "answer": "B",
+   "explanation": "卷三的任務格式是評分項目：email 要有稱呼與署名，報告要有標題與分節。唔跟指定格式屬 appropriacy 失分，即使內容完整亦會扣分。",
+   "tags": ["format", "appropriacy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-006",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "卷三約兩小時，以下邊一種時間安排較合理？",
+   "options": [
+    "A. 聆聽部分約 50 至 55 分鐘，其餘留給 Part B 的綜合任務與延伸寫作",
+    "B. 聆聽部分用 90 分鐘慢慢核對",
+    "C. 先寫完綜合任務，最後才聽錄音",
+    "D. 全部時間平均分給兩部分，唔需要特別安排"
+   ],
+   "answer": "A",
+   "explanation": "Part A 與 Part B 各佔 15%，但 Part B 需要整合資料與寫作，較耗時。一般建議聆聽部分用約 50 至 55 分鐘，剩餘時間留給需要組織語言的任務。",
+   "tags": ["time management", "Paper 3"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-007",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "錄音播放前，讀題時間最應該用來做什麼？",
+   "options": [
+    "A. 背誦整份卷的答案格式",
+    "B. 圈出題目關鍵詞，並判斷答案類型（數字、人名、時間、原因）",
+    "C. 先寫好答案框架",
+    "D. 閱讀 Data File 全部內容並抄一次"
+   ],
+   "answer": "B",
+   "explanation": "先圈關鍵詞與判斷答案類型，可以在聽的時候知道要捕捉什麼，命中率明顯提高。抄寫 Data File 或預寫答案都唔是有效率的使用方法。",
+   "tags": ["pre-listening", "strategy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-008",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "錄音中的重複資訊通常代表什麼？",
+   "options": [
+    "A. 說話者唔記得自己講過",
+    "B. 通常是題目要你填的關鍵資訊，值得優先記低",
+    "C. 錄音出錯，可以忽略",
+    "D. 表示後面一定有一樣的答案"
+   ],
+   "answer": "B",
+   "explanation": "錄音在短時間內再次提及同一項資訊，通常就是題目要考的關鍵詞，出題人刻意讓考生有第二次捕捉的機會。所以在讀題時可以先在題目紙標記「可能要聽兩次」的欄位。",
+   "tags": ["listening", "repetition"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-009",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "卷三 Part A 與 Part B 分別佔英文科總分的幾多？",
+   "options": [
+    "A. 各佔 10%",
+    "B. 各佔 15%",
+    "C. Part A 20%、Part B 10%",
+    "D. 兩部分合共 20%"
+   ],
+   "answer": "B",
+   "explanation": "根據考評局的評核框架，卷三整體佔 30%，其中 Part A 與 Part B（B1 或 B2）各佔 15%。與卷一不同，卷三的兩部分比重相同。",
+   "tags": ["paper structure", "weighting"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-010",
+   "topic": "listening-integrated",
+   "difficulty": "hard",
+   "question": "任務要求「提出一項建議」，但 Data File 完全冇提到建議。最可能的情況是？",
+   "options": [
+    "A. 題目出錯，可以直接略過該項",
+    "B. 建議通常來自錄音，聽的時候要特別留意說話者提出的提示或提醒",
+    "C. 應該自己創作一項建議即可",
+    "D. 只有 Part B2 才會要求建議"
+   ],
+   "answer": "B",
+   "explanation": "Part B 的設計是錄音與 Data File 互補：書面資料提供事實（價目、日期），錄音提供意見、變更或建議。所以聽的時候要留意 suggests、recommends、make sure、remember to 這一類提示語。",
+   "tags": ["integrated task", "Data File"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-001",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "小組討論開始時，以下邊一句最適合用來開場？",
+   "options": [
+    "A. Silence, waiting for someone else to start.",
+    "B. Shall we start with the first point on the leaflet?",
+    "C. I think the answer is B.",
+    "D. Can you repeat the question, sir?"
+   ],
+   "answer": "B",
+   "explanation": "開場要覆蓋題目要求並邀請他人加入。B 同時做到兩件事：指向第一項討論內容、用 we 邀請全組。沉默會浪費觀察時間，C 是 MCQ 式回答，D 並非小組討論的溝通策略。",
+   "tags": ["group interaction", "opening"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-002",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "組員講完「義工服務可以幫人」之後你接話。以下邊一句最能顯示你聆聽並推進？",
+   "options": [
+    "A. I agree. Volunteering is good.",
+    "B. Building on what you said, volunteering also helps us understand people from different backgrounds.",
+    "C. That is wrong.",
+    "D. Let's talk about something else."
+   ],
+   "answer": "B",
+   "explanation": "B 用 Building on… 明確引用前一位同學，然後加入新角度，同時顯示聆聽、連繫與推進。A 只是附和冇新增；C 打斷式否定影響互動；D 轉題等於放棄現有討論。",
+   "tags": ["building on", "turn-taking"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-003",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "討論中出現沉默，最適當的做法是？",
+   "options": [
+    "A. 一直等到有人開口",
+    "B. 主動提供新角度，或點名邀請組員發表，例如 “What do you think, Kelly?”",
+    "C. 重複自己上一句",
+    "D. 提高聲量繼續講"
+   ],
+   "answer": "B",
+   "explanation": "交波（turn-giving）是小組討論的核心技巧。提供新角度或邀請他人，可以讓討論重新運轉；沉默、重複或壟斷都會拉低整組的互動表現。",
+   "tags": ["turn-taking", "group interaction"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-004",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "討論即將結束，以下邊一句是最恰當的收尾？",
+   "options": [
+    "A. Okay, we have to stop now.",
+    "B. It seems we all agree that the scheme is useful, though we differ on who should pay for it.",
+    "C. I have nothing to add.",
+    "D. So, what is the answer?"
+   ],
+   "answer": "B",
+   "explanation": "收尾要總結共識與分歧，令整組的討論有結構感。A 只是程序句，C 是放棄發言，D 屬 MCQ 思維——小組討論唔存在單一標準答案。",
+   "tags": ["closing", "group interaction"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-005",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "卷四小組討論的準備時間與討論時間分別是？",
+   "options": [
+    "A. 準備 10 分鐘，討論約 8 分鐘（四人一組）",
+    "B. 準備 5 分鐘，討論 15 分鐘",
+    "C. 準備 20 分鐘，討論 20 分鐘",
+    "D. 冇準備時間，即場開始討論"
+   ],
+   "answer": "A",
+   "explanation": "根據考評局的評核框架，考生有 10 分鐘準備時間（可以寫筆記並在討論時參考），四人一組的討論約 8 分鐘，之後每人再獨立回應考官提問。",
+   "tags": ["paper structure", "speaking"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-006",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "個人回應環節，以下邊一種結構最實用？",
+   "options": [
+    "A. 只講一句立場，唔需要理由",
+    "B. 立場句 ＋ 兩個理由 ＋ 一個例子或讓步",
+    "C. 背一段事先寫好的 400 字短文",
+    "D. 連續講三個問題反問考官"
+   ],
+   "answer": "B",
+   "explanation": "個人回應約 30 至 45 秒最適中，結構包含立場、理由與例子或讓步，可以同時滿足內容、組織與語言的評分需求。背稿會因為題目即場才知而答非所問。",
+   "tags": ["individual response", "structure"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-007",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "以下邊種行為對小組討論最不利？",
+   "options": [
+    "A. 回應組員的意見並補充",
+    "B. 由頭到尾自己講足全場，唔讓其他人發言",
+    "C. 望住組員聽他們說話",
+    "D. 主動提出一個新角度"
+   ],
+   "answer": "B",
+   "explanation": "小組討論評分觀察的是互動。壟斷發言會令其他組員無法發揮，整組的互動分與個人分同時受損。適度發言、主動交波才是最有效的策略。",
+   "tags": ["group interaction", "traps"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-008",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "討論期間全程低頭看筆記，會影響邊方面的評分？",
+   "options": [
+    "A. 唔會影響，筆記寫得越詳細越好",
+    "B. 眼神接觸與溝通表現，屬評分觀察項目之一",
+    "C. 只影響發音",
+    "D. 只影響語法準確度"
+   ],
+   "answer": "B",
+   "explanation": "評核框架列明考生要運用適當的語速、聲量、語調、眼神接觸與手勢支持溝通。筆記是輔助工具，用來瞄一眼而非全程照讀。",
+   "tags": ["eye contact", "communication"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-009",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "回應完畢後加一句 “Sorry, my English is not good.” 會有什麼後果？",
+   "options": [
+    "A. 顯示謙虛，會加分",
+    "B. 唔會加分，只會拉低整體印象",
+    "C. 會令考官重新評分",
+    "D. 可以爭取更多發言時間"
+   ],
+   "answer": "B",
+   "explanation": "自我貶抑唔是評分項目，反而會令考官對你的整體表現留下較弱印象。回應完畢直接停下即可，把注意力放在內容與清晰度上。",
+   "tags": ["individual response", "traps"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-010",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "個人回應講得太快（例如 15 秒講完三個理由），主要風險是？",
+   "options": [
+    "A. 內容太少，發展不足",
+    "B. 咬字與重音變差，影響發音清晰度",
+    "C. 考官會以為你未準備",
+    "D. 以上 A 與 B 皆是"
+   ],
+   "answer": "D",
+   "explanation": "語速過快同時損害兩邊：一、內容未及發展，理由只是一句帶過；二、咬字與重音含糊，發音清晰度下降。適中語速（約 30 至 45 秒）可以兩邊兼顧。",
+   "tags": ["pace", "pronunciation"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-001",
+   "topic": "grammar-core-1",
+   "difficulty": "easy",
+   "question": "Last summer I ______ a volunteer programme in Sai Kung.",
+   "options": [
+    "A. join",
+    "B. joined",
+    "C. have joined",
+    "D. had joined"
+   ],
+   "answer": "B",
+   "explanation": "Last summer 是已結束的過去時間標記，必須配過去式。現在完成式（have joined）唔可以與已結束的過去時間同用；had joined 需要另一個更早的過去事件作對照。",
+   "tags": ["tenses", "time marker"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-002",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "By the time we arrived at the cinema, the film ______.",
+   "options": [
+    "A. started",
+    "B. has started",
+    "C. had started",
+    "D. starts"
+   ],
+   "answer": "C",
+   "explanation": "「電影已開始」比「我們到達」更早，屬過去的過去，要用過去完成式 had started。用 started 會暗示兩件事同時發生，唔符合句意。",
+   "tags": ["past perfect", "sequence"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-003",
+   "topic": "grammar-core-1",
+   "difficulty": "easy",
+   "question": "I ______ in this neighbourhood for ten years, and I still like it here.",
+   "options": [
+    "A. live",
+    "B. lived",
+    "C. have lived",
+    "D. had lived"
+   ],
+   "answer": "C",
+   "explanation": "由過去持續到現在（still like it here）的狀態用現在完成式 have lived，for ten years 是持續時間。lived 會表示已經唔再住；had lived 需要一個更早的參照時間。",
+   "tags": ["present perfect", "for"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-004",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "She ______ all morning, so she looks tired now.",
+   "options": [
+    "A. revises",
+    "B. revised",
+    "C. has been revising",
+    "D. had revised"
+   ],
+   "answer": "C",
+   "explanation": "強調動作由過去持續到現在、可能仍未完成，用現在完成進行式 has been revising。句中 so she looks tired now 是「影響現在」的線索。",
+   "tags": ["present perfect continuous", "tenses"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-005",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "Which sentence is grammatically correct?",
+   "options": [
+    "A. The report finished by the committee yesterday.",
+    "B. The report was finished by the committee yesterday.",
+    "C. The report is finish by the committee yesterday.",
+    "D. The report finished by committee yesterday."
+   ],
+   "answer": "B",
+   "explanation": "被動語態是 be + p.p.：was finished。A 漏 be 動詞（finish 亦冇過去分詞），C be 動詞形式錯，D 既漏 be 動詞亦漏冠詞。被動語態漏 be 是最常見的結構錯。",
+   "tags": ["passive voice", "tenses"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-006",
+   "topic": "grammar-core-1",
+   "difficulty": "easy",
+   "question": "If it ______ tomorrow, we will cancel the hiking trip.",
+   "options": [
+    "A. rains",
+    "B. will rain",
+    "C. rained",
+    "D. would rain"
+   ],
+   "answer": "A",
+   "explanation": "第一類條件句表示真實可能的未來：從句用現在式，主句用 will。條件句的從句唔用 will，所以 If it will rain 是典型錯誤。",
+   "tags": ["first conditional", "conditionals"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-007",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "If I ______ you, I would apply for the exchange programme.",
+   "options": [
+    "A. am",
+    "B. was",
+    "C. were",
+    "D. will be"
+   ],
+   "answer": "C",
+   "explanation": "第二類條件句（與現在事實相反的假設）的 be 動詞傳統上用 were，即使主語是 I。主句用 would apply，與從句的過去式配套。",
+   "tags": ["second conditional", "subjunctive"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-008",
+   "topic": "grammar-core-1",
+   "difficulty": "hard",
+   "question": "If I had studied harder, I ______ the examination.",
+   "options": [
+    "A. will pass",
+    "B. would pass",
+    "C. would have passed",
+    "D. had passed"
+   ],
+   "answer": "C",
+   "explanation": "第三類條件句表示與過去事實相反：從句 If + had + p.p.，主句 would have + p.p.。用 would pass 會變成與現在相反的假設，時間層次唔對。",
+   "tags": ["third conditional", "conditionals"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-009",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "Which sentence is incorrect?",
+   "options": [
+    "A. The accident happened at midnight.",
+    "B. The accident was occurred at midnight.",
+    "C. The bridge was repaired last year.",
+    "D. The results have been announced."
+   ],
+   "answer": "B",
+   "explanation": "happen、occur、rise、arrive 屬不及物動詞，冇被動語態。B 的 was occurred 是錯的，應寫 The accident occurred at midnight. 這種「不及物動詞用被動」是常見錯誤。",
+   "tags": ["passive voice", "intransitive"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-010",
+   "topic": "grammar-core-1",
+   "difficulty": "easy",
+   "question": "I have known him ______ 2019.",
+   "options": [
+    "A. for",
+    "B. since",
+    "C. from",
+    "D. during"
+   ],
+   "answer": "B",
+   "explanation": "since 接時間點（since 2019、since last June），for 接時間長度（for six years）。2019 是時間點，所以用 since，配現在完成式 have known。",
+   "tags": ["since for", "present perfect"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-001",
+   "topic": "grammar-core-2",
+   "difficulty": "medium",
+   "question": "The list of items ______ still on the teacher's desk.",
+   "options": [
+    "A. is",
+    "B. are",
+    "C. were",
+    "D. have been"
+   ],
+   "answer": "A",
+   "explanation": "真正的主語是 The list（單數），of items 只是修飾語。主謂一致要看主語核心字，唔可以被插入語騙到。",
+   "tags": ["subject-verb agreement"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-002",
+   "topic": "grammar-core-2",
+   "difficulty": "easy",
+   "question": "Every student in the form ______ required to submit the form.",
+   "options": [
+    "A. are",
+    "B. is",
+    "C. were",
+    "D. have been"
+   ],
+   "answer": "B",
+   "explanation": "every + 單數名詞（every student）配單數動詞 is。everyone、each、neither 這一類詞通常配單數動詞，是主謂一致的高頻考點。",
+   "tags": ["subject-verb agreement", "every"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-003",
+   "topic": "grammar-core-2",
+   "difficulty": "hard",
+   "question": "Neither the teacher nor the students ______ informed about the change.",
+   "options": [
+    "A. was",
+    "B. were",
+    "C. has been",
+    "D. is"
+   ],
+   "answer": "B",
+   "explanation": "neither…nor 的原則是動詞跟最近的主語：the students 是複數，所以用 were。若改成 Neither the students nor the teacher，就要用單數 was。",
+   "tags": ["subject-verb agreement", "neither nor"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-004",
+   "topic": "grammar-core-2",
+   "difficulty": "medium",
+   "question": "Which sentence is correct?",
+   "options": [
+    "A. Please give me some informations about the course.",
+    "B. Please give me an information about the course.",
+    "C. Please give me some information about the course.",
+    "D. Please give me informations about the course."
+   ],
+   "answer": "C",
+   "explanation": "information 是不可數名詞，唔可以加 s 亦唔可以配 a / an。同類的還有 advice、equipment、furniture、research。這類錯在作文中很常見。",
+   "tags": ["uncountable noun", "articles"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-005",
+   "topic": "grammar-core-2",
+   "difficulty": "medium",
+   "question": "Which sentence uses articles correctly?",
+   "options": [
+    "A. The education is important for everyone.",
+    "B. Education is important for everyone.",
+    "C. An education is important for everyone.",
+    "D. The educations are important for everyone."
+   ],
+   "answer": "B",
+   "explanation": "抽象名詞在泛指情況唔加冠詞：Education is important。A 屬濫用 the，C 會指某一次特定的教育經驗，D 既加冠詞又誤用複數。",
+   "tags": ["articles", "abstract noun"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-006",
+   "topic": "grammar-core-2",
+   "difficulty": "easy",
+   "question": "She is very interested ______ marine biology.",
+   "options": [
+    "A. on",
+    "B. in",
+    "C. at",
+    "D. for"
+   ],
+   "answer": "B",
+   "explanation": "interested in 是固定搭配。介詞要靠搭配記憶，唔可以直譯中文的「對…有興趣」而寫 interested on。常見搭配還有 good at、depend on、responsible for。",
+   "tags": ["preposition", "collocation"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-007",
+   "topic": "grammar-core-2",
+   "difficulty": "medium",
+   "question": "Which is the best way to correct: “The trip was cancelled, we stayed home.”?",
+   "options": [
+    "A. The trip was cancelled we stayed home.",
+    "B. The trip was cancelled; we stayed home.",
+    "C. The trip was cancelled, and but we stayed home.",
+    "D. The trip was cancelled. We stayed home, however we were sad."
+   ],
+   "answer": "B",
+   "explanation": "B 用分號正確分隔兩個完整句子，是修正 comma splice 的標準做法。A 直接連寫更錯，C 連接詞重複，D 又把 however 當連接詞（however 是副詞，前面應加分號或句號）。",
+   "tags": ["comma splice", "punctuation"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-008",
+   "topic": "grammar-core-2",
+   "difficulty": "medium",
+   "question": "Which of these is a sentence fragment?",
+   "options": [
+    "A. Because the weather was bad.",
+    "B. The weather was bad.",
+    "C. Because the weather was bad, the match was postponed.",
+    "D. The match was postponed because of the weather."
+   ],
+   "answer": "A",
+   "explanation": "A 只有從屬子句，缺少主要子句，屬 fragment。加上主句（如 C）或用 B 的完整句才成立。寫作時唔應該讓 because、although、when 開頭的從屬子句獨立成句。",
+   "tags": ["fragment", "sentence structure"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-009",
+   "topic": "grammar-core-2",
+   "difficulty": "hard",
+   "question": "Which sentence is correct?",
+   "options": [
+    "A. My uncle, that lives in Macau, is visiting us.",
+    "B. My uncle that lives in Macau is visiting us, who is a doctor.",
+    "C. My uncle, who lives in Macau, is visiting us.",
+    "D. My uncle who lives in Macau, is visiting us."
+   ],
+   "answer": "C",
+   "explanation": "non-defining 關係子句要用逗號隔開，而且唔可以用 that 引導。A 用 that 錯，B 把關係子句錯掛在 us，D 的逗號位置造成主謂被錯誤分隔。",
+   "tags": ["relative clause", "non-defining"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM2-010",
+   "topic": "grammar-core-2",
+   "difficulty": "hard",
+   "question": "Which sentence has a dangling modifier?",
+   "options": [
+    "A. Walking home from school, I saw a rare bird.",
+    "B. Walking home from school, the rain started.",
+    "C. Held last week, the exhibition attracted thousands.",
+    "D. Built in 1997, the bridge is now closed."
+   ],
+   "answer": "B",
+   "explanation": "Walking home 的隱含主語必須是人，但主句主語是 the rain，兩者不一致，形成 dangling modifier。A、C、D 的分詞片語主語都與主句主語一致，所以正確。",
+   "tags": ["dangling modifier", "participle"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-001",
+   "topic": "vocabulary",
+   "difficulty": "easy",
+   "question": "Which collocation is correct?",
+   "options": [
+    "A. make homework",
+    "B. do homework",
+    "C. take homework",
+    "D. give homework"
+   ],
+   "answer": "B",
+   "explanation": "固定搭配是 do homework（做功課）。同類易錯的還有 make a decision（唔係 do a decision）、make a suggestion、achieve a goal。搭配冇通則，要按組合記憶。",
+   "tags": ["collocation", "verb-noun"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-002",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "「我們需要盡快作出決定。」最自然的英文是？",
+   "options": [
+    "A. We need to do a decision as soon as possible.",
+    "B. We need to make a decision as soon as possible.",
+    "C. We need to take a decision as soon as possible.",
+    "D. We need to give a decision as soon as possible."
+   ],
+   "answer": "B",
+   "explanation": "make a decision 是最通用的搭配。take a decision 屬英式較窄用法，do a decision 與 give a decision 唔自然。考試時應選最常見、最有信心的組合。",
+   "tags": ["collocation", "decision"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-003",
+   "topic": "vocabulary",
+   "difficulty": "easy",
+   "question": "「Please open the light.」應改為？",
+   "options": [
+    "A. Please open up the light.",
+    "B. Please turn on the light.",
+    "C. Please switch the light.",
+    "D. Please start the light."
+   ],
+   "answer": "B",
+   "explanation": "中文「開燈」直譯成 open the light 是典型港式英文。正確搭配是 turn on the light / switch on the light，關燈則是 turn off。",
+   "tags": ["Chinglish", "collocation"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-004",
+   "topic": "vocabulary",
+   "difficulty": "easy",
+   "question": "「I very like this song.」應改為？",
+   "options": [
+    "A. I very much like this song.",
+    "B. I like this song very much.",
+    "C. I am very like this song.",
+    "D. I like very this song."
+   ],
+   "answer": "B",
+   "explanation": "very 唔可以直接修飾動詞，唔可以放在 like 前面。最自然是把 very much 放在句尾：I like this song very much。這是中英句式差異造成的常見錯。",
+   "tags": ["Chinglish", "adverb position"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-005",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "「Please reply me as soon as possible.」應改為？",
+   "options": [
+    "A. Please reply to me as soon as possible.",
+    "B. Please reply back me as soon as possible.",
+    "C. Please reply with me as soon as possible.",
+    "D. Please reply for me as soon as possible."
+   ],
+   "answer": "A",
+   "explanation": "reply 作「回覆某人」時要加 to：reply to me。respond 亦同樣加 to。reply back 雖然口語常見，但在正式寫作中屬冗餘，唔宜使用。",
+   "tags": ["Chinglish", "preposition"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-006",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "「According to my opinion…」的修正方式是？",
+   "options": [
+    "A. According to me opinion…",
+    "B. In my opinion…",
+    "C. According to my point of view…",
+    "D. On my opinion…"
+   ],
+   "answer": "B",
+   "explanation": "according to 後面接的應該是外部資料來源（according to the report），唔可以接 my opinion。表達個人立場用 In my opinion 或 From my point of view。",
+   "tags": ["collocation", "opinion"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-007",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "「The campaign was a great ______.」填入哪個詞正確？",
+   "options": [
+    "A. succeed",
+    "B. success",
+    "C. successful",
+    "D. successfully"
+   ],
+   "answer": "B",
+   "explanation": "a great 後面要接名詞：success。succeed 是動詞、successful 是形容詞、successfully 是副詞。詞形錯（word form）是寫作準確度的高頻失分位。",
+   "tags": ["word form", "noun"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-008",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "“Cutting down on single-use plastic is the simplest way to reduce our carbon footprint.” 句中 carbon footprint 指？",
+   "options": [
+    "A. 腳印的形狀",
+    "B. 個人或活動造成的碳排放總量",
+    "C. 郊野公園的步道",
+    "D. 腳部受傷的風險"
+   ],
+   "answer": "B",
+   "explanation": "carbon footprint 是環保主題的核心詞，指個人、機構或活動所產生的溫室氣體總量。同一主題的常用詞還有 renewable energy、waste reduction、eco-friendly。",
+   "tags": ["topic vocabulary", "environment"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-009",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "“A sedentary lifestyle increases the risk of health problems.” 句中 sedentary 的意思最接近？",
+   "options": [
+    "A. 經常運動的",
+    "B. 久坐少動的",
+    "C. 飲食不均衡的",
+    "D. 夜睡的"
+   ],
+   "answer": "B",
+   "explanation": "sedentary lifestyle 指久坐少動的生活方式，是健康主題的高頻詞。寫建議時可配 cutting down screen time、daily exercise、standing breaks 等說法。",
+   "tags": ["topic vocabulary", "health"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-010",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "「It is important for the society.」泛指社會時應改為？",
+   "options": [
+    "A. It is important for the societies.",
+    "B. It is important for society.",
+    "C. It is important for a society.",
+    "D. It is important for the Society of Hong Kong."
+   ],
+   "answer": "B",
+   "explanation": "泛指整體社會時，society 前唔加冠詞；加 the 通常指特定組織或已提及的社會。同類情況還有 the education、the pollution 這些濫用冠詞的寫法。",
+   "tags": ["articles", "abstract noun"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-001",
+   "topic": "exam-workflow",
+   "difficulty": "easy",
+   "question": "英文科四卷在公開考試中所佔比重，由高至低正確排序是？",
+   "options": [
+    "A. 卷三 30% ＞ 卷二 25% ＞ 卷一 20% ＞ 卷四 10%",
+    "B. 卷一 30% ＞ 卷二 25% ＞ 卷三 20% ＞ 卷四 10%",
+    "C. 卷二 30% ＞ 卷三 25% ＞ 卷一 20% ＞ 卷四 10%",
+    "D. 四卷各佔 25%"
+   ],
+   "answer": "A",
+   "explanation": "根據考評局的評核框架：卷三 Listening & Integrated Skills 佔 30%，卷二 Writing 佔 25%，卷一 Reading 佔 20%，卷四 Speaking 佔 10%（四卷合共 85%，其餘 15% 為校本評核）。",
+   "tags": ["paper structure", "weighting"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-002",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "如果目標是 Level 5 或以上，卷一應該點安排？",
+   "options": [
+    "A. 做 Part A 加 B1，穩陣取分",
+    "B. 做 Part A 加 B2，避免被 Level 4 封頂",
+    "C. 只做 Part B2",
+    "D. 兩邊都做，取較高分的一邊"
+   ],
+   "answer": "B",
+   "explanation": "做 Part B1 的考生最高只可達 Level 4。想取 Level 5 或以上就必須做 B2。考生唔可以兩邊都做或取較高分者，選卷在開考時就要決定。",
+   "tags": ["B1 B2", "strategy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-003",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "卷一閱讀的考試時間是？",
+   "options": [
+    "A. 1 小時",
+    "B. 1 小時 30 分鐘",
+    "C. 2 小時",
+    "D. 約 2 小時 30 分鐘"
+   ],
+   "answer": "B",
+   "explanation": "卷一 Reading 為 1 小時 30 分鐘，佔 20%，Part A 與 Part B 各佔 10%。卷二 Writing 是 2 小時，卷三約 2 小時，卷四約 20 分鐘。",
+   "tags": ["paper structure", "duration"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-004",
+   "topic": "exam-workflow",
+   "difficulty": "easy",
+   "question": "卷二 Part A 的題目形式是？",
+   "options": [
+    "A. 完全開放，冇任何提示",
+    "B. 引導式短題目，提供處境、目的與部分資料，約 200 字",
+    "C. 一篇 400 字的議論文的題目",
+    "D. 只要求填寫表格"
+   ],
+   "answer": "B",
+   "explanation": "Part A 是 short guided task（約 200 字，佔 10%），提供處境、寫作目的與相關資料；Part B 才是較開放式的長題目（約 400 字，四選一，佔 15%）。",
+   "tags": ["Paper 2", "task type"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-005",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "「診斷式」使用 Past Paper 的意思是？",
+   "options": [
+    "A. 只看分數，分數上升就繼續做新卷",
+    "B. 逐題標記錯因（詞彙、定位、答題格式、時間），再針對性練習",
+    "C. 把所有答案背下來",
+    "D. 只做最淺的年份"
+   ],
+   "answer": "B",
+   "explanation": "診斷式做法把「唔知點解錯」變成「知道要改什麼」：先標記錯因，再集中練同一類錯，兩星期後重測確認改善。只計分數會令同一類錯重複出現。",
+   "tags": ["diagnostic marking", "study plan"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-006",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "同一份試卷做三次，比做三份新卷更有用的原因是？",
+   "options": [
+    "A. 因為舊卷比較容易",
+    "B. 因為重做能暴露你固定重複的錯誤，也方便比較改善",
+    "C. 因為新卷冇參考答案",
+    "D. 因為做卷次數比分數重要"
+   ],
+   "answer": "B",
+   "explanation": "重做同一份卷時，你已經知道文章內容，所以錯的一定是技巧問題（定位、答題格式、時間），唔會再被「睇唔明文章」掩蓋。這樣才能確認練習是否有效。",
+   "tags": ["study plan", "practice"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-007",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "卷一自覺表現差，第二日要考卷二。最合理的處理是？",
+   "options": [
+    "A. 當晚重做卷一並反覆對答案",
+    "B. 當晚改為準備卷二的提綱與檢查清單，唔再糾結卷一",
+    "C. 放棄卷二，專心準備下一次考試",
+    "D. 通宵背生字"
+   ],
+   "answer": "B",
+   "explanation": "四卷獨立計分，卷一的表現唔會改變卷二的分數。把當晚的時間用在可控制的準備（提綱、錯處清單）比反覆檢討已完成的卷更有效。",
+   "tags": ["exam strategy", "mindset"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-008",
+   "topic": "exam-workflow",
+   "difficulty": "easy",
+   "question": "卷二寫作完成後，最後幾分鐘最應該用來做什麼？",
+   "options": [
+    "A. 重寫引言，令開頭更有文采",
+    "B. 檢查時態、介詞、冠詞與連接詞這幾類小錯",
+    "C. 增加一段新內容",
+    "D. 逐字抄一次全文"
+   ],
+   "answer": "B",
+   "explanation": "準確度評分受這些零碎錯誤影響最大，而且它們分散在全文，需要專門一輪檢查才捉得到。最後幾分鐘重寫引言或加新段落風險高、回報低。",
+   "tags": ["checking", "accuracy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-009",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "卷三你漏答了一題聆聽題目。最合理的處理是？",
+   "options": [
+    "A. 停下來回想那題的答案",
+    "B. 繼續跟住錄音做後面的題目，最後有時間才回頭補",
+    "C. 放棄整份卷的該部分",
+    "D. 向監考員要求重播錄音"
+   ],
+   "answer": "B",
+   "explanation": "漏一題只損失一到兩分，但慌亂會連累整部分。錄音唔會重播，所以唯一有效的做法是保持跟進後面題目，最後有剩餘時間才回頭補。",
+   "tags": ["listening", "strategy"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-010",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "考前四至六星期的整合階段，最應該做的練習是？",
+   "options": [
+    "A. 只做單項技巧練習，唔做完整卷",
+    "B. 每星期一份完整限時卷，練時間分配與狀態切換，做完即日核對",
+    "C. 集中背誦詞彙表",
+    "D. 只做最深的年份試題"
+   ],
+   "answer": "B",
+   "explanation": "整合階段的目標是把技巧在真實時間限制下串連起來，所以需要完整限時卷來練節奏與狀態切換。單項練習留給較早的針對性階段。",
+   "tags": ["study plan", "timed practice"],
+   "subject": "english"
+  }
+ ]
+}
