@@ -43,15 +43,15 @@ export default function VideoLibrary({ videos, subjects, topics }: Props) {
   const chip = (active: boolean) =>
     `rounded-full border px-3 py-1.5 text-xs font-medium transition ${
       active
-        ? "border-cyan-400/60 bg-cyan-400/15 text-cyan-200"
-        : "border-white/10 bg-zinc-900/60 text-zinc-400 hover:border-white/25 hover:text-zinc-200"
+        ? "border-blue-700/60 bg-blue-700/15 text-blue-700"
+        : "border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-slate-800"
     }`;
 
   return (
     <div>
-      <div className="rounded-2xl border border-white/10 bg-zinc-900/60 p-4 sm:p-5">
+      <div className="rounded-2xl border border-slate-200 bg-white p-4 sm:p-5">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="mr-1 text-xs font-semibold text-zinc-500">科目</span>
+          <span className="mr-1 text-xs font-semibold text-slate-500">科目</span>
           <button type="button" className={chip(subject === "all")} onClick={() => { setSubject("all"); setTopic("all"); }}>
             全部（{videos.length}）
           </button>
@@ -68,7 +68,7 @@ export default function VideoLibrary({ videos, subjects, topics }: Props) {
         </div>
 
         <div className="mt-4 flex flex-wrap items-center gap-2">
-          <span className="mr-1 text-xs font-semibold text-zinc-500">課題</span>
+          <span className="mr-1 text-xs font-semibold text-slate-500">課題</span>
           <button type="button" className={chip(topic === "all")} onClick={() => setTopic("all")}>
             全部課題
           </button>
@@ -89,11 +89,11 @@ export default function VideoLibrary({ videos, subjects, topics }: Props) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="搜尋課題、頻道或關鍵字（例如：範文、Paper 2、貨幣）"
-            className="w-full rounded-xl border border-white/10 bg-zinc-950/60 px-4 py-2.5 text-sm text-zinc-100 placeholder:text-zinc-600 focus:border-cyan-400/60 focus:outline-none"
+            className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-500 focus:border-blue-700/60 focus:outline-none"
           />
         </div>
 
-        <p className="mt-3 text-xs text-zinc-500">
+        <p className="mt-3 text-xs text-slate-500">
           顯示 {filtered.length} / {videos.length} 條影片
         </p>
       </div>
@@ -102,33 +102,33 @@ export default function VideoLibrary({ videos, subjects, topics }: Props) {
         {filtered.map((v) => (
           <article
             key={v.id}
-            className="flex flex-col rounded-2xl border border-white/10 bg-zinc-900/60 p-5 transition hover:border-cyan-400/30"
+            className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-blue-700/30"
           >
             <div className="flex flex-wrap items-center gap-2 text-xs">
               <Link
                 href={`/dse/videos/${v.subject}`}
-                className="rounded-full bg-cyan-400/10 px-2.5 py-1 font-medium text-cyan-300 hover:bg-cyan-400/20"
+                className="rounded-full bg-blue-700/10 px-2.5 py-1 font-medium text-blue-600 hover:bg-blue-700/20"
               >
                 {v.subjectName}
               </Link>
               {v.topics.map((t) => (
-                <span key={t} className="rounded-full bg-white/5 px-2.5 py-1 text-zinc-400">
+                <span key={t} className="rounded-full bg-slate-100 px-2.5 py-1 text-slate-600">
                   {t}
                 </span>
               ))}
             </div>
-            <h3 className="mt-3 text-base font-semibold leading-snug text-zinc-100">{v.title}</h3>
-            <p className="mt-1 text-xs text-zinc-500">
+            <h3 className="mt-3 text-base font-semibold leading-snug text-slate-900">{v.title}</h3>
+            <p className="mt-1 text-xs text-slate-500">
               {v.channel} · {v.duration}
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-zinc-400">{v.summary}</p>
-            <p className="mt-3 text-xs leading-relaxed text-zinc-500">
-              <span className="font-semibold text-zinc-400">溫習階段：</span>
+            <p className="mt-3 text-sm leading-relaxed text-slate-600">{v.summary}</p>
+            <p className="mt-3 text-xs leading-relaxed text-slate-500">
+              <span className="font-semibold text-slate-600">溫習階段：</span>
               {v.studyStage}
             </p>
             <Link
               href={`/dse/videos/${v.subject}#${v.id}`}
-              className="mt-4 inline-block text-xs font-semibold text-cyan-300 hover:text-cyan-200"
+              className="mt-4 inline-block text-xs font-semibold text-blue-600 hover:text-blue-700"
             >
               睇摘要、重點筆記同分析 →
             </Link>
@@ -137,7 +137,7 @@ export default function VideoLibrary({ videos, subjects, topics }: Props) {
       </div>
 
       {filtered.length === 0 && (
-        <p className="mt-8 rounded-2xl border border-white/10 bg-zinc-900/60 p-8 text-center text-sm text-zinc-400">
+        <p className="mt-8 rounded-2xl border border-slate-200 bg-white p-8 text-center text-sm text-slate-600">
           呢個組合暫時未有片。試下換科目或者清除關鍵字。
         </p>
       )}

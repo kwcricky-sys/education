@@ -39,15 +39,15 @@ export default function DseChinesePage() {
       <div>
         <Link
           href="/dse"
-          className="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors duration-300 hover:text-cyan-400"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition-colors duration-300 hover:text-blue-700"
         >
           <ArrowLeft className="size-3.5" />
           科目總覽
         </Link>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
           中國語文 · 指定範文
         </h1>
-        <p className="mt-3 max-w-2xl text-base leading-relaxed text-zinc-400">
+        <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-600">
           以下 12
           篇指定文言經典均已開放極速閃卡練習（每篇 60
           題，基礎／中等／高階）。點選任一篇章即可開始刷題；或進入「範文 AI
@@ -57,20 +57,20 @@ export default function DseChinesePage() {
 
       <Link
         href="/dse/chinese/cat"
-        className="panel-lift flex items-center gap-4 rounded-xl border border-white/10 bg-zinc-900 px-5 py-5 shadow-lg transition-all duration-300 hover:border-cyan-500/40 hover:bg-zinc-800"
+        className="panel-lift flex items-center gap-4 rounded-xl border border-slate-200 bg-white px-5 py-5 shadow-lg transition-all duration-300 hover:border-blue-800/40 hover:bg-slate-200"
       >
-        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-cyan-400/10 text-cyan-400 ring-1 ring-cyan-400/20">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-blue-700/10 text-blue-700 ring-1 ring-blue-700/20">
           <Activity className="size-5" />
         </span>
         <span className="min-w-0 flex-1">
-          <span className="block font-semibold text-zinc-100">
+          <span className="block font-semibold text-slate-900">
             全港首創 · DSE 範文 AI 診斷室
           </span>
-          <span className="mt-1 block text-sm leading-relaxed text-zinc-400">
+          <span className="mt-1 block text-sm leading-relaxed text-slate-600">
             免刷 720 題 · 約 15 題動態適應出題 · 預測等級 + 弱點雷達報告
           </span>
         </span>
-        <ArrowRight className="size-4 shrink-0 text-cyan-400" />
+        <ArrowRight className="size-4 shrink-0 text-blue-700" />
       </Link>
 
       <ol className="space-y-2">
@@ -83,26 +83,26 @@ export default function DseChinesePage() {
             <li key={text.slug}>
               <Link
                 href={href}
-                className="flex items-center gap-4 rounded-xl border border-white/5 bg-zinc-900 p-5 shadow-lg transition-all duration-300 hover:border-white/10 hover:bg-zinc-800 sm:px-5"
+                className="flex items-center gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-lg transition-all duration-300 hover:border-slate-200 hover:bg-slate-200 sm:px-5"
               >
-                <span className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-white/10 bg-zinc-800 text-sm font-semibold tabular-nums text-zinc-400">
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-lg border border-slate-200 bg-slate-200 text-sm font-semibold tabular-nums text-slate-600">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex flex-wrap items-center gap-2">
-                    <span className="font-semibold text-zinc-100">
+                    <span className="font-semibold text-slate-900">
                       {text.title}
                     </span>
-                    <span className="text-xs text-zinc-500">{text.source}</span>
-                    <span className="rounded-md bg-cyan-400/10 px-2 py-1 text-[10px] font-semibold text-cyan-400">
+                    <span className="text-xs text-slate-500">{text.source}</span>
+                    <span className="rounded-md bg-blue-700/10 px-2 py-1 text-[10px] font-semibold text-blue-700">
                       {total} 題
                     </span>
                   </span>
-                  <span className="mt-1 block text-sm leading-relaxed text-zinc-400">
+                  <span className="mt-1 block text-sm leading-relaxed text-slate-600">
                     {text.blurb}
                   </span>
                 </span>
-                <ArrowRight className="size-4 shrink-0 text-zinc-500" />
+                <ArrowRight className="size-4 shrink-0 text-slate-500" />
               </Link>
             </li>
           );

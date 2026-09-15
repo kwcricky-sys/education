@@ -101,12 +101,12 @@ export default async function ChineseTextPracticePage({ params }: Props) {
       <div>
         <Link
           href="/dse/chinese"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-sky-300"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-sky-700"
         >
           <ArrowLeft className="size-3.5" />
           指定範文列表
         </Link>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-white sm:text-3xl">
+        <h1 className="mt-3 font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
           {text.source}
           {text.title}
         </h1>
@@ -118,9 +118,9 @@ export default async function ChineseTextPracticePage({ params }: Props) {
 
       <FlashcardStudyHub questions={quiz.questions} />
 
-      <article className="space-y-10 border-t border-white/10 pt-12 text-base leading-relaxed text-slate-400">
+      <article className="space-y-10 border-t border-slate-200 pt-12 text-base leading-relaxed text-slate-600">
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold text-white">
+          <h2 className="text-xl font-semibold text-slate-900">
             {text.shortName}：三階閃卡怎麼練？
           </h2>
           <p>
@@ -134,17 +134,17 @@ export default async function ChineseTextPracticePage({ params }: Props) {
         </section>
 
         <section className="space-y-4">
-          <h2 className="text-xl font-semibold text-white">常見問題 FAQ</h2>
+          <h2 className="text-xl font-semibold text-slate-900">常見問題 FAQ</h2>
           <div className="space-y-3">
             {faqs.map((faq) => (
               <div
                 key={faq.question}
-                className="rounded-2xl border border-white/8 bg-white/[0.03] p-5"
+                className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
               >
-                <h3 className="text-base font-semibold text-white">
+                <h3 className="text-base font-semibold text-slate-900">
                   {faq.question}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">
+                <p className="mt-2 text-sm leading-relaxed text-slate-600">
                   {faq.answer}
                 </p>
               </div>

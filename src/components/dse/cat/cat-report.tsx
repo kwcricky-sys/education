@@ -58,7 +58,7 @@ export function CatReport() {
 
   if (!report || !precision) {
     return (
-      <p className="text-center text-sm text-zinc-400">尚無報告資料。</p>
+      <p className="text-center text-sm text-slate-600">尚無報告資料。</p>
     );
   }
 
@@ -112,13 +112,13 @@ export function CatReport() {
   return (
     <div className="space-y-8">
       <div>
-        <p className="text-xs font-semibold tracking-[0.18em] text-cyan-400">
+        <p className="text-xs font-semibold tracking-[0.18em] text-blue-700">
           診斷完成
         </p>
-        <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-4xl">
+        <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
           診斷報告
         </h1>
-        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">
+        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600">
           {report.predictedGrade.rationale}
         </p>
       </div>
@@ -128,7 +128,7 @@ export function CatReport() {
           label="預估等級"
           value={report.predictedGrade.label}
           hint={`精準度 ${precision.label} · ${precision.percent}%`}
-          icon={<Target className="size-4 text-cyan-400" />}
+          icon={<Target className="size-4 text-blue-700" />}
           accent
         />
         <MiniStat
@@ -139,23 +139,23 @@ export function CatReport() {
               ? `${report.scopeLabels.length} 篇範文`
               : (report.scopeLabels[0] ?? "—")
           }
-          icon={<Clock3 className="size-4 text-zinc-400" />}
+          icon={<Clock3 className="size-4 text-slate-600" />}
         />
         <MiniStat
           label="正確率"
           value={`${accuracyPct}%`}
           hint={`答對 ${correct}/${report.questionCount} 題`}
-          icon={<Sparkles className="size-4 text-cyan-400" />}
+          icon={<Sparkles className="size-4 text-blue-700" />}
           progress={accuracyPct}
         />
       </section>
 
-      <section className="rounded-xl border border-white/10 bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md sm:p-5">
+      <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-lg backdrop-blur-md sm:p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <p className="text-sm font-semibold text-zinc-100">
+            <p className="text-sm font-semibold text-slate-900">
               診斷精準度：{precision.label}
-              <span className="ml-2 font-normal text-zinc-400">
+              <span className="ml-2 font-normal text-slate-600">
                 ({precision.percent}%)
               </span>
             </p>
@@ -167,11 +167,11 @@ export function CatReport() {
                     "h-1.5 w-5 rounded-full",
                     i < precision.dots
                       ? precision.tone === "high"
-                        ? "bg-emerald-400"
+                        ? "bg-emerald-700"
                         : precision.tone === "mid"
-                          ? "bg-amber-400"
-                          : "bg-rose-400"
-                      : "bg-zinc-800",
+                          ? "bg-amber-700"
+                          : "bg-rose-700"
+                      : "bg-slate-200",
                   )}
                 />
               ))}
@@ -180,14 +180,14 @@ export function CatReport() {
           <button
             type="button"
             onClick={() => setShowPrecisionTip((v) => !v)}
-            className="inline-flex items-center gap-1.5 self-start rounded-full border border-white/10 bg-zinc-950/50 px-3 py-1.5 text-xs font-medium text-zinc-400 transition-all duration-300 hover:bg-zinc-800 sm:self-center"
+            className="inline-flex items-center gap-1.5 self-start rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition-all duration-300 hover:bg-slate-200 sm:self-center"
           >
             <Info className="size-3.5" />
             這是什麼？
           </button>
         </div>
         {showPrecisionTip ? (
-          <p className="mt-3 rounded-xl border border-cyan-500/30 bg-cyan-400/10 px-4 py-3 text-xs leading-relaxed text-cyan-300">
+          <p className="mt-3 rounded-xl border border-blue-800/30 bg-blue-700/10 px-4 py-3 text-xs leading-relaxed text-blue-600">
             系統依據你完成的{" "}
             <span className="font-semibold">{report.questionCount} 條</span>{" "}
             自適應題目動態推算。答題越多、涵蓋難度越廣，預測越精準；疑似瞎猜題會略為降低精準度。
@@ -198,7 +198,7 @@ export function CatReport() {
       {/* Section A — Article mastery */}
       <section className="space-y-4">
         <Header
-          icon={<BookOpen className="size-4 text-teal-400" />}
+          icon={<BookOpen className="size-4 text-teal-700" />}
           title="範文熟悉度"
           subtitle="哪一篇需要重溫？依篇章正確率排序"
         />
@@ -212,21 +212,21 @@ export function CatReport() {
                 <article
                   key={article.textSlug}
                   className={cn(
-                    "rounded-2xl border bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md transition-all duration-300",
+                    "rounded-2xl border bg-white p-4 shadow-lg backdrop-blur-md transition-all duration-300",
                     toneBorder(m.tone),
                   )}
                 >
                   <div className="flex items-start justify-between gap-2">
-                    <h3 className="text-sm font-semibold text-zinc-100">
+                    <h3 className="text-sm font-semibold text-slate-900">
                       {shortArticleTitle(article.textLabel)}
                     </h3>
                     <StatusPill tone={m.tone} label={m.statusLabel} />
                   </div>
                   <div className="mt-3 flex items-end justify-between">
-                    <p className="text-2xl font-bold tabular-nums text-zinc-100">
+                    <p className="text-2xl font-bold tabular-nums text-slate-900">
                       {m.percent}%
                     </p>
-                    <p className="text-xs text-zinc-400">
+                    <p className="text-xs text-slate-600">
                       答對 {article.correct}/{article.total} 題
                     </p>
                   </div>
@@ -241,7 +241,7 @@ export function CatReport() {
       {/* Section B — Core skills */}
       <section className="space-y-4">
         <Header
-          icon={<Target className="size-4 text-cyan-400" />}
+          icon={<Target className="size-4 text-blue-700" />}
           title="考評技能破綻"
           subtitle="四大核心技能 · 一眼看出要練什麼題型"
         />
@@ -252,26 +252,26 @@ export function CatReport() {
               <div
                 key={skill.skillId}
                 className={cn(
-                  "rounded-2xl border bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md transition-all duration-300",
+                  "rounded-2xl border bg-white p-4 shadow-lg backdrop-blur-md transition-all duration-300",
                   toneBorder(m.tone),
                 )}
               >
                 <div className="flex items-start justify-between gap-2">
                   <div>
-                    <h3 className="text-sm font-semibold text-zinc-100">
+                    <h3 className="text-sm font-semibold text-slate-900">
                       {skill.label}
                     </h3>
-                    <p className="mt-0.5 text-xs text-zinc-400">
+                    <p className="mt-0.5 text-xs text-slate-600">
                       {skill.blurb}
                     </p>
                   </div>
                   <StatusPill tone={m.tone} label={m.statusLabel} />
                 </div>
                 <div className="mt-3 flex items-end justify-between">
-                  <p className="text-2xl font-bold tabular-nums text-zinc-100">
+                  <p className="text-2xl font-bold tabular-nums text-slate-900">
                     {skill.total === 0 ? "—" : `${m.percent}%`}
                   </p>
-                  <p className="text-xs text-zinc-400">
+                  <p className="text-xs text-slate-600">
                     {skill.total === 0
                       ? "本次未抽中"
                       : `答對 ${skill.correct}/${skill.total} 題`}
@@ -290,62 +290,62 @@ export function CatReport() {
       {/* Section C — Action guide */}
       <section className="space-y-4">
         <Header
-          icon={<Rocket className="size-4 text-rose-400" />}
+          icon={<Rocket className="size-4 text-rose-700" />}
           title="極速補強指南"
           subtitle="三步行動 · 立刻知道下一步練什麼"
         />
 
         <div className="space-y-3">
           {/* Step 1 */}
-          <div className="rounded-2xl border border-rose-400/20 bg-rose-400/10 p-5">
-            <p className="text-xs font-bold tracking-wide text-rose-400 uppercase">
+          <div className="rounded-2xl border border-rose-700/20 bg-rose-700/10 p-5">
+            <p className="text-xs font-bold tracking-wide text-rose-700 uppercase">
               步驟 1 · 優先複習篇章
             </p>
             {weakestArticle && weakestMastery ? (
               <>
-                <p className="mt-2 text-sm font-semibold text-zinc-100">
+                <p className="mt-2 text-sm font-semibold text-slate-900">
                   {weakestArticle.textLabel}
                   <span
                     className={cn(
                       "ml-2 font-normal",
                       weakestMastery.tone === "weak"
-                        ? "text-rose-400"
-                        : "text-zinc-400",
+                        ? "text-rose-700"
+                        : "text-slate-600",
                     )}
                   >
                     {weakestMastery.percent}% · {weakestMastery.statusLabel}
                   </span>
                 </p>
-                <p className="mt-1 text-xs leading-relaxed text-zinc-400">
+                <p className="mt-1 text-xs leading-relaxed text-slate-600">
                   答對 {weakestArticle.correct}/{weakestArticle.total}{" "}
                   題。建議先從此篇開始鞏固，再做綜合診斷。
                 </p>
                 <button
                   type="button"
                   onClick={onArticleFocus}
-                  className="mt-4 inline-flex items-center gap-2 rounded-xl border border-rose-400/20 bg-rose-400/10 px-4 py-2.5 text-sm font-bold text-rose-400 shadow-lg transition-all duration-300 hover:bg-rose-400/20"
+                  className="mt-4 inline-flex items-center gap-2 rounded-xl border border-rose-700/20 bg-rose-700/10 px-4 py-2.5 text-sm font-bold text-rose-700 shadow-lg transition-all duration-300 hover:bg-rose-700/20"
                 >
                   <Crosshair className="size-4" />
                   一鍵專攻此篇
                 </button>
               </>
             ) : (
-              <p className="mt-2 text-sm text-zinc-400">
+              <p className="mt-2 text-sm text-slate-600">
                 尚無篇章弱點資料。
               </p>
             )}
           </div>
 
           {/* Step 2 */}
-          <div className="rounded-2xl border border-amber-400/20 bg-amber-400/10 p-5">
-            <p className="text-xs font-bold tracking-wide text-amber-400 uppercase">
+          <div className="rounded-2xl border border-amber-700/20 bg-amber-700/10 p-5">
+            <p className="text-xs font-bold tracking-wide text-amber-700 uppercase">
               步驟 2 · 防範盲點
             </p>
-            <p className="mt-2 text-sm font-semibold text-zinc-100">
+            <p className="mt-2 text-sm font-semibold text-slate-900">
               答對但疑似瞎猜／思考過久
             </p>
             {blindSpots.length === 0 ? (
-              <p className="mt-1 text-xs leading-relaxed text-zinc-400">
+              <p className="mt-1 text-xs leading-relaxed text-slate-600">
                 很好！沒有偵測到可疑答題模式。
               </p>
             ) : (
@@ -353,12 +353,12 @@ export function CatReport() {
                 {blindSpots.slice(0, 5).map((b) => (
                   <li
                     key={`${b.kind}-${b.uid}`}
-                    className="flex items-start gap-2 rounded-xl border border-amber-400/20 bg-zinc-900/80 px-3 py-2 text-xs text-zinc-300 backdrop-blur-md"
+                    className="flex items-start gap-2 rounded-xl border border-amber-700/20 bg-white px-3 py-2 text-xs text-slate-700 backdrop-blur-md"
                   >
                     {b.kind === "guess" ? (
-                      <AlertTriangle className="mt-0.5 size-3.5 shrink-0 text-amber-400" />
+                      <AlertTriangle className="mt-0.5 size-3.5 shrink-0 text-amber-700" />
                     ) : (
-                      <Clock3 className="mt-0.5 size-3.5 shrink-0 text-amber-400" />
+                      <Clock3 className="mt-0.5 size-3.5 shrink-0 text-amber-700" />
                     )}
                     <span>
                       <span className="font-semibold">
@@ -366,7 +366,7 @@ export function CatReport() {
                       </span>
                       {" · "}
                       {shortArticleTitle(b.label)} · {b.category}
-                      <span className="mt-0.5 block text-zinc-400">
+                      <span className="mt-0.5 block text-slate-600">
                         {b.detail}
                       </span>
                     </span>
@@ -377,21 +377,21 @@ export function CatReport() {
           </div>
 
           {/* Step 3 */}
-          <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-5 shadow-lg backdrop-blur-md">
-            <p className="text-xs font-bold tracking-wide text-zinc-400 uppercase">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-lg backdrop-blur-md">
+            <p className="text-xs font-bold tracking-wide text-slate-600 uppercase">
               步驟 3 · 錯題解析
             </p>
-            <p className="mt-2 text-sm font-semibold text-zinc-100">
+            <p className="mt-2 text-sm font-semibold text-slate-900">
               本場錯題與考評局陷阱
             </p>
-            <p className="mt-1 text-xs leading-relaxed text-zinc-400">
+            <p className="mt-1 text-xs leading-relaxed text-slate-600">
               {wrongAnswers.length === 0
                 ? "全對！可挑戰更長診斷或單篇特訓。"
                 : `共 ${wrongAnswers.length} 題需複習，含【考評局陷阱】高亮。`}
             </p>
             <a
               href="#report-mistakes"
-              className="mt-4 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-zinc-900 px-4 py-2.5 text-sm font-semibold text-zinc-200 transition-all duration-300 hover:bg-zinc-800"
+              className="mt-4 inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 transition-all duration-300 hover:bg-slate-200"
             >
               <BookOpen className="size-4" />
               查看錯題解析
@@ -406,12 +406,12 @@ export function CatReport() {
             <button
               type="button"
               onClick={onRemediation}
-              className="rounded-2xl border border-cyan-500/50 bg-cyan-400/10 px-4 py-4 text-left transition-all duration-300 hover:bg-cyan-400/20"
+              className="rounded-2xl border border-blue-800/50 bg-blue-700/10 px-4 py-4 text-left transition-all duration-300 hover:bg-blue-700/20"
             >
-              <p className="text-sm font-bold text-cyan-400">
+              <p className="text-sm font-bold text-blue-700">
                 一鍵生成弱點特訓
               </p>
-              <p className="mt-1 text-xs text-cyan-400/80">
+              <p className="mt-1 text-xs text-blue-700/80">
                 針對最低分類別抽出 5–10 題
               </p>
             </button>
@@ -420,12 +420,12 @@ export function CatReport() {
             <button
               type="button"
               onClick={onExtended}
-              className="rounded-2xl border border-white/10 bg-zinc-900/80 px-4 py-4 text-left shadow-lg backdrop-blur-md transition-all duration-300 hover:bg-zinc-800"
+              className="rounded-2xl border border-slate-200 bg-white px-4 py-4 text-left shadow-lg backdrop-blur-md transition-all duration-300 hover:bg-slate-200"
             >
-              <p className="text-sm font-bold text-zinc-100">
+              <p className="text-sm font-bold text-slate-900">
                 開啟 30 題完整診斷
               </p>
-              <p className="mt-1 text-xs text-zinc-400">
+              <p className="mt-1 text-xs text-slate-600">
                 解鎖更多未測試考點
               </p>
             </button>
@@ -433,7 +433,7 @@ export function CatReport() {
         </div>
 
         {actionError ? (
-          <p className="rounded-xl border border-rose-400/20 bg-rose-400/10 px-4 py-3 text-sm text-rose-400">
+          <p className="rounded-xl border border-rose-700/20 bg-rose-700/10 px-4 py-3 text-sm text-rose-700">
             {actionError}
           </p>
         ) : null}
@@ -442,7 +442,7 @@ export function CatReport() {
       {/* Mistakes detail */}
       <section id="report-mistakes" className="scroll-mt-8 space-y-4">
         <Header
-          icon={<Lightbulb className="size-4 text-amber-400" />}
+          icon={<Lightbulb className="size-4 text-amber-700" />}
           title="錯題與考評局陷阱解析"
           subtitle="逐題對照 · 高亮常見陷阱"
         />
@@ -457,35 +457,35 @@ export function CatReport() {
               return (
                 <li
                   key={a.uid}
-                  className="rounded-2xl border border-white/10 bg-zinc-900/80 p-5 shadow-lg backdrop-blur-md"
+                  className="rounded-2xl border border-slate-200 bg-white p-5 shadow-lg backdrop-blur-md"
                 >
                   <div className="flex flex-wrap items-center gap-2 text-xs">
-                    <span className="text-zinc-400">#{i + 1}</span>
-                    <span className="rounded-full border border-white/10 bg-zinc-900 px-2 py-0.5 font-medium text-zinc-300">
+                    <span className="text-slate-600">#{i + 1}</span>
+                    <span className="rounded-full border border-slate-200 bg-white px-2 py-0.5 font-medium text-slate-700">
                       {DIFFICULTY_LABEL[a.difficulty].zh}
                     </span>
-                    <span className="rounded-full border border-white/10 bg-zinc-900 px-2 py-0.5 text-zinc-400">
+                    <span className="rounded-full border border-slate-200 bg-white px-2 py-0.5 text-slate-600">
                       {a.category}
                     </span>
                     {a.isGuess ? (
-                      <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-2 py-0.5 font-medium text-amber-400">
+                      <span className="rounded-full border border-amber-700/20 bg-amber-700/10 px-2 py-0.5 font-medium text-amber-700">
                         疑似瞎猜
                       </span>
                     ) : null}
                     {trap ? (
-                      <span className="rounded-full border border-rose-400/20 bg-rose-400/10 px-2 py-0.5 font-semibold text-rose-400">
+                      <span className="rounded-full border border-rose-700/20 bg-rose-700/10 px-2 py-0.5 font-semibold text-rose-700">
                         考評局陷阱
                       </span>
                     ) : null}
                   </div>
-                  <p className="mt-3 text-sm leading-relaxed text-zinc-200">
+                  <p className="mt-3 text-sm leading-relaxed text-slate-800">
                     {a.question}
                   </p>
-                  <p className="mt-3 flex items-start gap-2 text-sm text-rose-400">
+                  <p className="mt-3 flex items-start gap-2 text-sm text-rose-700">
                     <XCircle className="mt-0.5 size-4 shrink-0" />
                     你的答案：{a.selectedAnswer}
                   </p>
-                  <p className="mt-1.5 flex items-start gap-2 text-sm text-emerald-400">
+                  <p className="mt-1.5 flex items-start gap-2 text-sm text-emerald-700">
                     <CheckCircle2 className="mt-0.5 size-4 shrink-0" />
                     正確答案：{a.correctAnswer}
                   </p>
@@ -493,12 +493,12 @@ export function CatReport() {
                     className={cn(
                       "mt-3 rounded-xl px-3 py-2.5 text-sm leading-relaxed",
                       trap
-                        ? "border border-amber-400/20 bg-amber-400/10 text-amber-400"
-                        : "border border-white/10 bg-zinc-900 text-zinc-400",
+                        ? "border border-amber-700/20 bg-amber-700/10 text-amber-700"
+                        : "border border-slate-200 bg-white text-slate-600",
                     )}
                   >
                     {trap ? (
-                      <span className="mb-1 block text-xs font-bold text-amber-400">
+                      <span className="mb-1 block text-xs font-bold text-amber-700">
                         【考評局陷阱】
                       </span>
                     ) : null}
@@ -515,21 +515,21 @@ export function CatReport() {
         <button
           type="button"
           onClick={resetSession}
-          className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-zinc-900/80 px-5 py-3 text-sm font-semibold text-zinc-200 shadow-lg backdrop-blur-md transition-all duration-300 hover:bg-zinc-800"
+          className="inline-flex items-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-lg backdrop-blur-md transition-all duration-300 hover:bg-slate-200"
         >
           <RotateCcw className="size-4" />
           再測一次
         </button>
         <Link
           href="/dse/chinese/error-notebook"
-          className="inline-flex items-center gap-2 rounded-2xl border border-cyan-500/50 bg-cyan-400/10 px-5 py-3 text-sm font-semibold text-cyan-400 transition-all duration-300 hover:bg-cyan-400/20"
+          className="inline-flex items-center gap-2 rounded-2xl border border-blue-800/50 bg-blue-700/10 px-5 py-3 text-sm font-semibold text-blue-700 transition-all duration-300 hover:bg-blue-700/20"
         >
           <BookOpen className="size-4" />
           開啟錯題本
         </Link>
         <Link
           href="/dse/chinese"
-          className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-zinc-400 transition-all duration-300 hover:text-zinc-200"
+          className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-slate-600 transition-all duration-300 hover:text-slate-800"
         >
           返回範文列表
         </Link>
@@ -549,11 +549,11 @@ function Header({
 }) {
   return (
     <div>
-      <h2 className="flex items-center gap-2 font-[family-name:var(--font-display)] text-lg font-semibold text-zinc-100">
+      <h2 className="flex items-center gap-2 font-[family-name:var(--font-display)] text-lg font-semibold text-slate-900">
         {icon}
         {title}
       </h2>
-      <p className="mt-1 text-xs leading-relaxed text-zinc-400">{subtitle}</p>
+      <p className="mt-1 text-xs leading-relaxed text-slate-600">{subtitle}</p>
     </div>
   );
 }
@@ -574,26 +574,26 @@ function MiniStat({
   progress?: number;
 }) {
   return (
-    <div className="relative rounded-xl border border-white/10 bg-zinc-900 p-5 shadow-lg">
+    <div className="relative rounded-xl border border-slate-200 bg-white p-5 shadow-lg">
       {icon ? (
         <span className="absolute right-4 top-4 opacity-80">{icon}</span>
       ) : null}
-      <p className="text-[11px] font-medium tracking-wide text-zinc-500">
+      <p className="text-[11px] font-medium tracking-wide text-slate-500">
         {label}
       </p>
       <p
         className={cn(
           "mt-2 font-[family-name:var(--font-display)] text-2xl font-extrabold",
-          accent ? "text-cyan-400" : "text-zinc-100",
+          accent ? "text-blue-700" : "text-slate-900",
         )}
       >
         {value}
       </p>
-      <p className="mt-1 text-xs leading-relaxed text-zinc-400">{hint}</p>
+      <p className="mt-1 text-xs leading-relaxed text-slate-600">{hint}</p>
       {typeof progress === "number" ? (
-        <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-zinc-800">
+        <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-slate-200">
           <div
-            className="h-full rounded-full bg-cyan-400 transition-all duration-300"
+            className="h-full rounded-full bg-blue-700 transition-all duration-300"
             style={{ width: `${Math.min(100, progress)}%` }}
           />
         </div>
@@ -608,10 +608,10 @@ function StatusPill({ tone, label }: { tone: MasteryTone; label: string }) {
       className={cn(
         "shrink-0 rounded-full border px-2 py-0.5 text-[10px] font-bold",
         tone === "good" &&
-          "border-emerald-400/20 bg-emerald-400/10 text-emerald-400",
-        tone === "ok" && "border-cyan-500/50 bg-cyan-400/10 text-cyan-400",
-        tone === "weak" && "border-rose-400/20 bg-rose-400/10 text-rose-400",
-        tone === "empty" && "border-white/10 bg-zinc-900 text-zinc-400",
+          "border-emerald-700/20 bg-emerald-700/10 text-emerald-700",
+        tone === "ok" && "border-blue-800/50 bg-blue-700/10 text-blue-700",
+        tone === "weak" && "border-rose-700/20 bg-rose-700/10 text-rose-700",
+        tone === "empty" && "border-slate-200 bg-white text-slate-600",
       )}
     >
       {tone === "weak" ? `🚨 ${label}` : label}
@@ -627,14 +627,14 @@ function ProgressBar({
   tone: MasteryTone;
 }) {
   return (
-    <div className="mt-3 h-2 overflow-hidden rounded-full bg-zinc-800">
+    <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-200">
       <div
         className={cn(
           "h-full rounded-full transition-all duration-300",
-          tone === "good" && "bg-emerald-400",
-          tone === "ok" && "bg-cyan-400",
-          tone === "weak" && "bg-rose-400",
-          tone === "empty" && "bg-zinc-600",
+          tone === "good" && "bg-emerald-700",
+          tone === "ok" && "bg-blue-700",
+          tone === "weak" && "bg-rose-700",
+          tone === "empty" && "bg-slate-400",
         )}
         style={{ width: `${percent}%` }}
       />
@@ -644,10 +644,10 @@ function ProgressBar({
 
 function toneBorder(tone: MasteryTone) {
   return cn(
-    tone === "good" && "border-emerald-400/20",
-    tone === "ok" && "border-cyan-500/50",
-    tone === "weak" && "border-rose-400/20",
-    tone === "empty" && "border-white/10",
+    tone === "good" && "border-emerald-700/20",
+    tone === "ok" && "border-blue-800/50",
+    tone === "weak" && "border-rose-700/20",
+    tone === "empty" && "border-slate-200",
   );
 }
 
@@ -663,8 +663,8 @@ function EmptyCard({
       className={cn(
         "rounded-2xl border p-5 text-sm shadow-lg",
         tone === "good"
-          ? "border-emerald-400/20 bg-emerald-400/10 text-emerald-400"
-          : "border-white/10 bg-zinc-900/80 text-zinc-400 backdrop-blur-md",
+          ? "border-emerald-700/20 bg-emerald-700/10 text-emerald-700"
+          : "border-slate-200 bg-white text-slate-600 backdrop-blur-md",
       )}
     >
       {children}

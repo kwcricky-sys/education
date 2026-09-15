@@ -75,25 +75,25 @@ export default function EnglishLearnPage() {
       <JsonLd data={courseJsonLd} />
       <JsonLd data={buildFaqJsonLd(FAQS)} />
 
-      <nav className="mb-6 text-sm text-zinc-500">
-        <Link href="/dse" className="hover:text-cyan-400">
+      <nav className="mb-6 text-sm text-slate-500">
+        <Link href="/dse" className="hover:text-blue-700">
           DSE
         </Link>
         <span className="mx-2">›</span>
-        <Link href="/dse/english" className="hover:text-cyan-400">
+        <Link href="/dse/english" className="hover:text-blue-700">
           English
         </Link>
         <span className="mx-2">›</span>
-        <span className="text-zinc-300">自學路徑</span>
+        <span className="text-slate-700">自學路徑</span>
       </nav>
 
-      <h1 className="font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-4xl">
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
         DSE English 自學路徑
       </h1>
-      <p className="mt-3 text-[15px] leading-relaxed text-zinc-300 sm:text-base">
+      <p className="mt-3 text-[15px] leading-relaxed text-slate-700 sm:text-base">
         {ENGLISH_UNITS.length} 個單元、{LESSON_COUNT} 課，由卷一閱讀講到卷四說話，
         加上語法與詞彙基礎。每個單元先讀課文，再做練習；
-        <span className="font-semibold text-zinc-100">
+        <span className="font-semibold text-slate-900">
           答對 {ENGLISH_UNITS[0].passThreshold} 題或以上（10 題中）
         </span>
         就通過關卡，解鎖下一個單元。進度只存在你自己的裝置，唔需要帳號。
@@ -101,15 +101,15 @@ export default function EnglishLearnPage() {
 
       <div className="mt-6 grid gap-3 sm:grid-cols-3">
         {[
-          { label: "單元", value: `${ENGLISH_UNITS.length}`, tone: "text-cyan-400" },
-          { label: "課文", value: `${LESSON_COUNT}`, tone: "text-zinc-100" },
-          { label: "練習題", value: `${PRACTICE_COUNT}`, tone: "text-emerald-400" },
+          { label: "單元", value: `${ENGLISH_UNITS.length}`, tone: "text-blue-700" },
+          { label: "課文", value: `${LESSON_COUNT}`, tone: "text-slate-900" },
+          { label: "練習題", value: `${PRACTICE_COUNT}`, tone: "text-emerald-700" },
         ].map((s) => (
           <div
             key={s.label}
-            className="rounded-xl border border-white/10 bg-zinc-900 px-5 py-4 shadow-lg"
+            className="rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-lg"
           >
-            <p className="text-[10px] font-semibold tracking-[0.2em] text-zinc-500 uppercase">
+            <p className="text-[10px] font-semibold tracking-[0.2em] text-slate-500 uppercase">
               {s.label}
             </p>
             <p
@@ -121,9 +121,9 @@ export default function EnglishLearnPage() {
         ))}
       </div>
 
-      <div className="mt-6 rounded-2xl border border-white/10 bg-zinc-900/70 p-5">
-        <p className="text-sm font-semibold text-cyan-400">建議使用次序</p>
-        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-300">
+      <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
+        <p className="text-sm font-semibold text-blue-700">建議使用次序</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-slate-700">
           <li>卷一、卷二、卷三、卷四各自獨立，可以按你最近考的卷開始。</li>
           <li>
             計分比重是卷三 30% ＞ 卷二 25% ＞ 卷一 20% ＞ 卷四 10%
@@ -140,15 +140,15 @@ export default function EnglishLearnPage() {
         <EnglishUnitMap />
       </div>
 
-      <section className="mt-10 rounded-2xl border border-white/10 bg-zinc-900 p-6">
-        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
+      <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
           常見問題
         </h2>
         <div className="mt-4 space-y-4">
           {FAQS.map((f) => (
             <div key={f.question}>
-              <h3 className="text-sm font-semibold text-zinc-100">{f.question}</h3>
-              <p className="mt-1 text-sm leading-relaxed text-zinc-400">
+              <h3 className="text-sm font-semibold text-slate-900">{f.question}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-slate-600">
                 {f.answer}
               </p>
             </div>
@@ -159,19 +159,19 @@ export default function EnglishLearnPage() {
       <div className="mt-6 flex flex-wrap gap-3">
         <Link
           href="/dse/english"
-          className="rounded-xl border border-white/10 bg-zinc-900 px-5 py-3 text-sm font-semibold text-zinc-200 transition hover:border-cyan-400/40 hover:text-cyan-300"
+          className="rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 transition hover:border-blue-700/40 hover:text-blue-600"
         >
           英文科題庫（MCQ Drills）
         </Link>
         <Link
           href="/dse/econ/learn"
-          className="rounded-xl border border-white/10 bg-zinc-900 px-5 py-3 text-sm font-semibold text-zinc-200 transition hover:border-cyan-400/40 hover:text-cyan-300"
+          className="rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 transition hover:border-blue-700/40 hover:text-blue-600"
         >
           ECON 自學路徑
         </Link>
       </div>
 
-      <p className="mt-8 rounded-xl border border-white/10 bg-zinc-950/60 p-4 text-xs leading-relaxed text-zinc-500">
+      <p className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-relaxed text-slate-500">
         {LEGAL_DISCLAIMER}
         本課程的內容、例子與練習由本站自行編寫及分析，用以說明常見的答題與評分考慮，並非考評局教材，亦不保證考試成績。
       </p>

@@ -53,8 +53,8 @@ export default function EnglishUnitMap() {
         return (
           <div
             key={unit.id}
-            className={`rounded-2xl border bg-zinc-900 shadow-lg ${
-              unlocked ? "border-white/10" : "border-white/10 opacity-60"
+            className={`rounded-2xl border bg-white shadow-lg ${
+              unlocked ? "border-slate-200" : "border-slate-200 opacity-60"
             }`}
           >
             <button
@@ -67,52 +67,52 @@ export default function EnglishUnitMap() {
                 <span
                   className={`grid size-9 shrink-0 place-items-center rounded-full text-sm font-bold ${
                     isDone
-                      ? "bg-emerald-400/20 text-emerald-300"
+                      ? "bg-emerald-700/20 text-emerald-700"
                       : unlocked
-                        ? "bg-cyan-500 text-zinc-950"
-                        : "bg-white/10 text-zinc-500"
+                        ? "bg-blue-800 text-white"
+                        : "bg-slate-200 text-slate-500"
                   }`}
                 >
                   {isDone ? "✓" : unlocked ? unit.id : "🔒"}
                 </span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold text-zinc-100">
+                  <h3 className="font-semibold text-slate-900">
                     單元 {unit.id}　{unit.title}
                   </h3>
-                  <p className="mt-0.5 text-xs text-zinc-500">
+                  <p className="mt-0.5 text-xs text-slate-500">
                     {unit.label} · {unitLessons.length} 課 · 通過練習解鎖下一個單元
                   </p>
                 </div>
               </div>
               {unlocked && (
-                <span className="text-zinc-500">
+                <span className="text-slate-500">
                   {openUnit === unit.id ? "▲" : "▼"}
                 </span>
               )}
             </button>
 
             {openUnit === unit.id && unlocked && (
-              <div className="border-t border-white/10 p-5 pt-4">
+              <div className="border-t border-slate-200 p-5 pt-4">
                 {unitLessons.map((l) => (
                   <details
                     key={l.id}
-                    className="mb-3 rounded-xl border border-white/5 bg-zinc-950/60 p-4"
+                    className="mb-3 rounded-xl border border-slate-200 bg-slate-50 p-4"
                   >
-                    <summary className="cursor-pointer font-medium text-zinc-100">
+                    <summary className="cursor-pointer font-medium text-slate-900">
                       {l.id} — {l.title}
                     </summary>
-                    <p className="mt-3 text-[15px] leading-relaxed whitespace-pre-line text-zinc-300">
+                    <p className="mt-3 text-[15px] leading-relaxed whitespace-pre-line text-slate-700">
                       {l.concept}
                     </p>
-                    <div className="mt-3 rounded-lg border border-white/5 bg-zinc-900 p-3 text-sm">
-                      <p className="font-semibold text-cyan-400">示範例子</p>
-                      <p className="mt-1 text-zinc-200">{l.example.scenario}</p>
-                      <p className="mt-2 leading-relaxed text-zinc-400">
+                    <div className="mt-3 rounded-lg border border-slate-200 bg-white p-3 text-sm">
+                      <p className="font-semibold text-blue-700">示範例子</p>
+                      <p className="mt-1 text-slate-800">{l.example.scenario}</p>
+                      <p className="mt-2 leading-relaxed text-slate-600">
                         {l.example.walkthrough}
                       </p>
                     </div>
                     {l.traps.length > 0 && (
-                      <div className="mt-3 rounded-lg border border-amber-400/20 bg-amber-400/10 p-3 text-sm text-amber-100">
+                      <div className="mt-3 rounded-lg border border-amber-700/20 bg-amber-700/10 p-3 text-sm text-amber-900">
                         <p className="font-semibold">常見陷阱</p>
                         <ul className="mt-1 list-disc space-y-1 pl-5">
                           {l.traps.map((t, i) => (
@@ -125,7 +125,7 @@ export default function EnglishUnitMap() {
                       {l.terms.map((t) => (
                         <span
                           key={t.term}
-                          className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-3 py-1 text-xs text-cyan-200"
+                          className="rounded-full border border-blue-700/20 bg-blue-700/10 px-3 py-1 text-xs text-blue-700"
                           title={t.definition}
                         >
                           {t.term}

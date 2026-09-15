@@ -62,7 +62,7 @@ export default function EconUnitMap() {
                     isDone
                       ? "bg-green-100 text-green-700"
                       : unlocked
-                        ? "bg-[#0071e3] text-white"
+                        ? "bg-blue-700 text-white"
                         : "bg-black/10 text-black/40"
                   }`}
                 >

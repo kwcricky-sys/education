@@ -163,7 +163,7 @@ export default function PracticeGate({ unit, completedUnits }: Props) {
         <button
           onClick={submit}
           disabled={!answeredAll}
-          className="mt-6 w-full rounded-full bg-[#0071e3] py-3 font-semibold text-white disabled:opacity-40"
+          className="mt-6 w-full rounded-full bg-blue-700 py-3 font-semibold text-white disabled:opacity-40"
         >
           {answeredAll ? "Submit answers" : `Answer all ${questions.length} questions`}
         </button>
@@ -184,7 +184,7 @@ export default function PracticeGate({ unit, completedUnits }: Props) {
           {!passed && (
             <button
               onClick={reset}
-              className="mt-4 rounded-full bg-[#0071e3] px-8 py-2.5 font-semibold text-white"
+              className="mt-4 rounded-full bg-blue-700 px-8 py-2.5 font-semibold text-white"
             >
               Retry
             </button>

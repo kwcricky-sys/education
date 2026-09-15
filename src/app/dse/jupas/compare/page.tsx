@@ -36,17 +36,17 @@ export default function ComparePage() {
       <header className="max-w-3xl">
         <Link
           href="/dse/jupas"
-          className="inline-flex items-center gap-1.5 text-xs text-zinc-500 transition hover:text-cyan-300"
+          className="inline-flex items-center gap-1.5 text-xs text-slate-500 transition hover:text-blue-600"
         >
           <ArrowLeft className="h-3.5 w-3.5" /> 返回 JUPAS 揀科指南
         </Link>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-extrabold leading-tight tracking-tight text-zinc-100 sm:text-4xl">
+        <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-4xl">
           JUPAS 課程比較工具
         </h1>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-400 sm:text-base">
+        <p className="mt-3 text-sm leading-relaxed text-slate-600 sm:text-base">
           唔好靠感覺揀科。輸入你嘅預計成績，揀 2–3 個課程，即刻睇到收生分數、公開入職薪酬、
           效益比同入學機會估算並排對照。所有收生分數係院校公布數據經正規化嘅
-          <span className="text-zinc-300">入學分數指數（0–7）</span>。
+          <span className="text-slate-700">入學分數指數（0–7）</span>。
         </p>
       </header>
 
@@ -54,9 +54,9 @@ export default function ComparePage() {
         <CompareTool />
       </div>
 
-      <section className="mt-10 rounded-2xl bg-zinc-900/40 p-5 ring-1 ring-white/10">
-        <h2 className="text-sm font-semibold text-zinc-300">免責聲明</h2>
-        <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+      <section className="mt-10 rounded-2xl bg-white p-5 ring-1 ring-slate-200">
+        <h2 className="text-sm font-semibold text-slate-700">免責聲明</h2>
+        <p className="mt-2 text-xs leading-relaxed text-slate-500">
           本工具涵蓋 {PROGRAMMES.length} 個代表性課程，收生分數為 2025 年入學數據，薪酬數據來自
           醫管局／政府總薪級表及教資會 2024/25 學年畢業生就業調查，並以學科大類
           （{UGC_CATEGORY_SALARIES.map((c) => c.label).join("、")}）形式呈現。

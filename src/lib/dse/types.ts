@@ -37,10 +37,10 @@ export const DIFFICULTY_LABEL: Record<
   QuizDifficulty | "all",
   { zh: string; className: string }
 > = {
-  all: { zh: "全部", className: "text-zinc-200" },
-  easy: { zh: "基礎", className: "text-emerald-400" },
-  medium: { zh: "中等", className: "text-amber-400" },
-  hard: { zh: "高階", className: "text-rose-400" },
+  all: { zh: "全部", className: "text-slate-800" },
+  easy: { zh: "基礎", className: "text-emerald-700" },
+  medium: { zh: "中等", className: "text-amber-700" },
+  hard: { zh: "高階", className: "text-rose-700" },
 };
 
 export function filterQuizQuestions(

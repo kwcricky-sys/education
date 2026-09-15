@@ -136,8 +136,8 @@ export function FlashcardStudyHub({
               className={cn(
                 "rounded-md px-3 py-1.5 text-sm font-medium transition-all duration-300",
                 filter === f
-                  ? "bg-cyan-400/10 text-cyan-400 ring-1 ring-cyan-400/30"
-                  : "bg-zinc-900 text-zinc-400 ring-1 ring-white/5 hover:bg-zinc-800 hover:text-zinc-200",
+                  ? "bg-blue-700/10 text-blue-700 ring-1 ring-blue-700/30"
+                  : "bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-200 hover:text-slate-800",
               )}
             >
               {DIFFICULTY_LABEL[f].zh}
@@ -149,7 +149,7 @@ export function FlashcardStudyHub({
           <button
             type="button"
             onClick={() => setMode(mode === "flash" ? "list" : "flash")}
-            className="inline-flex items-center gap-1.5 rounded-md border border-white/5 bg-zinc-900 px-3 py-1.5 text-sm text-zinc-400 transition-all duration-300 hover:border-white/10 hover:bg-zinc-800 hover:text-zinc-100"
+            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-600 transition-all duration-300 hover:border-slate-200 hover:bg-slate-200 hover:text-slate-900"
           >
             <List className="size-3.5" />
             {mode === "flash" ? "題目總覽" : "閃卡模式"}
@@ -157,7 +157,7 @@ export function FlashcardStudyHub({
           <button
             type="button"
             onClick={resetSession}
-            className="inline-flex items-center gap-1.5 rounded-md border border-white/5 bg-zinc-900 px-3 py-1.5 text-sm text-zinc-400 transition-all duration-300 hover:border-white/10 hover:bg-zinc-800 hover:text-zinc-100"
+            className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-600 transition-all duration-300 hover:border-slate-200 hover:bg-slate-200 hover:text-slate-900"
             title="重置本節進度"
           >
             <RotateCcw className="size-3.5" />
@@ -170,37 +170,37 @@ export function FlashcardStudyHub({
         <div className="mx-auto max-w-2xl space-y-4">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex flex-wrap items-center gap-2 text-xs">
-              <span className="rounded-md bg-cyan-400 px-2 py-1 font-bold text-zinc-950">
+              <span className="rounded-md bg-blue-700 px-2 py-1 font-bold text-white">
                 {current.id}
               </span>
-              <span className="rounded-md border border-white/10 bg-zinc-900 px-2 py-1 text-zinc-400">
+              <span className="rounded-md border border-slate-200 bg-white px-2 py-1 text-slate-600">
                 {DIFFICULTY_LABEL[current.difficulty].zh}
               </span>
-              <span className="rounded-md border border-white/10 bg-zinc-900 px-2 py-1 text-zinc-400">
+              <span className="rounded-md border border-slate-200 bg-white px-2 py-1 text-slate-600">
                 {current.category}
               </span>
             </div>
-            <span className="text-[11px] font-medium tracking-wide text-zinc-500 uppercase">
+            <span className="text-[11px] font-medium tracking-wide text-slate-500 uppercase">
               {index + 1} / {total}
             </span>
           </div>
 
-          <div className="rounded-2xl border border-white/10 bg-zinc-900/80 p-6 shadow-lg backdrop-blur-md sm:p-8">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-lg backdrop-blur-md sm:p-8">
             {!flipped ? (
               <>
-                <p className="text-lg leading-relaxed text-zinc-100 sm:text-xl">
+                <p className="text-lg leading-relaxed text-slate-900 sm:text-xl">
                   {current.question}
                 </p>
                 <div className="mt-6 space-y-2.5">
                   {current.options.map((opt, i) => (
                     <div
                       key={opt}
-                      className="flex items-center gap-3 rounded-xl border border-white/10 bg-zinc-950/50 px-4 py-3.5 transition-all duration-300"
+                      className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 transition-all duration-300"
                     >
-                      <span className="flex size-8 shrink-0 items-center justify-center rounded-md border border-white/10 bg-zinc-900 text-xs font-bold text-zinc-400">
+                      <span className="flex size-8 shrink-0 items-center justify-center rounded-md border border-slate-200 bg-white text-xs font-bold text-slate-600">
                         {LETTERS[i] ?? i + 1}
                       </span>
-                      <span className="text-sm leading-relaxed text-zinc-200">
+                      <span className="text-sm leading-relaxed text-slate-800">
                         {opt}
                       </span>
                     </div>
@@ -209,10 +209,10 @@ export function FlashcardStudyHub({
               </>
             ) : (
               <>
-                <p className="text-lg font-semibold leading-relaxed text-cyan-400 sm:text-xl">
+                <p className="text-lg font-semibold leading-relaxed text-blue-700 sm:text-xl">
                   {current.answer}
                 </p>
-                <p className="mt-4 text-sm leading-relaxed text-zinc-400">
+                <p className="mt-4 text-sm leading-relaxed text-slate-600">
                   {current.explanation}
                 </p>
               </>
@@ -220,25 +220,25 @@ export function FlashcardStudyHub({
           </div>
 
           {/* Progress strip */}
-          <div className="rounded-xl border border-white/10 bg-zinc-900/80 p-4 shadow-lg backdrop-blur-md">
-            <div className="h-2 overflow-hidden rounded-full bg-zinc-800">
+          <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-lg backdrop-blur-md">
+            <div className="h-2 overflow-hidden rounded-full bg-slate-200">
               <div
-                className="h-full rounded-full bg-cyan-400 transition-[width] duration-300"
+                className="h-full rounded-full bg-blue-700 transition-[width] duration-300"
                 style={{ width: `${progress}%` }}
               />
             </div>
             <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
               <div className="flex gap-4">
-                <span className="inline-flex items-center gap-1.5 text-emerald-400">
+                <span className="inline-flex items-center gap-1.5 text-emerald-700">
                   <Check className="size-3.5" />
                   記牢 {known.size}
                 </span>
-                <span className="inline-flex items-center gap-1.5 text-rose-400">
+                <span className="inline-flex items-center gap-1.5 text-rose-700">
                   <Frown className="size-3.5" />
                   記錯 {missed.size}
                 </span>
               </div>
-              <span className="font-medium text-cyan-400">
+              <span className="font-medium text-blue-700">
                 進度 {Math.round(progress)}%
               </span>
             </div>
@@ -249,7 +249,7 @@ export function FlashcardStudyHub({
             <button
               type="button"
               onClick={() => setFlipped((v) => !v)}
-              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-zinc-900 px-4 py-2.5 text-sm font-medium text-zinc-300 transition-all duration-300 hover:border-white/20 hover:bg-zinc-800"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-700 transition-all duration-300 hover:border-slate-300 hover:bg-slate-200"
             >
               <Eye className="size-4" />
               翻牌 [Space]
@@ -257,7 +257,7 @@ export function FlashcardStudyHub({
             <button
               type="button"
               onClick={markKnown}
-              className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-400/5 px-5 py-2.5 text-sm font-semibold text-emerald-400 transition-all duration-300 hover:bg-emerald-400/10"
+              className="inline-flex items-center gap-2 rounded-full border border-emerald-700/40 bg-emerald-700/5 px-5 py-2.5 text-sm font-semibold text-emerald-700 transition-all duration-300 hover:bg-emerald-700/10"
             >
               <Smile className="size-4" />
               記牢
@@ -265,7 +265,7 @@ export function FlashcardStudyHub({
             <button
               type="button"
               onClick={markMissed}
-              className="inline-flex items-center gap-2 rounded-full border border-rose-400/40 bg-rose-400/5 px-5 py-2.5 text-sm font-semibold text-rose-400 transition-all duration-300 hover:bg-rose-400/10"
+              className="inline-flex items-center gap-2 rounded-full border border-rose-700/40 bg-rose-700/5 px-5 py-2.5 text-sm font-semibold text-rose-700 transition-all duration-300 hover:bg-rose-700/10"
             >
               <Frown className="size-4" />
               記錯
@@ -273,7 +273,7 @@ export function FlashcardStudyHub({
             <button
               type="button"
               onClick={() => go(index + 1)}
-              className="inline-flex size-11 items-center justify-center rounded-full border border-white/10 bg-zinc-900 text-zinc-300 transition-all duration-300 hover:border-cyan-500/40 hover:text-cyan-400"
+              className="inline-flex size-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 transition-all duration-300 hover:border-blue-800/40 hover:text-blue-700"
               aria-label="下一題"
             >
               <ChevronRight className="size-5" />
@@ -289,14 +289,14 @@ export function FlashcardStudyHub({
               <button
                 type="button"
                 onClick={() => jumpTo(q.id)}
-                className="flex w-full items-start gap-3 rounded-xl border border-white/5 bg-zinc-900 p-5 text-left shadow-lg transition-all duration-300 hover:border-white/10 hover:bg-zinc-800"
+                className="flex w-full items-start gap-3 rounded-xl border border-slate-200 bg-white p-5 text-left shadow-lg transition-all duration-300 hover:border-slate-200 hover:bg-slate-200"
               >
-                <span className="mt-0.5 text-xs tabular-nums text-zinc-600">
+                <span className="mt-0.5 text-xs tabular-nums text-slate-500">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="flex flex-wrap items-center gap-2 text-xs">
-                    <span className="rounded-md bg-cyan-400/10 px-2 py-0.5 font-semibold text-cyan-400">
+                    <span className="rounded-md bg-blue-700/10 px-2 py-0.5 font-semibold text-blue-700">
                       {q.id}
                     </span>
                     <span
@@ -307,15 +307,15 @@ export function FlashcardStudyHub({
                     >
                       {DIFFICULTY_LABEL[q.difficulty].zh}
                     </span>
-                    <span className="text-zinc-500">{q.category}</span>
+                    <span className="text-slate-500">{q.category}</span>
                     {known.has(q.id) ? (
-                      <span className="text-emerald-400">記牢</span>
+                      <span className="text-emerald-700">記牢</span>
                     ) : null}
                     {missed.has(q.id) ? (
-                      <span className="text-rose-400">記錯</span>
+                      <span className="text-rose-700">記錯</span>
                     ) : null}
                   </span>
-                  <span className="mt-1 block text-sm leading-relaxed text-zinc-300 line-clamp-2">
+                  <span className="mt-1 block text-sm leading-relaxed text-slate-700 line-clamp-2">
                     {q.question}
                   </span>
                 </span>
@@ -326,7 +326,7 @@ export function FlashcardStudyHub({
       ) : null}
 
       {total === 0 ? (
-        <p className="rounded-xl border border-white/5 bg-zinc-900 p-8 text-center text-sm leading-relaxed text-zinc-400 shadow-lg">
+        <p className="rounded-xl border border-slate-200 bg-white p-8 text-center text-sm leading-relaxed text-slate-600 shadow-lg">
           此篩選沒有題目。
         </p>
       ) : null}

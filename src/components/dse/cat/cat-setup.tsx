@@ -46,32 +46,32 @@ export function CatSetup() {
 
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="font-[family-name:var(--font-display)] text-lg font-bold text-zinc-100">
+          <h2 className="font-[family-name:var(--font-display)] text-lg font-bold text-slate-900">
             選擇診斷範圍
           </h2>
-          <p className="mt-1 text-sm leading-relaxed text-zinc-400">
+          <p className="mt-1 text-sm leading-relaxed text-slate-600">
             已選 {selectedSlugs.length} 篇 · 題庫 {counts.total} 題
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Link
             href="/dse/chinese/error-notebook"
-            className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-zinc-900 px-3 py-2 text-xs font-medium text-zinc-300 transition-all duration-300 hover:border-cyan-500/40 hover:text-cyan-400"
+            className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-medium text-slate-700 transition-all duration-300 hover:border-blue-800/40 hover:text-blue-700"
           >
-            <BookMarked className="size-3.5 text-cyan-400" />
+            <BookMarked className="size-3.5 text-blue-700" />
             錯題本
           </Link>
           <button
             type="button"
             onClick={selectAllTexts}
-            className="rounded-lg border border-cyan-400/25 bg-cyan-400/10 px-3 py-2 text-xs font-semibold text-cyan-400 transition-all duration-300 hover:bg-cyan-400/15"
+            className="rounded-lg border border-blue-700/25 bg-blue-700/10 px-3 py-2 text-xs font-semibold text-blue-700 transition-all duration-300 hover:bg-blue-700/15"
           >
             全範文綜合
           </button>
           <button
             type="button"
             onClick={() => useCatSession.setState({ selectedSlugs: [] })}
-            className="rounded-lg border border-white/10 bg-zinc-900 px-3 py-2 text-xs font-medium text-zinc-400 transition-all duration-300 hover:text-zinc-200"
+            className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-medium text-slate-600 transition-all duration-300 hover:text-slate-800"
           >
             清除
           </button>
@@ -89,25 +89,25 @@ export function CatSetup() {
               className={cn(
                 "group flex items-center gap-3 rounded-xl border p-4 text-left shadow-lg transition-all duration-300",
                 selected
-                  ? "border-cyan-400/60 bg-cyan-400/5 shadow-cyan-400/10"
-                  : "border-white/10 bg-zinc-900 hover:border-white/15 hover:bg-zinc-800/80",
+                  ? "border-blue-700/60 bg-blue-700/5 shadow-blue-700/10"
+                  : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-100",
               )}
             >
               <span
                 className={cn(
                   "flex size-10 shrink-0 items-center justify-center rounded-lg border text-xs font-bold",
                   selected
-                    ? "border-cyan-400/40 bg-cyan-400/10 text-cyan-400"
-                    : "border-white/10 bg-zinc-950 text-zinc-500",
+                    ? "border-blue-700/40 bg-blue-700/10 text-blue-700"
+                    : "border-slate-200 bg-white text-slate-500",
                 )}
               >
                 {text.title.slice(0, 1)}
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block font-semibold text-zinc-100">
+                <span className="block font-semibold text-slate-900">
                   {text.title}
                 </span>
-                <span className="mt-0.5 block text-xs leading-relaxed text-zinc-400">
+                <span className="mt-0.5 block text-xs leading-relaxed text-slate-600">
                   {text.source}
                 </span>
               </span>
@@ -115,8 +115,8 @@ export function CatSetup() {
                 className={cn(
                   "flex size-6 shrink-0 items-center justify-center rounded-full border transition-all duration-300",
                   selected
-                    ? "border-cyan-400 bg-cyan-400 text-zinc-950"
-                    : "border-zinc-600 text-transparent group-hover:border-zinc-500",
+                    ? "border-blue-700 bg-blue-700 text-white"
+                    : "border-slate-300 text-transparent group-hover:border-slate-300",
                 )}
               >
                 <Check className="size-3.5" strokeWidth={3} />
@@ -126,9 +126,9 @@ export function CatSetup() {
         })}
       </div>
 
-      <div className="flex flex-col gap-4 rounded-xl border border-white/10 bg-zinc-900/80 p-5 shadow-lg backdrop-blur-md sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-4 rounded-xl border border-slate-200 bg-white p-5 shadow-lg backdrop-blur-md sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-xs font-semibold tracking-wide text-zinc-500">
+          <p className="text-xs font-semibold tracking-wide text-slate-500">
             診斷題數
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -140,15 +140,15 @@ export function CatSetup() {
                 className={cn(
                   "min-w-14 rounded-lg px-4 py-2 text-sm font-bold transition-all duration-300",
                   targetCount === n
-                    ? "border border-cyan-400 bg-cyan-400/10 text-cyan-400 shadow-[0_0_20px_rgba(34,211,238,0.2)]"
-                    : "border border-white/10 bg-zinc-950 text-zinc-400 hover:border-white/20 hover:text-zinc-200",
+                    ? "border border-blue-700 bg-blue-700/10 text-blue-700 shadow-[0_0_20px_rgba(29, 78, 216,0.2)]"
+                    : "border border-slate-200 bg-white text-slate-600 hover:border-slate-300 hover:text-slate-800",
                 )}
               >
                 {n}
               </button>
             ))}
           </div>
-          <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+          <p className="mt-2 text-xs leading-relaxed text-slate-500">
             能力穩定時可能提早結束（不少於 {CAT_MIN_ITEMS} 題）
           </p>
         </div>
@@ -156,7 +156,7 @@ export function CatSetup() {
         <button
           type="button"
           onClick={onStart}
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-400 px-7 py-3.5 text-sm font-bold text-zinc-950 shadow-[0_0_28px_rgba(34,211,238,0.35)] transition-all duration-300 hover:scale-[1.02] hover:bg-cyan-300"
+          className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-700 px-7 py-3.5 text-sm font-bold text-white shadow-[0_0_28px_rgba(29, 78, 216,0.35)] transition-all duration-300 hover:scale-[1.02] hover:bg-blue-600"
         >
           <Rocket className="size-4" />
           進入診斷室
@@ -164,34 +164,34 @@ export function CatSetup() {
       </div>
 
       {error ? (
-        <p className="rounded-xl border border-rose-400/20 bg-rose-400/10 px-4 py-3 text-sm leading-relaxed text-rose-300">
+        <p className="rounded-xl border border-rose-700/20 bg-rose-700/10 px-4 py-3 text-sm leading-relaxed text-rose-700">
           {error}
         </p>
       ) : null}
 
       <section className="grid gap-4 md:grid-cols-5">
-        <div className="rounded-xl border border-white/10 bg-zinc-900 p-5 shadow-lg md:col-span-3">
-          <div className="flex size-10 items-center justify-center rounded-lg bg-cyan-400/10 text-cyan-400">
+        <div className="rounded-xl border border-slate-200 bg-white p-5 shadow-lg md:col-span-3">
+          <div className="flex size-10 items-center justify-center rounded-lg bg-blue-700/10 text-blue-700">
             <LineChart className="size-5" />
           </div>
-          <h3 className="mt-4 font-[family-name:var(--font-display)] text-lg font-bold text-zinc-100">
+          <h3 className="mt-4 font-[family-name:var(--font-display)] text-lg font-bold text-slate-900">
             視覺化掌握進度
           </h3>
-          <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+          <p className="mt-2 text-sm leading-relaxed text-slate-600">
             診斷結束即輸出篇章 × 技能雙維雷達，一眼睇穿弱點考點與下一步專攻。
           </p>
         </div>
-        <div className="rounded-xl border border-white/10 bg-zinc-900 p-5 text-center shadow-lg md:col-span-2">
-          <div className="mx-auto flex size-10 items-center justify-center rounded-lg bg-cyan-400/10 text-cyan-400">
+        <div className="rounded-xl border border-slate-200 bg-white p-5 text-center shadow-lg md:col-span-2">
+          <div className="mx-auto flex size-10 items-center justify-center rounded-lg bg-blue-700/10 text-blue-700">
             <Clock3 className="size-5" />
           </div>
-          <h3 className="mt-4 text-sm font-semibold text-zinc-300">
+          <h3 className="mt-4 text-sm font-semibold text-slate-700">
             平均完成時間
           </h3>
-          <p className="mt-2 font-[family-name:var(--font-display)] text-4xl font-extrabold text-cyan-400">
+          <p className="mt-2 font-[family-name:var(--font-display)] text-4xl font-extrabold text-blue-700">
             3:42
           </p>
-          <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+          <p className="mt-2 text-xs leading-relaxed text-slate-500">
             比盲目刷 720 題快 10 倍以上
           </p>
         </div>

@@ -36,12 +36,12 @@ export function CookieConsent() {
       aria-label="Cookie 同意提示"
       className="fixed inset-x-0 bottom-0 z-[100] p-4 sm:p-6"
     >
-      <div className="mx-auto flex max-w-3xl flex-col gap-4 rounded-2xl border border-white/10 bg-zinc-900/95 p-4 shadow-2xl shadow-black/40 backdrop-blur-md sm:flex-row sm:items-center sm:gap-5 sm:p-5">
-        <p className="flex-1 text-sm leading-relaxed text-zinc-300">
+      <div className="mx-auto flex max-w-3xl flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-2xl shadow-slate-900/10 backdrop-blur-md sm:flex-row sm:items-center sm:gap-5 sm:p-5">
+        <p className="flex-1 text-sm leading-relaxed text-slate-700">
           本網站使用 Cookies 以改善用戶體驗及提供個人化廣告。繼續瀏覽即表示您同意我們的
           <Link
             href="/privacy"
-            className="mx-1 font-medium text-cyan-400 underline-offset-2 hover:underline"
+            className="mx-1 font-medium text-blue-700 underline-offset-2 hover:underline"
           >
             私隱政策
           </Link>
@@ -50,7 +50,7 @@ export function CookieConsent() {
         <button
           type="button"
           onClick={accept}
-          className="shrink-0 rounded-xl bg-cyan-400 px-5 py-2.5 text-sm font-bold text-zinc-950 transition-all duration-300 hover:bg-cyan-300"
+          className="shrink-0 rounded-xl bg-gradient-to-r from-blue-700 to-blue-600 px-5 py-2.5 text-sm font-bold text-white transition-all duration-300 hover:brightness-110"
         >
           我同意
         </button>

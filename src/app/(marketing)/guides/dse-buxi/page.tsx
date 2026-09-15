@@ -60,28 +60,28 @@ export default function DseBuxiGuidePage() {
       />
       <JsonLd data={buildFaqJsonLd(faqs)} />
 
-      <p className="text-xs font-semibold tracking-wide text-cyan-400">
+      <p className="text-xs font-semibold tracking-wide text-blue-700">
         溫習指南 · 2026
       </p>
-      <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-zinc-100 sm:text-4xl">
+      <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
         DSE 補習邊間好？推薦前必睇嘅選擇指南
       </h1>
-      <p className="mt-4 text-base leading-relaxed text-zinc-400">
+      <p className="mt-4 text-base leading-relaxed text-slate-600">
         好多香港考生搜尋「DSE 補習推薦」「DSE
         補習價錢」「補習班／補習社邊間好」——但其實未診斷弱點就報班，容易浪費學費。本頁幫你用務實框架做決定，並介紹免費自習工具可如何補位。
       </p>
 
       <section className="mt-10 space-y-3">
-        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
           報 DSE 補習前的 4 個檢查清單
         </h2>
         <ul className="space-y-2">
           {CHECKS.map((item) => (
             <li
               key={item}
-              className="flex items-start gap-2.5 rounded-xl border border-white/10 bg-zinc-900 px-4 py-3 text-sm leading-relaxed text-zinc-300"
+              className="flex items-start gap-2.5 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm leading-relaxed text-slate-700"
             >
-              <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-cyan-400" />
+              <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-blue-700" />
               {item}
             </li>
           ))}
@@ -89,31 +89,31 @@ export default function DseBuxiGuidePage() {
       </section>
 
       <section className="mt-10 space-y-3">
-        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
           補習班／補習社 vs 免費 AI 溫習工具
         </h2>
-        <div className="overflow-hidden rounded-xl border border-white/10">
+        <div className="overflow-hidden rounded-xl border border-slate-200">
           <table className="w-full text-left text-sm">
-            <thead className="bg-zinc-900 text-zinc-400">
+            <thead className="bg-white text-slate-600">
               <tr>
                 <th className="px-4 py-3 font-medium">比較</th>
                 <th className="px-4 py-3 font-medium">補習社／補習班</th>
                 <th className="px-4 py-3 font-medium">DSE.hack（免費工具）</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-white/5 text-zinc-300">
-              <tr className="bg-zinc-950/40">
-                <td className="px-4 py-3 text-zinc-400">價錢</td>
+            <tbody className="divide-y divide-slate-200 text-slate-700">
+              <tr className="bg-slate-50">
+                <td className="px-4 py-3 text-slate-600">價錢</td>
                 <td className="px-4 py-3">按堂／按科收費</td>
                 <td className="px-4 py-3">免費使用</td>
               </tr>
               <tr>
-                <td className="px-4 py-3 text-zinc-400">強項</td>
+                <td className="px-4 py-3 text-slate-600">強項</td>
                 <td className="px-4 py-3">老師講解、課堂節奏</td>
                 <td className="px-4 py-3">CAT 診斷、範文閃卡極速刷</td>
               </tr>
-              <tr className="bg-zinc-950/40">
-                <td className="px-4 py-3 text-zinc-400">最適合</td>
+              <tr className="bg-slate-50">
+                <td className="px-4 py-3 text-slate-600">最適合</td>
                 <td className="px-4 py-3">需要系統講課、督促</td>
                 <td className="px-4 py-3">想先找盲點、慳學費</td>
               </tr>
@@ -122,11 +122,11 @@ export default function DseBuxiGuidePage() {
         </div>
       </section>
 
-      <section className="mt-10 space-y-4 rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-6">
-        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
+      <section className="mt-10 space-y-4 rounded-2xl border border-blue-700/20 bg-blue-700/5 p-6">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
           想慳補習學費？先用 DSE.hack 免費診斷
         </h2>
-        <p className="text-sm leading-relaxed text-zinc-400">
+        <p className="text-sm leading-relaxed text-slate-600">
           {SITE_NAME}{" "}
           提供全港考生可用的 AI CAT
           自適應評估，以及中文 12
@@ -135,14 +135,14 @@ export default function DseBuxiGuidePage() {
         <div className="flex flex-wrap gap-3">
           <Link
             href="/dse/chinese/cat"
-            className="inline-flex items-center gap-2 rounded-xl bg-cyan-400 px-5 py-2.5 text-sm font-bold text-zinc-950 transition-all duration-300 hover:bg-cyan-300"
+            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-blue-700 to-blue-600 px-5 py-2.5 text-sm font-bold text-white transition-all duration-300 hover:brightness-110"
           >
             免費開始 CAT 診斷
             <ArrowRight className="size-4" />
           </Link>
           <Link
             href="/dse/chinese"
-            className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-zinc-900 px-5 py-2.5 text-sm font-semibold text-zinc-200 transition-all duration-300 hover:border-cyan-500/40"
+            className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-800 transition-all duration-300 hover:border-blue-800/40"
           >
             進入範文閃卡
           </Link>
@@ -150,17 +150,17 @@ export default function DseBuxiGuidePage() {
       </section>
 
       <section className="mt-10 space-y-4">
-        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-zinc-100">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
           常見問題
         </h2>
         <div className="space-y-3">
           {faqs.map((faq) => (
             <div
               key={faq.question}
-              className="rounded-xl border border-white/10 bg-zinc-900 p-5"
+              className="rounded-xl border border-slate-200 bg-white p-5"
             >
-              <h3 className="font-semibold text-zinc-100">{faq.question}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-zinc-400">
+              <h3 className="font-semibold text-slate-900">{faq.question}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
                 {faq.answer}
               </p>
             </div>
@@ -168,7 +168,7 @@ export default function DseBuxiGuidePage() {
         </div>
       </section>
 
-      <p className="mt-10 text-xs leading-relaxed text-zinc-500">
+      <p className="mt-10 text-xs leading-relaxed text-slate-500">
         本頁僅提供溫習策略參考，並非個別補習社評分或招生廣告。正式考試內容請以考評局公布為準。
       </p>
     </article>
