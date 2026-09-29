@@ -1,16 +1,36 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
+  ENGLISH_UNITS,
   getEnglishPracticeSet,
   unitUnlocked,
   type Unit,
 } from "@/lib/dse/english-path";
 import type { DrillQuestion } from "@/lib/dse/drills";
 import { questionHref } from "@/lib/dse/drills";
+import {
+  missingPrerequisites,
+  nextOpenUnit,
+  unitsUnlockedBy,
+} from "@/lib/dse/learn-path";
+import { DIFFICULTY_LABEL } from "@/lib/dse/types";
+import {
+  GateProgress,
+  GateResult,
+  LockedNotice,
+  type UnitRef,
+} from "@/components/dse/practice-gate-parts";
 import Link from "next/link";
 
-type Props = { unit: Unit; completedUnits: number[] };
+type Props = {
+  unit: Unit;
+  completedUnits: number[];
+  onPassed?: (unitId: number) => void;
+  onOpenUnit?: (unitId: number) => void;
+};
+
+const toRef = (u: Unit): UnitRef => ({ id: u.id, name: u.title });
 
 type QState = { picked: string | null; correct: boolean };
 
@@ -22,11 +42,18 @@ export const ENGLISH_PROGRESS_KEY = "dsehack-english-progress-v1";
  * Same gate logic as the ECON path — pass the set to unlock the next unit.
  * Progress persists in localStorage (privacy-first, no account).
  */
-export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
+export default function EnglishPracticeGate({
+  unit,
+  completedUnits,
+  onPassed,
+  onOpenUnit,
+}: Props) {
   const storageKey = ENGLISH_PROGRESS_KEY;
   const [answers, setAnswers] = useState<Record<string, QState>>({});
   const [submitted, setSubmitted] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const [unlockedNow, setUnlockedNow] = useState<UnitRef[]>([]);
+  const headingRef = useRef<HTMLHeadingElement>(null);
   const questions = useMemo<DrillQuestion[]>(
     () => getEnglishPracticeSet(unit.topicKey, 10),
     [unit.topicKey],
@@ -35,7 +62,8 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
   useEffect(() => setHydrated(true), []);
 
   const passCount = questions.filter((q) => answers[q.id]?.correct).length;
-  const answeredAll = questions.every((q) => answers[q.id]?.picked);
+  const answeredCount = questions.filter((q) => answers[q.id]?.picked).length;
+  const answeredAll = answeredCount === questions.length;
   const passed = passCount >= unit.passThreshold;
 
   function pick(q: DrillQuestion, letter: string) {
@@ -48,6 +76,10 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
 
   function submit() {
     setSubmitted(true);
+    if (passed) {
+      setUnlockedNow(unitsUnlockedBy(ENGLISH_UNITS, completedUnits, unit.id).map(toRef));
+      onPassed?.(unit.id);
+    }
     // record into global progress (completed units + wrong-question book)
     try {
       const raw = localStorage.getItem(storageKey);
@@ -80,6 +112,7 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
   function reset() {
     setAnswers({});
     setSubmitted(false);
+    headingRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   if (!hydrated) return <div className="h-40" />;
@@ -87,21 +120,18 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
   const unlocked = unitUnlocked(unit, completedUnits);
   if (!unlocked) {
     return (
-      <div className="rounded-2xl border border-amber-700/30 bg-amber-700/10 p-6 text-center">
-        <p className="font-medium text-amber-800">
-          🔒 未解鎖 — 請先通過單元 {unit.prerequisites.join(" & ")}
-        </p>
-        <p className="mt-1 text-sm text-amber-800/70">
-          單元按次序解鎖，每個概念都建立在前一個之上。
-        </p>
-      </div>
+      <LockedNotice
+        missing={missingPrerequisites(ENGLISH_UNITS, unit, completedUnits).map(toRef)}
+      />
     );
   }
+
+  const nextUnit = nextOpenUnit(ENGLISH_UNITS, completedUnits);
 
   return (
     <div>
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-        <h3 className="text-lg font-semibold text-slate-900">
+        <h3 ref={headingRef} className="scroll-mt-24 text-lg font-semibold text-slate-900">
           練習：{unit.title}（{questions.length} 題）
         </h3>
         <span className="text-sm text-slate-600">
@@ -118,7 +148,7 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
               className="rounded-2xl border border-slate-200 bg-white p-5 shadow-lg"
             >
               <p className="text-xs text-slate-500">
-                {q.difficulty} · {q.id}
+                {DIFFICULTY_LABEL[q.difficulty].zh} · {q.id}
               </p>
               <p className="mt-2 font-medium text-slate-900">
                 {qi + 1}. {q.question}
@@ -133,9 +163,9 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
                   if (submitted && isAns)
                     cls = "border-emerald-700/50 bg-emerald-700/15 font-semibold text-emerald-900";
                   else if (picked && submitted)
-                    cls = "border-rose-700/50 bg-rose-700/15 text-rose-100";
+                    cls = "border-rose-700/50 bg-rose-700/15 text-rose-900";
                   else if (picked)
-                    cls = "border-blue-700/50 bg-blue-700/10 text-blue-50";
+                    cls = "border-blue-700/50 bg-blue-700/10 font-semibold text-navy";
                   return (
                     <button
                       key={letter}
@@ -172,40 +202,34 @@ export default function EnglishPracticeGate({ unit, completedUnits }: Props) {
       </div>
 
       {!submitted ? (
-        <button
-          onClick={submit}
-          disabled={!answeredAll}
-          className="mt-6 w-full rounded-full bg-blue-800 py-3 font-semibold text-white disabled:opacity-40"
-        >
-          {answeredAll
-            ? "提交答案"
-            : `請先回答全部 ${questions.length} 題`}
-        </button>
+        <>
+          <GateProgress
+            answered={answeredCount}
+            total={questions.length}
+            pass={unit.passThreshold}
+          />
+          <button
+            onClick={submit}
+            disabled={!answeredAll}
+            className="mt-4 w-full rounded-full bg-blue-800 py-3 font-semibold text-white disabled:opacity-40"
+          >
+            {answeredAll
+              ? "提交答案"
+              : `仲有 ${questions.length - answeredCount} 題未答`}
+          </button>
+        </>
       ) : (
-        <div
-          className={`mt-6 rounded-2xl border p-6 text-center ${
-            passed
-              ? "border-emerald-700/30 bg-emerald-700/10"
-              : "border-rose-700/30 bg-rose-700/10"
-          }`}
-        >
-          <p className="text-2xl font-bold text-slate-900">
-            {passCount}/{questions.length} — {passed ? "合格 🎉" : "尚未合格"}
-          </p>
-          <p className="mt-2 text-sm text-slate-700">
-            {passed
-              ? `單元 ${unit.id} 已完成，下一個單元已解鎖。`
-              : `你需要 ${unit.passThreshold} 題才合格。先看上面的解釋，再重做一次。`}
-          </p>
-          {!passed && (
-            <button
-              onClick={reset}
-              className="mt-4 rounded-full bg-blue-800 px-8 py-2.5 font-semibold text-white"
-            >
-              再做一次
-            </button>
-          )}
-        </div>
+        <GateResult
+          passCount={passCount}
+          total={questions.length}
+          pass={unit.passThreshold}
+          passed={passed}
+          unitId={unit.id}
+          unlocked={unlockedNow}
+          next={nextUnit ? toRef(nextUnit) : undefined}
+          onRetry={reset}
+          onOpenUnit={onOpenUnit}
+        />
       )}
     </div>
   );
