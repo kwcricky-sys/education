@@ -3,7 +3,7 @@ import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
 export const metadata = createPageMetadata({
   title: `私隱政策 | ${SITE_NAME}`,
-  description: `${SITE_NAME} 私隱政策：說明本網站如何使用 Cookies、廣告與本機資料，以及如何聯絡我們。`,
+  description: `${SITE_NAME} 私隱政策：說明本網站如何使用 Cookies 與本機資料，以及如何聯絡我們。`,
   path: "/privacy",
 });
 
@@ -33,10 +33,10 @@ export default function PrivacyPage() {
         </section>
 
         <section className="space-y-2">
-          <h2 className="text-lg font-semibold text-slate-900">3. Cookies 與廣告</h2>
+          <h2 className="text-lg font-semibold text-slate-900">3. Cookies</h2>
           <p>
             本網站使用 Cookies
-            以改善用戶體驗。你可以透過瀏覽器設定管理
+            以改善用戶體驗，並不展示第三方廣告。你可以透過瀏覽器設定管理
             Cookies；繼續使用本網站即表示你知悉相關用途。
           </p>
         </section>
