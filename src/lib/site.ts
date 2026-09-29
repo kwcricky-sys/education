@@ -3,10 +3,19 @@ export const SITE_URL = "https://dse.hkxoptima.com";
 export const SITE_NAME = "DSE.hack";
 export const SITE_NAME_EN = "DSE.hack";
 /** Brand descriptor — shown under the name across the site. */
-export const SITE_TAGLINE = "Hong Kong EdTech AI Lab";
+export const SITE_TAGLINE = "香港 DSE 免費自修室";
 /** Longer footer line. */
 export const SITE_TAGLINE_FULL =
-  "Hong Kong EdTech AI Lab — 專注 DSE 適應性測評與極速記憶工廠。";
+  "香港 DSE 免費自修室：中文範文閃卡同診斷室、English／ECON 自學路徑、溫習片庫同 JUPAS 揀科數據。免登入，進度只存你部機。";
+
+export const HKEAA_URL = "https://www.hkeaa.edu.hk/tc/hkdse/";
+
+/** Sister product — primary-school admissions (升小). */
+export const SISTER_SITE = {
+  name: "升小極優",
+  url: "https://primary.hkxoptima.com",
+  blurb: "小一選校、直私報名日曆同面試準備",
+} as const;
 
 /** Default SEO title (root layout + homepage). */
 export const SITE_TITLE =
