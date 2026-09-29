@@ -13,11 +13,13 @@ import {
   Languages,
   Layers,
   PlayCircle,
+  Route,
   Sigma,
   Sparkles,
   Zap,
 } from "lucide-react";
 import { JsonLd } from "@/components/seo/json-ld";
+import { Eyebrow, SectionHeading, TrustChips } from "@/components/site/trust-ui";
 import { getDrillBank } from "@/lib/dse/drills";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
@@ -28,7 +30,7 @@ import { VIDEO_SUBJECTS, getVideoLibrary } from "@/lib/dse/videos";
 import { PROGRAMMES } from "@/lib/jupas/programmes";
 import { createPageMetadata } from "@/lib/page-metadata";
 import { buildBreadcrumbJsonLd } from "@/lib/seo";
-import { SITE_NAME } from "@/lib/site";
+import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
 /* ------------------------------------------------------------------ *
  * Counts — every number on this page is read from the content data,
@@ -81,87 +83,19 @@ export const metadata = createPageMetadata({
   ],
 });
 
-/* ------------------------------------------------------------------ *
- * Design tokens
- * ------------------------------------------------------------------ */
-
-type SubjectMeta = {
-  icon: typeof Languages;
-  /** icon chip: text colour + tint + ring */
-  accent: string;
-  /** left accent bar on the card */
-  bar: string;
-  /** small count chip inside resource rows */
-  chip: string;
-  /** resource-row hover border */
-  rowHover: string;
+const SUBJECT_ICON: Record<string, typeof Languages> = {
+  chinese: BookOpen,
+  english: Languages,
+  econ: Sigma,
+  math: Calculator,
+  m2: Layers,
+  physics: Atom,
+  chemistry: FlaskConical,
+  biology: Dna,
 };
 
-const SUBJECT_META: Record<string, SubjectMeta> = {
-  chinese: {
-    icon: BookOpen,
-    accent: "text-sky-400 bg-sky-400/10 ring-sky-400/20",
-    bar: "bg-sky-500",
-    chip: "bg-sky-400/10 text-sky-300",
-    rowHover: "hover:border-sky-400/50",
-  },
-  english: {
-    icon: Languages,
-    accent: "text-emerald-400 bg-emerald-400/10 ring-emerald-400/20",
-    bar: "bg-emerald-500",
-    chip: "bg-emerald-400/10 text-emerald-300",
-    rowHover: "hover:border-emerald-400/50",
-  },
-  econ: {
-    icon: Sigma,
-    accent: "text-amber-400 bg-amber-400/10 ring-amber-400/20",
-    bar: "bg-amber-500",
-    chip: "bg-amber-400/10 text-amber-300",
-    rowHover: "hover:border-amber-400/50",
-  },
-  math: {
-    icon: Calculator,
-    accent: "text-slate-700 bg-slate-100 ring-slate-200",
-    bar: "bg-zinc-500",
-    chip: "bg-slate-100 text-slate-700",
-    rowHover: "hover:border-slate-300",
-  },
-  m2: {
-    icon: Layers,
-    accent: "text-indigo-400 bg-indigo-400/10 ring-indigo-400/20",
-    bar: "bg-indigo-500",
-    chip: "bg-indigo-400/10 text-indigo-300",
-    rowHover: "hover:border-indigo-400/50",
-  },
-  physics: {
-    icon: Atom,
-    accent: "text-cyan-400 bg-cyan-400/10 ring-cyan-400/20",
-    bar: "bg-cyan-500",
-    chip: "bg-cyan-400/10 text-cyan-300",
-    rowHover: "hover:border-cyan-400/50",
-  },
-  chemistry: {
-    icon: FlaskConical,
-    accent: "text-violet-400 bg-violet-400/10 ring-violet-400/20",
-    bar: "bg-violet-500",
-    chip: "bg-violet-400/10 text-violet-300",
-    rowHover: "hover:border-violet-400/50",
-  },
-  biology: {
-    icon: Dna,
-    accent: "text-lime-400 bg-lime-400/10 ring-lime-400/20",
-    bar: "bg-lime-500",
-    chip: "bg-lime-400/10 text-lime-300",
-    rowHover: "hover:border-lime-400/50",
-  },
-  others: {
-    icon: Globe2,
-    accent: "text-rose-400 bg-rose-400/10 ring-rose-400/20",
-    bar: "bg-rose-400",
-    chip: "bg-slate-100 text-slate-600",
-    rowHover: "hover:border-slate-300",
-  },
-};
+/** Subjects with a full learning path; the rest are video-only for now. */
+const CORE_SUBJECT_IDS = ["chinese", "english", "econ"] as const;
 
 type Resource = {
   href: string;
@@ -283,36 +217,43 @@ const SUBJECT_RESOURCES: Record<string, Resource[]> = {
   ],
 };
 
-const STATS = [
+const START_STEPS = [
   {
-    label: "中文範文閃卡",
-    value: `${CHINESE_CARD_COUNT} 題`,
-    note: `${TEXT_COUNT} 篇指定文言經典`,
-    tone: "text-sky-400",
+    href: "/dse/chinese/cat",
+    icon: Activity,
+    title: "先做中文診斷",
+    detail: "十幾題估到範文等級，睇清邊個技能要補。",
   },
   {
-    label: "English 自學路徑",
-    value: `${ENGLISH_LESSON_COUNT} 課`,
-    note: `${ENGLISH_UNITS.length} 單元＋${ENGLISH_DRILL_COUNT} 題練習`,
-    tone: "text-emerald-400",
+    href: "/dse/english/learn",
+    icon: Route,
+    title: "跟自學路徑過關",
+    detail: `English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課，一課一課解鎖。`,
   },
   {
-    label: "ECON 課程",
-    value: `${ECON_LESSON_COUNT} 課`,
-    note: `${ECON_UNITS.length} 單元＋${ECON_DRILL_COUNT} 題練習`,
-    tone: "text-amber-400",
-  },
-  {
-    label: "精選溫習片",
-    value: `${TOTAL_VIDEO_COUNT} 條`,
-    note: `${VIDEO_SUBJECTS.length} 科策展片庫`,
-    tone: "text-rose-400",
+    href: "/dse/jupas",
+    icon: GraduationCap,
+    title: "考完排 JUPAS",
+    detail: `${PROGRAMMES.length} 個課程真實收生分數，排你嘅 Band A。`,
   },
 ] as const;
 
 export default function DseHomePage() {
+  const coreSubjects = CORE_SUBJECT_IDS.map((id) =>
+    DSE_SUBJECTS.find((s) => s.id === id),
+  ).filter((s) => s !== undefined);
+  const otherSubjects = DSE_SUBJECTS.filter(
+    (s) => !(CORE_SUBJECT_IDS as readonly string[]).includes(s.id),
+  );
+  const videoSubjects = otherSubjects.filter(
+    (s) => s.open && (SUBJECT_RESOURCES[s.id]?.length ?? 0) > 0,
+  );
+  const closedSubjects = otherSubjects.filter(
+    (s) => !videoSubjects.includes(s),
+  );
+
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       <JsonLd
         data={buildBreadcrumbJsonLd([
           { name: "首頁", path: "/" },
@@ -320,333 +261,311 @@ export default function DseHomePage() {
         ])}
       />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white/80 px-6 py-14 text-center shadow-lg backdrop-blur-md sm:px-12 sm:py-16">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(56,189,248,0.16),transparent_55%),radial-gradient(ellipse_at_80%_80%,rgba(99,102,241,0.08),transparent_45%)]"
-        />
-        <div className="relative">
-          <h1 className="font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+      {/* Hero + 第一次嚟 */}
+      <section className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,1fr)] lg:items-stretch">
+        <div className="flex flex-col justify-center py-2">
+          <Eyebrow>DSE 學習專區</Eyebrow>
+          <h1 className="mt-3 font-[family-name:var(--font-serif-zh)] text-[2rem] leading-tight font-bold tracking-tight text-navy sm:text-[2.6rem]">
             DSE 學習與備考專區
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
-            唔止中文科。中文 {TEXT_COUNT} 篇指定範文閃卡、English{" "}
-            {ENGLISH_LESSON_COUNT} 課自學路徑、ECON 課程、{VIDEO_SUBJECTS.length}{" "}
-            科 {TOTAL_VIDEO_COUNT} 條溫習片，再加 {PROGRAMMES.length}{" "}
-            個聯招課程嘅真實收生分數——全部免費、免登入，進度只存你部機。
+          <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ink-muted sm:text-base">
+            中文 {TEXT_COUNT} 篇指定範文 {CHINESE_CARD_COUNT} 題閃卡、English{" "}
+            {ENGLISH_LESSON_COUNT} 課自學路徑、ECON {ECON_LESSON_COUNT} 課、
+            {VIDEO_SUBJECTS.length} 科 {TOTAL_VIDEO_COUNT} 條溫習片，再加{" "}
+            {PROGRAMMES.length} 個聯招課程嘅真實收生分數。
           </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <Link
-              href="/dse/chinese"
-              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-sky-500 to-cyan-400 px-6 py-3 text-sm font-bold text-zinc-950 shadow-lg shadow-sky-500/25 transition-all duration-300 hover:scale-[1.02] hover:brightness-110"
-            >
-              進入中文科
-              <ArrowRight className="size-4" />
-            </Link>
-            <Link
-              href="/dse/english/learn"
-              className="inline-flex items-center gap-2 rounded-xl border border-emerald-400/40 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition-all duration-300 hover:border-emerald-400/70 hover:bg-white"
-            >
-              <Languages className="size-4 text-emerald-400" />
-              English 自學路徑
-            </Link>
-            <Link
-              href="/dse/econ/learn"
-              className="inline-flex items-center gap-2 rounded-xl border border-amber-400/40 bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition-all duration-300 hover:border-amber-400/70 hover:bg-white"
-            >
-              <Sigma className="size-4 text-amber-400" />
-              ECON 課程
-            </Link>
-          </div>
+          <TrustChips className="mt-5" />
         </div>
-      </section>
 
-      {/* NEW features showcase */}
-      <section className="space-y-3">
-        <div className="flex items-end justify-between gap-3">
-          <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900 sm:text-2xl">
-            <span className="mr-2 inline-block rounded-md bg-gradient-to-r from-violet-500 to-fuchsia-500 px-2 py-0.5 align-middle text-xs font-bold tracking-wide text-white">
-              NEW
-            </span>
-            全新登場
-          </h2>
-        </div>
-        <div className="grid gap-4 md:grid-cols-3">
-          <Link
-            href="/dse/jupas"
-            className="group relative overflow-hidden rounded-xl border border-violet-400/30 bg-gradient-to-br from-violet-50 via-white to-slate-50 p-6 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-violet-400/60 hover:shadow-violet-500/10"
-          >
-            <div className="flex items-center gap-3">
-              <span className="flex size-11 items-center justify-center rounded-xl bg-violet-400/10 ring-1 ring-violet-400/30">
-                <Calculator className="size-5 text-violet-400" />
-              </span>
-              <h3 className="font-[family-name:var(--font-display)] text-lg font-bold text-slate-900">
-                JUPAS 揀科指南
-              </h3>
-            </div>
-            <p className="mt-3 text-sm leading-relaxed text-slate-600">
-              {PROGRAMMES.length} 個聯招課程真實收分中位數＋畢業生薪酬，邊科係「分數溢價」、邊科係水泡寶藏，逐科計埋「分數效益」畀你睇。
-            </p>
-            <p className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-violet-400">
-              計吓你嘅入學機會
-              <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </p>
-          </Link>
-          <Link
-            href="/dse/videos"
-            className="group relative overflow-hidden rounded-xl border border-rose-400/30 bg-gradient-to-br from-rose-50 via-white to-slate-50 p-6 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-rose-400/60 hover:shadow-rose-500/10"
-          >
-            <div className="flex items-center gap-3">
-              <span className="flex size-11 items-center justify-center rounded-xl bg-rose-400/10 ring-1 ring-rose-400/30">
-                <PlayCircle className="size-5 text-rose-400" />
-              </span>
-              <h3 className="font-[family-name:var(--font-display)] text-lg font-bold text-slate-900">
-                溫習片庫
-              </h3>
-            </div>
-            <p className="mt-3 text-sm leading-relaxed text-slate-600">
-              {VIDEO_SUBJECTS.length} 科共 {TOTAL_VIDEO_COUNT}{" "}
-              條精選教學片，每條幫你寫好摘要、重點筆記同「邊個階段睇」——唔係片單，係策展分析，慳你盲搵片嘅時間。
-            </p>
-            <p className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-rose-400">
-              睇片溫書不求人
-              <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </p>
-          </Link>
-          <Link
-            href="/dse/english/learn"
-            className="group relative overflow-hidden rounded-xl border border-emerald-400/30 bg-gradient-to-br from-emerald-50 via-white to-slate-50 p-6 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-emerald-400/60 hover:shadow-emerald-500/10"
-          >
-            <div className="flex items-center gap-3">
-              <span className="flex size-11 items-center justify-center rounded-xl bg-emerald-400/10 ring-1 ring-emerald-400/30">
-                <Languages className="size-5 text-emerald-400" />
-              </span>
-              <h3 className="font-[family-name:var(--font-display)] text-lg font-bold text-slate-900">
-                English 自學路徑
-              </h3>
-            </div>
-            <p className="mt-3 text-sm leading-relaxed text-slate-600">
-              {ENGLISH_UNITS.length} 個單元 {ENGLISH_LESSON_COUNT}{" "}
-              課由零開始：Reading／Writing／Listening／Speaking／Grammar，每課拆解「考生成日錯喺邊」，過關制練習即刻驗收。
-            </p>
-            <p className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-400">
-              由第一課開始
-              <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </p>
-          </Link>
-        </div>
-      </section>
-
-      {/* Stats — all figures read from the content data */}
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        {STATS.map((s) => (
-          <div
-            key={s.label}
-            className="rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-lg"
-          >
-            <p className="text-[10px] font-semibold tracking-[0.2em] text-slate-500 uppercase">
-              {s.label}
-            </p>
-            <p
-              className={`mt-2 font-[family-name:var(--font-display)] text-2xl font-extrabold ${s.tone}`}
-            >
-              {s.value}
-            </p>
-            <p className="mt-1 text-xs text-slate-500">{s.note}</p>
-          </div>
-        ))}
-      </section>
-
-      {/* Subjects — every resource of every subject, on the subject's own row */}
-      <section id="subjects" className="space-y-4">
-        <div className="flex flex-wrap items-end justify-between gap-3">
-          <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900 sm:text-2xl">
-            主修與選修科目
-          </h2>
-          <span className="text-xs font-medium text-slate-500">
-            全部資源免費、免登入 · 進度只存本機
-          </span>
-        </div>
-        <div className="grid gap-4 lg:grid-cols-2">
-          {DSE_SUBJECTS.map((s) => {
-            const meta = SUBJECT_META[s.id] ?? SUBJECT_META.others;
-            const Icon = meta.icon;
-            const resources = SUBJECT_RESOURCES[s.id] ?? [];
-            const isLive = s.open && resources.length > 0;
-
-            return (
-              <div
-                key={s.id}
-                className={`relative overflow-hidden rounded-xl border border-slate-200 bg-white p-5 shadow-lg transition-all duration-300 hover:border-slate-300 hover:bg-slate-100 ${
-                  isLive ? "" : "opacity-70"
-                }`}
-              >
-                <span
-                  aria-hidden
-                  className={`absolute inset-y-3 left-0 w-1 rounded-full ${meta.bar}`}
-                />
-                <div className="flex items-start gap-4">
-                  <span
-                    className={`ml-1 flex size-11 shrink-0 items-center justify-center rounded-xl ring-1 ${meta.accent}`}
+        <div className="rounded-2xl bg-navy p-5 text-cream sm:p-6">
+          <p className="text-xs font-extrabold tracking-[0.2em] text-gold">
+            第一次嚟？三步開始
+          </p>
+          <ol className="mt-4 space-y-2.5">
+            {START_STEPS.map((step, i) => {
+              const Icon = step.icon;
+              return (
+                <li key={step.href}>
+                  <Link
+                    href={step.href}
+                    className="group flex items-center gap-3 rounded-xl border border-cream/15 bg-cream/5 px-4 py-3 transition-colors hover:border-gold/60 hover:bg-cream/10"
                   >
-                    <Icon className="size-5" />
+                    <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-gold font-[family-name:var(--font-brand)] text-sm font-extrabold text-navy">
+                      {i + 1}
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="flex items-center gap-1.5 text-sm font-bold text-cream">
+                        <Icon className="size-3.5 text-gold" aria-hidden />
+                        {step.title}
+                      </span>
+                      <span className="mt-0.5 block text-xs leading-relaxed text-cream/70">
+                        {step.detail}
+                      </span>
+                    </span>
+                    <ArrowRight
+                      className="size-4 shrink-0 text-cream/60 transition-transform group-hover:translate-x-0.5"
+                      aria-hidden
+                    />
+                  </Link>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      </section>
+
+      {/* 三科完整路徑 */}
+      <section aria-labelledby="core-heading" className="space-y-5">
+        <SectionHeading
+          id="core-heading"
+          eyebrow="完整學習路徑"
+          title="中文 · English · ECON"
+        />
+        <div className="grid gap-4 lg:grid-cols-3">
+          {coreSubjects.map((s) => {
+            const Icon = SUBJECT_ICON[s.id] ?? Globe2;
+            const resources = SUBJECT_RESOURCES[s.id] ?? [];
+            return (
+              <article
+                key={s.id}
+                id={s.id}
+                className="flex scroll-mt-28 flex-col rounded-2xl border border-line bg-white p-5 shadow-[var(--shadow-card)]"
+              >
+                <div className="flex items-start gap-3.5">
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-navy text-gold">
+                    <Icon className="size-5" aria-hidden />
                   </span>
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-2">
-                      <h3 className="font-semibold text-slate-900">{s.name}</h3>
-                      {isLive ? (
-                        <span className="rounded-md bg-emerald-400/10 px-2 py-0.5 text-[10px] font-bold tracking-wide text-emerald-400">
-                          已開放 {resources.length} 項
-                        </span>
-                      ) : (
-                        <span className="rounded-md bg-slate-100 px-2 py-0.5 text-[10px] font-bold tracking-wide text-slate-500">
-                          即將推出
-                        </span>
-                      )}
+                      <h3 className="font-[family-name:var(--font-serif-zh)] text-lg font-bold text-navy">
+                        {s.name}
+                      </h3>
+                      <span className="rounded-full bg-cream px-2 py-0.5 text-[11px] font-bold text-gold-ink ring-1 ring-line">
+                        {resources.length} 項資源
+                      </span>
                     </div>
-                    <p className="mt-0.5 text-xs text-slate-500">{s.nameEn}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                      {s.desc}
-                    </p>
+                    <p className="mt-0.5 text-xs text-ink-faint">{s.nameEn}</p>
                   </div>
                 </div>
-
-                {resources.length > 0 ? (
-                  <ul className="mt-4 space-y-2.5">
-                    {resources.map((r) => (
-                      <li key={r.href}>
-                        <Link
-                          href={r.href}
-                          className={`group flex items-start gap-3 rounded-lg border border-slate-200 bg-slate-50/50 px-4 py-3 transition-all duration-300 hover:bg-white ${meta.rowHover}`}
-                        >
-                          <span className="min-w-0 flex-1">
-                            <span className="flex flex-wrap items-center gap-2">
-                              <span className="text-sm font-semibold text-slate-900">
-                                {r.label}
-                              </span>
-                              <span
-                                className={`rounded-md px-2 py-0.5 text-[10px] font-bold tracking-wide ${meta.chip}`}
-                              >
-                                {r.count}
-                              </span>
+                <p className="mt-3 text-sm leading-relaxed text-ink-muted">
+                  {s.desc}
+                </p>
+                <ul className="mt-4 flex-1 space-y-2">
+                  {resources.map((r) => (
+                    <li key={r.href}>
+                      <Link
+                        href={r.href}
+                        className="group flex items-start gap-3 rounded-xl border border-line bg-cream/40 px-3.5 py-3 transition-colors hover:border-navy/40 hover:bg-white"
+                      >
+                        <span className="min-w-0 flex-1">
+                          <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                            <span className="text-sm font-bold text-navy">
+                              {r.label}
                             </span>
-                            <span className="mt-1 block text-xs leading-relaxed text-slate-600">
-                              {r.detail}
+                            <span className="rounded-full bg-navy/5 px-2 py-0.5 text-[11px] font-bold text-navy">
+                              {r.count}
                             </span>
                           </span>
-                          <ArrowRight className="mt-1 size-4 shrink-0 text-slate-500 transition-transform duration-300 group-hover:translate-x-1" />
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="mt-4 rounded-lg border border-dashed border-slate-200 bg-white px-4 py-3 text-xs text-slate-500">
-                    呢一科未有內容，暫時未開放。想我哋優先做邊科，可以經頁尾電郵話我哋知。
-                  </p>
-                )}
-              </div>
+                          <span className="mt-1 block text-xs leading-relaxed text-ink-muted">
+                            {r.detail}
+                          </span>
+                        </span>
+                        <ArrowRight
+                          className="mt-1 size-4 shrink-0 text-ink-faint transition-transform group-hover:translate-x-0.5 group-hover:text-navy"
+                          aria-hidden
+                        />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </article>
             );
           })}
         </div>
       </section>
 
-      {/* JUPAS — 升學規劃 */}
-      <section className="rounded-xl border border-violet-400/25 bg-gradient-to-r from-violet-50 via-white to-slate-50 p-6 shadow-lg">
-        <div className="flex items-center gap-2 text-violet-400">
-          <GraduationCap className="size-4" />
-          <p className="text-xs font-bold tracking-wide">升學規劃</p>
-        </div>
-        <h2 className="mt-3 font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
-          考完之後，點揀科？
-        </h2>
-        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600">
-          收生分數同出路係兩條獨立嘅線。用 {PROGRAMMES.length}{" "}
-          個聯招課程嘅真實收生數據同公開薪酬，計清你嘅 Band A 排位。
+      {/* 其他科：溫習片先行 */}
+      <section aria-labelledby="other-heading" className="space-y-5">
+        <SectionHeading
+          id="other-heading"
+          eyebrow="溫習片先行"
+          title="其他科目"
+          action={{ href: "/dse/videos", label: "睇全部溫習片" }}
+        />
+        <p className="-mt-2 max-w-2xl text-sm leading-relaxed text-ink-muted">
+          呢幾科暫時未有自學路徑，先用策展溫習片打底——每條附摘要、重點筆記同「邊個階段睇」。
         </p>
-        <div className="mt-5 grid gap-3 sm:grid-cols-2">
-          <Link
-            href="/dse/jupas"
-            className="group flex items-center justify-between gap-3 rounded-lg border border-slate-200 bg-slate-50/50 px-4 py-3 transition-all duration-300 hover:border-violet-400/50 hover:bg-white"
-          >
-            <span>
-              <span className="block text-sm font-semibold text-slate-900">
-                JUPAS 揀科指南
+        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {videoSubjects.map((s) => {
+            const Icon = SUBJECT_ICON[s.id] ?? Globe2;
+            const resource = SUBJECT_RESOURCES[s.id]?.[0];
+            if (!resource) return null;
+            return (
+              <li key={s.id} id={s.id} className="scroll-mt-28">
+                <Link
+                  href={resource.href}
+                  className="panel-lift group flex h-full items-center gap-3.5 rounded-2xl border border-line bg-white px-4 py-4"
+                >
+                  <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-cream text-navy ring-1 ring-line">
+                    <Icon className="size-5" aria-hidden />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate font-[family-name:var(--font-serif-zh)] text-base font-bold text-navy">
+                      {s.name}
+                    </span>
+                    <span className="mt-0.5 flex items-center gap-1.5 text-xs text-ink-muted">
+                      <PlayCircle className="size-3.5 text-gold-ink" aria-hidden />
+                      {resource.count}溫習片
+                    </span>
+                  </span>
+                  <ArrowRight
+                    className="size-4 shrink-0 text-ink-faint transition-transform group-hover:translate-x-0.5 group-hover:text-navy"
+                    aria-hidden
+                  />
+                </Link>
+              </li>
+            );
+          })}
+          {closedSubjects.map((s) => (
+            <li
+              key={s.id}
+              id={s.id}
+              className="flex scroll-mt-28 items-center gap-3.5 rounded-2xl border border-dashed border-line bg-cream/60 px-4 py-4"
+            >
+              <span className="flex size-10 shrink-0 items-center justify-center rounded-xl text-ink-faint ring-1 ring-line">
+                <Globe2 className="size-5" aria-hidden />
               </span>
-              <span className="mt-1 block text-xs text-slate-600">
-                流程時間表、Band A 策略、「分數效益」逐科計
+              <span className="min-w-0 flex-1">
+                <span className="block truncate font-[family-name:var(--font-serif-zh)] text-base font-bold text-ink-muted">
+                  {s.name}
+                </span>
+                <span className="mt-0.5 block text-xs text-ink-faint">
+                  未開放 ·{" "}
+                  <a
+                    href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`想優先做：${s.name}`)}`}
+                    className="font-semibold text-navy underline underline-offset-2"
+                  >
+                    想我哋優先做？話我哋知
+                  </a>
+                </span>
               </span>
-            </span>
-            <ArrowRight className="size-4 shrink-0 text-slate-500 transition-transform duration-300 group-hover:translate-x-1" />
-          </Link>
-          <Link
-            href="/dse/jupas/compare"
-            className="group flex items-center justify-between gap-3 rounded-lg border border-slate-200 bg-slate-50/50 px-4 py-3 transition-all duration-300 hover:border-violet-400/50 hover:bg-white"
-          >
-            <span>
-              <span className="block text-sm font-semibold text-slate-900">
-                課程比較工具
-              </span>
-              <span className="mt-1 block text-xs text-slate-600">
-                 2–3 科並排對比，即刻睇穩入／有機／陪跑
-              </span>
-            </span>
-            <ArrowRight className="size-4 shrink-0 text-slate-500 transition-transform duration-300 group-hover:translate-x-1" />
-          </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* JUPAS — 升學規劃 */}
+      <section
+        id="jupas"
+        aria-labelledby="jupas-heading"
+        className="relative isolate scroll-mt-28 overflow-hidden rounded-2xl bg-navy p-6 text-cream sm:p-8"
+      >
+        <div
+          aria-hidden
+          className="absolute inset-0 -z-10 bg-[radial-gradient(90%_120%_at_100%_0%,rgba(196,163,90,0.22)_0%,rgba(11,31,58,0)_60%)]"
+        />
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center">
+          <div>
+            <p className="flex items-center gap-2 text-xs font-extrabold tracking-[0.2em] text-gold">
+              <GraduationCap className="size-4" aria-hidden />
+              升學規劃
+            </p>
+            <h2
+              id="jupas-heading"
+              className="mt-3 font-[family-name:var(--font-serif-zh)] text-2xl font-bold"
+            >
+              考完之後，點揀科？
+            </h2>
+            <p className="mt-2 max-w-xl text-sm leading-relaxed text-cream/75">
+              收生分數同出路係兩條獨立嘅線。用 {PROGRAMMES.length}{" "}
+              個聯招課程嘅真實收生數據同公開薪酬，計清你嘅 Band A 排位。
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {[
+              {
+                href: "/dse/jupas",
+                title: "JUPAS 揀科指南",
+                detail: "流程時間表、Band A 策略、「分數效益」逐科計",
+              },
+              {
+                href: "/dse/jupas/compare",
+                title: "課程比較工具",
+                detail: "2–3 科並排對比，即刻睇穩入／有機／陪跑",
+              },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="group flex items-center justify-between gap-3 rounded-xl border border-cream/15 bg-cream/5 px-4 py-3.5 transition-colors hover:border-gold/60 hover:bg-cream/10"
+              >
+                <span>
+                  <span className="block text-sm font-bold text-cream">
+                    {link.title}
+                  </span>
+                  <span className="mt-1 block text-xs text-cream/70">
+                    {link.detail}
+                  </span>
+                </span>
+                <ArrowRight
+                  className="size-4 shrink-0 text-gold transition-transform group-hover:translate-x-0.5"
+                  aria-hidden
+                />
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* How to use */}
       <section className="grid gap-4 md:grid-cols-2">
-        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-lg">
-          <div className="flex items-center gap-2 text-cyan-400">
-            <Activity className="size-4" />
-            <p className="text-xs font-bold tracking-wide">診斷先行</p>
-          </div>
-          <h2 className="mt-3 font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
+        <div className="rounded-2xl border border-line bg-white p-6">
+          <p className="flex items-center gap-2 text-xs font-extrabold tracking-[0.2em] text-gold-ink">
+            <Activity className="size-4" aria-hidden />
+            診斷先行
+          </p>
+          <h2 className="mt-3 font-[family-name:var(--font-serif-zh)] text-xl font-bold text-navy">
             唔知弱喺邊，先做診斷
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          <p className="mt-2 text-sm leading-relaxed text-ink-muted">
             範文／閱讀／經濟各有課題練習。想知自己整體水平，就直接入中文科嘅
             AI 診斷室，做完會話你邊個技能位要補，唔使盲做幾百題。
           </p>
           <Link
             href="/dse/chinese/cat"
-            className="mt-6 inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-all duration-300 hover:border-cyan-500/40 hover:text-cyan-400"
+            className="btn-navy mt-6 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold"
           >
-            <Zap className="size-3.5" />
+            <Zap className="size-3.5" aria-hidden />
             入診斷室
-            <ArrowRight className="size-3.5" />
+            <ArrowRight className="size-3.5" aria-hidden />
           </Link>
         </div>
 
-        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-lg">
-          <div className="flex items-center gap-2 text-emerald-400">
-            <BookMarked className="size-4" />
-            <p className="text-xs font-bold tracking-wide">進度閉環</p>
-          </div>
-          <h2 className="mt-3 font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
+        <div className="rounded-2xl border border-line bg-white p-6">
+          <p className="flex items-center gap-2 text-xs font-extrabold tracking-[0.2em] text-gold-ink">
+            <BookMarked className="size-4" aria-hidden />
+            進度閉環
+          </p>
+          <h2 className="mt-3 font-[family-name:var(--font-serif-zh)] text-xl font-bold text-navy">
             錯咗嘅題，唔會消失
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          <p className="mt-2 text-sm leading-relaxed text-ink-muted">
             練習同診斷嘅錯題自動入錯題本，可以按範文、難度重測。全部記錄只存你部機——零登入、零雲端同步壓力。
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/dse/chinese/error-notebook"
-              className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-all duration-300 hover:border-emerald-500/40 hover:text-emerald-400"
+              className="inline-flex items-center gap-2 rounded-full border border-navy/25 bg-white px-5 py-2.5 text-sm font-bold text-navy transition-colors hover:border-navy"
             >
-              <Sparkles className="size-3.5" />
+              <Sparkles className="size-3.5" aria-hidden />
               開錯題本
-              <ArrowRight className="size-3.5" />
             </Link>
             <Link
               href="/dse/videos"
-              className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-800 transition-all duration-300 hover:border-rose-500/40 hover:text-rose-400"
+              className="inline-flex items-center gap-2 rounded-full border border-navy/25 bg-white px-5 py-2.5 text-sm font-bold text-navy transition-colors hover:border-navy"
             >
-              <PlayCircle className="size-3.5" />
+              <PlayCircle className="size-3.5" aria-hidden />
               睇片庫
-              <ArrowRight className="size-3.5" />
             </Link>
           </div>
         </div>

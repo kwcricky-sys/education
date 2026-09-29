@@ -66,7 +66,7 @@ export default async function TopicPage({ params }: Props) {
         <span className="mx-2">›</span>
         <span>{pretty}</span>
       </nav>
-      <h1 className="text-3xl font-bold capitalize">
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold text-navy capitalize">
         DSE {name}: {pretty}
       </h1>
       <p className="mt-3 text-black/70">

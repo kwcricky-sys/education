@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { Inter, Noto_Sans_TC, Sora } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Inter, Noto_Sans_TC, Noto_Serif_TC, Sora } from "next/font/google";
 import { CookieConsent } from "@/components/site/cookie-consent";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildWebSiteJsonLd } from "@/lib/seo";
@@ -25,12 +25,23 @@ const bodyFont = Noto_Sans_TC({
   display: "swap",
 });
 
-const displayFont = Sora({
-  variable: "--font-display",
+const brandFont = Sora({
+  variable: "--font-brand",
   subsets: ["latin"],
   weight: ["500", "600", "700", "800"],
   display: "swap",
 });
+
+const serifFont = Noto_Serif_TC({
+  variable: "--font-serif-zh",
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  display: "swap",
+});
+
+export const viewport: Viewport = {
+  themeColor: "#0B1F3A",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -82,7 +93,7 @@ export default function RootLayout({
   return (
     <html
       lang="zh-HK"
-      className={`${sansFont.variable} ${bodyFont.variable} ${displayFont.variable} h-full antialiased`}
+      className={`${sansFont.variable} ${bodyFont.variable} ${brandFont.variable} ${serifFont.variable} h-full antialiased`}
     >
       <head>
         <link

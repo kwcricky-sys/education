@@ -17,8 +17,8 @@ export default function OpenGraphImage() {
           justifyContent: "center",
           padding: 72,
           background:
-            "linear-gradient(145deg, #030712 0%, #070b14 40%, #0c1a2e 100%)",
-          color: "#f8fafc",
+            "radial-gradient(circle at 88% 8%, rgba(196,163,90,0.32) 0%, rgba(11,31,58,0) 45%), linear-gradient(145deg, #0B1F3A 0%, #163056 100%)",
+          color: "#F7F3EA",
         }}
       >
         <div
@@ -28,11 +28,11 @@ export default function OpenGraphImage() {
             gap: 12,
             fontSize: 22,
             letterSpacing: 2,
-            color: "#00f2fe",
+            color: "#C4A35A",
             fontWeight: 600,
           }}
         >
-          ⚡️ AI Powered · CAT System
+          DSE 自修室 · 免費 · 免登入
         </div>
         <div
           style={{
@@ -48,23 +48,23 @@ export default function OpenGraphImage() {
           style={{
             fontSize: 32,
             marginTop: 20,
-            color: "#94a3b8",
+            color: "#F7F3EA",
             maxWidth: 900,
             lineHeight: 1.35,
           }}
         >
-          用 AI 10 題 Hack 穿你嘅 DSE 盲點
+          中文範文閃卡、診斷室、English／ECON 自學路徑、JUPAS 揀科
         </div>
         <div
           style={{
             marginTop: 28,
             fontSize: 18,
-            color: "#64748b",
+            color: "#C4A35A",
             maxWidth: 900,
             lineHeight: 1.4,
           }}
         >
-          AI CAT 適應性評估 · 12 篇範文閃卡
+          dse.hkxoptima.com
         </div>
       </div>
     ),

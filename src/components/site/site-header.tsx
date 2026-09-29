@@ -1,58 +1,87 @@
+"use client";
+
 import Link from "next/link";
-import { SITE_NAME } from "@/lib/site";
-import { PRIMARY_NAV } from "@/lib/nav";
+import { usePathname } from "next/navigation";
+import { Activity } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { HEADER_CTA, SITE_NAV, isNavItemActive } from "@/lib/nav";
 
 export function SiteHeader() {
+  const pathname = usePathname() ?? "/";
+
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/85 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
+    <header className="sticky top-0 z-50 bg-navy text-cream print:hidden">
+      <div className="mx-auto flex h-16 w-full max-w-[1160px] items-center justify-between gap-4 px-4 sm:px-6">
         <Link
           href="/"
-          className="group flex min-w-0 items-center gap-3 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-blue-700/50"
+          aria-label="DSE.hack 首頁"
+          className="flex shrink-0 items-baseline gap-2.5 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-gold"
         >
-          <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-blue-700/10 font-[family-name:var(--font-display)] text-sm font-extrabold text-blue-700 ring-1 ring-blue-700/25 transition group-hover:scale-[1.03]">
-            H
+          <span className="font-[family-name:var(--font-brand)] text-[1.35rem] leading-none font-extrabold tracking-tight">
+            <span className="text-cream">DSE</span>
+            <span className="text-gold">.hack</span>
           </span>
-          <span className="min-w-0 leading-tight">
-            <span className="flex items-center gap-2">
-              <span className="font-[family-name:var(--font-display)] text-base font-bold tracking-tight text-slate-900 sm:text-lg">
-                {SITE_NAME}
-              </span>
-              <span className="hidden items-center gap-1 rounded-md bg-blue-700/10 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-blue-700 sm:inline-flex">
-                ⚡️ AI Powered
-              </span>
-            </span>
-            <span className="mt-0.5 block truncate text-[11px] text-slate-500 sm:text-xs">
-              EdTech AI Lab
-            </span>
+          <span className="hidden font-[family-name:var(--font-serif-zh)] text-sm font-semibold tracking-wide text-cream/70 sm:inline">
+            DSE 自修室
           </span>
         </Link>
 
-        <nav aria-label="主要導覽" className="flex items-center gap-0.5 sm:gap-1">
-          {PRIMARY_NAV.map((item) =>
-            item.open ? (
+        <nav aria-label="主要導覽" className="hidden items-center gap-0.5 md:flex">
+          {SITE_NAV.map((item) => {
+            const active = isNavItemActive(item, pathname);
+            return (
               <Link
                 key={item.href}
                 href={item.href}
-                className="rounded-lg px-2.5 py-1.5 text-xs font-medium text-slate-600 transition-all duration-300 hover:bg-slate-100 hover:text-slate-900 sm:px-3 sm:text-sm"
+                aria-current={active ? "page" : undefined}
+                className={cn(
+                  "rounded-full px-3 py-2 text-sm font-semibold transition-colors lg:px-3.5",
+                  active
+                    ? "bg-cream/10 text-cream"
+                    : "text-cream/75 hover:text-cream",
+                )}
               >
                 {item.label}
               </Link>
-            ) : (
-              <span
-                key={item.href}
-                className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm text-slate-500"
-                title="即將推出"
-              >
-                {item.label}
-                <span className="rounded-md bg-white px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-slate-500 uppercase">
-                  Soon
-                </span>
-              </span>
-            ),
-          )}
+            );
+          })}
         </nav>
+
+        <Link
+          href={HEADER_CTA.href}
+          className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-gold px-4 py-2 text-sm font-extrabold text-navy transition-colors hover:bg-gold-strong focus-visible:ring-2 focus-visible:ring-cream focus-visible:outline-none"
+        >
+          <Activity className="size-4" aria-hidden />
+          {HEADER_CTA.label}
+        </Link>
       </div>
+
+      <nav
+        aria-label="科目導覽"
+        className="border-t border-cream/10 md:hidden"
+      >
+        <ul className="mx-auto flex max-w-[1160px] justify-between gap-0.5 overflow-x-auto px-2 py-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {SITE_NAV.map((item) => {
+            const active = isNavItemActive(item, pathname);
+            return (
+              <li key={item.href} className="shrink-0">
+                <Link
+                  href={item.href}
+                  aria-current={active ? "page" : undefined}
+                  className={cn(
+                    "inline-flex rounded-full px-2.5 py-1.5 text-[13px] font-semibold transition-colors",
+                    active
+                      ? "bg-gold text-navy"
+                      : "text-cream/80 hover:text-cream",
+                  )}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     </header>
   );
 }

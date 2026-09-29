@@ -101,7 +101,7 @@ export default async function ChineseTextPracticePage({ params }: Props) {
       <div>
         <Link
           href="/dse/chinese"
-          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-sky-700"
+          className="inline-flex items-center gap-1.5 text-sm text-slate-500 transition hover:text-navy"
         >
           <ArrowLeft className="size-3.5" />
           指定範文列表
