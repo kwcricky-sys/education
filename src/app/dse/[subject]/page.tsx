@@ -87,7 +87,7 @@ export default async function DrillSubjectPage({ params }: Props) {
         <span className="mx-2">›</span>
         <span>{meta.name}</span>
       </nav>
-      <h1 className="text-3xl font-bold">
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold text-navy">
         DSE {meta.name} Free MCQ Drills
       </h1>
       <p className="mt-3 leading-relaxed text-black/70">
@@ -99,17 +99,17 @@ export default async function DrillSubjectPage({ params }: Props) {
       {subject === "english" && (
         <Link
           href="/dse/english/learn"
-          className="mt-5 flex items-center justify-between gap-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-5 transition hover:border-emerald-300"
+          className="mt-5 flex items-center justify-between gap-4 rounded-2xl bg-navy p-5 text-cream transition hover:bg-navy-soft"
         >
           <span>
-            <span className="block font-semibold text-emerald-900">
+            <span className="block font-semibold text-cream">
               English 自學路徑（由零開始）
             </span>
-            <span className="mt-1 block text-sm text-emerald-800/80">
+            <span className="mt-1 block text-sm text-cream/75">
               10 個單元：閱讀、寫作、聆聽及綜合、說話、語法、詞彙，每單元附練習關卡。
             </span>
           </span>
-          <span className="shrink-0 text-sm font-semibold text-emerald-700">
+          <span className="shrink-0 text-sm font-semibold text-gold">
             開始 →
           </span>
         </Link>

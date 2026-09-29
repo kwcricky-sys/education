@@ -254,7 +254,7 @@ export default function HomePage() {
           {HERO_STATS.map((stat) => (
             <div
               key={stat.label}
-              className="border-line px-5 py-4 max-lg:border-b lg:border-r lg:last:border-r-0"
+              className="border-line px-5 py-4 max-lg:border-b max-sm:last:col-span-2 lg:border-r lg:last:border-r-0"
             >
               <dt className="sr-only">{stat.label}</dt>
               <dd>
@@ -453,7 +453,7 @@ function HeroPanel() {
   return (
     <div
       aria-hidden
-      className="relative isolate mt-10 aspect-[16/12] overflow-hidden rounded-[1.75rem] bg-navy min-[960px]:mt-0 min-[960px]:aspect-[5/4]"
+      className="relative isolate mt-10 aspect-square overflow-hidden rounded-[1.75rem] bg-navy min-[960px]:mt-0 min-[960px]:aspect-[5/4]"
     >
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(120%_90%_at_85%_10%,rgba(196,163,90,0.28)_0%,rgba(11,31,58,0)_55%),radial-gradient(90%_80%_at_0%_100%,rgba(42,68,104,0.9)_0%,rgba(11,31,58,0)_60%)]" />
       <svg

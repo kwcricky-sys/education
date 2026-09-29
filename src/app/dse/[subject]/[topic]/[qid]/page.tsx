@@ -96,7 +96,7 @@ export default async function QuestionPage({ params }: Props) {
         <span className="text-black/40">{q.id}</span>
       </div>
 
-      <h1 className="mt-3 text-xl font-bold leading-relaxed sm:text-2xl">
+      <h1 className="mt-3 font-[family-name:var(--font-display)] text-xl font-bold leading-relaxed text-navy sm:text-2xl">
         {q.question}
       </h1>
 
