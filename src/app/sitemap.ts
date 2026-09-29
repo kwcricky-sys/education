@@ -4,75 +4,65 @@ import { getDrillBank, DRILL_SUBJECTS, questionHref } from "@/lib/dse/drills";
 import { getAllVideoLibraries } from "@/lib/dse/videos";
 import { SITE_URL } from "@/lib/site";
 
-/** DSE-only sitemap (primary school product lives on PrimaryNav). */
+/**
+ * DSE-only sitemap (primary school product lives on PrimaryNav).
+ *
+ * `lastModified` is only set where the content carries a real date (video
+ * libraries' `curatedAt`); a build timestamp on every URL tells crawlers that
+ * everything changes on every deploy, which makes lastmod meaningless.
+ * The error notebook is per-device state with no crawlable content, so it is
+ * noindex and left out.
+ */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-
   const core: MetadataRoute.Sitemap = [
-    { url: SITE_URL, lastModified: now, changeFrequency: "weekly", priority: 1 },
+    { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
     {
       url: `${SITE_URL}/dse`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.95,
     },
     {
       url: `${SITE_URL}/dse/chinese`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.95,
     },
     {
       url: `${SITE_URL}/dse/chinese/cat`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.92,
     },
     {
-      url: `${SITE_URL}/dse/chinese/error-notebook`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
       url: `${SITE_URL}/dse/econ/learn`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/dse/english/learn`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/dse/jupas`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.93,
     },
     {
       url: `${SITE_URL}/dse/jupas/compare`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/guides/dse-buxi`,
-      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.88,
     },
     {
       url: `${SITE_URL}/privacy`,
-      lastModified: now,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${SITE_URL}/terms`,
-      lastModified: now,
       changeFrequency: "yearly",
       priority: 0.3,
     },
@@ -80,7 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const texts = CHINESE_PRESCRIBED_TEXTS.map((t) => ({
     url: `${SITE_URL}${textHref(t.slug)}`,
-    lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.85,
   }));
@@ -92,24 +81,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (!bank) continue;
     drillUrls.push({
       url: `${SITE_URL}/dse/${s}`,
-      lastModified: now,
-      changeFrequency: "daily",
+      changeFrequency: "weekly",
       priority: 0.9,
     });
     const topics = [...new Set(bank.questions.map((q) => q.topic))];
     for (const t of topics) {
       drillUrls.push({
         url: `${SITE_URL}/dse/${s}/${t}`,
-        lastModified: now,
-        changeFrequency: "weekly",
+          changeFrequency: "weekly",
         priority: 0.8,
       });
     }
     for (const q of bank.questions) {
       drillUrls.push({
         url: `${SITE_URL}${questionHref(s, q)}`,
-        lastModified: now,
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.6,
       });
     }
@@ -119,13 +105,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const videoUrls: MetadataRoute.Sitemap = [
     {
       url: `${SITE_URL}/dse/videos`,
-      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     ...getAllVideoLibraries().map((lib) => ({
       url: `${SITE_URL}/dse/videos/${lib.meta.subject}`,
-      lastModified: now,
+      lastModified: lib.meta.curatedAt,
       changeFrequency: "weekly" as const,
       priority: 0.85,
     })),

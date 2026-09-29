@@ -6,6 +6,12 @@ import EnglishPracticeGate, {
   ENGLISH_PROGRESS_KEY,
 } from "@/components/dse/english-practice-gate";
 import lessons from "@/data/dse/english-lessons.json";
+import {
+  isUnitUnlocked,
+  missingPrerequisites,
+  nextOpenUnit,
+} from "@/lib/dse/learn-path";
+import { UnitMapSummary, scrollToUnit } from "@/components/dse/unit-map-summary";
 
 type Progress = { completed: number[]; lessonsRead?: string[] };
 
@@ -39,26 +45,48 @@ export default function EnglishUnitMap() {
 
   const completed = progress?.completed || [];
   const reviewed = lessons as Record<string, LessonEntry>;
+  const next = nextOpenUnit(ENGLISH_UNITS, completed);
+
+  const openUnitAndScroll = (id: number) => {
+    setOpenUnit(id);
+    scrollToUnit(id);
+  };
+
+  const markPassed = (id: number) =>
+    setProgress((p) => {
+      const prev = p?.completed ?? [];
+      return { ...p, completed: prev.includes(id) ? prev : [...prev, id] };
+    });
 
   return (
     <div className="space-y-4">
+      {progress ? (
+        <UnitMapSummary
+          done={completed.length}
+          total={ENGLISH_UNITS.length}
+          next={next ? { id: next.id, name: next.title } : undefined}
+          onOpenUnit={openUnitAndScroll}
+        />
+      ) : null}
       {ENGLISH_UNITS.map((unit) => {
-        const unlocked =
-          unit.prerequisites.length === 0 ||
-          unit.prerequisites.every((p) => completed.includes(p));
+        const unlocked = isUnitUnlocked(unit, completed);
         const isDone = completed.includes(unit.id);
+        const missing = missingPrerequisites(ENGLISH_UNITS, unit, completed);
         const unitLessons = unit.lessonIds
           .map((lid) => reviewed[lid])
           .filter(Boolean);
         return (
           <div
             key={unit.id}
-            className={`rounded-2xl border bg-white shadow-lg ${
+            id={`unit-${unit.id}`}
+            className={`scroll-mt-24 rounded-2xl border bg-white shadow-lg ${
               unlocked ? "border-slate-200" : "border-slate-200 opacity-60"
             }`}
           >
             <button
               className="flex w-full items-center justify-between gap-3 p-5 text-left"
+              aria-expanded={openUnit === unit.id}
+              aria-disabled={!unlocked}
               onClick={() =>
                 unlocked && setOpenUnit(openUnit === unit.id ? null : unit.id)
               }
@@ -80,8 +108,23 @@ export default function EnglishUnitMap() {
                     單元 {unit.id}　{unit.title}
                   </h3>
                   <p className="mt-0.5 text-xs text-slate-500">
-                    {unit.label} · {unitLessons.length} 課 · 通過練習解鎖下一個單元
+                    {[
+                      unit.label,
+                      `${unitLessons.length} 課`,
+                      isDone
+                        ? "已通過"
+                        : unlocked
+                          ? `練習答啱 ${unit.passThreshold}/10 即過關`
+                          : null,
+                    ]
+                      .filter(Boolean)
+                      .join(" · ")}
                   </p>
+                  {!unlocked ? (
+                    <p className="mt-1 text-xs font-medium text-amber-800">
+                      🔒 先通過：{missing.map((u) => `單元 ${u.id} ${u.title}`).join("、")}
+                    </p>
+                  ) : null}
                 </div>
               </div>
               {unlocked && (
@@ -134,7 +177,12 @@ export default function EnglishUnitMap() {
                     </div>
                   </details>
                 ))}
-                <EnglishPracticeGate unit={unit} completedUnits={completed} />
+                <EnglishPracticeGate
+                  unit={unit}
+                  completedUnits={completed}
+                  onPassed={markPassed}
+                  onOpenUnit={openUnitAndScroll}
+                />
               </div>
             )}
           </div>

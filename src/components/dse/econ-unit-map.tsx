@@ -2,12 +2,18 @@
 
 import { useEffect, useState } from "react";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
-import PracticeGate from "@/components/dse/practice-gate";
+import PracticeGate, { ECON_PROGRESS_KEY } from "@/components/dse/practice-gate";
 import lessons from "@/data/dse/econ-lessons.json";
+import {
+  isUnitUnlocked,
+  missingPrerequisites,
+  nextOpenUnit,
+} from "@/lib/dse/learn-path";
+import { UnitMapSummary, scrollToUnit } from "@/components/dse/unit-map-summary";
 
 type Progress = { completed: number[]; lessonsRead: string[] };
 
-const STORAGE = "dsehack-econ-progress-v1";
+const STORAGE = ECON_PROGRESS_KEY;
 
 /**
  * Unit map for the ECON learning path — shows lock state and progress.
@@ -33,25 +39,51 @@ export default function EconUnitMap() {
     { id?: string; unit: number; title: string; concept: string; example: { scenario: string; walkthrough: string }; traps: string[]; terms: { term: string; definition: string }[] }
   >;
 
+  const next = nextOpenUnit(ECON_UNITS, completed);
+
+  const openUnitAndScroll = (id: number) => {
+    setOpenUnit(id);
+    scrollToUnit(id);
+  };
+
+  const markPassed = (id: number) =>
+    setProgress((p) => {
+      const prev = p?.completed ?? [];
+      return {
+        lessonsRead: p?.lessonsRead ?? [],
+        completed: prev.includes(id) ? prev : [...prev, id],
+      };
+    });
+
   return (
     <div className="space-y-4">
+      {progress ? (
+        <UnitMapSummary
+          done={completed.length}
+          total={ECON_UNITS.length}
+          next={next ? { id: next.id, name: `${next.titleZh}（${next.title}）` } : undefined}
+          onOpenUnit={openUnitAndScroll}
+        />
+      ) : null}
       {ECON_UNITS.map((unit) => {
-        const unlocked =
-          unit.prerequisites.length === 0 ||
-          unit.prerequisites.every((p) => completed.includes(p));
+        const unlocked = isUnitUnlocked(unit, completed);
         const isDone = completed.includes(unit.id);
+        const missing = missingPrerequisites(ECON_UNITS, unit, completed);
         const unitLessons = unit.lessonIds
           .map((lid) => reviewed[lid])
           .filter(Boolean);
         return (
           <div
             key={unit.id}
-            className={`rounded-2xl border bg-white shadow-sm ${
-              unlocked ? "border-black/5" : "border-black/5 opacity-60"
+            id={`unit-${unit.id}`}
+            className={`scroll-mt-24 rounded-2xl border bg-white shadow-sm ${
+              unlocked ? "border-line" : "border-line opacity-60"
             }`}
           >
             <button
-              className="flex w-full items-center justify-between p-5 text-left"
+              className="flex w-full items-center justify-between gap-3 p-5 text-left"
+              aria-expanded={openUnit === unit.id}
+              aria-disabled={!unlocked}
               onClick={() =>
                 unlocked && setOpenUnit(openUnit === unit.id ? null : unit.id)
               }
@@ -68,11 +100,28 @@ export default function EconUnitMap() {
                 >
                   {isDone ? "✓" : unlocked ? unit.id : "🔒"}
                 </span>
-                <div>
-                  <h3 className="font-semibold">{unit.title}</h3>
-                  <p className="text-xs text-black/50">
-                    {unitLessons.length} lessons · pass practice to unlock next
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-slate-900">
+                    單元 {unit.id}　{unit.titleZh}
+                  </h3>
+                  <p className="mt-0.5 text-xs text-slate-500">
+                    {[
+                      unit.title,
+                      `${unitLessons.length} 課`,
+                      isDone
+                        ? "已通過"
+                        : unlocked
+                          ? `練習答啱 ${unit.passThreshold}/10 即過關`
+                          : null,
+                    ]
+                      .filter(Boolean)
+                      .join(" · ")}
                   </p>
+                  {!unlocked ? (
+                    <p className="mt-1 text-xs font-medium text-amber-800">
+                      🔒 先通過：{missing.map((u) => `單元 ${u.id} ${u.titleZh}`).join("、")}
+                    </p>
+                  ) : null}
                 </div>
               </div>
               {unlocked && (
@@ -91,13 +140,13 @@ export default function EconUnitMap() {
                       {l.concept}
                     </p>
                     <div className="mt-3 rounded-lg bg-white p-3 text-sm">
-                      <p className="font-semibold">Example</p>
+                      <p className="font-semibold text-blue-700">示範例子</p>
                       <p className="mt-1">{l.example.scenario}</p>
                       <p className="mt-2 text-black/70">{l.example.walkthrough}</p>
                     </div>
                     {l.traps.length > 0 && (
                       <div className="mt-3 rounded-lg bg-amber-50 p-3 text-sm text-amber-900">
-                        <p className="font-semibold">Common traps</p>
+                        <p className="font-semibold">常見陷阱</p>
                         <ul className="mt-1 list-disc pl-5">
                           {l.traps.map((t, i) => (
                             <li key={i}>{t}</li>
@@ -121,6 +170,8 @@ export default function EconUnitMap() {
                 <PracticeGate
                   unit={unit}
                   completedUnits={completed}
+                  onPassed={markPassed}
+                  onOpenUnit={openUnitAndScroll}
                 />
               </div>
             )}

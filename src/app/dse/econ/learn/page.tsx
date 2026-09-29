@@ -1,41 +1,145 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import EconUnitMap from "@/components/dse/econ-unit-map";
+import { JsonLd } from "@/components/seo/json-ld";
+import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { createPageMetadata } from "@/lib/page-metadata";
-import { SITE_NAME } from "@/lib/site";
+import {
+  buildBreadcrumbJsonLd,
+  buildCourseJsonLd,
+  buildFaqJsonLd,
+  type FaqItem,
+} from "@/lib/seo";
+import { HKEAA_URL, LEGAL_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/site";
+
+const PATH = "/dse/econ/learn";
+const LESSON_COUNT = ECON_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
+const PASS = ECON_UNITS[0].passThreshold;
+const STARTER_UNITS = ECON_UNITS.filter((u) => u.prerequisites.length === 0);
 
 export const metadata: Metadata = createPageMetadata({
-  title: `Learn DSE Economics Step by Step | ${SITE_NAME}`,
-  description:
-    "A structured HKDSE Economics course: 10 units from demand & supply to international trade. Lessons, worked examples and practice gates — pass each unit to unlock the next. Free.",
-  path: "/dse/econ/learn",
+  title: `DSE 經濟科自學路徑｜Economics ${ECON_UNITS.length} 單元由供求學到國際貿易 | ${SITE_NAME}`,
+  description: `免費 HKDSE 經濟科（Economics）自學課程：${ECON_UNITS.length} 個單元、${LESSON_COUNT} 課，由需求與供應、彈性、市場結構，到本地生產總值、貨幣與銀行、財政及貨幣政策、國際貿易。每單元有課文、例子、常見陷阱，練習答啱 ${PASS}/10 題就解鎖下一個單元。`,
+  path: PATH,
   keywords: [
+    "DSE 經濟 自學",
+    "DSE Econ notes",
     "dse economics course",
-    "dse econ notes",
     "learn dse economics",
+    "經濟科 溫習",
     "econ study guide hong kong",
   ],
 });
 
+const FAQS: FaqItem[] = [
+  {
+    question: "ECON 自學路徑要唔要錢？",
+    answer: "全部免費，唔使註冊。進度只存喺你部機（瀏覽器本機儲存），唔會上傳。",
+  },
+  {
+    question: "點樣先解鎖下一個單元？",
+    answer: `每個單元讀完課文，做 10 題練習，答啱 ${PASS} 題或以上就合格。合格後，所有以呢個單元做前設嘅單元會即刻解鎖；唔合格可以睇解說再做。`,
+  },
+  {
+    question: "一定要由單元 1 開始？",
+    answer: `唔一定。${STARTER_UNITS.map((u) => `單元 ${u.id}（${u.titleZh}）`).join("同")}冇前設，一開始已經開放；其他單元要先通過指定單元。`,
+  },
+  {
+    question: "呢啲係咪考評局教材？",
+    answer:
+      "唔係。課文同練習由本站整理，只供溫習參考；課程範圍、題型同評分準則以考評局官網最新公佈為準。",
+  },
+];
+
 export default function EconLearnPage() {
+  const courseJsonLd = buildCourseJsonLd({
+    name: "DSE 經濟科自學路徑（Economics）",
+    description: `HKDSE 經濟科 ${ECON_UNITS.length} 個單元、${LESSON_COUNT} 課自學課程，每單元附練習關卡。`,
+    url: `${SITE_URL}${PATH}`,
+  });
+
   return (
-    <div className="mx-auto max-w-3xl px-5 py-10">
-      <nav className="mb-6 text-sm text-black/50">
-        <Link href="/dse" className="hover:text-black/80">DSE</Link>
+    <div className="mx-auto max-w-3xl">
+      <JsonLd
+        data={buildBreadcrumbJsonLd([
+          { name: "首頁", path: "/" },
+          { name: "DSE 備考", path: "/dse" },
+          { name: "經濟科 MCQ 練習", path: "/dse/econ" },
+          { name: "自學路徑", path: PATH },
+        ])}
+      />
+      <JsonLd data={courseJsonLd} />
+      <JsonLd data={buildFaqJsonLd(FAQS)} />
+
+      <nav className="mb-6 text-sm text-ink-faint">
+        <Link href="/dse" className="hover:text-navy">DSE</Link>
         <span className="mx-2">›</span>
-        <Link href="/dse/econ" className="hover:text-black/80">Economics</Link>
+        <Link href="/dse/econ" className="hover:text-navy">經濟科</Link>
         <span className="mx-2">›</span>
-        <span>Learn</span>
+        <span className="text-ink-muted">自學路徑</span>
       </nav>
-      <h1 className="text-3xl font-bold">DSE Economics — Step-by-Step Course</h1>
-      <p className="mt-3 leading-relaxed text-black/70">
-        Work through the units in order. Each unit: read the lessons, then pass
-        the practice set (≥7/10) to unlock what comes next. Progress is saved on
-        your device only — no account, nothing leaves your browser.
+
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-navy sm:text-4xl">
+        DSE 經濟科自學路徑
+      </h1>
+      <p className="mt-1 text-sm text-ink-faint">Economics — step-by-step course</p>
+      <p className="mt-3 text-[15px] leading-relaxed text-ink-muted sm:text-base">
+        {ECON_UNITS.length} 個單元、{LESSON_COUNT} 課，由需求與供應一路學到國際貿易。每個單元先讀課文（英文），再做 10 題練習；
+        <span className="font-semibold text-ink">答啱 {PASS} 題或以上</span>
+        就過關，解鎖之後嘅單元。進度只存喺你部機，唔使帳號。
       </p>
+
+      <div className="mt-6 rounded-2xl border border-line bg-white p-5">
+        <p className="text-sm font-semibold text-navy">點樣行呢條路徑</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-ink-muted">
+          <li>
+            微觀由單元 1（需求與供應）開始；宏觀可以直接由單元 6（本地生產總值與國民收入）開始。
+          </li>
+          <li>鎖住嘅單元會寫明要先通過邊個單元。</li>
+          <li>
+            想淨係做題？去{" "}
+            <Link href="/dse/econ" className="font-semibold text-navy underline underline-offset-2">
+              經濟科 MCQ 題庫
+            </Link>{" "}
+            按課題做；卡住可以睇{" "}
+            <Link href="/dse/videos/econ" className="font-semibold text-navy underline underline-offset-2">
+              經濟科溫習片
+            </Link>
+            。
+          </li>
+        </ul>
+      </div>
+
       <div className="mt-8">
         <EconUnitMap />
       </div>
+
+      <section className="mt-10 rounded-2xl border border-line bg-white p-6">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          常見問題
+        </h2>
+        <div className="mt-4 space-y-4">
+          {FAQS.map((f) => (
+            <div key={f.question}>
+              <h3 className="text-sm font-semibold text-ink">{f.question}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-ink-muted">{f.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <p className="mt-8 rounded-xl border border-line bg-cream/60 p-4 text-xs leading-relaxed text-ink-muted">
+        {LEGAL_DISCLAIMER}課程範圍及評分準則以{" "}
+        <a
+          href={HKEAA_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-navy underline underline-offset-2"
+        >
+          考評局官網
+        </a>{" "}
+        為準。
+      </p>
     </div>
   );
 }
