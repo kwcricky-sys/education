@@ -25,8 +25,16 @@ import {
   shortArticleTitle,
   type MasteryTone,
 } from "@/lib/dse/cat/report-view";
+import { CatNextStep } from "@/components/dse/cat/next-step";
+import type { CatSessionKind } from "@/lib/dse/cat/types";
 import { useCatSession } from "@/store/cat-session";
 import { cn } from "@/lib/utils";
+
+const SESSION_HEADING: Record<CatSessionKind, { eyebrow: string; title: string }> = {
+  adaptive: { eyebrow: "診斷完成", title: "診斷報告" },
+  remediation: { eyebrow: "特訓完成", title: "特訓結果" },
+  "mistake-retest": { eyebrow: "重測完成", title: "錯題重測結果" },
+};
 
 export function CatReport() {
   const report = useCatSession((s) => s.report);
@@ -108,29 +116,49 @@ export function CatReport() {
   };
 
   const accuracyPct = Math.round(report.overallAccuracy * 100);
+  const isAdaptive = report.sessionKind === "adaptive";
+  const heading = SESSION_HEADING[report.sessionKind];
 
   return (
     <div className="space-y-8">
       <div>
         <p className="text-xs font-semibold tracking-[0.18em] text-blue-700">
-          診斷完成
+          {heading.eyebrow}
         </p>
         <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-          診斷報告
+          {heading.title}
         </h1>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600">
-          {report.predictedGrade.rationale}
+          {isAdaptive
+            ? report.predictedGrade.rationale
+            : "練習模式只計對錯，唔會重新估算 DSE 等級；想睇等級變化，請做一次新診斷。"}
         </p>
       </div>
 
+      <CatNextStep report={report} />
+
       <section className="grid gap-3 sm:grid-cols-3">
-        <MiniStat
-          label="預估等級"
-          value={report.predictedGrade.label}
-          hint={`精準度 ${precision.label} · ${precision.percent}%`}
-          icon={<Target className="size-4 text-blue-700" />}
-          accent
-        />
+        {isAdaptive ? (
+          <MiniStat
+            label="預估等級"
+            value={report.predictedGrade.label}
+            hint={`精準度 ${precision.label} · ${precision.percent}%`}
+            icon={<Target className="size-4 text-blue-700" />}
+            accent
+          />
+        ) : (
+          <MiniStat
+            label="練習模式"
+            value={report.sessionKind === "mistake-retest" ? "錯題重測" : "弱點特訓"}
+            hint={
+              report.sessionKind === "mistake-retest"
+                ? "答啱嘅題目已移出錯題本"
+                : "答錯嘅題目已存入錯題本"
+            }
+            icon={<Target className="size-4 text-blue-700" />}
+            accent
+          />
+        )}
         <MiniStat
           label="診斷用時"
           value={formatDuration(report.totalTimeMs)}
@@ -150,50 +178,52 @@ export function CatReport() {
         />
       </section>
 
-      <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-lg backdrop-blur-md sm:p-5">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-semibold text-slate-900">
-              診斷精準度：{precision.label}
-              <span className="ml-2 font-normal text-slate-600">
-                ({precision.percent}%)
-              </span>
-            </p>
-            <div className="mt-1.5 flex gap-1">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <span
-                  key={i}
-                  className={cn(
-                    "h-1.5 w-5 rounded-full",
-                    i < precision.dots
-                      ? precision.tone === "high"
-                        ? "bg-emerald-700"
-                        : precision.tone === "mid"
-                          ? "bg-amber-700"
-                          : "bg-rose-700"
-                      : "bg-slate-200",
-                  )}
-                />
-              ))}
+      {isAdaptive ? (
+        <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-lg backdrop-blur-md sm:p-5">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-sm font-semibold text-slate-900">
+                診斷精準度：{precision.label}
+                <span className="ml-2 font-normal text-slate-600">
+                  ({precision.percent}%)
+                </span>
+              </p>
+              <div className="mt-1.5 flex gap-1">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <span
+                    key={i}
+                    className={cn(
+                      "h-1.5 w-5 rounded-full",
+                      i < precision.dots
+                        ? precision.tone === "high"
+                          ? "bg-emerald-700"
+                          : precision.tone === "mid"
+                            ? "bg-amber-700"
+                            : "bg-rose-700"
+                        : "bg-slate-200",
+                    )}
+                  />
+                ))}
+              </div>
             </div>
+            <button
+              type="button"
+              onClick={() => setShowPrecisionTip((v) => !v)}
+              className="inline-flex items-center gap-1.5 self-start rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition-all duration-300 hover:bg-slate-200 sm:self-center"
+            >
+              <Info className="size-3.5" />
+              這是什麼？
+            </button>
           </div>
-          <button
-            type="button"
-            onClick={() => setShowPrecisionTip((v) => !v)}
-            className="inline-flex items-center gap-1.5 self-start rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition-all duration-300 hover:bg-slate-200 sm:self-center"
-          >
-            <Info className="size-3.5" />
-            這是什麼？
-          </button>
-        </div>
-        {showPrecisionTip ? (
-          <p className="mt-3 rounded-xl border border-blue-800/30 bg-blue-700/10 px-4 py-3 text-xs leading-relaxed text-blue-600">
-            系統依據你完成的{" "}
-            <span className="font-semibold">{report.questionCount} 條</span>{" "}
-            自適應題目動態推算。答題越多、涵蓋難度越廣，預測越精準；疑似瞎猜題會略為降低精準度。
-          </p>
-        ) : null}
-      </section>
+          {showPrecisionTip ? (
+            <p className="mt-3 rounded-xl border border-blue-800/30 bg-blue-700/10 px-4 py-3 text-xs leading-relaxed text-blue-600">
+              系統依據你完成的{" "}
+              <span className="font-semibold">{report.questionCount} 條</span>{" "}
+              自適應題目動態推算。答題越多、涵蓋難度越廣，預測越精準；疑似瞎猜題會略為降低精準度。
+            </p>
+          ) : null}
+        </section>
+      ) : null}
 
       {/* Section A — Article mastery */}
       <section className="space-y-4">

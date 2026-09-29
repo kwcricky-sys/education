@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { HelpCircle } from "lucide-react";
+import type { CatSessionKind } from "@/lib/dse/cat/types";
 import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 import { useCatSession } from "@/store/cat-session";
 import { cn } from "@/lib/utils";
@@ -12,6 +13,24 @@ const DIFF_PILL: Record<string, string> = {
   easy: "border-slate-200 bg-white text-slate-600",
   medium: "border-slate-200 bg-white text-amber-700",
   hard: "border-slate-200 bg-white text-rose-700",
+};
+
+const SESSION_MODE: Record<
+  CatSessionKind,
+  { label: string; hint: (n: number) => string }
+> = {
+  adaptive: {
+    label: "極速診斷",
+    hint: (n) => `答啱會升難度、答錯會降，約 ${n} 題後出報告同下一步建議。`,
+  },
+  remediation: {
+    label: "弱點特訓",
+    hint: (n) => `共 ${n} 題，答錯嘅會自動存入錯題本。`,
+  },
+  "mistake-retest": {
+    label: "錯題重測",
+    hint: (n) => `共 ${n} 題，答啱即移出錯題本，答錯就留低再溫。`,
+  },
 };
 
 export function CatQuiz() {
@@ -64,8 +83,16 @@ export function CatQuiz() {
     }, 180);
   };
 
+  const mode = SESSION_MODE[sessionKind];
+
   return (
     <div className="mx-auto max-w-2xl space-y-4">
+      <p className="text-xs leading-relaxed text-slate-600">
+        <span className="mr-1.5 rounded-md bg-navy px-2 py-0.5 font-bold text-cream">
+          {mode.label}
+        </span>
+        {mode.hint(targetCount)}
+      </p>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-2 text-xs">
           <span className="rounded-md bg-blue-700 px-2 py-1 font-bold text-white">
