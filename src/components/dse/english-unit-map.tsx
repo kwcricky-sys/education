@@ -108,12 +108,17 @@ export default function EnglishUnitMap() {
                     單元 {unit.id}　{unit.title}
                   </h3>
                   <p className="mt-0.5 text-xs text-slate-500">
-                    {unit.label} · {unitLessons.length} 課 ·{" "}
-                    {isDone
-                      ? "已通過"
-                      : unlocked
-                        ? `練習答啱 ${unit.passThreshold}/10 即過關`
-                        : null}
+                    {[
+                      unit.label,
+                      `${unitLessons.length} 課`,
+                      isDone
+                        ? "已通過"
+                        : unlocked
+                          ? `練習答啱 ${unit.passThreshold}/10 即過關`
+                          : null,
+                    ]
+                      .filter(Boolean)
+                      .join(" · ")}
                   </p>
                   {!unlocked ? (
                     <p className="mt-1 text-xs font-medium text-amber-800">

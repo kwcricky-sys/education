@@ -28,8 +28,7 @@ export function UnitMapSummary({
             onClick={() => onOpenUnit(next.id)}
             className="btn-navy inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold"
           >
-            {done === 0 ? "由" : "下一步："}單元 {next.id}
-            {done === 0 ? "開始" : ""}
+            {done === 0 ? `由單元 ${next.id} 開始` : `下一步：單元 ${next.id}`}
             <ArrowRight className="size-3.5" aria-hidden />
           </button>
         ) : done === total ? (
