@@ -27,6 +27,7 @@ export default function ComparePage() {
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
       <JsonLd
         data={buildBreadcrumbJsonLd([
+          { name: "首頁", path: "/" },
           { name: "DSE 備考", path: "/dse" },
           { name: "JUPAS 揀科指南", path: "/dse/jupas" },
           { name: "課程比較工具", path: "/dse/jupas/compare" },
