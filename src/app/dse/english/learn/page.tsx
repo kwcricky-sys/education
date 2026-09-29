@@ -103,7 +103,7 @@ export default function EnglishLearnPage() {
         {[
           { label: "單元", value: `${ENGLISH_UNITS.length}`, tone: "text-blue-700" },
           { label: "課文", value: `${LESSON_COUNT}`, tone: "text-slate-900" },
-          { label: "練習題", value: `${PRACTICE_COUNT}`, tone: "text-emerald-700" },
+          { label: "練習題", value: `${PRACTICE_COUNT}`, tone: "text-gold-ink" },
         ].map((s) => (
           <div
             key={s.label}

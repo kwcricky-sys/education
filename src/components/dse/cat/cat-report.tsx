@@ -198,7 +198,7 @@ export function CatReport() {
       {/* Section A — Article mastery */}
       <section className="space-y-4">
         <Header
-          icon={<BookOpen className="size-4 text-teal-700" />}
+          icon={<BookOpen className="size-4 text-navy" />}
           title="範文熟悉度"
           subtitle="哪一篇需要重溫？依篇章正確率排序"
         />

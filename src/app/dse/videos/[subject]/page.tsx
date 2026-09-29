@@ -129,11 +129,11 @@ function VideoCard({ video }: { video: StudyVideo }) {
             <p className="mt-2 text-sm leading-relaxed text-slate-700">{video.studyStage}</p>
           </section>
 
-          <section className="rounded-xl border border-indigo-300 bg-indigo-400/5 p-4">
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-indigo-700">
+          <section className="rounded-xl border border-gold/40 bg-gold/5 p-4">
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-gold-ink">
               編輯分析（教法好唔好喺邊、同其他片比較）
             </h3>
-            <p className="mt-2 text-sm leading-relaxed text-indigo-900/90">{video.analysis}</p>
+            <p className="mt-2 text-sm leading-relaxed text-slate-800">{video.analysis}</p>
           </section>
         </div>
       </div>

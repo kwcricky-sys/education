@@ -48,7 +48,7 @@ export default function VideoLibraryPage() {
       <section className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white px-6 py-12 sm:px-10">
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(56,189,248,0.16),transparent_55%),radial-gradient(ellipse_at_85%_90%,rgba(99,102,241,0.10),transparent_45%)]"
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_85%_0%,rgba(196,163,90,0.16),transparent_55%)]"
         />
         <div className="relative">
           <span className="inline-flex items-center gap-2 rounded-full border border-blue-700/30 bg-blue-700/10 px-3 py-1 text-xs font-semibold text-blue-600">
@@ -68,7 +68,7 @@ export default function VideoLibraryPage() {
               404 死片、401 禁止嵌入一律唔收錄
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <GraduationCap className="size-3.5 text-sky-700" />
+              <GraduationCap className="size-3.5 text-gold-ink" />
               學生視角整理，唔係片單搬運
             </span>
           </div>
