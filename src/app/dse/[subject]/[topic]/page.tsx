@@ -1,21 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/json-ld";
+import {
+  DRILL_SUBJECT_META,
+  difficultyBreakdown,
+  topicLabel,
+} from "@/lib/dse/drill-meta";
 import {
   DRILL_SUBJECTS,
   getDrillBank,
   getTopicQuestions,
   questionHref,
 } from "@/lib/dse/drills";
+import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 import { createPageMetadata } from "@/lib/page-metadata";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { buildBreadcrumbJsonLd } from "@/lib/seo";
+import { SITE_NAME } from "@/lib/site";
 
 type Props = { params: Promise<{ subject: string; topic: string }> };
-
-const SUBJECT_NAME: Record<string, string> = {
-  econ: "Economics",
-  english: "English",
-};
 
 export function generateStaticParams() {
   const params: { subject: string; topic: string }[] = [];
@@ -32,17 +35,17 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { subject, topic } = await params;
   const qs = getTopicQuestions(subject, topic);
-  if (!qs.length) return {};
-  const name = SUBJECT_NAME[subject] || subject;
-  const pretty = topic.replace(/-/g, " ");
+  const meta = DRILL_SUBJECT_META[subject];
+  if (!qs.length || !meta) return {};
+  const label = topicLabel(subject, topic);
   return createPageMetadata({
-    title: `DSE ${name} ${pretty} — ${qs.length} MCQ Drills with Answers | ${SITE_NAME}`,
-    description: `Free HKDSE ${name} practice on ${pretty}: ${qs.length} multiple-choice questions (easy/medium/hard) with step-by-step explanations. Covers common exam traps.`,
+    title: `DSE ${meta.nameZh}：${label.zh}（${label.en}）${qs.length} 題 MCQ 附解說 | ${SITE_NAME}`,
+    description: `免費 DSE ${meta.nameZh}「${label.zh}」練習：${qs.length} 題 MCQ（${difficultyBreakdown(qs)}），每題附解說。Free HKDSE ${meta.nameEn} ${label.en} practice with explanations.`,
     path: `/dse/${subject}/${topic}`,
     keywords: [
-      `dse ${name.toLowerCase()} ${pretty}`,
-      `dse ${name.toLowerCase()} mcq`,
-      `${pretty} dse exercise`,
+      `DSE ${meta.nameZh} ${label.zh}`,
+      `dse ${meta.nameEn.toLowerCase()} ${label.en.toLowerCase()}`,
+      `${label.zh} 練習`,
       "hkdse practice free",
     ],
   });
@@ -51,27 +54,49 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function TopicPage({ params }: Props) {
   const { subject, topic } = await params;
   const qs = getTopicQuestions(subject, topic);
-  if (!qs.length) notFound();
-  const name = SUBJECT_NAME[subject] || subject;
-  const pretty = topic.replace(/-/g, " ");
+  const meta = DRILL_SUBJECT_META[subject];
+  if (!qs.length || !meta) notFound();
+  const label = topicLabel(subject, topic);
 
   return (
-    <div className="mx-auto max-w-3xl px-5 py-10">
-      <nav className="mb-6 text-sm text-black/50">
-        <Link href="/dse" className="hover:text-black/80">DSE</Link>
+    <div className="mx-auto max-w-3xl">
+      <JsonLd
+        data={buildBreadcrumbJsonLd([
+          { name: "首頁", path: "/" },
+          { name: "DSE 備考", path: "/dse" },
+          { name: `${meta.nameZh} MCQ 練習`, path: `/dse/${subject}` },
+          { name: label.zh, path: `/dse/${subject}/${topic}` },
+        ])}
+      />
+      <nav className="mb-6 text-sm text-ink-faint">
+        <Link href="/dse" className="hover:text-navy">DSE</Link>
         <span className="mx-2">›</span>
-        <Link href={`/dse/${subject}`} className="hover:text-black/80">
-          {name}
+        <Link href={`/dse/${subject}`} className="hover:text-navy">
+          {meta.nameZh}
         </Link>
         <span className="mx-2">›</span>
-        <span>{pretty}</span>
+        <span className="text-ink-muted">{label.zh}</span>
       </nav>
-      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold text-navy capitalize">
-        DSE {name}: {pretty}
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold text-navy">
+        DSE {meta.nameZh}：{label.zh}
       </h1>
-      <p className="mt-3 text-black/70">
-        {qs.length} MCQ drills with teaching explanations. Click a question to
-        see the full walkthrough, distractor analysis and related questions.
+      {label.en !== label.zh ? (
+        <p className="mt-1 text-sm text-ink-faint">{label.en}</p>
+      ) : null}
+      <p className="mt-3 leading-relaxed text-ink-muted">
+        {qs.length} 題 MCQ（{difficultyBreakdown(qs)}），撳入去睇完整解說同上一題／下一題。
+        {label.unitId !== null ? (
+          <>
+            未學過呢個課題？先睇{" "}
+            <Link
+              href={meta.learnHref}
+              className="font-semibold text-navy underline underline-offset-2"
+            >
+              {meta.learnLabel}單元 {label.unitId}
+            </Link>
+            。
+          </>
+        ) : null}
       </p>
 
       <ol className="mt-8 space-y-3">
@@ -79,15 +104,15 @@ export default async function TopicPage({ params }: Props) {
           <li key={q.id}>
             <Link
               href={questionHref(subject, q)}
-              className="block rounded-xl border border-black/5 bg-white p-4 shadow-sm transition hover:shadow-md"
+              className="block rounded-xl border border-line bg-white p-4 transition-colors hover:border-navy/40"
             >
-              <div className="flex items-center gap-2 text-xs text-black/40">
-                <span className="rounded-full bg-black/5 px-2 py-0.5">
-                  {q.difficulty}
+              <div className="flex items-center gap-2 text-xs text-ink-faint">
+                <span className="rounded-full bg-cream px-2 py-0.5 ring-1 ring-line">
+                  {DIFFICULTY_LABEL[q.difficulty].zh}
                 </span>
                 <span>{q.id}</span>
               </div>
-              <p className="mt-2 font-medium text-black/80">
+              <p className="mt-2 font-medium text-ink">
                 {i + 1}. {q.question}
               </p>
             </Link>

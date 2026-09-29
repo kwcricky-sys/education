@@ -10,7 +10,7 @@ import {
   buildFaqJsonLd,
   type FaqItem,
 } from "@/lib/seo";
-import { LEGAL_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/site";
+import { HKEAA_URL, LEGAL_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/site";
 import lessons from "@/data/dse/english-lessons.json";
 
 const PATH = "/dse/english/learn";
@@ -127,7 +127,16 @@ export default function EnglishLearnPage() {
           <li>卷一、卷二、卷三、卷四各自獨立，可以按你最近考的卷開始。</li>
           <li>
             計分比重是卷三 30% ＞ 卷二 25% ＞ 卷一 20% ＞ 卷四 10%
-            （四卷合共 85%，其餘為校本評核），時間有限就先處理比重高的卷。
+            （四卷合共 85%，其餘為校本評核），時間有限就先處理比重高的卷。比重或會調整，以
+            <a
+              href={HKEAA_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mx-0.5 font-semibold text-navy underline underline-offset-2"
+            >
+              考評局官網
+            </a>
+            最新公佈為準。
           </li>
           <li>
             語法與詞彙單元（7 至 9）是卷二、卷三語言分的基礎，寫作反覆失分時應該回頭做。

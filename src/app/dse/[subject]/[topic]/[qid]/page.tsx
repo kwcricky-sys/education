@@ -8,16 +8,13 @@ import {
   getTopicQuestions,
   questionHref,
 } from "@/lib/dse/drills";
+import { DRILL_SUBJECT_META, topicLabel } from "@/lib/dse/drill-meta";
+import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 import { createPageMetadata } from "@/lib/page-metadata";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_NAME } from "@/lib/site";
 
 type Props = {
   params: Promise<{ subject: string; topic: string; qid: string }>;
-};
-
-const SUBJECT_NAME: Record<string, string> = {
-  econ: "Economics",
-  english: "English",
 };
 
 export function generateStaticParams() {
@@ -35,12 +32,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { subject, topic, qid } = await params;
   const q = getQuestion(subject, qid);
-  if (!q) return {};
-  const name = SUBJECT_NAME[subject] || subject;
-  const pretty = topic.replace(/-/g, " ");
+  const meta = DRILL_SUBJECT_META[subject];
+  if (!q || !meta) return {};
+  const label = topicLabel(subject, topic);
   return createPageMetadata({
-    title: `${q.question.slice(0, 70)} — DSE ${name} ${pretty} | ${SITE_NAME}`,
-    description: `${q.explanation.slice(0, 140)} Free DSE ${name} ${pretty} drill with full explanation.`,
+    title: `${q.question.slice(0, 70)} — DSE ${meta.nameZh}${label.zh} | ${SITE_NAME}`,
+    description: `${q.explanation.slice(0, 140)} DSE ${meta.nameZh}「${label.zh}」免費練習，附完整解說。`,
     path: `/dse/${subject}/${topic}/${qid}`,
     keywords: q.tags || [],
   });
@@ -49,13 +46,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function QuestionPage({ params }: Props) {
   const { subject, topic, qid } = await params;
   const q = getQuestion(subject, qid);
-  if (!q) notFound();
+  const meta = DRILL_SUBJECT_META[subject];
+  if (!q || !meta) notFound();
   const siblings = getTopicQuestions(subject, topic);
   const idx = siblings.findIndex((x) => x.id === qid);
   const prev = idx > 0 ? siblings[idx - 1] : null;
   const next = idx < siblings.length - 1 ? siblings[idx + 1] : null;
-  const name = SUBJECT_NAME[subject] || subject;
-  const pretty = topic.replace(/-/g, " ");
+  const label = topicLabel(subject, topic);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -72,7 +69,7 @@ export default async function QuestionPage({ params }: Props) {
   };
 
   return (
-    <div className="mx-auto max-w-3xl px-5 py-10">
+    <div className="mx-auto max-w-3xl">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -81,17 +78,17 @@ export default async function QuestionPage({ params }: Props) {
         <Link href="/dse" className="hover:text-black/80">DSE</Link>
         <span className="mx-2">›</span>
         <Link href={`/dse/${subject}`} className="hover:text-black/80">
-          {name}
+          {meta.nameZh}
         </Link>
         <span className="mx-2">›</span>
         <Link href={`/dse/${subject}/${topic}`} className="hover:text-black/80">
-          {pretty}
+          {label.zh}
         </Link>
       </nav>
 
       <div className="flex items-center gap-2 text-xs">
         <span className="rounded-full bg-black/5 px-2 py-0.5 text-black/50">
-          {q.difficulty}
+          {DIFFICULTY_LABEL[q.difficulty].zh}
         </span>
         <span className="text-black/40">{q.id}</span>
       </div>
@@ -115,7 +112,7 @@ export default async function QuestionPage({ params }: Props) {
             >
               {o}
               {isAns && (
-                <span className="ml-2 text-sm text-green-700">✓ Answer</span>
+                <span className="ml-2 text-sm text-green-700">✓ 答案</span>
               )}
             </div>
           );
@@ -123,7 +120,7 @@ export default async function QuestionPage({ params }: Props) {
       </div>
 
       <section className="mt-6 rounded-2xl bg-white p-6 shadow-sm">
-        <h2 className="text-lg font-semibold">Explanation</h2>
+        <h2 className="text-lg font-semibold text-navy">解說</h2>
         <p className="mt-3 leading-relaxed text-black/70">{q.explanation}</p>
       </section>
 
@@ -133,7 +130,7 @@ export default async function QuestionPage({ params }: Props) {
             href={questionHref(subject, prev)}
             className="rounded-full border border-black/10 px-4 py-2 hover:bg-black/5"
           >
-            ← Previous
+            ← 上一題
           </Link>
         ) : <span />}
         {next && (
@@ -141,15 +138,18 @@ export default async function QuestionPage({ params }: Props) {
             href={questionHref(subject, next)}
             className="rounded-full border border-black/10 px-4 py-2 hover:bg-black/5"
           >
-            Next →
+            下一題 →
           </Link>
         )}
       </div>
 
       <p className="mt-10 text-center text-xs text-black/40">
-        More free DSE {name} drills:{" "}
+        <Link href={`/dse/${subject}/${topic}`} className="underline">
+          「{label.zh}」全部 {siblings.length} 題
+        </Link>
+        {" · "}
         <Link href={`/dse/${subject}`} className="underline">
-          {pretty} question bank
+          {meta.nameZh} MCQ 題庫
         </Link>
       </p>
     </div>
