@@ -1,20 +1,35 @@
 @import "tailwindcss";
 
+/*
+ * Trust Navy — shared visual system with primary.hkxoptima.com.
+ * Navy headers, cream surfaces, gold accents. Site is light-only.
+ */
 :root {
-  /* Light slate base + deep blue accent (site is light-only) */
-  --ink-bg: #f4f6fa;
+  --navy: #0b1f3a;
+  --navy-soft: #163056;
+  --cream: #f7f3ea;
+  --gold: #c4a35a;
+  --gold-strong: #b08d45;
+  --gold-ink: #7a6230; /* gold for text on cream/white — AA */
+  --line: #d9d2c5;
+  --coral: #9b3a32;
+
+  --ink-bg: var(--cream);
   --ink-surface: #ffffff;
-  --ink-border: #e2e8f0;
-  --ink-text: #0b1220; /* near-black slate */
-  --ink-muted: #475569; /* body / secondary text - AA on white */
-  --ink-faint: #64748b;
-  --navy: #0f172a;
-  --sky-wash: #f0f4ff;
-  --accent: #1d4ed8; /* deep blue */
-  --accent-strong: #1e40af;
-  --accent-soft: rgba(29, 78, 216, 0.1);
-  --accent-2: #a16207; /* muted amber, for the rare secondary highlight */
-  --hero-glow: rgba(29, 78, 216, 0.14);
+  --ink-border: var(--line);
+  --ink-text: #1a1a1a;
+  --ink-muted: #5e584e;
+  --ink-faint: #746c60;
+  --sky-wash: #efeae0;
+  --accent: var(--navy);
+  --accent-strong: var(--navy-soft);
+  --accent-soft: rgba(11, 31, 58, 0.08);
+  --accent-2: var(--gold-ink);
+  --hero-glow: rgba(196, 163, 90, 0.18);
+  --shadow-card: 0 8px 24px rgba(11, 31, 58, 0.06);
+
+  /* Headings: serif, as on primary. Sora (--font-brand) is for the wordmark and numerals. */
+  --font-display: var(--font-serif-zh), "Noto Serif TC", "Songti TC", serif;
 
   --background: var(--ink-bg);
   --foreground: var(--ink-text);
@@ -23,8 +38,51 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-cream: var(--cream);
+  --color-gold: var(--gold);
+  --color-gold-strong: var(--gold-strong);
+  --color-gold-ink: var(--gold-ink);
+  --color-line: var(--line);
+  --color-coral: var(--coral);
+  --color-ink: var(--ink-text);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
   --font-sans: var(--font-body);
   --font-display: var(--font-display);
+}
+
+/*
+ * Existing pages use Tailwind's slate + blue utilities throughout (quizzes,
+ * CAT report, JUPAS tables). Both scales are re-pointed at the Trust Navy
+ * palette so every page inherits the system without per-class rewrites:
+ * slate → warm neutrals ending in --ink-text, blue → navy ending in --navy.
+ */
+@theme {
+  --color-slate-50: #fbf9f4;
+  --color-slate-100: #f2ede3;
+  --color-slate-200: #e3dccf;
+  --color-slate-300: #d0c7b7;
+  --color-slate-400: #a39a8b;
+  --color-slate-500: #746c60;
+  --color-slate-600: #5e584e;
+  --color-slate-700: #474238;
+  --color-slate-800: #2d2a25;
+  --color-slate-900: #1a1a1a;
+  --color-slate-950: #111111;
+
+  --color-blue-50: #eef1f6;
+  --color-blue-100: #dde3ec;
+  --color-blue-200: #bcc7d8;
+  --color-blue-300: #8fa0bb;
+  --color-blue-400: #5f7699;
+  --color-blue-500: #3a5478;
+  --color-blue-600: #24406a;
+  --color-blue-700: #163056;
+  --color-blue-800: #0b1f3a;
+  --color-blue-900: #081729;
+  --color-blue-950: #050f1c;
 }
 
 body {
@@ -47,98 +105,42 @@ body {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--accent) 28%, transparent);
+  background: color-mix(in srgb, var(--gold) 35%, transparent);
   color: var(--ink-text);
 }
 
-/* Marketing shell - light slate with a soft blue wash */
 .home-shell {
-  --ink-bg: #f4f6fa;
-  --ink-surface: #ffffff;
-  --ink-border: #e2e8f0;
-  --ink-text: #0b1220;
-  --ink-muted: #475569;
-  --ink-faint: #64748b;
-  --accent: #1d4ed8;
-  --accent-strong: #1e40af;
-  --accent-soft: rgba(29, 78, 216, 0.1);
-  --hero-glow: rgba(29, 78, 216, 0.1);
   color: var(--ink-text);
-  background:
-    radial-gradient(ellipse 55% 40% at 12% -8%, var(--hero-glow), transparent 55%),
-    radial-gradient(ellipse 40% 28% at 88% 0%, rgba(29, 78, 216, 0.06), transparent 50%),
-    #f4f6fa;
+  background: var(--cream);
 }
 
-.home-shell::before {
-  content: "";
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  opacity: 0.5;
-  background-image:
-    linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
-  background-size: 56px 56px;
-  mask-image: linear-gradient(180deg, #000 0%, transparent 65%);
-}
-
-.home-shell > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* DSE Study Hub - light slate, deep blue accent */
 .dse-root {
-  --dse-bg: #f4f6fa;
+  --dse-bg: var(--cream);
   --dse-surface: #ffffff;
-  --dse-border: #e2e8f0;
-  --accent: #1d4ed8;
-  --accent-strong: #1e40af;
-  --accent-soft: rgba(29, 78, 216, 0.1);
-  --accent-2: #a16207;
-  --ink-bg: #f4f6fa;
-  --ink-surface: #ffffff;
-  --ink-border: #e2e8f0;
-  --ink-text: #0b1220;
-  --ink-muted: #475569;
-  --ink-faint: #64748b;
+  --dse-border: var(--line);
   font-feature-settings: "kern" 1, "liga" 1;
-  background:
-    radial-gradient(ellipse 55% 38% at 80% -10%, rgba(29, 78, 216, 0.07), transparent 50%),
-    radial-gradient(ellipse 40% 28% at 8% 18%, rgba(29, 78, 216, 0.04), transparent 45%),
-    #f4f6fa;
-}
-
-.dse-root ::selection {
-  background: color-mix(in srgb, var(--accent) 28%, transparent);
   color: var(--ink-text);
+  background: var(--cream);
 }
 
 .dse-progress {
-  background: linear-gradient(90deg, #1e40af 0%, #1d4ed8 55%, #2563eb 100%);
+  background: linear-gradient(90deg, var(--navy) 0%, var(--navy-soft) 70%, var(--gold) 100%);
 }
 
-/* CAT Diagnostic Room - light slate (matches DSE shell) */
+/* CAT Diagnostic Room */
 .dse-cat-light {
-  --cat-bg: #f4f6fa;
+  --cat-bg: var(--cream);
   --cat-card: #ffffff;
-  --cat-border: #e2e8f0;
-  --cat-ink: #0b1220;
-  --cat-muted: #475569;
-  --cat-accent: #1d4ed8;
+  --cat-border: var(--line);
+  --cat-ink: var(--ink-text);
+  --cat-muted: var(--ink-muted);
+  --cat-accent: var(--navy);
   color: var(--cat-ink);
   background: transparent;
 }
 
-.dse-cat-light ::selection {
-  background: rgba(29, 78, 216, 0.22);
-  color: var(--cat-ink);
-}
-
 .dse-cat-progress {
-  background: linear-gradient(90deg, #1e40af 0%, #1d4ed8 100%);
+  background: linear-gradient(90deg, var(--navy) 0%, var(--gold) 100%);
 }
 
 .dse-flip-inner {
@@ -210,23 +212,42 @@ body {
   animation: float-soft 5s ease-in-out infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up,
+  .anim-fade-up-delay,
+  .anim-fade-up-delay-2,
+  .anim-float {
+    animation: none;
+  }
+}
+
 .btn-primary {
-  background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 55%, #2563eb 100%);
-  color: #ffffff;
-  box-shadow: 0 10px 28px rgba(29, 78, 216, 0.2);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  background: var(--gold);
+  color: var(--navy);
+  box-shadow: 0 10px 24px rgba(196, 163, 90, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .btn-primary:hover {
-  filter: brightness(1.08);
+  background: var(--gold-strong);
   transform: translateY(-1px);
-  box-shadow: 0 14px 32px rgba(29, 78, 216, 0.26);
+}
+
+.btn-navy {
+  background: var(--navy);
+  color: #ffffff;
+  transition: background 0.2s ease;
+}
+
+.btn-navy:hover {
+  background: var(--navy-soft);
 }
 
 .panel-lift {
-  transition: box-shadow 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .panel-lift:hover {
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(11, 31, 58, 0.1);
 }
