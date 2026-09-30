@@ -53,7 +53,7 @@ export default function OpenGraphImage() {
             lineHeight: 1.35,
           }}
         >
-          中文範文閃卡、診斷室、English／ECON／數學／BAFS 自學路徑、JUPAS 揀科
+          中文範文、English／ECON／數學／BAFS／ICT 自學路徑、JUPAS 揀科
         </div>
         <div
           style={{

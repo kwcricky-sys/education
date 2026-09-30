@@ -7,6 +7,7 @@ import {
   Brain,
   Calculator,
   CheckCircle2,
+  Cpu,
   FileText,
   GraduationCap,
   Languages,
@@ -23,6 +24,7 @@ import { getDrillBank } from "@/lib/dse/drills";
 import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
+import { ICT_UNITS } from "@/lib/dse/ict-path";
 import { MATH_UNITS } from "@/lib/dse/math-path";
 import { getAllQuizSlugs, getQuiz } from "@/lib/dse/quizzes";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
@@ -52,6 +54,9 @@ const ENGLISH_LESSON_COUNT = ENGLISH_UNITS.reduce(
 const ECON_UNIT_COUNT = ECON_UNITS.length;
 const ECON_LESSON_COUNT = ECON_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
 
+const ICT_UNIT_COUNT = ICT_UNITS.length;
+const ICT_LESSON_COUNT = ICT_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
+
 const MATH_UNIT_COUNT = MATH_UNITS.length;
 const MATH_LESSON_COUNT = MATH_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
 
@@ -60,6 +65,7 @@ const BAFS_LESSON_COUNT = BAFS_UNITS.reduce((n, u) => n + u.lessonIds.length, 0)
 
 const ENGLISH_DRILL_COUNT = getDrillBank("english")?.meta.total ?? 0;
 const ECON_DRILL_COUNT = getDrillBank("econ")?.meta.total ?? 0;
+const ICT_DRILL_COUNT = getDrillBank("ict")?.meta.total ?? 0;
 const MATH_DRILL_COUNT = getDrillBank("math")?.meta.total ?? 0;
 const BAFS_DRILL_COUNT = getDrillBank("bafs")?.meta.total ?? 0;
 
@@ -75,11 +81,11 @@ const PROGRAMME_COUNT = PROGRAMMES.length;
 
 const SAMPLE_CARD = getQuiz("quanxue")?.questions[0];
 
-const TITLE = `DSE 自修室｜中文範文閃卡、English／ECON／數學／BAFS 自學路徑、溫習片、JUPAS 揀科數據 | ${SITE_NAME}`;
+const TITLE = `DSE 自修室｜中文範文閃卡、English／ECON／數學／BAFS／ICT 自學路徑、溫習片、JUPAS 揀科數據 | ${SITE_NAME}`;
 
 export const metadata = createPageMetadata({
   title: TITLE,
-  description: `${SITE_NAME} DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡同 AI 診斷室、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片，仲有 ${PROGRAMME_COUNT} 個聯招課程嘅真實收生分數同畢業薪酬。全部免費、免登入，進度只存你部機。`,
+  description: `${SITE_NAME} DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡同 AI 診斷室、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片，仲有 ${PROGRAMME_COUNT} 個聯招課程嘅真實收生分數同畢業薪酬。全部免費、免登入，進度只存你部機。`,
   path: "/",
   keywords: [
     "DSE 自修室",
@@ -93,6 +99,8 @@ export const metadata = createPageMetadata({
     "指定範文閃卡",
     "英文自學路徑",
     "ECON Learn Mode",
+    "DSE ICT",
+    "資訊及通訊科技",
     "DSE 數學 自學",
     "數學自學路徑",
     "DSE BAFS",
@@ -109,6 +117,8 @@ const HERO_STATS = [
   { value: ENGLISH_LESSON_COUNT, unit: "課", label: "English 自學路徑" },
   { value: ECON_LESSON_COUNT, unit: "課", label: "ECON Learn Mode" },
   { value: MATH_LESSON_COUNT, unit: "課", label: "數學自學路徑" },
+  { value: BAFS_LESSON_COUNT, unit: "課", label: "BAFS 自學路徑" },
+  { value: ICT_LESSON_COUNT, unit: "課", label: "ICT 自學路徑" },
   { value: TOTAL_VIDEO_COUNT, unit: "條", label: `${VIDEO_SUBJECTS.length} 科溫習片` },
   { value: PROGRAMME_COUNT, unit: "個", label: "JUPAS 課程數據" },
 ] as const;
@@ -153,6 +163,14 @@ const SUBJECT_ENTRIES = [
     icon: Briefcase,
     desc: `${BAFS_UNIT_COUNT} 單元 ${BAFS_LESSON_COUNT} 課，由商業環境做到會計、比率同個人理財；${BAFS_DRILL_COUNT} 題練習做關卡。`,
     cta: "由商業環境開始",
+  },
+  {
+    href: "/dse/ict/learn",
+    name: "ICT",
+    nameEn: "Information & Communication Technology",
+    icon: Cpu,
+    desc: `${ICT_UNIT_COUNT} 單元 ${ICT_LESSON_COUNT} 課，由電腦系統、網絡、數據庫做到演算法、保安同應試；${ICT_DRILL_COUNT} 題練習做關卡。`,
+    cta: "由系統開始",
   },
   {
     href: "/dse/videos",
@@ -223,8 +241,8 @@ export default function HomePage() {
       <JsonLd data={buildBreadcrumbJsonLd([{ name: "首頁", path: "/" }])} />
       <JsonLd
         data={buildCourseJsonLd({
-          name: "DSE 自修室：中文、English、ECON、數學、BAFS 自學路徑與 JUPAS 揀科數據",
-          description: `免費 DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片、${PROGRAMME_COUNT} 個聯招課程收生數據。`,
+          name: "DSE 自修室：中文、English、ECON、數學、BAFS、ICT 自學路徑與 JUPAS 揀科數據",
+          description: `免費 DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片、${PROGRAMME_COUNT} 個聯招課程收生數據。`,
           url: `${SITE_URL}/dse`,
           providerName: SITE_NAME,
         })}
@@ -241,7 +259,7 @@ export default function HomePage() {
               <span className="inline-block">溫書揀科一次睇清</span>
             </h1>
             <p className="mx-auto mt-4 max-w-[34rem] text-[15px] leading-relaxed text-ink-muted min-[960px]:mx-0 min-[960px]:text-[17px]">
-              中文 {TEXT_COUNT} 篇範文閃卡同診斷室、English／ECON／數學／BAFS 自學路徑、
+              中文 {TEXT_COUNT} 篇範文閃卡同診斷室、English／ECON／數學／BAFS／ICT 自學路徑、
               {VIDEO_SUBJECTS.length} 科溫習片，考完再用真實收生分數排 JUPAS——唔使先交補習學費。
             </p>
 
@@ -283,11 +301,11 @@ export default function HomePage() {
           <HeroPanel />
         </div>
 
-        <dl className="mt-10 grid grid-cols-2 overflow-hidden rounded-2xl border border-line bg-white sm:grid-cols-3 lg:grid-cols-6 min-[960px]:mt-14">
+        <dl className="mt-10 grid grid-cols-2 overflow-hidden rounded-2xl border border-line bg-white sm:grid-cols-4 min-[960px]:mt-14">
           {HERO_STATS.map((stat) => (
             <div
               key={stat.label}
-              className="border-line px-4 py-4 max-lg:border-b lg:border-r lg:last:border-r-0"
+              className="border-line px-4 py-4 max-sm:border-b sm:border-r sm:nth-[4n]:border-r-0"
             >
               <dt className="sr-only">{stat.label}</dt>
               <dd>

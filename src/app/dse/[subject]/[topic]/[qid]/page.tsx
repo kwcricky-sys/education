@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/json-ld";
+import { DRILL_SUBJECT_META, topicLabel } from "@/lib/dse/drill-meta";
 import {
   DRILL_SUBJECTS,
   getDrillBank,
@@ -8,9 +10,9 @@ import {
   getTopicQuestions,
   questionHref,
 } from "@/lib/dse/drills";
-import { DRILL_SUBJECT_META, topicLabel } from "@/lib/dse/drill-meta";
 import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 import { createPageMetadata } from "@/lib/page-metadata";
+import { buildBreadcrumbJsonLd } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 
 type Props = {
@@ -70,9 +72,15 @@ export default async function QuestionPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd data={jsonLd} />
+      <JsonLd
+        data={buildBreadcrumbJsonLd([
+          { name: "首頁", path: "/" },
+          { name: "DSE 備考", path: "/dse" },
+          { name: `${meta.nameZh} MCQ 練習`, path: `/dse/${subject}` },
+          { name: label.zh, path: `/dse/${subject}/${topic}` },
+          { name: q.id, path: `/dse/${subject}/${topic}/${qid}` },
+        ])}
       />
       <nav className="mb-6 text-sm text-black/50">
         <Link href="/dse" className="hover:text-black/80">DSE</Link>

@@ -21,6 +21,7 @@ const FOOTER_COLUMNS = [
       { href: "/dse/econ/learn", label: "ECON Learn Mode" },
       { href: "/dse/math/learn", label: "數學自學路徑" },
       { href: "/dse/bafs/learn", label: "BAFS 自學路徑" },
+      { href: "/dse/ict/learn", label: "ICT 自學路徑" },
       { href: "/dse/videos", label: "溫習片庫" },
     ],
   },

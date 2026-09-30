@@ -1,6 +1,7 @@
 import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
+import { ICT_UNITS } from "@/lib/dse/ict-path";
 import { MATH_UNITS } from "@/lib/dse/math-path";
 import type { DrillQuestion } from "@/lib/dse/drills";
 import { DIFFICULTY_LABEL } from "@/lib/dse/types";
@@ -10,7 +11,8 @@ export type DrillSubjectMeta = {
   nameEn: string;
   learnHref: string;
   learnLabel: string;
-  videoHref: string;
+  /** Omitted when the subject has no curated video library. */
+  videoHref?: string;
   keywords: string[];
 };
 
@@ -57,6 +59,19 @@ export const DRILL_SUBJECT_META: Record<string, DrillSubjectMeta> = {
       "dse english practice",
     ],
   },
+  ict: {
+    nameZh: "資訊及通訊科技",
+    nameEn: "ICT",
+    learnHref: "/dse/ict/learn",
+    learnLabel: "ICT 自學路徑",
+    keywords: [
+      "DSE ICT",
+      "DSE 資訊及通訊科技",
+      "HKDSE ICT MCQ",
+      "資訊及通訊科技 練習",
+      "DSE ICT practice",
+    ],
+  },
   math: {
     nameZh: "數學科",
     nameEn: "Mathematics",
@@ -94,6 +109,10 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
     const u = ENGLISH_UNITS.find((x) => x.topicKey === topic);
     if (u) return { zh: u.title, en: u.label, unitId: u.id };
   }
+  if (subject === "ict") {
+    const u = ICT_UNITS.find((x) => x.topicKey === topic);
+    if (u) return { zh: u.titleZh, en: u.title, unitId: u.id };
+  }
   if (subject === "math") {
     const u = MATH_UNITS.find((x) => x.topicKey === topic);
     if (u) return { zh: u.titleZh, en: u.title, unitId: u.id };
@@ -105,18 +124,17 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
 }
 
 /** Pass mark shared by every unit gate in a subject's learn path. */
+const LEARN_UNITS = {
+  bafs: BAFS_UNITS,
+  econ: ECON_UNITS,
+  english: ENGLISH_UNITS,
+  ict: ICT_UNITS,
+  math: MATH_UNITS,
+} as const;
+
 export function learnPassThreshold(subject: string): number {
-  const units =
-    subject === "bafs"
-      ? BAFS_UNITS
-      : subject === "econ"
-        ? ECON_UNITS
-        : subject === "english"
-          ? ENGLISH_UNITS
-          : subject === "math"
-            ? MATH_UNITS
-            : null;
-  if (!units) return 7;
+  const units = LEARN_UNITS[subject as keyof typeof LEARN_UNITS];
+  if (!units?.length) return 7;
   return Math.min(...units.map((u) => u.passThreshold));
 }
 
