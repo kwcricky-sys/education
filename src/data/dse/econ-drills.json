@@ -2266,13 +2266,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "A household took a fixed-rate mortgage before an unexpected rise in the CPI. Who gains in real terms?",
-   "options": [
-    "A. The borrower, because the real burden of the fixed nominal repayment falls",
-    "B. The lender, because the real value of the repayments rises",
+      "options": [
+    "A. The lender, because the real value of the repayments rises",
+    "B. The borrower, because the real burden of the fixed nominal repayment falls",
     "C. Both equally, because the nominal rate already included the unexpected rise",
     "D. Neither, because a fixed basket means the CPI cannot change the real burden"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Unanticipated inflation cuts the purchasing power of a fixed nominal repayment, so the borrower gains and the lender loses. If the rise had been expected, the nominal rate could have been set higher. The CPI basket being fixed is a measurement issue, not a reason the real burden is unchanged.",
    "tags": [
     "unanticipated inflation",
@@ -2285,13 +2285,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "Expected inflation rises and new loan contracts are renegotiated. What happens to the nominal interest rate?",
-   "options": [
-    "A. It tends to rise so the expected real rate need not fall one-for-one",
-    "B. It must fall by the full amount of expected inflation",
-    "C. It is fixed by the currency board at 7.80",
+      "options": [
+    "A. It must fall by the full amount of expected inflation",
+    "B. It is fixed by the currency board at 7.80",
+    "C. It tends to rise so the expected real rate need not fall one-for-one",
     "D. It equals the natural rate of unemployment"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "Approximately, expected real interest rate = nominal rate minus expected inflation. If inflation is anticipated, contracts build in a higher nominal rate. 7.80 is an exchange rate of HKD per USD, not an interest rate.",
    "tags": [
     "anticipated inflation",
@@ -2304,13 +2304,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "A restaurant reprints its price list every month during inflation, and shoppers make extra bank trips so they can hold less cash. Which pairing is correct?",
-   "options": [
-    "A. Reprinting is a menu cost; the extra trips are a shoe-leather cost",
-    "B. Reprinting is a shoe-leather cost; the extra trips are cyclical unemployment",
-    "C. Both are crowding out",
-    "D. Both disappear only when inflation is unanticipated"
+      "options": [
+    "A. Reprinting is a shoe-leather cost; the extra trips are cyclical unemployment",
+    "B. Both are crowding out",
+    "C. Both disappear only when inflation is unanticipated",
+    "D. Reprinting is a menu cost; the extra trips are a shoe-leather cost"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "Menu costs are resources used to change listed prices. Shoe-leather costs are time and effort spent economising on money balances. Both can remain when inflation is anticipated. They are not crowding out.",
    "tags": [
     "menu cost",
@@ -2323,13 +2323,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "Which statement about deflation is correct?",
-   "options": [
-    "A. A sustained fall in the general price level raises the real burden of a fixed nominal debt",
-    "B. A fall in the price of one brand of rice is deflation",
+      "options": [
+    "A. A fall in the price of one brand of rice is deflation",
+    "B. A sustained fall in the general price level raises the real burden of a fixed nominal debt",
     "C. Deflation means the linked exchange rate has been abolished",
     "D. Debtors always gain when the price level falls"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Deflation is a sustained fall in the general price level, not a fall in one price. Fixed nominal debts become heavier in real terms, so debtors lose. It is not a statement about the currency board.",
    "tags": [
     "deflation",
@@ -2342,13 +2342,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "The natural rate of unemployment consists of:",
-   "options": [
-    "A. Frictional and structural unemployment, with cyclical unemployment equal to zero",
-    "B. Only cyclical unemployment",
-    "C. Discouraged workers, who are outside the labour force",
+      "options": [
+    "A. Only cyclical unemployment",
+    "B. Discouraged workers, who are outside the labour force",
+    "C. Frictional and structural unemployment, with cyclical unemployment equal to zero",
     "D. The whole population aged 15 and above"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "The natural rate is frictional plus structural unemployment, the rate when the economy is at its normal output and cyclical unemployment is zero. Discouraged workers are not in the labour force, so they are not part of that rate.",
    "tags": [
     "natural rate",
@@ -2362,13 +2362,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "A policy tries to hold unemployment below the natural rate by raising aggregate demand. At DSE level, the Phillips-curve conclusion is:",
-   "options": [
-    "A. Inflation can rise, but unemployment does not stay below the natural rate once expectations adjust",
-    "B. The long-run Phillips curve shifts left, so any inflation rate buys permanently lower unemployment",
-    "C. The short-run trade-off is a vertical line at every inflation rate",
-    "D. The currency board must move the weak-side rate to 7.75"
+      "options": [
+    "A. The long-run Phillips curve shifts left, so any inflation rate buys permanently lower unemployment",
+    "B. The short-run trade-off is a vertical line at every inflation rate",
+    "C. The currency board must move the weak-side rate to 7.75",
+    "D. Inflation can rise, but unemployment does not stay below the natural rate once expectations adjust"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "The short-run Phillips curve slopes down for a given expected inflation. In the long run it is vertical at the natural rate, so demand stimulus does not permanently cut unemployment below that rate. The convertibility band is a separate fact and is not reset by this policy.",
    "tags": [
     "Phillips curve",
@@ -2381,13 +2381,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "The CPI can overstate the rise in the cost of living when households switch to goods that have become relatively cheaper. This is:",
-   "options": [
-    "A. Substitution bias from a fixed basket",
-    "B. The natural rate of unemployment",
+      "options": [
+    "A. The natural rate of unemployment",
+    "B. Substitution bias from a fixed basket",
     "C. A cash drain from the money multiplier",
     "D. Proof that discouraged workers are inside the CPI basket"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "A fixed basket does not follow substitution toward relatively cheaper goods, so the measured price rise can exceed the rise in the cost of the basket people actually buy. That is not an unemployment or banking concept.",
    "tags": [
     "CPI",
@@ -2400,13 +2400,13 @@
    "topic": "inflation-unemployment",
    "difficulty": "medium",
    "question": "Employment is unchanged, but some unemployed people stop searching and leave the labour force. The unemployment rate:",
-   "options": [
-    "A. Can fall even though no new jobs were created",
-    "B. Must rise because discouraged workers are counted as unemployed",
-    "C. Equals the natural rate by definition",
+      "options": [
+    "A. Must rise because discouraged workers are counted as unemployed",
+    "B. Equals the natural rate by definition",
+    "C. Can fall even though no new jobs were created",
     "D. Cannot change unless the CPI basket is updated"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "Discouraged workers are outside the labour force, not unemployed. If they leave and employment is unchanged, the unemployment rate falls without a rise in jobs. Always check the labour force before reading the rate as a recovery.",
    "tags": [
     "discouraged workers",
@@ -2419,13 +2419,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "A bank receives a new cash deposit of $1,000. The required reserve ratio is 20%, there is no cash drain, and banks lend all excess reserves. Maximum total deposits are:",
-   "options": [
-    "A. $5,000",
-    "B. $800",
-    "C. $1,200",
-    "D. $200"
+      "options": [
+    "A. $800",
+    "B. $1,200",
+    "C. $200",
+    "D. $5,000"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "Maximum total deposits = new reserves / rrr = 1,000 / 0.20 = $5,000, including the original deposit. Required reserves on the first deposit are $200, so the first loan is $800, not the whole $1,000. This 20% ratio is a classroom example, not Hong Kong's statutory HKD ratio, which is zero.",
    "tags": [
     "deposit multiplier",
@@ -2438,13 +2438,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "Using the same $1,000 deposit and 20% required reserve ratio, with no leakages, the maximum amount of new loans is:",
-   "options": [
-    "A. $4,000",
-    "B. $5,000",
+      "options": [
+    "A. $5,000",
+    "B. $4,000",
     "C. $1,000",
     "D. $200"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Total deposits can rise by $5,000, of which $1,000 is the original cash deposit. Loans create the other $4,000. Quoting $5,000 as new lending double-counts the initial deposit.",
    "tags": [
     "credit creation",
@@ -2457,13 +2457,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "If the public holds part of each new loan as cash, then compared with 1/rrr:",
-   "options": [
-    "A. The deposit multiplier is smaller because less is redeposited",
-    "B. The deposit multiplier is larger because cash is a reserve at the central bank",
-    "C. Total deposits must exceed the simple maximum",
+      "options": [
+    "A. The deposit multiplier is larger because cash is a reserve at the central bank",
+    "B. Total deposits must exceed the simple maximum",
+    "C. The deposit multiplier is smaller because less is redeposited",
     "D. The capital adequacy ratio becomes the multiplier"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "A cash drain is a leakage. Notes held by the public are not redeposited, so later banks have less to lend and deposits stop short of the simple 1/rrr maximum. The capital adequacy ratio is a different rule.",
    "tags": [
     "cash drain",
@@ -2476,13 +2476,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "Which statement separates the required reserve ratio from the capital adequacy ratio?",
-   "options": [
-    "A. The reserve ratio is reserves as a fraction of deposits; capital adequacy is capital against risk-weighted assets",
-    "B. They are two names for the same liquidity rule",
-    "C. Capital adequacy is always equal to 1/rrr",
-    "D. Only the capital ratio is used in the simple deposit multiplier"
+      "options": [
+    "A. They are two names for the same liquidity rule",
+    "B. Capital adequacy is always equal to 1/rrr",
+    "C. Only the capital ratio is used in the simple deposit multiplier",
+    "D. The reserve ratio is reserves as a fraction of deposits; capital adequacy is capital against risk-weighted assets"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "The required reserve ratio limits the fraction of deposits that must be held as reserves. Capital adequacy is a solvency rule about capital and risky assets. The simple multiplier uses the reserve ratio, not the capital ratio.",
    "tags": [
     "required reserve ratio",
@@ -2495,13 +2495,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "Why might a bank hold reserves above the required ratio?",
-   "options": [
-    "A. Withdrawals are uncertain, or creditworthy loan demand is weak",
-    "B. The simple multiplier requires every bank to hold excess reserves",
+      "options": [
+    "A. The simple multiplier requires every bank to hold excess reserves",
+    "B. Withdrawals are uncertain, or creditworthy loan demand is weak",
     "C. Excess reserves are themselves loans to customers",
     "D. A higher interest rate raises the transactions demand for reserves one-for-one"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Excess reserves are a choice: a buffer against withdrawals, weak loan demand, or liquidity needs. They are not lent out, so they make deposit creation smaller than the simple multiplier. The multiplier does not instruct banks to hold them.",
    "tags": [
     "excess reserves"
@@ -2513,13 +2513,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "In Hong Kong the statutory reserve ratio on Hong Kong dollar deposits is zero, but banks still hold reserve balances. Those balances are:",
-   "options": [
-    "A. Voluntary reserves, so the classroom formula 1/rrr is not the operating multiplier",
-    "B. Proof that the deposit multiplier is infinite",
-    "C. The strong-side Convertibility Undertaking at 7.75",
+      "options": [
+    "A. Proof that the deposit multiplier is infinite",
+    "B. The strong-side Convertibility Undertaking at 7.75",
+    "C. Voluntary reserves, so the classroom formula 1/rrr is not the operating multiplier",
     "D. A required 20% ratio set by the currency board"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "With a zero statutory HKD reserve ratio, balances banks actually hold are voluntary, held for liquidity and settlement. You cannot plug zero into 1/rrr and conclude that deposits expand without limit. 7.75 is an exchange rate, not a reserve ratio.",
    "tags": [
     "Hong Kong",
@@ -2532,13 +2532,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "Household income rises. Which change in money demand follows?",
-   "options": [
-    "A. Transactions demand rises, which is a rightward shift of money demand",
-    "B. Transactions demand falls because more goods have been bought",
-    "C. The rise in income is a movement along the money-demand curve",
-    "D. Speculative demand must rise by the same amount"
+      "options": [
+    "A. Transactions demand falls because more goods have been bought",
+    "B. The rise in income is a movement along the money-demand curve",
+    "C. Speculative demand must rise by the same amount",
+    "D. Transactions demand rises, which is a rightward shift of money demand"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "The transactions motive is money for planned payments, and it rises with income. Income shifts money demand. A change in the interest rate is the movement along the curve. Speculative demand depends on the interest rate, not one-for-one on income.",
    "tags": [
     "transactions motive",
@@ -2551,13 +2551,13 @@
    "topic": "money-banking",
    "difficulty": "medium",
    "question": "The interest rate on bonds rises. Speculative money demand:",
-   "options": [
-    "A. Falls, because the opportunity cost of holding money is higher",
-    "B. Rises, because bonds and money are the same asset",
+      "options": [
+    "A. Rises, because bonds and money are the same asset",
+    "B. Falls, because the opportunity cost of holding money is higher",
     "C. Shifts because income has changed",
     "D. Equals the required reserve ratio"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "The speculative motive is holding money instead of interest-bearing assets. A higher interest rate raises the interest given up, so people hold less money for this motive. That is a movement along money demand, not an income shift.",
    "tags": [
     "speculative motive",
@@ -2570,13 +2570,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "The government borrows to fund a larger deficit. Crowding out means:",
-   "options": [
-    "A. The interest rate tends to rise and private investment falls",
-    "B. Taxes are cut by the same amount as the extra spending",
-    "C. The long-run Phillips curve shifts left",
+      "options": [
+    "A. Taxes are cut by the same amount as the extra spending",
+    "B. The long-run Phillips curve shifts left",
+    "C. The interest rate tends to rise and private investment falls",
     "D. Imports fall because the exchange rate is fixed at 7.75"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "Government borrowing adds to the demand for loanable funds. A higher interest rate reduces interest-sensitive private investment, so the rise in demand is smaller than the simple multiplier. It is not a tax cut, and 7.75 is the strong-side exchange rate.",
    "tags": [
     "crowding out"
@@ -2588,13 +2588,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "Crowding out of private investment is more complete when:",
-   "options": [
-    "A. The economy is already near full employment",
-    "B. There is a deep recession and a great deal of spare capacity",
-    "C. The extra spending is financed entirely from existing fiscal reserves, with no new borrowing",
-    "D. The required reserve ratio is 20%"
+      "options": [
+    "A. There is a deep recession and a great deal of spare capacity",
+    "B. The extra spending is financed entirely from existing fiscal reserves, with no new borrowing",
+    "C. The required reserve ratio is 20%",
+    "D. The economy is already near full employment"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "Near full employment, extra demand mainly raises prices and interest rates rather than real output, so private investment is squeezed more. A deep recession leaves more room for output to rise. Using fiscal reserves instead of borrowing weakens the interest-rate channel.",
    "tags": [
     "crowding out",
@@ -2607,13 +2607,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "Which item is an automatic stabiliser?",
-   "options": [
-    "A. Salaries tax revenue falling in a slump under the existing progressive schedule, with no new law",
-    "B. A one-off cash handout voted in this year's budget",
+      "options": [
+    "A. A one-off cash handout voted in this year's budget",
+    "B. Salaries tax revenue falling in a slump under the existing progressive schedule, with no new law",
     "C. An independent cut in the HKMA Base Rate",
     "D. A new tariff on bottled juice"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Automatic stabilisers change under rules already in place. Progressive tax revenue falls when incomes fall, so disposable income is cushioned. A handout and a tariff are discretionary decisions. The HKMA cannot cut the Base Rate independently of US rates under the currency board.",
    "tags": [
     "automatic stabiliser",
@@ -2626,13 +2626,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "Unemployment benefits rise in a slump and fall in a boom under existing rules. This:",
-   "options": [
-    "A. Supports household spending in the downturn without a new policy vote",
-    "B. Is crowding out, because benefits are government borrowing",
-    "C. Is counted as G, government purchases, in AD = C + I + G + X − M",
+      "options": [
+    "A. Is crowding out, because benefits are government borrowing",
+    "B. Is counted as G, government purchases, in AD = C + I + G + X − M",
+    "C. Supports household spending in the downturn without a new policy vote",
     "D. Requires the HKMA to sell US dollars at 7.75"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "The benefit rule is an automatic stabiliser: transfers move with unemployment and dampen the cycle. Transfers raise disposable income; they are not themselves government purchases of goods and services. The strong-side rate of 7.75 is not a fiscal instrument.",
    "tags": [
     "automatic stabiliser",
@@ -2645,13 +2645,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "A recession is visible in the data only after several months, and a public-works vote then takes further months to pass. These delays are:",
-   "options": [
-    "A. A recognition lag, then an implementation lag",
-    "B. Two impact lags, because spending has already changed",
-    "C. The strong-side and weak-side Convertibility Undertakings",
-    "D. Crowding out and the deposit multiplier"
+      "options": [
+    "A. Two impact lags, because spending has already changed",
+    "B. The strong-side and weak-side Convertibility Undertakings",
+    "C. Crowding out and the deposit multiplier",
+    "D. A recognition lag, then an implementation lag"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "Recognition lag is the wait for data. Implementation lag is the wait to decide and start the policy. The impact lag starts after the policy is in force, when spending and prices respond. The convertibility rates are 7.75 and 7.85, not names for these lags.",
    "tags": [
     "recognition lag",
@@ -2664,13 +2664,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "A rate increase has been announced, but mortgage payments, investment plans, and the CPI respond only over the following year. That further delay is:",
-   "options": [
-    "A. An impact lag",
-    "B. A recognition lag",
+      "options": [
+    "A. A recognition lag",
+    "B. An impact lag",
     "C. An automatic stabiliser",
     "D. A cash drain"
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "The impact lag is the time from the policy action to its effect on spending and prices. Recognition lag is about seeing the problem. The lag does not let Hong Kong set interest rates independently of the US rate.",
    "tags": [
     "impact lag"
@@ -2682,13 +2682,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "The US Federal Reserve is raising rates while Hong Kong domestic demand is weak. Under the currency board, the HKMA:",
-   "options": [
-    "A. Cannot cut the Base Rate independently to stimulate Hong Kong without undermining the link",
-    "B. Can set any Hong Kong dollar interest rate because the currency floats",
-    "C. Must move the weak-side undertaking from 7.85 to 7.75",
+      "options": [
+    "A. Can set any Hong Kong dollar interest rate because the currency floats",
+    "B. Must move the weak-side undertaking from 7.85 to 7.75",
+    "C. Cannot cut the Base Rate independently to stimulate Hong Kong without undermining the link",
     "D. Uses fiscal reserves as a monetary-base instrument to refix the US rate"
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "Hong Kong's currency board links the HKD to the USD inside about 7.75–7.85. Local interest rates follow US rates. The HKMA does not have an independent monetary policy like a floating-rate central bank. The weak side stays at 7.85.",
    "tags": [
     "currency board",
@@ -2701,13 +2701,13 @@
    "topic": "fiscal-monetary-policy",
    "difficulty": "medium",
    "question": "The Hong Kong dollar is pressed to the weak-side Convertibility Undertaking. What does the HKMA do?",
-   "options": [
-    "A. It sells US dollars and buys Hong Kong dollars at 7.85, withdrawing HKD liquidity",
-    "B. It buys US dollars and sells Hong Kong dollars at 7.75",
-    "C. It lets the rate float beyond 7.85 and cuts the Base Rate on its own",
-    "D. It treats 7.85 as the strong side and injects HKD liquidity"
+      "options": [
+    "A. It buys US dollars and sells Hong Kong dollars at 7.75",
+    "B. It lets the rate float beyond 7.85 and cuts the Base Rate on its own",
+    "C. It treats 7.85 as the strong side and injects HKD liquidity",
+    "D. It sells US dollars and buys Hong Kong dollars at 7.85, withdrawing HKD liquidity"
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "Weak side is 7.85: the HKMA sells USD and buys HKD, which withdraws Hong Kong dollar liquidity. Strong side is 7.75: the HKMA buys USD and sells HKD, injecting liquidity. The two sides must not be reversed, and the board does not float the rate.",
    "tags": [
     "Convertibility Undertaking",
