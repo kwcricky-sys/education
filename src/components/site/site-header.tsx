@@ -26,7 +26,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav aria-label="主要導覽" className="hidden items-center gap-0.5 md:flex">
+        <nav aria-label="主要導覽" className="hidden items-center gap-0.5 lg:flex">
           {SITE_NAV.map((item) => {
             const active = isNavItemActive(item, pathname);
             return (
@@ -58,7 +58,7 @@ export function SiteHeader() {
 
       <nav
         aria-label="科目導覽"
-        className="border-t border-cream/10 md:hidden"
+        className="border-t border-cream/10 lg:hidden"
       >
         <ul className="mx-auto flex max-w-[1160px] justify-between gap-0.5 overflow-x-auto px-2 py-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {SITE_NAV.map((item) => {
