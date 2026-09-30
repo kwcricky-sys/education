@@ -341,11 +341,12 @@ const UNITS = [
         example: {
           scenario: "A owner injects $100,000 cash and buys inventory $40,000 on credit.",
           walkthrough:
-            "After injection: Cash asset +100,000, Capital +100,000. Purchase: Inventory +40,000, Cash -40,000, Trade payables +40,000. Net assets still equal capital plus liabilities. Show step-by-step journal thinking.",
+            "After injection: Cash +100,000 and Capital +100,000 (A = L + C: 100,000 = 0 + 100,000). Credit purchase of inventory: Inventory +40,000 and Trade payables +40,000 — cash is not affected because no payment is made yet (140,000 = 40,000 + 100,000). If the firm later pays the supplier in cash, that separate transaction is Cash -40,000 and Trade payables -40,000. Show each transaction step-by-step so the equation stays balanced.",
         },
         traps: [
           "Treating revenue as an asset — revenue increases equity through profit.",
           "Forgetting credit purchases increase both assets and liabilities.",
+          "Reducing cash when buying on credit — only inventory and trade payables change until payment is made.",
           "Confusing capital with cash — capital is a claim, not necessarily cash balance.",
         ],
         terms: [
