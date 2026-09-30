@@ -3,7 +3,7 @@
   "title": "DSE English Learn Mode Practice Bank",
   "subject": "DSE english",
   "language": "zh-HK",
-  "total": 100,
+  "total": 128,
   "version": "learn-mode-1",
   "reviewed": false,
   "note": "Practice sets for the /dse/english/learn step-by-step course. Content written from teaching analysis of HKDSE English paper structure and marking practice; not HKEAA material."
@@ -1607,6 +1607,454 @@
    "answer": "B",
    "explanation": "整合階段的目標是把技巧在真實時間限制下串連起來，所以需要完整限時卷來練節奏與狀態切換。單項練習留給較早的針對性階段。",
    "tags": ["study plan", "timed practice"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-011",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: \"Some volunteers stayed after the concert to stack chairs.\" Statement: \"Every volunteer stayed to stack chairs.\" The statement is:",
+   "options": [
+    "A. True",
+    "B. False",
+    "C. Not Given",
+    "D. True, because volunteers enjoy concerts"
+   ],
+   "answer": "C",
+   "explanation": "some 證明唔到 every。文章亦冇講其餘義工有冇離開，所以唔係 False。D 用了文章以外的常識，Not Given 不可以靠卷外知識改成 True。",
+   "tags": ["Not Given", "quantifiers"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-012",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: \"The club cancelled the hike because the trail was closed. Members were told by email.\" Statement: \"Members were disappointed about the cancellation.\" The statement is:",
+   "options": [
+    "A. True",
+    "B. False",
+    "C. Not Given",
+    "D. True, because hikes are popular"
+   ],
+   "answer": "C",
+   "explanation": "文章只講取消原因同通知方法，冇講成員感受。感受合理並不足以當成 True。D 就係用常識補完。",
+   "tags": ["Not Given", "outside knowledge"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-013",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: \"Mia lent her notes to Ben. This helped him catch up before the test.\" What does \"This\" refer to?",
+   "options": [
+    "A. The test",
+    "B. Ben",
+    "C. Mia lending her notes to Ben",
+    "D. The notes, regardless of whether she lent them"
+   ],
+   "answer": "C",
+   "explanation": "This 是單數，指前句整件事（把筆記借給 Ben）。test 是時間，Ben 是人，只寫 notes 會漏掉「借出」這個動作。",
+   "tags": ["reference", "pronoun"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-READINF-014",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: \"Neither speaker supported the fee increase.\" Statement: \"Both speakers opposed the fee increase.\" The statement is:",
+   "options": [
+    "A. True",
+    "B. False",
+    "C. Not Given",
+    "D. True only for the first speaker"
+   ],
+   "answer": "A",
+   "explanation": "Neither…supported 等於兩個人都不支持，同 both opposed 是同義改寫。意思一致就是 True，唔使逐個字相同，亦唔好因為換了詞就當 Not Given。",
+   "tags": ["True", "paraphrase"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-011",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "正式信唔知道收信人姓名。正確配對是？",
+   "options": [
+    "A. Dear Sir or Madam … Yours sincerely",
+    "B. Dear Sir or Madam … Yours faithfully",
+    "C. Dear Ms Chan … Yours faithfully",
+    "D. Hey … Best wishes, no name"
+   ],
+   "answer": "B",
+   "explanation": "姓名不詳用 Dear Sir or Madam 配 Yours faithfully。知道姓名（Dear Ms Chan）先用 Yours sincerely。題目如果另有指定格式，跟題目。",
+   "tags": ["letter", "register"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-012",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "題目要求 Write an article for the school magazine。邊樣會損 appropriacy？",
+   "options": [
+    "A. 加一個標題",
+    "B. 用 Dear Principal 同 Yours sincerely，寫成一封信",
+    "C. 用短段落",
+    "D. 用一條問題做開頭"
+   ],
+   "answer": "B",
+   "explanation": "文章要有標題，唔加書信的 Dear 同結尾敬語。C 同 D 都符合 article。如果題目改為 letter，先使用 B 的格式。",
+   "tags": ["article", "format"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-013",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "一篇 report 最合理的次序是？",
+   "options": [
+    "A. 個人感受，然後先考慮要不要數據",
+    "B. Findings，然後 recommendations",
+    "C. 一句口號，沒有資料",
+    "D. Dear friends，然後一個表情符號"
+   ],
+   "answer": "B",
+   "explanation": "報告先交代發現，再寫建議。只寫感受或口號，內容同語域都會偏離任務。",
+   "tags": ["report", "organisation"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-WRIFMT-014",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "Proposal 寫了問題、做法同好處，但冇寫需要校長批准什麼。最準確的判斷是？",
+   "options": [
+    "A. 只影響拼字，內容分不受影響",
+    "B. 任務可能未完成，因為建議書通常要寫對方要做的決定",
+    "C. 建議書只需要講好處",
+    "D. 應改成交演講稿先算完成"
+   ],
+   "answer": "B",
+   "explanation": "建議書的讀者要知道你請他做什麼。漏了請求或需要批准的項目，就係未覆蓋任務，而唔係單純語法問題。",
+   "tags": ["proposal", "task fulfilment"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-011",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "Data File 寫 Venue: School Hall。錄音說：\"The hall is unavailable, so the workshop will be in the gym instead.\" 任務問場地，應寫？",
+   "options": [
+    "A. School Hall",
+    "B. The gym",
+    "C. School Hall and the gym",
+    "D. 一個你自己認為更好的場地"
+   ],
+   "answer": "B",
+   "explanation": "instead 表示 Hall 已被取代。兩份都寫會自相矛盾。綜合任務要用最新、能完成該項的資料，亦唔好改成資料冇有的場地。",
+   "tags": ["superseded detail", "listening"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-012",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "任務有三個要求。Data File 有七段。最有效的做法是？",
+   "options": [
+    "A. 七段全部改寫進答案",
+    "B. 每個要求只留能回答該項的資料，其餘當干擾",
+    "C. 只抄第一段",
+    "D. 忽略錄音，因為 Data File 較長"
+   ],
+   "answer": "B",
+   "explanation": "綜合任務考的是取捨。與三項要求無關、重複或已被錄音更新的句子都要放棄。只抄第一段會漏項；只信較長的文字會漏掉錄音裡的變更。",
+   "tags": ["selective use", "Data File"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-013",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "按近年公開的英文科評核大綱，卷三只做 Part A 同較易的 B1，該卷最高等級是？",
+   "options": [
+    "A. 沒有上限，同 B2 一樣",
+    "B. Level 4",
+    "C. Level 2",
+    "D. 只計校本評核"
+   ],
+   "answer": "B",
+   "explanation": "評核大綱寫明：做 Part A 加 B1 的考生，該卷最高等級是 Level 4；全級距要做 B2。比重或封頂若有修訂，以考評局該年文件為準。",
+   "tags": ["B1", "level cap"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-LISINT-014",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "Data File：Fee: $120 per student. 任務要你報告費用。最完整的答案是？",
+   "options": [
+    "A. 120",
+    "B. $120 per student",
+    "C. cheap",
+    "D. about 100"
+   ],
+   "answer": "B",
+   "explanation": "數字要連單位同「每位學生」一齊寫。只寫 120 會漏資料；cheap 同 about 100 都改變了原文。",
+   "tags": ["wording", "figures"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-011",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "組員說 cost is a problem，然後沒有人接話。最好的一句是？",
+   "options": [
+    "A. The weather is nice today.",
+    "B. I agree up to a point — the fee is high — and I'd add that we could share the coach cost. What do you think, Jamie?",
+    "C. You're wrong.",
+    "D. （沉默五秒，然後重複）Cost is a problem."
+   ],
+   "answer": "B",
+   "explanation": "好的承接要有三樣東西：接住費用、加一個新做法、把未發言的組員拉進來。A 離題，C 無禮貌亦冇理由，D 只是重複。",
+   "tags": ["interaction", "building on"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-012",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "你不同意，但想保持討論。哪句最合適？",
+   "options": [
+    "A. You're wrong.",
+    "B. I'm not so sure, because the hall is already booked.",
+    "C. Whatever.",
+    "D. I agree with everything. （你其實不同意）"
+   ],
+   "answer": "B",
+   "explanation": "客氣反對要用 because 給出理由。A 同 C 破壞互動。D 並沒有表達你的立場，個人內容分亦會空。",
+   "tags": ["disagreement", "politeness"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-013",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "一位組員全程未發言。討論仍在進行。你應該？",
+   "options": [
+    "A. 自己再講多兩分鐘",
+    "B. What do you think, Alex?",
+    "C. 叫考官更換組員",
+    "D. 開始背個人回應的稿"
+   ],
+   "answer": "B",
+   "explanation": "交波是小組討論的評分行為。壟斷發言、向考官投訴，或者跳去背稿，都沒有讓該組員加入。",
+   "tags": ["turn-taking", "invite"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-SPEAK-014",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "個人回應、面對考官時，哪句不適合？",
+   "options": [
+    "A. Firstly… Secondly…",
+    "B. We haven't heard from you yet.",
+    "C. Although the other option is cheaper, I would still choose this one.",
+    "D. Let me give one example."
+   ],
+   "answer": "B",
+   "explanation": "We haven't heard from you yet 是小組討論的交波句。個人回應要直接給立場、理由同例子，A、C、D 都符合。",
+   "tags": ["individual response", "register"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-011",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "She said, \"I am tired.\" 正確的轉述是？",
+   "options": [
+    "A. She said she is tired.",
+    "B. She said she was tired.",
+    "C. She said she had tired.",
+    "D. She said her was tired."
+   ],
+   "answer": "B",
+   "explanation": "said 是過去式，現在式 am 後移為 was。C 的 had tired 並不是 be tired 的過去完成式（應為 had been tired，而這句亦唔需要）。D 的代詞錯誤。",
+   "tags": ["reported speech", "backshift"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-012",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "He says, \"I live in Tai Po.\" 正確是？",
+   "options": [
+    "A. He says he lived in Tai Po.",
+    "B. He says he lives in Tai Po.",
+    "C. He said he had lived in Tai Po.",
+    "D. He says he live in Tai Po."
+   ],
+   "answer": "B",
+   "explanation": "引述動詞 says 是現在式，唔使後移，live 保持現在式，並與 he 一致變成 lives。C 改了引述動詞，D 主謂不一致。",
+   "tags": ["reporting verb", "present"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-013",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "Yesterday she told them, \"We will start tomorrow.\" 正確的轉述是？",
+   "options": [
+    "A. She told them they would start the next day.",
+    "B. She told them they will start tomorrow.",
+    "C. She told them we will start tomorrow.",
+    "D. She told them they would start yesterday."
+   ],
+   "answer": "A",
+   "explanation": "told 是過去式：will 後移為 would，tomorrow 改為 the next day，we 改為 they。B 沒有後移。C 保留了 we。D 把 yesterday（說話的時間）錯當成活動時間。",
+   "tags": ["backshift", "time words"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-GRAM1-014",
+   "topic": "grammar-core-1",
+   "difficulty": "medium",
+   "question": "\"Where is the gym?\" she asked. 正確是？",
+   "options": [
+    "A. She asked where was the gym.",
+    "B. She asked where the gym was.",
+    "C. She asked where is the gym.",
+    "D. She asked that where the gym was."
+   ],
+   "answer": "B",
+   "explanation": "轉述疑問句要用陳述語序：where the gym was。唔保留倒裝，唔加 that where，亦因為 asked 是過去式而把 is 後移為 was。",
+   "tags": ["reported question", "word order"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-011",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "The _____ of the plan depends on funding. 應填？",
+   "options": [
+    "A. succeed",
+    "B. success",
+    "C. successful",
+    "D. successfully"
+   ],
+   "answer": "B",
+   "explanation": "The 與 of 之間需要名詞，所以是 success。succeed 是動詞，successful 是形容詞，successfully 是副詞。",
+   "tags": ["word family", "noun"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-012",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "economic 同 economical 的分別是？",
+   "options": [
+    "A. 兩個完全同義",
+    "B. economic 指與經濟有關；economical 指慳儉、划算",
+    "C. economical 只可以形容人的年齡",
+    "D. economic 的意思是慳錢"
+   ],
+   "answer": "B",
+   "explanation": "兩個都是形容詞，但意思不同。an economic decision 是與經濟有關的決定；an economical decision 是慳儉的決定。",
+   "tags": ["economic", "economical"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-013",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "polite 最常見的反義是？",
+   "options": [
+    "A. unpolite",
+    "B. impolite",
+    "C. mispolite",
+    "D. dispolite"
+   ],
+   "answer": "B",
+   "explanation": "唔係每個詞都可以加 un-。polite 的反義是 impolite。自己造 unpolite、mispolite 或 dispolite 都不是標準詞形。",
+   "tags": ["prefix", "word form"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-VOCAB-014",
+   "topic": "vocabulary",
+   "difficulty": "medium",
+   "question": "She completed the work _____.",
+   "options": [
+    "A. success",
+    "B. successful",
+    "C. successfully",
+    "D. succeed"
+   ],
+   "answer": "C",
+   "explanation": "修飾動詞 completed 要用副詞 successfully。successful 是形容詞，success 是名詞，succeed 是動詞。",
+   "tags": ["adverb", "word family"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-011",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "錯題紀錄裡，怎樣先算一個值得主攻的「模式」？",
+   "options": [
+    "A. 任何一題錯了一次",
+    "B. 同一錯因至少出現兩次",
+    "C. 總分低過五成",
+    "D. 只用中文寫原因、不留原句"
+   ],
+   "answer": "B",
+   "explanation": "只出現一次的錯先記下，唔好同時開太多戰線。同一錯因重複，先值得成為下一星期的目標。分數本身講唔到錯在哪裡。",
+   "tags": ["error log", "pattern"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-012",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "下一星期最合理的改法是？",
+   "options": [
+    "A. 一次過改十種錯",
+    "B. 最多攻三個模式，每個寫幾句自己的改寫",
+    "C. 把評卷參考整份背下來",
+    "D. 只重做最舊的一份卷，不做改寫"
+   ],
+   "answer": "B",
+   "explanation": "限制在三個模式，先可以在下一份限時卷核對有冇再犯。背評卷參考或重做舊卷而沒有改句，都唔會顯示哪一個模式消失了。",
+   "tags": ["rewrite", "focus"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-013",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "你經常把 Data File 整句抄進卷三答案。對治這個模式應該？",
+   "options": [
+    "A. 只做卷二條件句",
+    "B. 把同一項資料改寫成任務要求的語氣，而唔係再抄",
+    "C. 背多一頁與任務無關的生字",
+    "D. 放棄 Part B"
+   ],
+   "answer": "B",
+   "explanation": "四卷的錯要分開練。照抄是綜合任務的改寫問題，條件句練習替代不了。改寫時保留數字同單位，改的是句式同語氣。",
+   "tags": ["Paper 3", "paraphrase"],
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-EXFLOW-014",
+   "topic": "exam-workflow",
+   "difficulty": "medium",
+   "question": "三個模式在下一份限時卷都沒有再出現。下一步是？",
+   "options": [
+    "A. 繼續只練這三個模式",
+    "B. 改練下一批重複出現的錯因",
+    "C. 停止做卷",
+    "D. 把字數加倍，不管任務"
+   ],
+   "answer": "B",
+   "explanation": "模式消失就換下一批，否則練習會停在已經解決的問題。停止做卷就看不到新的重複錯誤；加字數亦不是對治方法。",
+   "tags": ["study cycle", "timed practice"],
    "subject": "english"
   }
  ]

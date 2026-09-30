@@ -868,7 +868,7 @@
  "L9.2": {
   "id": "L9.2",
   "title": "Monetary Policy & Its Limitations",
-  "concept": "Monetary policy is the use of interest rates and money supply by the monetary authority to influence aggregate demand, inflation and employment. In Hong Kong, the Hong Kong Monetary Authority (HKMA) operates a Currency Board system: the HK dollar is pegged to the US dollar at 7.80 (trading band 7.75–7.85), and the monetary base is backed 100% by US dollar reserves. This means HKMA cannot independently set interest rates — they follow the US Federal Reserve. The key tool is the Base Rate (discount window), which moves in line with the US Fed Funds Rate. When the US raises rates, HKMA raises the Base Rate; banks raise their prime and HIBOR rates, increasing borrowing costs for mortgages, business loans and credit cards. Higher rates reduce consumption (especially durables) and investment, shifting AD left, lowering inflation. Lower rates do the opposite. The transmission mechanism: policy rate → interbank rates (HIBOR) → retail lending rates → borrowing costs → C and I → AD → output and prices. Quantitative easing (QE) is not available under a Currency Board. Limitations: (1) No independent monetary policy — HK imports US monetary conditions, which may not suit HK's economic cycle (e.g. US tightening when HK is in recession). (2) Interest rate changes affect asset prices (property, stocks) more than goods prices, creating financial stability risks. (3) High household debt means rate hikes sharply increase debt servicing, reducing disposable income. (4) Capital flows: the peg attracts hot money; the Aggregate Balance (banks' clearing balances) fluctuates, affecting liquidity. (5) Long and variable lags: it takes 12–18 months for rate changes to fully affect inflation. The Convertibility Undertakings (strong-side at 7.80, weak-side at 7.75) anchor market expectations. When the Aggregate Balance is large, HIBOR stays low; when it shrinks, HIBOR rises. The HKMA also uses the Discount Window and Liquidity Adjustment Facility to manage short-term liquidity.",
+  "concept": "Monetary policy is the use of interest rates and money supply by the monetary authority to influence aggregate demand, inflation and employment. In Hong Kong, the Hong Kong Monetary Authority (HKMA) operates a Currency Board system: the HK dollar is pegged to the US dollar at 7.80 (trading band 7.75–7.85), and the monetary base is backed 100% by US dollar reserves. This means HKMA cannot independently set interest rates — they follow the US Federal Reserve. The key tool is the Base Rate (discount window), which moves in line with the US Fed Funds Rate. When the US raises rates, HKMA raises the Base Rate; banks raise their prime and HIBOR rates, increasing borrowing costs for mortgages, business loans and credit cards. Higher rates reduce consumption (especially durables) and investment, shifting AD left, lowering inflation. Lower rates do the opposite. The transmission mechanism: policy rate → interbank rates (HIBOR) → retail lending rates → borrowing costs → C and I → AD → output and prices. Quantitative easing (QE) is not available under a Currency Board. Limitations: (1) No independent monetary policy — HK imports US monetary conditions, which may not suit HK's economic cycle (e.g. US tightening when HK is in recession). (2) Interest rate changes affect asset prices (property, stocks) more than goods prices, creating financial stability risks. (3) High household debt means rate hikes sharply increase debt servicing, reducing disposable income. (4) Capital flows: the peg attracts hot money; the Aggregate Balance (banks' clearing balances) fluctuates, affecting liquidity. (5) Long and variable lags: it takes 12–18 months for rate changes to fully affect inflation. The Convertibility Undertakings (strong-side at 7.75, weak-side at 7.85) anchor market expectations. When the Aggregate Balance is large, HIBOR stays low; when it shrinks, HIBOR rises. The HKMA also uses the Discount Window and Liquidity Adjustment Facility to manage short-term liquidity.",
   "example": {
    "scenario": "The US Federal Reserve raises the Fed Funds Rate by 0.5% to combat high US inflation. HKMA follows by raising the Base Rate from 4.75% to 5.25%. A Hong Kong family with a HK$6 million mortgage at H+1.5% sees their monthly repayment rise.",
    "walkthrough": "Step 1: Identify the trigger — US tightening forces HKMA to raise Base Rate to maintain the peg and prevent capital outflow. Step 2: Trace the transmission — Base Rate ↑ → HIBOR ↑ → banks' prime rate ↑ (from 5.5% to 6.0%) → mortgage rate (prime - 2.5% or HIBOR + spread) ↑. Step 3: Calculate household impact — original mortgage rate 3.0% (prime 5.5% - 2.5%), monthly repayment ~HK$25,300; new rate 3.5%, repayment ~HK$27,000, extra HK$1,700/month or HK$20,400/year. Step 4: Macro effect — thousands of mortgage holders cut discretionary spending; property prices soften as borrowing costs rise; business investment loans become costlier; AD shifts left. Step 5: Assess limitations — if HK's inflation is driven by supply-side factors (e.g. global food prices) rather than excess demand, higher rates may not lower inflation but will hurt output. Step 6: Note the peg constraint — HKMA cannot cut rates to support the economy if the US is tightening, even if HK enters recession."
@@ -958,7 +958,7 @@
  "L10.2": {
   "id": "L10.2",
   "title": "Balance of Payments & Exchange Rates Basics",
-  "concept": "The Balance of Payments (BoP) is a systematic record of all economic transactions between residents of an economy and the rest of the world in a given period. It has three main accounts: (1) Current Account — trade in goods (visible), services (invisible), primary income (wages, investment income), secondary income (transfers). A current account surplus means the economy is a net lender to the world; deficit means net borrower. (2) Capital & Financial Account — capital transfers (e.g. debt forgiveness) and financial transactions: direct investment (FDI), portfolio investment, financial derivatives, reserve assets. (3) Net Errors & Omissions — balancing item. By double-entry bookkeeping, BoP always balances: Current Account + Capital & Financial Account + Net Errors & Omissions = 0. A current account deficit must be financed by a financial account surplus (capital inflow). Exchange rate is the price of one currency in terms of another. HKD uses a linked exchange rate system: USD/HKD fixed at 7.80 (band 7.75–7.85), backed by US dollar reserves. The HKMA undertakes to convert HKD to USD at 7.80 (strong-side Convertibility Undertaking) and USD to HKD at 7.75 (weak-side). Market forces keep the rate within the band. Appreciation (stronger currency) makes exports dearer, imports cheaper — worsens trade balance; depreciation does the opposite. Real exchange rate = nominal rate × (domestic price level / foreign price level) — reflects true competitiveness. Purchasing Power Parity (PPP) theory: in the long run, exchange rates adjust to equalise price levels across countries. The J-curve effect: after a depreciation, the trade balance may worsen before improving because import/export volumes adjust slowly. Marshall-Lerner condition: depreciation improves the trade balance only if the sum of export and import demand elasticities exceeds 1. In HK's linked rate system, nominal exchange rate stability means competitiveness adjusts through domestic prices and wages (internal devaluation).",
+  "concept": "The Balance of Payments (BoP) is a systematic record of all economic transactions between residents of an economy and the rest of the world in a given period. It has three main accounts: (1) Current Account — trade in goods (visible), services (invisible), primary income (wages, investment income), secondary income (transfers). A current account surplus means the economy is a net lender to the world; deficit means net borrower. (2) Capital & Financial Account — capital transfers (e.g. debt forgiveness) and financial transactions: direct investment (FDI), portfolio investment, financial derivatives, reserve assets. (3) Net Errors & Omissions — balancing item. By double-entry bookkeeping, BoP always balances: Current Account + Capital & Financial Account + Net Errors & Omissions = 0. A current account deficit must be financed by a financial account surplus (capital inflow). Exchange rate is the price of one currency in terms of another. HKD uses a linked exchange rate system: USD/HKD fixed at 7.80 (band 7.75–7.85), backed by US dollar reserves. Under the Convertibility Undertakings, the HKMA buys US dollars from banks at 7.75 (strong-side, when the Hong Kong dollar is strong) and sells US dollars to banks at 7.85 (weak-side, when the Hong Kong dollar is weak). 7.80 is the anchor inside the band, not itself a convertibility rate. Market forces keep the rate within the band. Appreciation (stronger currency) makes exports dearer, imports cheaper — worsens trade balance; depreciation does the opposite. Real exchange rate = nominal rate × (domestic price level / foreign price level) — reflects true competitiveness. Purchasing Power Parity (PPP) theory: in the long run, exchange rates adjust to equalise price levels across countries. The J-curve effect: after a depreciation, the trade balance may worsen before improving because import/export volumes adjust slowly. Marshall-Lerner condition: depreciation improves the trade balance only if the sum of export and import demand elasticities exceeds 1. In HK's linked rate system, nominal exchange rate stability means competitiveness adjusts through domestic prices and wages (internal devaluation).",
   "example": {
    "scenario": "A Hong Kong logistics firm exports HK$500 million of freight services to the US, imports HK$200 million of fuel, receives HK$50 million in investment income from overseas subsidiaries, and its parent company in the UK invests HK$300 million in new warehouses in HK.",
    "walkthrough": "Step 1: Record in Current Account. Exports of services: +HK$500m (credit). Imports of goods (fuel): -HK$200m (debit). Primary income (investment income received): +HK$50m (credit). Current Account balance = +500 - 200 + 50 = +HK$350m surplus. Step 2: Record in Financial Account. UK parent's FDI in HK warehouses: +HK$300m (credit, inflow). Assume no other financial flows. Financial Account balance = +HK$300m surplus. Step 3: Check BoP identity — Current Account (+350) + Financial Account (+300) = +650. This cannot be; there must be offsetting outflows. Step 4: Find the missing entry — the firm pays for fuel imports by drawing down its USD bank deposits abroad (financial account debit -HK$200m), and the HK$500m service export is paid by US clients depositing USD in HK banks (financial account credit +HK$500m). Revised Financial Account: +300 (FDI) -200 (deposit drawdown) +500 (deposit inflow) = +600. Step 5: Net Errors & Omissions = -HK$250m to balance. Step 6: Exchange rate context — under linked rate, USD inflows expand Aggregate Balance, putting downward pressure on HIBOR; HKMA may need to sell HKD/buy USD to keep rate at 7.80."
@@ -993,6 +993,292 @@
    {
     "term": "Real exchange rate",
     "definition": "Nominal exchange rate adjusted for price level differences; measures true international competitiveness."
+   }
+  ],
+  "unit": 10,
+  "practice": "international-trade",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.4": {
+  "id": "L1.4",
+  "title": "Scarcity, Opportunity Cost, and the Law of Supply",
+  "concept": "Demand and supply sit on two ideas the diagram does not draw. Scarcity means wants exceed the resources available, so a choice is required. The opportunity cost of a choice is the value of the next best alternative forgone — not the sum of every alternative, and not the money price unless that price is being used as a measure of what was given up. A free good has zero opportunity cost; an economic good does not. The law of supply states that, ceteris paribus, a higher price leads to a higher quantity supplied, so the supply curve slopes upward. To produce more, firms pull resources away from other uses, and those uses become more valuable at the margin, so a higher price is needed to call forth extra output. A change in the good's own price moves the firm along the supply curve. A non-price change shifts the curve: input prices, technology, the number of sellers, expectations, taxes and subsidies, the price of an alternative output, and, for farm goods, weather. This note follows the usual HKDSE treatment; the current curriculum guide on the HKEAA website is the authority for wording and scope.",
+  "example": {
+   "scenario": "A cha chaan teng can use the same kitchen hour to fry egg tarts or to serve milk tea. The price of egg tarts rises. Flour prices and the price of milk tea stay the same at first.",
+   "walkthrough": "The opportunity cost of the egg tarts is the milk tea given up, if that is the next best use of the hour — not the sum of every other dish, and not the sticker price of an egg tart. The higher egg-tart price makes it worth sacrificing more milk tea, so quantity supplied of egg tarts rises. That is a movement along the supply curve. If flour then becomes more expensive, cost is higher at every price and the supply curve shifts left. If instead the price of milk tea rises, the kitchen switches toward milk tea and egg-tart supply shifts left, because the opportunity cost of egg tarts has increased."
+  },
+  "traps": [
+   "Treating opportunity cost as the sum of all forgone options. Only the single next-best alternative counts.",
+   "Calling the money price the opportunity cost whenever the question asks what was given up.",
+   "Saying supply falls when the good's own price falls. Quantity supplied contracts along the curve.",
+   "Treating a per-unit subsidy as a demand shift. It lowers producers' costs and shifts supply rightward (downward on the diagram).",
+   "Drawing a downward-sloping supply curve to mirror demand. The usual HKDSE supply curve slopes upward."
+  ],
+  "terms": [
+   {
+    "term": "Scarcity",
+    "definition": "A situation in which wants exceed the resources available to satisfy them, so choice is required."
+   },
+   {
+    "term": "Opportunity cost",
+    "definition": "The value of the next best alternative forgone when a choice is made."
+   },
+   {
+    "term": "Free good",
+    "definition": "A good with zero opportunity cost. An economic good has a positive opportunity cost."
+   },
+   {
+    "term": "Law of supply",
+    "definition": "Ceteris paribus, a higher price leads to a higher quantity supplied."
+   },
+   {
+    "term": "Quantity supplied",
+    "definition": "The amount producers are willing and able to sell at one price; a point on the supply curve."
+   }
+  ],
+  "unit": 1,
+  "practice": "demand-and-supply",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.3": {
+  "id": "L2.3",
+  "title": "How to Answer an Elasticity Question",
+  "concept": "Elasticity questions are mostly a fixed routine. Step 1: name the elasticity and write the formula with the right variables. PED uses the good's own price, YED uses income, XED uses the other good's price, and PES uses quantity supplied. Step 2: calculate percentage changes from the original values unless the question says otherwise, and keep the sign. Step 3: classify in a full sentence. For PED and PES, use the absolute value: greater than 1 is elastic, less than 1 is inelastic, and 1 is unitary. For YED and XED, the sign is the classification: positive YED means a normal good (above 1, a luxury; between 0 and 1, a necessity), negative YED means an inferior good; positive XED means substitutes, negative XED means complements. Step 4: state one consequence the number actually supports — total revenue, the type of good, or the effect of time on PES — and stop. Do not call a curve elastic because it looks flat. Elasticity uses percentages. Formula details follow the current HKEAA curriculum guide.",
+  "example": {
+   "scenario": "The price of a ticket rises from $20 to $25 and the quantity demanded falls from 100 to 80. Income is unchanged. A student reports PED as 0.8 and says total revenue falls.",
+   "walkthrough": "Percentage change in price = 5/20 × 100% = +25%. Percentage change in quantity demanded = −20/100 × 100% = −20%. PED = −20% / +25% = −0.8. The signed answer is −0.8; 0.8 is the absolute value. Because |PED| = 0.8 < 1, demand is price-inelastic. An inelastic demand curve and a higher price mean total revenue rises, because the percentage rise in price exceeds the percentage fall in quantity. The student's revenue conclusion contradicts the classification. Using 25 or the average as the base would be a different method, and only if the question asks for it."
+  },
+  "traps": [
+   "Using the new price as the base when the question expects the change relative to the original value.",
+   "Reporting PED as a positive 0.8. The ratio is negative; 0.8 is |PED|.",
+   "Calling YED > 1 'price-elastic demand'. That label belongs to PED. YED > 1 means a luxury.",
+   "Letting the revenue sentence contradict the class. Inelastic demand plus a higher price raises total revenue.",
+   "Putting good A's own price in the denominator of XED. XED uses the other good's price."
+  ],
+  "terms": [
+   {
+    "term": "Original-value method",
+    "definition": "Percentage changes measured from the starting price or quantity, unless the question specifies another base."
+   },
+   {
+    "term": "Absolute value of PED",
+    "definition": "|PED|, used only to classify elastic, inelastic, or unitary demand. The calculated PED itself is negative."
+   },
+   {
+    "term": "Revenue test",
+    "definition": "If |PED| < 1, price and total revenue move in the same direction. If |PED| > 1, they move in opposite directions."
+   }
+  ],
+  "unit": 2,
+  "practice": "elasticity",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.3": {
+  "id": "L3.3",
+  "title": "Externalities and Public Goods",
+  "concept": "Intervention is easier to explain when the market quantity is not the socially efficient quantity. With no externality, a competitive market settles where marginal private benefit equals marginal private cost. A negative production externality — for example, untreated wastewater — means marginal social cost is above marginal private cost. The firm ignores the external cost, produces more than the socially efficient quantity, and a deadweight loss appears. A per-unit tax equal to the external cost at the social optimum shifts supply left toward that quantity. A positive externality — for example, a vaccination that also protects other people — means marginal social benefit exceeds marginal private benefit, so the market quantity is too low and a subsidy can close the gap. A public good is both non-rival (one person's use does not reduce another's) and non-excludable (non-payers are hard to keep out). Street lighting is the usual example. Private firms tend to underprovide it because of free riders. A merit good is different: education can be rival and excludable, and a subsidy is argued from external benefits or poor information, not from the public-good test. Scope follows the current HKEAA curriculum guide.",
+  "example": {
+   "scenario": "A factory sells plastic parts in a competitive market and dumps untreated wastewater into a typhoon shelter. Residents bear a cost that rises with the factory's output.",
+   "walkthrough": "Buyers and the factory see only the private cost, so output settles where marginal private benefit equals marginal private cost. Marginal social cost lies above marginal private cost. The socially efficient output is the smaller quantity where marginal private benefit equals marginal social cost. A per-unit tax can shift supply left toward that quantity. The tax does not remove scarcity; it makes the firm count a cost it was imposing on others. A price ceiling would not target the external cost and could add a shortage. The parts are not a public good: they are rival and excludable. The clean public-good example in the same town would be lighting on the public pier."
+  },
+  "traps": [
+   "Calling every government-funded service a public good. A clinic visit can be rival and excludable.",
+   "Shifting demand for a production externality. A negative production externality is a gap between marginal social cost and marginal private cost.",
+   "Saying the free market always overproduces. Positive externalities mean too little is produced.",
+   "Describing only one feature of a public good. Both non-rivalry and non-excludability are required.",
+   "Using a price ceiling as if it were a corrective tax. The ceiling does not charge the external cost."
+  ],
+  "terms": [
+   {
+    "term": "Negative production externality",
+    "definition": "A cost imposed on third parties, so marginal social cost exceeds marginal private cost and the market quantity is too high."
+   },
+   {
+    "term": "Positive externality",
+    "definition": "A benefit to third parties, so marginal social benefit exceeds marginal private benefit and the market quantity is too low."
+   },
+   {
+    "term": "Public good",
+    "definition": "A good that is both non-rival and non-excludable, so private firms tend to underprovide it."
+   },
+   {
+    "term": "Free rider",
+    "definition": "Someone who enjoys a non-excludable good without paying, which undermines private provision."
+   },
+   {
+    "term": "Merit good",
+    "definition": "A good the government may subsidise because of external benefits or information problems. It need not be a public good."
+   }
+  ],
+  "unit": 3,
+  "practice": "market-intervention",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.3": {
+  "id": "L4.3",
+  "title": "Division of Labour and Types of Production",
+  "concept": "Division of labour means splitting production into separate tasks so each worker specialises. Output per worker can rise because the task is repeated, less time is lost switching tools, and specialised tools become worth using. The costs are boredom, dependence on other workers, and a narrower skill that is harder to transfer if the industry shrinks — a later link to structural unemployment. Division of labour is not economies of scale. A small shop can divide tasks, whereas economies of scale are a fall in long-run average cost as the firm's scale of output grows. Types of production describe the stage. Primary production extracts natural resources, such as fishing or farming. Secondary production manufactures or constructs. Tertiary production supplies services such as retail, transport, finance, and education. Hong Kong's employment is concentrated in tertiary production, but the city still uses primary and secondary output produced elsewhere. Services are output and are counted in GDP when they are currently produced. These notes follow the usual HKDSE treatment; the curriculum guide on the HKEAA website sets the scope.",
+  "example": {
+   "scenario": "A noodle shop moves from one cook doing everything to three roles: one folds dumplings, one tends the wok, and one takes payment. Later it opens three branches and buys flour more cheaply in bulk.",
+   "walkthrough": "The three roles are division of labour inside one shop, not yet a change of scale. Dumpling output per morning can rise because that cook stops walking to the till. Boredom and a stalled morning if the wok cook is absent are the costs. Opening branches and buying flour more cheaply is a separate idea: economies of scale, a fall in long-run average cost as scale grows. The meal sold to diners is tertiary production even though the dumplings are physical. A farm that only grows the wheat is primary. A factory that packs frozen dumplings is secondary."
+  },
+  "traps": [
+   "Using 'economies of scale' for any gain from specialisation. Specialisation can happen in a small firm.",
+   "Treating money as a factor of production. Capital means man-made aids such as ovens and tools.",
+   "Calling a restaurant primary production because it uses food. The output it sells is a service.",
+   "Listing only the advantages of division of labour when the question asks for effects.",
+   "Treating services as if they were not production. Tertiary output is counted in GDP when currently produced."
+  ],
+  "terms": [
+   {
+    "term": "Division of labour",
+    "definition": "Splitting production into specialised tasks. It can raise output per worker and also creates dependence and narrower skills."
+   },
+   {
+    "term": "Specialisation",
+    "definition": "Concentrating on a narrow task or product in which practice and suitable tools raise productivity."
+   },
+   {
+    "term": "Primary production",
+    "definition": "Extracting natural resources, such as farming, fishing, or mining."
+   },
+   {
+    "term": "Secondary production",
+    "definition": "Manufacturing or construction that transforms materials into goods."
+   },
+   {
+    "term": "Tertiary production",
+    "definition": "The production of services, such as retail, transport, finance, and education."
+   }
+  ],
+  "unit": 4,
+  "practice": "production-costs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.3": {
+  "id": "L5.3",
+  "title": "Monopolistic Competition and a Comparison Checklist",
+  "concept": "Between perfect competition and monopoly, answers usually need two further labels. Monopolistic competition has many firms, free entry, and differentiated products (brand, location, or quality). Each firm has limited price-making power, so its demand curve slopes down, but it is flatter than a monopolist's because substitutes are close. Short-run economic profit is possible. Free entry then shifts each firm's demand left until long-run profit is normal. The firm does not produce at the lowest point of its average-cost curve; textbooks call that excess capacity. It does not mean the firm is making a loss. Oligopoly, named in the previous lesson, has a few interdependent firms: a price cut may be matched, so competition often shifts to advertising, service, or features. Collusion can raise joint profit and is unstable if one firm gains by secretly cutting price. Before you name a structure, check four rows: number of firms, product, barriers, and long-run profit. A street of small cafés is a classroom illustration of monopolistic competition, not a legal finding. How much diagram work is required depends on the current curriculum guide.",
+  "example": {
+   "scenario": "Two new coffee shops open on the same street. Each has its own name and a slightly different drink list. A year later neither earns economic profit, but both still advertise.",
+   "walkthrough": "Many sellers, differentiated drinks, and no serious barrier to a small shop fit monopolistic competition better than monopoly or perfect competition. Early profit would attract the second shop; free entry pushes long-run economic profit toward normal. Advertising can continue because the products are not identical. Excess capacity can remain: each shop may operate above the lowest possible average cost even though profit is only normal. If instead three chains supplied almost all of the packaged coffee on the street and each watched the others' prices, interdependence would make oligopoly the better label. One shop's slogan is not evidence about the whole market."
+  },
+  "traps": [
+   "Calling any brand an oligopoly. Many differentiated sellers with free entry are monopolistic competition.",
+   "Saying monopolistic competition earns economic profit forever. Free entry competes long-run profit down to normal.",
+   "Treating excess capacity as proof of losses. It means output is below the average-cost minimum.",
+   "Assuming oligopolists can never change price. Interdependence makes a price cut risky; it does not forbid one.",
+   "Judging the market from one firm's advertising line. Use the four-row checklist."
+  ],
+  "terms": [
+   {
+    "term": "Monopolistic competition",
+    "definition": "Many firms, differentiated products, and free entry. Long-run economic profit tends to be normal, with some price-making power."
+   },
+   {
+    "term": "Product differentiation",
+    "definition": "Differences in brand, quality, or location that give a firm a downward-sloping demand curve."
+   },
+   {
+    "term": "Excess capacity",
+    "definition": "Output below the level that minimises average cost. It can occur while economic profit is normal."
+   },
+   {
+    "term": "Oligopoly",
+    "definition": "A few interdependent firms. Each must consider how rivals react to price or output decisions."
+   },
+   {
+    "term": "Non-price competition",
+    "definition": "Competition on advertising, service, or features, common when matching price cuts is risky."
+   }
+  ],
+  "unit": 5,
+  "practice": "market-structures",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.3": {
+  "id": "L6.3",
+  "title": "Aggregate Demand and Short-run Aggregate Supply",
+  "concept": "Questions about the price level or real output need aggregate demand (AD) and short-run aggregate supply (SRAS), not the demand curve for one good. Put the price level on the vertical axis and real output on the horizontal axis. AD is planned spending on domestic final output, C + I + G + X − M. It slopes downward in the usual teaching account: a higher price level reduces the real value of money balances, raises interest rates and so reduces interest-sensitive spending, and makes domestic goods less competitive against foreign goods. A change in the price level is a movement along AD. A change in C, I, G, or net exports at a given price level shifts AD. SRAS slopes upward because some input costs are slow to change, so a higher price level raises profitability and firms produce more. Short-run equilibrium is the intersection. AD shifting right along a given SRAS raises both real output and the price level (demand-pull). SRAS shifting left raises the price level and lowers real output (cost-push). Hong Kong is a small open economy, so part of any rise in spending leaks into imports and does not raise demand for domestic output. The curriculum guide states how much of this mechanism is required.",
+  "example": {
+   "scenario": "A cut in salaries tax leaves government spending unchanged. Households spend part of the extra disposable income on local meals and part on imported phones.",
+   "walkthrough": "The tax cut raises disposable income. Spending on local meals increases demand for domestic output, so AD shifts right. Spending on imported phones raises imports and offsets part of that shift, which is why an open-economy multiplier is smaller than a simple closed-economy one. Along the original SRAS, equilibrium real output and the price level both rise. This is not a movement along the demand curve for one meal. If restaurants later pay higher wages and those wages stay up, SRAS can shift left in a separate step. You cannot read the new price level from AD alone."
+  },
+  "traps": [
+   "Using a single-good demand-and-supply diagram to explain the general price level.",
+   "Saying a higher price level shifts AD left. That change is a movement along AD.",
+   "Treating every rise in the price level as demand-pull. A leftward SRAS shift raises the price level while real output falls.",
+   "Ignoring imports when consumption rises. Imported goods are a leakage from demand for domestic output.",
+   "Quoting one multiplier for every economy. Saving, tax, and imports all change its size."
+  ],
+  "terms": [
+   {
+    "term": "Aggregate demand",
+    "definition": "Planned spending on domestic final output: C + I + G + X − M, drawn against the price level."
+   },
+   {
+    "term": "Short-run aggregate supply",
+    "definition": "The relationship between the price level and real output when some input costs have not yet fully adjusted."
+   },
+   {
+    "term": "Movement along AD",
+    "definition": "A change in the quantity of real output demanded caused only by a change in the price level."
+   },
+   {
+    "term": "Demand-pull",
+    "definition": "A rightward shift of AD that raises both the price level and real output along a given SRAS."
+   },
+   {
+    "term": "Cost-push",
+    "definition": "A leftward shift of SRAS that raises the price level and reduces real output."
+   }
+  ],
+  "unit": 6,
+  "practice": "gdp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.3": {
+  "id": "L10.3",
+  "title": "Tariffs and the Limits of Protection",
+  "concept": "A tariff is a tax on imports. Where the good is also produced at home, a tariff raises the domestic price toward the world price plus the tariff, reduces imports, and raises the quantity supplied by domestic producers. The government collects tariff revenue on the units that are still imported, not on domestic output. Consumers lose on the units they still buy; domestic producers gain. The standard diagram has a deadweight loss because some purchases worth more than the world price no longer happen, and some domestic output costs more to produce than the good would have cost to import. A quota, already compared with taxes in the intervention unit, can also raise the domestic price, but the gap between the domestic price and the world price is quota rent for licence holders unless the licences are auctioned. Arguments for protection should be stated as arguments, not slogans: an infant industry may need time to gain scale, or a good may be treated as strategic. Arguments against include higher prices, retaliation, and the loss of gains from specialisation. A tariff changes prices and quantities; it does not rewrite opportunity-cost ratios or create comparative advantage. Whether a question expects the full surplus diagram depends on the current curriculum guide.",
+  "example": {
+   "scenario": "Bottled juice is imported at a world price of $10. A $4 tariff is imposed, the domestic price rises to $14, local bottlers produce more, and fewer bottles are imported.",
+   "walkthrough": "The tariff is a wedge of $4 between the world price and the domestic price. Local bottlers move up their supply curve, so domestic quantity supplied rises. Buyers move up their demand curve, so quantity demanded falls. Imports are the gap between domestic demand and domestic supply, and that gap shrinks. Tariff revenue is $4 times the number of bottles still imported. It is not $4 times local production. Consumers pay $14 on every bottle they still buy, including local bottles. The revenue rectangle is a transfer to the government. The deadweight loss is the trades that no longer happen, not that rectangle. A quota that cut imports by the same amount need not give the government this revenue."
+  },
+  "traps": [
+   "Charging tariff revenue on domestic output. Revenue is collected only on imports that still enter.",
+   "Saying a tariff shifts the demand curve. The usual diagram is a wedge between the world price and the domestic price.",
+   "Treating a quota and a tariff as identical in every respect. A quota need not raise government revenue.",
+   "Counting 'protects jobs' as a free gain. Buyers pay a higher price, and that belongs in the answer.",
+   "Claiming a tariff creates comparative advantage. Comparative advantage is about opportunity cost."
+  ],
+  "terms": [
+   {
+    "term": "Tariff",
+    "definition": "A tax on imports. It raises the domestic price above the world price by up to the amount of the tax."
+   },
+   {
+    "term": "Tariff revenue",
+    "definition": "Tariff per unit multiplied by the quantity still imported."
+   },
+   {
+    "term": "Deadweight loss of a tariff",
+    "definition": "The loss of surplus from trades that no longer happen: higher-cost domestic output and foregone consumption."
+   },
+   {
+    "term": "Quota rent",
+    "definition": "The premium earned by holders of import licences when a quota drives the domestic price above the world price."
+   },
+   {
+    "term": "Infant industry",
+    "definition": "An argument for temporary protection so a new industry can gain scale. It is an argument, not a result that always follows."
    }
   ],
   "unit": 10,
