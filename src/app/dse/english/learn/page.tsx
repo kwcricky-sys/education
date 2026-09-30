@@ -178,6 +178,12 @@ export default function EnglishLearnPage() {
         >
           ECON 自學路徑
         </Link>
+        <Link
+          href="/dse/ict/learn"
+          className="rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 transition hover:border-blue-700/40 hover:text-blue-600"
+        >
+          ICT 自學路徑
+        </Link>
       </div>
 
       <p className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-relaxed text-slate-500">

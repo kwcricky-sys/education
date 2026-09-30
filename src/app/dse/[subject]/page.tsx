@@ -93,12 +93,16 @@ export default async function DrillSubjectPage({ params }: Props) {
       href: "#topics",
       cta: "揀課題",
     },
-    {
-      title: "卡住就睇溫習片",
-      detail: "片庫每條附摘要同重點筆記，睇完再返嚟做同一課題。",
-      href: meta.videoHref,
-      cta: "睇溫習片",
-    },
+    ...(meta.videoHref
+      ? [
+          {
+            title: "卡住就睇溫習片",
+            detail: "片庫每條附摘要同重點筆記，睇完再返嚟做同一課題。",
+            href: meta.videoHref,
+            cta: "睇溫習片",
+          },
+        ]
+      : []),
   ];
 
   return (

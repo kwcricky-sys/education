@@ -1,0 +1,2379 @@
+{
+ "meta": {
+  "title": "DSE ICT Drill Bank",
+  "subject": "DSE ict",
+  "language": "en",
+  "total": 120,
+  "version": "1.0",
+  "reviewed": true
+ },
+ "questions": [
+  {
+   "id": "ICT-SYST-001",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Which statement about RAM is correct?",
+   "options": [
+    "A. RAM keeps user files after the power is switched off.",
+    "B. RAM is application software used to edit photos.",
+    "C. RAM is volatile main memory that holds programs and data while they are in use.",
+    "D. RAM is the same thing as a solid-state drive."
+   ],
+   "answer": "C",
+   "explanation": "RAM is main memory and it is volatile, so its contents are lost when the power goes off. Files that must survive a shutdown belong in secondary storage.",
+   "tags": [
+    "RAM",
+    "volatile",
+    "main memory"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-002",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Inside the CPU, which part performs calculations and logical comparisons?",
+   "options": [
+    "A. The control unit.",
+    "B. The arithmetic and logic unit (ALU).",
+    "C. The printer.",
+    "D. The router."
+   ],
+   "answer": "B",
+   "explanation": "The ALU carries out arithmetic and comparisons. The control unit directs how instructions are carried out; it is not the part that adds the numbers.",
+   "tags": [
+    "ALU",
+    "CPU"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-003",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "In a school hall, a projector shows the slides to the audience. In the input-process-output cycle the projector is used for:",
+   "options": [
+    "A. Input.",
+    "B. Secondary storage.",
+    "C. Processing only.",
+    "D. Output."
+   ],
+   "answer": "D",
+   "explanation": "A projector presents results to people, so it is an output device. A keyboard, scanner or sensor would be input.",
+   "tags": [
+    "output device",
+    "IPO cycle"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-004",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Which of the following is system software?",
+   "options": [
+    "A. The operating system.",
+    "B. A web browser used to read the news.",
+    "C. A spreadsheet used for a club budget.",
+    "D. A photo editor."
+   ],
+   "answer": "A",
+   "explanation": "The operating system manages hardware, files and memory so that applications can run. A browser, a spreadsheet and a photo editor are application software.",
+   "tags": [
+    "operating system",
+    "system software"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-005",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Which program is a utility?",
+   "options": [
+    "A. A word processor.",
+    "B. An online encyclopedia.",
+    "C. A slide-presentation application.",
+    "D. A backup utility."
+   ],
+   "answer": "D",
+   "explanation": "A backup utility is system software that does a housekeeping job. Word processors, encyclopedias and slide software are applications.",
+   "tags": [
+    "utility software",
+    "backup"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-006",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "A touchscreen on a tablet is best described as:",
+   "options": [
+    "A. An output device only.",
+    "B. Secondary storage.",
+    "C. Both an output device and an input device.",
+    "D. A type of ROM."
+   ],
+   "answer": "C",
+   "explanation": "The screen shows output, and touch is input. Calling it output only misses half of what it does.",
+   "tags": [
+    "touchscreen",
+    "input",
+    "output"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-007",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "A student saves a video project to an SSD and then shuts the computer down. The file is still there the next day because an SSD is:",
+   "options": [
+    "A. Non-volatile secondary storage.",
+    "B. Volatile RAM.",
+    "C. The arithmetic and logic unit.",
+    "D. Application software."
+   ],
+   "answer": "A",
+   "explanation": "Secondary storage keeps files when the power is off. RAM would not. The ALU is part of the processor, not a place to store the video.",
+   "tags": [
+    "SSD",
+    "secondary storage"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-008",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "A program adds two test scores. Which component carries out that addition?",
+   "options": [
+    "A. The control unit, because it stores files.",
+    "B. The ALU.",
+    "C. A barcode scanner.",
+    "D. The modem."
+   ],
+   "answer": "B",
+   "explanation": "Addition is arithmetic, so the ALU does it. A scanner and a modem are not processors, and the control unit does not replace the ALU.",
+   "tags": [
+    "ALU",
+    "processing"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-009",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Which device is used to capture a paper drawing so it can be stored as an image file?",
+   "options": [
+    "A. A speaker.",
+    "B. A printer.",
+    "C. A scanner.",
+    "D. A projector."
+   ],
+   "answer": "C",
+   "explanation": "A scanner is an input device that captures an image from paper. Speakers, printers and projectors are output devices.",
+   "tags": [
+    "scanner",
+    "input device"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-010",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "In a computer system, the bus is:",
+   "options": [
+    "A. The pathway that carries data and signals between components such as the CPU and memory.",
+    "B. A wide area network that joins two cities.",
+    "C. A kind of malware.",
+    "D. The primary key of a table."
+   ],
+   "answer": "A",
+   "explanation": "Here the bus is inside the computer, not a network topology and not a database key. It connects components so data and control signals can move.",
+   "tags": [
+    "bus",
+    "hardware"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-011",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "A device driver is:",
+   "options": [
+    "A. Application software for editing films.",
+    "B. System software that lets the operating system communicate with a particular device.",
+    "C. A hexadecimal colour code.",
+    "D. A foreign key."
+   ],
+   "answer": "B",
+   "explanation": "A driver is the system-software link between the operating system and a device such as a printer. It is not an application for making a film.",
+   "tags": [
+    "driver",
+    "system software"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-012",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Why is RAM a poor place to keep the only copy of an attendance record?",
+   "options": [
+    "A. RAM cannot store numbers.",
+    "B. RAM is a printer.",
+    "C. RAM is always larger than a hard disk.",
+    "D. RAM is volatile, so the record disappears when the power goes off."
+   ],
+   "answer": "D",
+   "explanation": "Volatility is the point. The record needs secondary storage if it must still be there after shutdown.",
+   "tags": [
+    "RAM",
+    "volatile"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-DATA-001",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "The binary number 1101 is equal to which denary number?",
+   "options": [
+    "A. 11",
+    "B. 13",
+    "C. 14",
+    "D. 7"
+   ],
+   "answer": "B",
+   "explanation": "1101 binary is 8 + 4 + 0 + 1 = 13. 14 would be 1110, and 11 would be 1011.",
+   "tags": [
+    "binary",
+    "denary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-002",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "In hexadecimal, the digit F has the denary value:",
+   "options": [
+    "A. 6",
+    "B. 10",
+    "C. 12",
+    "D. 15"
+   ],
+   "answer": "D",
+   "explanation": "Hexadecimal A to F means 10 to 15. F is 15, not a denary digit and not 10 (that is A).",
+   "tags": [
+    "hexadecimal"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-003",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "Two hexadecimal digits represent:",
+   "options": [
+    "A. One byte.",
+    "B. Two bytes.",
+    "C. One bit.",
+    "D. One kilobyte."
+   ],
+   "answer": "A",
+   "explanation": "One hex digit is 4 bits. Two hex digits are 8 bits, which is one byte.",
+   "tags": [
+    "hexadecimal",
+    "byte"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-004",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "Why is Unicode used instead of ASCII when a document contains Chinese characters?",
+   "options": [
+    "A. ASCII is an image format and Unicode is a sound format.",
+    "B. ASCII already contains every Chinese character, so Unicode is only for numbers.",
+    "C. Unicode can represent many writing systems, including Chinese, while ASCII cannot.",
+    "D. Unicode is a network cable."
+   ],
+   "answer": "C",
+   "explanation": "ASCII covers a small set of characters, mainly English letters and symbols. Unicode is the coding system that can represent Chinese and many other scripts.",
+   "tags": [
+    "Unicode",
+    "ASCII"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-005",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "An image uses a colour depth of 8 bits per pixel. How many different colours can each pixel represent?",
+   "options": [
+    "A. 8",
+    "B. 16",
+    "C. 64",
+    "D. 256"
+   ],
+   "answer": "D",
+   "explanation": "The number of colours is 2 to the power of the colour depth. 2^8 = 256, not 8.",
+   "tags": [
+    "colour depth"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-006",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "An uncompressed bitmap is 100 pixels by 80 pixels with a colour depth of 4 bits. Its size is:",
+   "options": [
+    "A. 4000 bytes.",
+    "B. 32000 bytes.",
+    "C. 800 bytes.",
+    "D. 4000 bits."
+   ],
+   "answer": "A",
+   "explanation": "Pixels = 100 × 80 = 8000. Bits = 8000 × 4 = 32000. Bytes = 32000 / 8 = 4000. The figure 32000 is the bit count, not the byte count.",
+   "tags": [
+    "bitmap",
+    "file size"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-007",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "A school logo must be enlarged on a banner without looking blocky. Which statement is correct?",
+   "options": [
+    "A. A bitmap stays perfectly sharp at any size.",
+    "B. A vector graphic becomes pixelated when it is enlarged.",
+    "C. A bitmap may look blocky when enlarged; a vector graphic stays sharp.",
+    "D. Neither bitmaps nor vector graphics can be printed."
+   ],
+   "answer": "C",
+   "explanation": "A bitmap is a grid of pixels, so enlargement shows the blocks. A vector graphic stores shapes, so it scales cleanly.",
+   "tags": [
+    "bitmap",
+    "vector"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-008",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "A sound clip is recorded again at a higher sampling rate, with the same sample size, channels and duration, and it is not compressed. The uncompressed file:",
+   "options": [
+    "A. Becomes smaller.",
+    "B. Becomes larger.",
+    "C. Turns into a vector graphic.",
+    "D. Loses its sample size."
+   ],
+   "answer": "B",
+   "explanation": "A higher sampling rate stores more samples per second, so the uncompressed file is larger, not smaller.",
+   "tags": [
+    "sampling rate",
+    "sound"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-009",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "An uncompressed mono clip lasts 5 seconds, sampled at 8000 Hz with an 8-bit sample size. The file size is:",
+   "options": [
+    "A. 40000 bytes.",
+    "B. 320000 bytes.",
+    "C. 8000 bytes.",
+    "D. 5 bytes."
+   ],
+   "answer": "A",
+   "explanation": "Bytes = 8000 × 8 × 1 × 5 / 8 = 40000. Forgetting to divide by 8 produces 320000, which is the number of bits.",
+   "tags": [
+    "sound",
+    "file size"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-010",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "The same uncompressed recording is stored once in mono and once in stereo, with every other setting unchanged. The stereo file is:",
+   "options": [
+    "A. About half the size of the mono file.",
+    "B. The same size, because channels do not affect size.",
+    "C. A text file.",
+    "D. About twice the size of the mono file."
+   ],
+   "answer": "D",
+   "explanation": "Stereo has two channels, so the uncompressed size is about double the mono size.",
+   "tags": [
+    "stereo",
+    "mono"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-011",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "In the calculations in this course, 1 KB is taken as:",
+   "options": [
+    "A. 1000 bits.",
+    "B. 1024 bytes.",
+    "C. 8 bytes.",
+    "D. 1024 bits."
+   ],
+   "answer": "B",
+   "explanation": "Unless a question states another convention, use 1 KB = 1024 bytes and 1 byte = 8 bits. 1024 bits would be only 128 bytes.",
+   "tags": [
+    "kilobyte",
+    "units"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-DATA-012",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "The hexadecimal value 2F is equal to which denary number?",
+   "options": [
+    "A. 215",
+    "B. 25",
+    "C. 47",
+    "D. 32"
+   ],
+   "answer": "C",
+   "explanation": "2 × 16 + 15 = 47. F is 15, not a denary digit, so 215 is a misreading of the symbols.",
+   "tags": [
+    "hexadecimal",
+    "denary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing"
+  },
+  {
+   "id": "ICT-NETW-001",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "Thirty computers in one ICT room share a printer. This network is a:",
+   "options": [
+    "A. WAN, because the computers can open websites.",
+    "B. CPU.",
+    "C. Database table.",
+    "D. LAN."
+   ],
+   "answer": "D",
+   "explanation": "A single room is a local area network. Being able to reach the Internet does not turn the room itself into a WAN.",
+   "tags": [
+    "LAN",
+    "WAN"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-002",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "The job of a switch in a school LAN is to:",
+   "options": [
+    "A. Connect devices and forward data to the device that needs it.",
+    "B. Translate domain names into IP addresses.",
+    "C. Encrypt every file stored on a hard disk.",
+    "D. Act as an input sensor."
+   ],
+   "answer": "A",
+   "explanation": "A switch works inside the LAN and forwards traffic to the intended device. DNS translates names, and encryption is a different control.",
+   "tags": [
+    "switch",
+    "LAN"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-003",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "Which device forwards data between different networks?",
+   "options": [
+    "A. A hub, because it always sends data to one chosen computer only.",
+    "B. A scanner.",
+    "C. A router.",
+    "D. A speaker."
+   ],
+   "answer": "C",
+   "explanation": "A router joins networks and forwards data using IP addresses. A hub repeats traffic inside a LAN; it does not route between networks.",
+   "tags": [
+    "router"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-004",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "In a star topology, one cable between a computer and the central switch is unplugged. The usual result is:",
+   "options": [
+    "A. Every computer in the school loses its connection.",
+    "B. Only the computer on that cable is disconnected.",
+    "C. The primary key of every database changes.",
+    "D. All files are converted to hexadecimal."
+   ],
+   "answer": "B",
+   "explanation": "Each device has its own link to the centre, so one cable fault affects that device. Failure of the central switch would be the wider outage.",
+   "tags": [
+    "star topology"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-005",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "In a star LAN, the central switch fails. What happens?",
+   "options": [
+    "A. Devices that depend on that switch can no longer use the LAN.",
+    "B. Nothing, because a star has no single point of failure.",
+    "C. The LAN becomes a personal database.",
+    "D. Only the colour depth of images changes."
+   ],
+   "answer": "A",
+   "explanation": "The central switch is a single point of failure in a star. Saying a star has no single point of failure is a common wrong answer.",
+   "tags": [
+    "star topology",
+    "switch"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-006",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "Why might a school use fibre-optic cable between two buildings?",
+   "options": [
+    "A. Fibre is always the cheapest cable, and that is its only advantage.",
+    "B. Fibre stores volatile RAM.",
+    "C. Fibre is application software.",
+    "D. It offers high bandwidth and is less affected by electrical interference."
+   ],
+   "answer": "D",
+   "explanation": "Fibre carries data as light. The syllabus advantages are bandwidth and resistance to electrical interference, not a claim that it is always the cheapest option.",
+   "tags": [
+    "fibre",
+    "transmission media"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-007",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "A school file server holds pupils' work and each classroom computer logs on to use it. This arrangement is:",
+   "options": [
+    "A. Peer-to-peer, because a server is involved.",
+    "B. Client-server.",
+    "C. A colour-depth setting.",
+    "D. A hexadecimal code."
+   ],
+   "answer": "B",
+   "explanation": "A dedicated server providing files to client computers is the client-server model. Peer-to-peer has no dedicated server.",
+   "tags": [
+    "client-server"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-008",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "Which description matches a peer-to-peer network?",
+   "options": [
+    "A. One dedicated server provides accounts and files to every client.",
+    "B. It is a kind of malware.",
+    "C. Computers share directly, with no dedicated server.",
+    "D. It is a method of sampling sound."
+   ],
+   "answer": "C",
+   "explanation": "Peer-to-peer sharing has no dedicated server. That makes a small home setup simpler and a school backup plan weaker.",
+   "tags": [
+    "peer-to-peer"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-009",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "A modem is used to:",
+   "options": [
+    "A. Enter a record into a database form.",
+    "B. Perform a dry run of pseudocode.",
+    "C. Store a primary key.",
+    "D. Connect the local network to the line from the Internet service provider."
+   ],
+   "answer": "D",
+   "explanation": "A modem links the home or school network to the ISP connection by converting signals for that line. It is not a database object.",
+   "tags": [
+    "modem",
+    "ISP"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-010",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "How does a hub differ from a switch?",
+   "options": [
+    "A. A hub forwards data only to the destination device, while a switch sends it to every port.",
+    "B. A hub sends data to all of its ports, while a switch forwards it to the intended device.",
+    "C. A hub is an output device and a switch is a font.",
+    "D. A hub encrypts email and a switch does not."
+   ],
+   "answer": "B",
+   "explanation": "A hub repeats traffic to every port. A switch sends it to the device that should receive it, which wastes less of the LAN.",
+   "tags": [
+    "hub",
+    "switch"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-011",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "An IP address is used to:",
+   "options": [
+    "A. Identify a device on a network.",
+    "B. Replace a person's legal name on an identity card.",
+    "C. Prove that a song is free of copyright.",
+    "D. Validate that a mark is between 0 and 100."
+   ],
+   "answer": "A",
+   "explanation": "An IP address identifies a device so traffic can be delivered. It is not a copyright licence or a validation rule.",
+   "tags": [
+    "IP address"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-NETW-012",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "Wi-Fi in this course means:",
+   "options": [
+    "A. A fibre-optic cable inside a wall.",
+    "B. A database relationship.",
+    "C. A wireless way for devices to join a LAN.",
+    "D. A lossless image format."
+   ],
+   "answer": "C",
+   "explanation": "Wi-Fi is wireless networking. It still needs security, such as a password, because the signal is not confined to a cable.",
+   "tags": [
+    "Wi-Fi",
+    "wireless"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-001",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "Which statement is correct?",
+   "options": [
+    "A. The World Wide Web is a service that runs on the Internet.",
+    "B. The Internet and the World Wide Web are two names for the same thing.",
+    "C. The World Wide Web is a CPU.",
+    "D. The Internet can only carry email."
+   ],
+   "answer": "A",
+   "explanation": "The Internet is the global network. The Web is one service on it, using linked pages and HTTP or HTTPS. Email is another service, not the definition of the Internet.",
+   "tags": [
+    "Internet",
+    "World Wide Web"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-002",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "In the URL https://www.example.edu.hk/ict/notes.html, which part is the protocol?",
+   "options": [
+    "A. www.example.edu.hk",
+    "B. /ict/notes.html",
+    "C. https",
+    "D. notes.html"
+   ],
+   "answer": "C",
+   "explanation": "https is the protocol. The host name is www.example.edu.hk and the path is /ict/notes.html.",
+   "tags": [
+    "URL",
+    "protocol"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-003",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "DNS is used to:",
+   "options": [
+    "A. Encrypt every file on a hard disk.",
+    "B. Translate a domain name into an IP address.",
+    "C. Choose a primary key.",
+    "D. Repeat a FOR loop."
+   ],
+   "answer": "B",
+   "explanation": "People type a domain name. DNS finds the IP address so the request can be delivered. It is not encryption and not a database key.",
+   "tags": [
+    "DNS",
+    "domain name"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-004",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "A student types a full URL into a program and a page appears. The student did not type any search words. The program is acting as:",
+   "options": [
+    "A. A switch.",
+    "B. A firewall only.",
+    "C. A primary key.",
+    "D. A browser, not a search engine."
+   ],
+   "answer": "D",
+   "explanation": "A browser displays a page from a URL. A search engine is what you use when you search for pages. Opening one known address does not make the browser a search engine.",
+   "tags": [
+    "browser",
+    "search engine"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-005",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "HTTPS means that:",
+   "options": [
+    "A. The words on the page must be true.",
+    "B. The site is owned by the government.",
+    "C. Data between the browser and the site is encrypted in transit.",
+    "D. No password is ever required."
+   ],
+   "answer": "C",
+   "explanation": "HTTPS encrypts the connection. It does not prove the page is accurate or that the owner is honest.",
+   "tags": [
+    "HTTPS",
+    "encryption"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-006",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "Which statement about email is correct?",
+   "options": [
+    "A. Email uses the Internet, but it is not the same thing as the World Wide Web.",
+    "B. Email can only be stored as a bitmap.",
+    "C. Email is a kind of RAM.",
+    "D. Email is a star topology."
+   ],
+   "answer": "A",
+   "explanation": "Email is an Internet service. The Web is a different service, made of linked pages. Sending mail does not require the message to be a web page.",
+   "tags": [
+    "email",
+    "Internet"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-007",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "Downloading a file means:",
+   "options": [
+    "A. Sending the file from your computer to a server.",
+    "B. Choosing a primary key.",
+    "C. Tracing a loop on paper.",
+    "D. Copying the file from a server to your device."
+   ],
+   "answer": "D",
+   "explanation": "Download is server to you. Upload is the opposite direction. A trace and a primary key are different topics.",
+   "tags": [
+    "download",
+    "upload"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-008",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "A class keeps its report in cloud storage. The file will not open on a phone that has no signal because:",
+   "options": [
+    "A. Cloud storage never uses a network.",
+    "B. The file is on a remote server that the phone cannot reach without a connection.",
+    "C. Cloud storage is a Trojan horse.",
+    "D. The file has become a hexadecimal digit."
+   ],
+   "answer": "B",
+   "explanation": "Cloud storage is remote. No connection means you cannot reach that copy. It is not malware by definition.",
+   "tags": [
+    "cloud storage"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-009",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "A student uploads homework to a folder shared only with the teacher. This means:",
+   "options": [
+    "A. The file is not automatically published to the whole Web.",
+    "B. Every person on the Internet can edit it.",
+    "C. The school LAN is deleted.",
+    "D. A range check has failed."
+   ],
+   "answer": "A",
+   "explanation": "Uploading to a private share is not the same as making a public web page. The permission setting decides who can open it.",
+   "tags": [
+    "cloud",
+    "permissions"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-010",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "A local HTML page shows the heading correctly, but the photo is a broken icon. The most likely cause is:",
+   "options": [
+    "A. The Internet service provider has cancelled the Web.",
+    "B. RAM is volatile.",
+    "C. The image file name or path written in the page is wrong.",
+    "D. The ALU cannot add numbers."
+   ],
+   "answer": "C",
+   "explanation": "The image is a separate file. A wrong name or folder in the page breaks the picture even when the text is fine, and a local page does not need the ISP for that test.",
+   "tags": [
+    "HTML",
+    "images"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-011",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "A hyperlink is:",
+   "options": [
+    "A. The system bus inside a CPU.",
+    "B. A foreign key.",
+    "C. A sampling rate.",
+    "D. A link that points to another URL."
+   ],
+   "answer": "D",
+   "explanation": "A hyperlink is how a web page sends the reader to another address. It is not a database key or a hardware bus.",
+   "tags": [
+    "hyperlink",
+    "URL"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-012",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "At the level of this course, HTML is:",
+   "options": [
+    "A. A set of steps for spreading a worm.",
+    "B. Markup that describes the structure of a page, such as headings and links.",
+    "C. An operating system.",
+    "D. A lossy audio format."
+   ],
+   "answer": "B",
+   "explanation": "HTML marks structure so a browser can display the page. It is not an operating system and not a method for attacking a network.",
+   "tags": [
+    "HTML"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-DBAS-001",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "In a table, a record and a field are:",
+   "options": [
+    "A. A record is a column and a field is a row.",
+    "B. A record is one row and a field is one column.",
+    "C. Both words mean primary key.",
+    "D. A field is a network switch."
+   ],
+   "answer": "B",
+   "explanation": "One record is one row, such as one student. One field is one column, such as the class.",
+   "tags": [
+    "record",
+    "field"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-002",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "A primary key must:",
+   "options": [
+    "A. Uniquely identify each record and must not be left empty.",
+    "B. Be allowed to repeat whenever two people share a name.",
+    "C. Always be a person's name.",
+    "D. Be a kind of malware."
+   ],
+   "answer": "A",
+   "explanation": "Uniqueness and no empty value are the rules. A name fails when two students share it, so a school-issued number is safer.",
+   "tags": [
+    "primary key"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-003",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "A foreign key is:",
+   "options": [
+    "A. A second copy of a photograph stored as a bitmap.",
+    "B. An output device.",
+    "C. A sampling rate.",
+    "D. A field that stores the primary key of a related record in another table."
+   ],
+   "answer": "D",
+   "explanation": "The foreign key is how tables are linked. In a loan table, BorrowerID pointing at the borrower table is a foreign key.",
+   "tags": [
+    "foreign key"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-004",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "One borrower can have many loans, and each loan belongs to one borrower. How should this be stored?",
+   "options": [
+    "A. As a one-to-one link that allows only one loan forever.",
+    "B. With the borrower's full address typed again on every loan, and no keys.",
+    "C. As a one-to-many relationship, storing the borrower id on each loan.",
+    "D. It cannot be stored in a database."
+   ],
+   "answer": "C",
+   "explanation": "One borrower to many loans is one-to-many. The borrower id on the loan record is the foreign key. Repeating the address on every loan creates conflicting copies.",
+   "tags": [
+    "one-to-many",
+    "relationship"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-005",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "Why is a student name a weak primary key?",
+   "options": [
+    "A. Two students can have the same name, so the key would not be unique.",
+    "B. A name cannot be displayed on a form.",
+    "C. Names are always numbers.",
+    "D. A name is a WAN."
+   ],
+   "answer": "A",
+   "explanation": "A primary key must be unique. Shared names break that rule. A student number issued once does not.",
+   "tags": [
+    "primary key",
+    "name"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-006",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "Which statement is correct?",
+   "options": [
+    "A. A form is a printed list of overdue books.",
+    "B. A form is used to enter or edit data; a report is formatted output.",
+    "C. A report is a firewall.",
+    "D. A form is a CPU."
+   ],
+   "answer": "B",
+   "explanation": "Use a form for input on screen and a report for a formatted list, often printed. Swapping the two words is a standard exam trap.",
+   "tags": [
+    "form",
+    "report"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-007",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "In a query, a criterion is:",
+   "options": [
+    "A. The order in which the matching records are sorted.",
+    "B. The colour of the form.",
+    "C. The condition a record must meet, such as Class = 4A.",
+    "D. The speed of the system bus."
+   ],
+   "answer": "C",
+   "explanation": "The criterion filters records. Sort order arranges the ones that remain; it does not replace the filter.",
+   "tags": [
+    "query",
+    "criterion"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-008",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "A mark field accepts only values from 0 to 100. The true mark is 60, but the clerk types 70. What happens?",
+   "options": [
+    "A. The range check proves that 70 is the true mark.",
+    "B. The range check rejects 70.",
+    "C. The database reports a syntax error.",
+    "D. 70 is inside the range, so the range check does not catch the mistake."
+   ],
+   "answer": "D",
+   "explanation": "Validation tests whether the value is reasonable, not whether it is true. 70 is allowed. Only a check against the original script would catch the swap.",
+   "tags": [
+    "range check",
+    "validation"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-009",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "Asking a clerk to type each mark twice is an example of:",
+   "options": [
+    "A. A colour-depth calculation.",
+    "B. Verification.",
+    "C. A worm.",
+    "D. A star topology."
+   ],
+   "answer": "B",
+   "explanation": "Double entry checks that the value was copied consistently. That is verification. It is not a range check, and it still fails if the same wrong number is typed twice.",
+   "tags": [
+    "verification"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-010",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "Referential integrity means:",
+   "options": [
+    "A. A firewall blocks every email.",
+    "B. A bitmap is stored in bytes.",
+    "C. A command word asks for a reason.",
+    "D. A foreign key must match an existing primary key."
+   ],
+   "answer": "D",
+   "explanation": "You should not be able to store a loan for a borrower id that is not in the borrower table. That rule is referential integrity.",
+   "tags": [
+    "referential integrity"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-011",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "A birthday should be stored in a field of type:",
+   "options": [
+    "A. Date.",
+    "B. Yes/no, because a birthday is a choice.",
+    "C. Bitmap.",
+    "D. Untyped text, so that 31/02/2020 can be kept on purpose."
+   ],
+   "answer": "A",
+   "explanation": "A date field can reject impossible dates and can be sorted in calendar order. A yes/no field cannot hold a full date, and free text makes bad dates easy to store.",
+   "tags": [
+    "data type",
+    "date"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-DBAS-012",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "Which statement correctly separates validation and verification?",
+   "options": [
+    "A. They are two names for the same check.",
+    "B. Verification tests a range; validation tests double entry.",
+    "C. Validation tests whether data is reasonable; verification tests whether it was copied accurately.",
+    "D. Neither check can be used on a form."
+   ],
+   "answer": "C",
+   "explanation": "Range, type and presence checks are validation. Double entry and proofreading are verification. A value can pass both and still be the wrong fact if it was copied consistently from a wrong source.",
+   "tags": [
+    "validation",
+    "verification"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Elective: Databases (school level)"
+  },
+  {
+   "id": "ICT-MULT-001",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "JPEG is:",
+   "options": [
+    "A. A lossless format and the usual choice for a logo with a transparent background.",
+    "B. A sound sampling rate.",
+    "C. A lossy image format commonly used for photographs.",
+    "D. A database key."
+   ],
+   "answer": "C",
+   "explanation": "JPEG throws away some detail to make photograph files smaller. It is a poor match for sharp text or a transparent logo.",
+   "tags": [
+    "JPEG",
+    "lossy"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-002",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Which description of PNG is correct?",
+   "options": [
+    "A. PNG compression is lossy.",
+    "B. PNG can store only one colour.",
+    "C. PNG is a network topology.",
+    "D. PNG is lossless and can support transparency."
+   ],
+   "answer": "D",
+   "explanation": "PNG keeps the original image data and can include a transparent background, which is why it suits logos and screenshots.",
+   "tags": [
+    "PNG",
+    "lossless"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-003",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "A limitation of GIF is that:",
+   "options": [
+    "A. It can store uncompressed 24-bit photographs with no colour limit.",
+    "B. It is limited to 256 colours.",
+    "C. It is a central processing unit.",
+    "D. It is the protocol that sends email."
+   ],
+   "answer": "B",
+   "explanation": "GIF uses at most 256 colours. That is acceptable for a simple icon or a short animation, and weak for a photograph.",
+   "tags": [
+    "GIF"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-004",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "For a 30-second welcome message on a web page, why might the club choose MP3 rather than WAV?",
+   "options": [
+    "A. MP3 is lossy compressed audio and is usually much smaller than an uncompressed WAV of the same clip.",
+    "B. WAV is always the smaller file.",
+    "C. MP3 is an image format.",
+    "D. MP3 is a primary key."
+   ],
+   "answer": "A",
+   "explanation": "MP3 discards some sound detail to save space. WAV is commonly uncompressed, so the same clip takes much more room. Use WAV when you need the larger master, not when the page must download quickly.",
+   "tags": [
+    "MP3",
+    "WAV"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-005",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Lossy compression:",
+   "options": [
+    "A. Can always restore every original bit.",
+    "B. Is a validation rule on a form.",
+    "C. Is a peer-to-peer network.",
+    "D. Reduces file size by discarding some of the original data."
+   ],
+   "answer": "D",
+   "explanation": "Lossy methods such as JPEG and MP3 throw detail away. Lossless compression is the one that can be reversed exactly.",
+   "tags": [
+    "lossy compression"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-006",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Lossless compression:",
+   "options": [
+    "A. Permanently deletes detail from a photograph.",
+    "B. Is a phishing message.",
+    "C. Can be reversed so the original data is restored.",
+    "D. Is a wide area network."
+   ],
+   "answer": "C",
+   "explanation": "Lossless compression packs data without throwing the original away. It is the safer choice for a logo or any file that must stay exact.",
+   "tags": [
+    "lossless compression"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-007",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "An uncompressed bitmap is 640 by 480 pixels with 24-bit colour. Its size is:",
+   "options": [
+    "A. 921600 bytes.",
+    "B. 921600 bits.",
+    "C. 307200 bytes.",
+    "D. 640 bytes."
+   ],
+   "answer": "A",
+   "explanation": "640 × 480 × 24 / 8 = 921600 bytes. 307200 is the number of pixels. 921600 bits would forget that the 24 already counts bits and that the answer must still be divided by 8.",
+   "tags": [
+    "bitmap",
+    "file size"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-008",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Both the width and the height of a bitmap are doubled. The number of pixels:",
+   "options": [
+    "A. Doubles.",
+    "B. Becomes four times as large.",
+    "C. Stays the same.",
+    "D. Becomes an ASCII code."
+   ],
+   "answer": "B",
+   "explanation": "Doubling each side multiplies the area by four, so the uncompressed file size is about four times larger if the colour depth stays the same.",
+   "tags": [
+    "resolution",
+    "file size"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-009",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "A vector logo is enlarged for a banner. The logo:",
+   "options": [
+    "A. Must become blocky.",
+    "B. Becomes a worm.",
+    "C. Stays sharp because the shapes are stored as instructions.",
+    "D. Loses its copyright automatically."
+   ],
+   "answer": "C",
+   "explanation": "Vector graphics scale without pixelation. Enlarging them does not cancel copyright.",
+   "tags": [
+    "vector"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-010",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Captions on a school video are useful because they:",
+   "options": [
+    "A. Let viewers follow the video without relying only on the soundtrack.",
+    "B. Increase the colour depth to 1 bit.",
+    "C. Act as a primary key.",
+    "D. Replace the need for a copyright licence."
+   ],
+   "answer": "A",
+   "explanation": "Captions support access, including for users who cannot hear the audio. They do not clear copyright or change the pixel format.",
+   "tags": [
+    "captions",
+    "accessibility"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-011",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "The union crest must keep a transparent background on the website. Why is JPEG a poor choice?",
+   "options": [
+    "A. JPEG is required by every browser for transparent logos.",
+    "B. JPEG is a sound format.",
+    "C. JPEG is a database report.",
+    "D. JPEG does not give a clean transparent background and can blur sharp edges."
+   ],
+   "answer": "D",
+   "explanation": "Use PNG or a vector file for a crest with transparency. JPEG is for photographs, where a little lost detail is acceptable.",
+   "tags": [
+    "JPEG",
+    "transparency"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-MULT-012",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "When starting a multimedia page, the club should first:",
+   "options": [
+    "A. Pick the largest uncompressed files available.",
+    "B. Decide the audience and the purpose, then choose a format and size that fit.",
+    "C. Avoid text alternatives.",
+    "D. Auto-play sound so that every user must hear it."
+   ],
+   "answer": "B",
+   "explanation": "Audience and purpose drive the format. A huge uncompressed file, missing alternative text, or forced sound makes the page harder to use.",
+   "tags": [
+    "audience",
+    "design"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ICT-ALGO-001",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "In the pseudocode used in this course, the symbol ← means:",
+   "options": [
+    "A. Compare two values and choose a branch.",
+    "B. Send an email.",
+    "C. Declare a primary key.",
+    "D. Assign a value to a variable."
+   ],
+   "answer": "D",
+   "explanation": "total ← 0 stores 0 in total. A comparison belongs in a condition such as IF mark >= 50. Do not treat the arrow as a test.",
+   "tags": [
+    "assignment",
+    "pseudocode"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-002",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "What is the output?\n\nsum ← 0\nFOR i FROM 1 TO 3\n    sum ← sum + i\nEND FOR\nOUTPUT sum",
+   "options": [
+    "A. 0",
+    "B. 6",
+    "C. 3",
+    "D. 4"
+   ],
+   "answer": "B",
+   "explanation": "sum becomes 1, then 3, then 6. The output is the sum, not the final value of i and not the starting 0.",
+   "tags": [
+    "trace",
+    "FOR"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-003",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "IF ... THEN ... ELSE ... ENDIF is an example of:",
+   "options": [
+    "A. Iteration that always runs both branches.",
+    "B. Secondary storage.",
+    "C. Selection.",
+    "D. DNS."
+   ],
+   "answer": "C",
+   "explanation": "Selection chooses one branch. Only the THEN steps or the ELSE steps run, not both. Iteration is FOR or WHILE.",
+   "tags": [
+    "selection",
+    "IF"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-004",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "A pass should be given for a mark of 50 or above. The algorithm says IF mark > 50 THEN OUTPUT \"Pass\" ELSE OUTPUT \"Fail\" ENDIF, and mark is 50. What is true?",
+   "options": [
+    "A. The output is Fail, because 50 does not satisfy mark > 50.",
+    "B. The output is Pass, because 50 is a pass in everyday language.",
+    "C. Both Pass and Fail are output.",
+    "D. The algorithm cannot run, because IF is not allowed."
+   ],
+   "answer": "A",
+   "explanation": "Trace the condition that is written. 50 is not greater than 50, so ELSE runs. The mismatch with \"50 or above\" is a logic error, not a syntax error.",
+   "tags": [
+    "boundary",
+    "logic error"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-005",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "FOR i FROM 1 TO 4 means i takes the values:",
+   "options": [
+    "A. 0, 1, 2, 3",
+    "B. 1, 2, 3, 4",
+    "C. 1 and 4 only",
+    "D. 4, 3, 2, 1, 0"
+   ],
+   "answer": "B",
+   "explanation": "The counter starts at 1 and stops after 4, so there are four passes: 1, 2, 3 and 4.",
+   "tags": [
+    "FOR",
+    "iteration"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-006",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "What is the output?\n\nn ← 1\nWHILE n < 8\n    n ← n * 2\nEND WHILE\nOUTPUT n",
+   "options": [
+    "A. 1",
+    "B. 4",
+    "C. 16",
+    "D. 8"
+   ],
+   "answer": "D",
+   "explanation": "n goes 1, 2, 4, 8. When n is 8 the condition n < 8 is false, so the loop stops and 8 is output. It does not multiply once more to 16.",
+   "tags": [
+    "WHILE",
+    "trace"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-007",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "A program runs and prints the wrong total because the loop adds one extra time. This is a:",
+   "options": [
+    "A. Logic error.",
+    "B. Syntax error.",
+    "C. Fibre-optic fault.",
+    "D. Primary-key error."
+   ],
+   "answer": "A",
+   "explanation": "The program runs, so the language rules were followed, but the result is wrong. That is a logic error. A syntax error would stop it from running.",
+   "tags": [
+    "logic error"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-008",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "Which is a syntax error?",
+   "options": [
+    "A. Using > when the specification says >=, while the rest of the program runs.",
+    "B. Dividing by zero while the program is running.",
+    "C. Leaving out ENDIF, so the program breaks the language rules and does not run.",
+    "D. Testing a mark of 50."
+   ],
+   "answer": "C",
+   "explanation": "A missing ENDIF breaks the structure, so the program is not run. A wrong comparison that still runs is a logic error. Dividing by zero during a run is a runtime error.",
+   "tags": [
+    "syntax error"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-009",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "Valid marks are from 0 to 100 inclusive. Which pair is boundary test data?",
+   "options": [
+    "A. 63 and 64",
+    "B. The letter A and a blank photo",
+    "C. A normal essay title",
+    "D. 0 and 100"
+   ],
+   "answer": "D",
+   "explanation": "0 and 100 sit on the edges of the allowed range. 63 is normal data. The letter A is abnormal data.",
+   "tags": [
+    "boundary",
+    "test data"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-010",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "Which input is abnormal test data for a numeric mark?",
+   "options": [
+    "A. The letter A.",
+    "B. The mark 63.",
+    "C. The mark 100.",
+    "D. The mark 0."
+   ],
+   "answer": "A",
+   "explanation": "A letter is the wrong type, so it is abnormal or erroneous. 63 is normal. 0 and 100 are boundaries.",
+   "tags": [
+    "abnormal test data"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-011",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "A dry run is:",
+   "options": [
+    "A. Installing a program from an unknown website.",
+    "B. Printing a database report.",
+    "C. Executing an algorithm on paper, usually with a trace table.",
+    "D. Encrypting a disk."
+   ],
+   "answer": "C",
+   "explanation": "A dry run walks through the steps and records variable values. It is how you check a loop before you trust the output.",
+   "tags": [
+    "dry run",
+    "trace table"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-ALGO-012",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "When a question asks for the output of a given algorithm, you should:",
+   "options": [
+    "A. Add a division step if you think the result would be more useful.",
+    "B. Output only what the written steps produce.",
+    "C. Change every ← into a comparison.",
+    "D. Run both branches of an IF."
+   ],
+   "answer": "B",
+   "explanation": "Marks come from the steps on the page. Extra helpful steps are not part of the trace, and only one branch of an IF runs.",
+   "tags": [
+    "trace",
+    "pseudocode"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ICT-SECU-001",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A virus is malware that:",
+   "options": [
+    "A. Attaches to a host file and spreads when that file is shared and run.",
+    "B. Spreads across a network by itself without a host file.",
+    "C. Is a lawful backup method.",
+    "D. Is a primary key."
+   ],
+   "answer": "A",
+   "explanation": "A virus needs a host file. A worm is the malware that spreads across a network by itself. Do not use the word virus for every threat.",
+   "tags": [
+    "virus",
+    "malware"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-002",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A worm is different from a virus because a worm:",
+   "options": [
+    "A. Can only exist inside a document that a user chooses to open.",
+    "B. Is a lossless image format.",
+    "C. Is freeware.",
+    "D. Spreads across a network by itself."
+   ],
+   "answer": "D",
+   "explanation": "A worm does not need to attach to a host file. That is the contrast with a virus.",
+   "tags": [
+    "worm"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-003",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A Trojan horse:",
+   "options": [
+    "A. Copies itself across a LAN without anyone installing it.",
+    "B. Is a star topology.",
+    "C. Appears to be useful software and does not replicate by itself.",
+    "D. Is a range check."
+   ],
+   "answer": "C",
+   "explanation": "A Trojan relies on someone installing a program that looks legitimate. It is not a worm and not a network layout.",
+   "tags": [
+    "Trojan"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-004",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A message that copies the school logo and asks you to type your portal password is:",
+   "options": [
+    "A. A firewall rule.",
+    "B. Phishing.",
+    "C. A trace table.",
+    "D. A vector graphic."
+   ],
+   "answer": "B",
+   "explanation": "Phishing imitates a trusted sender to steal a password or personal data. The logo does not make the message genuine. Do not type the password.",
+   "tags": [
+    "phishing"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-005",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Ransomware has encrypted files on one school computer. The appropriate response is to:",
+   "options": [
+    "A. Pay at once from petty cash and tell nobody.",
+    "B. Send the administrator password to the address in the message.",
+    "C. Publish the files on the Web so the demand no longer matters.",
+    "D. Disconnect the computer, tell a teacher or technician, and restore from a clean backup."
+   ],
+   "answer": "D",
+   "explanation": "Payment is not a recovery plan, and the password must not be sent. Isolate the machine and recover from a backup that was not encrypted with it.",
+   "tags": [
+    "ransomware",
+    "backup"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-006",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A firewall:",
+   "options": [
+    "A. Encrypts every file on a disk as its main job.",
+    "B. Filters network traffic according to rules.",
+    "C. Proves that a website is honest.",
+    "D. Is a foreign key."
+   ],
+   "answer": "B",
+   "explanation": "A firewall allows or blocks connections. Encryption protects the contents of data. Neither one proves that a website tells the truth.",
+   "tags": [
+    "firewall"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-007",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Which statement about HTTPS is correct?",
+   "options": [
+    "A. It encrypts traffic in transit, but it does not prove the site owner is honest.",
+    "B. It guarantees that every sentence on the page is accurate.",
+    "C. It replaces the need for a backup.",
+    "D. It is a kind of primary key."
+   ],
+   "answer": "A",
+   "explanation": "HTTPS protects the connection from being read on the way. A lock icon is not a fact-check and not a backup.",
+   "tags": [
+    "HTTPS"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-008",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Which practice is unsafe?",
+   "options": [
+    "A. Using a long password that is not reused on other sites.",
+    "B. Adding a code from a phone as a second check.",
+    "C. Using the password \"teacher\" on several school and personal sites.",
+    "D. Keeping the password off a note stuck to the monitor."
+   ],
+   "answer": "C",
+   "explanation": "\"teacher\" is short, guessable and reused. Length, uniqueness and not sharing are the safe habits. A second factor adds something you have.",
+   "tags": [
+    "password"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-009",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A useful backup of examination marks is:",
+   "options": [
+    "A. The only copy, kept on the same disk as the original file.",
+    "B. A separate copy, stored somewhere else, and tested by restoring a file.",
+    "C. A copy left only in RAM.",
+    "D. A copy pasted into a phishing reply."
+   ],
+   "answer": "B",
+   "explanation": "A copy on the same disk dies with that disk. A backup has to be separate, and you only know it works if a restore has been tried.",
+   "tags": [
+    "backup"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-010",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Anti-malware software:",
+   "options": [
+    "A. Removes the need for any backup.",
+    "B. Is a copyright licence.",
+    "C. Needs updates, because new malware appears after the last list was made.",
+    "D. Translates domain names into IP addresses."
+   ],
+   "answer": "C",
+   "explanation": "Detection lists go out of date. Updates help, and they still do not replace a backup or a careful user.",
+   "tags": [
+    "anti-malware"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-011",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Pharming is a threat in which:",
+   "options": [
+    "A. A loop is traced on paper.",
+    "B. An image is compressed without losing data.",
+    "C. A primary key is chosen.",
+    "D. A user is redirected to a fake site, often after name lookup has been interfered with."
+   ],
+   "answer": "D",
+   "explanation": "Pharming can send someone to a fake site even when they typed the real name. The exam point is the effect: do not trust the page, and do not enter a password. The steps used to interfere with name lookup are not required.",
+   "tags": [
+    "pharming"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SECU-012",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Before leaving a shared library computer, a student should:",
+   "options": [
+    "A. Sign out of email so the next person cannot use the account.",
+    "B. Leave the session open to save logging in later.",
+    "C. Post the class sharing link on a public page.",
+    "D. Write the password on the monitor."
+   ],
+   "answer": "A",
+   "explanation": "An open session is unauthorised access waiting for the next user. Sign out, and do not leave the password in sight.",
+   "tags": [
+    "sign-out",
+    "shared computer"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ICT-SOCI-001",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "In Hong Kong, copyright in an original photograph or song:",
+   "options": [
+    "A. Exists only after the owner pays a registration fee.",
+    "B. Applies only to software.",
+    "C. Arises automatically.",
+    "D. Applies only to database tables."
+   ],
+   "answer": "C",
+   "explanation": "Copyright protects original work without a registration step. A song, a photo, a video and program code can all be protected. School use is not a general exemption.",
+   "tags": [
+    "copyright"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-002",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "A student writes \"I do not own this song\" under a video that uses a commercial track. The caption:",
+   "options": [
+    "A. May show the work is not the student's, but it is not copyright permission.",
+    "B. Makes the copying lawful for any audience.",
+    "C. Turns the song into freeware.",
+    "D. Is a firewall."
+   ],
+   "answer": "A",
+   "explanation": "A credit can address plagiarism. It does not replace a licence or the owner's consent. Freeware is a software arrangement and does not cover the song.",
+   "tags": [
+    "copyright",
+    "plagiarism"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-003",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Freeware means the software:",
+   "options": [
+    "A. Has no copyright and includes a duty to publish your changes.",
+    "B. Costs nothing to use, but it is still under copyright.",
+    "C. Gives you the right to copy any file on the Web.",
+    "D. Is a worm."
+   ],
+   "answer": "B",
+   "explanation": "Free of charge is not the same as open source, and it is not permission to copy unrelated music or logos. The freeware program itself remains copyrighted.",
+   "tags": [
+    "freeware"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-004",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Open-source software:",
+   "options": [
+    "A. Has no licence at all.",
+    "B. Is defined only as \"it costs no money\".",
+    "C. Is a sampling rate.",
+    "D. Allows the source code to be read and changed under the terms of its licence."
+   ],
+   "answer": "D",
+   "explanation": "The licence can still require credit or that you share changes. Open source is not \"no rules\", and it is not identical to freeware.",
+   "tags": [
+    "open source"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-005",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Shareware is software that:",
+   "options": [
+    "A. Can be tried, and then paid for if you continue to use it.",
+    "B. Is a LAN cable.",
+    "C. Is a range check.",
+    "D. Has lost its copyright because it was placed on the Internet."
+   ],
+   "answer": "A",
+   "explanation": "The trial is the point of shareware. Keeping it after the trial without paying breaks the licence. Putting something on the Internet does not cancel copyright.",
+   "tags": [
+    "shareware"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-006",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "A lunch poll only needs a class and a menu choice. Which collection is excessive?",
+   "options": [
+    "A. The class.",
+    "B. The menu choice.",
+    "C. The student's Hong Kong identity-card number.",
+    "D. Nothing, because more data is always better."
+   ],
+   "answer": "C",
+   "explanation": "Personal data should be limited to what the purpose needs. An identity-card number identifies the student far beyond a lunch choice, so it should not be collected \"just in case\".",
+   "tags": [
+    "personal data",
+    "PDPO"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-007",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "The club emails a spreadsheet of every member's phone number to all members. This is a problem because:",
+   "options": [
+    "A. A range check forbids spreadsheets.",
+    "B. Phone numbers cannot be personal data.",
+    "C. Email is the same thing as the World Wide Web.",
+    "D. People who do not need the numbers can now see them."
+   ],
+   "answer": "D",
+   "explanation": "The list should be available only to the people who have to make contact. Sending it to everyone fails the security and use principles. A phone number is personal data.",
+   "tags": [
+    "personal data",
+    "security"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-008",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "The digital divide refers to:",
+   "options": [
+    "A. A difference between two monitor sizes only.",
+    "B. Unequal access to devices, connectivity or skills.",
+    "C. A type of primary key.",
+    "D. A FOR loop."
+   ],
+   "answer": "B",
+   "explanation": "The gap can be equipment, a connection, or the skills to use them. It is also why accessible design, such as text alternatives, matters.",
+   "tags": [
+    "digital divide"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-009",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Ergonomics in a computer room means:",
+   "options": [
+    "A. Choosing a malware scanner.",
+    "B. Writing a URL.",
+    "C. Setting up the chair, screen and breaks so that long use causes less physical strain.",
+    "D. Converting a number to hexadecimal."
+   ],
+   "answer": "C",
+   "explanation": "Eye strain, repetitive strain and backache are reduced by furniture, screen height and breaks. That is a health issue in the social-implications topic.",
+   "tags": [
+    "ergonomics",
+    "health"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-010",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "After a signup is finished, the personal data collected for it should be:",
+   "options": [
+    "A. Kept forever because storage is cheap.",
+    "B. Posted on a public story.",
+    "C. Left only in RAM and nowhere else, including no deletion decision.",
+    "D. Kept no longer than the purpose requires."
+   ],
+   "answer": "D",
+   "explanation": "Retention should match the purpose. When the signup is over, delete what you no longer need rather than building an unnecessary archive of phone numbers.",
+   "tags": [
+    "retention",
+    "PDPO"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-011",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Text alternatives on images support equity of access because they:",
+   "options": [
+    "A. Help users who cannot see the image.",
+    "B. Cancel the photographer's copyright.",
+    "C. Are a Trojan horse.",
+    "D. Double the sampling rate."
+   ],
+   "answer": "A",
+   "explanation": "A description lets more people use the page, including people using a screen reader. It does not license the image.",
+   "tags": [
+    "accessibility",
+    "text alternative"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-SOCI-012",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Which is a health reason to take breaks and adjust a workstation?",
+   "options": [
+    "A. A syntax error in pseudocode.",
+    "B. Eye strain and repetitive strain from long computer use.",
+    "C. A foreign-key mismatch.",
+    "D. A star-topology cable fault."
+   ],
+   "answer": "B",
+   "explanation": "Physical strain is a health consequence of ICT use. The other options are technical faults, not health effects.",
+   "tags": [
+    "health",
+    "ergonomics"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ICT-EXAM-001",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A question says \"State two advantages\" and is worth 2 marks. The answer should be:",
+   "options": [
+    "A. A long paragraph about a related topic, with reasons and examples.",
+    "B. Two short points, one for each mark.",
+    "C. A complete program in a named language, even though none was requested.",
+    "D. A supply-and-demand diagram."
+   ],
+   "answer": "B",
+   "explanation": "\"State\" wants brief facts. Two marks means two points. An explanation belongs to \"explain\", and a diagram from another subject does not answer this stem.",
+   "tags": [
+    "command word",
+    "state"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-002",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "On the assessment framework used for recent HKDSE ICT years, Paper 1 is:",
+   "options": [
+    "A. The paper on which you choose two electives.",
+    "B. School-based assessment only.",
+    "C. The compulsory paper, with a multiple-choice section and a short or structured section.",
+    "D. A practical test in another subject."
+   ],
+   "answer": "C",
+   "explanation": "Paper 1 covers the compulsory part and everyone answers it. Paper 2 is the elective paper. Confirm the framework for your exam year in case a later handbook changes a detail.",
+   "tags": [
+    "Paper 1",
+    "compulsory"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-003",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "On that same framework, Paper 2 requires candidates to:",
+   "options": [
+    "A. Answer all three electives.",
+    "B. Answer multiple-choice questions only.",
+    "C. Ignore the electives and repeat Paper 1.",
+    "D. Answer all the questions in any two of Databases, Web Application Development, and Algorithm and Programming."
+   ],
+   "answer": "D",
+   "explanation": "You prepare the two electives your school enters, and you answer the questions on those two. You do not answer the third elective in the exam.",
+   "tags": [
+    "Paper 2",
+    "elective"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-004",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "The command word \"suggest\" means you should:",
+   "options": [
+    "A. Give a practical idea that fits the case in the question.",
+    "B. Copy a definition and ignore the case.",
+    "C. Use the same sentence for every school described.",
+    "D. Draw a trace table even if the question is about a network."
+   ],
+   "answer": "A",
+   "explanation": "A suggestion has to work for the stem: a campus with two buildings is not answered by a generic word with no link to that campus.",
+   "tags": [
+    "suggest",
+    "command word"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-005",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "The command word \"explain\" means you should:",
+   "options": [
+    "A. Name a term and stop, even when the mark allocation is more than one.",
+    "B. Leave units off a calculation.",
+    "C. Give a reason, not only the name of the idea.",
+    "D. Describe a worm by listing steps that would spread it."
+   ],
+   "answer": "C",
+   "explanation": "\"Explain\" needs the because. Naming the device without saying why it fits the case drops the marks. Do not answer a security question with instructions for an attack.",
+   "tags": [
+    "explain",
+    "command word"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-006",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "Which point would score as an advantage of a star over a bus?",
+   "options": [
+    "A. Fibre is always cheaper than copper.",
+    "B. A fault in one link usually affects only one device.",
+    "C. A star has no single point of failure of any kind.",
+    "D. A star is a type of malware."
+   ],
+   "answer": "B",
+   "explanation": "One cable in a star serves one device, so that fault stays local. The central switch is still a single point of failure, so option C is too strong. Fibre is a medium, not a topology.",
+   "tags": [
+    "star topology",
+    "exam"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-007",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "State the output.\n\nmark ← 50\nIF mark > 50 THEN\n    OUTPUT \"Pass\"\nELSE\n    OUTPUT \"Fail\"\nENDIF",
+   "options": [
+    "A. Fail",
+    "B. Pass",
+    "C. 50",
+    "D. The program cannot run."
+   ],
+   "answer": "A",
+   "explanation": "50 is not greater than 50, so the ELSE branch runs and the output is Fail. Everyday ideas about a pass mark do not override the symbol in the algorithm.",
+   "tags": [
+    "trace",
+    "selection"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-008",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A calculation question asks for the size of an uncompressed bitmap in bytes. A complete answer:",
+   "options": [
+    "A. Gives the pixel count and no unit.",
+    "B. Reports the bit total and calls it bytes.",
+    "C. Omits the colour depth.",
+    "D. Shows width × height × colour depth / 8 and states the unit bytes."
+   ],
+   "answer": "D",
+   "explanation": "The division by 8 converts bits to bytes. Missing working or the wrong unit loses the mark even when part of the multiplication is right.",
+   "tags": [
+    "file size",
+    "units"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-009",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "Which contrast is the one examiners expect?",
+   "options": [
+    "A. The Internet and the World Wide Web are identical.",
+    "B. The World Wide Web is one service running on the Internet.",
+    "C. Email is a solid-state drive.",
+    "D. A browser and a search engine must be the same product."
+   ],
+   "answer": "B",
+   "explanation": "Keep Internet, Web, browser and search engine apart. Mixing them is one of the traps that returns every year.",
+   "tags": [
+    "Internet",
+    "World Wide Web"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-010",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "Which statement should you keep in mind for a data-check question?",
+   "options": [
+    "A. A range check does not prove that the typed value is the true value.",
+    "B. Validation and verification are the same process.",
+    "C. A primary key may safely contain duplicates.",
+    "D. RAM keeps files after the computer is switched off."
+   ],
+   "answer": "A",
+   "explanation": "Valid data can still be wrong. Say what the check catches and what it misses. The other three statements are standard false claims.",
+   "tags": [
+    "validation",
+    "exam trap"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-011",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "School-based assessment in ICT, as described in the current handbook, includes:",
+   "options": [
+    "A. A replacement for the compulsory paper.",
+    "B. Only a public multiple-choice paper.",
+    "C. A test from a different subject.",
+    "D. Guided tasks on design and implementation and on testing and evaluation."
+   ],
+   "answer": "D",
+   "explanation": "SBA is the two guided tasks, alongside the public papers, not instead of Paper 1. Check the handbook for your cohort for the exact mark split.",
+   "tags": [
+    "SBA"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-012",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "The reliable way to answer an algorithm trace is to:",
+   "options": [
+    "A. Add a step that would make the result look more sensible.",
+    "B. Write the output you expected before you read the conditions.",
+    "C. Follow the steps that are written and record each variable that changes.",
+    "D. Skip any value that sits on a boundary."
+   ],
+   "answer": "C",
+   "explanation": "The trace table is the answer. Boundaries are where wrong comparison symbols show up, so they are the values you should not skip.",
+   "tags": [
+    "trace table",
+    "exam"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  }
+ ]
+}

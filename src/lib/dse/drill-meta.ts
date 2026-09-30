@@ -1,5 +1,6 @@
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
+import { ICT_UNITS } from "@/lib/dse/ict-path";
 import type { DrillQuestion } from "@/lib/dse/drills";
 import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 
@@ -8,7 +9,8 @@ export type DrillSubjectMeta = {
   nameEn: string;
   learnHref: string;
   learnLabel: string;
-  videoHref: string;
+  /** Omitted when the subject has no curated video library. */
+  videoHref?: string;
   keywords: string[];
 };
 
@@ -41,6 +43,19 @@ export const DRILL_SUBJECT_META: Record<string, DrillSubjectMeta> = {
       "dse english practice",
     ],
   },
+  ict: {
+    nameZh: "資訊及通訊科技",
+    nameEn: "ICT",
+    learnHref: "/dse/ict/learn",
+    learnLabel: "ICT 自學路徑",
+    keywords: [
+      "DSE ICT",
+      "DSE 資訊及通訊科技",
+      "HKDSE ICT MCQ",
+      "資訊及通訊科技 練習",
+      "DSE ICT practice",
+    ],
+  },
 };
 
 /** Topics that exist only in the published drill bank, not in a learn-path unit. */
@@ -60,6 +75,10 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
     const u = ENGLISH_UNITS.find((x) => x.topicKey === topic);
     if (u) return { zh: u.title, en: u.label, unitId: u.id };
   }
+  if (subject === "ict") {
+    const u = ICT_UNITS.find((x) => x.topicKey === topic);
+    if (u) return { zh: u.titleZh, en: u.title, unitId: u.id };
+  }
   const extra = EXTRA_TOPIC_LABELS[topic];
   if (extra) return { ...extra, unitId: null };
   const en = topic.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -67,8 +86,15 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
 }
 
 /** Pass mark shared by every unit gate in a subject's learn path. */
+const LEARN_UNITS = {
+  econ: ECON_UNITS,
+  english: ENGLISH_UNITS,
+  ict: ICT_UNITS,
+} as const;
+
 export function learnPassThreshold(subject: string): number {
-  const units = subject === "econ" ? ECON_UNITS : ENGLISH_UNITS;
+  const units = LEARN_UNITS[subject as keyof typeof LEARN_UNITS];
+  if (!units?.length) return 7;
   return Math.min(...units.map((u) => u.passThreshold));
 }
 

@@ -19,6 +19,7 @@ const FOOTER_COLUMNS = [
       { href: "/dse/chinese/error-notebook", label: "錯題本" },
       { href: "/dse/english/learn", label: "English 自學路徑" },
       { href: "/dse/econ/learn", label: "ECON Learn Mode" },
+      { href: "/dse/ict/learn", label: "ICT 自學路徑" },
       { href: "/dse/videos", label: "溫習片庫" },
     ],
   },
