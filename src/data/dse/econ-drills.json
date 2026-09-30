@@ -3,7 +3,7 @@
   "title": "DSE Econ Drill Bank (SAMPLE)",
   "subject": "DSE econ",
   "language": "en",
-  "total": 100,
+  "total": 128,
   "version": "sample",
   "reviewed": true,
   "rejected_count": 7,
@@ -1741,6 +1741,525 @@
    ],
    "answer": "C",
    "explanation": "Demand falls when income rises, so the good is inferior. Income elasticity = -5%/10% = -0.5."
+  },
+  {
+   "id": "ECON-DEMA-011",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "A café uses one kitchen hour either to fry egg tarts or to serve milk tea, and milk tea is the next best use. The opportunity cost of the egg tarts is:",
+   "options": [
+    "A. The sum of every other dish the café could make",
+    "B. The value of the milk tea forgone",
+    "C. The sticker price of an egg tart",
+    "D. Zero, because the oven is already owned"
+   ],
+   "answer": "B",
+   "explanation": "Opportunity cost is the value of the single next-best alternative, here the milk tea. It is not the sum of all other options, and owning the oven does not make the hour a free good.",
+   "tags": [
+    "opportunity cost"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-012",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "The price of egg tarts rises and no other determinant changes. The supply-side result is:",
+   "options": [
+    "A. A rightward shift of the supply curve",
+    "B. An extension of quantity supplied along the supply curve",
+    "C. A fall in quantity supplied",
+    "D. A leftward shift of demand"
+   ],
+   "answer": "B",
+   "explanation": "The law of supply: a higher own-price raises quantity supplied. That is a movement along the curve. The curve shifts only when a non-price determinant changes.",
+   "tags": [
+    "law of supply",
+    "movement"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-013",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "Flour becomes more expensive. The price of egg tarts has not yet changed. What happens to the supply of egg tarts?",
+   "options": [
+    "A. The supply curve shifts left",
+    "B. There is a movement along an unchanged supply curve",
+    "C. Demand shifts right",
+    "D. Egg tarts become a free good"
+   ],
+   "answer": "A",
+   "explanation": "Flour is an input. A higher input price raises cost at every output price, so supply shifts left. The own-price of egg tarts did not change, so this is not a movement along the curve.",
+   "tags": [
+    "supply shifter",
+    "input price"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-DEMA-014",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "Which statement is correct?",
+   "options": [
+    "A. A free good has a positive opportunity cost",
+    "B. A free good has zero opportunity cost; an economic good does not",
+    "C. Any good the government provides is a free good",
+    "D. A free good is any good that is illegal to sell"
+   ],
+   "answer": "B",
+   "explanation": "Free versus economic goods is about opportunity cost, not about who hands the good over and not about legality. Government provision still uses resources.",
+   "tags": [
+    "free good",
+    "scarcity"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-011",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "Price rises from $20 to $25 and quantity demanded falls from 100 to 80. Using the original values as the base, PED equals:",
+   "options": [
+    "A. −0.8",
+    "B. −1.25",
+    "C. +0.8",
+    "D. −4"
+   ],
+   "answer": "A",
+   "explanation": "%ΔQd = −20/100 = −20%. %ΔP = 5/20 = +25%. PED = −20/25 = −0.8. Option C drops the sign. Option B inverts the ratio. Option D divides by 5 instead of by the percentage change in price.",
+   "tags": [
+    "PED",
+    "calculation"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-012",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "PED = −0.8 and the firm raises price. Total revenue will:",
+   "options": [
+    "A. Fall, because quantity demanded falls",
+    "B. Rise, because demand is price-inelastic",
+    "C. Fall to zero",
+    "D. Fall only if the good is inferior"
+   ],
+   "answer": "B",
+   "explanation": "|PED| = 0.8 < 1, so demand is inelastic. The percentage rise in price exceeds the percentage fall in quantity, and total revenue rises. Inferior goods are classified by YED, not by this revenue test.",
+   "tags": [
+    "total revenue",
+    "inelastic"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-013",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "YED = +1.5. The good is:",
+   "options": [
+    "A. Inferior",
+    "B. A luxury (a normal good with YED greater than 1)",
+    "C. A complement",
+    "D. Price-inelastic"
+   ],
+   "answer": "B",
+   "explanation": "A positive YED means a normal good. YED above 1 means a luxury. Complements are a negative XED. Price-inelastic refers to |PED| < 1.",
+   "tags": [
+    "YED",
+    "luxury"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-ELAS-014",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "The cross elasticity of demand for tea with respect to the price of coffee is +0.5. Tea and coffee are:",
+   "options": [
+    "A. Complements, because 0.5 is less than 1",
+    "B. Substitutes, because XED is positive",
+    "C. Inferior goods",
+    "D. Unrelated, because XED is not greater than 1"
+   ],
+   "answer": "B",
+   "explanation": "The sign of XED classifies the relationship: positive means substitutes, negative means complements. A value below 1 does not turn substitutes into complements.",
+   "tags": [
+    "XED",
+    "substitutes"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MINT-011",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "A factory dumps untreated wastewater as it produces more. This negative production externality means:",
+   "options": [
+    "A. Marginal social cost is above marginal private cost, and the market quantity is too high",
+    "B. Marginal social benefit is below marginal private benefit, and output is too low",
+    "C. The demand curve must be perfectly inelastic",
+    "D. The output is a public good"
+   ],
+   "answer": "A",
+   "explanation": "The external cost is on the production side, so MSC lies above MPC and the uncorrected quantity is above the social optimum. Option B describes a different gap. Rival, excludable parts are not a public good.",
+   "tags": [
+    "externality",
+    "MSC"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MINT-012",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "Which is the clearest example of a public good?",
+   "options": [
+    "A. A seat in a private tutorial",
+    "B. Street lighting on a public road",
+    "C. A bottled drink",
+    "D. A cinema ticket"
+   ],
+   "answer": "B",
+   "explanation": "Street lighting is non-rival and non-excludable. A tutorial seat, a bottle, and a cinema ticket are excludable, and the seat and the bottle are rival.",
+   "tags": [
+    "public good"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MINT-013",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "Subsidised education is often treated as a merit good. Which statement is accurate?",
+   "options": [
+    "A. It must be non-rival and non-excludable",
+    "B. It can be rival and excludable; the subsidy case rests on external benefits or information, not on the public-good test",
+    "C. A private school cannot supply it",
+    "D. It has zero opportunity cost"
+   ],
+   "answer": "B",
+   "explanation": "Merit goods and public goods are different categories. Education uses resources, so opportunity cost is positive, and private schools can supply it.",
+   "tags": [
+    "merit good"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MINT-014",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "A corrective per-unit tax on the polluting factory is intended to:",
+   "options": [
+    "A. Shift supply so the external cost is counted",
+    "B. Shift demand to the right",
+    "C. Set a maximum legal price",
+    "D. Turn the output into a free good"
+   ],
+   "answer": "A",
+   "explanation": "The tax raises the private cost toward social cost and shifts supply left. It is not a demand shift, a price ceiling, or a claim that the good is free.",
+   "tags": [
+    "corrective tax"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-PRDC-011",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "Division of labour means:",
+   "options": [
+    "A. Long-run average cost falls as the firm grows",
+    "B. Production is split into specialised tasks",
+    "C. Money replaces labour as a factor",
+    "D. The firm switches from services to farming"
+   ],
+   "answer": "B",
+   "explanation": "Division of labour is specialisation by task. Falling long-run average cost as scale grows is economies of scale, a different idea. Money is not a factor of production.",
+   "tags": [
+    "division of labour"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-PRDC-012",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "A restaurant meal cooked and served to a diner is classed as:",
+   "options": [
+    "A. Primary production, because it uses food",
+    "B. Tertiary production",
+    "C. Not production, because it is a service",
+    "D. A free good"
+   ],
+   "answer": "B",
+   "explanation": "The output sold to the diner is a service, so it is tertiary production. Growing the wheat would be primary; packing frozen dumplings in a factory would be secondary. Services are output.",
+   "tags": [
+    "tertiary production"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-PRDC-013",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "Which is a disadvantage of division of labour?",
+   "options": [
+    "A. Workers' skills become easier to transfer to every other industry",
+    "B. Workers depend more on one another, and skills become narrower",
+    "C. The law of demand is reversed",
+    "D. Fixed cost disappears"
+   ],
+   "answer": "B",
+   "explanation": "Specialisation raises dependence and can make a narrow skill hard to transfer. It does not remove fixed cost or change the law of demand.",
+   "tags": [
+    "specialisation"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-PRDC-014",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "Economies of scale differ from division of labour because economies of scale:",
+   "options": [
+    "A. Are a fall in long-run average cost as the scale of output grows",
+    "B. Can occur only in primary production",
+    "C. Mean marginal product is negative",
+    "D. Are a movement along supply caused by the good's own price"
+   ],
+   "answer": "A",
+   "explanation": "A small shop can divide tasks without growing its scale. Economies of scale refer to long-run average cost as output scale increases. They are not negative marginal product and not a price movement.",
+   "tags": [
+    "economies of scale"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MSTR-011",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "Monopolistic competition is best described as:",
+   "options": [
+    "A. One seller and no close substitutes",
+    "B. Many sellers, differentiated products, and free entry",
+    "C. A few interdependent sellers",
+    "D. Identical products and no advertising"
+   ],
+   "answer": "B",
+   "explanation": "Option A is monopoly. Option C is oligopoly. Identical products and price-taking fit perfect competition more closely than monopolistic competition.",
+   "tags": [
+    "monopolistic competition"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MSTR-012",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "In monopolistic competition, long-run economic profit tends to be:",
+   "options": [
+    "A. Supernormal, because entry is blocked",
+    "B. Normal, because entry is free",
+    "C. Always negative",
+    "D. Equal to total revenue"
+   ],
+   "answer": "B",
+   "explanation": "Short-run economic profit attracts entry, which competes long-run profit down to normal. The demand curve can still slope downward. Profit equal to total revenue would mean zero cost.",
+   "tags": [
+    "long-run profit"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MSTR-013",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "Which feature most clearly separates oligopoly from monopolistic competition?",
+   "options": [
+    "A. A few firms, each of which must consider rivals' reactions",
+    "B. Free entry and many sellers",
+    "C. A horizontal demand curve for each firm",
+    "D. A legal ban on advertising"
+   ],
+   "answer": "A",
+   "explanation": "Interdependence among a few firms is the oligopoly marker. Many sellers and free entry fit monopolistic competition. A horizontal demand curve fits a price-taking firm.",
+   "tags": [
+    "oligopoly",
+    "interdependence"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-MSTR-014",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "Excess capacity in monopolistic competition means:",
+   "options": [
+    "A. The firm is necessarily making a loss",
+    "B. Output is below the output that minimises average cost",
+    "C. The firm's demand curve is horizontal",
+    "D. Barriers block all entry"
+   ],
+   "answer": "B",
+   "explanation": "Excess capacity is about where the firm produces on its average-cost curve. It can occur while economic profit is normal. Free entry is a feature of this structure, not a barrier.",
+   "tags": [
+    "excess capacity"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-GDPA-011",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "Which change causes a movement along the aggregate demand curve, rather than a shift?",
+   "options": [
+    "A. A change in the price level",
+    "B. An increase in government spending at a given price level",
+    "C. A cut in salaries tax at a given price level",
+    "D. A rise in export orders at a given price level"
+   ],
+   "answer": "A",
+   "explanation": "The price level is the variable on the axis of the AD curve, so changing it moves the economy along AD. Spending changes at a given price level shift AD.",
+   "tags": [
+    "aggregate demand",
+    "movement"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-GDPA-012",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "Oil prices rise and aggregate demand is unchanged. In the short run:",
+   "options": [
+    "A. SRAS shifts left: the price level rises and real output falls",
+    "B. AD shifts right",
+    "C. The price level falls and real output rises",
+    "D. Only a single-good demand curve becomes steeper"
+   ],
+   "answer": "A",
+   "explanation": "A higher input cost shifts short-run aggregate supply left. That is the cost-push case: a higher price level with lower real output. It is not a shift of AD.",
+   "tags": [
+    "SRAS",
+    "cost-push"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-GDPA-013",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "A tax cut raises spending on both local meals and imported phones. The shift in aggregate demand is:",
+   "options": [
+    "A. Equal to the full rise in consumption, with no import leakage",
+    "B. Smaller than the rise in total consumption, because imports do not add to demand for domestic output",
+    "C. A movement along AD caused by the price level",
+    "D. A leftward shift of SRAS"
+   ],
+   "answer": "B",
+   "explanation": "AD includes C but subtracts M. Phones imported after the tax cut are a leakage, so demand for domestic output rises by less than total spending. The tax cut is a shift, not a movement along AD.",
+   "tags": [
+    "open economy",
+    "leakage"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-GDPA-014",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "Demand-pull inflation, in an AD–SRAS diagram, is shown by:",
+   "options": [
+    "A. AD shifting right along a given SRAS",
+    "B. SRAS shifting left",
+    "C. A fall in the price level with rising real output",
+    "D. The demand curve for one brand of noodles becoming steeper"
+   ],
+   "answer": "A",
+   "explanation": "Demand-pull is extra aggregate spending: AD shifts right and both the price level and real output rise along the existing SRAS. A leftward SRAS shift is cost-push. A single-good diagram is not the price level.",
+   "tags": [
+    "demand-pull"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-INTA-011",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "After a tariff, government revenue equals:",
+   "options": [
+    "A. The tariff per unit times domestic production",
+    "B. The tariff per unit times the quantity still imported",
+    "C. The entire loss of consumer surplus",
+    "D. The world price times exports"
+   ],
+   "answer": "B",
+   "explanation": "The tariff is collected on imports that still enter, not on output produced at home. Consumer surplus falls by more than the revenue rectangle; the difference includes deadweight loss.",
+   "tags": [
+    "tariff revenue"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-INTA-012",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "An import quota that is not auctioned, compared with a tariff that cuts imports by the same amount:",
+   "options": [
+    "A. Must raise the same government revenue",
+    "B. Can create quota rent for licence holders instead of tariff revenue for the government",
+    "C. Shifts the domestic demand curve right",
+    "D. Removes the opportunity cost of domestic production"
+   ],
+   "answer": "B",
+   "explanation": "Both policies can raise the domestic price and cut imports. A quota's price gap is rent for licence holders unless the government sells the licences. It does not shift demand or erase opportunity cost.",
+   "tags": [
+    "quota",
+    "tariff"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-INTA-013",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "A tariff raises the domestic price. Who loses on the units they still buy?",
+   "options": [
+    "A. Domestic producers, who sell less",
+    "B. Consumers",
+    "C. The government, which receives no revenue on imports",
+    "D. Nobody, because the world price is unchanged"
+   ],
+   "answer": "B",
+   "explanation": "Consumers pay the higher domestic price on every unit they still buy, including local output. Domestic producers gain from the higher price. The government collects revenue on remaining imports.",
+   "tags": [
+    "consumers",
+    "tariff"
+   ],
+   "subject": "econ"
+  },
+  {
+   "id": "ECON-INTA-014",
+   "topic": "international-trade",
+   "difficulty": "medium",
+   "question": "Which statement is accurate?",
+   "options": [
+    "A. A tariff rewrites opportunity-cost ratios, so comparative advantage disappears",
+    "B. A tariff changes domestic prices and quantities; it does not itself create comparative advantage",
+    "C. A tariff and a free good are the same policy",
+    "D. A tariff is a shift of the demand curve for every non-traded service"
+   ],
+   "answer": "B",
+   "explanation": "Comparative advantage is about opportunity cost. A tariff drives a wedge between the world price and the domestic price. It does not make the protected good a free good, and it is not a demand shift for unrelated services.",
+   "tags": [
+    "comparative advantage",
+    "protection"
+   ],
+   "subject": "econ"
   }
  ]
 }

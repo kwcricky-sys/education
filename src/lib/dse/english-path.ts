@@ -49,15 +49,15 @@ export type Unit = {
 
 export const ENGLISH_UNITS: Unit[] = [
   { id: 1, title: "卷一閱讀：拆題與定位", label: "Reading 1 — locating answers", topicKey: "reading-locating", prerequisites: [], lessonIds: ["L1.1", "L1.2", "L1.3"], passThreshold: 7 },
-  { id: 2, title: "卷一閱讀：推論、語氣與詞彙", label: "Reading 2 — inference & tone", topicKey: "reading-inference", prerequisites: [1], lessonIds: ["L2.1", "L2.2", "L2.3"], passThreshold: 7 },
-  { id: 3, title: "卷二寫作：格式與組織", label: "Writing 1 — formats", topicKey: "writing-formats", prerequisites: [], lessonIds: ["L3.1", "L3.2"], passThreshold: 7 },
+  { id: 2, title: "卷一閱讀：推論、語氣與詞彙", label: "Reading 2 — inference & tone", topicKey: "reading-inference", prerequisites: [1], lessonIds: ["L2.1", "L2.2", "L2.3", "L2.4"], passThreshold: 7 },
+  { id: 3, title: "卷二寫作：格式與組織", label: "Writing 1 — formats", topicKey: "writing-formats", prerequisites: [], lessonIds: ["L3.1", "L3.2", "L3.3"], passThreshold: 7 },
   { id: 4, title: "卷二寫作：論證與語言", label: "Writing 2 — argument & language", topicKey: "writing-argument", prerequisites: [3], lessonIds: ["L4.1", "L4.2", "L4.3"], passThreshold: 7 },
-  { id: 5, title: "卷三聆聽及綜合：筆記與任務", label: "Listening & Integrated Skills", topicKey: "listening-integrated", prerequisites: [], lessonIds: ["L5.1", "L5.2"], passThreshold: 7 },
-  { id: 6, title: "卷四說話：小組討論與個人回應", label: "Speaking — group & individual", topicKey: "speaking", prerequisites: [], lessonIds: ["L6.1", "L6.2"], passThreshold: 7 },
-  { id: 7, title: "語法核心（一）：時態、語態與條件句", label: "Grammar core 1", topicKey: "grammar-core-1", prerequisites: [], lessonIds: ["L7.1", "L7.2"], passThreshold: 7 },
+  { id: 5, title: "卷三聆聽及綜合：筆記與任務", label: "Listening & Integrated Skills", topicKey: "listening-integrated", prerequisites: [], lessonIds: ["L5.1", "L5.2", "L5.3"], passThreshold: 7 },
+  { id: 6, title: "卷四說話：小組討論與個人回應", label: "Speaking — group & individual", topicKey: "speaking", prerequisites: [], lessonIds: ["L6.1", "L6.2", "L6.3"], passThreshold: 7 },
+  { id: 7, title: "語法核心（一）：時態、語態與條件句", label: "Grammar core 1", topicKey: "grammar-core-1", prerequisites: [], lessonIds: ["L7.1", "L7.2", "L7.3"], passThreshold: 7 },
   { id: 8, title: "語法核心（二）：句式與高頻錯誤", label: "Grammar core 2", topicKey: "grammar-core-2", prerequisites: [7], lessonIds: ["L8.1", "L8.2", "L8.3"], passThreshold: 7 },
-  { id: 9, title: "詞彙與主題詞庫", label: "Vocabulary & collocation", topicKey: "vocabulary", prerequisites: [], lessonIds: ["L9.1", "L9.2"], passThreshold: 7 },
-  { id: 10, title: "應試流程：由模擬考到考場", label: "Exam workflow", topicKey: "exam-workflow", prerequisites: [], lessonIds: ["L10.1", "L10.2"], passThreshold: 7 },
+  { id: 9, title: "詞彙與主題詞庫", label: "Vocabulary & collocation", topicKey: "vocabulary", prerequisites: [], lessonIds: ["L9.1", "L9.2", "L9.3"], passThreshold: 7 },
+  { id: 10, title: "應試流程：由模擬考到考場", label: "Exam workflow", topicKey: "exam-workflow", prerequisites: [], lessonIds: ["L10.1", "L10.2", "L10.3"], passThreshold: 7 },
 ];
 
 /**

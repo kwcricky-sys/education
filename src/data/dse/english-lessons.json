@@ -818,5 +818,251 @@
   "practice": "exam-workflow",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "L2.4": {
+  "id": "L2.4",
+  "title": "True / False / Not Given 與指代題",
+  "concept": "True / False / Not Given 是卷一最容易「感覺啱但冇分」的題型。判斷只可以用文章，唔可以用常識補完。True：文章有講，即使用了同義改寫，意思都同陳述一致。False：文章講的是相反，或者陳述同原文矛盾。Not Given：文章冇足夠資料去確認或否定。最常見的夸大是把 some 寫成 all：原文只講部分人，陳述就寫全部人。如果文章冇講其餘的人做過什麼，這句通常是 Not Given，而唔係 True；只有文章明確否定「全部」，或者給出反例，先至是 False。指代題問 this、that、it、they、these 指什麼。先看代詞是單數還是複數，再往前找最近一個意思接得上的名詞或整句。唔好自動揀最近的一個字；單複數唔配，或者那個字其實是結果而唔係被指的動作，就要再往前一句。",
+  "example": {
+   "scenario": "文章：「Some volunteers stayed after the concert to stack chairs. This reduced the caretakers' workload.」陳述一：「Every volunteer stayed to stack chairs.」陳述二：「Stacking chairs reduced the caretakers' workload.」題目再問 This 指什麼。",
+   "walkthrough": "陳述一是 Not Given。some 證明唔到 every，文章亦冇講其餘義工離開，所以唔可以當 False。陳述二是 True：This reduced the caretakers' workload 已經寫明結果，stack chairs 同 reduced the workload 是同義改寫。This 是單數，指前句整件事——義工留下來疊椅子——而唔係 the concert，亦唔係 workload 本身（那是結果）。如果答案只寫 chairs，就漏了「留下來疊」這個動作。"
+  },
+  "traps": [
+   "用常識把文章冇講的感受或原因填成 True：文章冇寫，就是 Not Given。",
+   "見到 some 就當 all：範圍被夸大，除非文章另有支持，否則唔係 True。",
+   "把「文章冇講」全部當成 False：False 必須是文章講了相反的意思。",
+   "指代題只圈最近的名詞：要核對單複數，並分辨「被指的動作」同「其結果」。",
+   "同義改寫當成 Not Given：意思一致就可以是 True，唔使逐個字相同。"
+  ],
+  "terms": [
+   {
+    "term": "True",
+    "definition": "陳述與文章意思一致，包括同義改寫；唔可以使用文章以外的知識。"
+   },
+   {
+    "term": "False",
+    "definition": "文章明確講了與陳述相反的意思，或者陳述與原文矛盾。"
+   },
+   {
+    "term": "Not Given",
+    "definition": "文章不足以確認或否定陳述。沉默唔等於否定。"
+   },
+   {
+    "term": "Reference word",
+    "definition": "this、it、they 等代詞，要按單複數回前句找出被指的人或事。"
+   }
+  ],
+  "unit": 2,
+  "practice": "reading-inference",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.3": {
+  "id": "L3.3",
+  "title": "文體格式：信、電郵、文章、報告、演講、建議書",
+  "concept": "卷二 Part B 要你四選一（由 2024 年考試起，題數由八題減至四題；更早的 Past Paper 仍是八題）。文體錯會影響 appropriacy，但題目寫明的格式永遠優先於模板。正式書信：知道姓名用 Dear Ms Chan，結尾 Yours sincerely；唔知道姓名用 Dear Sir or Madam，結尾 Yours faithfully。第一段寫目的，中段逐項回應，結尾一句請求或致謝，然後署名。電郵結構相近，若題目要求主旨就加一行 Subject。文章（article）要有標題，唔加 Dear，可以用一條問題開頭。報告（report）先寫發現（findings），再寫建議（recommendations），少用 I feel。演講（speech）先稱呼聽眾，用 Firstly 同 To sum up 帶路，結尾多謝。建議書（proposal）要有問題、做法、好處，以及需要對方提供什麼。比重、題數與格式要求以該年考評局評核大綱及試卷說明為準。",
+  "example": {
+   "scenario": "題目：Write a proposal to the principal suggesting a plastic-free week. 同學用了 Dear Principal 同 Yours sincerely，但通篇只講「塑膠不好」，冇寫學校要做什麼。",
+   "walkthrough": "對校長用正式書信語氣可以接受，但如果題目指定 proposal，內容就必須像建議書：問題（校內一次過餐具太多）、做法（飯堂改為可重用餐具一星期）、好處（減少垃圾同開支）、需要校長批准的項目（預算同通知家長）。只寫立場會被當成未完成任務。署名同稱呼可以保留，因為讀者是校長；唔好再加一篇文章才會用的口號標題，除非題目同時要求。寫完用題目的動詞核對一次：suggest、explain、request 有冇各自對應一句。"
+  },
+  "traps": [
+   "文章加 Dear 同 Yours sincerely：題目說 article 就唔好寫成信。",
+   "Yours sincerely 同 Yours faithfully 對調：知道姓名先用 sincerely。",
+   "報告只寫感受、冇 findings：報告要先交代資料，再給建議。",
+   "建議書只講好處，冇寫需要對方批准什麼：任務通常因此未完成。",
+   "用舊年「八選一」的習慣漏看題目：2024 年起 Part B 是四選一，仍以該年試卷為準。"
+  ],
+  "terms": [
+   {
+    "term": "Yours faithfully",
+    "definition": "收信人姓名不詳時的正式結尾，配 Dear Sir or Madam。"
+   },
+   {
+    "term": "Yours sincerely",
+    "definition": "知道收信人姓名時的正式結尾。"
+   },
+   {
+    "term": "Findings",
+    "definition": "報告中先列出的發現或資料，放在建議之前。"
+   },
+   {
+    "term": "Proposal",
+    "definition": "建議書，要寫問題、做法、好處，以及需要對方做的決定。"
+   }
+  ],
+  "unit": 3,
+  "practice": "writing-formats",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.3": {
+  "id": "L5.3",
+  "title": "資料取捨，以及卷三 B1／B2",
+  "concept": "卷三 Part B 要你從 Data File 同錄音揀資料，而唔係把所有句子搬進去。先用任務的項目做清單，每項只留能回答該項的內容。重複、已被取代（錄音出現 instead、updated、no longer）同與讀者無關的背景，都要放棄。數字要連單位一齊改寫。語氣跟任務走：寫給校長用正式，寫給同學可以半正式，但唔好寫到 gonna。選 B1 還是 B2 要在開卷決定。按近年公開的英文科評核大綱，卷三只做較易的 B1 時，該卷最高等級是 Level 4；要全級距就要做 B2。比重與封頂規則或會修訂，以考評局該年評核大綱為準。聽完之後唔好逐頁重讀，先填完所有必填項，再潤色語言。實用的放棄清單有四項：同一事實出現兩次，只留最新的一次；與題目要求對不上的背景；你自己添的原因或感受；以及轉折詞前面那個已被推翻的選項。每一項先用自己的句子起頭，再放入數字，語言分先有機會，內容亦唔會漏。",
+  "example": {
+   "scenario": "任務要你寫場地同費用。Data File：「Venue: School Hall. Fee: $120 per student.」錄音：「The hall is unavailable, so the workshop will be in the gym instead. The fee is unchanged.」",
+   "walkthrough": "場地必須寫 gym。School Hall 是被 instead 推翻的干擾項，兩處都寫會變成自相矛盾。費用寫 $120 per student，唔好只寫 120，因為單位同「每位學生」都是資料的一部分。fee is unchanged 表示唔使改數字，但要改寫成自己的句子，例如 Each student pays $120。如果任務還要求一項建議，而兩份資料都冇建議，就唔好自己發明一個與主題無關的活動；只寫資料足以支持的一句，例如提醒參加者場地已改為體育館。"
+  },
+  "traps": [
+   "Data File 同錄音矛盾時兩份都抄：被 instead 或 updated 取代的資料要放棄。",
+   "只抄數字、漏單位：120 同 $120 per student 唔係同一句完整答案。",
+   "把無關背景段全部改寫進答案：清單以外的句子通常是干擾。",
+   "忽略錄音、只信較長的 Data File：變更多數藏在錄音。",
+   "以為卷三 B1 也可以取最高等級：按近年評核大綱，B1 的最高等級是 Level 4，以該年文件為準。"
+  ],
+  "terms": [
+   {
+    "term": "Selective use",
+    "definition": "按任務項目取資料，放棄重複、過時或無關的句子。"
+   },
+   {
+    "term": "Superseded detail",
+    "definition": "被 instead、updated、no longer 取代的舊資料，不可當最終答案。"
+   },
+   {
+    "term": "B1 cap",
+    "definition": "按近年英文科評核大綱，卷三只做 B1 時該卷最高等級為 Level 4。"
+   }
+  ],
+  "unit": 5,
+  "practice": "listening-integrated",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.3": {
+  "id": "L6.3",
+  "title": "互動句：同意、保留、反對、澄清、交波",
+  "concept": "卷四小組討論的語言分，好大程度來自你有冇接住別人。背一篇獨白幫唔到手。準備六句可以即場換內容的句型。同意並加料：I agree with what you said about X, and I'd add that…。部分同意：I agree up to a point, but…。客氣反對：I'm not so sure, because…。澄清：Do you mean that…? 或者 Sorry, could you say that another way? 交波：What do you think, Jamie? 或者 We haven't heard from you yet. 自己講不清：Let me put that another way. 個人回應面對考官時，可以用 Firstly、Secondly、Although，但唔好用交波句。呢啲句子本身唔會自動加分，後面一定要有一個新理由或例子。評分項目以該年考評局說話卷的評核說明為準。",
+  "example": {
+   "scenario": "組員說：「The camp is too expensive.」之後沒有人接話。",
+   "walkthrough": "可以這樣接：「I agree up to a point — the fee is high. I'd add that we could share the cost of the coach, which brings it down. What do you think, Jamie?」第一句承接費用，第二句加一個新做法，第三句把沉默的組員拉進來。唔好只重複 The camp is too expensive，亦唔好講 You're wrong。如果你其實想支持收費，可以說 I'm not so sure, because the fee includes meals and insurance，然後舉一個比較。個人回應環節就改為直接答考官：I would still join, firstly because…，唔好問考官 What do you think。"
+  },
+  "traps": [
+   "只重複前一位的原句：冇新理由，互動是空轉。",
+   "用 You're wrong 或 Whatever 反對：語氣破壞討論，亦冇解釋。",
+   "自己講完八分鐘、唔交波：其他組員沉默會拉低整組互動。",
+   "對考官說 We haven't heard from you yet：交波句只用於小組討論。",
+   "句型後面冇內容：I agree 之後必須加一個新觀點或例子。"
+  ],
+  "terms": [
+   {
+    "term": "Partial agreement",
+    "definition": "I agree up to a point, but…，先承接再轉折。"
+   },
+   {
+    "term": "Polite disagreement",
+    "definition": "I'm not so sure, because…，用理由反對而唔係責備。"
+   },
+   {
+    "term": "Turn-taking prompt",
+    "definition": "What do you think, Jamie? 用來邀請未發言的組員。"
+   }
+  ],
+  "unit": 6,
+  "practice": "speaking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.3": {
+  "id": "L7.3",
+  "title": "間接引語：時態點樣後移",
+  "concept": "卷二敘事同卷三綜合寫作經常要把別人的話改成間接引語。如果引述動詞是過去式（said、told、asked），後面的時態通常後移一格：現在式變過去式，現在完成式變過去完成式，will 變 would，can 變 could，may 變 might。must 表示「必須」時，多數改成 had to。如果引述動詞是現在式（says），就唔使後移。代詞同時間詞一齊改：I 變 he 或 she，today 變 that day，tomorrow 變 the next day，yesterday 變 the day before，here 變 there。疑問句要改成陳述語序：She asked where the file was，唔係 where was the file。祈使句用 told 或 asked 加受詞再加 to-infinitive：He told us to bring a hat。",
+  "example": {
+   "scenario": "錄音原句是老師昨日說的：\"We will start the workshop tomorrow. Where is the gym? Bring a hat.\" 你要寫進報告。",
+   "walkthrough": "三句分開轉述。「We will start the workshop tomorrow」→ The teacher said they would start the workshop the next day。will 後移為 would，tomorrow 改為 the next day，we 改為 they。「Where is the gym?」→ She asked where the gym was。唔可以保留疑問語序，亦唔好再加 that where。「Bring a hat」→ She told them to bring a hat。如果引述動詞誤寫成 says，後移就會錯；報告寫的是昨日的話，要用 said 或 told。"
+  },
+  "traps": [
+   "said 後面仍用 will 或現在式：過去式引述動詞通常要後移。",
+   "says 後面無故後移：現在式引述動詞保持原來時態。",
+   "疑問句保留倒裝：asked where was the gym 要改成 asked where the gym was。",
+   "時間詞唔改：tomorrow 在轉述後多數是 the next day。",
+   "祈使句寫成 She said bring a hat：要用 told／asked someone to + 原形。"
+  ],
+  "terms": [
+   {
+    "term": "Backshift",
+    "definition": "引述動詞為過去式時，被轉述的時態往過去移一格。"
+   },
+   {
+    "term": "Reporting verb",
+    "definition": "said、told、asked、says。只有過去式才通常觸發後移。"
+   },
+   {
+    "term": "Statement order",
+    "definition": "轉述疑問句時用陳述語序，唔保留 where was。"
+   }
+  ],
+  "unit": 7,
+  "practice": "grammar-core-1",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.3": {
+  "id": "L9.3",
+  "title": "詞性轉換：空格要名詞、形容詞還是副詞",
+  "concept": "卷一填空同卷二用詞，經常考的唔係一個全新的字，而係同一個詞族的形態。先看空格的語法位置。前面有 the、a 或形容詞，後面接到 of，多數要名詞：decide 變 decision，succeed 變 success。名詞前面要形容詞：success 變 successful。動詞或形容詞後面修飾方式，多數要副詞：successful 變 successfully。economy 要分 economic（與經濟有關）同 economical（慳儉、划算），兩個都是形容詞，意思唔同。常見後綴：-tion／-sion、-ness、-ment 變名詞；-able、-ive、-ful 變形容詞；-ly 多數變副詞。前綴 un-、in-／im-、mis-、over- 會改意思，但唔係每個詞都可以亂加：polite 的反義是 impolite，而唔係 unpolite。唔肯定詞形時，用你肯定的簡單字，好過造一個唔存在的形態。",
+  "example": {
+   "scenario": "兩句填空：「The ___ of the plan depends on funding.」「She completed the work ___.」詞根都是 succeed／success。",
+   "walkthrough": "第一句 The 後面、of 前面，需要名詞，所以是 success：The success of the plan depends on funding。第二句修飾動詞 completed，需要副詞 successfully。如果写成 successful，就是用形容詞修飾動詞。另一組容易混：an economic decision 是與經濟有關的決定；an economical decision 是慳錢的決定。寫作時亦一樣：唔好寫 The succeed of the campaign。先決定詞性，再揀形態。"
+  },
+  "traps": [
+   "The 同 of 之間填動詞：這個位置多數是名詞。",
+   "用形容詞修飾動詞：completed successful 應為 completed successfully。",
+   "economic 同 economical 當同義詞：前者關於經濟，後者關於慳儉。",
+   "自行加 un- 造反義：polite 的反義是 impolite，唔係 unpolite。",
+   "為了詞形變化而用一個你唔會用的難字：唔肯定就改用簡單而正確的詞。"
+  ],
+  "terms": [
+   {
+    "term": "Word family",
+    "definition": "同一詞根的不同詞性，例如 succeed、success、successful、successfully。"
+   },
+   {
+    "term": "Economic",
+    "definition": "與經濟、經濟體系有關的形容詞。"
+   },
+   {
+    "term": "Economical",
+    "definition": "慳儉、划算的形容詞，唔等於 economic。"
+   }
+  ],
+  "unit": 9,
+  "practice": "vocabulary",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.3": {
+  "id": "L10.3",
+  "title": "錯題只改三類：由錯句到下一份卷",
+  "concept": "做完一份卷，唔好即刻開新卷。用三欄紀錄：錯因、原句、改句。錯因只用你已經識的標籤，例如時態、語域、離題、定位、抄 Data File、互動不足。同一標籤出現兩次或以上，先算一個模式；只出現一次的錯先記下，唔好當主攻。下一星期最多改三個模式，每個模式寫大約五句自己的改寫，而唔係把評卷參考背下來。考下一份限時卷之前，把這三個模式寫在紙頭，做完核對有冇再犯。如果三個都冇再出現，先換下一批。四卷的錯要分開記：卷三整句照抄，唔可以用卷二的條件句練習去代替。紙頭可以只有三行，例如：語域｜I very like this plan｜I am strongly in favour of this plan。下一份卷只核對這三行有沒有再出現，唔好同時翻查所有舊錯。如果時間不夠，先保留錯因標籤，改句留到當天晚上寫。這個循環係溫習方法，唔係成績預測；評分仍以該年考評局的評核為準。",
+  "example": {
+   "scenario": "你的錯題紙有八道題：六道是「正式信混入口語」，一道是拼錯一個專有名詞，一道是閱讀題搵錯段落。",
+   "walkthrough": "模式只有一個：語域。專有名詞同搵錯段落各一次，先留在紙上，唔好同時開三條戰線。下一星期寫五句「學生會主席寫給校長」的正式句，把 gonna、super、I very like 改掉。下一份卷二限時練習之前只看這五句。如果正式語氣的錯誤冇再出現，先把「搵錯段落」連同之後重複的定位錯合成下一個模式。唔好因為一道拼字錯就重抄完整份 marking scheme。"
+  },
+  "traps": [
+   "一題錯一次就當成主要弱點：模式要重複出現。",
+   "一次過改十種錯：注意力分散，下一份卷睇唔出有冇改善。",
+   "用另一卷的練習去對治這一卷的錯：照抄 Data File 要做改寫，唔係做條件句。",
+   "三個模式已經消失仍只練同一批：應換下一批重複的錯因。",
+   "只記分數、唔記原句同改句：沒有改句就無法在下一份卷核對。"
+  ],
+  "terms": [
+   {
+    "term": "Error pattern",
+    "definition": "同一錯因至少出現兩次，先值得成為一星期的練習目標。"
+   },
+   {
+    "term": "Rewrite set",
+    "definition": "針對一個模式寫的幾句改寫，用來帶到下一份限時卷。"
+   },
+   {
+    "term": "Paper-specific log",
+    "definition": "四卷分開記錯，因為失分方式並不相同。"
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-workflow",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }
