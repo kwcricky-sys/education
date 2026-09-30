@@ -781,11 +781,11 @@
   "concept": "Commercial banks create money through credit creation. When a bank receives a deposit, it keeps a fraction as reserves (to meet withdrawals) and lends out the rest. The loan becomes a new deposit in the banking system, which can be relent, creating more deposits. This process expands the money supply beyond the initial monetary base. The simple money multiplier = 1 / required reserve ratio (rrr). If rrr = 10%, an initial deposit of $1,000 can support up to $10,000 in total deposits ($1,000 / 0.1). In reality, the actual multiplier is smaller because: (1) banks may hold excess reserves above the required ratio, (2) the public may hold currency rather than redepositing all loan proceeds (currency drain), and (3) some funds may leak into non-bank financial institutions. The HKMA sets the required reserve ratio for licensed banks (currently 0% for HKD, but banks hold voluntary reserves for liquidity) and operates the Discount Window and Liquidity Facility. The monetary base (currency + reserves) is controlled by the HKMA through Exchange Fund operations. Total money supply = monetary base × actual money multiplier. Credit creation is constrained by capital adequacy requirements (Basel III), liquidity coverage ratios, and the demand for loans. Banks cannot lend without limit — they need creditworthy borrowers and must manage risk. The process is symmetric: loan repayment destroys deposits and contracts money supply.",
   "example": {
    "scenario": "A Hong Kong SME deposits $1 million at Bank of East Asia; the bank lends $900,000 to a retailer who pays a supplier, who deposits at Hang Seng Bank, which lends $810,000, and so on.",
-   "walkthrough": "Assume a 10% reserve ratio for illustration. The SME's $1M deposit creates $1M in new reserves. BoEA keeps $100k as required reserves, lends $900k. The retailer pays the supplier, who deposits $900k at Hang Seng. Hang Seng keeps $90k reserves, lends $810k. This continues: each round creates a smaller loan and deposit. The theoretical maximum total deposits = $1M × (1/0.1) = $10M. In practice, if banks hold 5% excess reserves and the public holds 15% of loans as currency, the actual multiplier falls to 1 / (0.1 + 0.05 + 0.15) = 4, so total deposits reach only $4M. The HKMA monitors this via M2/M3 statistics and adjusts the monetary base through Exchange Fund operations to meet its monetary policy objectives."
+   "walkthrough": "Assume a 10% reserve ratio for illustration. The SME's $1M deposit creates $1M in new reserves. BoEA keeps $100k as required reserves, lends $900k. The retailer pays the supplier, who deposits $900k at Hang Seng. Hang Seng keeps $90k reserves, lends $810k. This continues: each round creates a smaller loan and deposit. The theoretical maximum total deposits = $1M × (1/0.1) = $10M. In practice, if banks hold 5% excess reserves and the public holds 15% of loans as currency, the actual multiplier falls to 1 / (0.1 + 0.05 + 0.15) = 1 / 0.3 ≈ 3.33, so total deposits reach only about $3.33M. The HKMA monitors this via M2/M3 statistics and adjusts the monetary base through Exchange Fund operations to meet its monetary policy objectives."
   },
   "traps": [
    "Students think the money multiplier is a policy tool the central bank sets directly; it is an outcome of behaviour (reserve ratio, currency drain, excess reserves), not a lever.",
-   "Students assume banks lend out reserves; banks create deposits when they lend, and reserves are used for interbank settlement, not lent to customers.",
+   "Students treat the whole new deposit as loanable, or they call the simple maximum the amount of new loans rather than total deposits. Only the excess over required reserves is lent. Ignoring a cash drain or excess reserves also overstates the multiplier, which is then smaller than 1/rrr.",
    "Students confuse the required reserve ratio with the capital adequacy ratio; the former is a liquidity rule (fraction of deposits held as reserves), the latter is a solvency rule (capital as a fraction of risk-weighted assets).",
    "Students treat credit creation as unlimited; it is constrained by borrower demand, bank capital, regulatory ratios, and the central bank's monetary base."
   ],
@@ -823,10 +823,10 @@
  "L9.1": {
   "id": "L9.1",
   "title": "Fiscal Policy: Government Spending, Taxation & Budget",
-  "concept": "Fiscal policy is the use of government spending and taxation to influence aggregate demand, output and employment. Government expenditure (G) is a direct component of aggregate demand (AD = C + I + G + X - M). When the government increases spending on infrastructure, education, healthcare or transfer payments, it injects demand directly into the economy. Taxation affects disposable income (Yd = Y - T), which influences consumption (C) and saving. A cut in salaries tax or profits tax raises disposable income, encouraging households to spend more and firms to invest more. The government budget records revenues (mainly tax) and expenditures. A budget surplus occurs when revenue exceeds expenditure; a deficit when expenditure exceeds revenue; a balanced budget when they are equal. Deficits are financed by borrowing (issuing bonds), which increases public debt. Expansionary fiscal policy (raise G, cut T) fights recession; contractionary fiscal policy (cut G, raise T) cools overheating. Automatic stabilisers — progressive tax and unemployment benefits — work without new legislation: in a boom, tax revenue rises and benefits fall, dampening demand; in a slump, the reverse happens. The multiplier effect means an initial change in G or T leads to a larger final change in GDP: multiplier = 1 / (1 - MPC) for a simple closed economy. In an open economy with imports and taxes, the multiplier is smaller: 1 / (1 - MPC + MPM + MPT). Time lags (recognition, implementation, impact) and crowding out (government borrowing raising interest rates and reducing private investment) limit effectiveness. The composition of spending matters: capital expenditure (infrastructure) raises long-run productive capacity, while current expenditure (wages, transfers) mainly affects short-run demand. Ricardian equivalence suggests rational households may save tax cuts to pay for future taxes, weakening the multiplier. In Hong Kong, the fiscal reserves act as a buffer, allowing counter-cyclical spending without immediate borrowing.",
+  "concept": "Fiscal policy is the use of government spending and taxation to influence aggregate demand, output and employment. Government expenditure (G) is a direct component of aggregate demand (AD = C + I + G + X - M). When the government buys infrastructure, education, or healthcare, that spending is G and injects demand directly. A transfer payment, such as a cash handout or an unemployment benefit, is not G: it raises disposable income, and any extra demand comes through consumption (C). Taxation affects disposable income (Yd = Y - T), which influences consumption (C) and saving. A cut in salaries tax or profits tax raises disposable income, encouraging households to spend more and firms to invest more. The government budget records revenues (mainly tax) and expenditures. A budget surplus occurs when revenue exceeds expenditure; a deficit when expenditure exceeds revenue; a balanced budget when they are equal. Deficits are financed by borrowing (issuing bonds), which increases public debt. Expansionary fiscal policy (raise G, cut T) fights recession; contractionary fiscal policy (cut G, raise T) cools overheating. Automatic stabilisers — progressive tax and unemployment benefits — work without new legislation: in a boom, tax revenue rises and benefits fall, dampening demand; in a slump, the reverse happens. The multiplier effect means an initial change in G or T leads to a larger final change in GDP: multiplier = 1 / (1 - MPC) for a simple closed economy. In an open economy with imports and taxes, the multiplier is smaller: 1 / (1 - MPC + MPM + MPT). Time lags (recognition, implementation, impact) and crowding out (government borrowing raising interest rates and reducing private investment) limit effectiveness. The composition of spending matters: capital expenditure (infrastructure) raises long-run productive capacity, while government purchases of current goods and services mainly affect short-run demand. Transfers affect short-run demand only by changing disposable income and consumption; they are not G. Ricardian equivalence suggests rational households may save tax cuts to pay for future taxes, weakening the multiplier. In Hong Kong, the fiscal reserves act as a buffer, allowing counter-cyclical spending without immediate borrowing.",
   "example": {
    "scenario": "The Hong Kong SAR Government announces a HK$10,000 cash handout to permanent residents and increases public housing expenditure in the Budget to support the economy during a global downturn.",
-   "walkthrough": "Step 1: Identify the policy tools — cash handout is a transfer payment (raises disposable income), housing spending is government expenditure (direct AD injection). Step 2: Trace the initial impact — residents receive HK$10,000; with an MPC of 0.7, each spends HK$7,000 and saves HK$3,000. Step 3: Apply the multiplier — the HK$7,000 spending becomes someone else's income, who spends 0.7 × HK$7,000 = HK$4,900, and so on. Total GDP increase = HK$7,000 / (1 - 0.7) ≈ HK$23,333 per recipient. Step 4: Housing spending directly creates construction jobs and demand for materials; workers then spend wages, generating further rounds. Step 5: Assess budget impact — if the handout and housing cost HK$50 billion total and tax revenue is unchanged, the budget moves from surplus to deficit, financed by issuing Exchange Fund Bills. Step 6: Consider limitations — if the economy is near full capacity, the extra demand may raise rents and wages rather than output; if residents save most of the handout due to uncertainty, the multiplier is smaller."
+   "walkthrough": "Step 1: Identify the policy tools — cash handout is a transfer payment (raises disposable income), housing spending is government expenditure (direct AD injection). Step 2: Trace the initial impact — residents receive HK$10,000; with an MPC of 0.7, each spends HK$7,000 and saves HK$3,000. Step 3: Apply the multiplier — the HK$7,000 spending becomes someone else's income, who spends 0.7 × HK$7,000 = HK$4,900, and so on. Total GDP increase = HK$7,000 / (1 - 0.7) ≈ HK$23,333 per recipient. Step 4: Housing spending directly creates construction jobs and demand for materials; workers then spend wages, generating further rounds. Step 5: Assess budget impact — if the handout and housing cost HK$50 billion total and tax revenue is unchanged, the budget moves from surplus to deficit. Hong Kong would finance that gap by drawing on fiscal reserves or by issuing government bonds. Exchange Fund Bills are an HKMA monetary instrument, not the way the fiscal deficit is financed. Step 6: Consider limitations — if the economy is near full capacity, the extra demand may raise rents and wages rather than output; if residents save most of the handout due to uncertainty, the multiplier is smaller."
   },
   "traps": [
    "Students confuse fiscal policy with monetary policy: fiscal is government spending and taxation; monetary is interest rates and money supply controlled by the central bank.",
@@ -841,7 +841,7 @@
    },
    {
     "term": "Government expenditure (G)",
-    "definition": "Spending by the government on goods, services and transfer payments; a component of aggregate demand."
+    "definition": "Government purchases of currently produced goods and services; a component of aggregate demand. Transfer payments are not included in G; they change disposable income and therefore consumption."
    },
    {
     "term": "Taxation (T)",
@@ -1283,6 +1283,254 @@
   ],
   "unit": 10,
   "practice": "international-trade",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.3": {
+  "id": "L7.3",
+  "title": "Costs of Inflation and Deflation",
+  "concept": "Inflation is costly even when the CPI rise is moderate, and the costs depend on whether the rise was expected. Unanticipated inflation redistributes real income. Borrowers gain and lenders lose if the loan's nominal interest rate was fixed before prices rose, and people on fixed nominal incomes lose purchasing power. Once inflation is anticipated, contracts can build in a higher nominal interest rate, so that redistribution is smaller. The real interest rate is approximately the nominal rate minus expected inflation. Anticipated inflation still has costs. Menu costs are the real resources used to change listed prices. Shoe-leather costs are the time and effort spent economising on money balances because money loses purchasing power. Uncertainty about future prices makes long-term contracts and investment harder to plan. In Hong Kong, a rise in local costs while the exchange rate is held inside the currency-board band can also weaken price competitiveness against economies whose costs rise more slowly, because the Hong Kong dollar does not float freely to offset that gap. Deflation, a sustained fall in the general price level, is not a free gain. It raises the real burden of fixed nominal debts, can delay spending if people expect further price falls, and can raise real wages if nominal wages are sticky. A one-off change in a single price is still not inflation or deflation. These notes follow the usual HKDSE treatment; the curriculum guide sets what a question can require.",
+  "example": {
+   "scenario": "A Hong Kong household borrowed $2,000,000 at a fixed mortgage rate of 3% before an unexpected year in which the CPI rose by 6%. A restaurant on the same estate reprinted its price list four times. A saver who had expected the 6% rise negotiated a higher deposit rate.",
+   "walkthrough": "The mortgage repayment is fixed in dollars, so the 6% rise in the price level cuts the real burden of the debt. The household gains and the lender loses because the inflation was not built into the 3% rate. The real interest rate on that loan is about 3% minus 6%, which is negative. The restaurant's reprinting is a menu cost: real resources used to change listed prices. If customers make extra trips to the bank to keep less cash, that time is a shoe-leather cost. The saver who expected 6% inflation and obtained a higher nominal deposit rate has protected the expected real return. That is anticipated inflation, not a gift to the borrower. None of these effects is a change in the linked rate. The currency board still holds the Hong Kong dollar inside the convertibility zone."
+  },
+  "traps": [
+   "Treating every cost of inflation as a redistribution. Menu costs, shoe-leather costs, and planning uncertainty remain even when inflation is anticipated.",
+   "Saying the real interest rate equals the nominal rate. Approximately, real rate = nominal rate minus expected inflation.",
+   "Calling a fall in one good's price deflation. Deflation is a sustained fall in the general price level.",
+   "Claiming deflation always helps debtors. A fixed nominal debt becomes heavier in real terms when the price level falls.",
+   "Using the linked exchange rate as if a rise in Hong Kong costs were automatically offset by a floating HKD. Under the currency board the rate stays inside the band."
+  ],
+  "terms": [
+   {
+    "term": "Unanticipated inflation",
+    "definition": "A rise in the price level that was not expected when nominal contracts were set, so it redistributes real income."
+   },
+   {
+    "term": "Anticipated inflation",
+    "definition": "A rise in the price level that people expected, so nominal interest rates and other contracts can adjust in advance."
+   },
+   {
+    "term": "Real interest rate",
+    "definition": "Approximately the nominal interest rate minus the expected inflation rate. It measures the expected change in purchasing power."
+   },
+   {
+    "term": "Menu cost",
+    "definition": "The real cost of changing listed prices when the price level is changing."
+   },
+   {
+    "term": "Deflation",
+    "definition": "A sustained fall in the general price level. It raises the real burden of fixed nominal debts."
+   }
+  ],
+  "unit": 7,
+  "practice": "inflation-unemployment",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.4": {
+  "id": "L7.4",
+  "title": "Natural Rate, the Phillips Curve, and Measurement Pitfalls",
+  "concept": "The unemployment rate is not one problem. Frictional unemployment is time spent matching workers to jobs. Structural unemployment is a mismatch of skills or location, often after an industry shrinks. Together they make up the natural rate of unemployment: the rate when cyclical unemployment is zero and output is at its normal level. Cyclical unemployment is the extra unemployment when aggregate demand is weak. It can be negative in a boom, when the actual rate falls below the natural rate and wage pressure tends to rise. The short-run Phillips curve summarises a trade-off at DSE level. For a given expected inflation rate, lower unemployment has often come with higher inflation, and higher unemployment with lower inflation. Treat that trade-off as short run. In the long run the curve is vertical at the natural rate. Trying to hold unemployment below the natural rate by raising demand does not permanently buy lower unemployment, because expected inflation catches up. Measurement can mislead. The CPI uses a fixed basket, so it can overstate the cost of living when households substitute toward goods that have become relatively cheaper, and it can miss quality improvements. The unemployment rate excludes discouraged workers, who have stopped searching and are outside the labour force, and it counts underemployed people as employed. A fall in the unemployment rate can therefore mean people left the labour force, not that more jobs were created. Hong Kong's official rates come from the General Household Survey.",
+  "example": {
+   "scenario": "Hong Kong's unemployment rate falls from 4.2% to 3.6%. Over the same quarter some hotel workers stop looking for work, the CPI basket still contains a brand of rice that many households have stopped buying, and a boom in logistics hiring pushes vacancies up.",
+   "walkthrough": "Part of the fall in the unemployment rate may be a smaller labour force: discouraged hotel workers are no longer counted as unemployed, so the rate can fall without a matching rise in employment. Check the labour force and the number of employed persons before calling the figure a recovery. The fixed rice item is a CPI pitfall. If households switch to a cheaper rice, the fixed basket does not follow at once, so the index can overstate the rise in the cost of living. Logistics vacancies that suitable workers can fill after a short search are frictional. If the actual unemployment rate is below the natural rate, cyclical unemployment is negative and the short-run Phillips relation points to upward pressure on wages and prices. That pressure is not a permanent menu of lower unemployment at the same inflation rate. In the long run the Phillips curve is vertical at the natural rate."
+  },
+  "traps": [
+   "Putting cyclical unemployment inside the natural rate. The natural rate is frictional plus structural unemployment.",
+   "Reading the short-run Phillips curve as a permanent policy menu. The long-run curve is vertical at the natural rate.",
+   "Treating a lower unemployment rate as proof that employment rose. People leaving the labour force can cut the rate.",
+   "Counting discouraged workers as unemployed. They are outside the labour force because they are not actively seeking work.",
+   "Assuming the CPI basket updates every time relative prices change. Substitution away from dearer goods is a reason the fixed basket can overstate the cost of living."
+  ],
+  "terms": [
+   {
+    "term": "Natural rate of unemployment",
+    "definition": "The unemployment rate when cyclical unemployment is zero. It is made up of frictional and structural unemployment."
+   },
+   {
+    "term": "Short-run Phillips curve",
+    "definition": "A short-run inverse relationship between unemployment and inflation, drawn for a given expected inflation rate."
+   },
+   {
+    "term": "Long-run Phillips curve",
+    "definition": "A vertical line at the natural rate of unemployment. There is no permanent trade-off between inflation and unemployment."
+   },
+   {
+    "term": "Substitution bias",
+    "definition": "The tendency of a fixed-basket CPI to overstate the cost of living because households switch toward relatively cheaper goods."
+   },
+   {
+    "term": "Discouraged worker",
+    "definition": "A person who wants a job but has stopped searching, so is outside the labour force and not counted as unemployed."
+   }
+  ],
+  "unit": 7,
+  "practice": "inflation-unemployment",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.3": {
+  "id": "L8.3",
+  "title": "Deposit Creation: Numbers and Reserve-Ratio Pitfalls",
+  "concept": "Credit creation is easiest to see on a balance sheet. Suppose the required reserve ratio is 20% and a customer deposits $1,000 of cash that was previously outside the banks. The bank's reserves and deposits both rise by $1,000. Required reserves are $200, so excess reserves are $800. If the bank lends that $800 and the borrower spends it, the recipient's bank gains $800 of deposits and reserves. That bank keeps 20% and can lend the rest. With no cash drain and no extra reserves held idle, maximum total deposits equal the new reserves divided by the required reserve ratio: $1,000 / 0.20 = $5,000. Of that, $1,000 is the original deposit and $4,000 is created by lending. Several pitfalls break the textbook maximum. A cash drain means the public holds some of each loan as notes, so less is redeposited and the multiplier is smaller than 1/rrr. If banks hold excess reserves, they do not lend every dollar above the required ratio. The required reserve ratio is not the capital adequacy ratio: one is a fraction of deposits held as reserves, the other is capital against risk-weighted assets. In Hong Kong the statutory reserve ratio on Hong Kong dollar deposits is zero, and licensed banks still hold voluntary reserves for liquidity. The simple 1/rrr formula is a classroom model, not the operating rule of the currency board. Loan repayment destroys deposits, so the process also runs in reverse.",
+  "example": {
+   "scenario": "A customer deposits $1,000 in cash at a licensed bank. For this classroom example the required reserve ratio is 20%. There is no cash drain, and every bank lends out all excess reserves. Later the same customer repays a $800 loan in full.",
+   "walkthrough": "Step 1: the cash deposit raises both deposits and reserves by $1,000. Step 2: required reserves are 0.20 times $1,000 = $200, so excess reserves are $800. Step 3: the first loan can be $800, not $1,000. The bank cannot lend the reserves it must keep. Step 4: if each later bank does the same, maximum total deposits are $1,000 / 0.20 = $5,000. Maximum new loans are $5,000 minus the original $1,000, which is $4,000. Step 5: if instead the public held part of each loan as cash, redeposits would be smaller and total deposits would stop short of $5,000. Step 6: when the $800 loan is repaid, that deposit is destroyed. Credit creation is not a one-way ratchet. None of these steps is the Hong Kong statutory ratio. On Hong Kong dollar deposits that ratio is zero, so this 20% figure is only a worked example of the formula."
+  },
+  "traps": [
+   "Lending the whole deposit. The first bank can lend only the excess over required reserves.",
+   "Calling $5,000 the amount of new loans. In this example $5,000 is maximum total deposits; new loans are $4,000.",
+   "Using 1/rrr when there is a cash drain or excess reserves. Both leakages make the actual multiplier smaller.",
+   "Confusing the required reserve ratio with the capital adequacy ratio. One is about reserves against deposits; the other is capital against risky assets.",
+   "Treating a textbook reserve ratio as Hong Kong's rule. The statutory ratio on HKD deposits is zero; banks hold voluntary reserves."
+  ],
+  "terms": [
+   {
+    "term": "Required reserve ratio",
+    "definition": "The fraction of deposits a bank must hold as reserves. In the simple model the deposit multiplier is 1 divided by this ratio."
+   },
+   {
+    "term": "Deposit multiplier",
+    "definition": "In the simple model with no leakages, the maximum change in deposits divided by the change in reserves, equal to 1/rrr."
+   },
+   {
+    "term": "Cash drain",
+    "definition": "A leakage in which the public holds part of new loans as notes, so less is redeposited and the multiplier shrinks."
+   },
+   {
+    "term": "Capital adequacy ratio",
+    "definition": "A solvency rule: capital as a fraction of risk-weighted assets. It is not the required reserve ratio."
+   }
+  ],
+  "unit": 8,
+  "practice": "money-banking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.4": {
+  "id": "L8.4",
+  "title": "Excess Reserves and the Demand for Money",
+  "concept": "Banks hold excess reserves for their own reasons, not because the textbook multiplier says they must. Withdrawals are uncertain, so a reserve buffer reduces the chance of borrowing overnight or selling assets in a hurry. Loan demand may be weak, or borrowers may not look creditworthy. Liquidity rules and the need to settle payments also lead banks to keep balances they are not required to keep. If those balances sit idle, a cut in the required reserve ratio need not create the full textbook rise in deposits. In Hong Kong, where the statutory reserve ratio on Hong Kong dollar deposits is zero, the reserves banks actually hold are voluntary. Households and firms hold money for three motives that the HKDSE treatment usually names. The transactions motive is money kept to pay for planned purchases. It rises with income and with the number of payments, not mainly with the interest rate. The precautionary motive is money kept for unexpected payments. It also rises with income and with uncertainty. The speculative, or asset, motive is money held instead of interest-bearing assets such as bonds. When the interest rate rises, the opportunity cost of holding money rises, so speculative money demand falls. A rise in income shifts the money-demand curve right. A rise in the interest rate is a movement along the curve. People care about purchasing power, so a higher price level raises the nominal amount of money they wish to hold.",
+  "example": {
+   "scenario": "A licensed bank in Hong Kong keeps a large clearing balance even though it is not required to hold a fraction of HKD deposits as reserves. Over the same month household incomes rise, and the interest rate on Exchange Fund Bills rises.",
+   "walkthrough": "The clearing balance is an excess, or voluntary, reserve. The bank may be guarding against withdrawals, waiting for better borrowers, or meeting its own liquidity needs. Because the statutory HKD reserve ratio is zero, this balance is not a required-reserve leftover from a 20% rule. It still limits lending: reserves that are not lent do not start a new round of deposits. For households, higher income raises transactions and precautionary demand, which shifts money demand to the right. The higher bill rate is different. It raises the opportunity cost of money, so speculative balances fall. That is a movement along the demand curve, not another shift from income. Do not read the bill rate as a freely chosen Hong Kong policy rate. Under the currency board, Hong Kong dollar interest rates are constrained by the link to the US dollar."
+  },
+  "traps": [
+   "Assuming banks lend every dollar above the required ratio. Excess reserves are a normal choice when withdrawals are uncertain or loan demand is weak.",
+   "Treating a rise in income as a movement along money demand. Income shifts the curve. The interest rate causes a movement along it.",
+   "Saying speculative money demand rises when the interest rate rises. A higher rate raises the opportunity cost of money, so speculative demand falls.",
+   "Calling Hong Kong banks' reserve balances a statutory HKD requirement. The statutory ratio on HKD deposits is zero; the balances are voluntary.",
+   "Confusing the demand for money with the demand for bonds. Bonds pay interest. Money is held despite that opportunity cost."
+  ],
+  "terms": [
+   {
+    "term": "Excess reserves",
+    "definition": "Reserves held above the required minimum, for withdrawals, weak loan demand, or liquidity. In Hong Kong, HKD reserve balances are voluntary because the statutory ratio is zero."
+   },
+   {
+    "term": "Transactions motive",
+    "definition": "Holding money to make planned payments. It rises with income."
+   },
+   {
+    "term": "Precautionary motive",
+    "definition": "Holding money for unexpected payments. It rises with income and uncertainty."
+   },
+   {
+    "term": "Speculative motive",
+    "definition": "Holding money instead of interest-bearing assets. It falls when the interest rate rises."
+   },
+   {
+    "term": "Opportunity cost of holding money",
+    "definition": "The interest given up by holding money rather than an interest-bearing asset."
+   }
+  ],
+  "unit": 8,
+  "practice": "money-banking",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.3": {
+  "id": "L9.3",
+  "title": "Crowding Out and Automatic Stabilisers",
+  "concept": "A rise in government spending raises aggregate demand, but the way a deficit is financed can offset part of that rise. If the government borrows in the loanable-funds market, the demand for funds increases and the interest rate tends to rise. Higher interest rates reduce interest-sensitive private investment and some spending on durables. That offset is crowding out. It is partial when spare capacity is large and private investment is not very sensitive to the interest rate. It is more complete when the economy is already near full employment, so extra demand mainly raises prices and interest rates rather than real output. Crowding out is not the same thing as a tax rise. Automatic stabilisers work without a new budget law. Under a progressive income tax, a boom raises tax revenue by more than income and a slump cuts tax revenue, so disposable income moves by less than pre-tax income. Unemployment benefits and similar transfers rise when people lose jobs and fall when they find work. That supports spending in a downturn and withdraws it in a boom. These movements change the budget balance by themselves: a recession can open a deficit even if nobody voted for a stimulus. A one-off cash handout is discretionary policy, not an automatic stabiliser, and it waits on recognition and implementation. In Hong Kong, fiscal reserves have been used as a buffer, so a deficit need not mean immediate large-scale borrowing. That limits one channel of crowding out. It does not remove the opportunity cost of using the reserves.",
+  "example": {
+   "scenario": "During a downturn the Hong Kong government pays more in unemployment-related support and collects less salaries tax, without passing a new stimulus bill. In a later year, near full employment, it borrows to fund a large new works programme.",
+   "walkthrough": "The first year is the automatic stabilisers. Falling incomes cut salaries-tax payments under the existing schedule, and transfers rise because more people qualify. Disposable income falls by less than pre-tax income, so consumption falls by less than it otherwise would. No new ordinance is required. The budget moves toward deficit because revenue is down and transfers are up. The later works programme is discretionary. If it is financed by borrowing when the economy is already near full employment, the demand for loanable funds rises, interest rates tend to rise, and private investment is crowded out. Real output then rises by less than the simple multiplier suggests. Paying for the same programme from fiscal reserves avoids a new issue of debt, which weakens that interest-rate channel, but the reserves cannot be spent twice."
+  },
+  "traps": [
+   "Describing every deficit as a deliberate stimulus. A slump can cut tax revenue and raise transfers with no new law.",
+   "Ignoring financing. Borrowing can raise interest rates and crowd out private investment.",
+   "Saying crowding out is equally large in a deep recession and at full employment. It is stronger when there is little spare capacity.",
+   "Calling a one-off cash handout an automatic stabiliser. A handout is a discretionary decision.",
+   "Treating a transfer as government expenditure on goods and services. Transfers change disposable income; they are not themselves a G purchase in AD = C + I + G + X − M."
+  ],
+  "terms": [
+   {
+    "term": "Crowding out",
+    "definition": "A fall in private investment, and some private spending, when government borrowing pushes up the interest rate."
+   },
+   {
+    "term": "Automatic stabiliser",
+    "definition": "A tax or transfer that changes with the cycle under existing rules and dampens swings in disposable income without a new policy decision."
+   },
+   {
+    "term": "Progressive tax",
+    "definition": "A tax that takes a larger fraction of income as income rises, so revenue moves more than income over the cycle."
+   },
+   {
+    "term": "Discretionary fiscal policy",
+    "definition": "A deliberate change in spending or tax rates, such as a new public works vote or a one-off handout."
+   },
+   {
+    "term": "Fiscal reserves",
+    "definition": "Accumulated government savings that can finance a deficit without immediate borrowing, limiting one channel of crowding out."
+   }
+  ],
+  "unit": 9,
+  "practice": "fiscal-monetary-policy",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.4": {
+  "id": "L9.4",
+  "title": "Policy Lags and the Currency Board Limit",
+  "concept": "Policy does not hit the economy on the day a problem appears. The recognition lag is the time taken to see that output or inflation has changed, because data arrive late. The decision or implementation lag is the time taken to choose and carry out a response. For fiscal policy that often means a budget and legislation, so the lag can be long. A project that starts slowly may arrive after the recession has ended. The impact lag is the time from the policy action to its effect on spending and prices. Interest-rate changes often take many months to finish passing through mortgages, investment plans, and prices. These lags are a reason to avoid fine-tuning. Hong Kong faces a tighter constraint than a floating-rate central bank. The Hong Kong Monetary Authority operates a currency board under the Linked Exchange Rate System. The Hong Kong dollar is linked to the US dollar, and the Convertibility Undertakings keep the market rate inside a band of about 7.75 to 7.85 Hong Kong dollars per US dollar. The strong-side undertaking is 7.75. If the Hong Kong dollar is pushed to that strong rate, the HKMA buys US dollars from banks and sells Hong Kong dollars, which injects Hong Kong dollar liquidity. The weak-side undertaking is 7.85. If the Hong Kong dollar is pushed to that weak rate, the HKMA sells US dollars and buys Hong Kong dollars, which withdraws Hong Kong dollar liquidity. Because the monetary base is backed by US dollar reserves and the rate is held inside that band, Hong Kong does not run an independent monetary policy. Local interest rates tend to follow US rates. If the United States tightens while Hong Kong is weak, the HKMA cannot cut the Base Rate on its own to stimulate demand without undermining the undertaking. Fiscal policy and the fiscal reserves are the main local stabilisation tools.",
+  "example": {
+   "scenario": "The US Federal Reserve is raising the Fed Funds rate. Hong Kong retail sales are weak. The Hong Kong dollar is trading near 7.85 per US dollar, and a proposed public-works vote will not pass for several months.",
+   "walkthrough": "Near 7.85 the Hong Kong dollar is at the weak-side Convertibility Undertaking, not the strong side. The strong side is 7.75. At 7.85 the HKMA sells US dollars and buys Hong Kong dollars, withdrawing HKD liquidity. It does not buy US dollars at 7.85, and it does not move the weak side to 7.75. Cutting the Base Rate while the US rate is rising would work against that undertaking, so the HKMA does not have a free interest-rate policy of the kind a floating-rate central bank has. The weak retail sales are a local reason one might want easier money, but the currency board imports US monetary conditions. The works vote is fiscal policy. The months before it passes are an implementation lag. Even after the vote, spending and jobs respond with an impact lag. A project that arrives after the slump can add demand when it is no longer needed. The local tool that remains available is fiscal policy, including the use of fiscal reserves, not an independent monetary easing."
+  },
+  "traps": [
+   "Reversing the Convertibility Undertakings. Strong side is 7.75, where the HKMA buys USD and sells HKD. Weak side is 7.85, where the HKMA sells USD and buys HKD.",
+   "Saying the HKMA can set the Base Rate independently of the US Federal Reserve. Under the currency board, Hong Kong does not run an independent monetary policy.",
+   "Describing 7.80 as an interest rate. The link is an exchange rate of Hong Kong dollars per US dollar. The convertibility zone is about 7.75 to 7.85.",
+   "Ignoring lags. A correctly aimed stimulus can arrive after the economy has already turned.",
+   "Treating a long impact lag as a reason to change the peg. The lag is about how slowly spending responds. It does not free the HKMA to float the currency."
+  ],
+  "terms": [
+   {
+    "term": "Recognition lag",
+    "definition": "The delay before policymakers can see, from the data, that output or inflation has changed."
+   },
+   {
+    "term": "Implementation lag",
+    "definition": "The delay between recognising a problem and putting a policy into effect. It is often long for fiscal decisions that need legislation."
+   },
+   {
+    "term": "Impact lag",
+    "definition": "The delay between a policy action and its full effect on spending, output, and prices."
+   },
+   {
+    "term": "Convertibility Undertaking",
+    "definition": "The HKMA's commitment at the edges of the band: buy USD at the strong side of 7.75, and sell USD at the weak side of 7.85."
+   },
+   {
+    "term": "Currency board",
+    "definition": "A system in which the monetary base is backed by foreign reserves and the domestic currency is linked to an anchor currency. Hong Kong's board links the HKD to the USD, so monetary policy is not independent."
+   }
+  ],
+  "unit": 9,
+  "practice": "fiscal-monetary-policy",
   "passThreshold": 7,
   "reviewed": true
  }
