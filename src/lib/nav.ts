@@ -12,6 +12,7 @@ export const SITE_NAV: readonly NavItem[] = [
   { href: "/dse/english/learn", label: "English", match: "prefix" },
   { href: "/dse/econ/learn", label: "ECON", match: "prefix" },
   { href: "/dse/math/learn", label: "數學", match: "prefix" },
+  { href: "/dse/bafs/learn", label: "BAFS", match: "prefix" },
   { href: "/dse/videos", label: "溫習片", match: "prefix" },
   { href: "/dse/jupas", label: "JUPAS", match: "prefix" },
 ];
@@ -27,6 +28,7 @@ const SECTION_ROOTS: Record<string, string> = {
   "/dse/english/learn": "/dse/english",
   "/dse/econ/learn": "/dse/econ",
   "/dse/math/learn": "/dse/math",
+  "/dse/bafs/learn": "/dse/bafs",
 };
 
 export function isNavItemActive(item: NavItem, pathname: string): boolean {

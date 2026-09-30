@@ -1,3 +1,4 @@
+import bafsDrills from "@/data/dse/bafs-drills.json";
 import econDrills from "@/data/dse/econ-drills.json";
 import englishDrills from "@/data/dse/english-drills.json";
 import englishLearnDrills from "@/data/dse/english-learn-drills.json";
@@ -45,6 +46,7 @@ const ENGLISH_BANK: DrillBank = {
 };
 
 const BANKS: Record<string, DrillBank> = {
+  bafs: bafsDrills as DrillBank,
   econ: econDrills as DrillBank,
   english: ENGLISH_BANK,
   math: mathDrills as DrillBank,

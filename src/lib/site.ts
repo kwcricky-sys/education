@@ -6,7 +6,7 @@ export const SITE_NAME_EN = "DSE.hack";
 export const SITE_TAGLINE = "香港 DSE 免費自修室";
 /** Longer footer line. */
 export const SITE_TAGLINE_FULL =
-  "香港 DSE 免費自修室：中文範文閃卡同診斷室、English／ECON／數學自學路徑、溫習片庫同 JUPAS 揀科數據。免登入，進度只存你部機。";
+  "香港 DSE 免費自修室：中文範文閃卡同診斷室、English／ECON／數學／BAFS 自學路徑、溫習片庫同 JUPAS 揀科數據。免登入，進度只存你部機。";
 
 export const HKEAA_URL = "https://www.hkeaa.edu.hk/tc/hkdse/";
 
