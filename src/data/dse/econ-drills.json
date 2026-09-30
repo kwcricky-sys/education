@@ -1715,7 +1715,7 @@
    ]
   },
   {
-   "id": "ECON-ELAS-009",
+   "id": "ECON-ELAS-015",
    "topic": "elasticity",
    "difficulty": "medium",
    "question": "A bookstore cuts the price of a bestseller by 10% and total revenue from the book rises. The price elasticity of demand for the book is:",
@@ -1729,7 +1729,7 @@
    "explanation": "If total revenue rises when price falls, the percentage rise in quantity demanded exceeds the percentage fall in price, so demand is elastic."
   },
   {
-   "id": "ECON-ELAS-010",
+   "id": "ECON-ELAS-016",
    "topic": "elasticity",
    "difficulty": "medium",
    "question": "A 10% rise in consumers' incomes leads to a 5% fall in demand for instant noodles. Instant noodles are:",
