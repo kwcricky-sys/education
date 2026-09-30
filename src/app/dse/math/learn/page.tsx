@@ -1,0 +1,158 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import MathUnitMap from "@/components/dse/math-unit-map";
+import { JsonLd } from "@/components/seo/json-ld";
+import { MATH_UNITS } from "@/lib/dse/math-path";
+import { createPageMetadata } from "@/lib/page-metadata";
+import {
+  buildBreadcrumbJsonLd,
+  buildCourseJsonLd,
+  buildFaqJsonLd,
+  type FaqItem,
+} from "@/lib/seo";
+import { HKEAA_URL, LEGAL_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/site";
+
+const PATH = "/dse/math/learn";
+const LESSON_COUNT = MATH_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
+const PASS = MATH_UNITS[0].passThreshold;
+const STARTER_UNITS = MATH_UNITS.filter((u) => u.prerequisites.length === 0);
+
+export const metadata: Metadata = createPageMetadata({
+  title: `DSE 數學（必修）自學路徑｜Mathematics ${MATH_UNITS.length} 單元由數與代數到統計概率 | ${SITE_NAME}`,
+  description: `免費 HKDSE 數學科必修部分自學課程：${MATH_UNITS.length} 個單元、${LESSON_COUNT} 課，涵蓋數與估算、代數、函數與圖像、指數對數與數列、不等式與線性規劃、坐標幾何、三角、統計、概率，以及應試技巧。每單元練習答啱 ${PASS}/10 題就解鎖下一個單元。`,
+  path: PATH,
+  keywords: [
+    "DSE 數學 自學",
+    "DSE Maths notes",
+    "HKDSE mathematics compulsory",
+    "DSE 數學 必修",
+    "數學科 溫習",
+    "dse math practice",
+    "DSE 三角",
+    "DSE 概率",
+    "DSE 線性規劃",
+    "DSE 坐標幾何",
+  ],
+});
+
+const FAQS: FaqItem[] = [
+  {
+    question: "數學自學路徑要唔要錢？",
+    answer: "全部免費，唔使註冊。進度只存喺你部機（瀏覽器本機儲存），唔會上傳。",
+  },
+  {
+    question: "點樣先解鎖下一個單元？",
+    answer: `每個單元讀完課文，做 10 題練習，答啱 ${PASS} 題或以上就合格。合格後，所有以呢個單元做前設嘅單元會即刻解鎖；唔合格可以睇解說再做。`,
+  },
+  {
+    question: "一定要由單元 1 開始？",
+    answer: `唔一定。${STARTER_UNITS.map((u) => `單元 ${u.id}（${u.titleZh}）`).join("同")}冇前設，一開始已經開放；其他單元要先通過指定單元。`,
+  },
+  {
+    question: "課程包唔包 M1／M2？",
+    answer:
+      "呢條路徑對準數學科必修部分。單元 10 只會輕描淡寫話你知微積分、正態分佈、矩陣呢類內容屬延伸部分（M1／M2），唔使當必修溫習。延伸單元本身唔喺呢條路徑。",
+  },
+  {
+    question: "課程有幾多個單元同課？",
+    answer: `共 ${MATH_UNITS.length} 個單元、${LESSON_COUNT} 課，由數與估算、代數、函數，到幾何、三角、統計同概率，最後係應試技巧。每個單元練習 10 題，答啱 ${PASS} 題或以上先過關。課文用英文寫，方便對返英文卷用語；頁面導覽係中文。`,
+  },
+  {
+    question: "呢啲係咪考評局教材？",
+    answer:
+      "唔係。課文同練習由本站整理，只供溫習參考；課程範圍、題型同評分準則以考評局官網最新公佈為準。",
+  },
+];
+
+export default function MathLearnPage() {
+  const courseJsonLd = buildCourseJsonLd({
+    name: "DSE 數學（必修部分）自學路徑",
+    description: `HKDSE 數學科必修部分 ${MATH_UNITS.length} 個單元、${LESSON_COUNT} 課自學課程，每單元附練習關卡。`,
+    url: `${SITE_URL}${PATH}`,
+  });
+
+  return (
+    <div className="mx-auto max-w-3xl">
+      <JsonLd
+        data={buildBreadcrumbJsonLd([
+          { name: "首頁", path: "/" },
+          { name: "DSE 備考", path: "/dse" },
+          { name: "數學科 MCQ 練習", path: "/dse/math" },
+          { name: "自學路徑", path: PATH },
+        ])}
+      />
+      <JsonLd data={courseJsonLd} />
+      <JsonLd data={buildFaqJsonLd(FAQS)} />
+
+      <nav className="mb-6 text-sm text-ink-faint">
+        <Link href="/dse" className="hover:text-navy">DSE</Link>
+        <span className="mx-2">›</span>
+        <Link href="/dse/math" className="hover:text-navy">數學科</Link>
+        <span className="mx-2">›</span>
+        <span className="text-ink-muted">自學路徑</span>
+      </nav>
+
+      <h1 className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-navy sm:text-4xl">
+        DSE 數學（必修）自學路徑
+      </h1>
+      <p className="mt-1 text-sm text-ink-faint">Mathematics Compulsory Part — step-by-step course</p>
+      <p className="mt-3 text-[15px] leading-relaxed text-ink-muted sm:text-base">
+        {MATH_UNITS.length} 個單元、{LESSON_COUNT} 課，由數與估算一路學到統計、概率同應試技巧。每個單元先讀課文（英文），再做 10 題練習；
+        <span className="font-semibold text-ink">答啱 {PASS} 題或以上</span>
+        就過關，解鎖之後嘅單元。進度只存喺你部機，唔使帳號。
+      </p>
+
+      <div className="mt-6 rounded-2xl border border-line bg-white p-5">
+        <p className="text-sm font-semibold text-navy">點樣行呢條路徑</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm leading-relaxed text-ink-muted">
+          <li>
+            代數線由單元 1（數與估算）開始；數據處理可以直接由單元 8（統計）開始。
+          </li>
+          <li>鎖住嘅單元會寫明要先通過邊個單元。單元 10（應試技巧）要函數、三角同概率都過關先開。</li>
+          <li>
+            想淨係做題？去{" "}
+            <Link href="/dse/math" className="font-semibold text-navy underline underline-offset-2">
+              數學科 MCQ 題庫
+            </Link>{" "}
+            按課題做；卡住可以睇{" "}
+            <Link href="/dse/videos/math" className="font-semibold text-navy underline underline-offset-2">
+              數學科溫習片
+            </Link>
+            。
+          </li>
+        </ul>
+      </div>
+
+      <div className="mt-8">
+        <MathUnitMap />
+      </div>
+
+      <section className="mt-10 rounded-2xl border border-line bg-white p-6">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          常見問題
+        </h2>
+        <div className="mt-4 space-y-4">
+          {FAQS.map((f) => (
+            <div key={f.question}>
+              <h3 className="text-sm font-semibold text-ink">{f.question}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-ink-muted">{f.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <p className="mt-8 rounded-xl border border-line bg-cream/60 p-4 text-xs leading-relaxed text-ink-muted">
+        {LEGAL_DISCLAIMER}課程範圍及評分準則以{" "}
+        <a
+          href={HKEAA_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-navy underline underline-offset-2"
+        >
+          考評局官網
+        </a>{" "}
+        為準。
+      </p>
+    </div>
+  );
+}

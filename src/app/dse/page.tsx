@@ -25,6 +25,7 @@ import { getDrillBank } from "@/lib/dse/drills";
 import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
+import { MATH_UNITS } from "@/lib/dse/math-path";
 import { getAllQuizSlugs, getQuiz } from "@/lib/dse/quizzes";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
 import { DSE_SUBJECTS } from "@/lib/dse/subjects";
@@ -53,10 +54,12 @@ const ENGLISH_LESSON_COUNT = ENGLISH_UNITS.reduce(
 
 const ECON_LESSON_COUNT = ECON_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
 
+const MATH_LESSON_COUNT = MATH_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
 const BAFS_LESSON_COUNT = BAFS_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
 
 const ENGLISH_DRILL_COUNT = getDrillBank("english")?.meta.total ?? 0;
 const ECON_DRILL_COUNT = getDrillBank("econ")?.meta.total ?? 0;
+const MATH_DRILL_COUNT = getDrillBank("math")?.meta.total ?? 0;
 const BAFS_DRILL_COUNT = getDrillBank("bafs")?.meta.total ?? 0;
 
 const videoCount = (subject: string) =>
@@ -67,11 +70,11 @@ const TOTAL_VIDEO_COUNT = VIDEO_SUBJECTS.reduce(
   0,
 );
 
-const TITLE = `DSE 學習與備考專區｜中文範文閃卡、English／ECON／BAFS 自學路徑、JUPAS 揀科 | ${SITE_NAME}`;
+const TITLE = `DSE 學習與備考專區｜中文範文閃卡、English／ECON／數學／BAFS 自學路徑、JUPAS 揀科 | ${SITE_NAME}`;
 
 export const metadata = createPageMetadata({
   title: TITLE,
-  description: `${SITE_NAME} DSE 備考專區：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片同 ${PROGRAMMES.length} 個聯招課程收生數據。全部免費、免登入。`,
+  description: `${SITE_NAME} DSE 備考專區：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片同 ${PROGRAMMES.length} 個聯招課程收生數據。全部免費、免登入。`,
   path: "/dse",
   keywords: [
     "DSE",
@@ -81,6 +84,8 @@ export const metadata = createPageMetadata({
     "DSE Economics",
     "DSE BAFS",
     "DSE 經濟",
+    "DSE 數學",
+    "DSE Mathematics",
     "DSE 企業會計與財務概論",
     "指定範文閃卡",
     "英文自學",
@@ -103,7 +108,7 @@ const SUBJECT_ICON: Record<string, typeof Languages> = {
 };
 
 /** Subjects with a full learning path; the rest are video-only for now. */
-const CORE_SUBJECT_IDS = ["chinese", "english", "econ", "bafs"] as const;
+const CORE_SUBJECT_IDS = ["chinese", "english", "econ", "bafs", "math"] as const;
 
 type Resource = {
   href: string;
@@ -199,6 +204,18 @@ const SUBJECT_RESOURCES: Record<string, Resource[]> = {
   ],
   math: [
     {
+      href: "/dse/math/learn",
+      label: "數學自學路徑",
+      detail: `必修部分 ${MATH_UNITS.length} 單元，由數與代數做到三角、統計同概率，練習達標先解鎖下一課。`,
+      count: `${MATH_LESSON_COUNT} 課`,
+    },
+    {
+      href: "/dse/math",
+      label: "數學 MCQ 練習",
+      detail: "數與估算、代數、函數、幾何、三角、統計同概率，每題附解說。",
+      count: `${MATH_DRILL_COUNT} 題`,
+    },
+    {
       href: "/dse/videos/math",
       label: "數學科溫習片",
       detail: "必修數學課題講解，每條附摘要、重點筆記同「邊個階段睇」。",
@@ -250,7 +267,7 @@ const START_STEPS = [
     href: "/dse/english/learn",
     icon: Route,
     title: "跟自學路徑過關",
-    detail: `English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課，一課一課解鎖。`,
+    detail: `English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課，一課一課解鎖。`,
   },
   {
     href: "/dse/jupas",
@@ -292,8 +309,8 @@ export default function DseHomePage() {
           </h1>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ink-muted sm:text-base">
             中文 {TEXT_COUNT} 篇指定範文 {CHINESE_CARD_COUNT} 題閃卡、English{" "}
-            {ENGLISH_LESSON_COUNT} 課、ECON {ECON_LESSON_COUNT} 課、BAFS {BAFS_LESSON_COUNT}{" "}
-            課自學路徑、
+            {ENGLISH_LESSON_COUNT} 課、ECON {ECON_LESSON_COUNT} 課、數學 {MATH_LESSON_COUNT}{" "}
+            課、BAFS {BAFS_LESSON_COUNT} 課自學路徑、
             {VIDEO_SUBJECTS.length} 科 {TOTAL_VIDEO_COUNT} 條溫習片，再加{" "}
             {PROGRAMMES.length} 個聯招課程嘅真實收生分數。
           </p>
@@ -337,14 +354,14 @@ export default function DseHomePage() {
         </div>
       </section>
 
-      {/* 三科完整路徑 */}
+      {/* 完整學習路徑 */}
       <section aria-labelledby="core-heading" className="space-y-5">
         <SectionHeading
           id="core-heading"
           eyebrow="完整學習路徑"
-          title="中文 · English · ECON · BAFS"
+          title="中文 · English · ECON · BAFS · 數學"
         />
-        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {coreSubjects.map((s) => {
             const Icon = SUBJECT_ICON[s.id] ?? Globe2;
             const resources = SUBJECT_RESOURCES[s.id] ?? [];

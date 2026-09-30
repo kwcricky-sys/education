@@ -1,0 +1,930 @@
+{
+ "L1.1": {
+  "id": "L1.1",
+  "title": "Laws of indices and scientific notation",
+  "concept": "The laws of indices describe how powers that share a base combine. When powers are multiplied, the exponents are added: a^m × a^n = a^(m+n). When powers are divided, the exponents are subtracted: a^m ÷ a^n = a^(m−n), provided a is not zero. A power of a power multiplies the exponents, so (a^m)^n = a^(mn). A product or quotient raised to a power splits across the factors: (ab)^n = a^n b^n and (a/b)^n = a^n / b^n. Two special cases cause many lost marks. Any non-zero number to the power 0 equals 1, so 7^0 = 1, but the expression 0^0 is left undefined. A negative exponent means a reciprocal: a^(−n) = 1/a^n, so 2^(−3) = 1/8. A fractional exponent is a root. a^(1/n) is the n-th root of a, and a^(m/n) means either the n-th root of a^m or the n-th root of a, raised to m. Scientific notation writes a number as a × 10^k where 1 ≤ a < 10 and k is an integer. Thus 48000 = 4.8 × 10^4 and 0.000456 = 4.56 × 10^(−4). The coefficient must have exactly one non-zero digit before the decimal point. A form such as 45.6 × 10^(−5) may have the right value, but it is not scientific notation. In compulsory-part questions the laws are usually chained in one expression, and a negative exponent left in the numerator is treated as unfinished.",
+  "example": {
+   "scenario": "Simplify (a^2 b^(−3))^2 ÷ a^(−1), where a and b are non-zero, and write 0.000456 in scientific notation.",
+   "walkthrough": "First expand the bracket: (a^2)^2 = a^4 and (b^(−3))^2 = b^(−6), so the numerator is a^4 b^(−6). Dividing by a^(−1) is the same as multiplying by a^1, which gives a^5 b^(−6), or a^5 / b^6. Separately, move the decimal point in 0.000456 four places to the right to obtain a coefficient between 1 and 10, so the number is 4.56 × 10^(−4)."
+  },
+  "traps": [
+   "Adding exponents when the bases are different, for example treating 2^3 × 3^3 as 6^6 instead of (2×3)^3.",
+   "Writing a^(−n) as a negative number rather than a reciprocal. 2^(−3) is 1/8, not −8.",
+   "Accepting a coefficient of 10 or more as scientific notation. 45.6 × 10^(−5) must still be rewritten as 4.56 × 10^(−4)."
+  ],
+  "terms": [
+   {
+    "term": "Index (exponent)",
+    "definition": "The power to which a base is raised. In a^n, n is the index."
+   },
+   {
+    "term": "Negative index",
+    "definition": "a^(−n) = 1/a^n for a ≠ 0. It produces a reciprocal, not a negative value."
+   },
+   {
+    "term": "Scientific notation",
+    "definition": "A number written as a × 10^k with 1 ≤ a < 10 and k an integer."
+   }
+  ],
+  "unit": 1,
+  "practice": "numbers-estimation",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.2": {
+  "id": "L1.2",
+  "title": "Approximation, absolute error and percentage error",
+  "concept": "Measurements and rounded answers are never exact, so the compulsory syllabus asks you to control the error. If a number is corrected to the nearest unit of size u, the maximum absolute error is half of that unit, u/2. A length given as 12.5 cm, correct to the nearest 0.1 cm, may be out by at most 0.05 cm. The lower limit is 12.45 cm and the upper limit is 12.55 cm. Absolute error is the size of the mistake, |measured value − true value|, and it is always non-negative. Percentage error compares that mistake with the true value: percentage error = (|approximate value − exact value| / |exact value|) × 100%. The denominator is the exact value, not the approximation. If the exact length is 80 cm and the estimate is 76 cm, the percentage error is (4/80) × 100% = 5%, not 4/76. Significant figures and decimal places are different instructions. 0.0667 has three significant figures but five decimal places if written as 0.06670, so read the question before rounding. In a long question, keep extra figures in the working and round only the final answer, unless a part explicitly says to use a rounded value. An early rounding can make a later exact-form request impossible to recover.",
+  "example": {
+   "scenario": "A rope is measured as 12.5 cm, correct to the nearest 0.1 cm. Separately, a student estimates an exact length of 80 cm as 76 cm. Find the maximum absolute error of the measurement and the percentage error of the estimate.",
+   "walkthrough": "The measurement is rounded to the nearest 0.1 cm, so the maximum absolute error is half of 0.1 cm, which is 0.05 cm. The true length lies between 12.45 cm and 12.55 cm. For the estimate, absolute error = |76 − 80| = 4 cm, and percentage error = (4/80) × 100% = 5%. Using 76 as the denominator would give about 5.26%, which is the wrong base."
+  },
+  "traps": [
+   "Taking the maximum absolute error as the whole rounding unit, 0.1 cm, instead of half of it.",
+   "Dividing the absolute error by the approximate value instead of the exact value.",
+   "Rounding an intermediate square root to 3 significant figures and then squaring it again for an exact answer."
+  ],
+  "terms": [
+   {
+    "term": "Maximum absolute error",
+    "definition": "Half the unit to which a measurement has been rounded."
+   },
+   {
+    "term": "Percentage error",
+    "definition": "(|approximate − exact| / |exact|) × 100%."
+   },
+   {
+    "term": "Significant figures",
+    "definition": "Digits that carry meaning, starting from the first non-zero digit. Not the same as decimal places."
+   }
+  ],
+  "unit": 1,
+  "practice": "numbers-estimation",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L1.3": {
+  "id": "L1.3",
+  "title": "Ratio, rate, speed and compound interest",
+  "concept": "A ratio a : b compares two quantities in the same unit. It can be written as the fraction a/b, and both parts may be multiplied or divided by the same non-zero number without changing the ratio. A rate compares quantities in different units, such as kilometres per hour or dollars per kilogram. Average speed is a rate: distance divided by time. The time must be in hours if the speed is in km/h, so 2 hours 15 minutes is 2.25 hours, not 2.15 hours. Map scales are ratios. On a map of scale 1 : 25000, 1 cm on the map stands for 25000 cm on the ground, which is 250 m or 0.25 km. A 6 cm road is therefore 1.5 km, not 150 km. Percentage change is not symmetric. A 20% decrease followed by a 20% increase multiplies by 0.8 and then by 1.2, leaving 0.96, a 4% fall. Compound interest uses the same idea of repeated multiplication. If a principal P earns interest at rate r per period for n periods, the amount is A = P(1+r)^n. Simple interest, P × r × n added to P, is a different model and should not be substituted when the question says compounded. For a percentage rate, write r as a decimal: 4% per annum means r = 0.04, so the growth factor is 1.04, not 1.4.",
+  "example": {
+   "scenario": "A map has scale 1 : 25000. A road is 6 cm on the map. Separately, $5000 is invested at 4% per annum compound interest for 3 years. Find the actual length of the road and an expression for the amount.",
+   "walkthrough": "6 cm on the map represents 6 × 25000 = 150000 cm = 1500 m = 1.5 km. Treating the scale as kilometres per centimetre, or forgetting to convert centimetres, produces 15 km or 150 km. The investment is compounded, so the amount is 5000(1.04)^3. The expression 5000 + 5000 × 0.04 × 3 is simple interest, and 5000(1.4)^3 uses 40% instead of 4%."
+  },
+  "traps": [
+   "Writing 2 hours 15 minutes as 2.15 hours. Fifteen minutes is 0.25 hour.",
+   "Cancelling a percentage increase against the same percentage decrease. The multipliers 1.2 and 0.8 do not undo each other.",
+   "Using the simple-interest formula when the question states that interest is compounded annually."
+  ],
+  "terms": [
+   {
+    "term": "Rate",
+    "definition": "A comparison of two quantities in different units, such as speed in km/h."
+   },
+   {
+    "term": "Compound interest",
+    "definition": "Interest calculated on the growing amount. A = P(1+r)^n for n compounding periods."
+   },
+   {
+    "term": "Scale",
+    "definition": "A ratio of a length on a map or model to the corresponding actual length, in the same unit."
+   }
+  ],
+  "unit": 1,
+  "practice": "numbers-estimation",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.1": {
+  "id": "L2.1",
+  "title": "Polynomials, the factor theorem and factorisation",
+  "concept": "A polynomial is a sum of terms a_k x^k with non-negative integer powers. Its degree is the highest power with a non-zero coefficient. The factor theorem connects values of the polynomial with linear factors: (x − a) is a factor of f(x) if and only if f(a) = 0. The remainder theorem is the wider statement. When f(x) is divided by (x − a), the remainder is f(a), even when that remainder is not zero. So f(2) = −4 means the remainder on division by (x − 2) is −4, and (x − 2) is not a factor. Factorising a quadratic ax^2 + bx + c means writing it as a product of linear factors, when they exist. Take out a common factor first. Then look for difference of squares, a^2 − b^2 = (a − b)(a + b), or a perfect square. For 2x^2 + 7x + 3, the cross method gives (2x + 1)(x + 3). Check by expanding: the middle term must be 6x + x = 7x. Identities are true for all values of the variable, whereas equations are true only for some. (x − 1)(x + 1) = x^2 − 1 is an identity. (x − 1)^2 = x^2 − 1 is an equation, true only at particular values of x. In a long question, substitute the claimed root back into the original polynomial before you declare a factor.",
+  "example": {
+   "scenario": "Let f(x) = x^3 + 2x − 5. Find the remainder when f(x) is divided by (x + 1), and factorise 2x^2 + 7x + 3.",
+   "walkthrough": "The remainder theorem uses the root of the divisor. x + 1 = x − (−1), so the remainder is f(−1) = −1 − 2 − 5 = −8. It is not zero, so (x + 1) is not a factor. For the quadratic, (2x + 1)(x + 3) = 2x^2 + 6x + x + 3 = 2x^2 + 7x + 3. The look-alike (2x + 3)(x + 1) expands to 2x^2 + 5x + 3 and is a different polynomial."
+  },
+  "traps": [
+   "Evaluating f(1) when the divisor is (x + 1). The correct substitution is x = −1.",
+   "Calling an equation an identity because it is true for one or two numbers you tried.",
+   "Expanding a guessed factorisation and not checking the middle term."
+  ],
+  "terms": [
+   {
+    "term": "Factor theorem",
+    "definition": "(x − a) is a factor of f(x) if and only if f(a) = 0."
+   },
+   {
+    "term": "Remainder theorem",
+    "definition": "When f(x) is divided by (x − a), the remainder is f(a)."
+   },
+   {
+    "term": "Identity",
+    "definition": "An equality that holds for all values of the variable for which both sides are defined."
+   }
+  ],
+  "unit": 2,
+  "practice": "algebra",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.2": {
+  "id": "L2.2",
+  "title": "Quadratic equations and the discriminant",
+  "concept": "A quadratic equation has the form ax^2 + bx + c = 0 with a ≠ 0. If it factorises, set each factor equal to zero. For x^2 − 5x + 6 = 0, the factorisation (x − 2)(x − 3) = 0 gives the roots x = 2 and x = 3. Sign errors here are common: the constant +6 and the middle term −5 together require two negative signs inside the brackets, which produce positive roots. When factorising is awkward, use the quadratic formula x = [−b ± √(b^2 − 4ac)] / (2a). The expression under the square root is the discriminant, Δ = b^2 − 4ac. Its sign decides the number of real roots. If Δ > 0 there are two distinct real roots. If Δ = 0 there is one repeated real root. If Δ < 0 there is no real root. For 2x^2 + 3x + 5 = 0, Δ = 9 − 40 = −31, so the equation has no real solution. A repeated root also fixes the constant term. If x^2 − 6x + k = 0 has a repeated root, then Δ = 36 − 4k = 0, so k = 9, and the root is x = 3. Completing the square is the same information written as a square: x^2 − 6x + 9 = (x − 3)^2. Do not cancel an x from both sides of an equation unless you have checked the root x = 0 separately.",
+  "example": {
+   "scenario": "For 2x^2 + 3x + 5 = 0, find the discriminant and state how many real roots the equation has. Then find k if x^2 − 6x + k = 0 has a repeated real root.",
+   "walkthrough": "Δ = 3^2 − 4(2)(5) = 9 − 40 = −31. Because the discriminant is negative, there is no real root. For the second equation, set 36 − 4k = 0, so k = 9. The repeated root is 6/2 = 3, and the equation is (x − 3)^2 = 0. Choosing k = 3 confuses the root with the constant term."
+  },
+  "traps": [
+   "Computing the discriminant as b^2 + 4ac, which flips the sign of the last term.",
+   "Giving only the positive square root when the equation is a difference of squares, such as x^2 = 4.",
+   "Taking k equal to the repeated root instead of the square of that root."
+  ],
+  "terms": [
+   {
+    "term": "Discriminant",
+    "definition": "For ax^2 + bx + c = 0, Δ = b^2 − 4ac. It determines the number of real roots."
+   },
+   {
+    "term": "Repeated root",
+    "definition": "A real root that occurs when Δ = 0. The graph touches the x-axis at one point."
+   },
+   {
+    "term": "Quadratic formula",
+    "definition": "x = [−b ± √(b^2 − 4ac)] / (2a), for a ≠ 0 and Δ ≥ 0 if only real roots are required."
+   }
+  ],
+  "unit": 2,
+  "practice": "algebra",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.3": {
+  "id": "L2.3",
+  "title": "Changing the subject and simultaneous equations",
+  "concept": "Changing the subject means rearranging a formula so that a chosen variable stands alone. Undo the operations in reverse order, and apply each step to the whole of both sides. From A = π r^2, divide by π first to get A/π = r^2, then take square roots: r = √(A/π), taking the positive root when r is a length. The expression √A / π is different, because the π is outside the square root. From a sum or a product, use a known identity before you solve. If x^2 + y^2 = 25 and xy = 6, then (x + y)^2 = x^2 + 2xy + y^2 = 25 + 12 = 37. You do not need the separate values of x and y. Simultaneous equations ask for pairs that satisfy every equation at once. For two linear equations, elimination or substitution both work. For one linear and one quadratic equation, substitute the linear expression into the quadratic, solve the resulting quadratic, and pair each x-value with its y-value. If x + y = 7 and xy = 12, the numbers are the roots of t^2 − 7t + 12 = 0, namely 3 and 4. Both ordered pairs (3, 4) and (4, 3) are solutions. A question that asks for the solutions expects both pairs unless it adds a condition such as x > y.",
+  "example": {
+   "scenario": "Make r the subject of A = π r^2, taking r > 0. Also solve x + y = 7 and xy = 12.",
+   "walkthrough": "Divide by π and take the positive square root: r = √(A/π). Writing √A / π leaves π outside the root and does not undo the formula. For the pair of equations, (x + y)^2 = x^2 + 2xy + y^2 would be another route, but here x and y are the two numbers that add to 7 and multiply to 12, so they are 3 and 4 in either order. Both (x, y) = (3, 4) and (4, 3) satisfy the equations."
+  },
+  "traps": [
+   "Taking a square root of only part of one side, as in r = √A / π from A = π r^2.",
+   "Listing only one ordered pair when x and y play symmetric roles.",
+   "Forgetting the 2xy term when expanding (x + y)^2 or (x − y)^2."
+  ],
+  "terms": [
+   {
+    "term": "Subject of a formula",
+    "definition": "The variable that has been isolated on one side of a formula."
+   },
+   {
+    "term": "Simultaneous equations",
+    "definition": "Equations that are solved together. A solution must satisfy every equation."
+   },
+   {
+    "term": "Ordered pair",
+    "definition": "A solution (x, y) in which the order matters: (3, 4) and (4, 3) are different pairs."
+   }
+  ],
+  "unit": 2,
+  "practice": "algebra",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.1": {
+  "id": "L3.1",
+  "title": "Function notation, domain and range",
+  "concept": "A function assigns exactly one output to each input in its domain. The vertical line test is the picture of that rule: a graph represents y as a function of x when every vertical line meets the graph at most once. Function notation f(x) names the output. It is not a product of f and x. To evaluate f(2) for f(x) = 2x^2 − 3x + 1, substitute carefully: 2(4) − 3(2) + 1 = 8 − 6 + 1 = 3. A negative input needs brackets, because (−1)^2 is 1, not −1. The domain is the set of allowed inputs. For a polynomial the domain is all real numbers. A denominator cannot be zero, an even root needs a non-negative radicand, and a logarithm needs a positive argument. The range is the set of outputs that actually occur. For f(x) = x^2 + 1 the range is y ≥ 1, because a square is at least 0 and then 1 is added. It is not all real numbers, and it is not y ≥ 0. When two functions are composed, the order matters. If f(x) = 2x + 1 and g(x) = x^2, then f(g(2)) means apply g first: g(2) = 4 and f(4) = 9. The other order, g(f(2)), is g(5) = 25. Read the brackets from the inside. In an exam, state the domain when you define a function that is not a polynomial, and check a boundary point before you include it.",
+  "example": {
+   "scenario": "Let f(x) = 2x + 1 and g(x) = x^2. Find f(g(2)) and g(f(2)). State the range of h(x) = x^2 + 1.",
+   "walkthrough": "g(2) = 4 and f(4) = 9, so f(g(2)) = 9. In the other order, f(2) = 5 and g(5) = 25, so g(f(2)) = 25. For h, the smallest value of x^2 is 0, so the smallest value of h(x) is 1. The range is y ≥ 1. Saying y ≥ 0 forgets the added 1."
+  },
+  "traps": [
+   "Reading f(x) as f multiplied by x, and then cancelling an x.",
+   "Squaring a negative input without brackets, so that the sign is lost.",
+   "Swapping the order in a composition and still calling the result f(g(x))."
+  ],
+  "terms": [
+   {
+    "term": "Domain",
+    "definition": "The set of inputs for which a function is defined."
+   },
+   {
+    "term": "Range",
+    "definition": "The set of output values that the function actually takes."
+   },
+   {
+    "term": "Composite function",
+    "definition": "f(g(x)) means apply g first, then apply f to that output."
+   }
+  ],
+  "unit": 3,
+  "practice": "functions-graphs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.2": {
+  "id": "L3.2",
+  "title": "Quadratic graphs: intercepts, vertex and axis",
+  "concept": "The graph of y = ax^2 + bx + c is a parabola. If a > 0 it opens upwards and has a minimum. If a < 0 it opens downwards and has a maximum. The y-intercept is the value at x = 0, which is the constant c. The x-intercepts are the roots of ax^2 + bx + c = 0, so the discriminant tells you how many there are. For y = x^2 + 2x + 3, Δ = 4 − 12 = −8 < 0. The parabola opens upwards and never meets the x-axis, so there are no x-intercepts. The axis of symmetry is the vertical line x = −b/(2a). For y = x^2 − 6x + 5 this is x = 6/2 = 3. The vertex lies on that line. Substitute x = 3 to get the y-coordinate, or complete the square. Completed-square form makes the vertex immediate: y = (x − 2)^2 + 5 has vertex (2, 5), and y = −2(x − 1)^2 + 4 opens downwards with vertex (1, 4). The minimum value of y = x^2 − 4x + 7 is the y-coordinate of the vertex. Completing the square gives (x − 2)^2 + 3, so the minimum is 3, not the y-intercept 7. When a question asks for the minimum value, give the y-value, not the x-value of the vertex.",
+  "example": {
+   "scenario": "For y = x^2 − 4x + 7, find the axis of symmetry and the minimum value. For y = (x − 2)^2 + 5, state the vertex.",
+   "walkthrough": "Here a = 1 and b = −4, so the axis is x = −b/(2a) = 2. Completing the square, y = (x − 2)^2 + 3, so the minimum value is 3. The vertex of y = (x − 2)^2 + 5 is (2, 5). The point (−2, 5) comes from reversing the sign inside the bracket, and (2, −5) reverses the sign of the constant outside."
+  },
+  "traps": [
+   "Using x = −b/a as the axis of symmetry and forgetting the 2 in the denominator.",
+   "Reporting the x-coordinate of the vertex when the question asks for the minimum value.",
+   "Reading y = (x − h)^2 + k as a vertex at (−h, k)."
+  ],
+  "terms": [
+   {
+    "term": "Axis of symmetry",
+    "definition": "For y = ax^2 + bx + c, the line x = −b/(2a)."
+   },
+   {
+    "term": "Vertex",
+    "definition": "The turning point of a parabola, where the maximum or minimum occurs."
+   },
+   {
+    "term": "y-intercept",
+    "definition": "The point where the graph meets the y-axis. For y = ax^2 + bx + c it is (0, c)."
+   }
+  ],
+  "unit": 3,
+  "practice": "functions-graphs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.3": {
+  "id": "L3.3",
+  "title": "Transformations of graphs",
+  "concept": "Transformations build a new graph from y = f(x) by a rule you can describe in words. Adding a constant outside the function, y = f(x) + k, translates the graph k units upwards if k is positive, and downwards if k is negative. It does not move the graph sideways. Adding a constant inside the function does the opposite of what the sign suggests: y = f(x + k) translates the graph k units to the left when k is positive. The point that used to occur at x = 0 now occurs when x + k = 0, that is at x = −k. Reflection is a sign change. y = −f(x) reflects the graph in the x-axis. y = f(−x) reflects it in the y-axis. A stretch depends on where the factor sits. y = k f(x) stretches vertically by factor k, away from the x-axis, when k > 1. y = f(kx) compresses horizontally by factor 1/k when k > 1: the graph is squeezed towards the y-axis. For example, y = f(2x) is half as wide as y = f(x), not twice as wide. The vertical version y = 2 f(x) is twice as tall. Order matters when several transformations are combined. Translate and then stretch is not always the same picture as stretch and then translate. In a compulsory-part question, name the transformation and the direction. A sketch without the direction, or with the horizontal shift reversed, usually loses the mark even when the shape looks similar.",
+  "example": {
+   "scenario": "The graph of y = f(x) is given. Describe the single transformation that produces y = f(x) + 3, the one that produces y = f(x + 2), and the one that produces y = f(2x).",
+   "walkthrough": "y = f(x) + 3 is a translation 3 units upwards. The 3 is outside f, so it changes outputs, not inputs. y = f(x + 2) is a translation 2 units to the left. The replacement x + 2 = 0 occurs at x = −2, which is left of the origin. y = f(2x) compresses the graph horizontally by a factor of 1/2. It is not a vertical stretch; a vertical stretch by 2 would be y = 2 f(x)."
+  },
+  "traps": [
+   "Moving y = f(x + 2) to the right. A positive number inside the brackets moves the graph left.",
+   "Describing y = f(2x) as a horizontal stretch by factor 2. The graph becomes narrower, by factor 1/2.",
+   "Reflecting in the wrong axis: y = −f(x) is the x-axis, and y = f(−x) is the y-axis."
+  ],
+  "terms": [
+   {
+    "term": "Translation",
+    "definition": "A slide of the whole graph. y = f(x) + k slides vertically; y = f(x + k) slides horizontally."
+   },
+   {
+    "term": "Reflection in the x-axis",
+    "definition": "The transformation y = −f(x), which reverses outputs above and below the x-axis."
+   },
+   {
+    "term": "Horizontal compression",
+    "definition": "y = f(kx) with k > 1 squeezes the graph towards the y-axis by factor 1/k."
+   }
+  ],
+  "unit": 3,
+  "practice": "functions-graphs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.1": {
+  "id": "L4.1",
+  "title": "Exponential and logarithmic equations",
+  "concept": "An exponential equation has the unknown in the exponent. If both sides can be written as powers of the same base, equate the exponents. Because 32 = 2^5, the equation 2^x = 32 has the single solution x = 5. A logarithm is the inverse operation: log_a b is the exponent to which a must be raised to obtain b. So log_3 81 = 4, because 3^4 = 81, and log_2 (x − 1) = 3 means x − 1 = 2^3 = 8, hence x = 9. The argument of a logarithm must be positive, so in that equation x − 1 > 0 is part of the solution check. Three laws do most of the algebra. The log of a product is a sum: log a + log b = log(ab). The log of a quotient is a difference: log a − log b = log(a/b). The log of a power brings the index down: log(a^n) = n log a. These laws do not let you add or subtract inside the log. log a + log b is not log(a + b), and it is not (log a)(log b). The change-of-base formula, log_a b = log_c b / log_c a, is used when the printed base is inconvenient. Also remember log_a a = 1 and log_a 1 = 0. When an equation mixes a log and a number, rewrite the number as a log of the same base, or rewrite the log statement as an exponential statement. Then check that every candidate keeps every argument positive. A root that makes an argument zero or negative is rejected even if the algebra produced it.",
+  "example": {
+   "scenario": "Solve 2^x = 32, and solve log_2 (x − 1) = 3. Also rewrite log a + log b − log c as a single logarithm.",
+   "walkthrough": "32 = 2^5, so x = 5. The second equation says x − 1 = 2^3 = 8, so x = 9. The candidate x = 8 forgets to add 1 after finding the argument. For the identity, the sum of logs is the log of a product and the difference is the log of a quotient, so the expression is log(ab/c), provided a, b and c are positive. It is not log(a + b − c)."
+  },
+  "traps": [
+   "Replacing log a + log b with log(a + b). Addition outside the log is multiplication inside.",
+   "Solving log_2 (x − 1) = 3 as x = 8, and forgetting to undo the '− 1'.",
+   "Accepting a solution that makes the argument of a logarithm negative or zero."
+  ],
+  "terms": [
+   {
+    "term": "Logarithm",
+    "definition": "log_a b is the power to which a must be raised to give b, with a > 0, a ≠ 1 and b > 0."
+   },
+   {
+    "term": "Argument of a log",
+    "definition": "The input of the logarithm. It must be positive."
+   },
+   {
+    "term": "Change of base",
+    "definition": "log_a b = log_c b / log_c a, for a valid base c."
+   }
+  ],
+  "unit": 4,
+  "practice": "exp-log-sequences",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.2": {
+  "id": "L4.2",
+  "title": "Arithmetic and geometric sequences",
+  "concept": "An arithmetic sequence adds a fixed common difference d at each step. If the first term is a, the n-th term is T_n = a + (n − 1)d. The sum of the first n terms is S_n = n/2 × [2a + (n − 1)d], which is also n/2 times the sum of the first and last terms. For 5, 8, 11, … the difference is 3, so the 15th term is 5 + 14 × 3 = 47. For an arithmetic series with a = 4, d = 3 and n = 20, S_20 = 10 × (8 + 57) = 650. Dropping the factor 1/2 doubles the sum. A geometric sequence multiplies by a fixed common ratio r. The n-th term is T_n = a r^(n − 1), not a r^n. If a = 5 and r = 2, the 6th term is 5 × 2^5 = 160. Using 2^6 is the off-by-one error. The sum of the first n terms is S_n = a(r^n − 1)/(r − 1) when r ≠ 1. If |r| < 1, the infinite sum exists and equals a/(1 − r). The series 12 + 6 + 3 + … has r = 1/2, so the sum to infinity is 12 / (1/2) = 24. If |r| ≥ 1 the infinite sum is not used. To decide which type a sequence is, test both rules. Equal steps such as 2, 4, 6, 8 are arithmetic. Equal multipliers such as 2, 6, 18, 54 are geometric. A run of equal terms can look like either, so check the whole list before you name it.",
+  "example": {
+   "scenario": "Find the 15th term of 5, 8, 11, … and the sum to infinity of 12 + 6 + 3 + … . Also find the 6th term of the geometric sequence with first term 5 and common ratio 2.",
+   "walkthrough": "The arithmetic sequence has d = 3, so T_15 = 5 + 14 × 3 = 47. The geometric series has r = 1/2, which satisfies |r| < 1, so S = 12 / (1 − 1/2) = 24. The 6th geometric term is 5 × 2^(5) = 160. The exponent is n − 1 = 5, not 6, so 320 is one step too far."
+  },
+  "traps": [
+   "Using T_n = a + n d, which skips the first term and is one difference too many.",
+   "Using T_n = a r^n for a geometric term. The exponent on the n-th term is n − 1.",
+   "Applying the infinite-sum formula when |r| is greater than or equal to 1."
+  ],
+  "terms": [
+   {
+    "term": "Common difference",
+    "definition": "The fixed amount added to each term of an arithmetic sequence."
+   },
+   {
+    "term": "Common ratio",
+    "definition": "The fixed multiplier from each term to the next in a geometric sequence."
+   },
+   {
+    "term": "Sum to infinity",
+    "definition": "For a geometric series with |r| < 1, S = a / (1 − r)."
+   }
+  ],
+  "unit": 4,
+  "practice": "exp-log-sequences",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.3": {
+  "id": "L4.3",
+  "title": "Direct, inverse, joint and partial variation",
+  "concept": "Variation is a stated proportion, and the first job is to turn the words into an equation with a constant k. If y varies directly as x, then y = kx. If y varies inversely as x, then y = k/x, or xy = k. If y varies jointly as x and z, then y = kxz. Partial variation mixes a constant part with a varying part: if y is partly constant and partly varies directly as x, then y = c + kx, and two pairs of data are needed to find both unknowns. The constant is found by substitution, not by guessing a multiplier. If y varies directly as x and y = 12 when x = 4, then k = 12/4 = 3, so y = 3x. When x = 10, y = 30. Doubling x does not mean you add 12 again. If instead y varies inversely as x and y = 6 when x = 3, then k = xy = 18. When x = 9, y = 2. Treating that pair as direct variation produces 18, which is the trap. In a word problem, write the sentence 'varies as' or 'varies inversely as' next to the equation before you calculate. Graphs give a check. Direct variation through the origin is a straight line y = kx. Inverse variation is a rectangular hyperbola in the first quadrant when x and y are positive. A straight line that does not pass through the origin is partial variation, not direct variation, because of the constant term. Compulsory-part questions often give one pair to find k and a second condition to find the unknown. Keep k as a fraction if it is not an integer, and substitute it back before the final step.",
+  "example": {
+   "scenario": "y varies directly as x, and y = 12 when x = 4. Find y when x = 10. Separately, y varies inversely as x, and y = 6 when x = 3. Find y when x = 9.",
+   "walkthrough": "Direct variation means y = kx. From 12 = 4k, k = 3, so y = 3 × 10 = 30. Inverse variation means xy = k. From the second pair, k = 18, so when x = 9, y = 2. The value 18 would be the result of wrongly using direct variation on the second pair. The value 12 on the first pair would be the result of adding the original y instead of scaling it."
+  },
+  "traps": [
+   "Using y = kx for a relationship that the question calls inverse.",
+   "Finding k from one pair and then adding k, instead of multiplying or dividing by it.",
+   "Calling y = c + kx direct variation. The constant c means the relation is partial."
+  ],
+  "terms": [
+   {
+    "term": "Direct variation",
+    "definition": "y varies directly as x means y = kx for a constant k ≠ 0."
+   },
+   {
+    "term": "Inverse variation",
+    "definition": "y varies inversely as x means y = k/x, or xy = k."
+   },
+   {
+    "term": "Partial variation",
+    "definition": "A relation with a constant part and a varying part, such as y = c + kx."
+   }
+  ],
+  "unit": 4,
+  "practice": "exp-log-sequences",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.1": {
+  "id": "L5.1",
+  "title": "Linear and quadratic inequalities",
+  "concept": "A linear inequality is solved like a linear equation, with one change of rule. Adding or subtracting the same number keeps the inequality sign. Multiplying or dividing by a positive number also keeps it. Multiplying or dividing by a negative number reverses it. From −2x ≥ 8, divide by −2 and reverse the sign to get x ≤ −4. Forgetting the reversal produces x ≥ −4, which fails as soon as you test a point. A compound inequality such as 1 < 2x + 3 ≤ 9 is two inequalities sharing the middle expression. Subtract 3 throughout to get −2 < 2x ≤ 6, then divide by 2 to get −1 < x ≤ 3. The strict part stays strict, and the inclusive part stays inclusive. Do not turn both ends into the same kind of bracket. A quadratic inequality is read from a graph or a sign diagram. First solve the related equation. For x^2 − 5x + 6 < 0, the roots are 2 and 3. The parabola opens upwards, so it is negative between the roots and positive outside them. The solution of the strict inequality is 2 < x < 3. The opposite inequality x^2 − 5x + 6 > 0 is x < 2 or x > 3. Endpoints belong to the solution only when the sign is ≤ or ≥, because that is where the expression is zero. For (x − 1)(x + 4) ≥ 0 the critical values are −4 and 1, and the product is non-negative outside them, including the endpoints: x ≤ −4 or x ≥ 1. Always test one value in each interval if the shape is not obvious.",
+  "example": {
+   "scenario": "Solve −2x ≥ 8, solve 1 < 2x + 3 ≤ 9, and solve x^2 − 5x + 6 < 0.",
+   "walkthrough": "Divide −2x ≥ 8 by −2 and reverse the sign: x ≤ −4. For the compound statement, subtract 3 to get −2 < 2x ≤ 6, then divide by 2 to get −1 < x ≤ 3. The left inequality stays strict. For the quadratic, (x − 2)(x − 3) < 0, so the expression is negative only between the roots: 2 < x < 3. Including the endpoints would solve the weak inequality ≤, and the region outside the roots solves the opposite sign."
+  },
+  "traps": [
+   "Forgetting to reverse the inequality when dividing by a negative number.",
+   "Solving a quadratic inequality as 'between the roots' even when the parabola opens downwards, or when the sign is >.",
+   "Including the roots in a strict inequality, where the expression is zero rather than negative."
+  ],
+  "terms": [
+   {
+    "term": "Inequality reversal",
+    "definition": "The inequality sign flips when both sides are multiplied or divided by a negative number."
+   },
+   {
+    "term": "Critical value",
+    "definition": "A root of the related equation, where a factored expression changes sign."
+   },
+   {
+    "term": "Compound inequality",
+    "definition": "Two inequality signs applied to the same expression, such as a < E ≤ b."
+   }
+  ],
+  "unit": 5,
+  "practice": "inequalities-lp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.2": {
+  "id": "L5.2",
+  "title": "Linear programming",
+  "concept": "Linear programming in the compulsory part finds the best value of a linear objective on a region cut out by linear constraints. Each constraint ax + by ≤ c, or ≥ c, is a half-plane bounded by the line ax + by = c. The feasible region is the intersection of those half-planes, often together with x ≥ 0 and y ≥ 0. A point is feasible only when it satisfies every constraint at once. For x ≥ 0, y ≥ 0 and x + y ≤ 4, the point (1, 2) works, but (3, 2) does not, because 3 + 2 = 5 exceeds 4. Draw each boundary, decide the correct side with a test point, and shade the region that survives all of the tests. The vertices of a closed region are the corner points where boundary lines meet, including intercepts that still satisfy the other inequalities. For x + y ≤ 10, 2x + y ≤ 16, x ≥ 0 and y ≥ 0, the corners are (0, 0), (8, 0), (6, 4) and (0, 10). The point (10, 0) lies on x + y = 10 but breaks 2x + y ≤ 16, so it is not a vertex of the feasible region. For a linear objective such as P = x + 2y, the maximum and minimum on a closed bounded region occur at a vertex. Evaluate P at each corner. On the triangle with vertices (0, 0), (4, 0) and (0, 3), P = x + 2y takes the values 0, 4 and 6, so the maximum is 6 at (0, 3). The optimum is not in general the origin, and it is not the midpoint of the longest side. If two corners give the same optimal value, every point on the edge between them is also optimal. State both the point and the value, because the question may ask for either.",
+  "example": {
+   "scenario": "Maximise P = x + 2y on the triangle with vertices (0, 0), (4, 0) and (0, 3). Which of (0, 0), (8, 0), (6, 4) and (10, 0) fails the constraints x + y ≤ 10 and 2x + y ≤ 16 with x, y ≥ 0?",
+   "walkthrough": "P(0, 0) = 0, P(4, 0) = 4 and P(0, 3) = 6, so the maximum is 6 at (0, 3). Among the four test points, (10, 0) gives 2(10) + 0 = 20, which is greater than 16, so it is outside the second constraint. The other three points satisfy both inequalities and the axes conditions, and they are vertices of that feasible region."
+  },
+  "traps": [
+   "Testing only one constraint and accepting a point that breaks another.",
+   "Looking for the optimum at an interior point. For a non-constant linear objective on a polygon, look at the vertices.",
+   "Including an intercept of one boundary line without checking the remaining inequalities."
+  ],
+  "terms": [
+   {
+    "term": "Constraint",
+    "definition": "An inequality that a feasible solution is required to satisfy."
+   },
+   {
+    "term": "Feasible region",
+    "definition": "The set of points that satisfy every constraint at the same time."
+   },
+   {
+    "term": "Objective function",
+    "definition": "The linear quantity, such as P = 3x + 2y, that is to be maximised or minimised."
+   }
+  ],
+  "unit": 5,
+  "practice": "inequalities-lp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.1": {
+  "id": "L6.1",
+  "title": "Straight lines: slope, parallel and perpendicular",
+  "concept": "The slope of the line through (x1, y1) and (x2, y2) is m = (y2 − y1)/(x2 − x1), provided the denominator is not zero. A vertical line has undefined slope and equation x = constant. For (1, 2) and (4, 8) the slope is (8 − 2)/(4 − 1) = 2. The distance between the points is √[(x2 − x1)^2 + (y2 − y1)^2]. From the origin to (3, 4) this is the 3-4-5 triangle, so the distance is 5, not 25 and not 3 + 4. The midpoint is the average of the coordinates. The midpoint of (2, −1) and (8, 5) is ((2+8)/2, (−1+5)/2) = (5, 2). Parallel lines have equal slopes. Perpendicular lines have slopes whose product is −1, so the perpendicular slope to m is −1/m when m ≠ 0. A line of slope 2 is perpendicular to a line of slope −1/2, not to a line of slope 1/2 and not to a line of slope −2. The point-slope form y − y1 = m(x − x1) builds an equation once you know a point and a slope. The perpendicular bisector of a segment uses both ideas: it passes through the midpoint and its slope is the negative reciprocal of the segment's slope. For A(0, 0) and B(4, 2), the midpoint is (2, 1), the segment slope is 1/2, and the bisector has slope −2, so y − 1 = −2(x − 2), or y = −2x + 5. Horizontal lines have slope 0. Do not confuse a slope of 0 with an undefined slope.",
+  "example": {
+   "scenario": "Find the slope of the line through (1, 2) and (4, 8), and the equation of the perpendicular bisector of the segment from (0, 0) to (4, 2).",
+   "walkthrough": "The slope is 6/3 = 2. The midpoint of (0, 0) and (4, 2) is (2, 1). The segment slope is 2/4 = 1/2, so the perpendicular slope is −2. The line through (2, 1) with that slope is y − 1 = −2(x − 2), which simplifies to y = −2x + 5. The line y = (1/2)x is the line through the two points, not its perpendicular bisector."
+  },
+  "traps": [
+   "Using the reciprocal of the slope, rather than the negative reciprocal, for a perpendicular line.",
+   "Adding the coordinates to find a midpoint, instead of averaging them.",
+   "Reporting the square of the distance, such as 25 for the distance from (0, 0) to (3, 4)."
+  ],
+  "terms": [
+   {
+    "term": "Slope",
+    "definition": "m = (y2 − y1)/(x2 − x1), the rate of change of y with respect to x."
+   },
+   {
+    "term": "Perpendicular slopes",
+    "definition": "Two lines are perpendicular if the product of their slopes is −1, when both slopes exist."
+   },
+   {
+    "term": "Midpoint",
+    "definition": "The point halfway between two points, found by averaging each coordinate."
+   }
+  ],
+  "unit": 6,
+  "practice": "coordinate-geometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.2": {
+  "id": "L6.2",
+  "title": "Equations of circles",
+  "concept": "The circle with centre (h, k) and radius r has equation (x − h)^2 + (y − k)^2 = r^2. Read the centre with the opposite signs of the numbers inside the brackets, and read the radius as the square root of the right-hand side. The circle (x − 1)^2 + (y + 2)^2 = 9 has centre (1, −2) and radius 3, not radius 9. The general form is x^2 + y^2 + Dx + Ey + F = 0. Completing the square gives centre (−D/2, −E/2) and radius √[(D/2)^2 + (E/2)^2 − F]. The expression under the square root must be positive for a real circle with positive radius, which is the condition D^2 + E^2 − 4F > 0. If that quantity is zero, the equation is a single point. If it is negative, there is no real locus. For x^2 + y^2 − 6x + 4y − 12 = 0, the centre is (3, −2). For x^2 + y^2 + 2x − 4y − 4 = 0, the centre is (−1, 2) and the radius is 3, because (x + 1)^2 + (y − 2)^2 = 9. A line meets a circle in two points, one point, or none. Substitute the line into the circle and look at the discriminant of the resulting quadratic, or compare the distance from the centre to the line with the radius. The line x + y = 2 and the circle x^2 + y^2 = 2 give distance 2/√2 = √2, equal to the radius, so the line is a tangent. It touches the circle at exactly one point. Intersection at the origin would require 0 = 2, which is false.",
+  "example": {
+   "scenario": "State the centre and radius of (x − 1)^2 + (y + 2)^2 = 9. Decide how the line x + y = 2 meets the circle x^2 + y^2 = 2.",
+   "walkthrough": "The centre is (1, −2) and the radius is √9 = 3. For the line and circle, the distance from (0, 0) to x + y − 2 = 0 is |−2|/√2 = √2, and the radius is also √2. Equal distance and radius means the line is a tangent: exactly one intersection point. It is not the origin, because the origin does not lie on the line."
+  },
+  "traps": [
+   "Taking the radius as the right-hand side of the centre-radius equation, instead of its square root.",
+   "Reading the centre of (x − h)^2 + (y + k)^2 as (h, k) and missing the sign in front of k.",
+   "Using D and E themselves as the centre of the general equation, instead of −D/2 and −E/2."
+  ],
+  "terms": [
+   {
+    "term": "Centre-radius equation",
+    "definition": "(x − h)^2 + (y − k)^2 = r^2 is the circle with centre (h, k) and radius r."
+   },
+   {
+    "term": "General equation of a circle",
+    "definition": "x^2 + y^2 + Dx + Ey + F = 0, representing a real circle when D^2 + E^2 − 4F > 0."
+   },
+   {
+    "term": "Tangent",
+    "definition": "A line that meets a circle at exactly one point. The distance from the centre equals the radius."
+   }
+  ],
+  "unit": 6,
+  "practice": "coordinate-geometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.3": {
+  "id": "L6.3",
+  "title": "Locus",
+  "concept": "A locus is the set of all points that satisfy a stated geometric condition. In coordinate geometry the condition becomes an equation, and the graph of that equation is the locus. If a point stays a fixed distance from a fixed point, the locus is a circle. A point that is always 3 units from (1, −1) traces the circle with that centre and radius 3, namely (x − 1)^2 + (y + 1)^2 = 9. It is not the vertical line x = 1, and the radius is 3 rather than 9. If a point stays equidistant from two fixed points, the locus is the perpendicular bisector of the segment joining them. That is why the construction in the straight-line lesson reappears here: midpoint plus negative-reciprocal slope. If a point stays a fixed distance from a fixed line, the locus is a pair of lines parallel to the given line, one on each side. If the distance to a fixed point equals the distance to a fixed line, the locus is a parabola. The compulsory course expects you to name the locus and, when the data are coordinates, to write its equation. Describe the condition in words before you choose the equation. 'Always 3 units from a point' cannot be a straight line. 'Equidistant from two points' cannot be a circle unless extra conditions are added. When the question gives a diagram that is not to scale, trust the stated distances and the equation, not the apparent shape of the sketch. State any restriction, such as the part of the line inside a region, if the question asks only for points in the first quadrant.",
+  "example": {
+   "scenario": "A point P moves so that its distance from (1, −1) is always 3. Describe the locus and write its equation. What is the locus of points equidistant from (0, 0) and (4, 2)?",
+   "walkthrough": "The first locus is the circle with centre (1, −1) and radius 3. Its equation is (x − 1)^2 + (y + 1)^2 = 9. The second locus is the perpendicular bisector of the segment joining the two points. Its midpoint is (2, 1) and the perpendicular slope is −2, so the equation is y = −2x + 5. That line is not the circle, and it is not the line through the two given points."
+  },
+  "traps": [
+   "Writing a circle equation with r^2 on the right when the stated distance is r, or the other way round.",
+   "Describing 'equidistant from two points' as a circle through those points.",
+   "Using a ruler on a not-to-scale sketch instead of the stated condition."
+  ],
+  "terms": [
+   {
+    "term": "Locus",
+    "definition": "The set of all points satisfying a given geometric condition."
+   },
+   {
+    "term": "Perpendicular bisector",
+    "definition": "The locus of points equidistant from two fixed points. It crosses the segment at its midpoint at right angles."
+   },
+   {
+    "term": "Fixed distance from a point",
+    "definition": "The condition whose locus is a circle, with that point as centre."
+   }
+  ],
+  "unit": 6,
+  "practice": "coordinate-geometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.1": {
+  "id": "L7.1",
+  "title": "Right-angled trigonometry and the sine and cosine graphs",
+  "concept": "In a right-angled triangle, sine, cosine and tangent are ratios of sides. For an acute angle θ, sin θ = opposite / hypotenuse, cos θ = adjacent / hypotenuse, and tan θ = opposite / adjacent. If the opposite side is 5 and the hypotenuse is 13, then sin θ = 5/13. The third side is 12 by Pythagoras, so cos θ = 12/13 and tan θ = 5/12. The ratio 13/5 is the reciprocal of sine, not sine itself. The identity sin^2 θ + cos^2 θ = 1 is the Pythagorean relation in ratio form. It lets you simplify expressions before you look up a value. For sin θ ≠ 0, (1 − cos^2 θ) / sin θ = sin^2 θ / sin θ = sin θ. Replacing 1 − cos^2 θ by cos^2 θ, or cancelling badly, is a common slip. The graphs of y = sin x and y = cos x have period 360° and amplitude 1. The graph of y = sin(bx) has period 360°/|b|. So y = sin(2x) has period 180°, not 360° and not 90°. A coefficient in front of the sine, as in y = 3 sin x, changes the amplitude to 3 and leaves the period at 360°. Angles of elevation and depression are measured from the horizontal. If you stand 40 m from the foot of a tower and the angle of elevation of the top is 30°, the height is the opposite side and 40 m is the adjacent side, so height = 40 tan 30° = 40/√3 metres. Using sine would treat 40 m as the hypotenuse, which is the line of sight, not the ground distance. Label the triangle before you choose the ratio.",
+  "example": {
+   "scenario": "In a right-angled triangle the side opposite θ is 5 and the hypotenuse is 13. Find sin θ. A tower is observed at an angle of elevation of 30° from a point 40 m from its foot. Express the height in terms of tan.",
+   "walkthrough": "sin θ = 5/13. The adjacent side is 12, so 12/13 is cos θ and 5/12 is tan θ. For the tower, the ground distance is adjacent to the angle of elevation, so height = 40 tan 30° = 40/√3 m. The expression 40 sin 30° would be correct only if 40 m were the line of sight. The expression 40√3 m is 40 tan 60°, from swapping opposite and adjacent."
+  },
+  "traps": [
+   "Using the hypotenuse as the denominator of tan. Tangent does not use the hypotenuse.",
+   "Giving the period of y = sin(2x) as 360°. The period is 360° divided by 2.",
+   "Treating the ground distance as the hypotenuse in an elevation problem."
+  ],
+  "terms": [
+   {
+    "term": "Sine",
+    "definition": "In a right-angled triangle, opposite over hypotenuse."
+   },
+   {
+    "term": "Period",
+    "definition": "The length of one complete cycle. For y = sin(bx) in degrees it is 360°/|b|."
+   },
+   {
+    "term": "Angle of elevation",
+    "definition": "The angle between the horizontal and the line of sight looking up."
+   }
+  ],
+  "unit": 7,
+  "practice": "trigonometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.2": {
+  "id": "L7.2",
+  "title": "Sine rule, cosine rule and area",
+  "concept": "When a triangle is not right-angled, the sine and cosine rules replace the basic ratios. The sine rule says a / sin A = b / sin B = c / sin C. Use it when you know a side and its opposite angle, plus one more piece that matches. If a = 7, A = 30° and B = 45°, then b = 7 × sin 45° / sin 30° = 7 × (√2/2) / (1/2) = 7√2. Forgetting to divide by sin 30°, or multiplying the sines, produces a smaller value. The cosine rule finds a side from two sides and the included angle: a^2 = b^2 + c^2 − 2bc cos A. Rearranged, cos A = (b^2 + c^2 − a^2) / (2bc). For sides 5, 5 and 6, the angle opposite the side of length 6 has cosine (25 + 25 − 36) / 50 = 7/25. The side opposite the angle you want must be the one that is subtracted. The largest angle is opposite the longest side, so in a 7-8-9 triangle the largest angle is opposite the side of length 9. The area formula (1/2)ab sin C uses two sides and the included angle. With sides 8 and 10 and included angle 30°, the area is (1/2) × 8 × 10 × sin 30° = 20. Using sin 60° instead inserts an unwanted factor of √3. The ambiguous case appears with two sides and a non-included angle (SSA). If the given angle is acute and the opposite side is longer than the altitude to the other given side but shorter than that side, two triangles fit the data. If the given angle is included between the two sides, the case is SAS and the triangle is unique. Say which case you have before you draw a second triangle.",
+  "example": {
+   "scenario": "In triangle ABC, a = 7, A = 30° and B = 45°. Find b. Also find the area of a triangle with sides 8 and 10 including an angle of 30°.",
+   "walkthrough": "By the sine rule, b / sin 45° = 7 / sin 30°, so b = 7 × sin 45° / sin 30° = 7√2. The value 7√2/2 stops before dividing by sin 30°. The area is (1/2) × 8 × 10 × (1/2) = 20. Dropping the factor 1/2 gives 40, and using sin 60° gives 20√3."
+  },
+  "traps": [
+   "Using the cosine rule with the wrong side subtracted, so the angle found is not the one opposite the chosen side.",
+   "Applying the sine rule to an included angle as if it were opposite one of the given sides.",
+   "Drawing only one triangle in the SSA ambiguous case when two triangles are possible."
+  ],
+  "terms": [
+   {
+    "term": "Sine rule",
+    "definition": "a / sin A = b / sin B = c / sin C."
+   },
+   {
+    "term": "Cosine rule",
+    "definition": "a^2 = b^2 + c^2 − 2bc cos A, used for SAS and SSS."
+   },
+   {
+    "term": "Ambiguous case",
+    "definition": "SSA data that can determine two different triangles when the given angle is acute and the opposite side lies between the altitude and the adjacent side."
+   }
+  ],
+  "unit": 7,
+  "practice": "trigonometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.3": {
+  "id": "L7.3",
+  "title": "Two-dimensional and three-dimensional problems",
+  "concept": "A trigonometry problem in the compulsory paper is usually a labelled diagram plus a sentence about elevation, depression, bearings, or an angle in space. Start by copying the diagram and marking the right angles you are allowed to use. An angle that looks like 90° is 90° only if the question says so, or if it follows from horizontal and vertical lines. In a bearing problem, measure the bearing clockwise from north, and draw a north line at the point where the bearing is taken. The angle inside your triangle is often the difference of two bearings, not the bearing itself. In three dimensions, reduce the figure to a right-angled triangle in a plane you can name. The angle between a line and a plane is the angle between the line and its projection on the plane. If a line meets a plane and you know the angle α between the line and the normal to the plane, the angle between the line and the plane is 90° − α. The angle between two planes is the angle between their normals, or equivalently the angle between two lines of greatest slope, one in each plane, both perpendicular to the line of intersection. A vertical pole on horizontal ground is the standard model. From a point A on the ground, 15 m from the foot, with angle of elevation 40°, the height is 15 tan 40°. Here 15 m is adjacent, not the hypotenuse, so 15 sin 40° is the wrong model. Show the triangle you used, write the ratio in symbols, and only then substitute. A correct method with a small arithmetic slip can still earn the method mark on Paper 1 if the triangle and the ratio are visible.",
+  "example": {
+   "scenario": "A vertical pole stands on horizontal ground. From a point 15 m from the foot, the angle of elevation of the top is 40°. Which ratio gives the height? Separately, if a line makes an angle α with the normal to a plane, what is the angle between the line and the plane?",
+   "walkthrough": "In the right-angled triangle, the height is opposite the 40° angle and 15 m is adjacent, so the height is 15 tan 40°. Using 15 sin 40° would require 15 m to be the line of sight. The angle between the line and the plane is the complement of the angle between the line and the normal, so it is 90° − α."
+  },
+  "traps": [
+   "Measuring an angle of elevation from the vertical instead of from the horizontal.",
+   "Assuming a diagram is to scale and measuring it, when the question gives the lengths in the text.",
+   "Calling the angle between a line and a plane equal to the angle between the line and the normal."
+  ],
+  "terms": [
+   {
+    "term": "Angle between a line and a plane",
+    "definition": "The angle between the line and its projection on the plane. It is 90° minus the angle between the line and the normal."
+   },
+   {
+    "term": "Bearing",
+    "definition": "A direction measured clockwise from north, written as a three-figure angle."
+   },
+   {
+    "term": "Projection on a plane",
+    "definition": "The shadow of a line on the plane when light arrives along the normal. It is used to define the angle with the plane."
+   }
+  ],
+  "unit": 7,
+  "practice": "trigonometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.1": {
+  "id": "L8.1",
+  "title": "Presenting data and measures of centre",
+  "concept": "A data set can be summarised by a picture or by a single typical value, and the two jobs are different. A histogram uses area to represent frequency. When class widths are equal, bar height can stand for frequency. When widths differ, the height must be frequency density, frequency divided by class width. If one class is twice as wide as another and both have the same frequency, the wider bar is half as tall. Drawing it twice as tall double-counts the area and misleads the reader. A cumulative-frequency polygon reads medians and quartiles from the curve. A stem-and-leaf diagram keeps the original numbers and still shows the shape. The three usual measures of centre are the mean, the median and the mode. The mean is the sum divided by the number of values. For 4, 6, 6, 10 and 14 the sum is 40 and the mean is 8. The median is the middle value once the list is ordered; here it is 6. The mode is the most frequent value, also 6. They answer different questions. An extreme value such as 20 in the list 3, 5, 7, 8, 20 pulls the mean hard and leaves the median almost still. For a symmetric unimodal distribution the three measures agree: mean = median = mode. A right-skewed distribution, with a long tail of large values, typically has mean > median > mode. Say which measure you are using. 'The average' in an exam answer is not precise enough when the question has distinguished them. A weighted mean multiplies each value by its frequency before dividing by the total frequency. Forgetting a frequency, or dividing by the number of classes instead of the number of observations, is a frequent arithmetic error.",
+  "example": {
+   "scenario": "For the data 4, 6, 6, 10, 14, state the mean, the median and the mode. In a histogram with unequal class widths, two classes have the same frequency and one is twice as wide. Compare their bar heights.",
+   "walkthrough": "The sum is 40 and there are 5 values, so the mean is 8. Ordered, the middle value is 6, so the median is 6. The mode is 6 because it occurs twice. In the histogram, frequency density is frequency divided by width, so the class that is twice as wide has half the height. Equal heights would claim equal densities, which these classes do not have."
+  },
+  "traps": [
+   "Using bar height for frequency when class widths are unequal. Area, not height, carries the frequency.",
+   "Calling the mean, median and mode the same number without calculating each one.",
+   "Letting one extreme value change your report of the median as much as it changes the mean."
+  ],
+  "terms": [
+   {
+    "term": "Mean",
+    "definition": "The sum of the values divided by how many there are."
+   },
+   {
+    "term": "Median",
+    "definition": "The middle value of an ordered list, or the average of the two middle values when the count is even."
+   },
+   {
+    "term": "Frequency density",
+    "definition": "Frequency divided by class width. It is the height of a histogram bar when widths differ."
+   }
+  ],
+  "unit": 8,
+  "practice": "statistics",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.2": {
+  "id": "L8.2",
+  "title": "Dispersion: range, interquartile range and standard deviation",
+  "concept": "Dispersion measures how spread out a data set is. The range is the maximum minus the minimum. It is easy to compute and easy to distort, because one extreme value changes it. The interquartile range is Q3 − Q1. It describes the middle half of the data and ignores the outer quarters, so it resists a single outlier better than the range does. The standard deviation used in the compulsory part divides by n, not by n − 1. If the mean is x-bar, then σ = √[ Σ(x − x-bar)^2 / n ], which equals √[ (Σ x^2)/n − (x-bar)^2 ]. The variance is the square of the standard deviation, not the square root. A standard deviation cannot be negative, and it is not automatically larger than the range. Coding the data changes these measures in predictable ways. If every value is increased by 5, the mean increases by 5 and the standard deviation is unchanged, because the gaps between values stay the same. If every value is multiplied by 3, the mean is multiplied by 3 and the standard deviation is multiplied by 3. The variance is multiplied by 9, which is the square of 3. A linear coding y = (x − 50)/2 shifts by −50, which does not change the spread, and then scales by 1/2, so a standard deviation of 4 becomes 2. In a question, write the coding, state what happens to the mean, and only then state what happens to the standard deviation. Mixing those two sentences is the usual way to lose the mark.",
+  "example": {
+   "scenario": "A set has mean 50 and standard deviation 4. Every score is then replaced by y = (x − 50)/2. Find the standard deviation of y. What happens to the standard deviation if, instead, every original score is increased by 5?",
+   "walkthrough": "Subtracting 50 does not change the spread. Dividing by 2 multiplies the standard deviation by 1/2, so the new standard deviation is 2. Adding 5 to every score moves the mean from 50 to 55 and leaves the standard deviation at 4. Multiplying the standard deviation by 5, or adding 5 to it, describes a different transformation."
+  },
+  "traps": [
+   "Dividing by n − 1 in the compulsory-part formula. The syllabus formula divides by n.",
+   "Saying the standard deviation increases by 5 when every datum increases by 5.",
+   "Squaring the standard deviation when the question asks for the standard deviation after a scaling, or multiplying the variance by 3 instead of 9."
+  ],
+  "terms": [
+   {
+    "term": "Interquartile range",
+    "definition": "Q3 − Q1, the spread of the middle half of the data."
+   },
+   {
+    "term": "Standard deviation",
+    "definition": "The square root of the mean of the squared deviations from the mean, using divisor n in this course."
+   },
+   {
+    "term": "Variance",
+    "definition": "The square of the standard deviation."
+   }
+  ],
+  "unit": 8,
+  "practice": "statistics",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.3": {
+  "id": "L8.3",
+  "title": "Uses and abuses of statistics",
+  "concept": "A statistic can be calculated correctly and still be used to mislead. The compulsory topic 'uses and abuses of statistics' asks you to notice the presentation, not only the arithmetic. A bar chart whose vertical axis starts at 40 instead of 0 makes small differences look large, because the eye reads the length of the bar from the bottom of the picture. The data have not changed, and neither has the mean. A pictogram that doubles the height and the width of an icon multiplies the area by four, so a doubling of the quantity is drawn as a fourfold increase. Unequal class widths drawn with height equal to frequency, rather than frequency density, inflate the wide classes. Correlation is not causation. Two quantities can rise together because a third factor moves both, or by chance in a short series. A scatter diagram with a positive trend does not by itself prove that one variable produces the other. An average can rise while some individuals fall. If the class mean increases, it does not follow that every student improved. The mean is one number about the whole group. A sample that is not representative — only volunteers, or only one form, or only people who reply — cannot be treated as the population. When you criticise a diagram in an answer, name the device: truncated axis, area encoding, missing scale, or a percentage without the base. Then say what a reader is likely to believe that the figures do not support. That sentence is the mark. Calculating a new mean is not required unless the question asks for one.",
+  "example": {
+   "scenario": "A bar chart of test averages starts the vertical axis at 40 rather than 0. A speaker also says that because the class mean rose, every student improved. Explain each abuse.",
+   "walkthrough": "Starting the axis at 40 shortens the visual baseline, so gaps between bars look larger than the same gaps on an axis that starts at 0. The averages themselves are unchanged. The second claim confuses a statement about the mean with a statement about every member of the class. The mean can rise because some large increases outweigh other students' decreases."
+  },
+  "traps": [
+   "Treating a rising mean as proof that every observation increased.",
+   "Reading a truncated bar chart as if the bar lengths were proportional to the values.",
+   "Inferring that one variable causes another from a correlation alone."
+  ],
+  "terms": [
+   {
+    "term": "Truncated axis",
+    "definition": "An axis that does not start at zero, which can exaggerate differences between bars."
+   },
+   {
+    "term": "Correlation",
+    "definition": "A statistical association between two variables. It does not by itself show that one causes the other."
+   },
+   {
+    "term": "Representative sample",
+    "definition": "A sample whose selection lets it stand in for the population being described."
+   }
+  ],
+  "unit": 8,
+  "practice": "statistics",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.1": {
+  "id": "L9.1",
+  "title": "Probability rules and conditional probability",
+  "concept": "For a finite set of equally likely outcomes, the probability of an event is the number of favourable outcomes divided by the number of possible outcomes. A fair die has six faces. The primes among them are 2, 3 and 5, so the probability of a prime is 3/6 = 1/2. The number 1 is not prime. For any events A and B, the addition rule is P(A ∪ B) = P(A) + P(B) − P(A ∩ B). If P(A) = 0.4, P(B) = 0.5 and P(A ∩ B) = 0.2, then P(A ∪ B) = 0.7. Adding the two probabilities without subtracting the overlap double-counts the intersection and can even exceed 1. Mutually exclusive events cannot happen together, so P(A ∩ B) = 0 and the addition rule shortens to a plain sum. Independent events are a different idea. Independence means that knowing one event does not change the probability of the other: P(A ∩ B) = P(A)P(B), and P(A | B) = P(A) when P(B) > 0. Two events with positive probability cannot be both mutually exclusive and independent, because 0 would have to equal a positive product. Conditional probability is P(A | B) = P(A ∩ B) / P(B). If P(A) = 0.6, P(B) = 0.5 and P(A ∩ B) = 0.2, then P(A | B) = 0.2 / 0.5 = 0.4. That is not P(A), and it is not the intersection itself. In a two-way setting, compute the joint probabilities first. If 40% of a group are girls, 30% of the girls play piano and 20% of the boys play piano, then P(girl and piano) = 0.12 and P(boy and piano) = 0.12. Given that the selected student plays piano, the probability that the student is a girl is 0.12 / 0.24 = 0.5. Write the condition in the denominator.",
+  "example": {
+   "scenario": "P(A) = 0.4, P(B) = 0.5 and P(A ∩ B) = 0.2. Find P(A ∪ B). If instead P(A) = 0.6, P(B) = 0.5 and P(A ∩ B) = 0.2, find P(A | B).",
+   "walkthrough": "The union is 0.4 + 0.5 − 0.2 = 0.7. Omitting the subtraction gives 0.9, which counts the overlap twice. The conditional probability is 0.2 / 0.5 = 0.4. Using P(A) = 0.6 would ignore the condition that B has occurred. Using 0.2 alone reports the joint probability, not the conditional one."
+  },
+  "traps": [
+   "Adding P(A) and P(B) without subtracting the intersection.",
+   "Treating mutually exclusive events as independent. Exclusive events with positive probability are dependent.",
+   "Computing P(A | B) as P(A ∩ B), or as P(A), instead of dividing by P(B)."
+  ],
+  "terms": [
+   {
+    "term": "Mutually exclusive",
+    "definition": "Events that cannot occur together, so their intersection has probability 0."
+   },
+   {
+    "term": "Independent events",
+    "definition": "Events satisfying P(A ∩ B) = P(A)P(B). One does not change the probability of the other."
+   },
+   {
+    "term": "Conditional probability",
+    "definition": "P(A | B) = P(A ∩ B) / P(B), the probability of A given that B has occurred."
+   }
+  ],
+  "unit": 9,
+  "practice": "probability-counting",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.2": {
+  "id": "L9.2",
+  "title": "Permutations and combinations",
+  "concept": "Counting starts with one question: does the order of selection matter? If it does, use a permutation. If it does not, use a combination. The number of ways to arrange r objects out of n distinct objects, where order matters and there is no repetition, is nPr = n! / (n − r)!. The number of ways to choose r objects out of n, where order does not matter, is nCr = n! / [r! (n − r)!]. Choosing 3 students from 8, when a committee has no internal order, is C(8, 3) = (8 × 7 × 6) / (3 × 2 × 1) = 56. The permutation P(8, 3) = 336 counts ordered selections, such as a chair, a secretary and a treasurer. Arranging 5 distinct books in a row is 5! = 120, because every position is ordered. A password of 2 distinct letters chosen from 5 letters, where the order of the two letters matters, is P(5, 2) = 5 × 4 = 20. The combination C(5, 2) = 10 would be right only if AB and BA were the same password. If repetition is allowed and order matters, each place has 5 choices and the count is 5^2 = 25, a different model. From the digits 1, 2, 3 and 4, the number of 3-digit numbers with no repeated digit is P(4, 3) = 4 × 3 × 2 = 24. Say the rule in a sentence before you pick the formula. 'A team of 3' is usually a combination. 'A queue', 'a ranking' or 'a code' is usually a permutation. Dividing by an extra factorial, or forgetting to divide by r!, is how these two get swapped.",
+  "example": {
+   "scenario": "In how many ways can a committee of 3 be chosen from 8 students? In how many ways can 5 distinct books be arranged on a shelf? How many 3-digit numbers use three different digits from 1, 2, 3, 4?",
+   "walkthrough": "The committee does not order its members, so the count is C(8, 3) = 56. Using P(8, 3) = 336 would assign the three selected students to different posts that the question did not mention. The books are arranged, so order matters and the count is 5! = 120. The 3-digit numbers are ordered and have no repetition, so the count is P(4, 3) = 24."
+  },
+  "traps": [
+   "Using a permutation when the selected group has no order, which multiplies the answer by r!.",
+   "Using a combination for a password or a ranking, which treats different orders as the same.",
+   "Allowing repeated digits in a count that the question says must use different digits."
+  ],
+  "terms": [
+   {
+    "term": "Permutation",
+    "definition": "An arrangement in which order matters. nPr = n! / (n − r)!."
+   },
+   {
+    "term": "Combination",
+    "definition": "A selection in which order does not matter. nCr = n! / [r! (n − r)!]."
+   },
+   {
+    "term": "Factorial",
+    "definition": "n! = n × (n − 1) × … × 1, and 0! = 1."
+   }
+  ],
+  "unit": 9,
+  "practice": "probability-counting",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.3": {
+  "id": "L9.3",
+  "title": "Combined events without replacement",
+  "concept": "When objects are drawn one after another without replacement, the second probability depends on what has already been removed. A bag contains 3 red balls and 2 blue balls, so 5 balls in total. The probability that the first ball is red is 3/5. If it is not replaced, 2 red balls remain out of 4, so the probability that the second is also red is 2/4. The probability that both are red is (3/5) × (2/4) = 3/10. The same result comes from combinations: C(3, 2) / C(5, 2) = 3/10. The with-replacement calculation (3/5) × (3/5) = 9/25 answers a different experiment, because the first ball would have been put back. Tree diagrams keep the branches honest. Each path is a product, and mutually exclusive paths that make up the same event are added. If the question says 'at least one red', it is often shorter to compute the complement, both blue, and subtract from 1. Conditional language changes the sample space. 'Given that the student is not a boy' restricts the denominator to the students who meet the condition. In the piano example from the probability lesson, conditioning on being a piano player replaced the whole group by the piano players only. Do not cancel a factor that appears in only one stage of a without-replacement product. Write the fraction at each stage with its new denominator. On Paper 2, the distractor is often the with-replacement answer or the permutation of the same objects. Read the words 'replaced' and 'order' before you commit.",
+  "example": {
+   "scenario": "A bag contains 3 red and 2 blue balls. Two balls are drawn at random without replacement. Find the probability that both are red. What would the probability be if the first ball were replaced?",
+   "walkthrough": "Without replacement, P(both red) = (3/5) × (2/4) = 6/20 = 3/10. Equivalently, C(3, 2)/C(5, 2) = 3/10. With replacement, the second draw is again 3/5, so the probability is 9/25. Those two answers must not be swapped. The value 3/5 is only the probability that the first ball is red."
+  },
+  "traps": [
+   "Using (3/5) × (3/5) for a draw without replacement.",
+   "Forgetting to shrink the denominator after the first object is removed.",
+   "Adding the stage probabilities instead of multiplying them along a path."
+  ],
+  "terms": [
+   {
+    "term": "Without replacement",
+    "definition": "A draw in which the selected object is not returned, so later probabilities change."
+   },
+   {
+    "term": "Complement",
+    "definition": "The event that A does not occur. Its probability is 1 − P(A)."
+   },
+   {
+    "term": "Tree diagram",
+    "definition": "A diagram of successive outcomes. Multiply along a path and add across mutually exclusive paths."
+   }
+  ],
+  "unit": 9,
+  "practice": "probability-counting",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.1": {
+  "id": "L10.1",
+  "title": "How the compulsory papers are organised",
+  "concept": "The compulsory mathematics examination is two written papers, and there is no school-based assessment for this subject. Paper 1 is the conventional paper: you write working, and it carries 65% of the subject mark. The current published length is 2 hours 15 minutes. It has a shorter-question section and a longer-question section, and the questions are compulsory. Paper 2 is the multiple-choice paper. It carries 35% of the subject mark, lasts 1 hour 15 minutes, and contains 45 questions. There is no extra penalty for a wrong multiple-choice answer beyond losing that one mark, so a blank bubble is weaker than an educated guess once you have deleted two options. Section A of Paper 2 concentrates on the foundation topics; Section B reaches further into the non-foundation topics. The time budget on Paper 2 is tight. Forty-five questions in 75 minutes is 100 seconds each if you use the whole paper, so a practical plan is about one and a half minutes a question, with a few minutes left to return to flagged items. Spending 40 minutes on the first ten questions leaves the rest of the paper under-answered. On Paper 1, read the whole question before you write. A part that says 'hence' is telling you to use the previous result. A part that says 'exact value' does not want a decimal. The weightings and the timing are set in the assessment framework. They can be adjusted, so the confirmation copy is the Hong Kong Examinations and Assessment Authority website for the year you sit, not a recollection from a tuition handout. Use this lesson to plan the paper you will actually sit, and use the earlier units to supply the mathematics.",
+  "example": {
+   "scenario": "A candidate has 1 hour 15 minutes for 45 multiple-choice questions and has already eliminated two options on a question. What is a sensible time plan for the paper, and should the remaining question be left blank?",
+   "walkthrough": "About one and a half minutes per question uses roughly 67 minutes and leaves a short review. Three minutes each would need more than two hours. Once two options are gone, compare the remaining pair with the stem and answer. A wrong choice costs that mark and nothing further, so leaving the bubble blank gives the mark away. There is no rule that option C is correct more often than the others."
+  },
+  "traps": [
+   "Leaving multiple-choice items blank because of a belief that wrong answers are penalised beyond the lost mark.",
+   "Spending several minutes on the first few Paper 2 items and never reaching Section B.",
+   "Memorising a weighting from a past year without checking the current assessment framework."
+  ],
+  "terms": [
+   {
+    "term": "Paper 1",
+    "definition": "The conventional written paper of the compulsory part, currently weighted at 65%."
+   },
+   {
+    "term": "Paper 2",
+    "definition": "The 45-question multiple-choice paper, currently 1 hour 15 minutes and weighted at 35%."
+   },
+   {
+    "term": "Foundation topics",
+    "definition": "The portion of the compulsory syllabus that Paper 2 Section A is written to cover more heavily."
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-skills",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.2": {
+  "id": "L10.2",
+  "title": "Working, exact answers and follow-through",
+  "concept": "Paper 1 marks are split between method and answer. A correct method that is visible on the page can earn the method mark even when the last arithmetic line is wrong. An answer with no working, on a question that asks you to show or find a result in several lines, often earns only the answer mark or nothing, depending on the mark scheme. Write the formula you are using, substitute, and then compute. If a later part says 'hence', use the earlier result. If you could not finish part (a), you may still continue: many schemes allow follow-through, so a correct use of your own previous answer can earn the later method marks. Inventing a fresh method that ignores 'hence' often misses the point the setter prepared. Exact form means exact form. If the clean answer is √3, a decimal such as 1.73 is a different instruction. When the question says 'correct to 3 significant figures', then you round, and you round at the end. The fraction 2/3 is 0.666…, which to 3 significant figures is 0.667, not 0.666 and not 0.66. Keep guard figures in the calculator and do not round a square root to 3 significant figures and then square it again. Diagrams that are labelled 'not to scale' are sketches. Do not measure them with a ruler, and do not treat an angle as 90° because it looks square. Use the labels and the geometric facts. Inequality questions need the reversal written down when you divide by a negative number. That one written line is the method. A negative sign dropped in the head, with a correct final letter by luck, is hard for an examiner to reward.",
+  "example": {
+   "scenario": "A question asks for an exact value and the working produces √3. A later part says 'hence'. Separately, 2/3 must be given correct to 3 significant figures. What should you write?",
+   "walkthrough": "Write √3, not 1.73. The decimal is a rounded value, and the question did not ask for one. For the later part, start from the result of the earlier part, including a result you have assumed if you could not prove it, and show the hence step. The 3-significant-figure form of 2/3 is 0.667, because the digit after 0.666 is large enough to round the last place up. Writing 0.66 gives only two significant figures."
+  },
+  "traps": [
+   "Replacing an exact surd by a truncated decimal when the question says 'exact'.",
+   "Rounding 0.666… to 0.666 or 0.66 when 3 significant figures were requested.",
+   "Abandoning a 'hence' part because part (a) was incomplete."
+  ],
+  "terms": [
+   {
+    "term": "Method mark",
+    "definition": "A mark for a correct method shown in the working, even if the final arithmetic is wrong."
+   },
+   {
+    "term": "Follow-through",
+    "definition": "Credit in a later part for correctly using an earlier answer, including a wrong earlier answer, when the scheme allows it."
+   },
+   {
+    "term": "Exact value",
+    "definition": "A form such as a fraction or a surd, not a rounded decimal, unless rounding is requested."
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-skills",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.3": {
+  "id": "L10.3",
+  "title": "Common mark-losses, and where M1 and M2 begin",
+  "concept": "Most compulsory-part marks are lost on a short list of habits, not on missing a rare theorem. Reversing an inequality when you divide by a negative number, using n instead of n − 1 in a sequence term, reading a horizontal translation in the wrong direction, and treating a 'not to scale' diagram as a measuring exercise are all in the earlier units because they recur. Two further habits belong to the examination itself. First, answer the question that was asked: a minimum value is a y-coordinate, a bearing is measured from north, and a probability condition belongs in the denominator. Second, do not import the extended modules into a compulsory paper. The Extended Part is a different examination. Module 1 includes the binomial expansion for positive integers in more depth, probability distributions such as the binomial, geometric, Poisson and normal, and introductory differentiation and integration used with statistics. Module 2 includes mathematical induction, a wider binomial expansion, vectors, matrices and a fuller calculus course. None of that is required of a candidate who sits only the Compulsory Part. Differentiation, integration, the normal distribution and matrix multiplication are not compulsory topics, and they do not replace standard deviation, coordinate geometry of the circle, or the sine and cosine rules. Those three are compulsory. If a practice paper asks for a z-table or a derivative, check that you are looking at an extended-module paper. The boundary is the useful light touch: know the names well enough to recognise them, and spend the revision hour on the compulsory list instead. The live syllabus boundaries are those published by the Examinations and Assessment Authority.",
+  "example": {
+   "scenario": "A compulsory-part candidate meets a practice question on the normal distribution, and another that asks for a derivative. Which paper do those questions belong to, and which compulsory topics are easy to confuse with them?",
+   "walkthrough": "The normal distribution is Module 1 material, and differentiation is extended-module calculus, in M1 or M2 depending on the treatment. Neither is part of the Compulsory Part. Standard deviation, which is compulsory, is not the normal distribution. The equation of a circle and the sine and cosine rules are also compulsory and should not be dropped to make room for matrices or integration. If the question sits on a compulsory past paper, re-read it: it is asking for a compulsory method."
+  },
+  "traps": [
+   "Revising calculus for a compulsory-only entry. The hours are better spent on the compulsory topics that are actually set.",
+   "Dropping the sine rule or standard deviation because they 'feel like' extended-module statistics.",
+   "Reversing an inequality in the last line of an otherwise correct Paper 1 solution."
+  ],
+  "terms": [
+   {
+    "term": "Compulsory Part",
+    "definition": "The mathematics examination taken by all candidates in this subject, assessed by Paper 1 and Paper 2 only."
+   },
+   {
+    "term": "Module 1",
+    "definition": "The extended module whose extra material includes probability distributions and introductory calculus. Not part of this path."
+   },
+   {
+    "term": "Module 2",
+    "definition": "The extended module whose extra material includes vectors, matrices and a fuller calculus course. Not part of this path."
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-skills",
+  "passThreshold": 7,
+  "reviewed": true
+ }
+}
