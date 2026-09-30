@@ -1,3 +1,4 @@
+import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
 import type { DrillQuestion } from "@/lib/dse/drills";
@@ -13,6 +14,20 @@ export type DrillSubjectMeta = {
 };
 
 export const DRILL_SUBJECT_META: Record<string, DrillSubjectMeta> = {
+  bafs: {
+    nameZh: "企業、會計與財務概論",
+    nameEn: "BAFS",
+    learnHref: "/dse/bafs/learn",
+    learnLabel: "BAFS 自學路徑",
+    videoHref: "/dse/videos",
+    keywords: [
+      "DSE BAFS",
+      "DSE BAFS MCQ",
+      "企業會計與財務概論 練習",
+      "BAFS 溫習",
+      "dse bafs practice",
+    ],
+  },
   econ: {
     nameZh: "經濟科",
     nameEn: "Economics",
@@ -52,6 +67,10 @@ const EXTRA_TOPIC_LABELS: Record<string, { zh: string; en: string }> = {
 export type TopicLabel = { zh: string; en: string; unitId: number | null };
 
 export function topicLabel(subject: string, topic: string): TopicLabel {
+  if (subject === "bafs") {
+    const u = BAFS_UNITS.find((x) => x.topicKey === topic);
+    if (u) return { zh: u.titleZh, en: u.title, unitId: u.id };
+  }
   if (subject === "econ") {
     const u = ECON_UNITS.find((x) => x.topicKey === topic);
     if (u) return { zh: u.titleZh, en: u.title, unitId: u.id };
@@ -68,7 +87,12 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
 
 /** Pass mark shared by every unit gate in a subject's learn path. */
 export function learnPassThreshold(subject: string): number {
-  const units = subject === "econ" ? ECON_UNITS : ENGLISH_UNITS;
+  const units =
+    subject === "bafs"
+      ? BAFS_UNITS
+      : subject === "econ"
+        ? ECON_UNITS
+        : ENGLISH_UNITS;
   return Math.min(...units.map((u) => u.passThreshold));
 }
 
