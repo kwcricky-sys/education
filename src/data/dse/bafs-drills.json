@@ -1,0 +1,1956 @@
+{
+ "meta": {
+  "title": "DSE BAFS Drill Bank",
+  "subject": "DSE bafs",
+  "language": "en",
+  "total": 108,
+  "version": "1.0",
+  "reviewed": true
+ },
+ "questions": [
+  {
+   "id": "BAFS-BENV-001",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "What is a stakeholder?",
+   "options": [
+    "A. Only employees",
+    "B. Anyone affected by or interested in a business",
+    "C. Only government",
+    "D. Only shareholders"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Anyone affected by or interested in a business is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-002",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "PEST 'E' stands for",
+   "options": [
+    "A. Export policy only",
+    "B. Environmental ethics",
+    "C. Economic factors",
+    "D. Employee relations"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Economic factors is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-003",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Shareholders are",
+   "options": [
+    "A. Always managers",
+    "B. Always customers",
+    "C. Government regulators",
+    "D. Owners of company shares"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Owners of company shares is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-004",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "CSR mainly refers to",
+   "options": [
+    "A. Voluntary social and environmental responsibility",
+    "B. Maximising short-run profit only",
+    "C. Avoiding all regulation",
+    "D. Paying minimum tax only"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Voluntary social and environmental responsibility is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-005",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Greenwashing means",
+   "options": [
+    "A. Using solar power",
+    "B. False or exaggerated green claims",
+    "C. Publishing annual reports",
+    "D. Recycling office paper"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. False or exaggerated green claims is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-006",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Unlimited liability applies to typical",
+   "options": [
+    "A. MPF member",
+    "B. Listed company shareholder",
+    "C. Sole proprietor",
+    "D. Bond investor"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Sole proprietor is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-007",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "A private company",
+   "options": [
+    "A. Has no separate legal entity",
+    "B. Must list on HKEX",
+    "C. Never pays tax",
+    "D. Cannot offer shares to the general public"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Cannot offer shares to the general public is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-008",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "SWOT 'O' represents",
+   "options": [
+    "A. Opportunities",
+    "B. Ownership",
+    "C. Output",
+    "D. Operations"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Opportunities is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-009",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Linked exchange rate ties HKD to",
+   "options": [
+    "A. EUR",
+    "B. USD",
+    "C. Gold",
+    "D. CNY"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. USD is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-010",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Ethics differs from law because",
+   "options": [
+    "A. Law never applies to business",
+    "B. They are identical",
+    "C. Legal acts can still be unethical",
+    "D. Ethics is always stricter than every law"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Legal acts can still be unethical is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-011",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Sustainability focuses on",
+   "options": [
+    "A. Zero growth",
+    "B. Profit this quarter only",
+    "C. Avoiding technology",
+    "D. Long-term economic, social and environmental balance"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Long-term economic, social and environmental balance is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-012",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Stakeholder conflict example",
+   "options": [
+    "A. Higher wages vs higher profit",
+    "B. Same tax rate for all",
+    "C. Equal inflation for all firms",
+    "D. Two identical products"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Higher wages vs higher profit is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-001",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Separate legal entity means",
+   "options": [
+    "A. No registration needed",
+    "B. Company can sue and be sued in its own name",
+    "C. Owner and business are always the same person",
+    "D. No tax filing"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Company can sue and be sued in its own name is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-002",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "General partnership liability is",
+   "options": [
+    "A. Only for silent partners",
+    "B. Zero",
+    "C. Unlimited for general partners",
+    "D. Always limited"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Unlimited for general partners is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-003",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Main advantage of limited company",
+   "options": [
+    "A. No directors needed",
+    "B. Unlimited profit with no tax",
+    "C. No disclosure ever",
+    "D. Limited liability for shareholders"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Limited liability for shareholders is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-004",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Partnership deed should cover",
+   "options": [
+    "A. Profit sharing and dispute resolution",
+    "B. Customer birthdays",
+    "C. Only office colour",
+    "D. Competitors' prices"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Profit sharing and dispute resolution is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-005",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Public company can",
+   "options": [
+    "A. Avoid the Companies Ordinance",
+    "B. Offer shares to the public",
+    "C. Never publish accounts",
+    "D. Have unlimited partners"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Offer shares to the public is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-006",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Agency problem arises when",
+   "options": [
+    "A. Tax falls",
+    "B. Interest rate is zero",
+    "C. Managers' goals differ from shareholders'",
+    "D. Customers buy more"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Managers' goals differ from shareholders' is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-007",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Sole proprietorship weakness",
+   "options": [
+    "A. Cannot operate in HK",
+    "B. Double taxation on company profits",
+    "C. Mandatory audit always",
+    "D. Difficulty raising large capital"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Difficulty raising large capital is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-008",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Continuity is strongest in",
+   "options": [
+    "A. Company",
+    "B. Informal verbal partnership",
+    "C. Sole proprietorship when owner retires",
+    "D. Temporary stall"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Company is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-009",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Limited liability means",
+   "options": [
+    "A. Government pays debts",
+    "B. Loss limited to investment in shares (generally)",
+    "C. Never any business loss",
+    "D. Unlimited upside only"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Loss limited to investment in shares (generally) is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-010",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Business Registration in HK is required for",
+   "options": [
+    "A. Only foreign firms",
+    "B. Students only",
+    "C. Carrying on business",
+    "D. Only listed firms"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Carrying on business is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-011",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Franchisee pays for",
+   "options": [
+    "A. Free unlimited stock",
+    "B. Government MPF",
+    "C. Competitor's assets",
+    "D. Right to use brand and system"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Right to use brand and system is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FORM-012",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Co-operative is owned by",
+   "options": [
+    "A. Members who use its services",
+    "B. One sole owner always",
+    "C. The government only",
+    "D. Banks only"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Members who use its services is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-001",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "POLC 'P' is",
+   "options": [
+    "A. Production only",
+    "B. Planning",
+    "C. Pricing",
+    "D. Promotion"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Planning is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-002",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Span of control refers to",
+   "options": [
+    "A. Product width",
+    "B. Factory floor size",
+    "C. Subordinates per manager",
+    "D. Interest rate spread"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Subordinates per manager is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-003",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Delegation involves",
+   "options": [
+    "A. Ignoring standards",
+    "B. Eliminating planning",
+    "C. Firing all staff",
+    "D. Assigning authority to subordinates"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Assigning authority to subordinates is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-004",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Hygiene factors in Herzberg",
+   "options": [
+    "A. Prevent dissatisfaction e.g. pay conditions",
+    "B. Are only promotion",
+    "C. Replace leadership",
+    "D. Always motivate strongly"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Prevent dissatisfaction e.g. pay conditions is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-005",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Theory Y assumes",
+   "options": [
+    "A. No goals needed",
+    "B. Workers can be self-directed",
+    "C. Workers always lazy",
+    "D. Money never matters"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Workers can be self-directed is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-006",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "TQM emphasises",
+   "options": [
+    "A. No customer focus",
+    "B. One-off inspection only",
+    "C. Continuous quality improvement",
+    "D. Zero training"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Continuous quality improvement is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-007",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Controlling step includes",
+   "options": [
+    "A. Only hiring",
+    "B. Skip measurement",
+    "C. Only advertising",
+    "D. Compare actual to standard"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Compare actual to standard is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-008",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Strategic planning horizon is",
+   "options": [
+    "A. Long-term and organisation-wide",
+    "B. Only tax filing",
+    "C. One shift roster",
+    "D. Daily cash count only"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Long-term and organisation-wide is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-009",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Decentralisation",
+   "options": [
+    "A. Is illegal",
+    "B. Pushes decisions closer to front line",
+    "C. Removes all local authority",
+    "D. Ends delegation"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Pushes decisions closer to front line is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-010",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "SWOT internal factors are",
+   "options": [
+    "A. Tax and interest",
+    "B. Political and legal",
+    "C. Strengths and weaknesses",
+    "D. Imports only"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Strengths and weaknesses is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-011",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Autocratic leadership",
+   "options": [
+    "A. No clear direction",
+    "B. Only for volunteers",
+    "C. Always best",
+    "D. Manager decides with little consultation"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Manager decides with little consultation is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MGMT-012",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "KPI is",
+   "options": [
+    "A. Measurable performance indicator",
+    "B. Brand logo",
+    "C. A tax form",
+    "D. Inventory only"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Measurable performance indicator is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-001",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "4Ps include",
+   "options": [
+    "A. Tax, tariff, trade, trust",
+    "B. Product, price, place, promotion",
+    "C. Cash, credit, cost, capital",
+    "D. Profit, plan, people, process only"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Product, price, place, promotion is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-002",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Place in marketing mix is",
+   "options": [
+    "A. Price setting",
+    "B. Factory location only",
+    "C. Distribution channels",
+    "D. HR placement"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Distribution channels is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-003",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Market segmentation divides",
+   "options": [
+    "A. Shares only",
+    "B. Company departments",
+    "C. Ledger accounts",
+    "D. Market into similar need groups"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Market into similar need groups is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-004",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Positioning is about",
+   "options": [
+    "A. Perception vs competitors",
+    "B. Bank reconciliation",
+    "C. Factory layout",
+    "D. Depreciation method"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Perception vs competitors is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-005",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Skimming pricing sets",
+   "options": [
+    "A. Zero price forever",
+    "B. High initial price",
+    "C. Only cost-plus always",
+    "D. Always lowest price"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. High initial price is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-006",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Product life cycle decline stage",
+   "options": [
+    "A. Guaranteed profit",
+    "B. Always highest promotion",
+    "C. Sales fall; harvest or exit",
+    "D. No competition"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Sales fall; harvest or exit is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-007",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "USP means",
+   "options": [
+    "A. Unlimited stock policy",
+    "B. Universal sales price",
+    "C. Union standard pay",
+    "D. Unique selling proposition"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Unique selling proposition is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-008",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "CRM aims to",
+   "options": [
+    "A. Build customer relationships and retention",
+    "B. Avoid all data",
+    "C. Close the business",
+    "D. Eliminate promotion"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Build customer relationships and retention is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-009",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Niche marketing targets",
+   "options": [
+    "A. Only government",
+    "B. A small defined segment",
+    "C. Only suppliers",
+    "D. Everyone equally"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. A small defined segment is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-010",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Brand equity is",
+   "options": [
+    "A. Tax refund",
+    "B. Only warehouse stock",
+    "C. Value of brand beyond physical assets",
+    "D. Only cash"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Value of brand beyond physical assets is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-011",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Penetration pricing uses",
+   "options": [
+    "A. No promotion",
+    "B. Always skimming",
+    "C. Only luxury goods",
+    "D. Low price to gain share"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Low price to gain share is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-MKTG-012",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Extended marketing mix for services adds",
+   "options": [
+    "A. People, process, physical evidence",
+    "B. Only patents",
+    "C. Only product",
+    "D. Only tariffs"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. People, process, physical evidence is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-001",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Person specification describes",
+   "options": [
+    "A. Share price",
+    "B. Ideal candidate profile",
+    "C. Only office hours",
+    "D. COGS"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Ideal candidate profile is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-002",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Structured interview uses",
+   "options": [
+    "A. No records",
+    "B. Only handwriting test",
+    "C. Predetermined scored questions",
+    "D. Random chat only"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Predetermined scored questions is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-003",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "On-the-job training occurs",
+   "options": [
+    "A. Never with supervision",
+    "B. Only online always",
+    "C. Only overseas",
+    "D. At the workplace"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. At the workplace is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-004",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "MPF in HK is",
+   "options": [
+    "A. Mandatory retirement savings scheme",
+    "B. Inventory method",
+    "C. Optional tip jar",
+    "D. Sales tax"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Mandatory retirement savings scheme is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-005",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Induction training is for",
+   "options": [
+    "A. Customers only",
+    "B. New employees",
+    "C. Retired directors only",
+    "D. Competitors"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. New employees is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-006",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Grievance procedure lets staff",
+   "options": [
+    "A. Set share price",
+    "B. Skip safety rules",
+    "C. Raise workplace concerns formally",
+    "D. Avoid all contracts"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Raise workplace concerns formally is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-007",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Piece-rate pay is based on",
+   "options": [
+    "A. Age only",
+    "B. Random lottery",
+    "C. Hours only always",
+    "D. Output per unit"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Output per unit is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-008",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Job description states",
+   "options": [
+    "A. Duties and reporting relationships",
+    "B. Macro GDP",
+    "C. Shareholder dividends",
+    "D. Competitor strategy"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Duties and reporting relationships is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-009",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Off-the-job training is",
+   "options": [
+    "A. No assessment",
+    "B. Away from workplace e.g. courses",
+    "C. Only shadowing forever",
+    "D. Illegal"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Away from workplace e.g. courses is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-010",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Discrimination ordinances in HK protect",
+   "options": [
+    "A. Only imports",
+    "B. Only marketing",
+    "C. Fair treatment in employment",
+    "D. Only employers"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Fair treatment in employment is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-011",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Labour turnover cost includes",
+   "options": [
+    "A. Zero always",
+    "B. Only paper clips",
+    "C. Only rent",
+    "D. Recruitment and training waste"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Recruitment and training waste is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-HR-012",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "OSH responsibility lies with",
+   "options": [
+    "A. Employer to provide safe workplace",
+    "B. Only banks",
+    "C. Only employees",
+    "D. Only customers"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Employer to provide safe workplace is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-001",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Accounting equation is",
+   "options": [
+    "A. Inventory = Revenue",
+    "B. Assets = Liabilities + Capital",
+    "C. Assets = Sales only",
+    "D. Cash = Profit"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Assets = Liabilities + Capital is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-002",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Debit increases",
+   "options": [
+    "A. Capital only always",
+    "B. Liabilities only",
+    "C. Assets and expenses",
+    "D. Revenue only"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Assets and expenses is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-003",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Credit increases",
+   "options": [
+    "A. Drawings only",
+    "B. Assets only",
+    "C. Cash only",
+    "D. Liabilities, capital and revenue"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Liabilities, capital and revenue is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-004",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Trial balance checks",
+   "options": [
+    "A. Debit-credit equality",
+    "B. Bank balance match always",
+    "C. Tax paid",
+    "D. Profit accuracy guaranteed"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Debit-credit equality is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-005",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Accrual concept records",
+   "options": [
+    "A. Only dividends",
+    "B. Revenue when earned",
+    "C. Only cash received",
+    "D. Only drawings"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Revenue when earned is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-006",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Depreciation allocates",
+   "options": [
+    "A. Cash immediately",
+    "B. Land always",
+    "C. Asset cost over useful life",
+    "D. Sales revenue"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Asset cost over useful life is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-007",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Drawings reduce",
+   "options": [
+    "A. Trade payables automatically",
+    "B. Sales revenue",
+    "C. Tax",
+    "D. Owner's capital"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Owner's capital is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-008",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Prepaid expense is",
+   "options": [
+    "A. Asset paid in advance",
+    "B. Revenue",
+    "C. Share capital",
+    "D. Liability for past due wages"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Asset paid in advance is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-009",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Accrued expense is",
+   "options": [
+    "A. Never in accounts",
+    "B. Incurred but not yet paid",
+    "C. Already paid in advance",
+    "D. Always cash"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Incurred but not yet paid is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-010",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "COGS formula trading",
+   "options": [
+    "A. Cash - bank",
+    "B. Sales - gross profit only",
+    "C. Opening inventory + purchases - closing inventory",
+    "D. Assets - liabilities"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Opening inventory + purchases - closing inventory is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-011",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Double entry requires",
+   "options": [
+    "A. No ledger",
+    "B. Single sided only",
+    "C. Only bank statement",
+    "D. Equal debit and credit"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Equal debit and credit is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-AEQN-012",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Going concern assumes",
+   "options": [
+    "A. Business continues operating",
+    "B. No liabilities",
+    "C. No owners",
+    "D. Immediate liquidation"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Business continues operating is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-001",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Gross profit equals",
+   "options": [
+    "A. Cash minus bank",
+    "B. Sales minus cost of sales",
+    "C. Assets minus liabilities",
+    "D. Sales minus all expenses"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Sales minus cost of sales is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-002",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Current assets include",
+   "options": [
+    "A. Share capital",
+    "B. Retained profit only line",
+    "C. Inventory and receivables typically",
+    "D. Land and buildings usually"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Inventory and receivables typically is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-003",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Working capital is",
+   "options": [
+    "A. Bank loan only",
+    "B. Total assets",
+    "C. Sales only",
+    "D. Current assets minus current liabilities"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Current assets minus current liabilities is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-004",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Accumulated depreciation is",
+   "options": [
+    "A. Contra non-current asset",
+    "B. Revenue",
+    "C. Current liability",
+    "D. Cash inflow"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Contra non-current asset is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-005",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Income statement covers",
+   "options": [
+    "A. Only balance sheet items",
+    "B. A period of time",
+    "C. Only cash",
+    "D. A single date only"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. A period of time is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-006",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Balance sheet shows",
+   "options": [
+    "A. Only dividends",
+    "B. Only marketing mix",
+    "C. Position at a date",
+    "D. Only expenses"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Position at a date is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-007",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Credit sales increase",
+   "options": [
+    "A. Share premium always",
+    "B. Cash immediately always",
+    "C. Payables only",
+    "D. Trade receivables"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Trade receivables is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-008",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Net profit increases",
+   "options": [
+    "A. Equity via retained earnings",
+    "B. Only liabilities",
+    "C. Always cash same amount",
+    "D. Inventory only"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Equity via retained earnings is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-009",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Cash flow statement explains",
+   "options": [
+    "A. Only tax",
+    "B. Cash movements by activity",
+    "C. Only HR",
+    "D. Only gross profit"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Cash movements by activity is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-010",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Mark-up on cost uses denominator",
+   "options": [
+    "A. Equity",
+    "B. Sales revenue",
+    "C. Cost of sales",
+    "D. Total assets"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Cost of sales is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-011",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Operating expenses are",
+   "options": [
+    "A. Always drawings",
+    "B. Always finance cost",
+    "C. Always tax",
+    "D. Costs other than COGS to run business"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Costs other than COGS to run business is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-FSTM-012",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Closing inventory appears",
+   "options": [
+    "A. Balance sheet and affects COGS",
+    "B. Only cash flow investing",
+    "C. Only income statement revenue line",
+    "D. Nowhere"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Balance sheet and affects COGS is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-001",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Current ratio formula",
+   "options": [
+    "A. Profit / sales only",
+    "B. Current assets / current liabilities",
+    "C. Sales / inventory",
+    "D. Debt / cash only"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Current assets / current liabilities is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-002",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Quick ratio excludes",
+   "options": [
+    "A. All cash",
+    "B. All receivables",
+    "C. Inventory from numerator typically",
+    "D. All payables"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Inventory from numerator typically is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-003",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "ROCE uses",
+   "options": [
+    "A. Sales / assets only",
+    "B. Dividends / shares",
+    "C. Gross profit / inventory",
+    "D. PBIT / capital employed"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. PBIT / capital employed is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-004",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Higher gearing implies",
+   "options": [
+    "A. More debt finance relative to equity",
+    "B. Always higher liquidity",
+    "C. No interest",
+    "D. Zero risk"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. More debt finance relative to equity is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-005",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Interest cover is",
+   "options": [
+    "A. Cash / inventory",
+    "B. PBIT / interest",
+    "C. Sales / COGS",
+    "D. EPS × P/E"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. PBIT / interest is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-006",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Receivables days measures",
+   "options": [
+    "A. Payroll",
+    "B. Inventory age only",
+    "C. Collection speed",
+    "D. Tax delay only"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Collection speed is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-007",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Gross margin uses",
+   "options": [
+    "A. COGS / equity",
+    "B. Cash / liabilities",
+    "C. Net profit / assets",
+    "D. Gross profit / sales"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Gross profit / sales is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-008",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Inventory turnover uses",
+   "options": [
+    "A. COGS / average inventory",
+    "B. Assets / tax",
+    "C. Sales / payables",
+    "D. Profit / cash"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. COGS / average inventory is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-009",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Low current ratio may signal",
+   "options": [
+    "A. Too much cash always",
+    "B. Liquidity stress",
+    "C. Always excellent health",
+    "D. Zero liabilities"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Liquidity stress is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-010",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "EPS equals",
+   "options": [
+    "A. Assets / shares",
+    "B. Sales / shares",
+    "C. Profit to ordinary shareholders / shares",
+    "D. COGS / shares"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Profit to ordinary shareholders / shares is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-011",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "P/E ratio combines",
+   "options": [
+    "A. Only dividends",
+    "B. Only COGS",
+    "C. Only book value",
+    "D. Price per share and EPS"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Price per share and EPS is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-RATI-012",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Efficiency ratios focus on",
+   "options": [
+    "A. How well assets/working capital are used",
+    "B. Only CSR",
+    "C. Only tax rate",
+    "D. Only branding"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. How well assets/working capital are used is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-001",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Emergency fund typically covers",
+   "options": [
+    "A. Stock options only",
+    "B. Several months of essential expenses",
+    "C. Zero savings",
+    "D. Only luxury travel"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Several months of essential expenses is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-002",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Compound interest grows on",
+   "options": [
+    "A. Only tax",
+    "B. Only principal once",
+    "C. Principal plus accumulated interest",
+    "D. Only fees"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Principal plus accumulated interest is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-003",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Insurance primary purpose",
+   "options": [
+    "A. Avoid all loss without premium",
+    "B. Guaranteed investment return",
+    "C. Replace MPF",
+    "D. Risk transfer"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Risk transfer is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-004",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "MPF choice should consider",
+   "options": [
+    "A. Risk tolerance and fees",
+    "B. Random pick",
+    "C. Daily stock tips",
+    "D. Only employer logo"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Risk tolerance and fees is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-005",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Budgeting compares",
+   "options": [
+    "A. Only market share",
+    "B. Expected income and expenditure",
+    "C. Only assets",
+    "D. Only ratios"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Expected income and expenditure is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-006",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Bribery in business is",
+   "options": [
+    "A. Required by CSR",
+    "B. Always acceptable",
+    "C. Unethical and often illegal",
+    "D. Only marketing"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Unethical and often illegal is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-007",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Conflict of interest occurs when",
+   "options": [
+    "A. Tax is flat",
+    "B. Two products identical",
+    "C. Inflation zero",
+    "D. Personal interest may bias decisions"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Personal interest may bias decisions is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-008",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Corporate governance includes",
+   "options": [
+    "A. Board oversight of management",
+    "B. Only advertising",
+    "C. Only warehouse",
+    "D. Only daily cashier work"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Board oversight of management is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-009",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Whistle-blowing policy should",
+   "options": [
+    "A. Hide fraud",
+    "B. Protect good-faith reporters",
+    "C. Punish all reporters",
+    "D. Eliminate audits"
+   ],
+   "answer": "B",
+   "explanation": "The correct option is B. Protect good-faith reporters is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-010",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Responsible borrowing means",
+   "options": [
+    "A. Hide income",
+    "B. Max all cards always",
+    "C. Repay on time and truthful applications",
+    "D. Ignore interest"
+   ],
+   "answer": "C",
+   "explanation": "The correct option is C. Repay on time and truthful applications is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-011",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Time value of money implies",
+   "options": [
+    "A. Only inflation irrelevant",
+    "B. Money never changes value",
+    "C. Only for banks",
+    "D. Earlier cash can earn returns"
+   ],
+   "answer": "D",
+   "explanation": "The correct option is D. Earlier cash can earn returns is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  },
+  {
+   "id": "BAFS-PFIN-012",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Data privacy in CRM requires",
+   "options": [
+    "A. Lawful use of customer data",
+    "B. No consent ever needed",
+    "C. Ignore PDPO",
+    "D. Sell all data always"
+   ],
+   "answer": "A",
+   "explanation": "The correct option is A. Lawful use of customer data is the best answer; the other options are common misconceptions in HKDSE BAFS.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs"
+  }
+ ]
+}

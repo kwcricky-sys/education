@@ -42,6 +42,14 @@ export const DSE_SUBJECTS: DseSubject[] = [
     desc: "Learn Mode 課程、經濟 MCQ 練習與溫習片",
   },
   {
+    id: "bafs",
+    name: "企業、會計與財務概論",
+    nameEn: "BAFS",
+    href: "/dse/bafs/learn",
+    open: true,
+    desc: "商管與會計自學路徑、BAFS MCQ 練習",
+  },
+  {
     id: "math",
     name: "數學",
     nameEn: "Mathematics (Compulsory)",
