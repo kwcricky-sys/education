@@ -28,6 +28,10 @@ export const metadata: Metadata = createPageMetadata({
     "learn dse economics",
     "經濟科 溫習",
     "econ study guide hong kong",
+    "DSE 通脹 失業",
+    "DSE 貨幣與銀行",
+    "DSE 財政政策",
+    "Hong Kong currency board",
   ],
 });
 
@@ -43,6 +47,10 @@ const FAQS: FaqItem[] = [
   {
     question: "一定要由單元 1 開始？",
     answer: `唔一定。${STARTER_UNITS.map((u) => `單元 ${u.id}（${u.titleZh}）`).join("同")}冇前設，一開始已經開放；其他單元要先通過指定單元。`,
+  },
+  {
+    question: "課程有幾多個單元同課？",
+    answer: `共 ${ECON_UNITS.length} 個單元、${LESSON_COUNT} 課。宏觀部分包括通脹與失業、貨幣與銀行、財政及貨幣政策：通貨膨脹嘅代價、自然失業率同短期 Phillips curve、存款創造數字、貨幣需求動機、排擠效應、自動穩定機制、政策時滯，以及聯繫匯率／貨幣發行局對獨立貨幣政策嘅限制（兌換保證約 7.75–7.85 港元兌 1 美元）。每個單元練習 10 題，答啱 ${PASS} 題或以上先過關。`,
   },
   {
     question: "呢啲係咪考評局教材？",

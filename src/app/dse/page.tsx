@@ -66,7 +66,7 @@ const TITLE = `DSE 學習與備考專區｜中文範文閃卡、English 自學�
 
 export const metadata = createPageMetadata({
   title: TITLE,
-  description: `${SITE_NAME} DSE 備考專區：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課自學路徑、ECON 課程、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片同 ${PROGRAMMES.length} 個聯招課程收生數據。全部免費、免登入。`,
+  description: `${SITE_NAME} DSE 備考專區：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課自學路徑、ECON ${ECON_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片同 ${PROGRAMMES.length} 個聯招課程收生數據。全部免費、免登入。`,
   path: "/dse",
   keywords: [
     "DSE",
