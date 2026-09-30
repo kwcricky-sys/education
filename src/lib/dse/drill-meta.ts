@@ -1,5 +1,6 @@
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
+import { MATH_UNITS } from "@/lib/dse/math-path";
 import type { DrillQuestion } from "@/lib/dse/drills";
 import { DIFFICULTY_LABEL } from "@/lib/dse/types";
 
@@ -41,6 +42,20 @@ export const DRILL_SUBJECT_META: Record<string, DrillSubjectMeta> = {
       "dse english practice",
     ],
   },
+  math: {
+    nameZh: "數學科",
+    nameEn: "Mathematics",
+    learnHref: "/dse/math/learn",
+    learnLabel: "數學自學路徑",
+    videoHref: "/dse/videos/math",
+    keywords: [
+      "DSE 數學 練習",
+      "DSE Maths MCQ",
+      "HKDSE mathematics compulsory",
+      "數學科 選擇題",
+      "dse math practice",
+    ],
+  },
 };
 
 /** Topics that exist only in the published drill bank, not in a learn-path unit. */
@@ -60,6 +75,10 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
     const u = ENGLISH_UNITS.find((x) => x.topicKey === topic);
     if (u) return { zh: u.title, en: u.label, unitId: u.id };
   }
+  if (subject === "math") {
+    const u = MATH_UNITS.find((x) => x.topicKey === topic);
+    if (u) return { zh: u.titleZh, en: u.title, unitId: u.id };
+  }
   const extra = EXTRA_TOPIC_LABELS[topic];
   if (extra) return { ...extra, unitId: null };
   const en = topic.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -68,7 +87,15 @@ export function topicLabel(subject: string, topic: string): TopicLabel {
 
 /** Pass mark shared by every unit gate in a subject's learn path. */
 export function learnPassThreshold(subject: string): number {
-  const units = subject === "econ" ? ECON_UNITS : ENGLISH_UNITS;
+  const units =
+    subject === "econ"
+      ? ECON_UNITS
+      : subject === "english"
+        ? ENGLISH_UNITS
+        : subject === "math"
+          ? MATH_UNITS
+          : null;
+  if (!units) return 7;
   return Math.min(...units.map((u) => u.passThreshold));
 }
 

@@ -11,6 +11,7 @@ export const SITE_NAV: readonly NavItem[] = [
   { href: "/dse/chinese", label: "中文", match: "prefix" },
   { href: "/dse/english/learn", label: "English", match: "prefix" },
   { href: "/dse/econ/learn", label: "ECON", match: "prefix" },
+  { href: "/dse/math/learn", label: "數學", match: "prefix" },
   { href: "/dse/videos", label: "溫習片", match: "prefix" },
   { href: "/dse/jupas", label: "JUPAS", match: "prefix" },
 ];
@@ -25,6 +26,7 @@ export const HEADER_CTA = {
 const SECTION_ROOTS: Record<string, string> = {
   "/dse/english/learn": "/dse/english",
   "/dse/econ/learn": "/dse/econ",
+  "/dse/math/learn": "/dse/math",
 };
 
 export function isNavItemActive(item: NavItem, pathname: string): boolean {
