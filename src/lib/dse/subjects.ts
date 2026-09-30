@@ -13,8 +13,9 @@ export type DseSubject = {
  * `open` must always reflect content that is actually shipped: set open:true
  * (and give the primary href) as soon as a module is live, so the hub never
  * shows「即將推出」for a subject that already has resources. Language subjects
- * (中文／English), ECON and ICT are live, and the video subjects below have a curated
- * video library — only subjects with zero content stay closed.
+ * (中文／English), ECON, ICT, BAFS and Mathematics (Compulsory) have learn paths, and the
+ * subjects below have a curated video library — only subjects with zero
+ * content stay closed.
  */
 export const DSE_SUBJECTS: DseSubject[] = [
   {
@@ -50,12 +51,20 @@ export const DSE_SUBJECTS: DseSubject[] = [
     desc: "自學路徑：系統、網絡、數據、數據庫、演算法、保安與應試",
   },
   {
+    id: "bafs",
+    name: "企業、會計與財務概論",
+    nameEn: "BAFS",
+    href: "/dse/bafs/learn",
+    open: true,
+    desc: "商管與會計自學路徑、BAFS MCQ 練習",
+  },
+  {
     id: "math",
     name: "數學",
     nameEn: "Mathematics (Compulsory)",
-    href: "/dse/videos/math",
+    href: "/dse/math/learn",
     open: true,
-    desc: "必修數學課題溫習片，每條附重點筆記",
+    desc: "必修部分自學路徑、MCQ 練習與溫習片",
   },
   {
     id: "m2",

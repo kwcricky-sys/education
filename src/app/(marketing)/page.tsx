@@ -3,7 +3,9 @@ import {
   Activity,
   ArrowRight,
   BookOpen,
+  Briefcase,
   Brain,
+  Calculator,
   CheckCircle2,
   Cpu,
   FileText,
@@ -19,9 +21,11 @@ import {
 import { JsonLd } from "@/components/seo/json-ld";
 import { Eyebrow, SectionHeading, TrustChips } from "@/components/site/trust-ui";
 import { getDrillBank } from "@/lib/dse/drills";
+import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
 import { ICT_UNITS } from "@/lib/dse/ict-path";
+import { MATH_UNITS } from "@/lib/dse/math-path";
 import { getAllQuizSlugs, getQuiz } from "@/lib/dse/quizzes";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
 import { VIDEO_SUBJECTS, getVideoLibrary } from "@/lib/dse/videos";
@@ -53,9 +57,17 @@ const ECON_LESSON_COUNT = ECON_UNITS.reduce((n, u) => n + u.lessonIds.length, 0)
 const ICT_UNIT_COUNT = ICT_UNITS.length;
 const ICT_LESSON_COUNT = ICT_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
 
+const MATH_UNIT_COUNT = MATH_UNITS.length;
+const MATH_LESSON_COUNT = MATH_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
+
+const BAFS_UNIT_COUNT = BAFS_UNITS.length;
+const BAFS_LESSON_COUNT = BAFS_UNITS.reduce((n, u) => n + u.lessonIds.length, 0);
+
 const ENGLISH_DRILL_COUNT = getDrillBank("english")?.meta.total ?? 0;
 const ECON_DRILL_COUNT = getDrillBank("econ")?.meta.total ?? 0;
 const ICT_DRILL_COUNT = getDrillBank("ict")?.meta.total ?? 0;
+const MATH_DRILL_COUNT = getDrillBank("math")?.meta.total ?? 0;
+const BAFS_DRILL_COUNT = getDrillBank("bafs")?.meta.total ?? 0;
 
 const VIDEO_COUNT = (subject: string) =>
   getVideoLibrary(subject)?.videos.length ?? 0;
@@ -69,11 +81,11 @@ const PROGRAMME_COUNT = PROGRAMMES.length;
 
 const SAMPLE_CARD = getQuiz("quanxue")?.questions[0];
 
-const TITLE = `DSE 自修室｜中文範文閃卡、English／ECON／ICT 自學路徑、溫習片、JUPAS 揀科數據 | ${SITE_NAME}`;
+const TITLE = `DSE 自修室｜中文範文閃卡、English／ECON／數學／BAFS／ICT 自學路徑、溫習片、JUPAS 揀科數據 | ${SITE_NAME}`;
 
 export const metadata = createPageMetadata({
   title: TITLE,
-  description: `${SITE_NAME} DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡同 AI 診斷室、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片，仲有 ${PROGRAMME_COUNT} 個聯招課程嘅真實收生分數同畢業薪酬。全部免費、免登入，進度只存你部機。`,
+  description: `${SITE_NAME} DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡同 AI 診斷室、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片，仲有 ${PROGRAMME_COUNT} 個聯招課程嘅真實收生分數同畢業薪酬。全部免費、免登入，進度只存你部機。`,
   path: "/",
   keywords: [
     "DSE 自修室",
@@ -89,6 +101,10 @@ export const metadata = createPageMetadata({
     "ECON Learn Mode",
     "DSE ICT",
     "資訊及通訊科技",
+    "DSE 數學 自學",
+    "數學自學路徑",
+    "DSE BAFS",
+    "DSE 企業會計與財務概論",
     "JUPAS 揀科",
     "免費 DSE 練習",
     SITE_NAME,
@@ -100,6 +116,8 @@ const HERO_STATS = [
   { value: CHINESE_CARD_COUNT, unit: "題", label: `中文 ${TEXT_COUNT} 篇範文閃卡` },
   { value: ENGLISH_LESSON_COUNT, unit: "課", label: "English 自學路徑" },
   { value: ECON_LESSON_COUNT, unit: "課", label: "ECON Learn Mode" },
+  { value: MATH_LESSON_COUNT, unit: "課", label: "數學自學路徑" },
+  { value: BAFS_LESSON_COUNT, unit: "課", label: "BAFS 自學路徑" },
   { value: ICT_LESSON_COUNT, unit: "課", label: "ICT 自學路徑" },
   { value: TOTAL_VIDEO_COUNT, unit: "條", label: `${VIDEO_SUBJECTS.length} 科溫習片` },
   { value: PROGRAMME_COUNT, unit: "個", label: "JUPAS 課程數據" },
@@ -131,6 +149,22 @@ const SUBJECT_ENTRIES = [
     cta: "由供求開始",
   },
   {
+    href: "/dse/math/learn",
+    name: "數學",
+    nameEn: "Mathematics (Compulsory)",
+    icon: Calculator,
+    desc: `${MATH_UNIT_COUNT} 單元 ${MATH_LESSON_COUNT} 課必修部分，由數與代數做到三角、統計同概率；${MATH_DRILL_COUNT} 題練習，答啱 7/10 先過關。`,
+    cta: "由數與估算開始",
+  },
+  {
+    href: "/dse/bafs/learn",
+    name: "BAFS",
+    nameEn: "Business, Accounting and Financial Studies",
+    icon: Briefcase,
+    desc: `${BAFS_UNIT_COUNT} 單元 ${BAFS_LESSON_COUNT} 課，由商業環境做到會計、比率同個人理財；${BAFS_DRILL_COUNT} 題練習做關卡。`,
+    cta: "由商業環境開始",
+  },
+  {
     href: "/dse/ict/learn",
     name: "ICT",
     nameEn: "Information & Communication Technology",
@@ -141,7 +175,7 @@ const SUBJECT_ENTRIES = [
   {
     href: "/dse/videos",
     name: "其他科",
-    nameEn: "數學 · M2 · 物理 · 化學 · 生物",
+    nameEn: "M2 · 物理 · 化學 · 生物",
     icon: PlayCircle,
     desc: `未有自學路徑嘅科，先睇策展溫習片：每條附摘要、重點筆記同「邊個階段睇」。`,
     cta: "睇溫習片",
@@ -207,8 +241,8 @@ export default function HomePage() {
       <JsonLd data={buildBreadcrumbJsonLd([{ name: "首頁", path: "/" }])} />
       <JsonLd
         data={buildCourseJsonLd({
-          name: "DSE 自修室：中文、English、ECON、ICT 自學路徑與 JUPAS 揀科數據",
-          description: `免費 DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片、${PROGRAMME_COUNT} 個聯招課程收生數據。`,
+          name: "DSE 自修室：中文、English、ECON、數學、BAFS、ICT 自學路徑與 JUPAS 揀科數據",
+          description: `免費 DSE 自修室：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片、${PROGRAMME_COUNT} 個聯招課程收生數據。`,
           url: `${SITE_URL}/dse`,
           providerName: SITE_NAME,
         })}
@@ -225,7 +259,7 @@ export default function HomePage() {
               <span className="inline-block">溫書揀科一次睇清</span>
             </h1>
             <p className="mx-auto mt-4 max-w-[34rem] text-[15px] leading-relaxed text-ink-muted min-[960px]:mx-0 min-[960px]:text-[17px]">
-              中文 {TEXT_COUNT} 篇範文閃卡同診斷室、English／ECON／ICT 自學路徑、
+              中文 {TEXT_COUNT} 篇範文閃卡同診斷室、English／ECON／數學／BAFS／ICT 自學路徑、
               {VIDEO_SUBJECTS.length} 科溫習片，考完再用真實收生分數排 JUPAS——唔使先交補習學費。
             </p>
 
@@ -267,11 +301,11 @@ export default function HomePage() {
           <HeroPanel />
         </div>
 
-        <dl className="mt-10 grid grid-cols-2 overflow-hidden rounded-2xl border border-line bg-white sm:grid-cols-3 lg:grid-cols-6 min-[960px]:mt-14">
+        <dl className="mt-10 grid grid-cols-2 overflow-hidden rounded-2xl border border-line bg-white sm:grid-cols-4 min-[960px]:mt-14">
           {HERO_STATS.map((stat) => (
             <div
               key={stat.label}
-              className="border-line px-5 py-4 max-lg:border-b lg:border-r lg:last:border-r-0"
+              className="border-line px-4 py-4 max-sm:border-b sm:border-r sm:nth-[4n]:border-r-0"
             >
               <dt className="sr-only">{stat.label}</dt>
               <dd>

@@ -1,7 +1,9 @@
+import bafsDrills from "@/data/dse/bafs-drills.json";
 import econDrills from "@/data/dse/econ-drills.json";
 import englishDrills from "@/data/dse/english-drills.json";
 import englishLearnDrills from "@/data/dse/english-learn-drills.json";
 import ictDrills from "@/data/dse/ict-drills.json";
+import mathDrills from "@/data/dse/math-drills.json";
 
 export type DrillQuestion = {
   id: string;
@@ -45,9 +47,11 @@ const ENGLISH_BANK: DrillBank = {
 };
 
 const BANKS: Record<string, DrillBank> = {
+  bafs: bafsDrills as DrillBank,
   econ: econDrills as DrillBank,
   english: ENGLISH_BANK,
   ict: ictDrills as DrillBank,
+  math: mathDrills as DrillBank,
 };
 
 export const DRILL_SUBJECTS = Object.keys(BANKS) as Array<keyof typeof BANKS>;

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: {
     absolute: `DSE 學習與備考專區 | ${SITE_NAME}`,
   },
-  description: `${SITE_NAME}｜${SITE_TAGLINE}。中文指定範文閃卡、診斷室、English／ECON／ICT 自學路徑、溫習片同 JUPAS 揀科數據，全部免費、免登入。`,
+  description: `${SITE_NAME}｜${SITE_TAGLINE}。中文指定範文閃卡、診斷室、English／ECON／數學／BAFS／ICT 自學路徑、溫習片同 JUPAS 揀科數據，全部免費、免登入。`,
 };
 
 export default function DseLayout({
