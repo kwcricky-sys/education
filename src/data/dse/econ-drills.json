@@ -2722,12 +2722,12 @@
    "difficulty": "easy",
    "question": "The price of bubble tea rises and, at the same time, consumer incomes fall. Bubble tea is a normal good. What must be true?",
    "options": [
-    "A. The demand curve becomes upward sloping.",
-    "B. Both changes are movements along the original demand curve.",
-    "C. Quantity demanded falls for two reinforcing reasons, but the demand curve itself shifts only because income fell.",
+    "A. Quantity demanded falls for two reinforcing reasons, but the demand curve itself shifts only because income fell.",
+    "B. The demand curve becomes upward sloping.",
+    "C. Both changes are movements along the original demand curve.",
     "D. The income change shifts supply, and the price change shifts demand."
    ],
-   "answer": "C",
+   "answer": "A",
    "explanation": "A higher price of bubble tea is a movement along the demand curve: quantity demanded falls. Lower income, for a normal good, shifts the whole demand curve left. Only the non-price change shifts demand. The two effects both reduce quantity, but they are not the same kind of change.",
    "tags": [
     "movement vs shift",
@@ -2742,12 +2742,12 @@
    "difficulty": "easy",
    "question": "Instant noodles are inferior for a group of students. Their incomes rise and the price of noodles stays the same. The demand curve for noodles will:",
    "options": [
-    "A. Shift left.",
-    "B. Shift right.",
+    "A. Shift right.",
+    "B. Shift left.",
     "C. Stay put, with a movement down along the curve.",
     "D. Shift left and also change slope because price fell."
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "For an inferior good, higher income reduces demand at every price, so the demand curve shifts left. Price did not change, so there is no movement caused by the good’s own price. A slope change is not implied by the income fact alone.",
    "tags": [
     "inferior good",
@@ -2762,12 +2762,12 @@
    "difficulty": "medium",
    "question": "A typhoon warning closes the port for a week. Imported fruit sellers cannot restock. Holding demand constant, the immediate effect is:",
    "options": [
-    "A. A rightward shift of demand because fruit is scarcer.",
-    "B. A movement down the supply curve only.",
-    "C. A lower equilibrium price because fewer ships arrive.",
-    "D. A leftward shift of supply and a higher equilibrium price."
+    "A. A leftward shift of supply and a higher equilibrium price.",
+    "B. A rightward shift of demand because fruit is scarcer.",
+    "C. A movement down the supply curve only.",
+    "D. A lower equilibrium price because fewer ships arrive."
    ],
-   "answer": "D",
+   "answer": "A",
    "explanation": "Fewer deliveries are a supply-side shock: at each price, less fruit is offered, so supply shifts left. With demand unchanged, equilibrium price rises and quantity falls. Scarcity is the result of the supply shift, not a reason to shift demand.",
    "tags": [
     "supply shift"
@@ -2800,12 +2800,12 @@
    "difficulty": "hard",
    "question": "Buyers expect the price of concert tickets to be higher next month. Before the concert month arrives, today’s demand curve will tend to:",
    "options": [
-    "A. Shift right, as some purchases are brought forward.",
-    "B. Shift left, because a future rise always reduces current demand.",
-    "C. Stay unchanged until the future price actually changes.",
+    "A. Shift left, because a future rise always reduces current demand.",
+    "B. Stay unchanged until the future price actually changes.",
+    "C. Shift right, as some purchases are brought forward.",
     "D. Shift by the same amount as supply, so price cannot change today."
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "Expected future price is a demand determinant. If buyers think tickets will cost more later, some buy now, so current demand shifts right. You do not wait for the future price to appear on today’s axis. Supply need not shift with it.",
    "tags": [
     "expectations"
@@ -2820,11 +2820,11 @@
    "question": "At the current price, quantity demanded is 80 and quantity supplied is 50. There is:",
    "options": [
     "A. A surplus of 30, and the price will tend to fall.",
-    "B. A shortage of 30, and the price will tend to rise if the market is free to adjust.",
-    "C. Equilibrium, because 80 and 50 are both positive.",
-    "D. A shortage of 130."
+    "B. Equilibrium, because 80 and 50 are both positive.",
+    "C. A shortage of 130.",
+    "D. A shortage of 30, and the price will tend to rise if the market is free to adjust."
    ],
-   "answer": "B",
+   "answer": "D",
    "explanation": "Shortage equals quantity demanded minus quantity supplied when demand exceeds supply: 80 − 50 = 30. Unsatisfied buyers bid the price up. A surplus would require supply greater than demand. Adding the two quantities does not measure the gap.",
    "tags": [
     "shortage"
@@ -2858,12 +2858,12 @@
    "difficulty": "easy",
    "question": "A student reports PED as −1.5 and concludes demand is inelastic. The conclusion is:",
    "options": [
-    "A. Wrong. Elasticity is judged by the absolute value, and 1.5 is elastic.",
-    "B. Right, because any negative number is inelastic.",
-    "C. Right, because elastic demand must be positive.",
-    "D. Wrong, because a negative PED means supply, not demand."
+    "A. Right, because any negative number is inelastic.",
+    "B. Right, because elastic demand must be positive.",
+    "C. Wrong, because a negative PED means supply, not demand.",
+    "D. Wrong. Elasticity is judged by the absolute value, and 1.5 is elastic."
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "The law of demand makes PED negative. Classification uses |PED|. |−1.5| = 1.5 > 1, so demand is elastic. The sign records direction, not the elastic/inelastic label.",
    "tags": [
     "PED",
@@ -2880,10 +2880,10 @@
    "options": [
     "A. Sellers bear the full tax.",
     "B. The tax is shared equally.",
-    "C. Neither side bears it because the price cannot change.",
-    "D. Buyers bear the full tax."
+    "C. Buyers bear the full tax.",
+    "D. Neither side bears it because the price cannot change."
    ],
-   "answer": "D",
+   "answer": "C",
    "explanation": "When demand is vertical, buyers do not reduce quantity as price rises, so the price paid by buyers rises by the full tax. The more inelastic side bears more of a tax. Equal sharing is not a rule; it depends on the two elasticities.",
    "tags": [
     "tax incidence"
@@ -2898,11 +2898,11 @@
    "question": "Income rises by 10% and quantity demanded of a good rises by 4%. Income elasticity is:",
    "options": [
     "A. 2.5, so the good is inferior.",
-    "B. 0.4, so the good is normal and income-inelastic.",
-    "C. −0.4, so the good is inferior.",
-    "D. 4, because the quantities are 4 and 10."
+    "B. −0.4, so the good is inferior.",
+    "C. 4, because the quantities are 4 and 10.",
+    "D. 0.4, so the good is normal and income-inelastic."
    ],
-   "answer": "B",
+   "answer": "D",
    "explanation": "YED = %ΔQ / %ΔY = 4/10 = 0.4. Positive YED means normal. Below 1 means income-inelastic: demand rises less than proportionally with income. Inverting the ratio or forcing a minus sign changes the good’s type.",
    "tags": [
     "YED"
@@ -2955,12 +2955,12 @@
    "difficulty": "easy",
    "question": "An effective price ceiling is set below the equilibrium price. The immediate result is:",
    "options": [
-    "A. A surplus of the good.",
-    "B. No change, because ceilings are always above equilibrium.",
-    "C. A shortage: quantity demanded exceeds quantity supplied at the ceiling.",
+    "A. A shortage: quantity demanded exceeds quantity supplied at the ceiling.",
+    "B. A surplus of the good.",
+    "C. No change, because ceilings are always above equilibrium.",
     "D. A higher quantity traded than at equilibrium."
    ],
-   "answer": "C",
+   "answer": "A",
    "explanation": "A ceiling only binds if it is below equilibrium. At that lower price, buyers want more and sellers offer less, so there is a shortage. The quantity traded is the smaller quantity supplied, which is less than the equilibrium quantity.",
    "tags": [
     "price ceiling"
@@ -2974,12 +2974,12 @@
    "difficulty": "easy",
    "question": "An effective price floor is set above equilibrium. Which statement matches the diagram?",
    "options": [
-    "A. Quantity supplied exceeds quantity demanded, so there is a surplus.",
-    "B. Quantity demanded exceeds quantity supplied.",
-    "C. The floor lowers the price actually paid.",
+    "A. Quantity demanded exceeds quantity supplied.",
+    "B. The floor lowers the price actually paid.",
+    "C. Quantity supplied exceeds quantity demanded, so there is a surplus.",
     "D. The demand curve shifts right by law."
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "A floor above equilibrium keeps the price high. Sellers offer more than buyers take, which is a surplus. The floor does not shift demand; it stops the price from falling to equilibrium.",
    "tags": [
     "price floor"
@@ -2993,12 +2993,12 @@
    "difficulty": "medium",
    "question": "The government pays sellers a per-unit subsidy. The supply curve that buyers see will:",
    "options": [
-    "A. Shift up by the subsidy.",
-    "B. Stay still while demand shifts down.",
-    "C. Become perfectly inelastic.",
-    "D. Shift down (right) by the amount of the subsidy."
+    "A. Shift down (right) by the amount of the subsidy.",
+    "B. Shift up by the subsidy.",
+    "C. Stay still while demand shifts down.",
+    "D. Become perfectly inelastic."
    ],
-   "answer": "D",
+   "answer": "A",
    "explanation": "A per-unit subsidy lowers sellers’ net cost, so they accept a lower price from buyers. The supply curve shifts down, or right, by the subsidy per unit. Demand does not have to move for the subsidy to change equilibrium.",
    "tags": [
     "subsidy"
@@ -3013,11 +3013,11 @@
    "question": "A binding quota sets the maximum quantity below the equilibrium quantity. Compared with the free market, the price tends to be:",
    "options": [
     "A. Lower, because fewer goods always mean a lower price.",
-    "B. Higher, because the restricted quantity meets demand further up the demand curve.",
-    "C. Unchanged, because a quota is not a price control.",
+    "B. Unchanged, because a quota is not a price control.",
+    "C. Higher, because the restricted quantity meets demand further up the demand curve.",
     "D. Zero, because trade above the quota is illegal."
    ],
-   "answer": "B",
+   "answer": "C",
    "explanation": "The quota caps quantity. Buyers’ willingness to pay at that smaller quantity is read off the demand curve, and it is higher than the old equilibrium price. A quota is not itself a price tag, but it changes the price that clears the allowed quantity.",
    "tags": [
     "quota"
@@ -3031,12 +3031,12 @@
    "difficulty": "hard",
    "question": "A per-unit tax creates a wedge. The deadweight loss is the:",
    "options": [
-    "A. Loss of total surplus on units that are no longer traded but were worth more to buyers than they cost sellers.",
-    "B. The whole tax revenue collected by the government.",
+    "A. The whole tax revenue collected by the government.",
+    "B. Loss of total surplus on units that are no longer traded but were worth more to buyers than they cost sellers.",
     "C. The rise in producer surplus.",
     "D. The area of consumer surplus that still remains."
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Tax revenue is a transfer from buyers and sellers to the government, not a loss by itself. Deadweight loss is the surplus destroyed because some mutually beneficial units are not traded. Remaining consumer surplus is a gain that still exists, not the loss.",
    "tags": [
     "deadweight loss",
@@ -3052,11 +3052,11 @@
    "question": "A price ceiling is set above the equilibrium price. Relative to the free market, the ceiling:",
    "options": [
     "A. Creates a shortage.",
-    "B. Does not bind, so price and quantity stay at equilibrium.",
-    "C. Creates a surplus.",
-    "D. Shifts demand left."
+    "B. Creates a surplus.",
+    "C. Shifts demand left.",
+    "D. Does not bind, so price and quantity stay at equilibrium."
    ],
-   "answer": "B",
+   "answer": "D",
    "explanation": "A ceiling forbids prices above it. If equilibrium is already below the ceiling, the market price is legal and nothing changes. Shortage appears only when the ceiling is below equilibrium.",
    "tags": [
     "non-binding ceiling"
@@ -3071,11 +3071,11 @@
    "question": "A firm’s fixed cost rises, with variable cost unchanged. In the short run, which curve shifts up?",
    "options": [
     "A. Marginal cost only.",
-    "B. Average variable cost and marginal cost.",
-    "C. Average total cost, but not marginal cost.",
+    "B. Average total cost, but not marginal cost.",
+    "C. Average variable cost and marginal cost.",
     "D. Neither average total cost nor marginal cost."
    ],
-   "answer": "C",
+   "answer": "B",
    "explanation": "Fixed cost does not change when one more unit is produced, so marginal cost is unchanged. Average total cost includes fixed cost per unit, so ATC shifts up. AVC excludes fixed cost, so it stays put.",
    "tags": [
     "fixed cost",
@@ -3090,12 +3090,12 @@
    "difficulty": "easy",
    "question": "Marginal cost cuts the average variable cost curve at AVC’s:",
    "options": [
-    "A. Minimum point.",
-    "B. Maximum point.",
-    "C. Starting point on the vertical axis.",
-    "D. Intersection with the demand curve."
+    "A. Maximum point.",
+    "B. Starting point on the vertical axis.",
+    "C. Intersection with the demand curve.",
+    "D. Minimum point."
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "When MC is below AVC, producing one more unit pulls the average down. When MC is above AVC, it pulls the average up. So MC crosses AVC at the bottom of the U. This is a cost-curve fact, not a demand intersection.",
    "tags": [
     "MC",
@@ -3111,11 +3111,11 @@
    "question": "The law of diminishing marginal returns starts to apply when:",
    "options": [
     "A. All inputs are varied together in the long run.",
-    "B. Total product becomes zero.",
-    "C. The firm becomes a monopoly.",
-    "D. Adding more of a variable input, with at least one input fixed, eventually lowers marginal product."
+    "B. Adding more of a variable input, with at least one input fixed, eventually lowers marginal product.",
+    "C. Total product becomes zero.",
+    "D. The firm becomes a monopoly."
    ],
-   "answer": "D",
+   "answer": "B",
    "explanation": "Diminishing marginal returns is a short-run idea: some input is fixed. After a point, extra units of the variable input add less and less output. It is not a statement about market structure, and total product can still rise while marginal product falls.",
    "tags": [
     "diminishing returns"
@@ -3130,11 +3130,11 @@
    "question": "A bakery owner pays herself no wage and uses a shop she could have rented out for $20,000 a month. Economic cost, compared with accounting cost:",
    "options": [
     "A. Is lower, because implicit costs are subtracted.",
-    "B. Is higher, because it includes the forgone wage and the forgone rent.",
-    "C. Is the same, because no cash is paid.",
-    "D. Ignores the $20,000 because rent was not charged."
+    "B. Is the same, because no cash is paid.",
+    "C. Ignores the $20,000 because rent was not charged.",
+    "D. Is higher, because it includes the forgone wage and the forgone rent."
    ],
-   "answer": "B",
+   "answer": "D",
    "explanation": "Accounting cost records explicit payments. Economic cost also includes implicit opportunity cost: the wage she could earn elsewhere and the rent she gives up. Those do not appear as cash outflows, but they are real costs of using the resources in the bakery.",
    "tags": [
     "economic cost",
@@ -3169,11 +3169,11 @@
    "question": "A firm is making a positive accounting profit but a negative economic profit. A correct reading is:",
    "options": [
     "A. The firm should ignore the result because only accounting profit matters in economics.",
-    "B. The firm covers its cash costs but earns less than its next-best use of resources.",
-    "C. Total revenue is below explicit cost.",
+    "B. Total revenue is below explicit cost.",
+    "C. The firm covers its cash costs but earns less than its next-best use of resources.",
     "D. Marginal cost is below average variable cost, so the firm must shut down at once."
    ],
-   "answer": "B",
+   "answer": "C",
    "explanation": "Negative economic profit means total revenue does not cover explicit plus implicit costs. Accounting profit can still be positive. Shutdown in the short run depends on whether revenue covers variable cost, which this comparison does not tell you.",
    "tags": [
     "economic profit"
@@ -3187,12 +3187,12 @@
    "difficulty": "easy",
    "question": "A price-taking firm in perfect competition faces a demand curve for its own output that is:",
    "options": [
-    "A. The market demand curve.",
-    "B. Downward sloping and equal to marginal revenue only at the midpoint.",
-    "C. Perfectly elastic at the market price.",
+    "A. Perfectly elastic at the market price.",
+    "B. The market demand curve.",
+    "C. Downward sloping and equal to marginal revenue only at the midpoint.",
     "D. Vertical, because the firm must sell a fixed quantity."
    ],
-   "answer": "C",
+   "answer": "A",
    "explanation": "The market demand can slope down, but one firm is too small to affect price. Its own demand is a horizontal line at the market price, so P = MR = AR. It is not forced to a fixed quantity.",
    "tags": [
     "perfect competition",
@@ -3207,12 +3207,12 @@
    "difficulty": "easy",
    "question": "A single-price monopoly maximises profit where:",
    "options": [
-    "A. Marginal revenue equals marginal cost, and price is read off the demand curve above that quantity.",
-    "B. Price equals marginal cost.",
-    "C. Average revenue is minimised.",
-    "D. Marginal cost equals zero."
+    "A. Price equals marginal cost.",
+    "B. Average revenue is minimised.",
+    "C. Marginal cost equals zero.",
+    "D. Marginal revenue equals marginal cost, and price is read off the demand curve above that quantity."
    ],
-   "answer": "A",
+   "answer": "D",
    "explanation": "The output rule is MR = MC for any firm that can choose quantity. A single-price monopolist then charges the price on the demand curve at that quantity, which is above MR. P = MC is the efficient benchmark, not the monopoly’s profit rule.",
    "tags": [
     "monopoly",
@@ -3227,12 +3227,12 @@
    "difficulty": "medium",
    "question": "Why is marginal revenue below price for a single-price monopolist?",
    "options": [
-    "A. Marginal cost is always below average cost.",
-    "B. The firm is a price taker.",
-    "C. Buyers pay different prices for the same unit.",
-    "D. To sell one more unit the firm must cut the price on all units, not only on the extra unit."
+    "A. To sell one more unit the firm must cut the price on all units, not only on the extra unit.",
+    "B. Marginal cost is always below average cost.",
+    "C. The firm is a price taker.",
+    "D. Buyers pay different prices for the same unit."
    ],
-   "answer": "D",
+   "answer": "A",
    "explanation": "A single price applies to every unit. The extra unit brings in its price, but the price cut on the previous units is lost revenue. That loss pulls MR below price. Price discrimination, where buyers pay different prices, is a different model.",
    "tags": [
     "marginal revenue"
@@ -3247,11 +3247,11 @@
    "question": "Which feature best separates monopolistic competition from perfect competition?",
    "options": [
     "A. There is only one firm.",
-    "B. Products are differentiated, so each firm faces a downward-sloping demand curve.",
-    "C. Entry is blocked forever.",
-    "D. Firms do not maximise profit."
+    "B. Entry is blocked forever.",
+    "C. Firms do not maximise profit.",
+    "D. Products are differentiated, so each firm faces a downward-sloping demand curve."
    ],
-   "answer": "B",
+   "answer": "D",
    "explanation": "Both structures can have free entry. Monopolistic competition has many firms and differentiated products, so demand for one firm slopes down. A single firm would be monopoly. Profit maximisation is still the usual assumption.",
    "tags": [
     "monopolistic competition"
@@ -3265,12 +3265,12 @@
    "difficulty": "hard",
    "question": "In the long-run equilibrium of perfect competition, with free entry, a firm typically:",
    "options": [
-    "A. Makes zero economic profit and produces where P = minimum ATC.",
-    "B. Makes positive economic profit forever.",
+    "A. Makes positive economic profit forever.",
+    "B. Makes zero economic profit and produces where P = minimum ATC.",
     "C. Produces where P is above ATC.",
     "D. Shuts down because price equals marginal cost."
    ],
-   "answer": "A",
+   "answer": "B",
    "explanation": "Free entry competes economic profit away. The horizontal demand just touches ATC at its minimum, so P = MC = minimum ATC and economic profit is zero. That is not a shutdown: the firm covers all costs, including opportunity cost. Accounting profit can still be positive.",
    "tags": [
     "long-run equilibrium"
@@ -3285,11 +3285,11 @@
    "question": "A high barrier to entry is most important for explaining why:",
    "options": [
     "A. A perfectly competitive firm faces a horizontal demand curve.",
-    "B. A monopoly can keep earning economic profit in the long run.",
-    "C. Marginal cost slopes upward.",
+    "B. Marginal cost slopes upward.",
+    "C. A monopoly can keep earning economic profit in the long run.",
     "D. Consumers prefer lower prices."
    ],
-   "answer": "B",
+   "answer": "C",
    "explanation": "Without a barrier, profit attracts entry and the demand facing the incumbent shrinks. A barrier stops that entry, so long-run economic profit can remain. The competitive firm’s horizontal demand comes from being a price taker, not from a barrier.",
    "tags": [
     "barriers to entry"
@@ -3304,11 +3304,11 @@
    "question": "GDP measures:",
    "options": [
     "A. The total money held by households.",
-    "B. The value of all intermediate goods added on top of final goods, with no adjustment.",
-    "C. The market value of final goods and services produced within a country in a period.",
+    "B. The market value of final goods and services produced within a country in a period.",
+    "C. The value of all intermediate goods added on top of final goods, with no adjustment.",
     "D. Only goods sold abroad."
    ],
-   "answer": "C",
+   "answer": "B",
    "explanation": "GDP is a production measure for a territory and a time period, using market values of final output so that intermediate goods are not counted twice. Money balances are a stock of wealth, not this period’s production. Exports are only one component.",
    "tags": [
     "GDP definition"
@@ -3322,12 +3322,12 @@
    "difficulty": "easy",
    "question": "Nominal GDP rises 8% and the price level rises 5%. A fair first reading is that:",
    "options": [
-    "A. Real output rose, but by less than 8%, because part of the rise is prices.",
-    "B. Real output rose by 8%.",
-    "C. Real output fell by 5%.",
+    "A. Real output rose by 8%.",
+    "B. Real output fell by 5%.",
+    "C. Real output rose, but by less than 8%, because part of the rise is prices.",
     "D. Nominal GDP does not include prices, so real GDP also rose 8%."
    ],
-   "answer": "A",
+   "answer": "C",
    "explanation": "Nominal GDP values output at current prices, so it mixes quantities and prices. If prices rise 5% while nominal GDP rises 8%, real GDP rises by roughly the difference, not by the full 8% and not by a fall of 5%.",
    "tags": [
     "nominal vs real"
@@ -3342,11 +3342,11 @@
    "question": "Which payment is excluded from GDP because it is a transfer, not production?",
    "options": [
     "A. A teacher’s salary at a public school.",
-    "B. A household’s purchase of a newly built flat.",
-    "C. A firm’s purchase of a new delivery van.",
-    "D. A government cash allowance to an elderly resident, with no good or service provided in return."
+    "B. A government cash allowance to an elderly resident, with no good or service provided in return.",
+    "C. A household’s purchase of a newly built flat.",
+    "D. A firm’s purchase of a new delivery van."
    ],
-   "answer": "D",
+   "answer": "B",
    "explanation": "Transfers move income without new production. A teacher’s salary pays for a service and is in government consumption. A new flat and a new van are investment in newly produced goods. The allowance is not payment for output.",
    "tags": [
     "transfer payment"
@@ -3361,11 +3361,11 @@
    "question": "GDP and GNP differ because GNP:",
    "options": [
     "A. Is always smaller than GDP.",
-    "B. Adds net income from abroad and is about ownership, while GDP is about location.",
-    "C. Excludes exports.",
+    "B. Excludes exports.",
+    "C. Adds net income from abroad and is about ownership, while GDP is about location.",
     "D. Measures only the price level."
    ],
-   "answer": "B",
+   "answer": "C",
    "explanation": "GDP counts production inside the territory, whoever owns the factor. GNP (or GNI) adjusts for net factor income from abroad, so it follows residents’ income. It is not a price index and it still includes trade in the underlying production accounts.",
    "tags": [
     "GDP vs GNP"
@@ -3399,11 +3399,11 @@
    "question": "A rise in real GDP does not, by itself, show that:",
    "options": [
     "A. Measured market production has increased.",
-    "B. Every resident is better off, or that unpaid housework and pollution have been counted.",
-    "C. Quantities, not only prices, are part of the comparison if the deflator was used properly.",
-    "D. The figure refers to a period of production."
+    "B. Quantities, not only prices, are part of the comparison if the deflator was used properly.",
+    "C. The figure refers to a period of production.",
+    "D. Every resident is better off, or that unpaid housework and pollution have been counted."
    ],
-   "answer": "B",
+   "answer": "D",
    "explanation": "Real GDP can rise while the gain is uneven, and it omits non-market work and many environmental costs. It does measure market production over a period, and a proper deflator removes the pure price change. Those limits are why GDP is not a complete welfare score.",
    "tags": [
     "GDP limitations"
