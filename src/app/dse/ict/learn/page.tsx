@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import IctUnitMap from "@/components/dse/ict-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
+import conceptCards from "@/data/dse/ict-concept-cards.json";
 import { ICT_UNITS } from "@/lib/dse/ict-path";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
@@ -119,6 +120,28 @@ export default function IctLearnPage() {
       <div className="mt-8">
         <IctUnitMap />
       </div>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          概念卡
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+          {conceptCards.cards.length} 張原創概念卡，用來核對系統、網絡、數據、數據庫、多媒體同版權嘅常見分界。不是考評局試題。
+        </p>
+        <div className="mt-4 space-y-3">
+          {conceptCards.cards.map((card) => (
+            <details key={card.id} className="rounded-2xl border border-line bg-white p-5">
+              <summary className="cursor-pointer font-semibold text-ink">
+                {card.title}
+                <span className="ml-2 text-sm font-normal text-ink-faint">{card.focus}</span>
+              </summary>
+              <p className="mt-3 text-sm text-ink">{card.prompt}</p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-muted">{card.answer}</p>
+              <p className="mt-2 text-sm text-amber-900">常見失分：{card.trap}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">

@@ -3,8 +3,8 @@
   "title": "DSE ICT Drill Bank",
   "subject": "DSE ict",
   "language": "en",
-  "total": 120,
-  "version": "1.0",
+  "total": 160,
+  "version": "1.1",
   "reviewed": true
  },
  "questions": [
@@ -2371,6 +2371,808 @@
    "tags": [
     "trace table",
     "exam"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-SYST-013",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "Which statement about cache memory is correct?",
+   "options": [
+    "A. Cache is the only place a user's files are kept after the computer is switched off.",
+    "B. Cache is application software used to edit video.",
+    "C. Cache is a small, fast store that keeps copies of data the CPU is likely to need again soon.",
+    "D. Cache replaces secondary storage, so a computer no longer needs a drive."
+   ],
+   "answer": "C",
+   "explanation": "Cache sits close to the CPU and speeds up repeated access. It is not a backup of files, and it does not replace an SSD or the operating system.",
+   "tags": [
+    "cache",
+    "CPU"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-014",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "A computer can show its first start-up screen before the operating system has loaded from the SSD. Where are those start-up instructions typically kept?",
+   "options": [
+    "A. In ROM, because the instructions must still be there after the power has been off.",
+    "B. Only in RAM, because RAM keeps its contents with no power.",
+    "C. In the projector, because output devices store programs.",
+    "D. In a spreadsheet the user has not created yet."
+   ],
+   "answer": "A",
+   "explanation": "ROM is non-volatile and holds the start-up instructions. RAM is volatile, and a display does not store the boot program.",
+   "tags": [
+    "ROM",
+    "boot"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-015",
+   "topic": "computer-systems",
+   "difficulty": "hard",
+   "question": "A CPU has two cores. Which statement is the careful one?",
+   "options": [
+    "A. Every program always runs exactly twice as fast.",
+    "B. Two cores mean the computer no longer needs RAM.",
+    "C. A core is a type of cable used only for printers.",
+    "D. Two cores can work on suitable tasks at the same time, but one single-threaded program does not automatically finish in half the time."
+   ],
+   "answer": "D",
+   "explanation": "Extra cores help when work can be split. A program that runs as one sequence still follows that sequence, so the speed-up is not automatic.",
+   "tags": [
+    "CPU",
+    "core"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-SYST-016",
+   "topic": "computer-systems",
+   "difficulty": "hard",
+   "question": "A pupil saves a project to a cloud drive. Which description fits this course?",
+   "options": [
+    "A. The cloud replaces the CPU, so no processor is involved.",
+    "B. The file is held in secondary storage on a remote system and is reached over a network. A CPU still does the processing.",
+    "C. Cloud storage is volatile RAM inside the keyboard.",
+    "D. A cloud drive is a virus scanner and does not store files."
+   ],
+   "answer": "B",
+   "explanation": "Cloud storage is still storage, reached through a network. Processing stays with a computer's CPU. The file is not kept in RAM after a shutdown.",
+   "tags": [
+    "cloud",
+    "storage"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ICT-DATA-013",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "The binary number 101101 is equal to which denary number?",
+   "options": [
+    "A. 27",
+    "B. 53",
+    "C. 45",
+    "D. 13"
+   ],
+   "answer": "C",
+   "explanation": "101101 is 32 + 0 + 8 + 4 + 0 + 1 = 45. Place values from the left are 32, 16, 8, 4, 2 and 1.",
+   "tags": [
+    "binary",
+    "denary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ICT-DATA-014",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "The hexadecimal number A3 is equal to which denary number?",
+   "options": [
+    "A. 163",
+    "B. 103",
+    "C. 173",
+    "D. 13"
+   ],
+   "answer": "A",
+   "explanation": "A is 10 in denary. A3 is 10 × 16 + 3 = 163. Two hex digits are not the same as the denary number 103.",
+   "tags": [
+    "hexadecimal",
+    "denary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ICT-DATA-015",
+   "topic": "data-representation",
+   "difficulty": "hard",
+   "question": "An 8-bit unsigned integer stores whole numbers from 0 to 255. Which sum cannot be stored in that format?",
+   "options": [
+    "A. 200 + 50",
+    "B. 100 + 100",
+    "C. 15 + 1",
+    "D. 250 + 10"
+   ],
+   "answer": "D",
+   "explanation": "250 + 10 = 260, which is above 255, so it overflows an 8-bit unsigned integer. The other three sums are 250, 200 and 16, all inside the range.",
+   "tags": [
+    "overflow",
+    "binary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ICT-DATA-016",
+   "topic": "data-representation",
+   "difficulty": "hard",
+   "question": "The word NOTE is stored as four ASCII characters, with no spaces. How many bytes does that text use in this course?",
+   "options": [
+    "A. 4 bits for the whole word.",
+    "B. 4 bytes, because each ASCII character uses one byte.",
+    "C. 32 bytes, because each character uses 8 bytes.",
+    "D. 1 byte for the whole word."
+   ],
+   "answer": "B",
+   "explanation": "In the ASCII model used here, one character is one byte. Four characters are 4 bytes, which is 32 bits, not 32 bytes.",
+   "tags": [
+    "ASCII",
+    "byte"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ICT-NETW-013",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "Which statement separates bandwidth from latency?",
+   "options": [
+    "A. Bandwidth and latency are two names for the same measurement.",
+    "B. Bandwidth is the brand name of a switch.",
+    "C. Bandwidth is how much data can be moved in a given time. Latency is the delay before the data starts to arrive.",
+    "D. Latency is the number of computers joined to a star."
+   ],
+   "answer": "C",
+   "explanation": "A link can carry a lot of data and still feel slow if each response is delayed. Quote the quantity the question asks for.",
+   "tags": [
+    "bandwidth",
+    "latency"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ICT-NETW-014",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "On a school Wi-Fi network, the SSID is:",
+   "options": [
+    "A. The name of the wireless network, not the password itself.",
+    "B. The secret key that encrypts every file on the SSD.",
+    "C. A type of fibre-optic cable.",
+    "D. The operating system."
+   ],
+   "answer": "A",
+   "explanation": "The SSID is what you select in the list of networks. The password is a separate check. Knowing the name does not log you in.",
+   "tags": [
+    "Wi-Fi",
+    "SSID"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ICT-NETW-015",
+   "topic": "networks",
+   "difficulty": "hard",
+   "question": "A classroom computer has an address that begins 192.168. Which statement matches this course?",
+   "options": [
+    "A. The address proves the computer has no network interface.",
+    "B. It is always the public address of a website on the World Wide Web.",
+    "C. It shows the file is stored in ROM.",
+    "D. That form is typically a private address used inside the LAN. A router is used when traffic must reach a different network."
+   ],
+   "answer": "D",
+   "explanation": "Addresses in the 192.168 range are private and used inside a local network. Crossing to another network is the router's job, not the switch's.",
+   "tags": [
+    "IP address",
+    "LAN"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ICT-NETW-016",
+   "topic": "networks",
+   "difficulty": "hard",
+   "question": "Why might a fixed computer in the ICT lab use a cable rather than Wi-Fi?",
+   "options": [
+    "A. A cable can only connect a printer and cannot carry data.",
+    "B. A dedicated cable is less affected by walls and by other wireless users than a shared Wi-Fi channel.",
+    "C. Wi-Fi always has a higher bandwidth than any cable.",
+    "D. Using a cable turns that one computer into a WAN."
+   ],
+   "answer": "B",
+   "explanation": "A cabled link for a desk that does not move avoids sharing the wireless channel. One cable does not create a wide area network.",
+   "tags": [
+    "media",
+    "Wi-Fi"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ICT-INET-013",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "Which statement separates a browser from a search engine?",
+   "options": [
+    "A. They are the same program with two names.",
+    "B. A search engine replaces DNS, so domain names are never used.",
+    "C. A browser displays pages. A search engine is a service, often opened in the browser, that returns links for keywords.",
+    "D. A browser can only send email and cannot show a page."
+   ],
+   "answer": "C",
+   "explanation": "You can type a full URL into a browser without using a search. A search engine finds pages. DNS still translates the domain name.",
+   "tags": [
+    "browser",
+    "search engine"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-014",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "At the level of this course, a cookie is:",
+   "options": [
+    "A. A small piece of data a site can store so the browser can be recognised on a later visit, such as a language choice.",
+    "B. A hardware cache inside the CPU.",
+    "C. Another name for a computer virus.",
+    "D. The protocol shown by https."
+   ],
+   "answer": "A",
+   "explanation": "A cookie remembers a small fact between visits. It is not malware by itself, and it is not the HTTPS protocol.",
+   "tags": [
+    "cookie",
+    "web"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-015",
+   "topic": "internet",
+   "difficulty": "hard",
+   "question": "Which statement about a URL and an IP address is correct?",
+   "options": [
+    "A. A URL and an IP address are always the same text.",
+    "B. An IP address is a picture file format.",
+    "C. DNS deletes pages that have a URL.",
+    "D. A URL names a resource and often includes a domain. An IP address identifies a host. DNS links a domain name to an address."
+   ],
+   "answer": "D",
+   "explanation": "People use names. Networks use addresses. DNS is the lookup, not a delete tool, and a URL is not itself an image format.",
+   "tags": [
+    "URL",
+    "DNS",
+    "IP address"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-INET-016",
+   "topic": "internet",
+   "difficulty": "hard",
+   "question": "Why is a large download described as travelling in packets?",
+   "options": [
+    "A. The whole file must occupy one unbroken cable across the Internet until the download ends.",
+    "B. The data is split into packets that can be routed across the network and reassembled at the destination.",
+    "C. Packets are used only when a page is printed.",
+    "D. A packet is a primary key in a database."
+   ],
+   "answer": "B",
+   "explanation": "Packet switching lets pieces of one transfer share the network with other traffic. The receiving computer puts the pieces back in order.",
+   "tags": [
+    "packet",
+    "internet"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ICT-DBAS-013",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "A pupil table stores Class and ClassNo. Neither field is unique on its own, but each pair identifies one pupil. Which key fits?",
+   "options": [
+    "A. Class alone, because a class name never repeats.",
+    "B. A photograph field, because pictures are always unique.",
+    "C. A composite primary key made from Class and ClassNo together.",
+    "D. No key is possible once any single field repeats."
+   ],
+   "answer": "C",
+   "explanation": "A composite key uses two or more fields that are unique as a group. Class by itself repeats, so it cannot be the primary key alone.",
+   "tags": [
+    "primary key",
+    "composite key"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ICT-DBAS-014",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "House points are stored as text. A sort puts \"100\" before \"20\". Why can that happen?",
+   "options": [
+    "A. Text is ordered character by character, so \"100\" can come before \"20\".",
+    "B. A text field cannot be shown on a form.",
+    "C. Every numeric field sorts 100 before 20 as well.",
+    "D. A primary key must be stored as text, so the order is required."
+   ],
+   "answer": "A",
+   "explanation": "The first character \"1\" comes before \"2\". Store quantities as numbers if you need numeric order.",
+   "tags": [
+    "data type",
+    "sort"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ICT-DBAS-015",
+   "topic": "databases",
+   "difficulty": "hard",
+   "question": "A query uses Form = 5 AND House = \"Red\". Which rows are returned?",
+   "options": [
+    "A. Every Form 5 row, plus every Red House row from other forms.",
+    "B. Only rows that fail both tests.",
+    "C. No rows, because AND deletes the two fields.",
+    "D. Only rows that are Form 5 and also Red House."
+   ],
+   "answer": "D",
+   "explanation": "AND keeps a row only when both criteria are true. OR would keep a row that matches either criterion. The fields stay in the table.",
+   "tags": [
+    "query",
+    "criteria"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ICT-DBAS-016",
+   "topic": "databases",
+   "difficulty": "hard",
+   "question": "The same home address is typed into every loan row for one borrower. Which problem does that create?",
+   "options": [
+    "A. Repeating the address always makes the primary key unique.",
+    "B. An update can change one copy and miss the others, so the stored addresses disagree.",
+    "C. The repetition is required for referential integrity.",
+    "D. Repeating the address removes any chance of a typing error."
+   ],
+   "answer": "B",
+   "explanation": "Redundant copies drift apart when only one is edited. A borrower table held once, and linked by a key, avoids that.",
+   "tags": [
+    "redundancy",
+    "integrity"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ICT-MULT-013",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Which statement separates MIDI from a WAV recording?",
+   "options": [
+    "A. MIDI is always a larger recording of a speaking voice.",
+    "B. WAV stores only note instructions and no samples.",
+    "C. MIDI stores note, instrument and timing instructions. A WAV file stores sampled sound.",
+    "D. Both formats are lossy photograph standards."
+   ],
+   "answer": "C",
+   "explanation": "MIDI is compact because it stores instructions. Sampled audio stores the waveform, so a WAV of the same piece is usually much larger.",
+   "tags": [
+    "MIDI",
+    "WAV"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level multimedia"
+  },
+  {
+   "id": "ICT-MULT-014",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "An audio file is described as 128 kbps. In this course that figure means:",
+   "options": [
+    "A. About 128 kilobits of audio data are used for each second of playback.",
+    "B. The picture is 128 pixels wide.",
+    "C. The sampling rate is 128 hertz and no data rate is involved.",
+    "D. The clip uses 128 speakers."
+   ],
+   "answer": "A",
+   "explanation": "Bit rate is data per second. It is not the width of an image and it is not the number of speakers.",
+   "tags": [
+    "bit rate",
+    "audio"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level multimedia"
+  },
+  {
+   "id": "ICT-MULT-015",
+   "topic": "multimedia",
+   "difficulty": "hard",
+   "question": "A clip has 10 frames. Each frame is an uncompressed bitmap of 100 by 50 pixels with 8-bit colour. Ignoring sound, the video data size is:",
+   "options": [
+    "A. 500 bytes.",
+    "B. 40 000 bytes.",
+    "C. 10 bytes.",
+    "D. 50 000 bytes."
+   ],
+   "answer": "D",
+   "explanation": "One frame is 100 × 50 × 8 = 40 000 bits = 5 000 bytes. Ten frames are 50 000 bytes. 40 000 is the bit count of one frame, not the byte count of the clip.",
+   "tags": [
+    "bitmap",
+    "video",
+    "file size"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level multimedia"
+  },
+  {
+   "id": "ICT-MULT-016",
+   "topic": "multimedia",
+   "difficulty": "hard",
+   "question": "Why does a club draw a storyboard before filming sports day?",
+   "options": [
+    "A. A storyboard compresses a JPEG file.",
+    "B. It plans the shots and their order, so a missing scene is spotted before the event is over.",
+    "C. It removes the need for any audio.",
+    "D. It is the primary key of the video database."
+   ],
+   "answer": "B",
+   "explanation": "A storyboard is a plan, not a compression method and not a database key. Filming from a plan avoids discovering a gap after the day has ended.",
+   "tags": [
+    "storyboard",
+    "planning"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level multimedia"
+  },
+  {
+   "id": "ICT-ALGO-013",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "What is the output of this pseudocode?\n\na ← 3\nb ← 4\na ← a + b\nOUTPUT a\nOUTPUT b",
+   "options": [
+    "A. 3, then 4",
+    "B. 7, then 7",
+    "C. 7, then 4",
+    "D. 4, then 3"
+   ],
+   "answer": "C",
+   "explanation": "a becomes 3 + 4 = 7. b is never assigned again, so it stays 4. The two OUTPUT lines print 7 and then 4.",
+   "tags": [
+    "trace",
+    "assignment"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Algorithm and Programming"
+  },
+  {
+   "id": "ICT-ALGO-014",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "What is the output?\n\np ← 10\nFOR k FROM 1 TO 3\n    p ← p - 2\nEND FOR\nOUTPUT p",
+   "options": [
+    "A. 4",
+    "B. 10",
+    "C. 8",
+    "D. 2"
+   ],
+   "answer": "A",
+   "explanation": "The body runs for k = 1, 2 and 3. p goes 10 → 8 → 6 → 4. Stopping after one pass gives 8. A fourth pass would give 2, but the loop stops at 3.",
+   "tags": [
+    "FOR",
+    "trace"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Algorithm and Programming"
+  },
+  {
+   "id": "ICT-ALGO-015",
+   "topic": "algorithms",
+   "difficulty": "hard",
+   "question": "What is the output?\n\nscore ← 40\nbonus ← 0\nIF score >= 50 THEN\n    bonus ← 10\nELSE\n    bonus ← 5\nENDIF\nOUTPUT score + bonus",
+   "options": [
+    "A. 50",
+    "B. 40",
+    "C. 10",
+    "D. 45"
+   ],
+   "answer": "D",
+   "explanation": "40 is not greater than or equal to 50, so the ELSE branch sets bonus to 5. The output is 40 + 5 = 45. The THEN branch does not run.",
+   "tags": [
+    "IF",
+    "trace"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Algorithm and Programming"
+  },
+  {
+   "id": "ICT-ALGO-016",
+   "topic": "algorithms",
+   "difficulty": "hard",
+   "question": "How many times does the body of FOR i FROM 1 TO 5 run, and what is n after n ← 0 followed by n ← n + 1 inside that loop?",
+   "options": [
+    "A. The body runs 4 times and n is 4.",
+    "B. The body runs 5 times and n is 5.",
+    "C. The body runs 6 times and n is 6.",
+    "D. The body runs once and n is 1."
+   ],
+   "answer": "B",
+   "explanation": "FROM 1 TO 5 includes both ends, so i is 1, 2, 3, 4 and 5. That is five additions, and n finishes at 5.",
+   "tags": [
+    "FOR",
+    "boundary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Algorithm and Programming"
+  },
+  {
+   "id": "ICT-SECU-013",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Which statement separates authentication from authorisation?",
+   "options": [
+    "A. They are two names for a firewall rule that blocks every website.",
+    "B. Authentication means deleting the only backup.",
+    "C. Authentication checks who the user is. Authorisation checks what that identity is allowed to do.",
+    "D. Authorisation means a file is stored with no access check at all."
+   ],
+   "answer": "C",
+   "explanation": "Logging in answers who you are. Permission to open a particular folder answers what you may do. A firewall is a different control.",
+   "tags": [
+    "authentication",
+    "authorisation"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet security awareness"
+  },
+  {
+   "id": "ICT-SECU-014",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A new wireless router still uses the password printed as \"admin\". What should the school do first?",
+   "options": [
+    "A. Change it to a long password that only the school keeps, before the router is used.",
+    "B. Publish the printed password on the school website so every class can share it.",
+    "C. Leave it, because a password that came with the device cannot be guessed.",
+    "D. Email the printed password to every pupil."
+   ],
+   "answer": "A",
+   "explanation": "A default password is widely known for that model. Changing it is a basic safeguard. Sharing it removes the check.",
+   "tags": [
+    "password",
+    "default password"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet security awareness"
+  },
+  {
+   "id": "ICT-SECU-015",
+   "topic": "security",
+   "difficulty": "hard",
+   "question": "Two-factor authentication, at the level of this course, means:",
+   "options": [
+    "A. The same password is reused on two websites.",
+    "B. The firewall is switched off.",
+    "C. Passwords are stored in a folder that anyone on the Internet can open.",
+    "D. The user provides something they know and a second check, such as a code sent to a device they have."
+   ],
+   "answer": "D",
+   "explanation": "The second factor is a separate check, not a second copy of the same password and not a reason to disable other controls.",
+   "tags": [
+    "authentication",
+    "two-factor"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet security awareness"
+  },
+  {
+   "id": "ICT-SECU-016",
+   "topic": "security",
+   "difficulty": "hard",
+   "question": "Which statement about HTTPS is accurate for this course?",
+   "options": [
+    "A. Encryption means the site has no password and anyone may change it.",
+    "B. Encryption means someone who only intercepts the traffic cannot read the page contents without the proper key.",
+    "C. It proves that the downloaded file is a virus.",
+    "D. It replaces the need to keep any backup."
+   ],
+   "answer": "B",
+   "explanation": "HTTPS protects the contents in transit. It does not scan a file for malware, and it does not remove the need for a backup.",
+   "tags": [
+    "HTTPS",
+    "encryption"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet security awareness"
+  },
+  {
+   "id": "ICT-SOCI-013",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "A pupil copies a chart from a news site, names the site, and posts the chart on the club's public page. Which statement is careful?",
+   "options": [
+    "A. Attribution always replaces copyright.",
+    "B. A news chart may always be republished once the site name is written underneath.",
+    "C. Naming the source is honest attribution, but it is not the same as having permission to copy the chart.",
+    "D. Naming the source makes the chart the pupil's own work."
+   ],
+   "answer": "C",
+   "explanation": "Credit and permission are different. Unless a licence or the owner allows the use, copying it onto a public page can still infringe copyright.",
+   "tags": [
+    "copyright",
+    "attribution"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Social, ethical and legal issues"
+  },
+  {
+   "id": "ICT-SOCI-014",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "A lunch poll asks for an HKID number, a home address and a parent's salary. What is the careful objection?",
+   "options": [
+    "A. Those items are more than the poll needs. The club should collect only the choice it will use.",
+    "B. Collecting more personal data always makes a poll fairer.",
+    "C. A salary is required on every school form.",
+    "D. Collecting less personal data is not allowed."
+   ],
+   "answer": "A",
+   "explanation": "Data minimisation means you collect what the task needs and no more. A lunch choice does not need an identity number or a salary.",
+   "tags": [
+    "personal data",
+    "minimisation"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Social, ethical and legal issues"
+  },
+  {
+   "id": "ICT-SOCI-015",
+   "topic": "social-issues",
+   "difficulty": "hard",
+   "question": "An assembly video has no captions and no transcript. Who is left out?",
+   "options": [
+    "A. Only pupils who dislike the speaker.",
+    "B. Nobody, because a video is accessible by default.",
+    "C. Only the person who operated the camera.",
+    "D. Pupils who cannot follow the soundtrack, including some who are deaf or hard of hearing."
+   ],
+   "answer": "D",
+   "explanation": "Captions and a transcript give another way to follow the words. A soundtrack alone does not serve every pupil.",
+   "tags": [
+    "accessibility",
+    "captions"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Social, ethical and legal issues"
+  },
+  {
+   "id": "ICT-SOCI-016",
+   "topic": "social-issues",
+   "difficulty": "hard",
+   "question": "Which arrangement reduces strain in a long ICT lesson?",
+   "options": [
+    "A. A screen on the floor so the neck stays bent for the whole lesson.",
+    "B. A screen near eye level, a supported back, and short breaks to look away and move.",
+    "C. No breaks, because rests are what cause strain.",
+    "D. The dimmest possible screen in a dark room, with no other change."
+   ],
+   "answer": "B",
+   "explanation": "Ergonomics covers posture, screen position and breaks. Working without a pause, or bending the neck for an hour, increases strain.",
+   "tags": [
+    "ergonomics",
+    "health"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Social, ethical and legal issues"
+  },
+  {
+   "id": "ICT-EXAM-013",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "In this course, the command word \"compare\" means you should:",
+   "options": [
+    "A. Give only the advantages of the first item and ignore the second.",
+    "B. Copy a definition of one term and stop.",
+    "C. Point out similarities and differences, using both of the things named in the question.",
+    "D. State a number and leave the unit out."
+   ],
+   "answer": "C",
+   "explanation": "A comparison needs both sides. A one-sided list of advantages does not show how the two items differ or match.",
+   "tags": [
+    "command word",
+    "compare"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-014",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A pupil works out 200 × 100 × 24 and writes 480 000. The question asked for the size in bytes. What is still missing?",
+   "options": [
+    "A. Divide by 8, because 480 000 is a number of bits, and state the unit bytes.",
+    "B. Multiply by 8 again.",
+    "C. Nothing, because 480 000 is already in megabytes.",
+    "D. Remove the colour depth, because it is not part of a bitmap size."
+   ],
+   "answer": "A",
+   "explanation": "Width × height × colour depth gives bits. There are 8 bits in a byte, so the size is 480 000 ÷ 8 = 60 000 bytes.",
+   "tags": [
+    "file size",
+    "unit"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-015",
+   "topic": "exam-skills",
+   "difficulty": "hard",
+   "question": "A candidate's school entered the database elective and the web elective. On Paper 2 the candidate should:",
+   "options": [
+    "A. Answer all three electives in full.",
+    "B. Skip Paper 1, because Paper 2 replaces it.",
+    "C. Invent a fourth elective on the day.",
+    "D. Answer the questions for those two electives, not a third elective the school did not enter."
+   ],
+   "answer": "D",
+   "explanation": "Paper 2 is the two options the school entered. Paper 1 is still the compulsory paper. Check the options on your entry, not a friend's.",
+   "tags": [
+    "Paper 2",
+    "elective"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ICT-EXAM-016",
+   "topic": "exam-skills",
+   "difficulty": "hard",
+   "question": "A 2-mark question says \"State the output\" under a short algorithm. Which answer matches the command?",
+   "options": [
+    "A. A paragraph that defines every keyword and never states the output.",
+    "B. The output value or text, after a trace, without a definition the question did not ask for.",
+    "C. A different algorithm you would have preferred to write.",
+    "D. An input the program never reads."
+   ],
+   "answer": "B",
+   "explanation": "State means give the result the trace produces. Extra definitions do not replace the missing output, and you must follow the algorithm that is printed.",
+   "tags": [
+    "command word",
+    "trace"
    ],
    "subject": "ict",
    "syllabus_ref": "HKDSE ICT assessment"
