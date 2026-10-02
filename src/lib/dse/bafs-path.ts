@@ -49,7 +49,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "商業組織形式",
     topicKey: "forms-of-business",
     prerequisites: [1],
-    lessonIds: ["L2.1", "L2.2"],
+    lessonIds: ["L2.1", "L2.2", "L2.3"],
     passThreshold: 7,
   },
   {
@@ -94,7 +94,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "財務報表",
     topicKey: "financial-statements",
     prerequisites: [6],
-    lessonIds: ["L7.1", "L7.2"],
+    lessonIds: ["L7.1", "L7.2", "L7.3"],
     passThreshold: 7,
   },
   {
@@ -103,7 +103,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "財務分析",
     topicKey: "financial-ratios",
     prerequisites: [7],
-    lessonIds: ["L8.1", "L8.2", "L8.3"],
+    lessonIds: ["L8.1", "L8.2", "L8.3", "L8.4"],
     passThreshold: 7,
   },
   {
@@ -112,7 +112,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "個人理財與商業道德",
     topicKey: "personal-finance-ethics",
     prerequisites: [],
-    lessonIds: ["L9.1", "L9.2"],
+    lessonIds: ["L9.1", "L9.2", "L9.3"],
     passThreshold: 7,
   },
 ];
