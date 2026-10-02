@@ -938,5 +938,221 @@
   "practice": "exam-skills",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "L1.4": {
+  "id": "L1.4",
+  "title": "The Fetch-Decode-Execute Cycle and Cache",
+  "concept": "The CPU does not run a whole program in one jump. It repeats a fetch-decode-execute cycle. Fetch means the control unit reads the next instruction from memory. Decode means it works out what that instruction is asking for, such as an addition or a comparison. Execute means the right part carries it out. An addition is done by the arithmetic and logic unit. A store instruction writes a result back to memory. Then the cycle starts again with the next instruction. Main memory is large enough for the program, but it is slower than the CPU. Cache is a small, fast store beside the CPU that keeps copies of instructions or data just used, because the same ones are often needed again. A cache hit avoids a slower trip to RAM. A cache miss means the copy was not there, so it is fetched from RAM. Cache is not a backup of the user's files and it does not replace an SSD. If the power goes off, RAM and cache do not keep the attendance file. That file still belongs in secondary storage. Name the stage or the store. Do not describe how a chip is manufactured.",
+  "example": {
+   "scenario": "A quiz program adds two scores that are already in RAM, then writes the total into the pupil's file on the SSD. The same two scores are used again a moment later.",
+   "walkthrough": "Fetching the add instruction, decoding it, and executing it in the ALU is one cycle. The scores may be copied into cache because they are used again, which is a hit the second time. The total in RAM would vanish at shutdown, so writing the file is secondary storage, not a cache job. Calling the SSD a cache, or saying the ALU fetches the instruction, mixes up the parts."
+  },
+  "traps": [
+   "Saying cache keeps the only copy of a file after shutdown.",
+   "Giving the ALU the job of fetching the next instruction. Fetching is directed by the control unit.",
+   "Treating two cores as a promise that every program finishes in half the time."
+  ],
+  "terms": [
+   {
+    "term": "Fetch-decode-execute",
+    "definition": "The repeating cycle in which the CPU reads an instruction, works out what it means, and carries it out."
+   },
+   {
+    "term": "Cache",
+    "definition": "A small, fast store that keeps copies of recently used instructions or data close to the CPU."
+   },
+   {
+    "term": "Cache hit",
+    "definition": "The needed copy is already in cache, so the CPU does not have to read it from slower main memory."
+   },
+   {
+    "term": "Core",
+    "definition": "A processing unit inside the CPU. Extra cores can run suitable work at the same time."
+   }
+  ],
+  "unit": 1,
+  "practice": "computer-systems",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.4": {
+  "id": "L2.4",
+  "title": "Converting Bases and Spotting Overflow",
+  "concept": "Binary, denary and hexadecimal are three ways to write the same whole number. Convert by place value, not by guessing the length of the string. In binary the places from the right are 1, 2, 4, 8, 16, 32 and so on. The binary number 101101 is 32 + 8 + 4 + 1 = 45. Hexadecimal groups four bits into one digit. The digits 0 to 9 keep their usual meaning, and A to F mean 10 to 15. The hex number A3 is 10 × 16 + 3 = 163. Two hex digits are one byte. An unsigned 8-bit integer can hold 0 to 255. If a sum such as 250 + 10 equals 260, it does not fit, and that is overflow. Text has its own size rule. In the ASCII model used in this course, one character is one byte, so the four letters NOTE use 4 bytes, which is 32 bits. Do not call 32 bits 32 bytes. Show the place values in the working. A bare final number with no unit, or a hex digit read as a denary digit, drops the mark even when the idea was right.",
+  "example": {
+   "scenario": "Convert binary 101101 to denary, convert hex A3 to denary, and decide whether 250 + 10 fits in an 8-bit unsigned integer.",
+   "walkthrough": "101101 uses the places 32, 16, 8, 4, 2 and 1. The 1-bits contribute 32, 8, 4 and 1, so the denary value is 45. A is 10, so A3 is 160 + 3 = 163. 250 + 10 = 260. The largest 8-bit unsigned value is 255, so 260 overflows. A student who reads A as 1 gets 19, and a student who says 260 fits has forgotten the top of the range."
+  },
+  "traps": [
+   "Reading the hex digit A as the denary digit 1.",
+   "Calling an overflow result valid because the sum is still a whole number.",
+   "Mixing bits and bytes: 8 bits are 1 byte, so 32 bits are 4 bytes."
+  ],
+  "terms": [
+   {
+    "term": "Place value",
+    "definition": "The value of a digit based on its position, such as 32 for the leftmost bit of 101101."
+   },
+   {
+    "term": "Overflow",
+    "definition": "A result that is outside the range the chosen representation can store."
+   },
+   {
+    "term": "Byte",
+    "definition": "Eight bits. In this course one ASCII character uses one byte."
+   },
+   {
+    "term": "Hexadecimal",
+    "definition": "Base 16. Digits run from 0 to 9 and then A to F."
+   }
+  ],
+  "unit": 2,
+  "practice": "data-representation",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.3": {
+  "id": "L3.3",
+  "title": "Bandwidth, Delay and Addresses on a School Network",
+  "concept": "A network is not judged by one number. Bandwidth is how much data the link can carry in a given time. Latency is how long you wait before the first response arrives. A link can have room for a large file and still feel slow if every request is delayed. Inside one room, a switch forwards frames to the computer that should receive them. A hub is cruder: it repeats traffic to every port. A router joins different networks. An address that begins 192.168 is, in this course, a typical private address used on the LAN. It is not the public address of a website, and it does not mean the computer has no network card. The SSID is the name of a Wi-Fi network. The password is a separate secret. A fixed lab computer often uses a cable because that link is not shared with every phone in the corridor and is less affected by walls. One cable does not turn a computer into a WAN. When a question says suggest, name the device or the medium and give the reason that matches the room in the stem.",
+  "example": {
+   "scenario": "Thirty desktop computers in one lab share a file server. The PCs do not move. Users say the Wi-Fi feels slow at lunchtime when phones join the same name.",
+   "walkthrough": "The lab is a LAN. Desktops that stay on one desk can use cables to a switch, so they are not fighting the phones for the wireless channel. The SSID is only the name those phones select. The server is reached inside the school network. Traffic to a different network, such as a website, goes through a router. Saying the switch creates a WAN, or that the SSID is the password, does not answer the case."
+  },
+  "traps": [
+   "Treating bandwidth and latency as the same word.",
+   "Calling the SSID the password.",
+   "Using a router when the traffic never leaves the LAN, or a switch when it must."
+  ],
+  "terms": [
+   {
+    "term": "Bandwidth",
+    "definition": "How much data a link can carry in a given time."
+   },
+   {
+    "term": "Latency",
+    "definition": "The delay before data starts to arrive."
+   },
+   {
+    "term": "SSID",
+    "definition": "The name of a wireless network."
+   },
+   {
+    "term": "Private address",
+    "definition": "An address used inside a local network, such as one beginning 192.168 in this course."
+   }
+  ],
+  "unit": 3,
+  "practice": "networks",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.3": {
+  "id": "L6.3",
+  "title": "Choosing a Format from the Numbers",
+  "concept": "A format is a decision about quality, size and what the file is for. MIDI stores instructions for notes, instruments and timing, so a tune can be small, but it is not a recording of a voice. WAV stores sampled sound and is often uncompressed, so it is large and keeps the recording. A bit rate such as 128 kbps means about 128 kilobits of audio data for each second. It is not a pixel width. Pictures follow the bitmap rule. An uncompressed frame of 100 by 50 pixels at 8-bit colour is 100 × 50 × 8 = 40 000 bits, which is 5 000 bytes. Ten such frames, with no sound, are 50 000 bytes. JPEG is a poor choice when the logo needs a transparent background. A storyboard is not a codec. It is a plan of shots and order, drawn before filming, so a missing scene is noticed while the event can still be filmed. Start from the job: voice recording, logo, or a timed clip. Then compute a size if the question gives width, height, depth or a frame count, and label the unit.",
+  "example": {
+   "scenario": "The club needs a transparent crest, a 10-frame animation of 100 by 50 pixels at 8-bit colour with no sound, and a piano part that is not a recording of someone playing.",
+   "walkthrough": "PNG keeps transparency, so it fits the crest better than JPEG. The animation is 5 000 bytes per frame and 50 000 bytes for ten frames, before any player overhead the question did not mention. The piano part can be MIDI because it stores note instructions rather than a waveform. A student who answers 40 000 bytes has left the size in bits for one frame, or has forgotten to multiply by ten."
+  },
+  "traps": [
+   "Leaving a bitmap size in bits when the question asks for bytes.",
+   "Using JPEG for a logo that must keep a transparent background.",
+   "Describing MIDI as a sampled recording of speech."
+  ],
+  "terms": [
+   {
+    "term": "Bit rate",
+    "definition": "How much audio data is used for each second of playback, such as 128 kbps."
+   },
+   {
+    "term": "MIDI",
+    "definition": "A format that stores musical instructions rather than a sampled waveform."
+   },
+   {
+    "term": "Storyboard",
+    "definition": "A planned sequence of shots, drawn before filming."
+   },
+   {
+    "term": "Frame",
+    "definition": "One still image in a video or animation. Uncompressed size is the bitmap size times the number of frames."
+   }
+  ],
+  "unit": 6,
+  "practice": "multimedia",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.3": {
+  "id": "L9.3",
+  "title": "Collect Only What the Task Needs",
+  "concept": "Social and ethical questions in this course are about a decision in a school case, not about a statute number. Copyright still applies when you name the source. Attribution tells the reader where a chart came from. Permission, or a licence that allows the use, is what lets you copy it onto a public page. Personal data should match the task. A lunch poll needs the meal choice. It does not need an identity-card number, a home address or a parent's salary. Collecting more is not fairer. It creates copies that can be leaked or kept too long. After the signup is finished, data that is no longer needed should not sit in a shared inbox. Access matters in the same way. An assembly video with no captions and no transcript leaves out pupils who cannot follow the soundtrack. Health is part of the same responsible use. A screen near eye level, a supported back, and short breaks reduce strain. A dark room and an hour with no pause do not. In an explain answer, name the principle and tie it to the fact in the stem. A definition with no link to the case is thin.",
+  "example": {
+   "scenario": "The class committee wants a lunch poll. The form asks for HKID number, home address, parent's salary and the meal. They plan to post a copied news chart, with the site name written under it, on the public page that announces the result.",
+   "walkthrough": "Keep the meal choice. Drop the identity number, address and salary because the poll does not use them. Naming the news site is attribution, not permission, so the chart should not go on the public page unless the club has a right to use it. An answer that says more data is always safer, or that a caption replaces copyright, misses both decisions."
+  },
+  "traps": [
+   "Treating attribution as a substitute for permission.",
+   "Collecting an identity number because the form looks more official.",
+   "Assuming a video is accessible because it can be played."
+  ],
+  "terms": [
+   {
+    "term": "Attribution",
+    "definition": "Naming the source of a work. It is not the same as permission to copy it."
+   },
+   {
+    "term": "Data minimisation",
+    "definition": "Collecting only the personal data the task actually needs."
+   },
+   {
+    "term": "Caption",
+    "definition": "On-screen text of the spoken words, used so more pupils can follow a video."
+   },
+   {
+    "term": "Ergonomics",
+    "definition": "Arranging the workstation and the breaks so long computer use causes less strain."
+   }
+  ],
+  "unit": 9,
+  "practice": "social-issues",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L10.3": {
+  "id": "L10.3",
+  "title": "A Worked File-Size Answer and the Command Word",
+  "concept": "Marks follow the command word and the working. Compare means both things in the question: what they share and how they differ. State means the result, not a paragraph of definitions. Explain means the result plus the reason. A file-size question that asks for bytes needs the unit in the final line. For an uncompressed bitmap, multiply width by height by the colour depth in bits, then divide by 8. A 200 by 100 image at 24-bit colour is 200 × 100 × 24 = 480 000 bits = 60 000 bytes. Writing 480 000 alone answers a different question. Paper structure is part of the same habit. Paper 1 is the compulsory paper. Paper 2 is the two electives the school entered. Answering a third elective, or skipping Paper 1, does not match the entry. For a trace, the output is whatever the printed steps produce. If the command is state the output, give that output. A preferred algorithm you were not asked to write earns nothing. Check the stem once more: every mark point should be something the question requested.",
+  "example": {
+   "scenario": "A question says: \"A bitmap is 200 pixels by 100 pixels with a colour depth of 24 bits. State its uncompressed size in bytes.\" It is worth 2 marks.",
+   "walkthrough": "The working is 200 × 100 × 24 = 480 000 bits. Divide by 8 to get 60 000 bytes. The final line should say 60 000 bytes. One mark is often the method and one is the answer with the unit. 480 000 bytes is the common slip. A paragraph about JPEG compression does not answer state, because the question said uncompressed and asked for the size."
+  },
+  "traps": [
+   "Stopping at the bit count when the question says bytes.",
+   "Answering all three Paper 2 electives, or only one side of a compare.",
+   "Replacing a stated output with a definition of the keyword OUTPUT."
+  ],
+  "terms": [
+   {
+    "term": "Compare",
+    "definition": "Give similarities and differences for both items named in the question."
+   },
+   {
+    "term": "State",
+    "definition": "Give the required fact or result without a long extra explanation."
+   },
+   {
+    "term": "Working",
+    "definition": "The calculation steps shown before the final number, including the unit."
+   },
+   {
+    "term": "Elective entry",
+    "definition": "The two Paper 2 options the school entered for that candidate."
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-skills",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }
