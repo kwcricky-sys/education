@@ -136,7 +136,7 @@ const SUBJECT_RESOURCES: Record<string, Resource[]> = {
     {
       href: "/dse/chinese/learn",
       label: "中文自學路徑",
-      detail: "十二篇各 5 張學習卡，再練跨篇章、閱讀、寫作同說話。",
+      detail: "十二篇每篇 5 張學習卡，跟住練跨篇章、閱讀、寫作同說話。",
       count: `${CHINESE_LEARN_CARD_COUNT} 卡 · ${CHINESE_PAPER_DRILL_COUNT} 題`,
     },
     {

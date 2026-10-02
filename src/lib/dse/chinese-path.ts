@@ -29,17 +29,17 @@ export const CHINESE_PAPER_SKILLS: ChinesePaperSkill[] = [
   {
     id: "cross-passage",
     title: "跨篇章比較",
-    blurb: "兩篇指定篇章並讀：先寫相同，再寫不同，每邊都要回到文本。",
+    blurb: "兩篇指定篇章一齊讀：先寫相同，再寫不同，兩邊都要返到文本。",
   },
   {
     id: "reading",
     title: "閱讀理解",
-    blurb: "用原創短文練段旨、詞義、立場和要點分。不是歷屆試卷。",
+    blurb: "用原創短文練段旨、詞義、立場同要點分。唔係歷屆試卷。",
   },
   {
     id: "writing",
     title: "寫作",
-    blurb: "審題、文體、立意、細節和實用文語氣。",
+    blurb: "審題、文體、立意、細節同實用文語氣。",
   },
   {
     id: "speaking",

@@ -50,7 +50,7 @@ export default function DseChinesePage() {
         <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-600">
           以下 12
           篇指定文言經典均已開放極速閃卡練習（每篇 60
-          題，基礎／中等／高階）。每篇另有 5 張學習卡，並附跨篇章、閱讀、寫作、說話練習。點選篇名開始刷題，或先走自學路徑。
+          題，基礎／中等／高階）。每篇再有 5 張學習卡，仲有跨篇章、閱讀、寫作同說話練習。撳篇名就開始刷，或者先走自學路徑。
         </p>
       </div>
 
@@ -61,7 +61,7 @@ export default function DseChinesePage() {
         <span className="min-w-0 flex-1">
           <span className="block font-semibold text-slate-900">中文自學路徑</span>
           <span className="mt-1 block text-sm leading-relaxed text-slate-600">
-            十二篇各 5 張學習卡，再加上跨篇章、閱讀、寫作同說話練習。
+            十二篇每篇 5 張學習卡，跟住練跨篇章、閱讀、寫作同說話。
           </span>
         </span>
         <ArrowRight className="size-4 shrink-0 text-blue-700" />

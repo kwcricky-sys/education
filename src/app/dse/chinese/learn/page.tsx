@@ -11,7 +11,7 @@ import {
 import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
 import { createPageMetadata } from "@/lib/page-metadata";
 import { buildBreadcrumbJsonLd, buildCourseJsonLd, buildFaqJsonLd, type FaqItem } from "@/lib/seo";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { HKEAA_URL, LEGAL_DISCLAIMER, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const PATH = "/dse/chinese/learn";
 const CARD_COUNT = getChineseLearningCards().length;
@@ -19,7 +19,7 @@ const DRILL_COUNT = getChinesePaperDrills().length;
 
 export const metadata: Metadata = createPageMetadata({
   title: `DSE 中文自學路徑：篇章學習卡、閱讀、寫作、說話 | ${SITE_NAME}`,
-  description: `十二篇指定篇章各 5 張學習卡，另有跨篇章 ${getChinesePaperDrills("cross-passage").length} 題、閱讀 ${getChinesePaperDrills("reading").length} 題、寫作 ${getChinesePaperDrills("writing").length} 題、說話 ${getChinesePaperDrills("speaking").length} 題。原創練習，不是考評局試題。`,
+  description: `十二篇指定篇章，每篇 5 張學習卡。呢頁仲有跨篇章 ${getChinesePaperDrills("cross-passage").length} 題、閱讀 ${getChinesePaperDrills("reading").length} 題、寫作 ${getChinesePaperDrills("writing").length} 題、說話 ${getChinesePaperDrills("speaking").length} 題。全部係原創練習，唔係考評局試題。`,
   path: PATH,
   keywords: [
     "DSE 中文 自學",
@@ -33,16 +33,16 @@ export const metadata: Metadata = createPageMetadata({
 
 const FAQS: FaqItem[] = [
   {
-    question: "學習卡和原本的閃卡有什麼不同？",
-    answer: `閃卡仍是每篇 60 題的選擇練習。這裏每篇另加 5 張學習卡，分別處理字詞、章旨、手法、比較和答題，共 ${CARD_COUNT} 張。`,
+    question: "學習卡同原本嘅閃卡有咩分別？",
+    answer: `閃卡仍然係每篇 60 題選擇練習。呢頁每篇再加 5 張學習卡，分別處理字詞、章旨、手法、比較同答題，一共 ${CARD_COUNT} 張。`,
   },
   {
-    question: "這些是考評局的試題嗎？",
-    answer: "不是。學習卡和練習都是原創教學材料，不收錄歷屆試卷原文。考試範圍和評分以考評局最新公佈為準。",
+    question: "呢啲係咪考評局試題？",
+    answer: "唔係。學習卡同練習都係原創教材，冇收錄歷屆試卷原文。考試範圍同評分以考評局最新公佈為準。",
   },
   {
-    question: "練習要不要登入？",
-    answer: "不用。這頁的作答只留在你這次瀏覽，不會上傳。",
+    question: "練習使唔使登入？",
+    answer: "唔使。呢頁嘅作答只留喺你呢次瀏覽，唔會上傳。",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function ChineseLearnPage() {
       <JsonLd
         data={buildCourseJsonLd({
           name: "DSE 中文自學路徑",
-          description: `指定篇章學習卡 ${CARD_COUNT} 張，閱讀、寫作、說話及跨篇章練習 ${DRILL_COUNT} 題。`,
+          description: `指定篇章學習卡 ${CARD_COUNT} 張，閱讀、寫作、說話同跨篇章練習 ${DRILL_COUNT} 題。`,
           url: `${SITE_URL}${PATH}`,
         })}
       />
@@ -84,8 +84,8 @@ export default function ChineseLearnPage() {
         DSE 中文自學路徑
       </h1>
       <p className="mt-3 text-[15px] leading-relaxed text-slate-700 sm:text-base">
-        十二篇指定篇章各 5 張學習卡，先處理字詞、章旨、手法、比較和答題。下面再練跨篇章、閱讀、寫作和說話。
-        全部是原創練習，不是考評局試題。
+        十二篇指定篇章，每篇 5 張學習卡，先搞掂字詞、章旨、手法、比較同答題。跟住喺呢頁練跨篇章、閱讀、寫作同說話。
+        呢啲全部係原創練習，唔係考評局試題。
       </p>
 
       <div className="mt-6 grid gap-3 sm:grid-cols-3">
@@ -115,7 +115,7 @@ export default function ChineseLearnPage() {
               </summary>
               <p className="mt-3 text-sm">
                 <Link href={textHref(text.slug)} className="font-semibold text-blue-700">
-                  去這篇的閃卡練習
+                  去呢篇嘅閃卡練習
                 </Link>
               </p>
               <ol className="mt-4 space-y-4">
@@ -126,7 +126,7 @@ export default function ChineseLearnPage() {
                     </p>
                     <p className="mt-1 font-medium text-slate-900">{card.prompt}</p>
                     <p className="mt-2 text-sm leading-relaxed text-slate-700">{card.answer}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-amber-900">常見失分：{card.trap}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-amber-900">易錯：{card.trap}</p>
                   </li>
                 ))}
               </ol>
@@ -139,12 +139,37 @@ export default function ChineseLearnPage() {
         <h2 className="text-xl font-bold text-slate-900">閱讀、寫作、說話練習</h2>
         <p className="mt-2 text-sm leading-relaxed text-slate-600">
           {CHINESE_PAPER_SKILLS.map((skill) => `${skill.title} ${getChinesePaperDrills(skill.id).length} 題`).join(" · ")}
-          。揀一個範圍，答完先提交。
+          。揀一個範圍，答完先交。
         </p>
         <div className="mt-4">
           <ChinesePaperDrill questions={drills} />
         </div>
       </section>
+
+      <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6">
+        <h2 className="text-xl font-bold text-slate-900">常見問題</h2>
+        <div className="mt-4 space-y-4">
+          {FAQS.map((item) => (
+            <div key={item.question}>
+              <h3 className="text-sm font-semibold text-slate-900">{item.question}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-slate-600">{item.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <p className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-4 text-xs leading-relaxed text-slate-500">
+        {LEGAL_DISCLAIMER}課程範圍及評分準則以{" "}
+        <a
+          href={HKEAA_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-blue-700 underline underline-offset-2"
+        >
+          考評局官網
+        </a>{" "}
+        為準。
+      </p>
     </div>
   );
 }
