@@ -17,6 +17,8 @@ export type StudyVideo = {
   keyPoints: string[];
   studyStage: string;
   analysis: string;
+  /** Original questions to try after watching. Not a past-paper extract. */
+  selfCheck?: { prompt: string; answer: string }[];
 };
 
 export type VideoSubjectMeta = {
