@@ -3,10 +3,10 @@
   "title": "DSE English Learn Mode Practice Bank",
   "subject": "DSE english",
   "language": "zh-HK",
-  "total": 128,
-  "version": "learn-mode-1",
+  "total": 228,
+  "version": "learn-mode-2",
   "reviewed": false,
-  "note": "Practice sets for the /dse/english/learn step-by-step course. Content written from teaching analysis of HKDSE English paper structure and marking practice; not HKEAA material."
+  "note": "Practice sets for the /dse/english/learn course, plus original reading, writing, listening and speaking drills. Written for teaching; not HKEAA past-paper material. The learn-mode-1 bank remains the first 128 items; later ids extend the same topic keys."
  },
  "questions": [
   {
@@ -2056,6 +2056,1994 @@
    "explanation": "模式消失就換下一批，否則練習會停在已經解決的問題。停止做卷就看不到新的重複錯誤；加字數亦不是對治方法。",
    "tags": ["study cycle", "timed practice"],
    "subject": "english"
+  },
+  {
+   "id": "ENGL-READLOC-011",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "Passage: “The community kitchen serves dinner from 6:30 p.m. to 8:00 p.m. on weekdays. On public holidays it opens for lunch only, from noon to 2 p.m.” According to the passage, what happens on a public holiday?",
+   "options": [
+    "A. The kitchen serves dinner from 6:30 p.m. to 8:00 p.m.",
+    "B. The kitchen serves lunch from noon to 2 p.m. and does not describe a dinner service.",
+    "C. The kitchen is closed all day.",
+    "D. The kitchen serves both lunch and dinner."
+   ],
+   "answer": "B",
+   "explanation": "定位題要對住時間條件。public holidays 對應 lunch only, noon to 2 p.m.。6:30–8:00 只適用於 weekdays，唔可以搬去假期。原文冇寫全日關閉，亦冇寫假期有晚餐。",
+   "tags": [
+    "detail question",
+    "time condition"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-012",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “Membership rose from 400 to 460.” Which reading of the figure is accurate?",
+   "options": [
+    "A. Membership increased by 60 percent.",
+    "B. Membership fell by 60 people.",
+    "C. Membership is now 400.",
+    "D. Membership increased by 60 people."
+   ],
+   "answer": "D",
+   "explanation": "from 400 to 460 係人數由 400 變到 460，增加 60 人，唔係增加 60%。百分比題最常見係把「相差」誤當「百分比」。現時人數係 460，唔係 400。",
+   "tags": [
+    "numbers",
+    "percentage vs difference"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-013",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "A question says “Which of the following is NOT mentioned as a reason for the delay?” You have found three reasons in paragraph 2. What should you do?",
+   "options": [
+    "A. Choose the option that paragraph 2 does not list, even if it sounds sensible.",
+    "B. Choose the reason that appears first in the paragraph.",
+    "C. Choose the reason that seems most important in real life.",
+    "D. Choose any option that uses words from the paragraph."
+   ],
+   "answer": "A",
+   "explanation": "NOT / EXCEPT 題係反向定位：三個選項會係原文有的，正確答案係原文冇提到的那項。唔好揀最先出現或聽落最合理的原因，亦唔好因為選項抄了幾個原文字就當佢係答案。",
+   "tags": [
+    "negative question",
+    "not mentioned"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-014",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “Mina lent her notes to Owen. He returned them the next day with a thank-you card.” What does “them” refer to?",
+   "options": [
+    "A. The thank-you card.",
+    "B. Owen’s notes.",
+    "C. Mina’s notes.",
+    "D. The next day."
+   ],
+   "answer": "C",
+   "explanation": "代詞要向後找最近而文法上合用的名詞。them 係複數，對應 notes，唔係單數的 card，亦唔係時間 next day。Owen 係歸還的人，notes 屬於 Mina。",
+   "tags": [
+    "reference word",
+    "pronoun"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-015",
+   "topic": "reading-locating",
+   "difficulty": "hard",
+   "question": "A leaflet says “Volunteers must be 16 or above.” A candidate is 16. Which statement matches the leaflet?",
+   "options": [
+    "A. The candidate meets the age requirement.",
+    "B. The candidate is too young because the rule means older than 16.",
+    "C. Only people under 16 may volunteer.",
+    "D. The leaflet does not state an age rule."
+   ],
+   "answer": "A",
+   "explanation": "16 or above 包括 16 歲。too young 會把 or above 讀成 above only。under 16 係相反條件。年齡規定就寫在這一句，唔可以話文章冇講。",
+   "tags": [
+    "detail question",
+    "inclusive wording"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-016",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Question: “In which paragraph does the writer first explain how the app saves water?” Paragraph 1 introduces the app, paragraph 3 explains the water-saving steps, and paragraph 4 gives user reviews. Where do you look first?",
+   "options": [
+    "A. Paragraph 1.",
+    "B. Paragraph 4.",
+    "C. Paragraph 3.",
+    "D. The title only."
+   ],
+   "answer": "C",
+   "explanation": "題目問 first explain how。介紹產品的段落通常未解釋方法；用家評價係結果，唔係做法。關鍵動詞 explain 同內容 water-saving steps 對上第 3 段。",
+   "tags": [
+    "paragraph location",
+    "first mention"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-017",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "Passage: “Unlike bottled drinks, the school’s filtered water is free.” Which option restates the contrast correctly?",
+   "options": [
+    "A. Bottled drinks and filtered water are both free.",
+    "B. Filtered water is more expensive than bottled drinks.",
+    "C. The school has stopped providing water.",
+    "D. Filtered water costs nothing, whereas bottled drinks do not."
+   ],
+   "answer": "D",
+   "explanation": "Unlike 標示對比。free 只形容 filtered water，唔包括 bottled drinks。more expensive 把關係倒轉。原文係有水供應，而且係免費，唔係停止供應。",
+   "tags": [
+    "paraphrase",
+    "contrast"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-018",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "An interview transcript: Interviewer: “Who maintains the garden?” Mr Chan: “The residents do. I only buy the tools.” Who maintains the garden?",
+   "options": [
+    "A. Mr Chan.",
+    "B. The residents.",
+    "C. The interviewer.",
+    "D. A contractor hired by Mr Chan."
+   ],
+   "answer": "B",
+   "explanation": "問 who 要對住回答句，唔係對住說話的人。Mr Chan 講 The residents do，自己只買工具。訪問者係提問者。原文冇提到外判承辦商。",
+   "tags": [
+    "interview",
+    "speaker vs content"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-019",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "Passage: “The museum is closed on Tuesdays, except during the summer exhibition in July.” A visit is planned for a Tuesday in July, during the exhibition. What does the passage allow?",
+   "options": [
+    "A. The museum is closed every Tuesday of the year, with no exception.",
+    "B. The museum is closed for the whole of July.",
+    "C. The museum may be open because the Tuesday closure has a July exception.",
+    "D. The passage is only about ticket prices."
+   ],
+   "answer": "C",
+   "explanation": "except 係例外。平常星期二關閉，但七月展覽期間唔適用。唔可以無視 except，亦唔可以把七月讀成整月關閉。這句講開放日，唔係票價。",
+   "tags": [
+    "exception",
+    "detail question"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-020",
+   "topic": "reading-locating",
+   "difficulty": "hard",
+   "question": "You need two reasons worth 4 marks. The paragraph gives one clear reason and then repeats it with an example. What is the most accurate plan?",
+   "options": [
+    "A. Use the one stated reason, then locate a second, different reason before you write.",
+    "B. Write the same reason twice, once as a sentence and once as the example.",
+    "C. Copy the whole paragraph as a single answer.",
+    "D. Add a reason from your own knowledge so that you have two points."
+   ],
+   "answer": "A",
+   "explanation": "分點計分時，例子通常係支持，唔係第二個獨立理由。同一點寫兩次只計一次。整段照抄冇展示你揀出兩個要點。自己加文章冇講的理由，定位題唔會給分。",
+   "tags": [
+    "point-based marking",
+    "distinct points"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-021",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "A chart caption reads “Figure 2: Complaints about noise, 2022–2024.” The paragraph below discusses air quality. A question asks what Figure 2 shows. What should you answer from?",
+   "options": [
+    "A. The paragraph about air quality, because it is closer to the question.",
+    "B. Both noise and air quality, because they are environmental topics.",
+    "C. The title of the whole article only.",
+    "D. The caption and the chart, which are about noise complaints."
+   ],
+   "answer": "D",
+   "explanation": "圖表題的答案範圍由 caption 決定。Figure 2 寫明 noise，唔好被旁邊段落的 air quality 帶走。環境呢個大主題唔等於圖表包含所有環境數據。",
+   "tags": [
+    "chart caption",
+    "scope"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-022",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “After the workshop, participants receive a certificate if they attend all three sessions.” Which student should get a certificate?",
+   "options": [
+    "A. A student who attended only the final session.",
+    "B. A student who attended session 1, session 2 and session 3.",
+    "C. A student who arrived before the workshop began but missed session 2.",
+    "D. Every student who signed the registration form."
+   ],
+   "answer": "B",
+   "explanation": "條件係 attend all three sessions，三節都要出席。只出席最後一節、缺第二節，都未滿足 all。報名唔等於出席。after the workshop 只交代派發時間，唔係放寬出席條件。",
+   "tags": [
+    "condition",
+    "all"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-023",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "Passage: “The writer used to cycle to work. She now takes the ferry.” Which sentence matches the passage?",
+   "options": [
+    "A. She has always taken the ferry.",
+    "B. She cycles no longer and travels by ferry instead.",
+    "C. She cycles to work and also takes the ferry every day.",
+    "D. She has stopped taking the ferry."
+   ],
+   "answer": "B",
+   "explanation": "used to 表示過去習慣、而家唔再。now 標示現況係 ferry。always 抹走了改變。both every day 把過去同時當現在。stopped taking the ferry 把現況倒轉。",
+   "tags": [
+    "paraphrase",
+    "used to"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-024",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Question: “Find a word in paragraph 4 which means ‘not enough of something’.” Paragraph 4 says “Shelter was scarce after the storm.” Which word do you write?",
+   "options": [
+    "A. scarce",
+    "B. shelter",
+    "C. storm",
+    "D. after"
+   ],
+   "answer": "A",
+   "explanation": "詞彙定位係找意思相同的一個詞。not enough of something 對 scarce，唔係例子 shelter，亦唔係時間 storm / after。這類題通常要求寫文章原詞，唔好寫同義詞 insufficient 代替。",
+   "tags": [
+    "vocabulary in context",
+    "one word"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-025",
+   "topic": "reading-locating",
+   "difficulty": "hard",
+   "question": "An email header shows To: the club secretary; Subject: Room booking for 12 May. The body says the rehearsal moved from 7 p.m. to 5 p.m. A question asks what changed. What changed?",
+   "options": [
+    "A. The recipient of the email.",
+    "B. The subject date of 12 May.",
+    "C. The rehearsal time.",
+    "D. The fact that a room is being booked."
+   ],
+   "answer": "C",
+   "explanation": "正文的 moved from 7 p.m. to 5 p.m. 先係改變。收件人、主題日期、訂房這件事都係背景，題目問 what changed 就要找對比的兩個時間。",
+   "tags": [
+    "email",
+    "change"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-026",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “Dr Lee argues that the ban helps. A resident quoted in the same paragraph disagrees.” The question is “According to Dr Lee, …”. Whose view must the answer follow?",
+   "options": [
+    "A. The resident’s opposing view.",
+    "B. A mixture of both views.",
+    "C. The reader’s own view of the ban.",
+    "D. Dr Lee’s view that the ban helps."
+   ],
+   "answer": "D",
+   "explanation": "According to X 收窄說話者。同一段有相反意見時，只可取 Dr Lee。把兩人混合會變成文章冇講過的第三種立場。閱讀題亦唔係問考生個人意見。",
+   "tags": [
+    "attribution",
+    "according to"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-027",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "A heading says “How to store the paint.” The lines under it are “Keep the tin closed. Store it away from sunlight. Do not freeze.” Which line is an instruction in that section?",
+   "options": [
+    "A. Keep the tin closed.",
+    "B. The paint was invented in 1998.",
+    "C. Customers like the colour.",
+    "D. Call the shop to complain about price."
+   ],
+   "answer": "A",
+   "explanation": "小標題限定該節內容。How to store 下面三句都係儲存指示，Keep the tin closed 屬其中一項。發明年份、顧客喜好、投訴價錢都唔喺呢個標題之下，就算出現在文章其他地方都唔係呢題的答案。",
+   "tags": [
+    "heading",
+    "section scope"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-028",
+   "topic": "reading-locating",
+   "difficulty": "easy",
+   "question": "Passage: “Tickets cost $80 for adults and $40 for students. Children under 3 enter free.” How much does one student pay?",
+   "options": [
+    "A. $80.",
+    "B. Nothing.",
+    "C. $120.",
+    "D. $40."
+   ],
+   "answer": "D",
+   "explanation": "要對住身份。student 係 $40，adult 先係 $80。free 只適用 under 3，題目冇話學生未滿 3 歲。$120 係把兩個票價相加，題目問的是 one student。",
+   "tags": [
+    "numbers",
+    "category"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-029",
+   "topic": "reading-locating",
+   "difficulty": "medium",
+   "question": "You are answering “Give ONE word from paragraph 1 that shows the lab is busy.” Paragraph 1: “The lab was crowded, noisy and brightly lit.” Which choice follows the instruction?",
+   "options": [
+    "A. The lab was crowded, noisy and brightly lit.",
+    "B. crowded",
+    "C. busy",
+    "D. brightly"
+   ],
+   "answer": "B",
+   "explanation": "題目要求 paragraph 1 裏面的 ONE word，而且要顯示 busy。crowded 係原詞又合意思。整句違反 one word。busy 係題目用字，唔係段落用字。brightly 形容燈光，唔表示人多。",
+   "tags": [
+    "one word",
+    "instruction"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READLOC-030",
+   "topic": "reading-locating",
+   "difficulty": "hard",
+   "question": "Questions 4 and 5 both say “(paragraph 6)”. You cannot find an answer for question 5 in paragraph 6. What is the better next step?",
+   "options": [
+    "A. Jump back to paragraph 1, because later questions often restart the text.",
+    "B. Leave question 5 blank and change every earlier answer.",
+    "C. Re-read paragraph 6 for a paraphrase, then check the start of paragraph 7 if the form still points there.",
+    "D. Answer from general knowledge, since the paragraph number must be a misprint."
+   ],
+   "answer": "C",
+   "explanation": "括號段落係定位範圍。搵唔到時，先檢查同義改寫，而唔係跳回文首。題號大致順序前進，所以下一小步先係段末或下一段開頭。空白同改晒前面答案都太早。閱讀理解唔接受用常識補一段文章冇寫的答案。",
+   "tags": [
+    "signpost",
+    "paragraph reference"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — locating explicit detail"
+  },
+  {
+   "id": "ENGL-READINF-015",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “She smiled at the trophy, then put it in a drawer and never mentioned the race again.” What is the best inference?",
+   "options": [
+    "A. She definitely hates sport and will never race again.",
+    "B. She may feel uneasy or modest about the win, not simply proud in public.",
+    "C. She forgot that she had won a trophy.",
+    "D. The drawer is where all school trophies must be kept."
+   ],
+   "answer": "B",
+   "explanation": "推論要貼住兩個動作：笑對獎盃，但收起而且不再提。這可以支持「唔想張揚」或心情複雜，唔可以跳到 definitely hates sport。forgot 與 smiled 矛盾。學校規定收納獎盃係文章冇講的外加設定。",
+   "tags": [
+    "inference",
+    "attitude"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-016",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "A review says “The film is flawless if you enjoy three-hour lectures.” What is the tone?",
+   "options": [
+    "A. Entirely sincere praise of an educational film.",
+    "B. A neutral summary with no opinion.",
+    "C. Anger directed at the audience.",
+    "D. Sarcastic: the writer is criticising the film for being long and dull."
+   ],
+   "answer": "D",
+   "explanation": "if you enjoy three-hour lectures 係反話。表面讚 flawless，實際把電影比作沉悶長課。完全真心的讚賞會忽略呢個條件句的刺。Neutral 唔成立，因為有評價。對象係電影，唔係怒罵觀眾。",
+   "tags": [
+    "tone",
+    "sarcasm"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-017",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “Ben checked his watch every few minutes and answered in short phrases.” What can you reasonably infer?",
+   "options": [
+    "A. Ben seems impatient or eager to leave.",
+    "B. Ben is certainly late for a medical appointment.",
+    "C. Ben is the most talkative person in the room.",
+    "D. Ben has lost his watch."
+   ],
+   "answer": "A",
+   "explanation": "反覆看錶加短句，支持不耐煩或想走。medical appointment 係過度具體，文章冇線索。short phrases 反對 talkative。看錶代表手錶在，唔係弄丟了。",
+   "tags": [
+    "inference",
+    "behaviour"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-018",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "The writer says “Of course everyone will benefit,” after listing only shop owners who gain from a new road. What is the writer doing?",
+   "options": [
+    "A. Proving with statistics that every resident gains the same amount.",
+    "B. Changing the topic to public hospitals.",
+    "C. Using irony or overstatement: the claim is wider than the evidence just given.",
+    "D. Quoting a law that defines the word everyone."
+   ],
+   "answer": "C",
+   "explanation": "證據只得店主得益，但句子說 everyone。讀者應感到範圍被誇大，這是語氣題而唔係數據證明。文章呢一刻冇轉去醫院，亦冇引用法例定義。",
+   "tags": [
+    "tone",
+    "overgeneralisation"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-019",
+   "topic": "reading-inference",
+   "difficulty": "hard",
+   "question": "Passage: “The plan could work, but only if the estate has spare land and the council funds the path.” Which inference is supported?",
+   "options": [
+    "A. Success depends on two conditions that may not both be met.",
+    "B. The plan has already succeeded.",
+    "C. The plan is impossible and should not be discussed.",
+    "D. Spare land is the only thing the plan needs."
+   ],
+   "answer": "A",
+   "explanation": "could 加 but only if 表示未成功，而且有兩個必要條件。impossible 太絕對，因為文章留有可行空間。only if 後面有 land 同 funds 兩項，唔可以只留一項。",
+   "tags": [
+    "inference",
+    "condition"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-020",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "A character “laughed, but the laugh did not reach her eyes.” What does the description suggest?",
+   "options": [
+    "A. She is telling a joke that the group enjoys.",
+    "B. She has an eye illness.",
+    "C. Her amusement is only on the surface.",
+    "D. She refuses to speak."
+   ],
+   "answer": "C",
+   "explanation": "笑意不到眼睛，係常見的書面暗示：表面在笑，內心並不。joke 同眼疾都係另加情節。她有笑，所以唔係拒絕發聲。推論題要講情緒，唔好把比喻讀成醫療事實。",
+   "tags": [
+    "inference",
+    "figurative detail"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-021",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Purpose question: a paragraph lists three prices, then says “Parents should look beyond the cheapest option.” What is the paragraph’s main purpose?",
+   "options": [
+    "A. To prove that the cheapest option is always dangerous.",
+    "B. To give a biography of one parent.",
+    "C. To explain how coins are manufactured.",
+    "D. To warn parents not to choose on price alone."
+   ],
+   "answer": "D",
+   "explanation": "目的題要概括全段功能。價格例子服務最後的建議：唔好只看最平。always dangerous 把建議升級成文章冇講的絕對結論。傳記同造幣都唔係呢段在做的事。",
+   "tags": [
+    "purpose",
+    "main idea"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-022",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "The writer calls a new rule “a plaster on a broken leg.” What attitude does the image show?",
+   "options": [
+    "A. The writer is giving medical advice about fractures.",
+    "B. The rule is too small for a serious problem.",
+    "C. The rule will fully solve the problem.",
+    "D. The writer has no opinion about the rule."
+   ],
+   "answer": "B",
+   "explanation": "plaster on a broken leg 係比喻：細小的處理對不上嚴重傷勢。唔好當字面醫療建議。fully solve 與比喻相反。有比喻就有態度，唔係中立。",
+   "tags": [
+    "metaphor",
+    "attitude"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-023",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Passage: “I don’t mind staying late,” she said, already packing her bag. Which reading fits both parts?",
+   "options": [
+    "A. She is happy to stay late, as her words prove by themselves.",
+    "B. She has lost her bag and cannot leave.",
+    "C. Her words and actions conflict; she seems unwilling to stay.",
+    "D. She is arriving at work for the first time."
+   ],
+   "answer": "C",
+   "explanation": "言語同動作一齊讀。packing her bag 顯示準備離開，所以 don’t mind 不可單獨當真心。lost her bag 同 packing 不符。packing to leave 唔係第一天上班。",
+   "tags": [
+    "inference",
+    "words vs actions"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-024",
+   "topic": "reading-inference",
+   "difficulty": "hard",
+   "question": "A writer says “Some studies suggest a link. That is not the same as proof.” What should a reader infer about the writer’s standard of evidence?",
+   "options": [
+    "A. The writer refuses to treat a possible link as a settled fact.",
+    "B. The writer believes the link has been proved.",
+    "C. The writer thinks all studies are useless.",
+    "D. The writer is changing the subject to sport."
+   ],
+   "answer": "A",
+   "explanation": "suggest 同 proof 被刻意分開。作者的立場係證據未足夠，唔係已經證明，亦唔係否定所有研究。呢句冇轉去運動話題。",
+   "tags": [
+    "evidence",
+    "author stance"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-025",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "Which inference is too strong for the sentence “A few shops on the street have closed this year”?",
+   "options": [
+    "A. At least some shops on that street are no longer open.",
+    "B. The closures happened this year, not ten years ago.",
+    "C. The sentence is about shops, not schools.",
+    "D. The whole district’s economy has collapsed."
+   ],
+   "answer": "D",
+   "explanation": "a few 同 this year 只支持少量店舖在今年結業。whole district collapsed 把範圍同嚴重程度都放大，係過度推論。其餘三項都係句子直接包含的意思，唔算推論過頭。",
+   "tags": [
+    "over-inference",
+    "quantifier"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-026",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "Passage: “He thanked the team, although he had done most of the work himself.” What can you say about his manner?",
+   "options": [
+    "A. He is accusing the team of doing nothing, in public.",
+    "B. He is presenting the success as shared, whatever the actual workload.",
+    "C. He did none of the work.",
+    "D. The team refused to attend."
+   ],
+   "answer": "B",
+   "explanation": "thanked 顯示公開態度係歸功團隊；although 補充實際工作量主要是他。這係謙遜或顧及團隊，唔係公開指責。did none 與 most of the work himself 矛盾。出席與否文章冇講。",
+   "tags": [
+    "attitude",
+    "concession"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-027",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "A column ends “Readers may decide whether that is leadership.” The writer has just described a principal who cancelled a consultation. What is the effect of the last sentence?",
+   "options": [
+    "A. It states that the principal is legally forbidden from leading.",
+    "B. It invites readers to judge, while signalling doubt about the principal’s approach.",
+    "C. It introduces a new story about a different school.",
+    "D. It gives the consultation dates."
+   ],
+   "answer": "B",
+   "explanation": "may decide 把判斷交給讀者，但放在取消諮詢之後，語氣係質疑而唔係中性資料。法律禁止、另一間學校、諮詢日期都唔係這句在做的事。",
+   "tags": [
+    "tone",
+    "rhetorical question"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-028",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "Two sentences: “The hall was full. Dozens of people were turned away.” What follows?",
+   "options": [
+    "A. Demand was higher than the number of seats.",
+    "B. The event was cancelled because nobody came.",
+    "C. The hall has unlimited space.",
+    "D. People were turned away for being late only, and seats remained empty."
+   ],
+   "answer": "A",
+   "explanation": "full 加 turned away 支持座位不足。nobody came 與 full 矛盾。unlimited space 與被拒諸門外矛盾。文章冇講遲到，亦冇講仍有空位。",
+   "tags": [
+    "inference",
+    "combining details"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-029",
+   "topic": "reading-inference",
+   "difficulty": "hard",
+   "question": "The narrator says “We were fine,” then describes wet shoes, a missed bus and a two-hour walk. Why is “fine” unreliable?",
+   "options": [
+    "A. The word fine always means excellent weather.",
+    "B. A narrator’s first sentence must be ignored in every text.",
+    "C. The later details show the situation was difficult, so “fine” is understatement.",
+    "D. The details prove they arrived early and dry."
+   ],
+   "answer": "C",
+   "explanation": "語氣題要看下文是否推翻或削弱前文。濕鞋、錯過巴士、行兩小時顯示並不好過，fine 係輕描淡寫。fine 喺呢度唔係天氣預報。第一句唔係永遠作廢，而係要同細節一齊讀。",
+   "tags": [
+    "understatement",
+    "narrator"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-030",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "Which statement is an inference rather than a stated fact, given “The coach praised Ada and left Kai’s name off the list”?",
+   "options": [
+    "A. The coach praised Ada.",
+    "B. Kai’s name was not on the list.",
+    "C. Ada and Kai are both mentioned in connection with the coach’s decision.",
+    "D. Kai may have been less satisfied with the selection than Ada."
+   ],
+   "answer": "D",
+   "explanation": "事實題可以指回原文動作。Kai 的心情文章冇直接寫，只能由「被讚」同「名單冇名」推。把推論寫成事實，或者把事實誤當深層推論，都係這類題的失分點。",
+   "tags": [
+    "fact vs inference"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-031",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "A leaflet’s slogan is “Sleep less. Achieve more.” The article then describes students who became ill. How should you read the slogan?",
+   "options": [
+    "A. As a claim the article is likely questioning, because the illness examples work against it.",
+    "B. As medical advice the article fully supports.",
+    "C. As a set of sleeping times to memorise.",
+    "D. As a statement about school bus routes."
+   ],
+   "answer": "A",
+   "explanation": "口號同後文生病的例子方向相反，所以口號多半係被批評的對象。fully supports 忽略了反證。口號冇給出睡眠時數，亦與校巴路線無關。",
+   "tags": [
+    "purpose",
+    "claim vs evidence"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-032",
+   "topic": "reading-inference",
+   "difficulty": "easy",
+   "question": "“She corrected him once, then let the error stand.” What is a fair inference about her priority at that moment?",
+   "options": [
+    "A. She did not notice any error.",
+    "B. She agrees that the error is factually correct.",
+    "C. She left the room before he spoke.",
+    "D. She chose not to keep interrupting, even though she noticed the error."
+   ],
+   "answer": "D",
+   "explanation": "corrected once 證明她留意到錯誤；let it stand 證明她其後選擇唔再追究。agrees 與 corrected 矛盾。left the room 係原文冇有的動作。",
+   "tags": [
+    "inference",
+    "choice"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-033",
+   "topic": "reading-inference",
+   "difficulty": "medium",
+   "question": "The phrase “a so-called improvement” suggests the writer…",
+   "options": [
+    "A. has measured the improvement and confirmed it.",
+    "B. doubts that the change is really an improvement.",
+    "C. is defining the word improvement for a dictionary.",
+    "D. is thanking the organisers without reservation."
+   ],
+   "answer": "B",
+   "explanation": "so-called 表示名不副實，係懷疑語氣。confirmed 會用數據或 clearly，唔會用 so-called。字典定義同毫無保留的致謝都讀唔出懷疑。",
+   "tags": [
+    "tone",
+    "so-called"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-READINF-034",
+   "topic": "reading-inference",
+   "difficulty": "hard",
+   "question": "A question asks what the writer implies about tourists. The text says locals “pick up the litter visitors leave behind.” Which answer stays inside the implication?",
+   "options": [
+    "A. Every tourist in the city breaks the law.",
+    "B. Locals prefer litter and ask visitors to leave more.",
+    "C. Some visitors create extra work for locals.",
+    "D. The writer is only describing a recycling factory."
+   ],
+   "answer": "C",
+   "explanation": "leave behind 加 locals pick up 支持「部分遊客造成額外工作」。every tourist 同 breaks the law 都超出文本。prefer litter 把責任方向倒轉。回收廠係另加場景。",
+   "tags": [
+    "implication",
+    "scope"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Reading — inference and tone"
+  },
+  {
+   "id": "ENGL-WRIFMT-015",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "You are writing a formal letter to a company you do not know personally. Which opening is appropriate?",
+   "options": [
+    "A. Hey team!!",
+    "B. Dear Sir or Madam,",
+    "C. To whom it may love,",
+    "D. Hi buddy,"
+   ],
+   "answer": "B",
+   "explanation": "未知收件人的正式信可用 Dear Sir or Madam，之後用 Yours faithfully。Hey / Hi buddy 係同輩口語。To whom it may love 係錯誤套語，正式套語係 To whom it may concern，但現代表達更常用 Dear Sir or Madam。",
+   "tags": [
+    "letter",
+    "salutation"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-016",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "A proposal for the school principal should mainly…",
+   "options": [
+    "A. tell a personal story with no requested action.",
+    "B. review a film the principal may enjoy.",
+    "C. list jokes to make the tone friendly.",
+    "D. state the problem, the proposed action, the cost or effort, and the expected benefit."
+   ],
+   "answer": "D",
+   "explanation": "Proposal 的任務係說服決策者採取行動。問題、做法、代價、好處係評分時容易找到的內容點。純故事、影評同笑話都冇完成「建議」這個文體任務。",
+   "tags": [
+    "proposal",
+    "organisation"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-017",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "Which feature belongs to an article for a school magazine, rather than to an internal email?",
+   "options": [
+    "A. A title and paragraphs that a general student reader can follow without knowing a private thread.",
+    "B. A subject line such as “Re: tomorrow’s meeting”.",
+    "C. Cc and attachment references as the main content.",
+    "D. One-line replies that assume the reader saw the previous email."
+   ],
+   "answer": "A",
+   "explanation": "Article 要有標題，而且讀者係公開的學生，唔可以假設對方讀過私人電郵來往。Subject、Cc、Re 都係電郵格式。文體錯配會同時失內容同語域分。",
+   "tags": [
+    "article",
+    "audience"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-018",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "You must write a speech. Which opening shows that you understand the text type?",
+   "options": [
+    "A. Dear Editor,",
+    "B. To: All staff. From: The prefects.",
+    "C. Good morning, teachers and students. Today I want to talk about…",
+    "D. Once upon a time in a kingdom far away…"
+   ],
+   "answer": "C",
+   "explanation": "Speech 要有口語的稱呼同聽眾意識。Dear Editor 係投書。To/From 係備忘錄或電郵。Once upon a time 係故事開場，除非題目要求講故事，否則會離題。",
+   "tags": [
+    "speech",
+    "opening"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-019",
+   "topic": "writing-formats",
+   "difficulty": "hard",
+   "question": "A one-sided argumentative essay asks “Should the school ban mobile phones?” What must the whole piece do?",
+   "options": [
+    "A. Take one clear side and develop reasons for that side.",
+    "B. Describe a school day without giving a view.",
+    "C. Give equal space to both sides and refuse to choose.",
+    "D. Write a letter of complaint about a single teacher."
+   ],
+   "answer": "A",
+   "explanation": "One-sided 要求整篇站一邊。只描述、或兩邊同樣長而不表態，都未完成題目的 should。投訴一位老師把題目收窄到文章冇要求的個案，屬離題。",
+   "tags": [
+    "argument",
+    "task"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-020",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "In a formal report, which heading is useful?",
+   "options": [
+    "A. LOL moments",
+    "B. My feelings at midnight",
+    "C. Recommendations",
+    "D. Once upon a heading"
+   ],
+   "answer": "C",
+   "explanation": "Report 用功能小標題幫助讀者找到資料同建議。Recommendations 係常見而且合任務的標題。玩笑標題同私人感受標題會破壞正式報告的語域。",
+   "tags": [
+    "report",
+    "headings"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-021",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "You are writing an email to a classmate about a group project. Which sentence matches the relationship?",
+   "options": [
+    "A. I hereby demand your immediate compliance with the aforesaid request.",
+    "B. To whom it may concern: the undersigned awaits your slides.",
+    "C. Yours faithfully, a concerned citizen.",
+    "D. Could you send me your slides before Friday?"
+   ],
+   "answer": "D",
+   "explanation": "同學之間用禮貌但直接的請求。hereby、aforesaid、undersigned、concerned citizen 都係過正式或錯誤身份，會被當成語域不當。合身份比堆砌深字更重要。",
+   "tags": [
+    "email",
+    "register"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-022",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "A blog post for teenagers about study habits should…",
+   "options": [
+    "A. copy the layout of a balance sheet.",
+    "B. use a conversational but clear voice, with concrete tips the reader can try.",
+    "C. address the reader as “Esteemed shareholder”.",
+    "D. avoid paragraphs so that it looks like a text message with no structure."
+   ],
+   "answer": "B",
+   "explanation": "Blog 可以口語，但仍然要分段同給具體建議。資產負債表係另一文體。shareholder 係錯讀者。完全冇段落會損害組織分，即使語氣年輕。",
+   "tags": [
+    "blog",
+    "register"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-023",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "Which closing fits a formal letter that began “Dear Ms Chan,”?",
+   "options": [
+    "A. Yours faithfully,",
+    "B. Cheers mate,",
+    "C. Yours sincerely,",
+    "D. XOXO"
+   ],
+   "answer": "C",
+   "explanation": "英式正式信：稱呼裏有姓名（Dear Ms Chan）用 Yours sincerely；未知姓名（Dear Sir or Madam）先用 Yours faithfully。Cheers mate 同 XOXO 只適合非常親密的私人訊息。",
+   "tags": [
+    "letter",
+    "closing"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-024",
+   "topic": "writing-formats",
+   "difficulty": "hard",
+   "question": "The question asks for a letter to the editor. You write a speech script with “Good evening, everyone.” What is the main problem?",
+   "options": [
+    "A. The text type does not match the task, so content points tied to a letter are missed.",
+    "B. Speeches are always longer, so the extra length will raise the mark.",
+    "C. Letters and speeches are scored in exactly the same way if the opinion is clear.",
+    "D. An editor cannot be addressed, so any format is acceptable."
+   ],
+   "answer": "A",
+   "explanation": "文體係任務的一部分。寫成演講會缺少投書的讀者意識（編輯與公眾讀者）同書信格式。長短本身唔會自動加分。意見清楚亦補唔返文體錯誤。",
+   "tags": [
+    "text type",
+    "task fulfilment"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-025",
+   "topic": "writing-formats",
+   "difficulty": "medium",
+   "question": "Where should the main request appear in a formal letter of request?",
+   "options": [
+    "A. Only in a postscript after the signature.",
+    "B. Nowhere: the reader should guess the request from adjectives.",
+    "C. In the first sentence, with no context and no polite framing.",
+    "D. Early, after a short purpose statement, and again briefly before the closing."
+   ],
+   "answer": "D",
+   "explanation": "請求信要讓收件人很快知道你想要什麼，所以目的句宜早，結尾再禮貌重申。只放在 P.S. 容易被忽略。完全不寫請求就未完成任務。第一句冇上下文又無禮貌，會影響語氣分。",
+   "tags": [
+    "letter",
+    "organisation"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIFMT-026",
+   "topic": "writing-formats",
+   "difficulty": "easy",
+   "question": "You have 40 minutes left for a 400-word piece. What is a sound use of the first 5 minutes?",
+   "options": [
+    "A. Write a full draft in your head and put nothing on the page until minute 35.",
+    "B. Decide the text type, the audience and three content points, then start writing.",
+    "C. Spend the time decorating the title with different handwriting styles.",
+    "D. Change the question to a text type you memorised last year."
+   ],
+   "answer": "B",
+   "explanation": "短時間內，計畫要服務動筆：文體、讀者、三個內容點就夠。在腦內寫完整篇會令你來不及落筆。裝飾標題唔得分。背誦舊文體而改題，係嚴重離題。",
+   "tags": [
+    "planning",
+    "time"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — text-type conventions"
+  },
+  {
+   "id": "ENGL-WRIARG-011",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "Which sentence can work as a topic sentence for a paragraph arguing for later school start times?",
+   "options": [
+    "A. Many schools open at 8 a.m.",
+    "B. A later start would give teenagers the sleep they need to concentrate.",
+    "C. I walked to school yesterday.",
+    "D. Sleep is a word with five letters."
+   ],
+   "answer": "B",
+   "explanation": "主題句要有可辯護的主張。later start 連到 concentrate，後面可以加原因同例子。開門時間、個人走路、字母數目都係事實或空話，帶不起一段論證。",
+   "tags": [
+    "topic sentence",
+    "argument"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-012",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "You want one paragraph to answer the objection “Students will only stay up later.” Which move is best?",
+   "options": [
+    "A. Insult people who raise the objection.",
+    "B. Ignore the objection so the essay looks shorter.",
+    "C. Agree with the objection and abandon your thesis without saying so.",
+    "D. State the objection fairly, then explain why a fixed timetable and parent or school follow-up can limit that effect."
+   ],
+   "answer": "D",
+   "explanation": "反駁段要先公平複述對方，再給限制條件或證據。人身攻擊唔算論證。完全不理會反對意見，說服力會弱。暗中放棄立場會令全文自相矛盾。",
+   "tags": [
+    "counterargument"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-013",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "Which paragraph order best supports a one-sided essay?",
+   "options": [
+    "A. Thesis, strongest reason with an example, second reason, brief answer to one objection, then a restated position.",
+    "B. A new story in every sentence with no repeated position.",
+    "C. The conclusion in sentence 1 and no reasons afterwards.",
+    "D. Three examples of the same reason presented as three different reasons."
+   ],
+   "answer": "A",
+   "explanation": "單邊文章仍然需要推進：立場、理由、例子、處理一個反對、收束。只有故事、或只有結論，都發展不足。同一理由換例子三次，內容分通常只當一個點。",
+   "tags": [
+    "organisation",
+    "development"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-014",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "Which connective honestly introduces a contrast?",
+   "options": [
+    "A. Therefore, the cost is higher than the club can afford.",
+    "B. For example, the cost is higher than the club can afford.",
+    "C. However, the cost is higher than the club can afford.",
+    "D. In addition, the cost is higher than the club can afford, after a sentence that already said the plan is too expensive."
+   ],
+   "answer": "C",
+   "explanation": "However 先係轉折。Therefore 表示結果，For example 表示例子，用錯會讓邏輯關係相反。In addition 用來自重複同一個缺點，會顯得沒有新資訊。連接詞要跟句子之間的真實關係。",
+   "tags": [
+    "cohesion",
+    "contrast"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-015",
+   "topic": "writing-argument",
+   "difficulty": "hard",
+   "question": "A reason says “Uniforms are good because they are good for students.” What is missing?",
+   "options": [
+    "A. A specific explanation of how uniforms help, such as reducing clothing pressure.",
+    "B. A second copy of the same sentence in capital letters.",
+    "C. A quotation from a song with no link to school.",
+    "D. Three exclamation marks."
+   ],
+   "answer": "A",
+   "explanation": "because they are good 係循環論證，冇解釋機制。評分看的是發展：點樣幫助、對誰、在什麼情況。放大字體、無關歌詞同感嘆號都唔代替理由。",
+   "tags": [
+    "circular argument",
+    "development"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-016",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "Which example is specific enough to support “School sports reduce stress”?",
+   "options": [
+    "A. Sports are popular around the world.",
+    "B. Stress is bad.",
+    "C. After basketball training, students in one class reported sleeping earlier on practice nights.",
+    "D. Everyone knows this is true."
+   ],
+   "answer": "C",
+   "explanation": "例子要有情境同可觀察的結果，先連接得到 reduce stress。全世界流行、壓力不好、everyone knows 都係空泛句，冇支持這一個主張。",
+   "tags": [
+    "example",
+    "specificity"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-017",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "You are aiming at a formal argument. Which wording is the best match?",
+   "options": [
+    "A. It’s kinda messed up that prefect stuff is so random lol.",
+    "B. The aforesaid individual aforementioned should do the thing.",
+    "C. Prefects prefects prefects — repetition creates truth.",
+    "D. The school should publish the criteria it uses to choose prefects."
+   ],
+   "answer": "D",
+   "explanation": "正式論證要清楚、具體、語氣穩定。口語 lol 損害語域。堆砌 aforesaid 但冇實質動詞，係假正式。重複詞語唔構成論點。",
+   "tags": [
+    "register",
+    "precision"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-018",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "Your thesis is “The library should stay open on Sundays.” Which body sentence supports it directly?",
+   "options": [
+    "A. Libraries were invented long ago.",
+    "B. Many students revise there because their homes are noisy at weekends.",
+    "C. Sunday is the first day or the seventh day, depending on the calendar.",
+    "D. I dislike Monday mornings."
+   ],
+   "answer": "B",
+   "explanation": "支持句要解釋為什麼星期日開放有需要。家中嘈雜、需要溫習，直接服務論點。歷史、曆法同星期一心情都係離題細節。",
+   "tags": [
+    "relevance"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-019",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "Which conclusion restates a position without adding a brand-new reason?",
+   "options": [
+    "A. A further point, not mentioned above, is that the roof must be replaced next week.",
+    "B. I forgot to say what I think.",
+    "C. For these reasons, the school should keep the Sunday hours.",
+    "D. In conclusion, bananas are yellow."
+   ],
+   "answer": "C",
+   "explanation": "結尾負責收束已寫的理由，唔好突然加一個未解釋的新論點。未表態等於冇結論。香蕉與圖書館開放無關。",
+   "tags": [
+    "conclusion"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-020",
+   "topic": "writing-argument",
+   "difficulty": "hard",
+   "question": "You quote a number: “About 30 students in our survey preferred quiet rooms.” What must you still do?",
+   "options": [
+    "A. Explain how that number supports the point you are making.",
+    "B. Assume any number is persuasive by itself.",
+    "C. Change 30 to 30,000 so the paragraph looks stronger.",
+    "D. Hide the fact that it was a small survey."
+   ],
+   "answer": "A",
+   "explanation": "數字要被解釋：30 人相對什麼整體、支持哪一個主張。數字本身唔等於論證。誇大數字係不誠實，亦會破壞說服力。小調查可以作校本例子，但應如實說明範圍。",
+   "tags": [
+    "evidence",
+    "honesty"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-021",
+   "topic": "writing-argument",
+   "difficulty": "medium",
+   "question": "Which sentence uses a hedge that is precise rather than empty?",
+   "options": [
+    "A. It might maybe possibly be somewhat good in some ways.",
+    "B. This will definitely solve every school problem forever.",
+    "C. Everyone always agrees with this.",
+    "D. The change may help Form 6 students during mock-exam weeks, when sleep loss is common."
+   ],
+   "answer": "D",
+   "explanation": "有效的限定語會指出對象同情境。一串 maybe 冇資訊。definitely forever 同 everyone always 係過度絕對，論證題裏好容易被攻破。",
+   "tags": [
+    "hedging",
+    "precision"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-WRIARG-022",
+   "topic": "writing-argument",
+   "difficulty": "easy",
+   "question": "A paragraph starts with a reason about cost, then gives an example about friendship, then ends with a sentence about climate. What should you fix first?",
+   "options": [
+    "A. Add more unrelated topics so the paragraph looks longer.",
+    "B. Keep one controlling idea and move unrelated examples to other paragraphs or cut them.",
+    "C. Remove the topic sentence and hope the reader finds a theme.",
+    "D. Repeat the word important in every sentence."
+   ],
+   "answer": "B",
+   "explanation": "一段一個中心。成本、友情、氣候如果沒有明確關係，讀者睇唔到發展。加長、刪主題句、重複 important 都唔解決統一性。",
+   "tags": [
+    "unity",
+    "paragraph"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Writing — argument and language"
+  },
+  {
+   "id": "ENGL-LISINT-015",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "The recording says “The fee is $200… sorry, $220, including materials.” What should your note say?",
+   "options": [
+    "A. $200.",
+    "B. $220, including materials.",
+    "C. $20.",
+    "D. The fee was cancelled."
+   ],
+   "answer": "B",
+   "explanation": "說話人自我更正時，採用更正後的資料。$200 係被收回的數字。$20 係兩個數字相減，錄音冇這個計算。sorry 係更正，唔係取消收費。",
+   "tags": [
+    "self-correction",
+    "numbers"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-016",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "A task says “Write a short email to parents. Use information from the Data File and the recording.” Which source may you ignore?",
+   "options": [
+    "A. The Data File, because listening marks only come from the recording.",
+    "B. The recording, because integrated tasks only copy the Data File.",
+    "C. Both, if you already know what parents like to hear.",
+    "D. Neither: both sources can contain required points."
+   ],
+   "answer": "D",
+   "explanation": "綜合卷的內容點可以分布在錄音同 Data File。只聽不看、或只看不聽，都會漏點。用自己對家長的印象取代資料，係離題。",
+   "tags": [
+    "sources",
+    "task"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-017",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "You hear “Don’t include the old gym. We’re only talking about the new hall.” A later task asks for venues to mention. What do you include?",
+   "options": [
+    "A. The new hall only.",
+    "B. The old gym only.",
+    "C. Both the old gym and the new hall.",
+    "D. Every sports venue you can think of."
+   ],
+   "answer": "A",
+   "explanation": "Don’t include 係明確排除。筆記要寫下限制，唔好因為舊館曾被提到就當它是內容點。亦不可自行加入錄音冇講的場地。",
+   "tags": [
+    "constraint",
+    "note-taking"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-018",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "The instruction page says the reader is the chairperson of the parent group. How should the email sound?",
+   "options": [
+    "A. Like a text to a close friend, with slang and no greeting.",
+    "B. Like a diary entry written to yourself.",
+    "C. Polite and semi-formal, with a clear request or report for that chairperson.",
+    "D. Like a scientific paper with no reference to the parent group."
+   ],
+   "answer": "C",
+   "explanation": "綜合任務的語域由讀者身份決定。家長會主席需要禮貌、清楚的電郵。朋友短訊、日記同無關的論文腔都係錯讀者。",
+   "tags": [
+    "audience",
+    "register"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-019",
+   "topic": "listening-integrated",
+   "difficulty": "hard",
+   "question": "A speaker says “We’ll meet on the twelfth, not the twentieth.” Which note is safe?",
+   "options": [
+    "A. Meeting date: 12th (not 20th).",
+    "B. Meeting date: 20th.",
+    "C. Meeting date: 12th or 20th.",
+    "D. No date was given."
+   ],
+   "answer": "A",
+   "explanation": "not 後面係干擾項。安全筆記會同時記下正確日期同被否定的日期，避免稍後寫文時揀錯。or 把排除變成選擇。話冇日期係忽略了 twelfth。",
+   "tags": [
+    "dates",
+    "distractor"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-020",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "The Data File has a poster with the slogan “Fun for all!” The recording says the event is for Form 4 only. The task says “Follow the recording if sources disagree.” What do you write?",
+   "options": [
+    "A. The event is for everyone, because the poster is more colourful.",
+    "B. Both “everyone” and “Form 4 only” in the same sentence.",
+    "C. The event is for Form 4 only.",
+    "D. Nothing about the audience."
+   ],
+   "answer": "C",
+   "explanation": "任務若寫明資料衝突時以錄音為準，就要服從錄音。海報口號唔可以蓋過明確限制。兩個互相矛盾的對象放在同一句，會令內容點錯誤。漏寫對象通常會失一個內容點。",
+   "tags": [
+    "conflicting sources"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-021",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "Which note-taking symbol is useful while the recording is still playing?",
+   "options": [
+    "A. A brand-new code you invent for every word and cannot reread.",
+    "B. Full sentences copied in perfect handwriting.",
+    "C. Nothing until the recording ends.",
+    "D. A short form you already understand, such as “→” for “leads to”."
+   ],
+   "answer": "D",
+   "explanation": "筆記要快而且稍後自己讀得明。穩定簡寫有用。每詞新密碼會在寫作時失效。錄音進行中追求完整句子，通常會漏後面的重點。等到結束先寫，短期記憶唔夠。",
+   "tags": [
+    "note-taking",
+    "symbols"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-022",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "The task says “about 120 words”. You have five content points. What is a sensible plan?",
+   "options": [
+    "A. Write 400 words so that more language marks are guaranteed.",
+    "B. Give each point one clear sentence and cut greetings down to one line.",
+    "C. Use the whole word limit on the greeting and sign-off.",
+    "D. Omit three content points to keep the paragraphs stylish."
+   ],
+   "answer": "B",
+   "explanation": "字數大約值係為了裝下內容點。五點各一句，加上簡短開頭結尾，先接近 120 字。大幅超額唔會自動加語言分，而且可能寫不完。把字數花在格式套語、或丟掉內容點，都會失內容分。",
+   "tags": [
+    "word limit",
+    "content points"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-023",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "You hear a name: “Ms Rajesh — that’s R-A-J-E-S-H.” Why does the speaker spell it?",
+   "options": [
+    "A. Spelling never matters in integrated tasks.",
+    "B. You should replace the name with “the teacher” to be safe.",
+    "C. The spelling is likely to be marked, so the note should keep those letters.",
+    "D. The letters are a secret code for the fee."
+   ],
+   "answer": "C",
+   "explanation": "錄音若逐字母串名字，通常這個拼寫就是內容。改成 the teacher 會失去專有名詞。字母串係姓名，唔係費用密碼。",
+   "tags": [
+    "spelling",
+    "names"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-024",
+   "topic": "listening-integrated",
+   "difficulty": "hard",
+   "question": "A speaker lists “first… second… and, most importantly, …” Which item should you mark as the priority in a proposal?",
+   "options": [
+    "A. The item introduced by “most importantly”.",
+    "B. Only the first item, because lists always rank that way.",
+    "C. None of them, because spoken emphasis is irrelevant.",
+    "D. A fourth item you add yourself."
+   ],
+   "answer": "A",
+   "explanation": "most importantly 係說話人自己的排序，寫建議時應突出該項。first 只表示順序，唔一定是最重要。口語強調往往就是內容點。自行加第四項冇文本根據。",
+   "tags": [
+    "emphasis",
+    "listening cue"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-025",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "The Data File includes a table: Workshop A, 4 p.m., Room 2. The recording does not mention rooms. The email must tell students where to go. What do you use?",
+   "options": [
+    "A. No room, because the recording never said one.",
+    "B. Room 4, by combining the time and the letter A.",
+    "C. Any empty room in the school.",
+    "D. Room 2, from the Data File."
+   ],
+   "answer": "D",
+   "explanation": "地點只出現在 Data File 時，仍然要採用，因為任務要求告訴學生去哪裏。錄音冇提到唔等於資料不存在。把 4 p.m. 同 A 合成 Room 4 係誤讀表格。",
+   "tags": [
+    "data file",
+    "table"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-026",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "Which piece of language best paraphrases a note that says “bring own water”?",
+   "options": [
+    "A. bring own water",
+    "B. Please bring a bottle of water with you.",
+    "C. The school will provide water for everyone.",
+    "D. Do not bring any drinks, including water."
+   ],
+   "answer": "B",
+   "explanation": "綜合寫作通常要求改寫筆記，而唔係貼上電報式短語。意思要保持：自備水。學校供應、以及禁止帶水，都與筆記相反。",
+   "tags": [
+    "paraphrase",
+    "notes to prose"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-027",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "You missed one number while listening. The Data File later shows the same figure in a budget table. What should you do before you write?",
+   "options": [
+    "A. Invent a round number so the sentence looks complete.",
+    "B. Check the table and use it if the task allows that source.",
+    "C. Leave every later task blank.",
+    "D. Assume missed numbers are never tested."
+   ],
+   "answer": "B",
+   "explanation": "漏聽可以靠 Data File 補，這正是綜合卷的設計。捏造數字會錯內容點。一個數字漏聽唔使放棄其後所有任務。數字經常是給分點，唔好假設唔考。",
+   "tags": [
+    "recovery",
+    "data file"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-028",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "The speaker says “I’m not against the trip. I’m against holding it on a school day.” What is the opinion?",
+   "options": [
+    "A. The speaker accepts the trip but objects to the timing.",
+    "B. The speaker rejects all trips.",
+    "C. The speaker wants the trip on a school day.",
+    "D. The speaker has no opinion."
+   ],
+   "answer": "A",
+   "explanation": "not against A, against B 要拆開兩個對象。行程本身被接受，反對的是上學日舉行。把反對擴展到所有行程，或把時間讀反，都係聽力裏的範圍錯誤。",
+   "tags": [
+    "opinion",
+    "scope"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-029",
+   "topic": "listening-integrated",
+   "difficulty": "hard",
+   "question": "A task says “Write in bullet points.” You write one long narrative paragraph. What is the risk?",
+   "options": [
+    "A. Bullet points are only a suggestion and never affect the mark.",
+    "B. A paragraph always scores higher than bullets for the same points.",
+    "C. You may lose organisation marks and make content points harder to find.",
+    "D. The instruction applies only to the recording, not to your answer."
+   ],
+   "answer": "C",
+   "explanation": "文體指示包括段落形式。要求 bullet 時，長篇敘事會讓評卷者較難點算內容，亦可能不符任務。指示係對考生答案，唔係對錄音。",
+   "tags": [
+    "format instruction"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-030",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "Two students are speaking. Pat says the rehearsal is on Thursday. Kim says “No, the teacher moved it to Friday.” The chairperson then says “Yes, Friday it is.” Which day do you record?",
+   "options": [
+    "A. Thursday.",
+    "B. Thursday and Friday.",
+    "C. No rehearsal.",
+    "D. Friday, because the correction is confirmed."
+   ],
+   "answer": "D",
+   "explanation": "後說話者更正，而且主席確認 Friday。小組討論裏要跟隨被確認的版本，唔好停留在第一個被否定的日子，亦唔好把兩個日子都寫成正確。",
+   "tags": [
+    "correction",
+    "confirmation"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-031",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "Which note separates fact from a suggestion?",
+   "options": [
+    "A. Fact: hall booked 6–8. Suggestion (Jo): start at 6:15 so people can arrive.",
+    "B. Start at 6:15 because the booking says so.",
+    "C. Hall booked 6:15–8.",
+    "D. No difference: suggestions and bookings are the same kind of information."
+   ],
+   "answer": "A",
+   "explanation": "訂場時間係事實，6:15 只是 Jo 的建議。寫作時如果任務問「已決定的安排」，就只能用 6–8。把建議寫成已預訂，係綜合卷常見的資料類型錯誤。",
+   "tags": [
+    "fact vs suggestion"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-032",
+   "topic": "listening-integrated",
+   "difficulty": "easy",
+   "question": "The recording gives the reason, and the Data File gives the email address of the recipient. A complete answer needs…",
+   "options": [
+    "A. the reason only, because addresses are decoration.",
+    "B. the address only, because reasons are optional.",
+    "C. a different address that you use in real life.",
+    "D. the reason in the body and the correct address in the header if the task provides a header."
+   ],
+   "answer": "D",
+   "explanation": "格式資料同內容理由可以各佔分數。題目提供抬頭時，收件資料要準。只寫其中一項會漏分。不可換成自己生活中的電郵地址。",
+   "tags": [
+    "email header",
+    "content"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-033",
+   "topic": "listening-integrated",
+   "difficulty": "medium",
+   "question": "You hear “roughly fifty, maybe a few more.” The task says “Do not invent an exact figure.” How should you write it?",
+   "options": [
+    "A. Exactly 50 students.",
+    "B. About 50 students.",
+    "C. Exactly 53 students.",
+    "D. 500 students."
+   ],
+   "answer": "B",
+   "explanation": "roughly / maybe 表示大約。About 50 保留不確定。Exactly 50 或 53 都把估計寫成精確事實。500 係聽錯位數。任務禁止捏造精確數字時，更要用約數。",
+   "tags": [
+    "approximation"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-LISINT-034",
+   "topic": "listening-integrated",
+   "difficulty": "hard",
+   "question": "Before the recording starts, what is the highest-value use of the preparation time?",
+   "options": [
+    "A. Memorise a model email that may not match the tasks.",
+    "B. Skip the Data File headings until the recording is over.",
+    "C. Read the tasks and underline who you are writing to and what text type each task requires.",
+    "D. Practise spelling your own name."
+   ],
+   "answer": "C",
+   "explanation": "備考時間要用來知道等一下聽什麼、寫給誰、哪一種文體。背模文會令你硬套錯任務。Data File 的小標題能預測內容點，唔應該留到最後。自己的姓名通常唔係得分點。",
+   "tags": [
+    "preparation",
+    "task reading"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Listening and Integrated Skills — note-taking"
+  },
+  {
+   "id": "ENGL-SPEAK-015",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "In a group discussion, you have not spoken for a minute. What is a useful move?",
+   "options": [
+    "A. Stay silent so that stronger candidates can take your marks.",
+    "B. Add a short point and then invite another candidate in: “What do you think, Alex?”",
+    "C. Interrupt and repeat your prepared speech from the start.",
+    "D. Change the topic to something you memorised."
+   ],
+   "answer": "B",
+   "explanation": "小組討論看互動，唔只看長篇獨白。沉默會令你冇語言樣本。把背誦稿從頭講會無視討論進程。轉到無關題目會離題。短點加邀請，同時展示內容同溝通策略。",
+   "tags": [
+    "interaction",
+    "turn-taking"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-016",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "A partner says something you disagree with. Which response keeps the discussion going?",
+   "options": [
+    "A. “That’s stupid.”",
+    "B. Silence, then a new topic.",
+    "C. “I agree” — even though you do not — followed by no reason.",
+    "D. “I see your point about cost, but I’m worried about safety because…”"
+   ],
+   "answer": "D",
+   "explanation": "不同意都要先承接對方要點，再給理由。人身攻擊會破壞互動分。沉默轉題等於冇回應。假同意又冇理由，討論不會推進。",
+   "tags": [
+    "disagreeing",
+    "politeness"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-017",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "You did not hear a teammate’s suggestion. What should you say?",
+   "options": [
+    "A. “Sorry, could you say that again? I want to respond to your idea.”",
+    "B. Pretend you heard and argue against a different idea.",
+    "C. Ask the examiner to restart the whole exam.",
+    "D. Say nothing and hope the individual response will save you."
+   ],
+   "answer": "A",
+   "explanation": "要求重複係允許的溝通策略，而且顯示你想回應。假裝聽見會答非所問。小組討論通常唔會因為一句沒聽清就重考。把全部分數押在個人短講，會浪費討論部分。",
+   "tags": [
+    "clarification",
+    "strategy"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-018",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "The individual response asks for your own opinion on the group’s idea. What structure is enough in the short time?",
+   "options": [
+    "A. Retell the entire group discussion word for word.",
+    "B. List ten reasons with no example and no ending.",
+    "C. State your view, give one reason, and add one concrete example.",
+    "D. Say “I don’t know” and stop."
+   ],
+   "answer": "C",
+   "explanation": "個人回應時間短，一個立場、一個理由、一個例子就已經完整。複述全組討論會冇時間給自己的看法。理由太多而冇例子，發展會淺。I don’t know 就結束，幾乎冇語言產出。",
+   "tags": [
+    "individual response",
+    "structure"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — individual response"
+  },
+  {
+   "id": "ENGL-SPEAK-019",
+   "topic": "speaking",
+   "difficulty": "hard",
+   "question": "Which habit helps pronunciation marks without changing your ideas?",
+   "options": [
+    "A. Finishing key words instead of swallowing the ends of sentences.",
+    "B. Speaking as fast as possible to show fluency.",
+    "C. Replacing every difficult word with “thing”.",
+    "D. Reading a script in a flat voice with no pauses."
+   ],
+   "answer": "A",
+   "explanation": "清楚說完關鍵詞，考官先聽得到語音同內容。過快會令音節消失。所有名詞變成 thing 會同時損害詞彙分。平讀稿件唔像討論，亦欠缺自然停頓。",
+   "tags": [
+    "pronunciation",
+    "delivery"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-020",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "One candidate is talking without stopping. What is a fair interruption?",
+   "options": [
+    "A. Talking over them until they give up.",
+    "B. Leaving the room to show disagreement.",
+    "C. “Can I add something here? Another option is…”",
+    "D. Whispering to the examiner that the candidate should stop."
+   ],
+   "answer": "C",
+   "explanation": "禮貌切入可以拿回話輪，而且提供新內容。一直蓋過對方會兩人都聽不清。離場同向考官投訴都唔係討論策略，亦可能被視為無禮。",
+   "tags": [
+    "interrupting",
+    "balance"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-021",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "You are summarising before the discussion ends. Which summary is useful?",
+   "options": [
+    "A. “So… yeah.”",
+    "B. A summary that adds a new plan nobody discussed and presents it as the group’s decision.",
+    "C. A summary in a language other than English.",
+    "D. “So we have two ideas: a shorter camp, and a day camp if the budget is tight.”"
+   ],
+   "answer": "D",
+   "explanation": "總結要準確複述已出現的選擇。So… yeah 冇內容。把未經討論的方案說成小組決定，係不準確。口試要使用英語，轉語言唔會得分。",
+   "tags": [
+    "summarising"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-022",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "Which question invites a quiet candidate without taking over their answer?",
+   "options": [
+    "A. “Mei, say yes or no, and then I’ll continue my speech.”",
+    "B. “Mei, you mentioned safety earlier. Do you think the day camp solves that?”",
+    "C. “Why are you so quiet? It’s awkward.”",
+    "D. Asking three long questions before Mei can speak."
+   ],
+   "answer": "B",
+   "explanation": "好的邀請會引用對方曾講過的點，並問一個可以回答的問題。逼對方只說 yes、取笑沉默、或一次問太多，都唔係真正把話輪交出去。",
+   "tags": [
+    "inviting others"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-023",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "The discussion topic is school uniforms. You prepared only about canteen food. What should you do?",
+   "options": [
+    "A. Deliver the canteen speech anyway, because it is fluent.",
+    "B. Refuse to speak until the topic changes.",
+    "C. Drop the memorised canteen talk and respond to uniforms with a simple, honest point.",
+    "D. Ask the group to abandon the exam topic."
+   ],
+   "answer": "C",
+   "explanation": "離題的流利背誦仍然離題。口試可以很簡單，但要扣住當前題目。拒絕發言或要求改題，都會失去互動分。",
+   "tags": [
+    "relevance",
+    "prepared speech"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-024",
+   "topic": "speaking",
+   "difficulty": "hard",
+   "question": "Which phrase gives a reason, not just a preference?",
+   "options": [
+    "A. “I’d choose the morning slot because more volunteers are free before lunch.”",
+    "B. “Morning. Just morning.”",
+    "C. “Because because because.”",
+    "D. “I choose it for no reason.”"
+   ],
+   "answer": "A",
+   "explanation": "because 後面要有具體原因，先算發展。只重複選項、空喊 because、或承認冇理由，都讓考官聽不到論證。",
+   "tags": [
+    "giving reasons"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — individual response"
+  },
+  {
+   "id": "ENGL-SPEAK-025",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "You need a word you cannot remember. Which strategy keeps you in English?",
+   "options": [
+    "A. Stop the exam and ask for a dictionary.",
+    "B. Switch to another language for the rest of the turn.",
+    "C. Say the word’s first letter over and over.",
+    "D. Paraphrase: “the machine that shows whether an email is real”."
+   ],
+   "answer": "D",
+   "explanation": "釋義係口試允許的策略，而且仍然展示英語。口試進行中通常不可查詞典。轉語言同重複字母都冇完成表達。",
+   "tags": [
+    "paraphrase",
+    "communication strategy"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-026",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "Body language can support delivery. Which choice matches a speaking exam?",
+   "options": [
+    "A. Stare only at your notes for the full eight minutes.",
+    "B. Look at the candidates you are answering, and glance at the examiner naturally.",
+    "C. Turn your back so that you can concentrate.",
+    "D. Keep your hand over your mouth to hide nerves."
+   ],
+   "answer": "B",
+   "explanation": "眼神顯示你在同人討論。全程看筆記會像讀稿。轉身同掩嘴都會令聲音同互動變差。身體語言係輔助，重點仍然是聽得見的英語。",
+   "tags": [
+    "delivery",
+    "eye contact"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-027",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "The examiner asks a follow-up you did not expect. What is the best first sentence?",
+   "options": [
+    "A. “That was not in my plan.”",
+    "B. “That’s a good question. I think… because…”",
+    "C. “Please repeat the original topic and not this question.”",
+    "D. Silence until the examiner moves on."
+   ],
+   "answer": "B",
+   "explanation": "跟進問題本來就可能在計畫之外。先接住問題，再給一個理由，比宣布自己沒準備好更有用。要求考官撤回問題、或保持沉默，都唔會產生分數。",
+   "tags": [
+    "follow-up",
+    "individual response"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — individual response"
+  },
+  {
+   "id": "ENGL-SPEAK-028",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "Which contribution moves the group forward instead of repeating it?",
+   "options": [
+    "A. “We agree on a day camp. The open question is whether to charge a fee.”",
+    "B. Repeating the first speaker’s sentence with the same example.",
+    "C. Voting by shouting “day camp” five times.",
+    "D. Asking “What are we talking about?” after several minutes of clear discussion."
+   ],
+   "answer": "A",
+   "explanation": "推進係指出已同意的部分同未決定的部分。重複第一位同學的句子冇新資訊。喊口號唔係討論。討論已經清楚時再問題目，會顯得沒有聆聽。",
+   "tags": [
+    "moving forward"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-029",
+   "topic": "speaking",
+   "difficulty": "hard",
+   "question": "You want to show that you were listening. Which phrase does that?",
+   "options": [
+    "A. “Anyway, my next point, which I prepared, is…”",
+    "B. “I wasn’t listening, but I have an idea.”",
+    "C. “You said the evening class clashes with training. What if we move it to Saturday morning?”",
+    "D. “Let me read my notes to the examiner.”"
+   ],
+   "answer": "C",
+   "explanation": "引用對方剛剛的衝突，再提出替代，係聆聽的證據。Anyway 加背稿會切斷對話。承認沒聽就繼續講，互動分會低。把筆記讀給考官，忽略了小組成員。",
+   "tags": [
+    "listening",
+    "building on ideas"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
+  },
+  {
+   "id": "ENGL-SPEAK-030",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "Time is almost up and the group has three unfinished ideas. What should you do?",
+   "options": [
+    "A. Introduce a fourth idea.",
+    "B. Spend the last minute apologising for your accent.",
+    "C. Stop in the middle of a word and leave the choice unspoken.",
+    "D. Propose one idea to keep and say why, so the discussion ends with a choice."
+   ],
+   "answer": "D",
+   "explanation": "最後一分鐘適合收束：揀一個方案並給原因。新點子來不及討論。為口音道歉唔提供內容，口音本身亦唔係你該在答案裏評論的重點。說到一半停止，會浪費一個可以完整的句子。",
+   "tags": [
+    "closing",
+    "decision"
+   ],
+   "subject": "english",
+   "syllabus_ref": "HKDSE English Speaking — group interaction"
   }
  ]
 }
