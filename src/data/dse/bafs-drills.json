@@ -3,7 +3,7 @@
   "title": "DSE BAFS Drill Bank",
   "subject": "DSE bafs",
   "language": "en",
-  "total": 108,
+  "total": 144,
   "version": "1.0",
   "reviewed": true
  },
@@ -1951,6 +1951,690 @@
     "personal-finance-ethics"
    ],
    "subject": "bafs"
+  },
+  {
+   "id": "BAFS-BENV-013",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "A Hong Kong retailer faces a higher minimum wage and no change in its own prices. Which force is this?",
+   "options": [
+    "A. A marketing mix decision",
+    "B. An internal strength on a SWOT chart",
+    "C. A legal or political factor outside the firm",
+    "D. A technological opportunity only"
+   ],
+   "answer": "C",
+   "explanation": "Minimum wage is set outside the firm by law. It is not one of the 4Ps, and it is not an internal strength. Technology is a different PEST heading.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-BENV-014",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Shareholders and stakeholders differ because:",
+   "options": [
+    "A. Shareholders own shares; stakeholders are everyone affected by the firm",
+    "B. The two words mean the same group",
+    "C. Stakeholders are only the directors",
+    "D. Shareholders never care about profit"
+   ],
+   "answer": "A",
+   "explanation": "Shareholders are one stakeholder group. Employees, customers, suppliers and the community are stakeholders too, even when they own no shares.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-BENV-015",
+   "topic": "business-environment",
+   "difficulty": "hard",
+   "question": "A firm advertises a ‘biodegradable’ bag that does not break down as claimed. This is best called:",
+   "options": [
+    "A. Diversification",
+    "B. A trade receivable",
+    "C. Limited liability",
+    "D. Greenwashing"
+   ],
+   "answer": "D",
+   "explanation": "Greenwashing is a misleading environmental claim. Diversification is entering a new market. Limited liability is a legal feature of a company, not an advertising practice.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-BENV-016",
+   "topic": "business-environment",
+   "difficulty": "hard",
+   "question": "Two stakeholder aims clash when a café raises wages and keeps prices unchanged. The clash is:",
+   "options": [
+    "A. Every stakeholder is better off",
+    "B. Employees gain while owners may earn less profit",
+    "C. Customers must own shares",
+    "D. The government becomes the owner"
+   ],
+   "answer": "B",
+   "explanation": "Higher wages without higher prices squeeze profit. That is a stakeholder conflict, not a result that helps every group.",
+   "tags": [
+    "business-environment"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FORM-013",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "A sole proprietor is personally responsible for the business debts. That liability is:",
+   "options": [
+    "A. Limited to the price of one share",
+    "B. Limited to the amount of a bank deposit",
+    "C. Unlimited",
+    "D. Shared automatically with every customer"
+   ],
+   "answer": "C",
+   "explanation": "A sole proprietor and the business are not separate legal persons. Business debts can be claimed from the owner’s personal assets.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FORM-014",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "A private limited company, compared with a sole proprietor, generally:",
+   "options": [
+    "A. Is a separate legal entity and cannot offer shares to the public",
+    "B. Must offer shares to the public",
+    "C. Has unlimited liability for every shareholder",
+    "D. Cannot have more than one owner"
+   ],
+   "answer": "A",
+   "explanation": "A private company is a separate legal person. It does not invite the public to subscribe for shares; that public offer is a feature of a listed or public company route.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FORM-015",
+   "topic": "forms-of-business",
+   "difficulty": "hard",
+   "question": "In a general partnership, a partner’s liability for the firm’s debts is usually:",
+   "options": [
+    "A. Limited to the capital the partner promised, with no further risk",
+    "B. Zero, because only the firm is sued",
+    "C. Limited to one month of profit",
+    "D. Unlimited"
+   ],
+   "answer": "D",
+   "explanation": "General partners can be required to meet business debts beyond what they invested. A limited partner in a limited partnership is a different arrangement and is not the default general partner.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FORM-016",
+   "topic": "forms-of-business",
+   "difficulty": "hard",
+   "question": "A franchisee typically receives:",
+   "options": [
+    "A. Automatic limited liability, whatever the legal form",
+    "B. The right to use a brand and an operating system, in return for fees",
+    "C. Ownership of the franchisor",
+    "D. Exemption from all Hong Kong business law"
+   ],
+   "answer": "B",
+   "explanation": "The franchise is a right to trade under someone else’s brand and system. It does not by itself change the franchisee’s legal form or cancel local law.",
+   "tags": [
+    "forms-of-business"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MGMT-013",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Setting objectives for the next three years is mainly:",
+   "options": [
+    "A. Controlling only",
+    "B. Span of control",
+    "C. Planning",
+    "D. A hygiene factor"
+   ],
+   "answer": "C",
+   "explanation": "Planning chooses goals and how to reach them. Controlling compares results with the plan afterwards. Span of control is how many people one manager supervises.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MGMT-014",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "Delegating a task means the manager:",
+   "options": [
+    "A. Gives authority for that task while remaining responsible for the outcome",
+    "B. Gives away all responsibility permanently",
+    "C. Must do the task personally",
+    "D. Reduces the number of subordinates to zero"
+   ],
+   "answer": "A",
+   "explanation": "Delegation passes authority, not the manager’s overall accountability. The manager still answers for the result.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MGMT-015",
+   "topic": "management",
+   "difficulty": "hard",
+   "question": "A wide span of control means:",
+   "options": [
+    "A. The firm has many levels and a narrow span",
+    "B. No subordinate reports to anyone",
+    "C. Control is impossible by definition",
+    "D. One manager supervises a relatively large number of subordinates"
+   ],
+   "answer": "D",
+   "explanation": "Span is a count of people reporting directly to a manager. A wide span is a flat structure. It can work when tasks are similar, but it is not automatically a failure.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MGMT-016",
+   "topic": "management",
+   "difficulty": "hard",
+   "question": "In a SWOT analysis, a skilled workforce that competitors lack is:",
+   "options": [
+    "A. An external opportunity",
+    "B. An internal strength",
+    "C. A threat",
+    "D. A legal factor"
+   ],
+   "answer": "B",
+   "explanation": "The workforce is inside the firm, so it is a strength. An opportunity would be something outside, such as a new market.",
+   "tags": [
+    "management"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MKTG-013",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "The 4Ps are:",
+   "options": [
+    "A. Profit, plan, people and process only",
+    "B. Assets, liabilities, capital and drawings",
+    "C. Product, price, place and promotion",
+    "D. Recruitment, selection, training and appraisal"
+   ],
+   "answer": "C",
+   "explanation": "The basic marketing mix is product, price, place and promotion. People, process and physical evidence extend it for services. The other lists are accounting or human resources.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MKTG-014",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Market segmentation means:",
+   "options": [
+    "A. Dividing a market into groups with similar needs",
+    "B. Selling one product at one price to everyone with no groups",
+    "C. Closing the least profitable shop",
+    "D. Calculating the current ratio"
+   ],
+   "answer": "A",
+   "explanation": "Segmentation groups buyers so the firm can design a clearer offer. It is not a ratio and it is not the same as exiting a location.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MKTG-015",
+   "topic": "marketing",
+   "difficulty": "hard",
+   "question": "A skimming price is:",
+   "options": [
+    "A. A permanently low price to gain the whole market",
+    "B. A price equal to variable cost",
+    "C. A discount that is illegal",
+    "D. A high opening price aimed at buyers who will pay more at launch"
+   ],
+   "answer": "D",
+   "explanation": "Skimming takes a high price while some buyers are keen, then often lowers it later. A low entry price to gain share is penetration.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-MKTG-016",
+   "topic": "marketing",
+   "difficulty": "hard",
+   "question": "Place in the marketing mix is about:",
+   "options": [
+    "A. Only the city where the head office is registered",
+    "B. How the product reaches the customer",
+    "C. The font on the poster",
+    "D. The gross profit margin"
+   ],
+   "answer": "B",
+   "explanation": "Place is distribution: channels, coverage and logistics. The poster’s design is promotion. The registered city is not the whole of place.",
+   "tags": [
+    "marketing"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-HR-013",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "MPF in Hong Kong is:",
+   "options": [
+    "A. A voluntary tip paid only in December",
+    "B. A type of share capital",
+    "C. A mandatory retirement-savings scheme with contributions from employer and employee",
+    "D. A sales discount"
+   ],
+   "answer": "C",
+   "explanation": "The Mandatory Provident Fund requires regular contributions so employees accumulate retirement savings. It is not share capital and not a discount.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-HR-014",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "On-the-job training happens:",
+   "options": [
+    "A. At the workplace, while doing the work",
+    "B. Only in a classroom away from the firm",
+    "C. Only before a person is hired",
+    "D. Only for directors"
+   ],
+   "answer": "A",
+   "explanation": "On-the-job training uses the real workplace. Off-the-job training is the classroom or outside course. Induction can include both, but the phrase itself means at work.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-HR-015",
+   "topic": "human-resources",
+   "difficulty": "hard",
+   "question": "A job description mainly sets out:",
+   "options": [
+    "A. The firm’s share price",
+    "B. Only the preferred age of the candidate",
+    "C. The current ratio",
+    "D. Duties and responsibilities of the post"
+   ],
+   "answer": "D",
+   "explanation": "The description is about the job. A person specification is about the candidate. Age limits can raise discrimination issues and are not the definition of the description.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-HR-016",
+   "topic": "human-resources",
+   "difficulty": "hard",
+   "question": "High staff turnover often signals:",
+   "options": [
+    "A. That training is no longer needed",
+    "B. Costs of repeated recruitment and a possible problem with conditions or morale",
+    "C. Higher gross profit by definition",
+    "D. That MPF can be cancelled"
+   ],
+   "answer": "B",
+   "explanation": "Replacing people costs money and can mean the job or the management is unsatisfactory. It does not automatically raise gross profit, and it does not remove MPF duties.",
+   "tags": [
+    "human-resources"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-AEQN-013",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "The accounting equation is:",
+   "options": [
+    "A. Assets = liabilities − capital",
+    "B. Income = expenses",
+    "C. Assets = liabilities + capital",
+    "D. Current assets = current liabilities"
+   ],
+   "answer": "C",
+   "explanation": "What the firm owns equals what it owes outsiders plus the owner’s residual interest. Income and expenses affect profit, which then changes capital. The current ratio is a different statement.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-AEQN-014",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "The owner takes goods for personal use. The double entry is:",
+   "options": [
+    "A. Debit drawings, credit purchases or inventory",
+    "B. Debit sales, credit capital",
+    "C. Debit cash, credit drawings",
+    "D. No entry, because the owner owns the firm"
+   ],
+   "answer": "A",
+   "explanation": "Drawings reduce capital. If inventory is taken, inventory (or purchases) is credited. It is not a sale to a customer, and it still needs an entry.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-AEQN-015",
+   "topic": "accounting-equation",
+   "difficulty": "hard",
+   "question": "A credit purchase of inventory:",
+   "options": [
+    "A. Increases cash and increases capital",
+    "B. Decreases liabilities",
+    "C. Is recorded only when the supplier is paid",
+    "D. Increases inventory and increases trade payables"
+   ],
+   "answer": "D",
+   "explanation": "On credit, the firm receives inventory and owes the supplier. Cash does not move until payment. Accrual records the purchase when it happens, not only when cash is paid.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-AEQN-016",
+   "topic": "accounting-equation",
+   "difficulty": "hard",
+   "question": "Revenue is recognised when:",
+   "options": [
+    "A. The owner withdraws cash",
+    "B. It is earned, not necessarily when cash arrives",
+    "C. A non-current asset is bought",
+    "D. The current ratio exceeds 2"
+   ],
+   "answer": "B",
+   "explanation": "Accrual accounting records revenue when the goods or services are delivered. Cash may arrive earlier or later. Drawings and asset purchases are not revenue.",
+   "tags": [
+    "accounting-equation"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FSTM-013",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "Gross profit equals:",
+   "options": [
+    "A. Sales minus every expense including rent",
+    "B. Assets minus liabilities",
+    "C. Sales minus cost of goods sold",
+    "D. Cash inflows minus cash outflows"
+   ],
+   "answer": "C",
+   "explanation": "Gross profit stops at the trading items: net sales less the cost of the goods sold. Rent and other operating expenses come after that, in the move toward net profit. The statement of financial position is not a profit figure.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FSTM-014",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "An income statement covers:",
+   "options": [
+    "A. A period of time",
+    "B. One moment only, with no period",
+    "C. Only the bank balance",
+    "D. Only non-current assets"
+   ],
+   "answer": "A",
+   "explanation": "Profit is earned over a period, so the heading carries ‘for the year ended’. A statement of financial position is at a date.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FSTM-015",
+   "topic": "financial-statements",
+   "difficulty": "hard",
+   "question": "A statement of financial position shows:",
+   "options": [
+    "A. Only sales and cost of goods sold",
+    "B. Only cash receipts",
+    "C. The marketing mix",
+    "D. Assets, liabilities and capital at a date"
+   ],
+   "answer": "D",
+   "explanation": "It is the position on one date: what is owned, what is owed, and the owner’s capital. Sales belong in the income statement.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-FSTM-016",
+   "topic": "financial-statements",
+   "difficulty": "hard",
+   "question": "Closing inventory appears in the financial statements as:",
+   "options": [
+    "A. An expense in full, with nothing left on the statement of financial position",
+    "B. A deduction in cost of goods sold and a current asset",
+    "C. A non-current liability",
+    "D. Drawings"
+   ],
+   "answer": "B",
+   "explanation": "Unsold goods are not a cost of this period’s sales. They reduce cost of goods sold and remain a current asset. They are not a liability and not drawings.",
+   "tags": [
+    "financial-statements"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-RATI-013",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "Current ratio equals:",
+   "options": [
+    "A. Current liabilities ÷ current assets",
+    "B. Gross profit ÷ sales",
+    "C. Current assets ÷ current liabilities",
+    "D. Inventory ÷ current liabilities"
+   ],
+   "answer": "C",
+   "explanation": "The current ratio compares short-term resources with short-term obligations. Inverting it is not the ratio. Gross profit over sales is a margin.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-RATI-014",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "The quick (acid-test) ratio typically removes:",
+   "options": [
+    "A. Inventory from current assets",
+    "B. Cash from current assets",
+    "C. Trade payables from current liabilities",
+    "D. Capital from non-current assets"
+   ],
+   "answer": "A",
+   "explanation": "Inventory may not turn into cash quickly. The acid test uses current assets minus inventory, over current liabilities. Removing cash would hide the most liquid asset.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-RATI-015",
+   "topic": "financial-ratios",
+   "difficulty": "hard",
+   "question": "Gross profit margin equals:",
+   "options": [
+    "A. Net profit ÷ capital",
+    "B. Current assets ÷ current liabilities",
+    "C. Cost of goods sold ÷ inventory",
+    "D. Gross profit ÷ sales"
+   ],
+   "answer": "D",
+   "explanation": "The margin shows how much of each sales dollar remains after the cost of goods. Inventory turnover uses cost of goods sold and inventory. Current ratio is liquidity, not a margin.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-RATI-016",
+   "topic": "financial-ratios",
+   "difficulty": "hard",
+   "question": "A higher gearing ratio means:",
+   "options": [
+    "A. More cash in the current account",
+    "B. More long-term debt relative to capital employed",
+    "C. A higher gross profit margin by definition",
+    "D. That the firm has no interest to pay"
+   ],
+   "answer": "B",
+   "explanation": "Gearing measures how far long-term finance comes from debt. Higher gearing means more fixed interest and more financial risk. It is not a profit margin and it does not mean interest has disappeared.",
+   "tags": [
+    "financial-ratios"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-PFIN-013",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "A personal budget is useful because it:",
+   "options": [
+    "A. Replaces the need for any saving",
+    "B. Is the same document as a company’s statement of financial position",
+    "C. Compares expected income and spending before the money is gone",
+    "D. Guarantees an investment profit"
+   ],
+   "answer": "C",
+   "explanation": "A budget shows whether planned spending fits planned income. It does not promise investment returns, and it is not a company’s balance sheet.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-PFIN-014",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "An ethical decision can be legal and still be:",
+   "options": [
+    "A. Open to criticism if it harms stakeholders the law does not fully protect",
+    "B. Impossible, because law and ethics are identical",
+    "C. Always more profitable",
+    "D. A current asset"
+   ],
+   "answer": "A",
+   "explanation": "Law is a minimum. A harsh contract or a misleading claim can be legal in a narrow sense and still fail an ethics test. Ethics does not guarantee higher profit.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-PFIN-015",
+   "topic": "personal-finance-ethics",
+   "difficulty": "hard",
+   "question": "Diversifying personal savings means:",
+   "options": [
+    "A. Borrowing the maximum the bank will lend",
+    "B. Keeping every dollar in one stock",
+    "C. Ignoring fees",
+    "D. Not putting all the money into one asset"
+   ],
+   "answer": "D",
+   "explanation": "Spreading money across assets reduces the damage if one of them falls. One stock is the opposite. Borrowing the maximum raises risk rather than spreading it.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "BAFS-PFIN-016",
+   "topic": "personal-finance-ethics",
+   "difficulty": "hard",
+   "question": "A conflict of interest for an employee arises when:",
+   "options": [
+    "A. The employee follows the staff code",
+    "B. A private interest could bias a decision the employee makes for the employer",
+    "C. The firm publishes its prices",
+    "D. The current ratio is above 1"
+   ],
+   "answer": "B",
+   "explanation": "The problem is a personal benefit that may pull the decision away from the employer’s interest. Following a code is the control, not the conflict.",
+   "tags": [
+    "personal-finance-ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
   }
  ]
 }
