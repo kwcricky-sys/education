@@ -44,12 +44,12 @@ export type Unit = {
 };
 
 export const ECON_UNITS: Unit[] = [
-  { id: 1, title: "Demand & Supply", titleZh: "需求與供應", topicKey: "demand-and-supply", prerequisites: [], lessonIds: ["L1.1", "L1.2", "L1.3", "L1.4"], passThreshold: 7 },
-  { id: 2, title: "Elasticity", titleZh: "彈性", topicKey: "elasticity", prerequisites: [1], lessonIds: ["L2.1", "L2.2", "L2.3"], passThreshold: 7 },
-  { id: 3, title: "Market Intervention", titleZh: "市場干預", topicKey: "market-intervention", prerequisites: [1], lessonIds: ["L3.1", "L3.2", "L3.3"], passThreshold: 7 },
-  { id: 4, title: "Production & Costs", titleZh: "生產與成本", topicKey: "production-costs", prerequisites: [1], lessonIds: ["L4.1", "L4.2", "L4.3"], passThreshold: 7 },
-  { id: 5, title: "Market Structures", titleZh: "市場結構", topicKey: "market-structures", prerequisites: [1, 4], lessonIds: ["L5.1", "L5.2", "L5.3"], passThreshold: 7 },
-  { id: 6, title: "GDP & National Income", titleZh: "本地生產總值與國民收入", topicKey: "gdp", prerequisites: [], lessonIds: ["L6.1", "L6.2", "L6.3"], passThreshold: 7 },
+  { id: 1, title: "Demand & Supply", titleZh: "需求與供應", topicKey: "demand-and-supply", prerequisites: [], lessonIds: ["L1.1", "L1.2", "L1.3", "L1.4", "L1.5"], passThreshold: 7 },
+  { id: 2, title: "Elasticity", titleZh: "彈性", topicKey: "elasticity", prerequisites: [1], lessonIds: ["L2.1", "L2.2", "L2.3", "L2.4"], passThreshold: 7 },
+  { id: 3, title: "Market Intervention", titleZh: "市場干預", topicKey: "market-intervention", prerequisites: [1], lessonIds: ["L3.1", "L3.2", "L3.3", "L3.4"], passThreshold: 7 },
+  { id: 4, title: "Production & Costs", titleZh: "生產與成本", topicKey: "production-costs", prerequisites: [1], lessonIds: ["L4.1", "L4.2", "L4.3", "L4.4"], passThreshold: 7 },
+  { id: 5, title: "Market Structures", titleZh: "市場結構", topicKey: "market-structures", prerequisites: [1, 4], lessonIds: ["L5.1", "L5.2", "L5.3", "L5.4"], passThreshold: 7 },
+  { id: 6, title: "GDP & National Income", titleZh: "本地生產總值與國民收入", topicKey: "gdp", prerequisites: [], lessonIds: ["L6.1", "L6.2", "L6.3", "L6.4"], passThreshold: 7 },
   { id: 7, title: "Inflation & Unemployment", titleZh: "通脹與失業", topicKey: "inflation-unemployment", prerequisites: [6], lessonIds: ["L7.1", "L7.2", "L7.3", "L7.4"], passThreshold: 7 },
   { id: 8, title: "Money & Banking", titleZh: "貨幣與銀行", topicKey: "money-banking", prerequisites: [6], lessonIds: ["L8.1", "L8.2", "L8.3", "L8.4"], passThreshold: 7 },
   { id: 9, title: "Fiscal & Monetary Policy", titleZh: "財政及貨幣政策", topicKey: "fiscal-monetary-policy", prerequisites: [7, 8], lessonIds: ["L9.1", "L9.2", "L9.3", "L9.4"], passThreshold: 7 },

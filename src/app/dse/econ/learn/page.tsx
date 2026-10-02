@@ -3,6 +3,7 @@ import Link from "next/link";
 import EconUnitMap from "@/components/dse/econ-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
+import skeletons from "@/data/dse/econ-skeletons.json";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
   buildBreadcrumbJsonLd,
@@ -121,6 +122,33 @@ export default function EconLearnPage() {
       <div className="mt-8">
         <EconUnitMap />
       </div>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          答題骨架
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+          下面 {skeletons.skeletons.length} 條是原創答題步驟，用來寫圖表題和計算題。不是考評局評卷參考的原文。
+        </p>
+        <div className="mt-4 space-y-3">
+          {skeletons.skeletons.map((item) => (
+            <details key={item.id} className="rounded-2xl border border-line bg-white p-5">
+              <summary className="cursor-pointer font-semibold text-ink">
+                {item.title}
+                <span className="ml-2 text-sm font-normal text-ink-faint">單元 {item.unitId}</span>
+              </summary>
+              <p className="mt-3 text-sm text-ink-muted">幾時用：{item.whenToUse}</p>
+              <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm leading-relaxed text-ink">
+                {item.steps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+              <p className="mt-3 rounded-lg bg-cream/70 p-3 text-sm text-ink">{item.sentenceFrames[0]}</p>
+              <p className="mt-2 text-sm text-amber-900">常見失分：{item.trap}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">

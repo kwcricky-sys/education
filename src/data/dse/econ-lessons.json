@@ -1533,5 +1533,197 @@
   "practice": "fiscal-monetary-policy",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "L1.5": {
+  "id": "L1.5",
+  "title": "Chart trap: movement along a curve versus a shift",
+  "concept": "Most lost marks on a demand-and-supply diagram come from moving the wrong object. A change in the price of the good itself is a movement along the demand or supply curve. The curve is the whole relationship; one price picks one point on it. A change in anything else that the model is holding constant shifts the curve. For demand, that includes income, tastes, the price of a related good, and expectations. For supply, it includes input prices, technology, and the number of sellers. When two things happen together, separate them before you draw. A higher own-price and a fall in income are not two shifts. Draw the income shift, then read the new quantity at the new price, or compare equilibria after the shift only. Label the axes: price on the vertical axis, quantity on the horizontal axis. State whether price and quantity rise, fall, or are ambiguous. If demand and supply both shift, one of price or quantity is usually ambiguous unless you know which shift is larger. Say so, instead of inventing a direction.",
+  "example": {
+   "scenario": "The price of coffee rises. At the same time, a report says tea and coffee are substitutes, and the price of tea has also risen.",
+   "walkthrough": "The coffee price rise, by itself, is a movement along the coffee demand curve. The tea price rise is a different event: tea and coffee are substitutes, so demand for coffee shifts right. On the finished diagram the demand curve has moved, and equilibrium price and quantity of coffee are higher than they would have been from the supply side alone. Do not also shift supply unless an input or technology fact is given."
+  },
+  "traps": [
+   "Saying demand falls when the own price rises. That is a fall in quantity demanded.",
+   "Shifting both curves because two numbers changed, without asking which variable each number is.",
+   "Leaving price and quantity both ‘up’ when the two shifts push them in opposite directions."
+  ],
+  "terms": [
+   {
+    "term": "Movement along",
+    "definition": "A change in quantity demanded or supplied caused only by the good’s own price."
+   },
+   {
+    "term": "Shift",
+    "definition": "A new curve, caused by a determinant other than the good’s own price."
+   },
+   {
+    "term": "Ambiguous result",
+    "definition": "When two shifts have opposite effects on price or on quantity, so the diagram does not decide the direction without more information."
+   }
+  ],
+  "unit": 1,
+  "practice": "demand-and-supply",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.4": {
+  "id": "L2.4",
+  "title": "Elasticity traps: sign, base, and the straight-line curve",
+  "concept": "Elasticity is a ratio of percentage changes, not a slope. Slope can be constant while elasticity changes. On a straight-line demand curve, absolute price elasticity is high at the top, equal to one at the midpoint, and low at the bottom. Classify demand with the absolute value. The negative sign of PED only repeats the law of demand. Income elasticity keeps its sign: positive for normal goods, negative for inferior goods. When you calculate a percentage, say which base you use. A change from 100 to 80 is 20% of the original quantity. Mixing the new value into the base without saying so will not match the mark scheme’s figure. For tax questions, compare elasticities rather than memorising that buyers always pay. The more inelastic side of the market bears more of a per-unit tax. Perfectly inelastic demand means buyers bear the whole tax. Time matters for supply: short-run PES is usually lower because some inputs are fixed.",
+  "example": {
+   "scenario": "Price rises from $20 to $25 and quantity demanded falls from 40 to 30. A classmate says PED is 0.5 because the curve looks flat, and also says the good is inferior because PED is negative.",
+   "walkthrough": "Percentage change in quantity is 10/40 = 25%. Percentage change in price is 5/20 = 25%. |PED| = 1. The slope of the drawing is not the elasticity. The minus sign does not make the good inferior. Inferior is a negative income elasticity, which this price change does not measure."
+  },
+  "traps": [
+   "Treating a constant slope as a constant elasticity.",
+   "Calling demand inelastic because PED is negative.",
+   "Using income elasticity language (inferior, normal) for a price elasticity result."
+  ],
+  "terms": [
+   {
+    "term": "Absolute value",
+    "definition": "PED without the minus sign. Greater than 1 is elastic demand."
+   },
+   {
+    "term": "Unit elastic",
+    "definition": "Absolute price elasticity equal to 1. Total spending by buyers stays the same when price changes, for that small move."
+   },
+   {
+    "term": "Tax incidence",
+    "definition": "How the burden of a tax is split. It follows relative elasticities, not the side the law says must send the cheque."
+   }
+  ],
+  "unit": 2,
+  "practice": "elasticity",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L3.4": {
+  "id": "L3.4",
+  "title": "Chart trap: ceiling, floor, tax wedge, and deadweight loss",
+  "concept": "Draw the free-market equilibrium first, then add the intervention. A price ceiling is a horizontal line. It binds only below equilibrium, and then quantity supplied is less than quantity demanded: a shortage. A price floor binds only above equilibrium, and then there is a surplus. A non-binding control should be drawn, labelled, and then ignored in the result. A per-unit tax drives a wedge between the price buyers pay and the price sellers keep. Shift the supply curve up by the tax, or mark the two prices with a vertical gap equal to the tax. The quantity is where the new supply meets demand. Consumer surplus and producer surplus shrink. The rectangle between the two prices, up to the new quantity, is tax revenue, a transfer. The triangle beside it, from the new quantity out to the old equilibrium, is deadweight loss: units no longer traded even though buyers valued them above the sellers’ cost. Do not shade revenue and call it the loss.",
+  "example": {
+   "scenario": "Equilibrium rent is $12,000. The government sets a ceiling of $14,000 and asks what shortage appears.",
+   "walkthrough": "The ceiling is above equilibrium, so it does not bind. Rent stays $12,000 and there is no shortage. If the ceiling were $10,000, you would read quantity demanded and quantity supplied at $10,000 and subtract. The shortage is that gap, not the distance between $12,000 and $10,000 in dollars."
+  },
+  "traps": [
+   "Drawing a shortage under a price floor, or a surplus under a binding ceiling.",
+   "Counting tax revenue as deadweight loss.",
+   "Applying a non-binding ceiling as if it changed the price."
+  ],
+  "terms": [
+   {
+    "term": "Binding control",
+    "definition": "A price control that stops the market reaching equilibrium. A ceiling binds below equilibrium; a floor binds above it."
+   },
+   {
+    "term": "Tax wedge",
+    "definition": "The gap between the price paid by buyers and the price received by sellers, equal to the per-unit tax."
+   },
+   {
+    "term": "Deadweight loss",
+    "definition": "The total surplus lost because some worthwhile trades do not happen."
+   }
+  ],
+  "unit": 3,
+  "practice": "market-intervention",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.4": {
+  "id": "L4.4",
+  "title": "Chart trap: MC, AVC, ATC, and economic cost",
+  "concept": "Marginal cost cuts both AVC and ATC at their minimum points. That is because the marginal pulls the average down when it is below the average, and pulls it up when it is above. A change in fixed cost shifts ATC and AFC, not MC and not AVC. A change in a variable input price shifts MC, AVC, and ATC. Diminishing marginal returns is the short-run reason MC eventually rises: one input is fixed, so extra units of the variable input add less output and cost more at the margin. Economies of scale are different. They are long-run, when all inputs can change, and they show up as a falling long-run average cost. Economic cost includes implicit opportunity cost. A owner-manager’s forgone wage and the forgone rent on her own shop are real costs even though no invoice exists. Positive accounting profit can sit next to negative economic profit. Shutdown is a separate short-run test: if price is below AVC, the firm loses less by stopping production.",
+  "example": {
+   "scenario": "A firm’s rent rises. A student shifts the marginal-cost curve up and says profit-maximising output must change.",
+   "walkthrough": "Rent is a fixed cost if it does not vary with output. MC is unchanged, so the output where MR = MC is unchanged. ATC shifts up, so profit falls. If the firm is a price taker, price did not change. Only if the higher ATC means price is now below AVC — which a fixed-cost rise does not do — would shutdown be the issue."
+  },
+  "traps": [
+   "Shifting MC when only fixed cost changes.",
+   "Calling diminishing returns a long-run economies-of-scale result.",
+   "Using accounting profit as if it already included opportunity cost."
+  ],
+  "terms": [
+   {
+    "term": "Marginal cost",
+    "definition": "The extra cost of one more unit. It ignores fixed cost that does not change with that unit."
+   },
+   {
+    "term": "Implicit cost",
+    "definition": "An opportunity cost with no cash payment, included in economic cost."
+   },
+   {
+    "term": "Minimum of ATC",
+    "definition": "The output where MC crosses ATC. Producing there is productively efficient for that plant."
+   }
+  ],
+  "unit": 4,
+  "practice": "production-costs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.4": {
+  "id": "L5.4",
+  "title": "Chart trap: the firm’s demand, MR, and long-run profit",
+  "concept": "Start every structure question by drawing the demand curve the firm itself faces. In perfect competition that line is horizontal at the market price, so price, average revenue, and marginal revenue are the same. In monopoly and monopolistic competition the firm’s demand slopes down. For a single-price firm, marginal revenue then lies below demand, because a price cut applies to all units. Profit-maximising output is where MR = MC, provided price covers AVC in the short run. Price is read from demand, not from the MR = MC crossing. In the long run, free entry pushes a perfectly competitive firm to zero economic profit: the horizontal demand is tangent to ATC at its minimum. A monopoly can keep economic profit if entry is blocked. Do not draw a competitive firm with a downward-sloping demand, and do not set monopoly output where P = MC unless the question asks for the efficient quantity rather than the chosen quantity.",
+  "example": {
+   "scenario": "A price-taking noodle shop sees the market price fall. The student shades a loss and says the shop must be a monopoly because it is making a loss.",
+   "walkthrough": "Losses happen in perfect competition in the short run if price is below ATC. The shop is still a price taker if it cannot affect the market price. Check AVC. If price is above AVC, it keeps producing where P = MC. If free entry and exit are at work, long-run losses drive exit until price returns to minimum ATC. A loss is not evidence of monopoly."
+  },
+  "traps": [
+   "Setting monopoly output where the demand curve crosses MC.",
+   "Drawing MR equal to price for a single-price monopolist.",
+   "Treating a short-run loss as proof that the market is not competitive."
+  ],
+  "terms": [
+   {
+    "term": "Price taker",
+    "definition": "A firm that sells any quantity at the market price and none above it."
+   },
+   {
+    "term": "Single-price monopoly",
+    "definition": "A monopolist that charges the same price for every unit, so MR is below demand."
+   },
+   {
+    "term": "Zero economic profit",
+    "definition": "Revenue covers explicit and implicit costs. It is the long-run result of free entry, not a signal to shut down."
+   }
+  ],
+  "unit": 5,
+  "practice": "market-structures",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.4": {
+  "id": "L6.4",
+  "title": "Chart and definition trap: nominal GDP, real GDP, and what is left out",
+  "concept": "Nominal GDP values current output at current prices. Real GDP values output at the prices of a base year, so a rise means quantities have risen, not merely prices. If a question gives both a nominal change and an inflation rate, do not award the whole nominal change to output. GDP counts final goods and services produced inside the territory. Intermediate goods are left out to avoid double counting, or they are captured inside the value of the final good. Transfer payments such as a cash allowance with nothing produced in return are not GDP. A teacher’s salary is different: a service is produced. GDP is location; GNP adjusts for net income from abroad and follows ownership. The expenditure identity is C + I + G + X − M. Imports are removed because they were included in the other spending but not produced at home. Even a correct real-GDP rise is not a full welfare result. It misses unpaid work, the distribution of income, and many environmental costs. Say that limit when the question asks whether people are better off.",
+  "example": {
+   "scenario": "Nominal GDP rises 6% and the GDP deflator rises 6%. A commentary says the economy produced 6% more goods.",
+   "walkthrough": "Prices account for the whole 6%. Real GDP is roughly unchanged. The commentary confused nominal with real. If the question also mentions a rise in elderly allowances, that transfer is not an extra component of GDP on top of government spending on goods and services."
+  },
+  "traps": [
+   "Reading a nominal increase as a real increase.",
+   "Adding transfer payments into GDP.",
+   "Treating a real-GDP rise as proof that every household gained."
+  ],
+  "terms": [
+   {
+    "term": "Nominal GDP",
+    "definition": "Output valued at current prices. It changes when prices change, even if quantities do not."
+   },
+   {
+    "term": "Real GDP",
+    "definition": "Output valued at base-year prices, used to compare quantities over time."
+   },
+   {
+    "term": "Transfer payment",
+    "definition": "A payment for which no good or service is produced in return. It is not part of GDP."
+   }
+  ],
+  "unit": 6,
+  "practice": "gdp",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }
