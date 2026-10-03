@@ -8,7 +8,16 @@
  */
 import englishDrills from "@/data/dse/english-drills.json";
 import englishLearnDrills from "@/data/dse/english-learn-drills.json";
+import englishLessons from "@/data/dse/english-lessons.json";
 import type { DrillQuestion } from "./drills";
+
+/**
+ * Size of the original Learn Mode bank (learn-mode-1) before paper-skill
+ * drills were appended on the same topic keys. Topic pages list the full
+ * bank; each unit gate still draws 10 questions. Lesson `practice` values
+ * must stay equal to the unit `topicKey`.
+ */
+export const ENGLISH_LEARN_BASELINE = 128;
 
 export type LessonContent = {
   /** Lesson 1.1 etc. */
@@ -89,3 +98,68 @@ export function getEnglishPracticeSet(topicKey: string, n = 10): DrillQuestion[]
 export function unitUnlocked(unit: Unit, completed: number[]): boolean {
   return unit.prerequisites.every((p) => completed.includes(p));
 }
+
+type EnglishLessonRecord = {
+  id: string;
+  unit: number;
+  practice: string;
+};
+
+/** Fail the build if the learn path, lesson file and drill banks drift apart. */
+function assertEnglishPathConsistency(): void {
+  const lessons = englishLessons as Record<string, EnglishLessonRecord>;
+  const learn = englishLearnDrills as {
+    meta: { total: number };
+    questions: DrillQuestion[];
+  };
+  const published = englishDrills as { questions: DrillQuestion[] };
+  if (learn.meta.total !== learn.questions.length) {
+    throw new Error(
+      `English learn meta.total ${learn.meta.total} does not match ${learn.questions.length} questions`,
+    );
+  }
+  if (learn.questions.length < ENGLISH_LEARN_BASELINE) {
+    throw new Error(
+      `English learn bank shrank below the ${ENGLISH_LEARN_BASELINE}-item baseline`,
+    );
+  }
+  const ids = new Set<string>();
+  for (const question of [...learn.questions, ...published.questions]) {
+    if (ids.has(question.id)) {
+      throw new Error(`Duplicate English drill id ${question.id}`);
+    }
+    ids.add(question.id);
+    if (question.options.length !== 4 || !["A", "B", "C", "D"].includes(question.answer)) {
+      throw new Error(`Malformed English drill ${question.id}`);
+    }
+  }
+  const lessonIds = new Set<string>();
+  for (const unit of ENGLISH_UNITS) {
+    for (const lessonId of unit.lessonIds) {
+      const lesson = lessons[lessonId];
+      if (!lesson) throw new Error(`Missing English lesson ${lessonId}`);
+      if (lesson.unit !== unit.id) {
+        throw new Error(`Lesson ${lessonId} is unit ${lesson.unit}, expected ${unit.id}`);
+      }
+      if (lesson.practice !== unit.topicKey) {
+        throw new Error(
+          `Lesson ${lessonId} practice "${lesson.practice}" does not match topic "${unit.topicKey}"`,
+        );
+      }
+      lessonIds.add(lessonId);
+    }
+    const available = [...learn.questions, ...published.questions].filter(
+      (question) => question.topic === unit.topicKey,
+    );
+    if (available.length < 10) {
+      throw new Error(`English topic ${unit.topicKey} has ${available.length} drills; need at least 10`);
+    }
+  }
+  for (const lessonId of Object.keys(lessons)) {
+    if (!lessonIds.has(lessonId)) {
+      throw new Error(`English lesson ${lessonId} is not on the learn path`);
+    }
+  }
+}
+
+assertEnglishPathConsistency();

@@ -1,13 +1,12 @@
 {
  "meta": {
-  "title": "DSE English Drill Bank (SAMPLE)",
+  "title": "DSE English Grammar Drill Bank",
   "subject": "DSE english",
   "language": "en",
   "total": 19,
-  "version": "sample",
+  "version": "1.1",
   "reviewed": true,
-  "rejected_count": 4,
-  "retry_count": 1
+  "note": "Original grammar drills for tense and conditional accuracy. Full explanations name the rule and the distractor error. Not HKEAA past-paper material."
  },
  "questions": [
   {
@@ -16,24 +15,25 @@
    "difficulty": "easy",
    "question": "I ______ that film last week, but I can hardly remember the plot.",
    "options": [
-    "A. see",
-    "B. saw",
+    "A. saw",
+    "B. see",
     "C. have seen",
     "D. had seen"
    ],
-   "answer": "B",
-   "explanation": "Past simple is used for a completed action at a specific past time ('last week'). 'Have seen' would require no time reference or a period up to now; 'had seen' needs an earlier past event; 'see' is present.",
+   "answer": "A",
+   "explanation": "The time expression last week fixes the event in a finished past period, so the past simple saw is required. See is present and would describe a habit or a current fact. Have seen is the present perfect: it fits life experience or an unfinished period (I have seen that film), but it clashes with a named finished time. Had seen is the past perfect and needs an earlier past reference point, which this sentence does not provide. Remembering poorly now is a present result, but the grammar is still controlled by last week.",
    "tags": [
     "past simple",
     "time expression"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
    "id": "ENGL-TENS-002",
    "topic": "tenses",
    "difficulty": "easy",
-   "question": "We ______ the client at 3 PM tomorrow, so please prepare the documents.",
+   "question": "We ______ the client at 3 p.m. tomorrow, so please prepare the documents.",
    "options": [
     "A. meet",
     "B. are meeting",
@@ -41,11 +41,12 @@
     "D. met"
    ],
    "answer": "B",
-   "explanation": "Present continuous is used for a fixed future arrangement. 'Meet' is present simple (habitual), 'have met' is present perfect, 'met' is past simple – none express future arrangement.",
+   "explanation": "A fixed arrangement with a named future time is normally expressed with the present continuous: are meeting. Meet would be the present simple, which is for timetables or habits, not for one arranged appointment. Have met is present perfect and places the meeting before now. Met is past simple and contradicts tomorrow. The request to prepare documents confirms that the meeting is still in the future.",
    "tags": [
     "present continuous",
     "future arrangement"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -60,11 +61,12 @@
     "D. starts"
    ],
    "answer": "C",
-   "explanation": "Past perfect ('had started') is used for an action completed before another past action ('arrived'). 'Started' would imply simultaneous actions; 'has started' is present perfect; 'starts' is present simple.",
+   "explanation": "Two past events are ordered. Arrived is the later past; the film’s start is earlier, so the past perfect had started is the accurate form. Started would flatten the sequence and can sound as if the two actions were simply listed. Has started is present perfect and cannot sit inside a past narrative headed by arrived. Starts is present simple. Missed the opening scene is the consequence that proves the start happened first.",
    "tags": [
     "past perfect",
     "sequence of events"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -73,17 +75,18 @@
    "difficulty": "easy",
    "question": "She ______ to school by bus every day, but today she is walking.",
    "options": [
-    "A. goes",
-    "B. is going",
-    "C. has gone",
-    "D. went"
+    "A. is going",
+    "B. has gone",
+    "C. went",
+    "D. goes"
    ],
-   "answer": "A",
-   "explanation": "Present simple expresses a habitual action ('every day'). 'Is going' is present continuous (current action), 'has gone' is present perfect (completed), 'went' is past simple – none fit the habitual context.",
+   "answer": "D",
+   "explanation": "Every day signals a habit, and habits take the present simple: goes. The second clause contrasts today with that habit by using the present continuous is walking. Is going would describe the action happening now and would fight with every day. Has gone means she has left for school and is not here. Went would move the habit into the past and remove the contrast with today.",
    "tags": [
     "present simple",
     "habit"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -92,17 +95,18 @@
    "difficulty": "medium",
    "question": "He opened the door, ______ a strange figure in the corridor, and immediately felt a chill.",
    "options": [
-    "A. sees",
-    "B. saw",
+    "A. saw",
+    "B. sees",
     "C. has seen",
     "D. had seen"
    ],
-   "answer": "B",
-   "explanation": "In a narrative, maintain past tense consistency. 'Opened' and 'felt' are past simple; 'saw' matches. 'Sees' is present, 'has seen' is present perfect, 'had seen' would indicate an earlier action – all break the tense sequence.",
+   "answer": "A",
+   "explanation": "The three narrative verbs have to share a tense. Opened and felt are past simple, so the middle verb is saw. Sees drags the sentence into the present. Has seen is present perfect and breaks a past story. Had seen would mean he saw the figure before he opened the door, which contradicts the order opened → saw → felt. Parallel structure in a narrative is a frequent accuracy mark in writing.",
    "tags": [
     "tense consistency",
     "narrative"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -117,11 +121,32 @@
     "D. studies"
    ],
    "answer": "B",
-   "explanation": "Present perfect continuous emphasises the duration of an action that has just finished and has a present result. 'Has studied' focuses on completion without duration; 'studied' is past simple; 'studies' is present simple – none convey the ongoing nature up to now.",
+   "explanation": "For three hours plus a present result (feels exhausted now) is the typical setting for the present perfect continuous: has been studying. The continuous form stresses the duration. Has studied is possible in some contexts but presents the study as a completed quantity, not as three hours of activity leading to tiredness. Studied needs a finished past time and separates the action from now. Studies is a habit and ignores both the duration and the result.",
    "tags": [
     "present perfect continuous",
     "duration"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-TENS-007",
+   "topic": "tenses",
+   "difficulty": "medium",
+   "question": "After he ______ his homework, he went out to play with his friends.",
+   "options": [
+    "A. had finished",
+    "B. was finishing",
+    "C. has finished",
+    "D. finishes"
+   ],
+   "answer": "A",
+   "explanation": "After plus a past main verb (went out) needs the homework to be complete before that past moment. Had finished supplies that earlier past. Was finishing means the homework was still in progress, so he would not yet have gone out. Has finished is present perfect and cannot be the first half of a past-time after clause. Finishes is present simple. The sequence is the whole point of the item.",
+   "tags": [
+    "past perfect",
+    "past simple sequence"
+   ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -131,16 +156,17 @@
    "question": "By next month, I ______ the project, so I can submit it to the manager.",
    "options": [
     "A. will complete",
-    "B. will have completed",
-    "C. am completing",
-    "D. have completed"
+    "B. am completing",
+    "C. have completed",
+    "D. will have completed"
    ],
-   "answer": "B",
-   "explanation": "Future perfect ('will have completed') expresses an action that will be finished before a specific future time ('by next month'). 'Will complete' is simple future, 'am completing' is present continuous, 'have completed' is present perfect – none indicate completion by a future deadline.",
+   "answer": "D",
+   "explanation": "By next month sets a deadline before which the project must be finished. That is the future perfect: will have completed. Will complete only says the completion happens at some future time, not that it is done by the deadline. Am completing is a present arrangement and does not look back from a future point. Have completed claims the project is already finished now, which makes by next month unnecessary.",
    "tags": [
     "future perfect",
     "deadline"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -150,23 +176,24 @@
    "question": "If I ______ about the meeting earlier, I would have rearranged my schedule.",
    "options": [
     "A. knew",
-    "B. had known",
-    "C. know",
-    "D. have known"
+    "B. know",
+    "C. have known",
+    "D. had known"
    ],
-   "answer": "B",
-   "explanation": "This is a third conditional: past perfect ('had known') in the if-clause, and 'would have + past participle' in the main clause. 'Knew' is past simple (second conditional), 'know' is present, 'have known' is present perfect – all form incorrect conditional structures.",
+   "answer": "D",
+   "explanation": "Would have rearranged is a past unreal result, so the if-clause needs the past perfect: had known. This is the third conditional, used for a past chance that was missed. Knew would build a second conditional and should be followed by would rearrange, not would have rearranged. Know is present. Have known is present perfect and does not form this conditional. Earlier confirms that the missing knowledge is in the past.",
    "tags": [
     "third conditional",
     "past perfect"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
    "id": "ENGL-COND-001",
    "topic": "conditionals",
    "difficulty": "easy",
-   "question": "Which sentence correctly uses the zero conditional?",
+   "question": "Which sentence correctly uses the zero conditional for a general truth?",
    "options": [
     "A. If water reaches 100°C, it boils.",
     "B. If water reaches 100°C, it will boil.",
@@ -174,18 +201,19 @@
     "D. If water has reached 100°C, it boiled."
    ],
    "answer": "A",
-   "explanation": "Zero conditional states general truths or scientific facts. Both clauses use present simple: 'if + present simple, present simple'. Option B is first conditional (future), C is second (hypothetical), D is incorrect tense.",
+   "explanation": "A zero conditional states a scientific fact or a habit that is always true. Both clauses use the present simple: if water reaches, it boils. Will boil is the first conditional and frames a real future event, not a law of nature. Reached / would boil is the second conditional, for an unreal present or future. Has reached / boiled mixes a perfect if-clause with a past result and does not describe a general rule.",
    "tags": [
     "zero conditional",
     "present simple"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
    "id": "ENGL-COND-002",
    "topic": "conditionals",
    "difficulty": "easy",
-   "question": "Choose the correct first conditional sentence for a real possibility.",
+   "question": "Choose the correct first conditional for a real possibility.",
    "options": [
     "A. If it will rain tomorrow, we cancel the picnic.",
     "B. If it rains tomorrow, we will cancel the picnic.",
@@ -193,11 +221,12 @@
     "D. If it had rained tomorrow, we would have cancelled the picnic."
    ],
    "answer": "B",
-   "explanation": "First conditional: 'if + present simple, will + base verb' for real future possibilities. Option A uses 'will' in the if-clause (incorrect), C is second conditional, D is third.",
+   "explanation": "A real future possibility uses if + present simple, and will + base verb in the result: if it rains, we will cancel. Will does not belong in the if-clause in standard first conditionals. Rained / would cancel is the second conditional and treats the rain as hypothetical rather than a live forecast. Had rained / would have cancelled is the third conditional and cannot point at tomorrow.",
    "tags": [
     "first conditional",
     "future possibility"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -207,16 +236,37 @@
    "question": "Which sentence is a correct second conditional?",
    "options": [
     "A. If I have more time, I will help you.",
-    "B. If I had more time, I would help you.",
-    "C. If I had had more time, I would have helped you.",
+    "B. If I had had more time, I would have helped you.",
+    "C. If I had more time, I would help you.",
     "D. If I would have more time, I helped you."
    ],
-   "answer": "B",
-   "explanation": "Second conditional for hypothetical present/future: 'if + past simple, would + base verb'. Option A is first, C is third, D uses 'would' in the if-clause (incorrect).",
+   "answer": "C",
+   "explanation": "The second conditional imagines a present or future that is not true now: if + past simple, would + base verb. Had more time / would help is that pattern. Have / will help is the first conditional, a real possibility. Had had / would have helped is the third conditional, about a past that cannot be changed. Would in the if-clause is a common error; would belongs in the result clause.",
    "tags": [
     "second conditional",
     "hypothetical"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-COND-004",
+   "topic": "conditionals",
+   "difficulty": "easy",
+   "question": "Identify the correct third conditional sentence.",
+   "options": [
+    "A. If she studied, she will pass the exam.",
+    "B. If she had studied, she would have passed the exam.",
+    "C. If she had studied, she would pass the exam.",
+    "D. If she studied, she would have passed the exam."
+   ],
+   "answer": "B",
+   "explanation": "The third conditional is a past unreal: if + past perfect, would have + past participle. Had studied / would have passed means she did not study and did not pass. Studied / will pass mixes a past if-clause with a first-conditional result. Had studied / would pass is a mixed conditional: a past condition with a present result, so it is grammatical but it is not the third conditional the question asks for. Studied / would have passed mixes a second-conditional if-clause with a third-conditional result.",
+   "tags": [
+    "third conditional",
+    "past unreal"
+   ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -226,24 +276,25 @@
    "question": "Which mixed conditional correctly expresses a past condition with a present result?",
    "options": [
     "A. If I took that job, I would be rich now.",
-    "B. If I had taken that job, I would be rich now.",
-    "C. If I had taken that job, I would have been rich now.",
-    "D. If I take that job, I will be rich now."
+    "B. If I had taken that job, I would have been rich now.",
+    "C. If I take that job, I will be rich now.",
+    "D. If I had taken that job, I would be rich now."
    ],
-   "answer": "B",
-   "explanation": "Mixed conditional: past condition (if + past perfect) + present result (would + base verb). Option A uses past simple (wrong tense), C is third conditional, D is first.",
+   "answer": "D",
+   "explanation": "The past condition is if + past perfect (had taken). The present result is would + base verb (would be rich now). Now is the clue that the result is not locked in the past. Took / would be is a straight second conditional about an unreal present. Had taken / would have been is a third conditional and places the riches in the past as well, which fights with now. Take / will be is a first conditional about a real future.",
    "tags": [
     "mixed conditional",
     "past condition",
     "present result"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
    "id": "ENGL-COND-006",
    "topic": "conditionals",
    "difficulty": "medium",
-   "question": "Choose the correct sentence using 'unless' in a first conditional.",
+   "question": "Choose the correct sentence using unless in a first conditional.",
    "options": [
     "A. Unless it rains, we will go to the beach.",
     "B. Unless it will rain, we will go to the beach.",
@@ -251,11 +302,32 @@
     "D. Unless it had rained, we would have gone to the beach."
    ],
    "answer": "A",
-   "explanation": "'Unless' means 'if not'. First conditional: 'unless + present simple, will + base verb'. Option B uses 'will' after unless (incorrect), C is second, D is third.",
+   "explanation": "Unless means if not. In a first conditional it is followed by the present simple, and the result uses will: unless it rains, we will go. That means we will go if it does not rain. Will after unless is the same error as will in an if-clause. Rained / would go is a second-conditional shape. Had rained / would have gone is a third-conditional shape. The item tests both unless and the first-conditional tense pair.",
    "tags": [
     "first conditional",
     "unless"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
+   "subject": "english"
+  },
+  {
+   "id": "ENGL-COND-007",
+   "topic": "conditionals",
+   "difficulty": "medium",
+   "question": "Which sentence uses the subjunctive were correctly in a second conditional?",
+   "options": [
+    "A. If I was you, I would apologize.",
+    "B. If I had been you, I would apologize.",
+    "C. If I were you, I would apologize.",
+    "D. If I am you, I would apologize."
+   ],
+   "answer": "C",
+   "explanation": "Advice of the form “If I were you” uses the past subjunctive were for every person in formal standard English, followed by would + base verb. Was you is common in informal speech but it is not the subjunctive form this question asks for. Had been you / would apologize mixes a past-perfect if-clause with a present result and changes the time reference. Am you / would apologize joins a present if-clause to would, which is neither the first nor the second conditional.",
+   "tags": [
+    "second conditional",
+    "subjunctive were"
+   ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -270,11 +342,12 @@
     "D. If he wouldn't have missed the bus, he wouldn't have been late."
    ],
    "answer": "B",
-   "explanation": "Third conditional negative: 'if + hadn't + past participle, would have + past participle'. Option A is mixed (past condition, present result), C uses past simple, D uses 'would' in if-clause.",
+   "explanation": "A negative third conditional uses hadn’t + past participle in the if-clause and wouldn’t have + past participle in the result. Hadn’t missed / wouldn’t have been late means that missing the bus caused the lateness, and both are in the past. Wouldn’t be late moves the result into the present and creates a mixed conditional. Didn’t miss is past simple, not past perfect. Wouldn’t have in the if-clause repeats the error of putting would on the condition side.",
    "tags": [
     "third conditional",
     "negative"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
@@ -283,94 +356,39 @@
    "difficulty": "hard",
    "question": "Which mixed conditional correctly expresses a present condition with a past result?",
    "options": [
-    "A. If I were taller, I would have become a basketball player.",
-    "B. If I had been taller, I would become a basketball player.",
-    "C. If I am taller, I would have become a basketball player.",
+    "A. If I had been taller, I would become a basketball player.",
+    "B. If I am taller, I would have become a basketball player.",
+    "C. If I were taller, I would have become a basketball player.",
     "D. If I were taller, I would become a basketball player."
    ],
-   "answer": "A",
-   "explanation": "Mixed conditional: present condition (if + past simple/were) + past result (would have + past participle). Option B is past condition + present result, C mixes tenses, D is second conditional.",
+   "answer": "C",
+   "explanation": "A present unreal condition uses if + past simple or were. A past result uses would have + past participle. Were taller / would have become means “I am not taller, and that stopped me becoming a player in the past.” Had been / would become reverses the times. Am / would have mixes a real present if-clause with a past unreal result. Were / would become is a straight second conditional: both the condition and the result are about an unreal present or future, not a past result.",
    "tags": [
     "mixed conditional",
     "present condition",
     "past result"
    ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   },
   {
    "id": "ENGL-COND-010",
    "topic": "conditionals",
    "difficulty": "hard",
-   "question": "Identify the correct inversion in a conditional sentence.",
+   "question": "Identify the correct inversion in a third-conditional sentence.",
    "options": [
-    "A. Had I known about the meeting, I would have attended.",
-    "B. If I had known about the meeting, I would attend.",
-    "C. Were I known about the meeting, I would have attended.",
-    "D. Had I known about the meeting, I would attend."
+    "A. If I had known about the meeting, I would attend.",
+    "B. Were I known about the meeting, I would have attended.",
+    "C. Had I known about the meeting, I would attend.",
+    "D. Had I known about the meeting, I would have attended."
    ],
-   "answer": "A",
-   "explanation": "Inversion in third conditional: 'Had + subject + past participle' replaces 'If + subject + had'. Option A is correct: past condition + past result. B uses 'if' (no inversion) but wrong result, C is ungrammatical, D mixes past condition with present result.",
+   "answer": "D",
+   "explanation": "When if is dropped in a third conditional, Had moves in front of the subject: Had I known replaces If I had known. The result stays would have attended, because both halves are past unreal. Would attend is a present result and no longer matches a third conditional. Were I known is not a grammatical inversion of had known; were-inversion belongs to second conditionals such as Were I you. The first option still uses if and pairs a past-perfect condition with the wrong result.",
    "tags": [
     "inversion",
     "third conditional"
    ],
-   "subject": "english"
-  },
-  {
-   "id": "ENGL-TENS-007",
-   "topic": "tenses",
-   "difficulty": "medium",
-   "question": "After he ______ his homework, he went out to play with his friends.",
-   "options": [
-    "A. was finishing",
-    "B. has finished",
-    "C. had finished",
-    "D. finishes"
-   ],
-   "answer": "C",
-   "explanation": "The past perfect ('had finished') shows the homework was completed before the past action 'went out'. 'Was finishing' describes an action still in progress at that past moment; 'has finished' is present perfect and 'finishes' is present simple, neither of which fits a past narrative.",
-   "tags": [
-    "past perfect",
-    "past simple sequence"
-   ],
-   "subject": "english"
-  },
-  {
-   "id": "ENGL-COND-004",
-   "topic": "conditionals",
-   "difficulty": "easy",
-   "question": "Identify the correct third conditional sentence.",
-   "options": [
-    "A. If she studied, she will pass the exam.",
-    "B. If she had studied, she would pass the exam.",
-    "C. If she had studied, she would have passed the exam.",
-    "D. If she studied, she would have passed the exam."
-   ],
-   "answer": "C",
-   "explanation": "Third conditional for past unreal: 'if + past perfect, would have + past participle'. Option B is a grammatical mixed conditional (past condition, present result) but not third conditional. Option A wrongly pairs a past-tense if-clause with a first-conditional result ('will pass'). Option D mixes a second-conditional if-clause with a third-conditional result.",
-   "tags": [
-    "third conditional",
-    "past unreal"
-   ],
-   "subject": "english"
-  },
-  {
-   "id": "ENGL-COND-007",
-   "topic": "conditionals",
-   "difficulty": "medium",
-   "question": "Which sentence uses the subjunctive 'were' correctly in a second conditional?",
-   "options": [
-    "A. If I was you, I would apologize.",
-    "B. If I were you, I would apologize.",
-    "C. If I had been you, I would apologize.",
-    "D. If I am you, I would apologize."
-   ],
-   "answer": "B",
-   "explanation": "In the second conditional, the subjunctive 'were' is used for all persons in formal standard English. Option A uses 'was', which appears in informal speech but is not the subjunctive form. Option C is a mixed conditional (a third-conditional if-clause with a second-conditional result). Option D incorrectly combines a present-simple if-clause with 'would', matching neither the first nor the second conditional pattern.",
-   "tags": [
-    "second conditional",
-    "subjunctive were"
-   ],
+   "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
   }
  ]
