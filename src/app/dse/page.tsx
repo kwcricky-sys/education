@@ -28,6 +28,7 @@ import { ECON_UNITS } from "@/lib/dse/econ-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
 import { ICT_UNITS } from "@/lib/dse/ict-path";
 import { MATH_UNITS } from "@/lib/dse/math-path";
+import { getChineseLearningCards, getChinesePaperDrills } from "@/lib/dse/chinese-path";
 import { getAllQuizSlugs, getQuiz } from "@/lib/dse/quizzes";
 import { CHINESE_PRESCRIBED_TEXTS } from "@/lib/dse/texts";
 import { DSE_SUBJECTS } from "@/lib/dse/subjects";
@@ -43,6 +44,8 @@ import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
  * ------------------------------------------------------------------ */
 
 const TEXT_COUNT = CHINESE_PRESCRIBED_TEXTS.length;
+const CHINESE_LEARN_CARD_COUNT = getChineseLearningCards().length;
+const CHINESE_PAPER_DRILL_COUNT = getChinesePaperDrills().length;
 
 const CHINESE_CARD_COUNT = getAllQuizSlugs().reduce(
   (n, slug) => n + (getQuiz(slug)?.meta.total ?? 0),
@@ -130,6 +133,12 @@ type Resource = {
  */
 const SUBJECT_RESOURCES: Record<string, Resource[]> = {
   chinese: [
+    {
+      href: "/dse/chinese/learn",
+      label: "中文自學路徑",
+      detail: "十二篇每篇 5 張學習卡，跟住練跨篇章、閱讀、寫作同說話。",
+      count: `${CHINESE_LEARN_CARD_COUNT} 卡 · ${CHINESE_PAPER_DRILL_COUNT} 題`,
+    },
     {
       href: "/dse/chinese",
       label: `${TEXT_COUNT} 篇指定範文閃卡`,

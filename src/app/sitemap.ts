@@ -32,6 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.92,
     },
     {
+      url: `${SITE_URL}/dse/chinese/learn`,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
       url: `${SITE_URL}/dse/econ/learn`,
       changeFrequency: "weekly",
       priority: 0.9,

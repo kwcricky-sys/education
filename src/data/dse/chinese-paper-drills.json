@@ -1,0 +1,1646 @@
+{
+ "meta": {
+  "title": "DSE 中文科閱讀寫作說話練習",
+  "subject": "DSE chinese",
+  "language": "zh-HK",
+  "total": 86,
+  "version": "1",
+  "note": "跨篇章、閱讀、寫作、說話原創練習，供 /dse/chinese/learn 使用。不是考評局試題，亦不收錄歷屆試卷原文。"
+ },
+ "questions": [
+  {
+   "id": "CHIN-CROSS-001",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《論仁》重日常之仁，《魚我所欲也》把抉擇推到生死。哪一項比較最準確？",
+   "options": [
+    "A. 兩篇都叫人放棄生命。",
+    "B. 兩者都談道德，但一個從孝悌與禮做起，一個用捨生取義說明本心。",
+    "C. 兩篇都只討論飲食禮儀。",
+    "D. 《魚》重禮儀細節，《論仁》重戰場勇氣。"
+   ],
+   "answer": "B",
+   "explanation": "比較要有相同點和不同重心。仁是日用修養，義在《魚》裏可以高於生命。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-002",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "《勸學》和《師說》都反對停止學習。分別在哪裏？",
+   "options": [
+    "A. 兩篇作者相同。",
+    "B. 《師說》反對一切老師。",
+    "C. 《勸學》主張人不需要改變。",
+    "D. 荀子強調個人積累與鍥而不捨；韓愈強調從師，批評士大夫恥學於師。"
+   ],
+   "answer": "D",
+   "explanation": "共同點是學不可停。分別是積學與從師，不能混成一篇。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-003",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《逍遙遊》的「大」和《始得西山宴遊記》的「大」，哪一項分得清？",
+   "options": [
+    "A. 莊子用寓言尺度打破比較；柳宗元用西山特立安頓被貶後的自我。",
+    "B. 兩者都是實地遊記。",
+    "C. 兩者都在讚美皇帝。",
+    "D. 西山代表小鳥，鯤鵬代表柳宗元。"
+   ],
+   "answer": "A",
+   "explanation": "文體一個是寓言，一個是遊記。大的用意不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-004",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "藺相如避路與廉頗負荊，和《論仁》的君子形象可以怎樣合看？",
+   "options": [
+    "A. 兩件事證明君子應該永遠忍讓、沒有原則。",
+    "B. 廉頗始終沒有改變。",
+    "C. 君子重義而非爭勝。藺相如以國事為先，廉頗最終能認錯，都接近坦蕩而非長戚戚。",
+    "D. 《論仁》反對任何道歉。"
+   ],
+   "answer": "C",
+   "explanation": "合看時要保留文本事件，不要把忍讓寫成沒有是非。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-005",
+   "topic": "cross-passage",
+   "difficulty": "hard",
+   "question": "《出師表》和《岳陽樓記》都寫憂。對象怎樣分開？",
+   "options": [
+    "A. 諸葛亮憂後主親小人與漢室未復；范仲淹把憂推到士人對天下的責任。",
+    "B. 兩篇都是臣子的出師請求。",
+    "C. 兩篇都只憂個人俸祿。",
+    "D. 范仲淹在請求北伐。"
+   ],
+   "answer": "A",
+   "explanation": "憂的範圍不同：一國君臣的付託，對士人的公共倫理。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-006",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "《六國論》的借古諷今，和《出師表》的先帝遺德，哪一項是有效比較？",
+   "options": [
+    "A. 兩篇都主張向強敵割地。",
+    "B. 兩篇都是詞。",
+    "C. 兩者都藉已發生的事說服當世，但蘇洵警告賂敵，諸葛亮要求完成託孤與興復。",
+    "D. 蘇洵在向後主上表。"
+   ],
+   "answer": "C",
+   "explanation": "說服方式相似，政治判斷不同，不能互調作者。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-007",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《師說》「小學而大遺」和《勸學》「鍥而舍之」，可以一齊說明什麼？",
+   "options": [
+    "A. 兩者都是在讚美不學習的人。",
+    "B. 兩者都在討論秦國。",
+    "C. 韓愈主張放棄大道。",
+    "D. 一個是學錯了對象，抓小放大；一個是中途停止。失敗都可以發生，但原因不同。"
+   ],
+   "answer": "D",
+   "explanation": "比較題要指出同是論學、病因不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-008",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "《岳陽樓記》的遷客騷人，和《始得西山》開首的惴慄，有什麼可比較之處？",
+   "options": [
+    "A. 兩位作者都在慶祝升官。",
+    "B. 兩者都寫外在遭遇影響心情；范仲淹再提出不以物喜，柳宗元則在西山中尋得暫時的心凝形釋。",
+    "C. 兩篇都沒有寫心情。",
+    "D. 柳宗元要求先天下之憂而憂。"
+   ],
+   "answer": "B",
+   "explanation": "起點都是不安或隨景生情，出口不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-009",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "唐詩三首不能合成一種情感。哪一項配對正確？",
+   "options": [
+    "A. 三首都是杜甫的家國詩。",
+    "B. 三首都是王維的山水田園，沒有憂國。",
+    "C. 王維山居清靜，李白邀月曠達，杜甫登樓憂國。",
+    "D. 李白《登樓》寫浣女漁舟。"
+   ],
+   "answer": "C",
+   "explanation": "作者、詩題、情感要三者對上。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-010",
+   "topic": "cross-passage",
+   "difficulty": "hard",
+   "question": "詞三首的風格哪一項分得開？",
+   "options": [
+    "A. 蘇軾以江山歷史寫豪情，李清照以疊字寫深愁，辛棄疾在元夕熱鬧中寫特立的人。",
+    "B. 三首全是婉約閒愁。",
+    "C. 李清照在寫周瑜。",
+    "D. 辛棄疾的「那人」就是蘇軾。"
+   ],
+   "answer": "A",
+   "explanation": "風格標籤必須回到每首詞的畫面，不能一概而論。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-011",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《魚我所欲也》的不受嗟來之食，和藺相如持璧睨柱，相同的骨幹是什麼？",
+   "options": [
+    "A. 兩者都在乞食。",
+    "B. 兩者都主張投降。",
+    "C. 孟子記載了澠池之會。",
+    "D. 兩者都在壓力下拒絕不義：一個拒食，一個寧死也不讓和氏璧被奪。"
+   ],
+   "answer": "D",
+   "explanation": "相同點是守住原則，場景和文體仍然不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-012",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "《逍遙遊》蜩鳩笑大鵬，和《師說》士大夫笑從師的人，可怎樣比較？",
+   "options": [
+    "A. 小鳥和士大夫都是作者完全認同的榜樣。",
+    "B. 兩者都寫以自己的尺度嘲笑別人，讀者被邀請看見嘲笑者的局限。",
+    "C. 韓愈用鯤鵬說明從師。",
+    "D. 莊子在批評老師。"
+   ],
+   "answer": "B",
+   "explanation": "嘲笑者自限，是可用的比較點；不要把情節嫁接。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-013",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《六國論》「不賂者以賂者喪」和《出師表》「親賢遠佞」，都涉及什麼判斷？",
+   "options": [
+    "A. 兩篇都認為賄賂可以救國。",
+    "B. 局部看似安穩，整體策略一錯，仍然會敗。賂秦連累不賂者；親小人則賢臣的努力亦被抵消。",
+    "C. 諸葛亮主張割地。",
+    "D. 蘇洵在安排郭攸之的職務。"
+   ],
+   "answer": "B",
+   "explanation": "策略判斷可以比較，人名和事件不能互調。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-014",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "《山居秋暝》的空山和《始得西山》的特立，都寫清曠。分別是什麼？",
+   "options": [
+    "A. 王維的空山仍有浣女漁舟，是可居的清靜；柳宗元的西山是不與培塿為類的人格象徵。",
+    "B. 兩篇都是詞。",
+    "C. 王維在寫被貶永州。",
+    "D. 柳宗元在寫秋暝漁舟。"
+   ],
+   "answer": "A",
+   "explanation": "清曠是表面相似，文體和寄託深度不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-015",
+   "topic": "cross-passage",
+   "difficulty": "hard",
+   "question": "《聲聲慢》的愁和杜甫《登樓》的傷，哪一項比較公平？",
+   "options": [
+    "A. 兩者都是元夕熱鬧。",
+    "B. 杜甫在用疊字寫尋尋覓覓。",
+    "C. 兩者都沉，但李清照的愁細碎而個人，杜甫的傷對着萬方多難，家國更顯。",
+    "D. 李清照在議論六國。"
+   ],
+   "answer": "C",
+   "explanation": "情感濃度相似，對象和文體不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-016",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "《青玉案·元夕》的「那人」和《論仁》的君子，可以謹慎地比較到哪一步？",
+   "options": [
+    "A. 辛棄疾引用了孔子的原句。",
+    "B. 君子必須在元夕出現。",
+    "C. 兩者完全是同一個人。",
+    "D. 兩者都不全被外在熱鬧或利益帶走：一個站在燈火闌珊處，一個喻於義而不喻於利。"
+   ],
+   "answer": "D",
+   "explanation": "比較要寫「可以見到相似」，同時承認文本沒有直接引用。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-017",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《勸學》青出於藍，和《師說》「道之所存，師之所存」，都在打破什麼成見？",
+   "options": [
+    "A. 一個打破「資質決定上限」，一個打破「只有特定身份才可以做老師」。",
+    "B. 兩者都認為人不應該超過老師。",
+    "C. 荀子反對任何進步。",
+    "D. 韓愈認為道不重要。"
+   ],
+   "answer": "A",
+   "explanation": "都是打破固有限制，但限制的內容不同。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-018",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "負荊請罪和《魚》中的「賢者能勿喪耳」，哪一項是穩妥的比較？",
+   "options": [
+    "A. 廉頗接受了嗟來之食。",
+    "B. 孟子記載負荊。",
+    "C. 兩者都沒有改變。",
+    "D. 兩者都寫人可以不被當下的怒或利帶走：廉頗放下私怨，賢者不因窮乏接受不義。"
+   ],
+   "answer": "D",
+   "explanation": "人物和論證不同，可比較的是不被私心帶走。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-019",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "《岳陽樓記》先憂後樂，和《出師表》鞠躬盡瘁式的自陳，哪一項不要寫？",
+   "options": [
+    "A. 可以比較公共責任和對君主的付託。",
+    "B. 不要寫成兩位作者在同一篇裏對話，或互相引用對方的名句。",
+    "C. 可以指出一篇是記、一篇是表。",
+    "D. 可以指出憂的範圍不同。"
+   ],
+   "answer": "B",
+   "explanation": "比較題允許並讀，但不可捏造文本之間的引用。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-020",
+   "topic": "cross-passage",
+   "difficulty": "hard",
+   "question": "《月下獨酌》邀月，和《逍遙遊》的無待，都觸及孤獨或自由。哪一項過了線？",
+   "options": [
+    "A. 李白用想像把孤獨變成可相對的關係。",
+    "B. 莊子認為大鵬仍然有待。",
+    "C. 說李白已經達到莊子的無待，因為他和影子喝了一杯。",
+    "D. 兩篇文體分別是詩和寓言。"
+   ],
+   "answer": "C",
+   "explanation": "想像解孤不等於哲學上的無待，這個推論過強。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-021",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "跨篇章題目說「試比較兩篇的寫作目的」。最穩的結構是什麼？",
+   "options": [
+    "A. 先抄兩篇全文。",
+    "B. 只寫自己更喜歡哪一篇，不提目的。",
+    "C. 用現代新聞代替兩篇文本。",
+    "D. 先各用一句寫出目的，再寫一個方法上的相同或不同，最後各引一個文本細節。"
+   ],
+   "answer": "D",
+   "explanation": "目的、方法、證據三段，比較題才站得住。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-022",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "哪一組配對適合做「對比手法」的跨篇練習？",
+   "options": [
+    "A. 《岳陽樓記》的陰晴對照，和《勸學》鍥而舍之／鍥而不捨的對照。",
+    "B. 《念奴嬌》和一份午餐菜單。",
+    "C. 《廉頗藺相如列傳》和交通消息。",
+    "D. 《聲聲慢》和化學方程式。"
+   ],
+   "answer": "A",
+   "explanation": "兩組都是文本內部的對比，而且都在指定篇章之內，練的是手法遷移。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-023",
+   "topic": "cross-passage",
+   "difficulty": "medium",
+   "question": "跨篇答案最常見的哪一種失分？",
+   "options": [
+    "A. 同時寫相同與不同。",
+    "B. 只寫相同點，或只寫不同點，而且沒有任何一句回到具體文本。",
+    "C. 指出文體不同。",
+    "D. 承認有些推論不能做。"
+   ],
+   "answer": "B",
+   "explanation": "單邊比較加空泛口號，是跨篇題最常見的空轉。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-CROSS-024",
+   "topic": "cross-passage",
+   "difficulty": "easy",
+   "question": "如果題目指定《六國論》和《師說》，哪一項是優先比較點？",
+   "options": [
+    "A. 比較兩篇的押韻。",
+    "B. 比較兩位作者的詞牌。",
+    "C. 兩者都是論說文，但一個用歷史假設警告賂敵，一個用當世對比批評恥學。",
+    "D. 比較西山的高度和秦國的兵力數字。"
+   ],
+   "answer": "C",
+   "explanation": "先鎖定文體和論證方式，不要跳到篇章裏沒有的格律。",
+   "tags": [
+    "cross-passage"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 跨篇章比較（原創練習）"
+  },
+  {
+   "id": "CHIN-READ-001",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "短文：「巷口的燈提早暗了。不是故障，是管理處把照明時間削去一小時。」「削去」在這裏最準確的理解是？",
+   "options": [
+    "A. 燈光被風吹走。",
+    "B. 主動減少原本有的照明時間。",
+    "C. 管理處增加照明。",
+    "D. 居民自願關燈。"
+   ],
+   "answer": "B",
+   "explanation": "削去是刪減。下文的一小時說明減的是時長，不是故障。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-002",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "題目問「作者為什麼反對加建屏風」。文章只有居民的引語反對，作者沒有表態。你應該？",
+   "options": [
+    "A. 把居民的話寫成作者的結論。",
+    "B. 自己補一個美觀理由。",
+    "C. 回答屏風的價錢，即使文章沒有價錢。",
+    "D. 回答居民的理由，並說明文章沒有寫作者本人的立場。"
+   ],
+   "answer": "D",
+   "explanation": "誰的觀點要分開。閱讀題不能把引語自動變成作者立場。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-003",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "「他不是不滿意，只是不再期待。」這句的意思是？",
+   "options": [
+    "A. 他沒有明顯抱怨，但期望已經放下。",
+    "B. 他非常滿意。",
+    "C. 他從未有過期待，也沒有任何轉變。",
+    "D. 他正在大聲抗議。"
+   ],
+   "answer": "A",
+   "explanation": "不是不滿意是否定之否定，語氣偏保留；不再期待才是轉變。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-004",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "一段先寫排隊的人，再寫「隊伍裏沒有人說話」。這句的作用較接近？",
+   "options": [
+    "A. 介紹隊伍的人數。",
+    "B. 說明大家在唱歌。",
+    "C. 用沉默襯托場面的緊張或疲乏。",
+    "D. 轉去討論天氣成因。"
+   ],
+   "answer": "C",
+   "explanation": "沒有人說話不是人數，而是氣氛。作用題要寫效果。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-005",
+   "topic": "reading",
+   "difficulty": "hard",
+   "question": "文章說「所謂快捷，不過是把等候搬到手機上」。作者對「快捷」的態度是？",
+   "options": [
+    "A. 懷疑。他認為快捷只是改變了等候的形式。",
+    "B. 完全讚美科技。",
+    "C. 在教人編寫程式。",
+    "D. 沒有態度，只在定義字典。"
+   ],
+   "answer": "A",
+   "explanation": "所謂二字已經帶保留，後句指出等候仍在。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-006",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "問段旨。一段只有三個例子，都是學生在課後留下收拾課室。段旨應是？",
+   "options": [
+    "A. 全校學生都不負責任。",
+    "B. 課室應該拆掉。",
+    "C. 有學生願意在沒有人看見時仍負責收拾。",
+    "D. 作者在回憶自己的童年旅行。"
+   ],
+   "answer": "C",
+   "explanation": "例子服務同一個行為。段旨不要寫成例子本身，也不要擴大到全校。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-007",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "「母親把信折好，放進鐵盒，又拿出來再讀一遍。」這個動作鏈暗示什麼？要選最有文本根據的一項。",
+   "options": [
+    "A. 她不識字。",
+    "B. 鐵盒是學校的財產。",
+    "C. 她準備把信燒掉。",
+    "D. 這封信對她重要，她未能一次讀完就放下。"
+   ],
+   "answer": "D",
+   "explanation": "放進又拿出，表示捨不得停。不識字與再讀矛盾。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-008",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "詞語題：「廣場變得逼仄。」「逼仄」最接近？",
+   "options": [
+    "A. 廣場被油漆成白色。",
+    "B. 空間變得狹窄、使人感到擠迫。",
+    "C. 人變得十分慷慨。",
+    "D. 天氣變得寒冷。"
+   ],
+   "answer": "B",
+   "explanation": "逼仄是空間窄。不要用偏旁猜成顏色或溫度。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-009",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "題目：「作者舉了兩個理由，試各用一句說明。」文章其實有兩個理由和一個重複例子。怎樣寫？",
+   "options": [
+    "A. 把例子當成第三個理由。",
+    "B. 兩個理由合成一句，因為比較省字。",
+    "C. 兩個理由各寫一句，例子只放在其中一個理由後面做支持。",
+    "D. 只寫自己想到的第三個理由。"
+   ],
+   "answer": "C",
+   "explanation": "理由和例子要分開。重複例子不會變成新理由。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-010",
+   "topic": "reading",
+   "difficulty": "hard",
+   "question": "「直到關門，他仍坐在最後一排。」若問人物形象，哪一項過了線？",
+   "options": [
+    "A. 他一定是逃犯，所以不敢坐前面。",
+    "B. 他停留到很晚。",
+    "C. 他選擇不顯眼的位置。",
+    "D. 文章沒有交代他的職業。"
+   ],
+   "answer": "A",
+   "explanation": "最後一排可以支持不顯眼，不能推出逃犯。推論要有文本。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-011",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "修辭：「時間像被誰按住了暫停。」這句主要是？",
+   "options": [
+    "A. 誇張到時間真的停了，所以時鐘壞掉。",
+    "B. 對偶。",
+    "C. 設問，因為句子在問誰。",
+    "D. 比喻，把時間寫成可以按停的東西，表示場面停滯。"
+   ],
+   "answer": "D",
+   "explanation": "像字標示比喻。沒有人真的問問題，也沒有成對句式。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-012",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "結構題：末段只有一句「燈還是暗的。」開頭則寫管理處削去照明。末句的作用是？",
+   "options": [
+    "A. 提出一個新的科學理論。",
+    "B. 呼應開頭，說明問題沒有被解決。",
+    "C. 介紹下一個人物的出生。",
+    "D. 把主題改成烹飪。"
+   ],
+   "answer": "B",
+   "explanation": "首尾同一意象，末句用來收束而不是開新題。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-013",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "「報道指工程延誤。居民說他們不曾收到通知。」若問文章提供了哪些事實，哪項應保留？",
+   "options": [
+    "A. 工程一定已經完工。",
+    "B. 報道聲稱延誤，居民聲稱沒有收到通知。",
+    "C. 居民說謊。",
+    "D. 通知已經張貼在每一層。"
+   ],
+   "answer": "B",
+   "explanation": "兩句都是轉述，還沒有被文章證實。答案要保留消息來源。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-014",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "作者用小孩的問題結束全文：「為什麼燈不亮？」這樣收束的效果是？",
+   "options": [
+    "A. 把成人的管理問題，收成一個無法敷衍的提問。",
+    "B. 證明小孩已經知道所有法律程序。",
+    "C. 表示問題已解決。",
+    "D. 說明作者反對小孩子說話。"
+   ],
+   "answer": "A",
+   "explanation": "問句留下未答的狀態，加強前文的不滿。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-015",
+   "topic": "reading",
+   "difficulty": "hard",
+   "question": "「他笑了一下，笑意沒有留在眼裏。」理解語氣時應注意？",
+   "options": [
+    "A. 他在講一個成功的笑話。",
+    "B. 他的視力有問題。",
+    "C. 表面在笑，內裏並不輕鬆。",
+    "D. 他拒絕所有溝通。"
+   ],
+   "answer": "C",
+   "explanation": "笑意不到眼睛是情緒線索，不要讀成醫學診斷。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-016",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "比較兩段：第一段寫店鋪亮着燈，第二段寫同一條街有三家店已結業。作者可能想說？",
+   "options": [
+    "A. 所有店鋪都在擴充。",
+    "B. 結業的數字是五家。",
+    "C. 作者在賣廣告。",
+    "D. 熱鬧只是表面，街道同時在收縮。"
+   ],
+   "answer": "D",
+   "explanation": "兩段方向相反，合看才見到表面與實際。數字必須是三，不能改。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-017",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "題目要求「找出一個詞說明氣氛緊張」。段落是「走廊很靜，只剩下鐘聲。」哪一個詞最合適？",
+   "options": [
+    "A. 靜。",
+    "B. 走廊。",
+    "C. 剩下。",
+    "D. 一個文章裏沒有的詞：恐怖。"
+   ],
+   "answer": "A",
+   "explanation": "必須用段落中的詞。靜可以支持緊張，恐怖不在文中。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-018",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "「計劃或可一試，但只限於夏季，而且要有人值守。」作者的立場是？",
+   "options": [
+    "A. 無條件支持全年實行。",
+    "B. 完全反對任何試行。",
+    "C. 沒有討論季節。",
+    "D. 有條件地贊成，不是全面推行。"
+   ],
+   "answer": "D",
+   "explanation": "或可表示保留，只限於和而且後面是兩個條件。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-019",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "插圖說明寫「圖二：回收量，2023–2025」。旁邊段落在講節約用水。問圖二內容時應？",
+   "options": [
+    "A. 改答節約用水，因為段落較長。",
+    "B. 只根據圖二的說明，回答回收量。",
+    "C. 把回收和用水合成一個新圖表。",
+    "D. 回答作者的出生年份。"
+   ],
+   "answer": "B",
+   "explanation": "圖表範圍看圖註，不看旁邊段落的主題。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-020",
+   "topic": "reading",
+   "difficulty": "hard",
+   "question": "「誰也沒有先開口。」放在爭論之後，作用是？",
+   "options": [
+    "A. 顯示問題已經圓滿解決。",
+    "B. 顯示他們從一開始就沒有意見。",
+    "C. 顯示雙方仍有情緒，暫時無法恢復對話。",
+    "D. 顯示作者離開了房間。"
+   ],
+   "answer": "C",
+   "explanation": "沒有開口是爭論的後果，不是和解，也不是從來沒有衝突。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-021",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "短文把「負擔」用在額外值班上。哪一項不符合這個語境？",
+   "options": [
+    "A. 額外的工作。",
+    "B. 精神上的壓力。",
+    "C. 他想推掉的職務。",
+    "D. 一項他完全樂意接受、也不構成任何壓力的榮譽。"
+   ],
+   "answer": "D",
+   "explanation": "負擔在這裏是重量和責任。沒有壓力、樂意接受的榮譽與語境相反。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-022",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "改正上一題的正確表述用下面這一題。短文：「負擔」指他想卸下的責任。哪項不符合？",
+   "options": [
+    "A. 一份他樂於接受、不構成壓力的榮譽。",
+    "B. 額外的工作。",
+    "C. 精神壓力。",
+    "D. 他想推掉的職務。"
+   ],
+   "answer": "A",
+   "explanation": "樂於接受而且沒有壓力的榮譽，與負擔的語境相反。其餘三項都符合重量或責任。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-023",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "作者先寫「我支持開放天台」，後寫「除非有人值夜」。後句對前句的作用是？",
+   "options": [
+    "A. 取消主題。",
+    "B. 加上條件，收窄原本的支持。",
+    "C. 證明他從未支持。",
+    "D. 介紹值夜人的傳記。"
+   ],
+   "answer": "B",
+   "explanation": "除非不是推翻主題，而是限制主題。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-024",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "「文章共四段。題目問第三段的作用。」第三段只舉了一個失敗例子，第四段才提出建議。第三段最可能的作用是？",
+   "options": [
+    "A. 代替全文主旨。",
+    "B. 介紹新的城市。",
+    "C. 用失敗說明為什麼需要第四段的建議。",
+    "D. 與前後文無關，可以刪去而不影響建議。"
+   ],
+   "answer": "C",
+   "explanation": "例子段通常為後文的判斷做準備。說它可有可無，要有文本證據，這裏沒有。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-025",
+   "topic": "reading",
+   "difficulty": "hard",
+   "question": "「讀者或會以為問題只在學生。」下一句：「其實值班表從九月起就沒有更新。」作者在做什麼？",
+   "options": [
+    "A. 同意問題只在學生。",
+    "B. 先提出一個可能的誤解，再把原因轉到制度。",
+    "C. 開始寫小說結局。",
+    "D. 解釋九月的日曆來源。"
+   ],
+   "answer": "B",
+   "explanation": "或會以為標示一個要被修正的看法。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-026",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "長題目佔 4 分，要求兩個原因。你寫了四句，但四句都在說「溝通不足」。評分上會怎樣？",
+   "options": [
+    "A. 每句自動 1 分，所以得 4 分。",
+    "B. 句子愈長分數愈高，與要點無關。",
+    "C. 四句一律 0 分，因為太長。",
+    "D. 通常只計算一個原因，因為沒有第二個獨立點。"
+   ],
+   "answer": "D",
+   "explanation": "閱讀長題多按要點給分。同一點的不同說法不會變成四點。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-027",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "「鐵門落下之後，街上只剩貓。」這句的主要效果是？",
+   "options": [
+    "A. 以動物的出現，反襯人的離開和街道的空。",
+    "B. 說明文章主題是寵物飼養。",
+    "C. 證明鐵門壞了。",
+    "D. 表示貓在主持商店。"
+   ],
+   "answer": "A",
+   "explanation": "貓不是新主題，而是空巷的細節。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-028",
+   "topic": "reading",
+   "difficulty": "easy",
+   "question": "若題目問「下列哪項是文章沒有提及的」。你的策略是？",
+   "options": [
+    "A. 選最像主旨的一項。",
+    "B. 選第一個出現原文字的選項。",
+    "C. 先剔除文章明確寫了的三項，剩下的才是答案。",
+    "D. 選你個人認為最重要的原因。"
+   ],
+   "answer": "C",
+   "explanation": "NOT 題是反向定位。正確項往往不在文中，所以不能靠「最重要」來猜。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-029",
+   "topic": "reading",
+   "difficulty": "medium",
+   "question": "一段引用學生說「我們只是想有地方坐」。作者接着寫圖書館座位數目下降。兩句合起來在支持？",
+   "options": [
+    "A. 學生的需求仍在，但空間變少，所以衝突有具體原因。",
+    "B. 學生不需要座位。",
+    "C. 圖書館已經增加座位。",
+    "D. 作者在批評學生貪心，而且文章這樣寫了。"
+   ],
+   "answer": "A",
+   "explanation": "引語加數據，才構成需求與供應的落差。不要把作者沒寫的批評加進去。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-READ-030",
+   "topic": "reading",
+   "difficulty": "hard",
+   "question": "「他終於把鑰匙交出來。」「終於」一詞負荷了什麼？",
+   "options": [
+    "A. 動作很快。",
+    "B. 鑰匙從來沒有被討論。",
+    "C. 事情拖了頗久，交出是一個延遲後的結果。",
+    "D. 他拒絕交出。"
+   ],
+   "answer": "C",
+   "explanation": "終於表示等待之後發生。與拒絕相反。",
+   "tags": [
+    "reading"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 閱讀理解（原創短文）"
+  },
+  {
+   "id": "CHIN-WRIT-001",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "題目：「試以『那扇未關的窗』為題，寫一篇記敘文。」開筆前最重要的判斷是？",
+   "options": [
+    "A. 只要題目有窗，就可以寫成說明書。",
+    "B. 文體是記敘，必須有具體事件和人物，不能改寫成純議論。",
+    "C. 記敘文不需要事件。",
+    "D. 應先寫三段道理，最後才加一個沒有細節的故事。"
+   ],
+   "answer": "B",
+   "explanation": "審題先看文體。記敘靠事件推進，議論不能佔去主體。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-002",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "實用文要求寫給校長，建議延長圖書館開放時間。哪一項必須出現？",
+   "options": [
+    "A. 一首抒情詩。",
+    "B. 對校長的外貌描寫。",
+    "C. 與圖書館無關的旅遊日記。",
+    "D. 身份得體的建議：問題、做法、對學生的好處。"
+   ],
+   "answer": "D",
+   "explanation": "實用文看任務是否完成。建議要有對象、問題和做法。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-003",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "議論題「中學生應否參與社區服務」。你決定寫「應該」。全文要？",
+   "options": [
+    "A. 立場清楚，至少兩個不同理由，並處理一個反對意見。",
+    "B. 兩邊各寫同樣長度，最後不表態。",
+    "C. 只講一個故事，不說明應否。",
+    "D. 把題目改成應否取消考試。"
+   ],
+   "answer": "A",
+   "explanation": "議論要有立場和理由。不表態或改題都未完成任務。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-004",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "記敘文的細節哪一種較有用？",
+   "options": [
+    "A. 「母親是一個很偉大的人。」",
+    "B. 「親情很重要，社會需要愛。」",
+    "C. 「母親把還熱的飯盒推過來，沒有說話。」",
+    "D. 「每個人都有母親。」"
+   ],
+   "answer": "C",
+   "explanation": "動作和物件讓讀者看見場面。空泛判斷沒有畫面。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-005",
+   "topic": "writing",
+   "difficulty": "hard",
+   "question": "寫作中的「立意」是指？",
+   "options": [
+    "A. 你這一篇想讓讀者帶走的中心，而不是素材的堆疊。",
+    "B. 第一段的字數。",
+    "C. 用了多少成語。",
+    "D. 題目共有多少個字。"
+   ],
+   "answer": "A",
+   "explanation": "立意是中心。字數、成語和題目長短都不是立意。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-006",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "一篇文章前三段都在寫下雨，末段才說「因此我們要珍惜朋友」。問題是？",
+   "options": [
+    "A. 下雨一定不能寫。",
+    "B. 朋友不能成為主題。",
+    "C. 前三段沒有為末段的中心做準備，結構鬆脫。",
+    "D. 末段太短，所以應刪去中心。"
+   ],
+   "answer": "C",
+   "explanation": "素材要服務立意。不是題材被禁止，而是沒有過渡。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-007",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "實用文的語氣哪一項適合給校長？",
+   "options": [
+    "A. 「校長你一定要聽我的，不然就錯。」",
+    "B. 「嗨，有空看看啦。」",
+    "C. 「本人憤怒至極，立即答應。」",
+    "D. 「現希望校方考慮於考試週延長開放至八時。」"
+   ],
+   "answer": "D",
+   "explanation": "禮貌而具體。命令、過於隨便和只寫情緒，都不適合上行建議。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-008",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "描寫文最需要避免的是？",
+   "options": [
+    "A. 寫顏色、聲音和觸感。",
+    "B. 只有形容詞，沒有感官層次和觀察次序。",
+    "C. 由遠到近安排畫面。",
+    "D. 讓一個細節重複出現以作呼應。"
+   ],
+   "answer": "B",
+   "explanation": "形容詞堆疊不是描寫。感官和次序才讓畫面站得住。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-009",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "「首尾呼應」做得好的標誌是？",
+   "options": [
+    "A. 結尾把開頭原段再抄一次。",
+    "B. 結尾換一個完全無關的話題。",
+    "C. 結尾回到開頭的物件或句子，但意思推進了一層。",
+    "D. 開頭和結尾都是空泛口號。"
+   ],
+   "answer": "C",
+   "explanation": "呼應不是複製。同一物件要帶着新的理解出現。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-010",
+   "topic": "writing",
+   "difficulty": "hard",
+   "question": "哪一項是有效的段落主題句？",
+   "options": [
+    "A. 社區服務若只為了履歷，學生就很難看見服務對象。",
+    "B. 社區服務是一個名詞。",
+    "C. 我昨天吃了午餐。",
+    "D. 香港有很多大廈。"
+   ],
+   "answer": "A",
+   "explanation": "主題句要有可發展的判斷。名詞解釋、無關日常和空泛背景都帶不起一段。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-011",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "寫人時，哪一種材料最能見性格？",
+   "options": [
+    "A. 他是一個善良的人。",
+    "B. 他今年十五歲。",
+    "C. 他住在某區。",
+    "D. 他在沒有人點名的時候，仍然留下收拾最後一張桌子。"
+   ],
+   "answer": "D",
+   "explanation": "無人監督時的選擇見性格。年齡和地址只是資料，善良是結論不是事件。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-012",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "時間分配：45 分鐘寫一篇。較合理的做法是？",
+   "options": [
+    "A. 用三十分鐘想題目，最後十五分鐘一次寫完。",
+    "B. 用數分鐘定立意和三段大意，然後動筆，預留時間看錯字和離題句。",
+    "C. 先把背誦的文章全寫下，再看題目。",
+    "D. 不留任何檢查時間。"
+   ],
+   "answer": "B",
+   "explanation": "構思要短，而且要服務這一道題。背誦舊文是離題的常見原因。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-013",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "題目提供兩則材料，要求「綜合材料，談談你的看法」。你應該？",
+   "options": [
+    "A. 只選好看的一則，另一則完全不提。",
+    "B. 兩則材料都用到，並說明它們如何支持或限制你的看法。",
+    "C. 把材料抄完，不寫看法。",
+    "D. 批評材料出得不好，然後不答。"
+   ],
+   "answer": "B",
+   "explanation": "綜合題的內容點來自材料。只用一則，等於少了一半根據。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-014",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "哪一種過渡較清楚？",
+   "options": [
+    "A. 「收藏起來的不只是舊票根，還有當時不敢說的話。」",
+    "B. 「下一件事我現在要講。」",
+    "C. 「時間過得很快。」而且下文與時間無關。",
+    "D. 完全沒有句子，直接跳到新人物。"
+   ],
+   "answer": "A",
+   "explanation": "過渡句最好同時收束前一層和打開下一層。宣告式和空話都弱。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-015",
+   "topic": "writing",
+   "difficulty": "hard",
+   "question": "實用文「報告」和「私人書信」最明顯的分別是？",
+   "options": [
+    "A. 兩者都必須押韻。",
+    "B. 報告不能分段。",
+    "C. 報告面向公務讀者，要有事項和建議；私人書信可以有較多個人感受。",
+    "D. 私人書信要寫成法令。"
+   ],
+   "answer": "C",
+   "explanation": "文體決定讀者和內容比例。感受可以出現在書信，報告則以事項為主。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-016",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "修改時最先處理哪一類問題？",
+   "options": [
+    "A. 每一個逗號的形狀。",
+    "B. 把所有詞語換成成語。",
+    "C. 增加與題目無關的名言。",
+    "D. 離題的段落，因為它影響整篇是否扣題。"
+   ],
+   "answer": "D",
+   "explanation": "先保立意和扣題，再處理語言。成語和名言若無關，只會增加離題。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-017",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "「以小見大」是指？",
+   "options": [
+    "A. 用一件小而具體的事，帶出較大的體會，而且兩者要有關聯。",
+    "B. 寫很多件大事，叫做小。",
+    "C. 把字體寫小。",
+    "D. 結尾突然上升到與事件無關的口號。"
+   ],
+   "answer": "A",
+   "explanation": "小是具體事件，大是由它自然推出的體會。無關口號不是以小見大。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-018",
+   "topic": "writing",
+   "difficulty": "easy",
+   "question": "對話在記敘中的好用法是？",
+   "options": [
+    "A. 每一句話都加上「他說」「她說」以外沒有別的資訊。",
+    "B. 對話佔全文但與事件無關。",
+    "C. 用對話代替所有描寫，而且沒有說話人。",
+    "D. 用少量對話顯示人物關係，而不是整篇只靠對話推進卻沒有動作。"
+   ],
+   "answer": "D",
+   "explanation": "對話要暴露關係或推動事件。沒有動作和說話人，讀者會迷失。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-019",
+   "topic": "writing",
+   "difficulty": "medium",
+   "question": "哪一項開頭較能引入「未關的窗」而不空泛？",
+   "options": [
+    "A. 窗是建築物的一部分。",
+    "B. 風一次次把窗頁推開，母親卻沒有像往常那樣把它扣上。",
+    "C. 人生就像一扇窗。",
+    "D. 我今天要寫一篇作文。"
+   ],
+   "answer": "B",
+   "explanation": "具體動作先出場，題目的物件就有故事。定義和宣告會慢。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-WRIT-020",
+   "topic": "writing",
+   "difficulty": "hard",
+   "question": "結尾最忌哪一種？",
+   "options": [
+    "A. 回到開頭的窗，並寫出人物的一個決定。",
+    "B. 用一個安靜的動作收束。",
+    "C. 加入前文從未出現的大道理，而且不用事件承接。",
+    "D. 讓讀者知道事件的結果。"
+   ],
+   "answer": "C",
+   "explanation": "新道理若沒有前文基礎，結尾會像另一篇文章。",
+   "tags": [
+    "writing"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 寫作能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-001",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "個人短講只有很短時間。哪一種結構最穩？",
+   "options": [
+    "A. 把題目讀三遍。",
+    "B. 一個立場、一個理由、一個具體例子，然後一句收束。",
+    "C. 先道歉，再說自己沒有準備。",
+    "D. 列十個理由，每個都只說半句。"
+   ],
+   "answer": "B",
+   "explanation": "短講要完整。理由太多而沒有例子，聽的人抓不到重點。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-002",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "小組討論裏，你已經一分鐘沒有說話。較好的做法是？",
+   "options": [
+    "A. 繼續沉默，把時間留給聲音較大的人。",
+    "B. 把預先背好的另一個題目講完。",
+    "C. 要求老師更換題目。",
+    "D. 用一句接住別人的觀點，再加上一個新的考慮。"
+   ],
+   "answer": "D",
+   "explanation": "說話能力看參與。沉默和離題背誦都不能代替回應。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-003",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "不同意組員時，哪一句較適合？",
+   "options": [
+    "A. 「你提到費用，我同意要計算；我擔心的是沒有人負責安全。」",
+    "B. 「你這樣說不對，不要再說。」",
+    "C. 「我沒有聽，但我有更好的想法。」",
+    "D. 保持沉默，然後自己總結另一個結論。"
+   ],
+   "answer": "A",
+   "explanation": "先接住對方的點，再交出自己的考慮。指責和假裝沒聽都會使討論停下來。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-004",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "短講的例子怎樣才算具體？",
+   "options": [
+    "A. 「大家都知道這很重要。」",
+    "B. 「例如很多事情。」",
+    "C. 「上學期我們班在雨天仍把回收箱搬回課室，因為走廊沒有上蓋。」",
+    "D. 「我沒有例子，但道理很正確。」"
+   ],
+   "answer": "C",
+   "explanation": "例子要有時間、人物和動作。空泛的大家都知道不能支持理由。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-005",
+   "topic": "speaking",
+   "difficulty": "hard",
+   "question": "討論快要結束，組裏仍有三個建議。你應該？",
+   "options": [
+    "A. 提議保留一個，並說明為什麼先做它。",
+    "B. 再提出第四個建議。",
+    "C. 用最後半分鐘只道歉。",
+    "D. 宣布沒有結論是最好的結論，然後停住。"
+   ],
+   "answer": "A",
+   "explanation": "收束是推進。新建議來不及討論，道歉也不提供內容。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-006",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "哪一種提問能把安靜的組員帶進來？",
+   "options": [
+    "A. 「你為什麼不說話？」",
+    "B. 一次問三個長問題，不留時間回答。",
+    "C. 「你剛才說場地太小，改到禮堂會不會好一點？」",
+    "D. 替他回答，然後繼續自己的發言。"
+   ],
+   "answer": "C",
+   "explanation": "引用對方已說過的話，再給一個可以回答的問題。質問和代答都不是邀請。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-007",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "個人短講被追問「如果預算不足呢」。你沒有準備這一句。第一句最好是？",
+   "options": [
+    "A. 「這條問題不在我的計劃裏。」",
+    "B. 「請換回原來的題目。」",
+    "C. 沉默直到追問結束。",
+    "D. 「如果預算不足，我會先保留安全指導，其他物資改成借用。」"
+   ],
+   "answer": "D",
+   "explanation": "追問本來就可能在計劃外。直接給一個取捨，比宣布沒有準備好更能繼續。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-008",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "說話時詞語一時想不起來，哪一種策略仍然用中文把意思說完？",
+   "options": [
+    "A. 停下來要求查詞典。",
+    "B. 「就是那種讓人知道電郵是不是假的檢查方法。」",
+    "C. 轉用另一種語言直到時間結束。",
+    "D. 重複同一個字的第一個音。"
+   ],
+   "answer": "B",
+   "explanation": "釋義可以代替一時忘了的術語。離開考試語言或只發半個音，都不能完成表達。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-009",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "哪一項是在總結，而不是在重複？",
+   "options": [
+    "A. 把第一位同學的句子原句再講一次。",
+    "B. 「所以，嗯。」",
+    "C. 「我們都接受日間舉行；還未決定的是收不收費。」",
+    "D. 總結一個沒有人討論過的方案，並說成小組決定。"
+   ],
+   "answer": "C",
+   "explanation": "好的總結分開已同意和未決定。原句重複沒有新資訊，假造決定不誠實。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-010",
+   "topic": "speaking",
+   "difficulty": "hard",
+   "question": "短講最影響聽者理解的習慣是？",
+   "options": [
+    "A. 關鍵句說到一半就變得很輕，句末聽不見。",
+    "B. 先說立場，再說原因。",
+    "C. 用一個例子說明。",
+    "D. 在例子之後停一停。"
+   ],
+   "answer": "A",
+   "explanation": "立場和例子都要聽得見。句末含糊會把理由吃掉。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-011",
+   "topic": "speaking",
+   "difficulty": "medium",
+   "question": "小組裏有人長時間不讓別人說話。較公平的切入是？",
+   "options": [
+    "A. 同時大聲說話直到對方放棄。",
+    "B. 離開座位表示不滿。",
+    "C. 請老師立刻制止，自己不再發言。",
+    "D. 「我想補充一點，關於誰來負責。」"
+   ],
+   "answer": "D",
+   "explanation": "禮貌切入並帶新內容，比壓過對方或退出討論更符合說話評核。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  },
+  {
+   "id": "CHIN-SPEAK-012",
+   "topic": "speaking",
+   "difficulty": "easy",
+   "question": "準備說話題時，哪一種準備最有用？",
+   "options": [
+    "A. 背誦一篇與題目無關的全文。",
+    "B. 準備幾個可以遷移的理由和例子，而不是背一篇固定講稿。",
+    "C. 只準備開場白，沒有任何例子。",
+    "D. 準備批評其他考生。"
+   ],
+   "answer": "B",
+   "explanation": "題目和追問都會變。可遷移的理由比固定講稿更能扣題。",
+   "tags": [
+    "speaking"
+   ],
+   "subject": "chinese",
+   "syllabus_ref": "HKDSE 中國語文 — 說話能力（原創練習）"
+  }
+ ]
+}

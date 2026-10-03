@@ -15,6 +15,7 @@ const FOOTER_COLUMNS = [
     links: [
       { href: "/dse", label: "DSE 學習專區" },
       { href: "/dse/chinese", label: "中文範文閃卡" },
+      { href: "/dse/chinese/learn", label: "中文自學路徑" },
       { href: "/dse/chinese/cat", label: "中文診斷室" },
       { href: "/dse/chinese/error-notebook", label: "錯題本" },
       { href: "/dse/english/learn", label: "English 自學路徑" },
