@@ -135,6 +135,25 @@ function VideoCard({ video }: { video: StudyVideo }) {
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-slate-800">{video.analysis}</p>
           </section>
+
+          {video.selfCheck && video.selfCheck.length > 0 ? (
+            <section className="rounded-xl border border-blue-700/20 bg-blue-700/5 p-4">
+              <h3 className="text-xs font-semibold uppercase tracking-wide text-blue-700">
+                睇完自己查
+              </h3>
+              <ol className="mt-2 space-y-3">
+                {video.selfCheck.map((item) => (
+                  <li key={item.prompt} className="text-sm leading-relaxed text-slate-800">
+                    <p>{item.prompt}</p>
+                    <details className="mt-1">
+                      <summary className="cursor-pointer text-blue-700">對答案</summary>
+                      <p className="mt-1 text-slate-600">{item.answer}</p>
+                    </details>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ) : null}
         </div>
       </div>
     </article>
