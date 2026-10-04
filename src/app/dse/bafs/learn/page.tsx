@@ -3,6 +3,7 @@ import Link from "next/link";
 import BafsUnitMap from "@/components/dse/bafs-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BAFS_UNITS } from "@/lib/dse/bafs-path";
+import statementCards from "@/data/dse/bafs-statement-cards.json";
 import { getDrillBank } from "@/lib/dse/drills";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
@@ -118,6 +119,28 @@ export default function BafsLearnPage() {
       <div className="mt-8">
         <BafsUnitMap />
       </div>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          財務報表同比率卡
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+          {statementCards.cards.length} 張原創計算卡，用來核對毛利、純利、財務狀況表同常用比率。不是考評局試題。
+        </p>
+        <div className="mt-4 space-y-3">
+          {statementCards.cards.map((card) => (
+            <details key={card.id} className="rounded-2xl border border-line bg-white p-5">
+              <summary className="cursor-pointer font-semibold text-ink">
+                {card.title}
+                <span className="ml-2 text-sm font-normal text-ink-faint">{card.focus}</span>
+              </summary>
+              <p className="mt-3 text-sm text-ink">{card.prompt}</p>
+              <p className="mt-2 text-sm leading-relaxed text-ink-muted">{card.answer}</p>
+              <p className="mt-2 text-sm text-amber-900">常見失分：{card.trap}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">

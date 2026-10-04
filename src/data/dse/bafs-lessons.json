@@ -675,5 +675,117 @@
   "practice": "personal-finance-ethics",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "L2.3": {
+  "id": "L2.3",
+  "title": "Worked comparison: sole trader, partnership, private company",
+  "concept": "Choose the form by looking at liability, control, and the ability to raise money. A sole proprietor decides quickly and keeps the profit, but liability is unlimited and the owner’s illness can stop the firm. A general partnership pools skills and capital, yet partners can disagree and each general partner still faces unlimited liability. A private limited company is a separate legal person. Shareholders’ liability is limited to what they agreed to pay for their shares, and the company can continue when an owner leaves. The cost is more paperwork, and a private company does not offer shares to the public. In an answer, pick two forms, use the same three headings for both, and end with which constraint in the case matters most.",
+  "example": {
+   "scenario": "Two friends will open a café. One has savings and wants no risk beyond that money. The other will work in the shop and has little savings.",
+   "walkthrough": "If both need limited liability, a private company fits better than a general partnership. The working friend can be a shareholder and a director or employee. Profit does not have to be split only by capital: the friends can agree salaries for work and dividends for shares. A sole trader would leave the wealthy friend with unlimited liability if the friend were the only owner, and would leave the working friend with no ownership."
+  },
+  "traps": [
+   "Saying a private company can invite the public to buy its shares.",
+   "Assuming a partnership automatically gives limited liability.",
+   "Comparing the forms with different criteria so the answer never lands."
+  ],
+  "terms": [
+   {
+    "term": "Separate legal entity",
+    "definition": "The company can own assets and owe debts in its own name."
+   },
+   {
+    "term": "Unlimited liability",
+    "definition": "Owners can be required to pay business debts from personal assets."
+   }
+  ],
+  "unit": 2,
+  "practice": "forms-of-business",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L7.3": {
+  "id": "L7.3",
+  "title": "Worked layout: income statement and financial position",
+  "concept": "The income statement answers ‘how did the period go?’ Sales minus cost of goods sold is gross profit. Operating expenses then lead toward net profit. The statement of financial position answers ‘what is the position on the last day?’ Assets equal liabilities plus capital. Closing inventory is easy to put in the wrong place: it is deducted when you compute cost of goods sold, and it is also a current asset. Drawings are not an expense. They reduce capital. A credit sale increases revenue and trade receivables; it does not increase cash yet. When you prepare both statements, start from the trial balance, mark each item as income-statement or position, and let profit flow into capital.",
+  "example": {
+   "scenario": "Sales $90,000, opening inventory $8,000, purchases $50,000, closing inventory $10,000, rent $12,000. There are no other expenses.",
+   "walkthrough": "Cost of goods sold = 8,000 + 50,000 − 10,000 = 48,000. Gross profit = 90,000 − 48,000 = 42,000. Net profit = 42,000 − 12,000 = 30,000. Closing inventory of $10,000 remains a current asset. If you expense the whole $10,000 as well as deducting it, you have counted it twice."
+  },
+  "traps": [
+   "Putting closing inventory only in one statement and forgetting the other.",
+   "Treating drawings as an operating expense.",
+   "Calling the income statement a list at a single date."
+  ],
+  "terms": [
+   {
+    "term": "Cost of goods sold",
+    "definition": "Opening inventory plus purchases minus closing inventory."
+   },
+   {
+    "term": "Capital",
+    "definition": "The owner’s residual interest. Profit increases it and drawings decrease it."
+   }
+  ],
+  "unit": 7,
+  "practice": "financial-statements",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.4": {
+  "id": "L8.4",
+  "title": "Worked ratios: margin, liquidity, and gearing",
+  "concept": "A ratio without a comparison is incomplete. State the formula, compute it, then say what it means against last year or a similar firm. Gross profit margin is gross profit over sales. If it falls while sales rise, the firm may be discounting or paying more for goods. Current ratio is current assets over current liabilities. Quick ratio removes inventory because stock is not cash. A current ratio can look safe while the quick ratio is weak if too much of the current assets is unsold goods. Gearing is long-term debt relative to capital employed. Higher gearing means more fixed interest. It can raise returns when trading is good and hurt them when trading is weak. Do not call a higher ratio ‘better’ until you name which ratio.",
+  "example": {
+   "scenario": "Sales $200,000, gross profit $80,000, current assets $60,000 including inventory $30,000, current liabilities $30,000.",
+   "walkthrough": "Gross profit margin = 80,000 / 200,000 = 40%. Current ratio = 60,000 / 30,000 = 2. Quick ratio = (60,000 − 30,000) / 30,000 = 1. Liquidity looks acceptable on both measures. If inventory had been $54,000, the current ratio would still be 2 but the quick ratio would be 0.2, which is a different story."
+  },
+  "traps": [
+   "Saying every higher ratio is an improvement.",
+   "Leaving inventory inside the quick ratio.",
+   "Comparing a margin with a current ratio as if they measured the same thing."
+  ],
+  "terms": [
+   {
+    "term": "Quick ratio",
+    "definition": "(Current assets − inventory) ÷ current liabilities."
+   },
+   {
+    "term": "Gearing",
+    "definition": "The extent to which long-term finance comes from debt rather than equity."
+   }
+  ],
+  "unit": 8,
+  "practice": "financial-ratios",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L9.3": {
+  "id": "L9.3",
+  "title": "Worked case: a personal budget and a conflict of interest",
+  "concept": "Personal finance in BAFS uses the same habits as accounting: write the flows down and separate what is yours to spend from what is already committed. A budget lists expected income and expected spending before the month starts. MPF contributions and rent are committed. What remains is the room for saving or discretionary spending. An ethics question often sits beside the numbers. If an employee chooses a supplier run by a relative and hides that fact, there is a conflict of interest even when the price looks fair. The remedy is disclosure and, often, stepping aside from the decision. Legal permission is not the whole test.",
+  "example": {
+   "scenario": "Monthly take-home pay is $18,000. Rent is $8,000, transport $1,500, food $4,000, and the person wants to save $2,000. A cousin asks them to approve the cousin’s firm as a supplier at work.",
+   "walkthrough": "Committed and planned spending plus saving = 8,000 + 1,500 + 4,000 + 2,000 = 15,500, so $2,500 remains as a buffer. The budget works only if those figures hold. At work, the cousin’s firm is a private interest. The employee should tell the manager and should not be the person who awards the contract."
+  },
+  "traps": [
+   "Treating savings as whatever is left with no plan.",
+   "Approving a relative’s contract because the employee did not receive cash.",
+   "Calling a budget a guarantee of investment profit."
+  ],
+  "terms": [
+   {
+    "term": "Budget",
+    "definition": "A plan that sets expected income against expected spending."
+   },
+   {
+    "term": "Conflict of interest",
+    "definition": "A private interest that could bias a decision made for someone else."
+   }
+  ],
+  "unit": 9,
+  "practice": "personal-finance-ethics",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }
