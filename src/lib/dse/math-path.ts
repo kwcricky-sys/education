@@ -50,7 +50,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "數與估算",
     topicKey: "numbers-estimation",
     prerequisites: [],
-    lessonIds: ["L1.1", "L1.2", "L1.3"],
+    lessonIds: ["L1.1", "L1.2", "L1.3", "L1.4"],
     passThreshold: 7,
   },
   {
@@ -59,7 +59,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "代數",
     topicKey: "algebra",
     prerequisites: [1],
-    lessonIds: ["L2.1", "L2.2", "L2.3"],
+    lessonIds: ["L2.1", "L2.2", "L2.3", "L2.4"],
     passThreshold: 7,
   },
   {
@@ -77,7 +77,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "指數、對數與數列",
     topicKey: "exp-log-sequences",
     prerequisites: [2],
-    lessonIds: ["L4.1", "L4.2", "L4.3"],
+    lessonIds: ["L4.1", "L4.2", "L4.3", "L4.4"],
     passThreshold: 7,
   },
   {
@@ -86,7 +86,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "不等式與線性規劃",
     topicKey: "inequalities-lp",
     prerequisites: [2, 3],
-    lessonIds: ["L5.1", "L5.2"],
+    lessonIds: ["L5.1", "L5.2", "L5.3"],
     passThreshold: 7,
   },
   {
@@ -95,7 +95,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "坐標幾何",
     topicKey: "coordinate-geometry",
     prerequisites: [2],
-    lessonIds: ["L6.1", "L6.2", "L6.3"],
+    lessonIds: ["L6.1", "L6.2", "L6.3", "L6.4"],
     passThreshold: 7,
   },
   {
@@ -113,7 +113,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "統計",
     topicKey: "statistics",
     prerequisites: [],
-    lessonIds: ["L8.1", "L8.2", "L8.3"],
+    lessonIds: ["L8.1", "L8.2", "L8.3", "L8.4"],
     passThreshold: 7,
   },
   {

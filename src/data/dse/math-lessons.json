@@ -926,5 +926,173 @@
   "practice": "exam-skills",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "L1.4": {
+  "id": "L1.4",
+  "title": "Worked example: absolute error and a two-year percentage",
+  "concept": "Two compulsory-part moves are worth separating. For a measurement correct to a given place, the absolute error is half of that place. A length of 2.5 m to the nearest 0.1 m can be as low as 2.45 m or as high as 2.55 m, so the absolute error is 0.05 m. For repeated percentage change, multiply by the growth factor once per year. Do not add the percentages. An 5% rise for two years is a factor of 1.05², which is 1.1025, not 1.10. On a calculator, write the factor before you multiply the principal, and check that one year of growth is smaller than two years.",
+  "example": {
+   "scenario": "$8000 increases by 5% per year for 2 years. A measurement used in the same question is 2.5 m, correct to the nearest 0.1 m.",
+   "walkthrough": "Amount = 8000 × 1.05² = 8000 × 1.1025 = 8820. The absolute error of the length is 0.05 m. If you add 10% you get 8800, which misses the interest on the first year’s interest. If you take the absolute error as 0.1 m, you have used the whole place value instead of half of it."
+  },
+  "traps": [
+   "Adding the percentage twice instead of compounding.",
+   "Using the place value itself as the absolute error.",
+   "Forgetting that the upper bound is the reading plus the absolute error."
+  ],
+  "terms": [
+   {
+    "term": "Absolute error",
+    "definition": "Half of the smallest unit the measurement was given to."
+   },
+   {
+    "term": "Growth factor",
+    "definition": "1 plus the percentage as a decimal. Apply it once for each period."
+   }
+  ],
+  "unit": 1,
+  "practice": "numbers-estimation",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L2.4": {
+  "id": "L2.4",
+  "title": "Worked example: simultaneous equations and a discriminant",
+  "concept": "For two linear equations, add or subtract to remove one variable, then substitute back. Always check both original equations, because a slip in the second substitution still looks neat. For a quadratic ax² + bx + c = 0, the discriminant b² − 4ac tells you the number of real roots before you try the formula. Negative means no real root, zero means one repeated root, and positive means two real roots. An identity is different again: it is true for every x, so you expand and match coefficients instead of solving for one x.",
+  "example": {
+   "scenario": "Solve 2x + y = 7 and x − y = 2. Separately, decide how many real roots x² − 4x + 5 = 0 has.",
+   "walkthrough": "Add the linear equations: 3x = 9, so x = 3. Then 3 − y = 2, so y = 1. Check the first equation: 6 + 1 = 7. For the quadratic, discriminant = (−4)² − 4(1)(5) = 16 − 20 = −4, so there is no real root. Do not invent a root by taking a square root of a negative number in the real numbers used in the compulsory part."
+  },
+  "traps": [
+   "Solving only one equation and not checking the other.",
+   "Using b² + 4ac as the discriminant.",
+   "Treating an identity as an equation with a single solution."
+  ],
+  "terms": [
+   {
+    "term": "Discriminant",
+    "definition": "b² − 4ac. Its sign counts the real roots of a quadratic."
+   },
+   {
+    "term": "Substitution check",
+    "definition": "Put the pair (x, y) back into both original equations."
+   }
+  ],
+  "unit": 2,
+  "practice": "algebra",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L4.4": {
+  "id": "L4.4",
+  "title": "Worked example: a log sum and a geometric series",
+  "concept": "A log of a power of the same base is the exponent: log₂ 8 = 3 because 2³ = 8. Adding logs of the same base is not the same as adding the arguments. log₂ 8 + log₂ 4 = 3 + 2 = 5, which is also log₂ 32. For a geometric series, write the first term a and the common ratio r before you choose a formula. The sum of n terms, when r is not 1, is a(rⁿ − 1)/(r − 1). Count the terms you are adding. The nth term of an arithmetic sequence uses (n − 1) steps, not n steps.",
+  "example": {
+   "scenario": "Find log₂ 8 + log₂ 4, and the sum of the first 4 terms of 3, 6, 12, ….",
+   "walkthrough": "log₂ 8 = 3 and log₂ 4 = 2, so the sum is 5. The geometric sequence has a = 3 and r = 2. S₄ = 3(16 − 1)/(2 − 1) = 45. The four terms 3 + 6 + 12 + 24 also add to 45, which is a useful check when n is small."
+  },
+  "traps": [
+   "Adding the arguments 8 and 4 to get log₂ 12.",
+   "Using n instead of n − 1 in an arithmetic term.",
+   "Using the arithmetic sum formula on a geometric sequence."
+  ],
+  "terms": [
+   {
+    "term": "Common ratio",
+    "definition": "Each term divided by the previous term, constant in a geometric sequence."
+   },
+   {
+    "term": "Logarithm",
+    "definition": "The exponent to which the base must be raised to obtain the argument."
+   }
+  ],
+  "unit": 4,
+  "practice": "exp-log-sequences",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L5.3": {
+  "id": "L5.3",
+  "title": "Worked example: a quadratic inequality and a linear-programming vertex",
+  "concept": "Factor the quadratic and mark the roots on a number line. The product is negative between the roots when the coefficient of x² is positive and the inequality is ‘less than’. Do not include the roots unless the sign is ≤ or ≥. For a linear-programming maximum on a polygonal region, evaluate the objective only at the vertices. An interior point can be feasible and still lose to a corner. Write the constraints as you test each vertex, so an infeasible corner is not scored.",
+  "example": {
+   "scenario": "Solve x² − 5x + 6 < 0. Also maximise x + 2y for x ≥ 0, y ≥ 0 and x + y ≤ 4.",
+   "walkthrough": "(x − 2)(x − 3) < 0 gives 2 < x < 3. The vertices of the region are (0, 0), (4, 0) and (0, 4). The objective x + 2y equals 0, 4 and 8, so the maximum is 8 at (0, 4). The point (2, 2) is allowed but gives only 6, so it is not the answer."
+  },
+  "traps": [
+   "Including the roots in a strict inequality.",
+   "Testing a point inside the region and stopping there.",
+   "Shading the wrong side of x + y = 4."
+  ],
+  "terms": [
+   {
+    "term": "Vertex",
+    "definition": "A corner of the feasible region. Linear objectives on a polygon take their max and min there."
+   },
+   {
+    "term": "Strict inequality",
+    "definition": "A < or > relation. The boundary value is not a solution."
+   }
+  ],
+  "unit": 5,
+  "practice": "inequalities-lp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L6.4": {
+  "id": "L6.4",
+  "title": "Worked example: distance, circle equation, and a perpendicular slope",
+  "concept": "Distance uses Pythagoras: √[(x₂ − x₁)² + (y₂ − y₁)²]. Square the differences before you add, then take one square root. A circle with centre (h, k) and radius r is (x − h)² + (y − k)² = r². If k is negative, y − k becomes y plus a positive number. Perpendicular lines have slopes whose product is −1, so the new slope is the negative reciprocal, not merely the negative. A slope of 2 pairs with −1/2.",
+  "example": {
+   "scenario": "Find the distance from (0, 0) to (3, 4), the equation of the circle with centre (1, −2) and radius 3, and the slope perpendicular to 2.",
+   "walkthrough": "Distance = √(9 + 16) = 5. The circle is (x − 1)² + (y + 2)² = 9. The perpendicular slope is −1/2. Check the signs in the circle: the centre’s y-coordinate is −2, so the bracket is y + 2, and the radius is squared."
+  },
+  "traps": [
+   "Using r instead of r² in the circle equation.",
+   "Writing y − 2 when the centre is (1, −2).",
+   "Taking −2 as the perpendicular slope of 2."
+  ],
+  "terms": [
+   {
+    "term": "Negative reciprocal",
+    "definition": "Flip the fraction and change the sign. The product with the original slope is −1."
+   },
+   {
+    "term": "Centre-radius form",
+    "definition": "(x − h)² + (y − k)² = r²."
+   }
+  ],
+  "unit": 6,
+  "practice": "coordinate-geometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "L8.4": {
+  "id": "L8.4",
+  "title": "Worked example: a shift of the data and an interquartile range",
+  "concept": "If every observation increases by the same constant, the mean increases by that constant and the standard deviation does not change, because the spread is unchanged. The interquartile range uses the middle half of the data, not the full range. For a small ordered list, locate the median first, then the medians of the lower and upper halves. Frequency density, if a histogram is involved, is frequency divided by class width, not the product of those two numbers.",
+  "example": {
+   "scenario": "The data are 2, 4, 6, 8, 10. Find the interquartile range. Then say what happens to the mean and standard deviation if 5 is added to every value.",
+   "walkthrough": "Median = 6, Q1 = 4, Q3 = 8, so IQR = 4. The range would be 8, which is a different measure. Adding 5 raises the mean by 5 and leaves the standard deviation unchanged. The new list 7, 9, 11, 13, 15 still has IQR 4."
+  },
+  "traps": [
+   "Reporting the range when the question asks for the interquartile range.",
+   "Saying the standard deviation also rises by 5.",
+   "Dividing class width by frequency when density was requested."
+  ],
+  "terms": [
+   {
+    "term": "Interquartile range",
+    "definition": "Q3 − Q1, the spread of the middle half of the data."
+   },
+   {
+    "term": "Frequency density",
+    "definition": "Frequency divided by class width, the height used in a histogram with unequal classes."
+   }
+  ],
+  "unit": 8,
+  "practice": "statistics",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }

@@ -3,7 +3,7 @@
   "title": "DSE Mathematics Compulsory Drill Bank",
   "subject": "DSE math",
   "language": "en",
-  "total": 120,
+  "total": 160,
   "version": "1",
   "reviewed": true
  },
@@ -2297,6 +2297,806 @@
    ],
    "subject": "math",
    "syllabus_ref": "Compulsory Part — assessment structure and exam technique"
+  },
+  {
+   "id": "MATH-NUMB-013",
+   "topic": "numbers-estimation",
+   "difficulty": "medium",
+   "question": "A length is measured as 2.5 m, correct to the nearest 0.1 m. What is the absolute error?",
+   "options": [
+    "A. 0.1 m",
+    "B. 0.01 m",
+    "C. 0.05 m",
+    "D. 2.5 m"
+   ],
+   "answer": "C",
+   "explanation": "Half of the smallest division is the absolute error: half of 0.1 m is 0.05 m. The reading 2.5 m is the measured value, not the error.",
+   "tags": [
+    "numbers-estimation",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-NUMB-014",
+   "topic": "numbers-estimation",
+   "difficulty": "medium",
+   "question": "$8000 grows by 5% each year for 2 years. What is the amount?",
+   "options": [
+    "A. $8820",
+    "B. $8800",
+    "C. $8400",
+    "D. $8000 × 1.10"
+   ],
+   "answer": "A",
+   "explanation": "8000 × 1.05² = 8000 × 1.1025 = 8820. Adding 5% twice as 10% ignores compounding. 8400 is only one year.",
+   "tags": [
+    "numbers-estimation",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-NUMB-015",
+   "topic": "numbers-estimation",
+   "difficulty": "hard",
+   "question": "A car travels at 72 km/h for 25 minutes. How far does it go?",
+   "options": [
+    "A. 72 km",
+    "B. 18 km",
+    "C. 300 km",
+    "D. 30 km"
+   ],
+   "answer": "D",
+   "explanation": "25 minutes is 25/60 of an hour. 72 × 25/60 = 30 km. 18 km uses 15 minutes. 300 km treats 25 minutes as 25 hours.",
+   "tags": [
+    "numbers-estimation",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-NUMB-016",
+   "topic": "numbers-estimation",
+   "difficulty": "hard",
+   "question": "Evaluate (6.4 × 10^5) ÷ (1.6 × 10^2).",
+   "options": [
+    "A. 4 × 10^7",
+    "B. 4 × 10^3",
+    "C. 4 × 10^2",
+    "D. 10.24 × 10^3"
+   ],
+   "answer": "B",
+   "explanation": "6.4/1.6 = 4 and 10^5/10^2 = 10^3, so 4 × 10^3. Adding the indices is multiplication. 10.24 multiplies the mantissas instead of dividing.",
+   "tags": [
+    "numbers-estimation",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-ALGE-013",
+   "topic": "algebra",
+   "difficulty": "medium",
+   "question": "Solve 2x + y = 7 and x − y = 2.",
+   "options": [
+    "A. x = 3, y = 4",
+    "B. x = 1, y = 5",
+    "C. x = 3, y = 1",
+    "D. x = 2, y = 3"
+   ],
+   "answer": "C",
+   "explanation": "Adding the equations gives 3x = 9, so x = 3. Then 3 − y = 2, so y = 1. Check: 6 + 1 = 7.",
+   "tags": [
+    "algebra",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-ALGE-014",
+   "topic": "algebra",
+   "difficulty": "medium",
+   "question": "How many real roots does x² − 4x + 5 = 0 have?",
+   "options": [
+    "A. None",
+    "B. Two",
+    "C. One",
+    "D. Four"
+   ],
+   "answer": "A",
+   "explanation": "Discriminant = 16 − 20 = −4 < 0, so there is no real root. A zero discriminant would be one real root.",
+   "tags": [
+    "algebra",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-ALGE-015",
+   "topic": "algebra",
+   "difficulty": "hard",
+   "question": "For the identity (x + 1)(x − 2) = x² + bx + c, what is b?",
+   "options": [
+    "A. −2",
+    "B. 1",
+    "C. 2",
+    "D. −1"
+   ],
+   "answer": "D",
+   "explanation": "x² − 2x + x − 2 = x² − x − 2, so b = −1 and c = −2. The cross terms are +x and −2x.",
+   "tags": [
+    "algebra",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-ALGE-016",
+   "topic": "algebra",
+   "difficulty": "hard",
+   "question": "Make x the subject of y = (3x − 1)/2.",
+   "options": [
+    "A. x = (2y − 1)/3",
+    "B. x = (2y + 1)/3",
+    "C. x = 2y + 1",
+    "D. x = (y + 1)/3"
+   ],
+   "answer": "B",
+   "explanation": "2y = 3x − 1, so 3x = 2y + 1 and x = (2y + 1)/3. Forgetting to move the −1 changes the sign.",
+   "tags": [
+    "algebra",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-FUNC-013",
+   "topic": "functions-graphs",
+   "difficulty": "medium",
+   "question": "What is the vertex of y = (x − 2)² + 3?",
+   "options": [
+    "A. (−2, 3)",
+    "B. (2, −3)",
+    "C. (2, 3)",
+    "D. (3, 2)"
+   ],
+   "answer": "C",
+   "explanation": "y = (x − h)² + k has vertex (h, k). Here h = 2 and k = 3. The minus inside the bracket does not make h negative.",
+   "tags": [
+    "functions-graphs",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-FUNC-014",
+   "topic": "functions-graphs",
+   "difficulty": "medium",
+   "question": "If f(x) = 2x + 1, what is f⁻¹(x)?",
+   "options": [
+    "A. (x − 1)/2",
+    "B. 2x + 1",
+    "C. (x + 1)/2",
+    "D. 1/(2x + 1)"
+   ],
+   "answer": "A",
+   "explanation": "Set y = 2x + 1, swap to x = 2y + 1, then y = (x − 1)/2. The reciprocal is not the inverse of a linear function.",
+   "tags": [
+    "functions-graphs",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-FUNC-015",
+   "topic": "functions-graphs",
+   "difficulty": "hard",
+   "question": "The graph of y = f(x) + 4 is the graph of y = f(x) moved:",
+   "options": [
+    "A. Down by 4 units",
+    "B. Right by 4 units",
+    "C. Left by 4 units",
+    "D. Up by 4 units"
+   ],
+   "answer": "D",
+   "explanation": "Adding 4 to the whole output increases every y-value by 4, a vertical shift up. A horizontal shift would be inside f, as f(x − 4).",
+   "tags": [
+    "functions-graphs",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-FUNC-016",
+   "topic": "functions-graphs",
+   "difficulty": "hard",
+   "question": "Where do y = x² and y = x + 2 meet?",
+   "options": [
+    "A. x = 1 and x = 2",
+    "B. x = −1 and x = 2",
+    "C. x = −2 only",
+    "D. They do not meet"
+   ],
+   "answer": "B",
+   "explanation": "x² = x + 2 gives x² − x − 2 = 0, (x − 2)(x + 1) = 0. Both x-values are intersections.",
+   "tags": [
+    "functions-graphs",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXPL-013",
+   "topic": "exp-log-sequences",
+   "difficulty": "medium",
+   "question": "Evaluate log₂ 8 + log₂ 4.",
+   "options": [
+    "A. 12",
+    "B. 6",
+    "C. 5",
+    "D. 7"
+   ],
+   "answer": "C",
+   "explanation": "log₂ 8 = 3 and log₂ 4 = 2, so the sum is 5. The product of the arguments would be a log of a product, which is not asked.",
+   "tags": [
+    "exp-log-sequences",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXPL-014",
+   "topic": "exp-log-sequences",
+   "difficulty": "medium",
+   "question": "A geometric sequence starts 3, 6, 12, …. What is the sum of the first 4 terms?",
+   "options": [
+    "A. 45",
+    "B. 48",
+    "C. 24",
+    "D. 15"
+   ],
+   "answer": "A",
+   "explanation": "First term 3, ratio 2. S₄ = 3(2⁴ − 1)/(2 − 1) = 3 × 15 = 45. The terms are 3, 6, 12, 24.",
+   "tags": [
+    "exp-log-sequences",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXPL-015",
+   "topic": "exp-log-sequences",
+   "difficulty": "hard",
+   "question": "Solve 2ˣ = 32.",
+   "options": [
+    "A. x = 16",
+    "B. x = 4",
+    "C. x = 6",
+    "D. x = 5"
+   ],
+   "answer": "D",
+   "explanation": "32 = 2⁵, so x = 5. 2 × 16 is not how an exponent works.",
+   "tags": [
+    "exp-log-sequences",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXPL-016",
+   "topic": "exp-log-sequences",
+   "difficulty": "hard",
+   "question": "An arithmetic sequence has first term 4 and common difference 3. What is the 10th term?",
+   "options": [
+    "A. 34",
+    "B. 31",
+    "C. 30",
+    "D. 40"
+   ],
+   "answer": "B",
+   "explanation": "Tₙ = a + (n − 1)d = 4 + 9 × 3 = 31. Using 10 × 3 instead of 9 steps gives 34.",
+   "tags": [
+    "exp-log-sequences",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-INEQ-013",
+   "topic": "inequalities-lp",
+   "difficulty": "medium",
+   "question": "Solve x² − 5x + 6 < 0.",
+   "options": [
+    "A. x < 2 or x > 3",
+    "B. x < 3",
+    "C. 2 < x < 3",
+    "D. 2 ≤ x ≤ 3"
+   ],
+   "answer": "C",
+   "explanation": "(x − 2)(x − 3) < 0 between the roots, so 2 < x < 3. Outside the roots the product is positive. The inequality is strict, so the roots themselves are not included.",
+   "tags": [
+    "inequalities-lp",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-INEQ-014",
+   "topic": "inequalities-lp",
+   "difficulty": "medium",
+   "question": "Maximise x + 2y subject to x ≥ 0, y ≥ 0 and x + y ≤ 4. The maximum is:",
+   "options": [
+    "A. 8 at (0, 4)",
+    "B. 4 at (4, 0)",
+    "C. 4 at (0, 0)",
+    "D. 6 at (2, 2)"
+   ],
+   "answer": "A",
+   "explanation": "The vertices are (0,0), (4,0) and (0,4). The values of x + 2y are 0, 4 and 8. The maximum is 8. (2,2) is feasible but not a vertex and scores only 6.",
+   "tags": [
+    "inequalities-lp",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-INEQ-015",
+   "topic": "inequalities-lp",
+   "difficulty": "hard",
+   "question": "Solve −1 < 2x + 1 ≤ 5.",
+   "options": [
+    "A. −1 ≤ x ≤ 2",
+    "B. −2 < x ≤ 4",
+    "C. x > −1",
+    "D. −1 < x ≤ 2"
+   ],
+   "answer": "D",
+   "explanation": "Subtract 1: −2 < 2x ≤ 4. Divide by 2: −1 < x ≤ 2. The left inequality stays strict.",
+   "tags": [
+    "inequalities-lp",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-INEQ-016",
+   "topic": "inequalities-lp",
+   "difficulty": "hard",
+   "question": "Which point satisfies both x ≥ 1 and y ≤ 2?",
+   "options": [
+    "A. (0, 0)",
+    "B. (1, 2)",
+    "C. (2, 3)",
+    "D. (1, 3)"
+   ],
+   "answer": "B",
+   "explanation": "(1, 2) meets both boundaries. (0,0) fails x ≥ 1. (2,3) and (1,3) fail y ≤ 2.",
+   "tags": [
+    "inequalities-lp",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-GEOM-013",
+   "topic": "coordinate-geometry",
+   "difficulty": "medium",
+   "question": "What is the distance from (0, 0) to (3, 4)?",
+   "options": [
+    "A. 7",
+    "B. 25",
+    "C. 5",
+    "D. √7"
+   ],
+   "answer": "C",
+   "explanation": "√(3² + 4²) = √(9 + 16) = √25 = 5. 7 adds the coordinates. 25 forgets the square root.",
+   "tags": [
+    "coordinate-geometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-GEOM-014",
+   "topic": "coordinate-geometry",
+   "difficulty": "medium",
+   "question": "A circle has centre (1, −2) and radius 3. Its equation is:",
+   "options": [
+    "A. (x − 1)² + (y + 2)² = 9",
+    "B. (x + 1)² + (y − 2)² = 9",
+    "C. (x − 1)² + (y + 2)² = 3",
+    "D. (x − 1)² + (y − 2)² = 9"
+   ],
+   "answer": "A",
+   "explanation": "The centre form is (x − h)² + (y − k)² = r². Here k = −2, so y − (−2) = y + 2, and r² = 9.",
+   "tags": [
+    "coordinate-geometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-GEOM-015",
+   "topic": "coordinate-geometry",
+   "difficulty": "hard",
+   "question": "What is the slope of the line through (1, 2) and (4, 8)?",
+   "options": [
+    "A. 1/2",
+    "B. 6",
+    "C. 3",
+    "D. 2"
+   ],
+   "answer": "D",
+   "explanation": "(8 − 2)/(4 − 1) = 6/3 = 2. The reciprocal 1/2 is a different slope. 6 is the rise before dividing by the run.",
+   "tags": [
+    "coordinate-geometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-GEOM-016",
+   "topic": "coordinate-geometry",
+   "difficulty": "hard",
+   "question": "A line has slope 2. A line perpendicular to it has slope:",
+   "options": [
+    "A. 2",
+    "B. −1/2",
+    "C. 1/2",
+    "D. −2"
+   ],
+   "answer": "B",
+   "explanation": "Perpendicular slopes multiply to −1, so the new slope is −1/2. −2 is the negative of the original slope, not the negative reciprocal.",
+   "tags": [
+    "coordinate-geometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-TRIG-013",
+   "topic": "trigonometry",
+   "difficulty": "medium",
+   "question": "In a right-angled triangle, sin 30° equals:",
+   "options": [
+    "A. √3/2",
+    "B. 1",
+    "C. 1/2",
+    "D. √2/2"
+   ],
+   "answer": "C",
+   "explanation": "sin 30° = 1/2. √3/2 is sin 60° or cos 30°. √2/2 is sin 45°.",
+   "tags": [
+    "trigonometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-TRIG-014",
+   "topic": "trigonometry",
+   "difficulty": "medium",
+   "question": "A right-angled triangle has sides 5, 12 and 13, with the right angle between the sides 5 and 12. What is cos of the angle opposite the side of length 5?",
+   "options": [
+    "A. 12/13",
+    "B. 5/13",
+    "C. 5/12",
+    "D. 13/12"
+   ],
+   "answer": "A",
+   "explanation": "The side opposite that angle is 5, the hypotenuse is 13, and the adjacent side is 12. cos = adjacent/hypotenuse = 12/13. 5/13 is the sine.",
+   "tags": [
+    "trigonometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-TRIG-015",
+   "topic": "trigonometry",
+   "difficulty": "hard",
+   "question": "If sin θ = 0.6 and θ is acute, what is sin²θ + cos²θ?",
+   "options": [
+    "A. 0.6",
+    "B. 0.8",
+    "C. 0.36",
+    "D. 1"
+   ],
+   "answer": "D",
+   "explanation": "The identity sin²θ + cos²θ = 1 holds for every θ. You do not need to compute cos θ, though it would be 0.8 and 0.36 + 0.64 = 1.",
+   "tags": [
+    "trigonometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-TRIG-016",
+   "topic": "trigonometry",
+   "difficulty": "hard",
+   "question": "Two sides of a triangle are 6 and 8, and the included angle is 30°. What is the area?",
+   "options": [
+    "A. 24",
+    "B. 12",
+    "C. 48",
+    "D. 6"
+   ],
+   "answer": "B",
+   "explanation": "Area = (1/2)ab sin C = (1/2) × 6 × 8 × 1/2 = 12. 24 forgets the 1/2 in front. 48 multiplies the sides and the sine without the half.",
+   "tags": [
+    "trigonometry",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-STAT-013",
+   "topic": "statistics",
+   "difficulty": "medium",
+   "question": "Every value in a data set is increased by 5. What happens to the mean and the standard deviation?",
+   "options": [
+    "A. Both increase by 5.",
+    "B. The mean is unchanged and the standard deviation increases by 5.",
+    "C. The mean increases by 5 and the standard deviation is unchanged.",
+    "D. Both are unchanged."
+   ],
+   "answer": "C",
+   "explanation": "Adding a constant shifts the centre, so the mean rises by 5. The gaps between values do not change, so the standard deviation stays the same.",
+   "tags": [
+    "statistics",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-STAT-014",
+   "topic": "statistics",
+   "difficulty": "medium",
+   "question": "A value 2 has weight 1 and a value 4 has weight 3. What is the weighted mean?",
+   "options": [
+    "A. 3.5",
+    "B. 3",
+    "C. 4",
+    "D. 2.5"
+   ],
+   "answer": "A",
+   "explanation": "(1 × 2 + 3 × 4)/(1 + 3) = 14/4 = 3.5. A simple mean of 2 and 4 ignores the heavier weight on 4.",
+   "tags": [
+    "statistics",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-STAT-015",
+   "topic": "statistics",
+   "difficulty": "hard",
+   "question": "For the data 2, 4, 6, 8, 10, what is the interquartile range?",
+   "options": [
+    "A. 6",
+    "B. 8",
+    "C. 2",
+    "D. 4"
+   ],
+   "answer": "D",
+   "explanation": "The median is 6. The lower half 2, 4 gives Q1 = 4, and the upper half 8, 10 gives Q3 = 8. IQR = 8 − 4 = 4. The range 8 is not the interquartile range.",
+   "tags": [
+    "statistics",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-STAT-016",
+   "topic": "statistics",
+   "difficulty": "hard",
+   "question": "A class of width 5 has frequency 20. What is the frequency density?",
+   "options": [
+    "A. 100",
+    "B. 4",
+    "C. 25",
+    "D. 15"
+   ],
+   "answer": "B",
+   "explanation": "Frequency density = frequency / class width = 20/5 = 4. 100 is the product, which is not the density.",
+   "tags": [
+    "statistics",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-PROB-013",
+   "topic": "probability-counting",
+   "difficulty": "medium",
+   "question": "A and B are independent, with P(A) = 0.4 and P(B) = 0.5. What is P(A and B)?",
+   "options": [
+    "A. 0.9",
+    "B. 0.1",
+    "C. 0.2",
+    "D. 0.45"
+   ],
+   "answer": "C",
+   "explanation": "Independence means P(A and B) = P(A)P(B) = 0.2. 0.9 is the sum, which would be the union only if the events were mutually exclusive — and these probabilities cannot both be exclusive and independent in that way because 0.4 × 0.5 is not 0.",
+   "tags": [
+    "probability-counting",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-PROB-014",
+   "topic": "probability-counting",
+   "difficulty": "medium",
+   "question": "How many ways can 2 people be chosen from 5?",
+   "options": [
+    "A. 10",
+    "B. 20",
+    "C. 25",
+    "D. 5"
+   ],
+   "answer": "A",
+   "explanation": "C(5, 2) = 5 × 4 / 2 = 10. 20 is the permutation P(5, 2), which counts order.",
+   "tags": [
+    "probability-counting",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-PROB-015",
+   "topic": "probability-counting",
+   "difficulty": "hard",
+   "question": "A and B are mutually exclusive, P(A) = 0.3 and P(B) = 0.4. What is P(A or B)?",
+   "options": [
+    "A. 0.12",
+    "B. 0.1",
+    "C. 1",
+    "D. 0.7"
+   ],
+   "answer": "D",
+   "explanation": "Mutually exclusive events do not overlap, so the union is the sum 0.7. 0.12 would be the product, which is the intersection for independent events, not this case.",
+   "tags": [
+    "probability-counting",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-PROB-016",
+   "topic": "probability-counting",
+   "difficulty": "hard",
+   "question": "Two fair coins are tossed. What is the probability of exactly one head?",
+   "options": [
+    "A. 1/4",
+    "B. 1/2",
+    "C. 3/4",
+    "D. 1"
+   ],
+   "answer": "B",
+   "explanation": "The outcomes are HH, HT, TH, TT. Exactly one head is HT or TH, so 2/4 = 1/2. 1/4 is the probability of two heads.",
+   "tags": [
+    "probability-counting",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXAM-013",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "Which value satisfies x² − 5x + 6 = 0?",
+   "options": [
+    "A. 1",
+    "B. 4",
+    "C. 2",
+    "D. 0"
+   ],
+   "answer": "C",
+   "explanation": "2² − 10 + 6 = 0, so 2 works. 1 gives 2, 4 gives 2, and 0 gives 6. Substitution is a check, not a full method, but it discards three options here. The other root is 3, which is not listed.",
+   "tags": [
+    "exam-skills",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXAM-014",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A question asks for an area. Which unit can be correct?",
+   "options": [
+    "A. m²",
+    "B. m",
+    "C. m/s",
+    "D. kg"
+   ],
+   "answer": "A",
+   "explanation": "Area is a square unit. Metres are length, m/s is speed, and kilograms are mass. A correct number with the wrong dimension is still wrong.",
+   "tags": [
+    "exam-skills",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXAM-015",
+   "topic": "exam-skills",
+   "difficulty": "hard",
+   "question": "A length is required and the algebra gives x = −4 or x = 3. Which value can be the length?",
+   "options": [
+    "A. −4",
+    "B. Both",
+    "C. Neither, because lengths must be decimals",
+    "D. 3"
+   ],
+   "answer": "D",
+   "explanation": "A length is positive, so reject −4. 3 can be a length. You still check that 3 fits the original equation.",
+   "tags": [
+    "exam-skills",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "MATH-EXAM-016",
+   "topic": "exam-skills",
+   "difficulty": "hard",
+   "question": "You need sin 30°. The calculator shows about −0.988. What is the likely setting?",
+   "options": [
+    "A. Degree mode, and the value is correct",
+    "B. Radian mode, when the question is in degrees",
+    "C. The sine of 30° really is negative",
+    "D. The calculator cannot do trigonometry"
+   ],
+   "answer": "B",
+   "explanation": "sin 30° = 0.5. A result near −0.988 is sin(30 radians). Switch to degree mode before you trust the number. Do not change a positive exact value into a negative one.",
+   "tags": [
+    "exam-skills",
+    "deeper"
+   ],
+   "subject": "math",
+   "syllabus_ref": "HKDSE Mathematics Compulsory Part — original drill, not an HKEAA paper"
   }
  ]
 }
