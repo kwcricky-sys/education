@@ -49,7 +49,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "商業組織形式",
     topicKey: "forms-of-business",
     prerequisites: [1],
-    lessonIds: ["L2.1", "L2.2", "L2.3"],
+    lessonIds: ["L2.1", "L2.2", "L2.3", "bafs-biz-weak-01"],
     passThreshold: 7,
   },
   {
@@ -76,7 +76,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "人力資源管理",
     topicKey: "human-resources",
     prerequisites: [3],
-    lessonIds: ["L5.1", "L5.2", "L5.3"],
+    lessonIds: ["L5.1", "L5.2", "L5.3", "bafs-biz-weak-02"],
     passThreshold: 7,
   },
   {
@@ -94,7 +94,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "財務報表",
     topicKey: "financial-statements",
     prerequisites: [6],
-    lessonIds: ["L7.1", "L7.2", "L7.3"],
+    lessonIds: ["L7.1", "L7.2", "L7.3", "bafs-acc-weak-01"],
     passThreshold: 7,
   },
   {
@@ -103,7 +103,7 @@ export const BAFS_UNITS: Unit[] = [
     titleZh: "財務分析",
     topicKey: "financial-ratios",
     prerequisites: [7],
-    lessonIds: ["L8.1", "L8.2", "L8.3", "L8.4"],
+    lessonIds: ["L8.1", "L8.2", "L8.3", "L8.4", "bafs-acc-weak-02"],
     passThreshold: 7,
   },
   {

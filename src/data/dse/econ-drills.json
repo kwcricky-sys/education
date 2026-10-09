@@ -3,7 +3,7 @@
   "title": "DSE Econ Drill Bank (SAMPLE)",
   "subject": "DSE econ",
   "language": "en",
-  "total": 188,
+  "total": 224,
   "version": "sample",
   "reviewed": true,
   "rejected_count": 7,
@@ -3407,6 +3407,727 @@
    "explanation": "Real GDP can rise while the gain is uneven, and it omits non-market work and many environmental costs. It does measure market production over a period, and a proper deflator removes the pure price change. Those limits are why GDP is not a complete welfare score.",
    "tags": [
     "GDP limitations"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u01-d01",
+   "topic": "demand-and-supply",
+   "difficulty": "easy",
+   "question": "When the price of bubble tea rises and nothing else changes, quantity demanded of bubble tea usually:",
+   "options": [
+    "A. Falls, as a movement along the same demand curve",
+    "B. Rises, because the whole demand curve shifts right",
+    "C. Becomes infinite at the new price",
+    "D. Stays unchanged, because demand only reacts to income"
+   ],
+   "answer": "A",
+   "explanation": "A change in the good's own price moves you along the demand curve; it does not shift the curve. The curve shifts when a non-price determinant changes, such as income, tastes, related-goods prices or expectations.",
+   "tags": [
+    "law of demand",
+    "movement vs shift"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u01-d02",
+   "topic": "demand-and-supply",
+   "difficulty": "easy",
+   "question": "A school gives up using one classroom for evening club practice so it can be used for extra tuition. The opportunity cost of the club practice is best described as:",
+   "options": [
+    "A. The tuition income, or the other benefit, forgone by not renting the room out",
+    "B. The electricity bill for that evening only",
+    "C. The club membership fee paid by students",
+    "D. The teacher's salary for that session only"
+   ],
+   "answer": "A",
+   "explanation": "Opportunity cost is the value of the next-best alternative given up, not just the running costs of the chosen option. Here the room could have earned tuition income, so that is the forgone benefit.",
+   "tags": [
+    "opportunity cost",
+    "scarcity"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u01-d03",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "Rain is forecast for Sunday, so many people buy umbrellas before the price of umbrellas changes. On a demand-and-supply diagram this is:",
+   "options": [
+    "A. A rightward shift of the demand curve",
+    "B. A leftward shift of the supply curve",
+    "C. A movement down the existing demand curve",
+    "D. A leftward movement along the demand curve"
+   ],
+   "answer": "A",
+   "explanation": "Expectations about future weather are a non-price determinant of demand, so the whole curve shifts right. A movement along the curve needs a change in the good's own price.",
+   "tags": [
+    "expectations",
+    "shift of demand"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u01-d04",
+   "topic": "demand-and-supply",
+   "difficulty": "medium",
+   "question": "A new phone model launches and buyers compete for a limited first batch, so the market price rises above the equilibrium price. What is true at that price?",
+   "options": [
+    "A. Quantity supplied exceeds quantity demanded, and unsold stock may push the price back down",
+    "B. Quantity demanded exceeds quantity supplied, so the price will rise further",
+    "C. Quantity demanded equals quantity supplied",
+    "D. Quantity supplied falls to zero because nobody wants to buy"
+   ],
+   "answer": "A",
+   "explanation": "Above the equilibrium price Qs > Qd, which is a surplus. Sellers with unsold stock have an incentive to cut price, pushing the price back towards equilibrium.",
+   "tags": [
+    "surplus",
+    "equilibrium"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u01-d05",
+   "topic": "demand-and-supply",
+   "difficulty": "hard",
+   "question": "Demand for local strawberries rises and the number of sellers also grows. Both curves shift right by similar amounts. Equilibrium quantity will:",
+   "options": [
+    "A. Rise, while the effect on equilibrium price depends on which shift is larger",
+    "B. Fall, because two rightward shifts must always lower price",
+    "C. Stay unchanged, because the shifts cancel out",
+    "D. Rise by exactly the same amount as each shift"
+   ],
+   "answer": "A",
+   "explanation": "Two rightward shifts always raise equilibrium quantity. The price outcome is ambiguous: a larger demand shift raises price, a larger supply shift lowers it, and equal shifts can leave price broadly unchanged.",
+   "tags": [
+    "double shift",
+    "ambiguity"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u01-d06",
+   "topic": "demand-and-supply",
+   "difficulty": "hard",
+   "question": "A student writes: 'Any rise in price means demand increased.' What is the error in this reasoning?",
+   "options": [
+    "A. A higher price can come from a supply fall, which moves quantity demanded down the same curve",
+    "B. Prices never rise when demand is unchanged",
+    "C. Demand can only change because of tastes",
+    "D. A price rise always shifts the supply curve left"
+   ],
+   "answer": "A",
+   "explanation": "Price is where demand and supply meet. A price rise caused by a leftward supply shift is a movement along an unchanged demand curve, so demand did not increase. Only non-price factors shift demand.",
+   "tags": [
+    "misconception",
+    "movement vs shift"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u02-d01",
+   "topic": "elasticity",
+   "difficulty": "easy",
+   "question": "Price elasticity of demand is calculated as percentage change in quantity demanded divided by percentage change in price. If the PED has an absolute value greater than 1, demand is:",
+   "options": [
+    "A. Price elastic",
+    "B. Price inelastic",
+    "C. Unit elastic",
+    "D. Perfectly inelastic"
+   ],
+   "answer": "A",
+   "explanation": "|PED| > 1 means quantity demanded responds proportionally more than price, so demand is elastic. |PED| < 1 is inelastic and |PED| = 1 is unit elastic.",
+   "tags": [
+    "PED",
+    "elasticity definition"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u02-d02",
+   "topic": "elasticity",
+   "difficulty": "easy",
+   "question": "For a normal good, the income elasticity of demand is:",
+   "options": [
+    "A. Positive, because demand rises as consumer income rises",
+    "B. Negative, because demand falls as income rises",
+    "C. Always zero, because income is not a demand factor",
+    "D. Always greater than 1 for every normal good"
+   ],
+   "answer": "A",
+   "explanation": "A normal good is defined by YED > 0. An inferior good has YED < 0, where demand falls as income rises. A luxury has YED > 1.",
+   "tags": [
+    "YED",
+    "normal good"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u02-d03",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "The cross price elasticity of demand between coffee and tea is positive. This tells us that coffee and tea are:",
+   "options": [
+    "A. Substitutes",
+    "B. Complements",
+    "C. Independent goods",
+    "D. Always inferior goods"
+   ],
+   "answer": "A",
+   "explanation": "A positive cross elasticity means the price of one good and demand for the other move in the same direction, which is the substitute relationship. Complements give a negative cross elasticity.",
+   "tags": [
+    "XED",
+    "substitutes"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u02-d04",
+   "topic": "elasticity",
+   "difficulty": "medium",
+   "question": "Along a straight-line demand curve, the absolute value of PED is:",
+   "options": [
+    "A. Higher at higher prices and lower quantities",
+    "B. Constant everywhere along the curve",
+    "C. Higher only at the midpoint of the curve",
+    "D. Higher at the quantity intercept than at the price intercept"
+   ],
+   "answer": "A",
+   "explanation": "On a linear demand curve the slope is constant but elasticity is not: P x Q is constant, so P/Q is larger high up the curve. The midpoint is the unit-elastic point.",
+   "tags": [
+    "PED",
+    "straight-line demand"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u02-d05",
+   "topic": "elasticity",
+   "difficulty": "hard",
+   "question": "A firm cuts its price by 10% and total revenue rises. Over that range demand is:",
+   "options": [
+    "A. Elastic, so the quantity increase outweighs the price cut",
+    "B. Inelastic, so revenue must fall",
+    "C. Perfectly inelastic",
+    "D. Unit elastic at every point"
+   ],
+   "answer": "A",
+   "explanation": "Price down and total revenue up is the revenue test for elastic demand. If revenue fell, the range would be inelastic.",
+   "tags": [
+    "total revenue test",
+    "elasticity application"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u02-d06",
+   "topic": "elasticity",
+   "difficulty": "hard",
+   "question": "The price elasticity of supply of fresh vegetables tends to be low over a single day because:",
+   "options": [
+    "A. Supply cannot expand quickly in such a short time period",
+    "B. Demand for vegetables is always perfectly elastic",
+    "C. A price ceiling forces PES to be zero",
+    "D. Vegetables have no opportunity cost"
+   ],
+   "answer": "A",
+   "explanation": "PES depends heavily on the time period available. In a very short run, land, greenhouse space and crop cycles are fixed, so a small price rise cannot bring much extra supply. Over months, PES is much higher.",
+   "tags": [
+    "PES",
+    "time period"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u03-d01",
+   "topic": "market-intervention",
+   "difficulty": "easy",
+   "question": "For a price ceiling to be binding, it must be set:",
+   "options": [
+    "A. Below the equilibrium price",
+    "B. Above the equilibrium price",
+    "C. Exactly at the equilibrium price",
+    "D. At any price, because a ceiling always binds"
+   ],
+   "answer": "A",
+   "explanation": "A ceiling set above equilibrium is not binding because the market price is already lower. Only a ceiling below equilibrium creates a shortage.",
+   "tags": [
+    "price ceiling",
+    "binding"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u03-d02",
+   "topic": "market-intervention",
+   "difficulty": "easy",
+   "question": "A per-unit tax imposed on sellers of a good typically:",
+   "options": [
+    "A. Raises sellers' costs, shifting supply left or up by the amount of the tax",
+    "B. Shifts the demand curve right by the amount of the tax",
+    "C. Removes the deadweight loss in every case",
+    "D. Leaves the equilibrium price unchanged"
+   ],
+   "answer": "A",
+   "explanation": "A per-unit tax raises the cost of supplying each unit, so supply shifts up by the tax. The wedge between the price buyers pay and sellers receive equals the tax, and some mutually beneficial trades are lost.",
+   "tags": [
+    "tax",
+    "supply shift"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u03-d03",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "Firm X's production creates pollution that third parties pay for. This negative externality means:",
+   "options": [
+    "A. Social cost exceeds private cost, so an unregulated market overproduces",
+    "B. Social cost is below private cost, so the market underproduces",
+    "C. Social cost always equals private benefit",
+    "D. There is no gap between private and social cost"
+   ],
+   "answer": "A",
+   "explanation": "Third parties bear part of the cost, so MSC > MPC and the market equilibrium quantity exceeds the socially efficient level. A per-unit tax equal to the external cost at the efficient quantity can close the gap.",
+   "tags": [
+    "negative externality",
+    "MSC vs MPC"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u03-d04",
+   "topic": "market-intervention",
+   "difficulty": "medium",
+   "question": "A pure public good is characterised by being:",
+   "options": [
+    "A. Non-rival and non-excludable",
+    "B. Rival and excludable, like a pizza",
+    "C. Sold only by private firms to the highest bidder",
+    "D. Free to consume but rival in use"
+   ],
+   "answer": "A",
+   "explanation": "Non-rival means one person's use does not reduce another's; non-excludable means people cannot easily be prevented from using it. Together they create a free-rider problem, which is why public goods are often funded by the government.",
+   "tags": [
+    "public good",
+    "free rider"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u03-d05",
+   "topic": "market-intervention",
+   "difficulty": "hard",
+   "question": "A tax is imposed on a market where demand is inelastic and supply is elastic. The tax burden falls mainly on:",
+   "options": [
+    "A. Buyers, because they are the less responsive side",
+    "B. Sellers only, because the law names them",
+    "C. The government, which collects the revenue",
+    "D. Buyers and sellers in exactly equal shares"
+   ],
+   "answer": "A",
+   "explanation": "Tax incidence depends on relative elasticities, not on who legally pays. The less elastic side has less ability to adjust, so it bears more of the burden.",
+   "tags": [
+    "tax incidence",
+    "elasticity"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u03-d06",
+   "topic": "market-intervention",
+   "difficulty": "hard",
+   "question": "A binding minimum wage set above the equilibrium wage in a competitive labour market tends to:",
+   "options": [
+    "A. Create surplus labour, showing up as unemployment among workers at that wage",
+    "B. Create a labour shortage at the higher wage",
+    "C. Leave the quantity of labour employed unchanged",
+    "D. Raise both the wage and the level of employment"
+   ],
+   "answer": "A",
+   "explanation": "A minimum wage above equilibrium is a floor: Qs of labour > Qd of labour. Employment is determined by the smaller side, so the surplus shows up as unemployment or shorter hours.",
+   "tags": [
+    "minimum wage",
+    "price floor"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u04-d01",
+   "topic": "production-costs",
+   "difficulty": "easy",
+   "question": "In the short run, which statement about factors of production is correct?",
+   "options": [
+    "A. At least one factor is fixed",
+    "B. All factors are variable",
+    "C. All costs are zero",
+    "D. Every factor is owned by the firm"
+   ],
+   "answer": "A",
+   "explanation": "The short run is defined by at least one fixed factor, such as plant size. In the long run all factors are variable, which is why the long-run average cost curve is drawn as an envelope of short-run curves.",
+   "tags": [
+    "short run",
+    "fixed factor"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u04-d02",
+   "topic": "production-costs",
+   "difficulty": "easy",
+   "question": "Economic cost differs from accounting cost because economic cost:",
+   "options": [
+    "A. Also includes the opportunity cost of resources the owner supplies",
+    "B. Only counts cash payments listed on invoices",
+    "C. Only counts depreciation",
+    "D. Excludes the owner's own time"
+   ],
+   "answer": "A",
+   "explanation": "Accounting profit uses explicit costs. Economic cost adds implicit costs such as the owner's forgone salary, so economic profit is normally lower, or zero in a competitive long-run equilibrium.",
+   "tags": [
+    "economic cost",
+    "implicit cost"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u04-d03",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "Average fixed cost is total fixed cost divided by output. As output rises:",
+   "options": [
+    "A. Average fixed cost falls continuously",
+    "B. Average fixed cost first rises then falls",
+    "C. Average fixed cost always equals marginal cost",
+    "D. Average fixed cost is constant"
+   ],
+   "answer": "A",
+   "explanation": "Total fixed cost does not change with output, so spreading it over more units makes AFC fall all the way. It is still falling at very high output, unlike AVC which turns up.",
+   "tags": [
+    "AFC",
+    "cost curves"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u04-d04",
+   "topic": "production-costs",
+   "difficulty": "medium",
+   "question": "The marginal cost curve intersects the AVC and ATC curves:",
+   "options": [
+    "A. At their minimum points",
+    "B. At their maximum points",
+    "C. Only at the vertical intercept",
+    "D. Where AVC and ATC cross each other"
+   ],
+   "answer": "A",
+   "explanation": "When marginal cost is below an average, the average is pulled down; when it is above, the average is pulled up. The average is therefore lowest exactly where the marginal curve cuts it.",
+   "tags": [
+    "MC",
+    "AVC",
+    "ATC"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u04-d05",
+   "topic": "production-costs",
+   "difficulty": "hard",
+   "question": "Economies of scale exist over the range in which:",
+   "options": [
+    "A. Long-run average cost falls as long-run output expands",
+    "B. Long-run average cost rises as soon as output expands",
+    "C. Long-run average cost always equals marginal cost",
+    "D. Short-run total cost becomes variable"
+   ],
+   "answer": "A",
+   "explanation": "Economies of scale come from specialisation, better technology and spreading overheads, so the falling portion of LRAC is the economies-of-scope range. Diseconomies appear later as coordination costs grow.",
+   "tags": [
+    "economies of scale",
+    "LRAC"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u04-d06",
+   "topic": "production-costs",
+   "difficulty": "hard",
+   "question": "Division of labour raises output per worker mainly because:",
+   "options": [
+    "A. Workers specialise, gain practice and spend less time switching between tasks",
+    "B. It removes opportunity cost altogether",
+    "C. It makes demand perfectly elastic",
+    "D. It converts fixed cost into variable cost"
+   ],
+   "answer": "A",
+   "explanation": "Specialisation lowers the time each worker needs per unit and lets capital be matched to the task. It does not abolish opportunity cost, which still applies to the resources reallocated.",
+   "tags": [
+    "division of labour",
+    "productivity"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u05-d01",
+   "topic": "market-structures",
+   "difficulty": "easy",
+   "question": "A firm in perfect competition faces a demand curve that is:",
+   "options": [
+    "A. Horizontal at the market price, because it is a price taker",
+    "B. Vertical at the market quantity",
+    "C. Steeper than a monopolist's demand curve",
+    "D. Downward sloping because the firm can raise its own price"
+   ],
+   "answer": "A",
+   "explanation": "With many firms selling an identical product, each firm can sell any amount at the market price, so its own demand is perfectly elastic and price equals marginal revenue.",
+   "tags": [
+    "perfect competition",
+    "price taker"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u05-d02",
+   "topic": "market-structures",
+   "difficulty": "easy",
+   "question": "A monopolist maximises profit by producing where:",
+   "options": [
+    "A. MR = MC, then charging the price read from its demand curve",
+    "B. P = MC always",
+    "C. MR is always above P",
+    "D. ATC is at its minimum regardless of demand"
+   ],
+   "answer": "A",
+   "explanation": "The same profit rule applies to every firm, but for a firm facing a downward-sloping demand, MR sits below price. After setting MR = MC you must go up to the demand curve to read the price.",
+   "tags": [
+    "monopoly",
+    "MR = MC"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u05-d03",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "Monopolistic competition is characterised by:",
+   "options": [
+    "A. Many firms, differentiated products and free entry in the long run",
+    "B. One firm with entry blocked by patents",
+    "C. Identical products with all firms price takers",
+    "D. High barriers to entry and one dominant seller"
+   ],
+   "answer": "A",
+   "explanation": "It sits between perfect competition and monopoly: many sellers, but product differentiation gives each firm a downward-sloping demand curve. Free entry and exit push long-run profit to normal.",
+   "tags": [
+    "monopolistic competition",
+    "differentiation"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u05-d04",
+   "topic": "market-structures",
+   "difficulty": "medium",
+   "question": "Compared with a firm under perfect competition, a monopoly with the same cost curves usually:",
+   "options": [
+    "A. Produces less and charges a higher price",
+    "B. Produces more at a lower price",
+    "C. Always sets P = MC",
+    "D. Earns the same profit in both structures"
+   ],
+   "answer": "A",
+   "explanation": "Restricting output lets the monopolist raise price above marginal cost, so P > MC. That is a loss of allocative efficiency, though total surplus is also reduced by the deadweight loss.",
+   "tags": [
+    "monopoly",
+    "efficiency"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u05-d05",
+   "topic": "market-structures",
+   "difficulty": "hard",
+   "question": "In long-run equilibrium under perfect competition, firms earn:",
+   "options": [
+    "A. Normal profit, which is zero economic profit",
+    "B. Guaranteed supernormal profit for every firm",
+    "C. Losses equal to total fixed cost only",
+    "D. Zero accounting profit but supernormal economic profit"
+   ],
+   "answer": "A",
+   "explanation": "Free entry and exit move the market until economic profit is zero, so price equals minimum average total cost. Supernormal profit can persist only when entry is blocked.",
+   "tags": [
+    "long-run equilibrium",
+    "normal profit"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u05-d06",
+   "topic": "market-structures",
+   "difficulty": "hard",
+   "question": "Why does marginal revenue sit below price when a firm faces a downward-sloping demand curve?",
+   "options": [
+    "A. To sell an extra unit the firm must lower the price on every unit it sells",
+    "B. Cost curves force MR to equal zero",
+    "C. A tax wedge always sits on the MR curve",
+    "D. MR always equals average revenue"
+   ],
+   "answer": "A",
+   "explanation": "Lowering the price to gain one more sale also reduces revenue on the units the firm already sells. The loss on those units is why MR falls faster than price along a downward-sloping demand curve.",
+   "tags": [
+    "marginal revenue",
+    "demand curve"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u06-d01",
+   "topic": "gdp",
+   "difficulty": "easy",
+   "question": "Gross domestic product measures:",
+   "options": [
+    "A. The market value of final goods and services produced within a country in a period",
+    "B. The value of all intermediate goods, so double counting is included",
+    "C. Only government spending",
+    "D. The value of goods produced by residents wherever they live"
+   ],
+   "answer": "A",
+   "explanation": "Counting only final goods avoids double counting intermediate inputs. GDP is domestic production, so it differs from GNI when income flows between residents and non-residents.",
+   "tags": [
+    "GDP",
+    "final goods"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u06-d02",
+   "topic": "gdp",
+   "difficulty": "easy",
+   "question": "Real GDP differs from nominal GDP mainly because real GDP:",
+   "options": [
+    "A. Values output at constant base-year prices",
+    "B. Counts only exports",
+    "C. Excludes all services",
+    "D. Measures only output per head"
+   ],
+   "answer": "A",
+   "explanation": "Nominal GDP uses current prices, so it can rise just because prices rose. Holding prices at a base year separates the volume story from the price story; services are included in both.",
+   "tags": [
+    "real GDP",
+    "deflator"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u06-d03",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "Aggregate demand is C + I + G + (X - M). If imports rise while the other components are unchanged:",
+   "options": [
+    "A. Net exports and aggregate demand fall",
+    "B. Aggregate demand rises by the same amount as imports",
+    "C. Aggregate demand is unchanged because imports are domestic spending",
+    "D. Government spending must rise to offset it"
+   ],
+   "answer": "A",
+   "explanation": "Imports are a leakage: they are spending on foreign output, so they are subtracted from domestic aggregate demand. The M in the identity is why C + I + G + X - M is not simply domestic spending.",
+   "tags": [
+    "aggregate demand",
+    "net exports"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u06-d04",
+   "topic": "gdp",
+   "difficulty": "medium",
+   "question": "Demand-pull inflation is shown in an AD-SRAS diagram as:",
+   "options": [
+    "A. The AD curve shifting right, raising price level and output along SRAS",
+    "B. The SRAS curve shifting left only",
+    "C. A movement down the AD curve",
+    "D. The SRAS curve shifting right with AD unchanged"
+   ],
+   "answer": "A",
+   "explanation": "Extra spending bids up both the price level and real output in the short run. That combination of rising prices and rising output is what marks inflation as demand-pull.",
+   "tags": [
+    "demand-pull inflation",
+    "AD-SRAS"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u06-d05",
+   "topic": "gdp",
+   "difficulty": "hard",
+   "question": "An oil price surge raises firms' production costs. In the short run this typically:",
+   "options": [
+    "A. Shifts SRAS left, so the price level rises while output falls",
+    "B. Shifts AD right and raises both price and output",
+    "C. Leaves SRAS unchanged because only nominal costs move",
+    "D. Shifts AD left with no effect on prices"
+   ],
+   "answer": "A",
+   "explanation": "Higher input costs shift short-run aggregate supply left. The result is a cost-push mix of higher prices and lower output, sometimes called stagflation, which monetary policy finds hard to offset.",
+   "tags": [
+    "cost-push",
+    "SRAS"
+   ],
+   "subject": "econ",
+   "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "econ-u06-d06",
+   "topic": "gdp",
+   "difficulty": "hard",
+   "question": "GDP leaves out unpaid household childcare and much informal activity. What follows for using GDP as a welfare measure?",
+   "options": [
+    "A. It understates some welfare-creating activity, so GDP is not a complete measure of living standards",
+    "B. It always overstates living standards",
+    "C. It equals GNI by definition",
+    "D. It counts household work twice"
+   ],
+   "answer": "A",
+   "explanation": "Unpaid work has no market price, so it is outside GDP even where it clearly adds value. GDP also omits many environmental costs and ignores how gains are distributed, which is why economists use it alongside other indicators.",
+   "tags": [
+    "GDP limitations",
+    "welfare"
    ],
    "subject": "econ",
    "syllabus_ref": "HKDSE Economics — original drill, not an HKEAA paper"

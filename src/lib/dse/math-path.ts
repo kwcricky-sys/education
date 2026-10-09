@@ -59,7 +59,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "代數",
     topicKey: "algebra",
     prerequisites: [1],
-    lessonIds: ["L2.1", "L2.2", "L2.3"],
+    lessonIds: ["L2.1", "L2.2", "L2.3", "math-u02-worked"],
     passThreshold: 7,
   },
   {
@@ -77,7 +77,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "指數、對數與數列",
     topicKey: "exp-log-sequences",
     prerequisites: [2],
-    lessonIds: ["L4.1", "L4.2", "L4.3"],
+    lessonIds: ["L4.1", "L4.2", "L4.3", "math-u04-worked"],
     passThreshold: 7,
   },
   {
@@ -86,7 +86,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "不等式與線性規劃",
     topicKey: "inequalities-lp",
     prerequisites: [2, 3],
-    lessonIds: ["L5.1", "L5.2"],
+    lessonIds: ["L5.1", "L5.2", "math-u05-worked"],
     passThreshold: 7,
   },
   {
@@ -95,7 +95,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "坐標幾何",
     topicKey: "coordinate-geometry",
     prerequisites: [2],
-    lessonIds: ["L6.1", "L6.2", "L6.3"],
+    lessonIds: ["L6.1", "L6.2", "L6.3", "math-u06-worked"],
     passThreshold: 7,
   },
   {
@@ -104,7 +104,7 @@ export const MATH_UNITS: Unit[] = [
     titleZh: "三角學",
     topicKey: "trigonometry",
     prerequisites: [2],
-    lessonIds: ["L7.1", "L7.2", "L7.3"],
+    lessonIds: ["L7.1", "L7.2", "L7.3", "math-u07-worked"],
     passThreshold: 7,
   },
   {

@@ -787,5 +787,133 @@
   "practice": "personal-finance-ethics",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "bafs-acc-weak-01": {
+  "id": "bafs-acc-weak-01",
+  "title": "Weak point drill: period-end adjustments",
+  "concept": "Four adjustments cause most of the errors. An accrued expense is a cost incurred but not yet paid: debit the expense, credit the payable, and it reduces profit now. A prepayment is cash paid in advance: credit part of it to the expense this period and carry the rest as a current asset. Accrued income is revenue earned but not yet received: debit the receivable, credit the income. Depreciation spreads a non-current asset's cost over its useful life: debit depreciation, credit the accumulated depreciation account. Ask for each one where it appears in the income statement and where it sits on the statement of financial position.",
+  "example": {
+   "scenario": "Insurance of $12,000 was paid on 1 July for twelve months, and a supplier invoice of $5,000 arrived on 28 June but is unpaid at the period end.",
+   "walkthrough": "The insurance covers six months of this period, so $6,000 is the expense and $6,000 stays as a prepayment on the statement of financial position. The $5,000 invoice is an accrued expense: it belongs in this period's cost of sales or expenses with a corresponding payable, so it reduces profit even though no cash has moved."
+  },
+  "traps": [
+   "Charging a whole prepayment to the period in which it was paid.",
+   "Crediting depreciation directly to cash.",
+   "Recording an accrual only when the cash is later paid."
+  ],
+  "terms": [
+   {
+    "term": "Accrued expense",
+    "definition": "A cost incurred in the period but not yet paid, shown as a liability."
+   },
+   {
+    "term": "Prepayment",
+    "definition": "Cash paid in advance, of which the unused part is a current asset."
+   },
+   {
+    "term": "Accumulated depreciation",
+    "definition": "The total depreciation charged on an asset, shown as a deduction from its cost."
+   }
+  ],
+  "unit": 7,
+  "practice": "financial-statements",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "bafs-acc-weak-02": {
+  "id": "bafs-acc-weak-02",
+  "title": "Weak point drill: writing a ratio answer, not just a formula",
+  "concept": "A ratio answer has four parts: state the formula, show the numbers substituted, give the result, and interpret it against a comparison such as last year or a rival. Interpretation should say what the figure suggests and then note a limit: trend rather than a single year, industry context, and one-off items that distort the ratio. Mark schemes reward the interpretation line, so do not stop at the number.",
+  "example": {
+   "scenario": "Sales are $500,000, gross profit $200,000 and current assets $120,000 of which inventory is $40,000, with current liabilities $80,000.",
+   "walkthrough": "Gross profit margin = 200,000 / 500,000 = 40%, and the interpretation is that the firm keeps 40 cents of each sales dollar before operating costs. Quick ratio = (120,000 - 40,000) / 80,000 = 1.0, suggesting current assets excluding stock just cover short-term debts. The limit worth stating is that both figures need a trend or a peer comparison before any conclusion is drawn."
+  },
+  "traps": [
+   "Saying a higher current ratio is always better.",
+   "Confusing mark-up with margin because both use gross profit.",
+   "Ignoring that one-off items can distort a single-year ratio."
+  ],
+  "terms": [
+   {
+    "term": "Interpretation line",
+    "definition": "The sentence that says what the computed ratio suggests for the firm."
+   },
+   {
+    "term": "Comparison",
+    "definition": "The benchmark a ratio needs, such as last year or a similar firm."
+   },
+   {
+    "term": "Limitation",
+    "definition": "The reason a ratio on its own may mislead, for example a single-period figure."
+   }
+  ],
+  "unit": 8,
+  "practice": "financial-ratios",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "bafs-biz-weak-01": {
+  "id": "bafs-biz-weak-01",
+  "title": "Weak point drill: choosing a form of ownership in a case",
+  "concept": "Weigh the options on the same criteria every time: liability, ability to raise capital, control and decision-making, continuity if an owner leaves, and privacy of financial information. A sole proprietorship has unlimited liability and limited capital but full control and simple administration. A partnership shares control and liability between partners and can be disrupted by a partner leaving. A private company has separate legal personality and limited liability, can take on capital more easily, and continues independently of its owners, but faces more regulation and disclosure. Choose the form that fits the growth plan and the risk the owner can carry, and justify it from the case.",
+  "example": {
+   "scenario": "Two graduates plan to run a design studio. One expects turnover of $3 million within three years and wants to bring in a partner with capital.",
+   "walkthrough": "With that turnover and outside capital needed, a sole proprietorship strains on both capital and management capacity. A partnership fits if the founders trust each other, but it exposes both to unlimited liability and to disputes. A private company limits their personal exposure and lets capital be brought in as shares, at the cost of extra administration, so it is the form that matches the growth plan."
+  },
+  "traps": [
+   "Claiming a sole proprietor has limited liability.",
+   "Treating a private company as equivalent to a listed public company.",
+   "Overlooking the risk of unlimited liability when recommending a partnership."
+  ],
+  "terms": [
+   {
+    "term": "Unlimited liability",
+    "definition": "The owner is responsible for business debts with personal assets."
+   },
+   {
+    "term": "Separate legal personality",
+    "definition": "The company owns assets and owes debts in its own name."
+   },
+   {
+    "term": "Continuity",
+    "definition": "Whether the business keeps going when an owner leaves or dies."
+   }
+  ],
+  "unit": 2,
+  "practice": "forms-of-business",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "bafs-biz-weak-02": {
+  "id": "bafs-biz-weak-02",
+  "title": "Weak point drill: pay, benefits and MPF in a Hong Kong workplace",
+  "concept": "Compensation is more than the wage: it includes bonuses, commissions, allowances, benefits and employer MPF contributions, and the employer also pays leave, insurance and any provident-fund or pension costs. Time rate rewards hours, piece rate rewards output and commission rewards results, so the choice should match what the firm wants measured and should avoid rewarding speed at the expense of quality. For employees choosing a provident-fund scheme, the relevant questions are risk tolerance, fees and time horizon. Any specific statutory percentage should be quoted from the latest official scheme information.",
+  "example": {
+   "scenario": "A cafe pays $28 an hour to five staff, plus MPF contributions, a meal allowance and a monthly bonus tied to customer complaints staying below a target.",
+   "walkthrough": "The hourly wage is the base time-rate element. Employer MPF is part of the employer's staff cost, not an optional tip, and the allowance and bonus are additional components, so the total cost per hour is above $28. The complaints-based bonus rewards quality rather than pure volume, which suits service work where speed alone can increase complaints. Staff choosing between provident-fund schemes should compare risk, fees and horizon rather than recent returns."
+  },
+  "traps": [
+   "Treating employer MPF contributions as an optional payment.",
+   "Choosing a fund only on last month's performance.",
+   "Confusing the employer's and the employee's roles and contributions."
+  ],
+  "terms": [
+   {
+    "term": "Time rate",
+    "definition": "Pay calculated on hours worked."
+   },
+   {
+    "term": "Piece rate",
+    "definition": "Pay calculated per unit of output produced."
+   },
+   {
+    "term": "Employer MPF contribution",
+    "definition": "The employer's provident-fund payment, part of staff cost."
+   }
+  ],
+  "unit": 5,
+  "practice": "human-resources",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }

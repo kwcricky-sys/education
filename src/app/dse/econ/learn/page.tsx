@@ -4,6 +4,7 @@ import EconUnitMap from "@/components/dse/econ-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
 import skeletons from "@/data/dse/econ-skeletons.json";
+import { LearnCrossLinks } from "@/components/dse/learn-cross-links";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
   buildBreadcrumbJsonLd,
@@ -129,6 +130,7 @@ export default function EconLearnPage() {
         </h2>
         <p className="mt-2 text-sm leading-relaxed text-ink-muted">
           下面 {skeletons.skeletons.length} 條是原創答題步驟，用來寫圖表題和計算題。不是考評局評卷參考的原文。
+          單元 1–6 各有一課「圖表陷阱」，同上面 {ECON_UNITS.slice(0, 6).reduce((n, u) => n + u.lessonIds.length, 0)} 課一齊讀。
         </p>
         <div className="mt-4 space-y-3">
           {skeletons.skeletons.map((item) => (
@@ -149,6 +151,8 @@ export default function EconLearnPage() {
           ))}
         </div>
       </section>
+
+      <LearnCrossLinks current="/dse/econ/learn" />
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">

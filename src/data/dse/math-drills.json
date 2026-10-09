@@ -3,7 +3,7 @@
   "title": "DSE Mathematics Compulsory Drill Bank",
   "subject": "DSE math",
   "language": "en",
-  "total": 120,
+  "total": 160,
   "version": "1",
   "reviewed": true
  },
@@ -2294,6 +2294,806 @@
    "explanation": "The normal distribution is extended-module probability, not compulsory content. Standard deviation remains the compulsory measure of spread. A compulsory past paper will not require a z-table.",
    "tags": [
     "M1"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — assessment structure and exam technique"
+  },
+  {
+   "id": "math-u01-d01",
+   "topic": "numbers-estimation",
+   "difficulty": "hard",
+   "question": "Simplify (2^3 x 2^-5) / 2^-1.",
+   "options": [
+    "A. 1/2",
+    "B. 1/8",
+    "C. 2",
+    "D. 4"
+   ],
+   "answer": "A",
+   "explanation": "Multiply by adding exponents: 3 + (-5) = -2. Dividing by 2^-1 subtracts -1, giving -2 - (-1) = -1, so the result is 2^-1 = 1/2.",
+   "tags": [
+    "indices",
+    "negative indices"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — numbers, indices, approximation and rate"
+  },
+  {
+   "id": "math-u01-d02",
+   "topic": "numbers-estimation",
+   "difficulty": "medium",
+   "question": "A length is given as 12.4 cm correct to the nearest 0.1 cm. The maximum possible absolute error is:",
+   "options": [
+    "A. 0.05 cm",
+    "B. 0.1 cm",
+    "C. 0.01 cm",
+    "D. 12.45 cm"
+   ],
+   "answer": "A",
+   "explanation": "Rounding to the nearest 0.1 means the true value lies within half of that unit, so the maximum absolute error is 0.05 cm. The true length is between 12.35 and 12.45 cm.",
+   "tags": [
+    "absolute error",
+    "rounding"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — numbers, indices, approximation and rate"
+  },
+  {
+   "id": "math-u01-d03",
+   "topic": "numbers-estimation",
+   "difficulty": "hard",
+   "question": "A price falls by 25% and then rises by 20%. Compared with the original price, the final price is:",
+   "options": [
+    "A. 10% lower",
+    "B. unchanged",
+    "C. 5% higher",
+    "D. 20% lower"
+   ],
+   "answer": "A",
+   "explanation": "Percentage changes compound by multiplying the factors: 0.75 x 1.20 = 0.90. The final price is 90% of the original, so it is 10% lower. Adding and subtracting the percentages would give a wrong answer because the bases differ.",
+   "tags": [
+    "percentage change",
+    "compound"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — numbers, indices, approximation and rate"
+  },
+  {
+   "id": "math-u01-d04",
+   "topic": "numbers-estimation",
+   "difficulty": "medium",
+   "question": "$8000 is invested at 3% per annum with interest compounded annually. After 2 years the amount is:",
+   "options": [
+    "A. 8000 x 1.03^2 dollars",
+    "B. 8000 x 1.06 dollars",
+    "C. $8480",
+    "D. 8000 x 0.97^2 dollars"
+   ],
+   "answer": "A",
+   "explanation": "Compound interest multiplies the growth factor each year, so A = 8000(1.03)^2. Simple interest would give 8000 + 2 x 0.03 x 8000 = 8480, which is not the same as compounding.",
+   "tags": [
+    "compound interest",
+    "growth factor"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — numbers, indices, approximation and rate"
+  },
+  {
+   "id": "math-u02-d01",
+   "topic": "algebra",
+   "difficulty": "hard",
+   "question": "If (x - 2) is a factor of x^3 - 3x^2 + x + k, then the value of k is:",
+   "options": [
+    "A. 2",
+    "B. -2",
+    "C. 0",
+    "D. 1"
+   ],
+   "answer": "A",
+   "explanation": "By the factor theorem, substituting x = 2 must give zero: 8 - 12 + 2 + k = 0, so k = 2. Working with any other value of x would not use the factor theorem.",
+   "tags": [
+    "factor theorem",
+    "polynomials"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — polynomials, quadratic equations and formulas"
+  },
+  {
+   "id": "math-u02-d02",
+   "topic": "algebra",
+   "difficulty": "easy",
+   "question": "For the quadratic equation ax^2 + bx + c = 0, the discriminant Delta = 0 means:",
+   "options": [
+    "A. There is one repeated real root",
+    "B. There are two distinct real roots",
+    "C. There are no real roots",
+    "D. There is one positive and one negative root"
+   ],
+   "answer": "A",
+   "explanation": "Delta > 0 gives two distinct real roots, Delta = 0 gives one repeated real root, and Delta < 0 gives no real roots.",
+   "tags": [
+    "discriminant",
+    "quadratic"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — polynomials, quadratic equations and formulas"
+  },
+  {
+   "id": "math-u02-d03",
+   "topic": "algebra",
+   "difficulty": "medium",
+   "question": "Given that x + y = 7 and xy = 12, which pair is a possible value of (x, y)?",
+   "options": [
+    "A. (3, 4)",
+    "B. (2, 6) only",
+    "C. (0, 7) only",
+    "D. (1, 12) only"
+   ],
+   "answer": "A",
+   "explanation": "x and y are the roots of t^2 - 7t + 12 = 0, which factors as (t - 3)(t - 4). So x and y are 3 and 4 in either order.",
+   "tags": [
+    "simultaneous equations",
+    "roots"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — polynomials, quadratic equations and formulas"
+  },
+  {
+   "id": "math-u02-d04",
+   "topic": "algebra",
+   "difficulty": "medium",
+   "question": "A student expands (x - 3)^2 and writes x^2 - 9. The term that is missing is:",
+   "options": [
+    "A. -6x",
+    "B. +6x",
+    "C. -3x",
+    "D. +3x"
+   ],
+   "answer": "A",
+   "explanation": "(x - 3)^2 = x^2 - 6x + 9. Only the middle term was dropped, and its sign is negative because it is 2 x (-3).",
+   "tags": [
+    "expansion",
+    "perfect square"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — polynomials, quadratic equations and formulas"
+  },
+  {
+   "id": "math-u03-d01",
+   "topic": "functions-graphs",
+   "difficulty": "medium",
+   "question": "For f(x) = 2x^2 - 3x + 1, the value of f(-1) is:",
+   "options": [
+    "A. 6",
+    "B. 0",
+    "C. 2",
+    "D. -6"
+   ],
+   "answer": "A",
+   "explanation": "Substituting x = -1 gives 2(1) - 3(-1) + 1 = 2 + 3 + 1 = 6. Squaring -1 removes the sign, but the -3x term becomes +3.",
+   "tags": [
+    "function notation",
+    "substitution"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — functions and graphs"
+  },
+  {
+   "id": "math-u03-d02",
+   "topic": "functions-graphs",
+   "difficulty": "easy",
+   "question": "The graph of y = ax^2 + bx + c with a > 0 is:",
+   "options": [
+    "A. A parabola that opens upwards and has a minimum",
+    "B. A parabola that opens downwards and has a maximum",
+    "C. A straight line",
+    "D. A circle"
+   ],
+   "answer": "A",
+   "explanation": "The sign of the leading coefficient decides the direction the parabola opens. With a > 0 the graph has a minimum; with a < 0 it has a maximum.",
+   "tags": [
+    "quadratic graph",
+    "leading coefficient"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — functions and graphs"
+  },
+  {
+   "id": "math-u03-d03",
+   "topic": "functions-graphs",
+   "difficulty": "medium",
+   "question": "Compared with the graph of y = f(x), the graph of y = f(x) + 3 is:",
+   "options": [
+    "A. Translated 3 units upwards",
+    "B. Translated 3 units to the right",
+    "C. Reflected in the x-axis",
+    "D. Reflected in the y-axis"
+   ],
+   "answer": "A",
+   "explanation": "Adding a constant outside the function moves every point vertically by that amount. Adding inside, f(x) + 3x, would instead change the shape.",
+   "tags": [
+    "transformation",
+    "vertical shift"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — functions and graphs"
+  },
+  {
+   "id": "math-u03-d04",
+   "topic": "functions-graphs",
+   "difficulty": "easy",
+   "question": "The real domain of 1/(x - 2) excludes the value:",
+   "options": [
+    "A. x = 2",
+    "B. x = 0",
+    "C. x = 1",
+    "D. x = -2"
+   ],
+   "answer": "A",
+   "explanation": "The denominator cannot be zero, so x = 2 is excluded from the domain. Every other real value is allowed.",
+   "tags": [
+    "domain",
+    "undefined"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — functions and graphs"
+  },
+  {
+   "id": "math-u04-d01",
+   "topic": "exp-log-sequences",
+   "difficulty": "easy",
+   "question": "Solve 2^x = 32 for x.",
+   "options": [
+    "A. 5",
+    "B. 4",
+    "C. 6",
+    "D. 3"
+   ],
+   "answer": "A",
+   "explanation": "Write 32 as a power of 2: 32 = 2^5. Since the bases match, equate the exponents.",
+   "tags": [
+    "exponentials",
+    "equating exponents"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — exponential and logarithmic functions; sequences; variations"
+  },
+  {
+   "id": "math-u04-d02",
+   "topic": "exp-log-sequences",
+   "difficulty": "hard",
+   "question": "In an arithmetic progression with first term a = 4 and common difference d = 3, the sum of the first 20 terms is:",
+   "options": [
+    "A. 650",
+    "B. 620",
+    "C. 1240",
+    "D. 124"
+   ],
+   "answer": "A",
+   "explanation": "Use S_n = n/2 [2a + (n - 1)d] = 20/2 [8 + 19 x 3] = 10 x 65 = 650. The value 620 comes from using (n - 2) instead of (n - 1), and 1240 is the double.",
+   "tags": [
+    "arithmetic progression",
+    "sum formula"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — exponential and logarithmic functions; sequences; variations"
+  },
+  {
+   "id": "math-u04-d03",
+   "topic": "exp-log-sequences",
+   "difficulty": "medium",
+   "question": "y varies inversely as x. Given that y = 6 when x = 4, the value of y when x = 8 is:",
+   "options": [
+    "A. 3",
+    "B. 12",
+    "C. 2",
+    "D. 6"
+   ],
+   "answer": "A",
+   "explanation": "Inverse variation gives xy = k, so k = 4 x 6 = 24. When x = 8, y = 24/8 = 3. Since x doubled, y halved.",
+   "tags": [
+    "inverse variation",
+    "constant of variation"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — exponential and logarithmic functions; sequences; variations"
+  },
+  {
+   "id": "math-u04-d04",
+   "topic": "exp-log-sequences",
+   "difficulty": "easy",
+   "question": "Evaluate log base 10 of 1000.",
+   "options": [
+    "A. 3",
+    "B. 2",
+    "C. 100",
+    "D. 10"
+   ],
+   "answer": "A",
+   "explanation": "By definition log base 10 of N is the exponent to which 10 must be raised to give N. Since 10^3 = 1000, the answer is 3.",
+   "tags": [
+    "logarithms",
+    "definition"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — exponential and logarithmic functions; sequences; variations"
+  },
+  {
+   "id": "math-u05-d01",
+   "topic": "inequalities-lp",
+   "difficulty": "medium",
+   "question": "Solve the inequality 3x - 7 > 2x + 5 for x.",
+   "options": [
+    "A. x > 12",
+    "B. x > 2",
+    "C. x < 12",
+    "D. x < 2"
+   ],
+   "answer": "A",
+   "explanation": "Subtract 2x and add 7 on both sides: x > 12. Because no negative factor was used, the inequality sign is unchanged.",
+   "tags": [
+    "linear inequality",
+    "collecting terms"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — inequalities and linear programming"
+  },
+  {
+   "id": "math-u05-d02",
+   "topic": "inequalities-lp",
+   "difficulty": "easy",
+   "question": "When an inequality is multiplied or divided by a negative number, the inequality sign must be:",
+   "options": [
+    "A. Reversed",
+    "B. Kept the same",
+    "C. Replaced by an equals sign",
+    "D. Removed entirely"
+   ],
+   "answer": "A",
+   "explanation": "Multiplying by a negative number reverses the order of a number line, so the sense of the inequality flips. For example -2x > 6 gives x < -3.",
+   "tags": [
+    "inequality rules",
+    "reversal"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — inequalities and linear programming"
+  },
+  {
+   "id": "math-u05-d03",
+   "topic": "inequalities-lp",
+   "difficulty": "medium",
+   "question": "In a linear programming problem, the optimum value of a linear objective function is found at:",
+   "options": [
+    "A. A vertex of the feasible region",
+    "B. Only the origin",
+    "C. Any interior point of the region",
+    "D. A point outside the feasible region"
+   ],
+   "answer": "A",
+   "explanation": "A linear objective over a polygonal region reaches its maximum and minimum at corner points, so you evaluate the objective at each vertex and compare.",
+   "tags": [
+    "linear programming",
+    "corner principle"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — inequalities and linear programming"
+  },
+  {
+   "id": "math-u05-d04",
+   "topic": "inequalities-lp",
+   "difficulty": "hard",
+   "question": "The inequality (x - 1)(x + 4) >= 0 holds when:",
+   "options": [
+    "A. x <= -4 or x >= 1",
+    "B. -4 <= x <= 1 only",
+    "C. x >= 0 only",
+    "D. x <= 1 only"
+   ],
+   "answer": "A",
+   "explanation": "The roots are x = 1 and x = -4. A sign chart gives a non-negative product outside the two roots, and because the roots are included the boundaries use equality.",
+   "tags": [
+    "quadratic inequality",
+    "sign chart"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — inequalities and linear programming"
+  },
+  {
+   "id": "math-u06-d01",
+   "topic": "coordinate-geometry",
+   "difficulty": "easy",
+   "question": "The slope of the straight line through the points (1, 2) and (4, 8) is:",
+   "options": [
+    "A. 2",
+    "B. 3",
+    "C. 1/2",
+    "D. 6"
+   ],
+   "answer": "A",
+   "explanation": "Slope = change in y divided by change in x = (8 - 2)/(4 - 1) = 6/3 = 2.",
+   "tags": [
+    "slope",
+    "gradient"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — straight lines, circles and locus"
+  },
+  {
+   "id": "math-u06-d02",
+   "topic": "coordinate-geometry",
+   "difficulty": "medium",
+   "question": "The circle with equation (x - 1)^2 + (y + 2)^2 = 9 has centre and radius:",
+   "options": [
+    "A. Centre (1, -2) with radius 3",
+    "B. Centre (-1, 2) with radius 9",
+    "C. Centre (1, 2) with radius 3",
+    "D. Centre (-1, -2) with radius 3"
+   ],
+   "answer": "A",
+   "explanation": "The centre has the opposite signs of the bracket terms, so it is (1, -2). The radius is the square root of 9, which is 3, not 9.",
+   "tags": [
+    "circle",
+    "centre and radius"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — straight lines, circles and locus"
+  },
+  {
+   "id": "math-u06-d03",
+   "topic": "coordinate-geometry",
+   "difficulty": "medium",
+   "question": "Two non-vertical straight lines are perpendicular when:",
+   "options": [
+    "A. The product of their slopes is -1",
+    "B. Their slopes are equal",
+    "C. Their slopes add to 1",
+    "D. Their slopes add to 0"
+   ],
+   "answer": "A",
+   "explanation": "A perpendicular gradient is the negative reciprocal, so m1 x m2 = -1. Two horizontal lines have product 0 and are parallel, not perpendicular.",
+   "tags": [
+    "perpendicular",
+    "gradient"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — straight lines, circles and locus"
+  },
+  {
+   "id": "math-u06-d04",
+   "topic": "coordinate-geometry",
+   "difficulty": "hard",
+   "question": "The locus of points equidistant from two fixed points A and B is:",
+   "options": [
+    "A. The perpendicular bisector of AB",
+    "B. The circle with AB as diameter",
+    "C. The line AB itself",
+    "D. The single point that is the midpoint of AB"
+   ],
+   "answer": "A",
+   "explanation": "Equidistant points form the perpendicular bisector of the segment, not just one point. The circle with AB as diameter is the locus of points where angle APB is a right angle, a different condition.",
+   "tags": [
+    "locus",
+    "perpendicular bisector"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — straight lines, circles and locus"
+  },
+  {
+   "id": "math-u07-d01",
+   "topic": "trigonometry",
+   "difficulty": "easy",
+   "question": "In a right-angled triangle the side opposite the angle theta is 5 and the hypotenuse is 13. Then sin theta is:",
+   "options": [
+    "A. 5/13",
+    "B. 12/13",
+    "C. 5/12",
+    "D. 13/5"
+   ],
+   "answer": "A",
+   "explanation": "Sine is the opposite side over the hypotenuse, so sin theta = 5/13. The 12 would be the adjacent side and the cosine.",
+   "tags": [
+    "sine",
+    "right-angled triangle"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — trigonometry, including 2D and 3D problems"
+  },
+  {
+   "id": "math-u07-d02",
+   "topic": "trigonometry",
+   "difficulty": "medium",
+   "question": "The cosine rule for the side a opposite angle A is:",
+   "options": [
+    "A. a^2 = b^2 + c^2 - 2bc cos A",
+    "B. a^2 = b^2 + c^2 + 2bc cos A",
+    "C. a = b + c",
+    "D. a^2 = b^2 + c^2"
+   ],
+   "answer": "A",
+   "explanation": "For a general triangle, a^2 = b^2 + c^2 - 2bc cos A. The version without the cos A term applies only when A is a right angle.",
+   "tags": [
+    "cosine rule",
+    "triangle"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — trigonometry, including 2D and 3D problems"
+  },
+  {
+   "id": "math-u07-d03",
+   "topic": "trigonometry",
+   "difficulty": "medium",
+   "question": "Two sides of a triangle are b and c and the included angle is A. The area of the triangle is:",
+   "options": [
+    "A. (1/2)bc sin A",
+    "B. bc cos A",
+    "C. (1/2)(b + c)A",
+    "D. (1/2)a^2"
+   ],
+   "answer": "A",
+   "explanation": "The area formula needs two sides and the angle between them: A = 1/2 bc sin A. The other forms mix in quantities that are not needed.",
+   "tags": [
+    "area formula",
+    "included angle"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — trigonometry, including 2D and 3D problems"
+  },
+  {
+   "id": "math-u07-d04",
+   "topic": "trigonometry",
+   "difficulty": "hard",
+   "question": "The angle between a straight line and a plane equals:",
+   "options": [
+    "A. 90 degrees minus the angle between the line and the normal to the plane",
+    "B. The angle between the line and the normal to the plane",
+    "C. Always 45 degrees",
+    "D. The angle between the line and any plane through it"
+   ],
+   "answer": "A",
+   "explanation": "The line-normal angle and the line-plane angle are complementary, so the line-plane angle is 90 degrees minus the line-normal angle.",
+   "tags": [
+    "3D trigonometry",
+    "angle between line and plane"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — trigonometry, including 2D and 3D problems"
+  },
+  {
+   "id": "math-u08-d01",
+   "topic": "statistics",
+   "difficulty": "easy",
+   "question": "The interquartile range of a data set is:",
+   "options": [
+    "A. Q3 - Q1",
+    "B. maximum - minimum",
+    "C. mean - median",
+    "D. Q2 alone"
+   ],
+   "answer": "A",
+   "explanation": "The interquartile range is the spread of the middle half of the data, Q3 minus Q1. The maximum minus minimum is the full range.",
+   "tags": [
+    "interquartile range",
+    "quartiles"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — statistics, dispersion, uses and abuses"
+  },
+  {
+   "id": "math-u08-d02",
+   "topic": "statistics",
+   "difficulty": "medium",
+   "question": "In a histogram with unequal class widths, the frequency of a class is best represented by:",
+   "options": [
+    "A. The area of each bar",
+    "B. The colour of each bar",
+    "C. The outline of each bar only",
+    "D. The midpoint label of each class"
+   ],
+   "answer": "A",
+   "explanation": "Frequency equals area, so with unequal widths the bar height is the frequency density. Reading heights as frequencies would overstate the wider classes.",
+   "tags": [
+    "histogram",
+    "frequency density"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — statistics, dispersion, uses and abuses"
+  },
+  {
+   "id": "math-u08-d03",
+   "topic": "statistics",
+   "difficulty": "medium",
+   "question": "Which of the following is a possible abuse of statistics?",
+   "options": [
+    "A. Truncating the vertical axis so that a small change looks dramatic",
+    "B. Publishing the raw data",
+    "C. Stating the size of the sample",
+    "D. Using the same scale on two comparable charts"
+   ],
+   "answer": "A",
+   "explanation": "Misleading presentation is the classic abuse: a truncated axis exaggerates differences. Transparency about raw data, sample size and consistent scales all improve a report.",
+   "tags": [
+    "uses and abuses",
+    "misleading graph"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — statistics, dispersion, uses and abuses"
+  },
+  {
+   "id": "math-u08-d04",
+   "topic": "statistics",
+   "difficulty": "easy",
+   "question": "The mean of the data set 2, 3, 3, 7 is:",
+   "options": [
+    "A. 3.75",
+    "B. 3",
+    "C. 4",
+    "D. 15"
+   ],
+   "answer": "A",
+   "explanation": "The sum is 2 + 3 + 3 + 7 = 15 and there are 4 values, so the mean is 15/4 = 3.75. The median is 3, which is different from the mean here.",
+   "tags": [
+    "mean",
+    "measures of centre"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — statistics, dispersion, uses and abuses"
+  },
+  {
+   "id": "math-u09-d01",
+   "topic": "probability-counting",
+   "difficulty": "medium",
+   "question": "A fair six-sided die is rolled once. The probability of getting a prime number is:",
+   "options": [
+    "A. 1/2",
+    "B. 1/3",
+    "C. 2/3",
+    "D. 1/6"
+   ],
+   "answer": "A",
+   "explanation": "The primes on a die are 2, 3 and 5, so there are 3 favourable outcomes out of 6, giving 1/2.",
+   "tags": [
+    "probability",
+    "sample space"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — probability, permutations and combinations"
+  },
+  {
+   "id": "math-u09-d02",
+   "topic": "probability-counting",
+   "difficulty": "hard",
+   "question": "Given P(A) = 0.6, P(B) = 0.5 and P(A and B) = 0.2, the value of P(A given B) is:",
+   "options": [
+    "A. 0.4",
+    "B. 0.2",
+    "C. 0.3",
+    "D. 0.5"
+   ],
+   "answer": "A",
+   "explanation": "P(A given B) = P(A and B) / P(B) = 0.2 / 0.5 = 0.4. Note that this is smaller than P(A) = 0.6, because knowing B occurred makes A less likely.",
+   "tags": [
+    "conditional probability",
+    "P(A|B)"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — probability, permutations and combinations"
+  },
+  {
+   "id": "math-u09-d03",
+   "topic": "probability-counting",
+   "difficulty": "medium",
+   "question": "A committee of 3 is chosen from 10 candidates and the order of selection does not matter. The correct counting method is:",
+   "options": [
+    "A. The combination 10C3",
+    "B. The permutation 10P3",
+    "C. 10 x 10 x 10",
+    "D. 10 x 9 x 8"
+   ],
+   "answer": "A",
+   "explanation": "Order does not matter, so combinations are used. The permutation 10P3 would count the same three people in different orders as different outcomes.",
+   "tags": [
+    "permutations",
+    "combinations"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — probability, permutations and combinations"
+  },
+  {
+   "id": "math-u09-d04",
+   "topic": "probability-counting",
+   "difficulty": "hard",
+   "question": "A bag holds 3 red and 2 blue counters. Two are drawn at random without replacement. The probability of two reds is:",
+   "options": [
+    "A. (3/5) x (2/4)",
+    "B. (3/5) x (3/5)",
+    "C. (3/5) x (2/5)",
+    "D. (3/5) x (4/5)"
+   ],
+   "answer": "A",
+   "explanation": "The first draw being red has probability 3/5. After that there are 2 reds in 4 counters, so the second factor is 2/4. Using 3/5 again would wrongly assume the draws are independent.",
+   "tags": [
+    "without replacement",
+    "conditional probability"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — probability, permutations and combinations"
+  },
+  {
+   "id": "math-u10-d01",
+   "topic": "exam-skills",
+   "difficulty": "easy",
+   "question": "This learning path covers the Compulsory Part of Mathematics. Which statement about assessment is correct for that part?",
+   "options": [
+    "A. It is assessed by written papers only, and extended-part topics are not part of this path",
+    "B. It is assessed only by school-based assessment",
+    "C. It includes calculus topics from the extended part",
+    "D. It is assessed by a practical examination"
+   ],
+   "answer": "A",
+   "explanation": "The Compulsory Part is assessed through written papers. Calculus, the normal distribution and matrices belong to the extended modules and are deliberately kept out of this path.",
+   "tags": [
+    "assessment structure",
+    "compulsory part"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — assessment structure and exam technique"
+  },
+  {
+   "id": "math-u10-d02",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A question asks for an answer in exact form. Which response is appropriate?",
+   "options": [
+    "A. Give the exact surd or fraction, unless the question says otherwise",
+    "B. Always round to 2 decimal places",
+    "C. Omit the working and give only a decimal",
+    "D. Round to 3 significant figures whatever is asked"
+   ],
+   "answer": "A",
+   "explanation": "If exact form is requested, giving a surd or fraction is what is wanted. Rounding without being asked can lose marks, and omitting working loses method marks.",
+   "tags": [
+    "exact answers",
+    "presentation"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — assessment structure and exam technique"
+  },
+  {
+   "id": "math-u10-d03",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "Follow-through marking means:",
+   "options": [
+    "A. A clear method can still earn later marks after an early arithmetic slip",
+    "B. Every mark is lost once a mistake is made",
+    "C. Only the final numerical answer is marked",
+    "D. Method marks are not awarded at all"
+   ],
+   "answer": "A",
+   "explanation": "Examiners apply follow-through where a later step is correct given an earlier wrong value, so showing clear working matters even when a number goes wrong.",
+   "tags": [
+    "follow-through",
+    "method marks"
+   ],
+   "subject": "math",
+   "syllabus_ref": "Compulsory Part — assessment structure and exam technique"
+  },
+  {
+   "id": "math-u10-d04",
+   "topic": "exam-skills",
+   "difficulty": "hard",
+   "question": "Which of the following must NOT be treated as compulsory core content in this path?",
+   "options": [
+    "A. Techniques that belong to M1 or M2",
+    "B. Solving a quadratic equation",
+    "C. Using the sine rule",
+    "D. Interpreting a histogram"
+   ],
+   "answer": "A",
+   "explanation": "Solving quadratics, the sine rule and histogram interpretation are all compulsory topics. Differentiation, the normal distribution and matrices belong to the extended modules and are outside this path.",
+   "tags": [
+    "scope",
+    "compulsory part"
    ],
    "subject": "math",
    "syllabus_ref": "Compulsory Part — assessment structure and exam technique"

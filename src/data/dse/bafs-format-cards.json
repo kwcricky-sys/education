@@ -1,0 +1,109 @@
+{
+ "meta": {
+  "title": "BAFS 答題格式卡",
+  "subject": "DSE bafs",
+  "language": "zh-HK",
+  "total": 8,
+  "note": "原創答題格式，不是考評局評卷參考的原文。"
+ },
+ "cards": [
+  {
+   "id": "bafs-fmt-01",
+   "title": "Income statement line order",
+   "focus": "財務報表",
+   "steps": [
+    "Sales（銷貨）",
+    "less cost of sales（減：銷貨成本）",
+    "= gross profit（毛利）",
+    "plus other income / less other operating expenses（其他收入／其他營運開支）",
+    "= net profit from operations（除稅前經營溢利）",
+    "less interest and tax（利息及稅項）",
+    "= net profit（純利）"
+   ],
+   "trap": "Do not bury cost of sales inside administration expenses; the examiner expects the trading section to be visible."
+  },
+  {
+   "id": "bafs-fmt-02",
+   "title": "Statement of financial position layout",
+   "focus": "財務報表",
+   "steps": [
+    "Non-current assets（非流動資產）",
+    "Current assets（流動資產）",
+    "= total assets（資產總額）",
+    "Capital and reserves（資本及儲備）",
+    "Non-current liabilities（非流動負債）",
+    "Current liabilities（流動負債）",
+    "= total equity and liabilities（權益及負債總額）"
+   ],
+   "trap": "The two sides must be equal, so check assets = liabilities + equity before writing it up."
+  },
+  {
+   "id": "bafs-fmt-03",
+   "title": "Gross and net margin",
+   "focus": "比率",
+   "steps": [
+    "State both formulas: GPM = gross profit / sales; NPM = net profit / sales",
+    "Substitute the figures and give each as a percentage to one decimal place",
+    "Interpret each in one sentence against last year or a competitor"
+   ],
+   "trap": "Margin uses sales revenue as the denominator; do not slip a mark-up formula in here."
+  },
+  {
+   "id": "bafs-fmt-04",
+   "title": "Mark-up versus margin",
+   "focus": "比率",
+   "steps": [
+    "Mark-up = gross profit / cost of sales",
+    "Margin = gross profit / sales revenue",
+    "Convert one into the other with: margin = mark-up / (1 + mark-up)"
+   ],
+   "trap": "Same numbers give different percentages because the denominators differ, so always name which one you used."
+  },
+  {
+   "id": "bafs-fmt-05",
+   "title": "Liquidity pair",
+   "focus": "比率",
+   "steps": [
+    "Current ratio = current assets / current liabilities",
+    "Quick ratio = (current assets - inventory) / current liabilities",
+    "Comment on whether short-term debts are covered, and note if a very high ratio suggests idle resources"
+   ],
+   "trap": "A quick ratio below 1 with heavy inventory dependence is a warning sign worth naming."
+  },
+  {
+   "id": "bafs-fmt-06",
+   "title": "Gearing comment",
+   "focus": "比率",
+   "steps": [
+    "Choose the ratio used, for example debt to equity or debt to total assets",
+    "Substitute the year-one and year-two figures",
+    "Comment: higher gearing raises financial risk and also magnifies the return to shareholders",
+    "Refer to interest cover if it is given in the case"
+   ],
+   "trap": "A ratio without a statement about interest cover in the context is usually marked incomplete."
+  },
+  {
+   "id": "bafs-fmt-07",
+   "title": "Double-entry mini stub",
+   "focus": "簿記",
+   "steps": [
+    "Name the transaction and the accounts affected",
+    "Write the debit side, then the credit side, using the increase rules for assets, expenses, liabilities, capital and income",
+    "State the effect on the accounting equation, assets = liabilities + capital"
+   ],
+   "trap": "A trial balance only proves that total debits equal total credits; it does not prove the entries were right."
+  },
+  {
+   "id": "bafs-fmt-08",
+   "title": "MPF or ethics short answer",
+   "focus": "人力資源／道德",
+   "steps": [
+    "State the principle or rule that applies, without inventing a statutory figure",
+    "Apply it to the case in one sentence",
+    "Name one risk the situation creates",
+    "Name one control, such as disclosure, approval or segregation of duties"
+   ],
+   "trap": "Keep the Hong Kong legal wording conservative; cite specific statutory percentages only if the question supplies them."
+  }
+ ]
+}

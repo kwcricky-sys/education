@@ -1725,5 +1725,197 @@
   "practice": "gdp",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "econ-u01-mischart": {
+  "id": "econ-u01-mischart",
+  "title": "Chart trap: movement along a curve versus a shift",
+  "concept": "A change in the good's own price moves you along the curve: quantity demanded or quantity supplied changes, the curve does not move. A change in a non-price determinant moves the whole curve. Demand shifts for income, tastes, related-goods prices, expectations and the number of buyers. Supply shifts for input costs, technology, taxes and subsidies, expectations and the number of sellers. Label both axes P and Q, mark the original Pe and Qe, and use arrows differently: a slide is shown along one curve, a shift is shown as a second curve with an arrow between them.",
+  "example": {
+   "scenario": "The government raises the minimum wage, and a cafe's hourly wage bill rises at the same time as demand for takeaway coffee falls because a new rival opens nearby.",
+   "walkthrough": "The higher wage is an input cost, so it shifts the cafe's supply curve left or up. The rival's effect is a non-price change in demand, so the demand curve shifts left. Neither is a movement along a curve, because neither is a change in the cafe's own price. Mark the new intersection and compare it with the old Pe and Qe."
+  },
+  "traps": [
+   "Calling a slide along the demand curve an increase in demand.",
+   "Shifting supply when only buyers' income changed.",
+   "Forgetting to state ceteris paribus before interpreting a change."
+  ],
+  "terms": [
+   {
+    "term": "Ceteris paribus",
+    "definition": "All other determinants of demand or supply held constant while one is changed."
+   },
+   {
+    "term": "Extension in demand",
+    "definition": "The quantity demanded that rises when price falls; a movement along the demand curve."
+   },
+   {
+    "term": "Increase in demand",
+    "definition": "A rightward shift of the whole demand curve caused by a non-price factor."
+   }
+  ],
+  "unit": 1,
+  "practice": "demand-and-supply",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "econ-u02-mischart": {
+  "id": "econ-u02-mischart",
+  "title": "Chart trap: elasticity on the straight-line demand curve",
+  "concept": "PED is a ratio of percentage changes, not a slope. State the base you use, or use the midpoint method, and keep the signs. On a straight-line demand curve the slope is constant but |PED| falls as you move down the curve, because P x Q is constant while P over Q rises. The revenue test is a quick check: if price falls and total revenue rises, that range is elastic. YED is positive for normal goods and negative for inferior goods; XED is positive for substitutes and negative for complements; PES depends on the time period available.",
+  "example": {
+   "scenario": "A cafe cuts its coffee price by 10% and total revenue for the week rises by 4%.",
+   "walkthrough": "Price down with revenue up means the percentage rise in quantity exceeded the 10% fall in price, so demand is elastic in that range. If asked for the PED value you still need the percentage change in quantity; if asked only to classify, the revenue evidence is enough."
+  },
+  "traps": [
+   "Treating the slope of the demand curve as the PED.",
+   "Dropping the sign story when the question asks about YED or XED.",
+   "Using the PED formula with the percentage changes swapped."
+  ],
+  "terms": [
+   {
+    "term": "Midpoint method",
+    "definition": "A percentage change computed from the average of the old and new values."
+   },
+   {
+    "term": "Total revenue test",
+    "definition": "Price and revenue moving in opposite directions indicates elastic or inelastic demand."
+   },
+   {
+    "term": "Income elasticity",
+    "definition": "The percentage change in quantity demanded divided by the percentage change in income."
+   }
+  ],
+  "unit": 2,
+  "practice": "elasticity",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "econ-u03-mischart": {
+  "id": "econ-u03-mischart",
+  "title": "Chart trap: ceiling, floor, tax wedge and deadweight loss",
+  "concept": "Draw the free-market equilibrium first, then add the intervention. A binding ceiling is a horizontal line below Pe and creates shortage; a binding floor is a horizontal line above Pe and creates surplus. A per-unit tax creates a vertical wedge of width equal to the tax between the price buyers pay and the price sellers keep, and it shrinks the traded quantity. The deadweight loss is the triangle of mutually beneficial trades that no longer happen. Tax incidence follows the elasticities of the two sides, not the name on the statute.",
+  "example": {
+   "scenario": "A city caps the rent of a small flat below the market equilibrium rent and also puts a fixed tax on each property transaction.",
+   "walkthrough": "The cap is binding only if it sits below Pe; it creates shortage and queues, and a black market or lower quality can appear. The transaction tax shifts supply up by the tax and draws a wedge between the buyer's price and the seller's net price. In each case shade the change in consumer and producer surplus and label the lost triangle."
+  },
+  "traps": [
+   "Drawing a ceiling above Pe and still calling it binding.",
+   "Claiming the statutory payer always bears the whole tax.",
+   "Shading the consumer and producer surplus triangles on the wrong side of the wedge."
+  ],
+  "terms": [
+   {
+    "term": "Binding",
+    "definition": "A control that changes the market outcome because it is set on the effective side of equilibrium."
+   },
+   {
+    "term": "Tax wedge",
+    "definition": "The vertical distance between the price buyers pay and the price sellers receive, equal to the per-unit tax."
+   },
+   {
+    "term": "Deadweight loss",
+    "definition": "The surplus lost from trades that are beneficial to both sides but no longer take place."
+   }
+  ],
+  "unit": 3,
+  "practice": "market-intervention",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "econ-u04-mischart": {
+  "id": "econ-u04-mischart",
+  "title": "Chart trap: MC, AVC, ATC and economic cost",
+  "concept": "Marginal cost is the change in total cost, or in total variable cost in the short run, from one more unit. Average fixed cost is total fixed cost divided by output and falls continuously. ATC = AVC + AFC, so ATC sits above AVC with a gap that narrows as output rises. The MC curve cuts both AVC and ATC at their minimum points because the marginal pulls an average down when it is below it and up when it is above it. Economic cost adds the opportunity cost of owner-supplied factors to explicit cost, so accounting profit overstates economic profit.",
+  "example": {
+   "scenario": "A bakery records total fixed cost of $12,000 a month and variable cost of $30,000 for 3,000 loaves, then raises output to 4,000 loaves with total variable cost $38,000.",
+   "walkthrough": "AFC falls from $4 to $3 a loaf. AVC rises from $10 to $9.50, so AVC is already turning up, which tells you the bakery is past its efficient short-run scale. Compare ATC of $14 with $12.50 and check where the MC of the extra 1,000 loaves, $8 a loaf, sits relative to each average."
+  },
+  "traps": [
+   "Claiming MC always equals ATC.",
+   "Judging profit without the owner's implicit cost.",
+   "Drawing AFC rising with output."
+  ],
+  "terms": [
+   {
+    "term": "Marginal cost",
+    "definition": "The extra cost of producing one more unit in the relevant period."
+   },
+   {
+    "term": "Average total cost",
+    "definition": "Total cost divided by output, equal to AVC plus AFC."
+   },
+   {
+    "term": "Implicit cost",
+    "definition": "The opportunity cost of resources the owner supplies without a separate invoice."
+   }
+  ],
+  "unit": 4,
+  "practice": "production-costs",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "econ-u05-mischart": {
+  "id": "econ-u05-mischart",
+  "title": "Chart trap: the firm's own demand, MR and long-run profit",
+  "concept": "Start every structure question with the demand curve the firm itself faces. Under perfect competition it is horizontal at the market price, so P = MR and profit is (P - ATC) x Q. Under a downward-sloping firm demand, MR lies below P because a price cut applies to every unit sold. Choose output where MR = MC, then read the price off the demand curve; never set P = MC for a monopoly as the private optimum. In the long run, free entry pushes perfect competition and monopolistic competition to normal profit, while a monopoly can keep supernormal profit only because entry is blocked.",
+  "example": {
+   "scenario": "A local bus company faces a downward-sloping demand curve and is considering a rival's entry.",
+   "walkthrough": "Sketch the bus firm's demand and the MR curve below it, add the cost curves, and mark output where MR = MC. Read the price from the demand curve, compare it with ATC to get profit per bus, then multiply by the number of buses. Note that entry would move the firm towards normal profit, which is why the incumbent may resist it."
+  },
+  "traps": [
+   "Setting P = MC for a monopoly as the profit-maximising condition.",
+   "Claiming monopolistic competition always earns long-run supernormal profit.",
+   "Forgetting to read the price from the demand curve after MR = MC."
+  ],
+  "terms": [
+   {
+    "term": "Marginal revenue",
+    "definition": "The extra revenue from selling one more unit, which falls faster than price on a downward-sloping demand curve."
+   },
+   {
+    "term": "Supernormal profit",
+    "definition": "Profit above the normal return, possible only when entry is restricted."
+   },
+   {
+    "term": "Price discrimination",
+    "definition": "Charging different prices for the same product in ways that are not cost-justified."
+   }
+  ],
+  "unit": 5,
+  "practice": "market-structures",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "econ-u06-mischart": {
+  "id": "econ-u06-mischart",
+  "title": "Chart trap: nominal against real GDP, and what AD includes",
+  "concept": "Nominal GDP values current output at current prices, so it can rise because prices rose. Real GDP holds prices at a base year, so it tracks volume; the gap between the two is the price effect, measured by the GDP deflator. Aggregate demand is C + I + G + (X - M); imports are subtracted because they are spending on foreign output. Name the inflation type from the diagram: demand-pull comes from AD shifting right along SRAS, cost-push from SRAS shifting left, and the two give different short-run output effects.",
+  "example": {
+   "scenario": "Nominal GDP rises 4% in a year in which the GDP deflator rises 3%, and the country also imports more components for local assembly.",
+   "walkthrough": "Real growth is roughly 4% minus 3%, about 1%, so most of the nominal rise was prices. The extra imports reduce net exports, so they subtract from aggregate demand even though they look like activity in the trade figures. On an AD-SRAS diagram the price rise alone is not evidence of demand-pull inflation."
+  },
+  "traps": [
+   "Reading a rise in nominal GDP as a rise in output.",
+   "Adding imports into aggregate demand instead of subtracting them.",
+   "Calling any CPI rise demand-pull without a diagram to justify it."
+  ],
+  "terms": [
+   {
+    "term": "GDP deflator",
+    "definition": "The ratio of nominal GDP to real GDP, showing the price effect on output."
+   },
+   {
+    "term": "Cost-push inflation",
+    "definition": "Inflation caused by rising production costs, shifting SRAS left."
+   },
+   {
+    "term": "Leakage",
+    "definition": "A component of spending, such as imports or saving, that leaves the circular flow."
+   }
+  ],
+  "unit": 6,
+  "practice": "gdp",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }

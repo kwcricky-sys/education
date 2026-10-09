@@ -3,7 +3,7 @@
   "title": "DSE ICT Drill Bank",
   "subject": "DSE ict",
   "language": "en",
-  "total": 160,
+  "total": 200,
   "version": "1.1",
   "reviewed": true
  },
@@ -3173,6 +3173,806 @@
    "tags": [
     "command word",
     "trace"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ict-u01-d01",
+   "topic": "computer-systems",
+   "difficulty": "easy",
+   "question": "RAM is best described as:",
+   "options": [
+    "A. Volatile main memory whose contents are lost when the power is switched off",
+    "B. Permanent storage that keeps files after shutdown",
+    "C. An output device that prints documents",
+    "D. A network device that connects two LANs"
+   ],
+   "answer": "A",
+   "explanation": "RAM holds programs and data while they are in use, and it loses them when power is removed. Anything that must survive a shutdown belongs in secondary storage such as an SSD.",
+   "tags": [
+    "RAM",
+    "primary storage"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ict-u01-d02",
+   "topic": "computer-systems",
+   "difficulty": "easy",
+   "question": "Which device captures a paper drawing as an image file?",
+   "options": [
+    "A. A scanner",
+    "B. A speaker",
+    "C. A projector",
+    "D. A modem"
+   ],
+   "answer": "A",
+   "explanation": "A scanner is an input device that converts a printed page into a digital image. Speakers and projectors are output devices, and a modem converts signals for a network link.",
+   "tags": [
+    "input device",
+    "scanner"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ict-u01-d03",
+   "topic": "computer-systems",
+   "difficulty": "medium",
+   "question": "The main role of system software is to:",
+   "options": [
+    "A. Manage the computer's hardware and provide a platform for applications to run",
+    "B. Edit photographs and videos only",
+    "C. Replace the processor during an upgrade",
+    "D. Supply electricity to the components"
+   ],
+   "answer": "A",
+   "explanation": "The operating system is core system software: it controls hardware resources and provides services such as the file system that application software relies on. Application software does the user's work.",
+   "tags": [
+    "system software",
+    "operating system"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ict-u01-d04",
+   "topic": "computer-systems",
+   "difficulty": "hard",
+   "question": "During the fetch-decode-execute cycle the CPU:",
+   "options": [
+    "A. Fetches an instruction, decodes it, then executes it, and repeats",
+    "B. Only stores files on the secondary storage",
+    "C. Always skips the decoding stage",
+    "D. Sends the result straight to the printer"
+   ],
+   "answer": "A",
+   "explanation": "The instruction cycle repeats: fetch the next instruction from memory, decode what it means, execute it. Only then does the CPU move on, which is why a long program takes many cycles.",
+   "tags": [
+    "fetch-decode-execute",
+    "CPU"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer System Fundamentals"
+  },
+  {
+   "id": "ict-u02-d01",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "With a colour depth of 8 bits per pixel, how many different colours can be stored per pixel?",
+   "options": [
+    "A. 256",
+    "B. 8",
+    "C. 128",
+    "D. 64"
+   ],
+   "answer": "A",
+   "explanation": "The number of values is 2 raised to the bit depth, so 2^8 = 256. More bits per pixel means more colours and a larger file.",
+   "tags": [
+    "colour depth",
+    "binary"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ict-u02-d02",
+   "topic": "data-representation",
+   "difficulty": "easy",
+   "question": "One byte is equal to:",
+   "options": [
+    "A. 8 bits",
+    "B. 2 bits",
+    "C. 16 bits",
+    "D. 1024 bits"
+   ],
+   "answer": "A",
+   "explanation": "A bit is one binary digit; eight bits make a byte, which is the smallest addressable unit in common storage measurements.",
+   "tags": [
+    "bit",
+    "byte"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ict-u02-d03",
+   "topic": "data-representation",
+   "difficulty": "medium",
+   "question": "Unicode is preferred to basic ASCII when:",
+   "options": [
+    "A. Many world scripts or extra symbols must be represented",
+    "B. Only English letters and digits are ever needed",
+    "C. Sound has to be sampled",
+    "D. Data has to be compressed"
+   ],
+   "answer": "A",
+   "explanation": "ASCII covers English letters, digits and basic symbols in one byte. Unicode assigns code points across many writing systems and symbols, so it is the right choice for multilingual text.",
+   "tags": [
+    "Unicode",
+    "character sets"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ict-u02-d04",
+   "topic": "data-representation",
+   "difficulty": "hard",
+   "question": "A higher sampling rate when capturing sound generally:",
+   "options": [
+    "A. Captures more samples per second, improving high-frequency detail and enlarging an uncompressed file",
+    "B. Removes background noise perfectly",
+    "C. Converts the recording into text",
+    "D. Reduces file size with no other effect"
+   ],
+   "answer": "A",
+   "explanation": "Sampling rate sets how many measurements per second are taken. Higher rates capture higher frequencies more accurately but store more samples, so an uncompressed file grows. Resolution is the other quality factor.",
+   "tags": [
+    "sound",
+    "sampling rate"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Data Representation"
+  },
+  {
+   "id": "ict-u03-d01",
+   "topic": "networks",
+   "difficulty": "easy",
+   "question": "Thirty computers in one school room sharing a printer and files form a:",
+   "options": [
+    "A. Local area network (LAN)",
+    "B. Wide area network spanning several countries",
+    "C. Personal area network used by one watch",
+    "D. A single stand-alone machine"
+   ],
+   "answer": "A",
+   "explanation": "A LAN covers a limited area such as one room or building and is usually privately administered. A WAN spans large distances between separate sites.",
+   "tags": [
+    "LAN",
+    "network scope"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ict-u03-d02",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "The main role of a modem is to:",
+   "options": [
+    "A. Interface the local network to the service provider's link, converting signals between formats",
+    "B. Switch frames between devices inside one VLAN only",
+    "C. Store the school's management database",
+    "D. Print documents on the network printer"
+   ],
+   "answer": "A",
+   "explanation": "A modem modulates and demodulates signals so data can travel over the line the provider supplies, including a telephone or cable line. Switching inside the site is the switch's job.",
+   "tags": [
+    "modem",
+    "network devices"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ict-u03-d03",
+   "topic": "networks",
+   "difficulty": "medium",
+   "question": "In a star topology, usually only one cable fails. The usual effect is:",
+   "options": [
+    "A. That one device loses connectivity while the others still reach the central switch",
+    "B. Every device on the network is permanently disconnected",
+    "C. The network automatically becomes a WAN",
+    "D. All stored files on each device are deleted"
+   ],
+   "answer": "A",
+   "explanation": "Each device has its own connection to the central switch, so a single cable fault is local to that device. This resilience is one reason star topologies are widely used, though the switch remains a single point of failure.",
+   "tags": [
+    "star topology",
+    "fault tolerance"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ict-u03-d04",
+   "topic": "networks",
+   "difficulty": "hard",
+   "question": "Bandwidth in a network refers to:",
+   "options": [
+    "A. How much data can be transferred per unit of time",
+    "B. The colour of the physical cable only",
+    "C. The processor's clock speed only",
+    "D. The number of devices that can be connected"
+   ],
+   "answer": "A",
+   "explanation": "Bandwidth is a capacity measure in bits per second, so it limits throughput. Delay, or latency, is a separate measure of how long a packet takes, and a link can have plenty of bandwidth and still feel slow.",
+   "tags": [
+    "bandwidth",
+    "latency"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computer Networks"
+  },
+  {
+   "id": "ict-u04-d01",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "A page is served over HTTPS. This tells you that:",
+   "options": [
+    "A. The connection is encrypted in transit, but the accuracy of the content is not guaranteed",
+    "B. The site's owner is a charity",
+    "C. The page contains no advertising",
+    "D. The content has been checked by an official body"
+   ],
+   "answer": "A",
+   "explanation": "HTTPS encrypts the channel, which protects data in transit from being read or altered. It says nothing about whether the information on the page is true, so content still has to be judged.",
+   "tags": [
+    "HTTPS",
+    "encryption"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ict-u04-d02",
+   "topic": "internet",
+   "difficulty": "easy",
+   "question": "The World Wide Web is best described as:",
+   "options": [
+    "A. A service of linked documents using HTTP on top of the Internet",
+    "B. The same thing as email, which uses SMTP",
+    "C. Only the physical fibre cable between cities",
+    "D. A type of local area network inside one building"
+   ],
+   "answer": "A",
+   "explanation": "The Internet is the global network of networks. The Web is one service running on it, joined by hyperlinks and accessed with HTTP. Email is a different service using other protocols.",
+   "tags": [
+    "Internet",
+    "World Wide Web"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ict-u04-d03",
+   "topic": "internet",
+   "difficulty": "medium",
+   "question": "One benefit of cloud storage is:",
+   "options": [
+    "A. Files can be reached from several devices over the network",
+    "B. Files stay on the device with no risk of loss",
+    "C. No password is ever needed for access",
+    "D. Files never need backing up"
+   ],
+   "answer": "A",
+   "explanation": "Cloud storage makes data available across devices and can provide synchronisation and extra copies. It does not remove the need for access control, and relying on one provider still needs thought about resilience.",
+   "tags": [
+    "cloud storage",
+    "Internet services"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ict-u04-d04",
+   "topic": "internet",
+   "difficulty": "easy",
+   "question": "HTML mainly provides:",
+   "options": [
+    "A. The structure and markup of a page's content",
+    "B. Lossless compression of audio files",
+    "C. Routing of packets between networks",
+    "D. The rules a firewall applies to traffic"
+   ],
+   "answer": "A",
+   "explanation": "HTML marks up elements such as headings, paragraphs, images and links so a browser can render them. Styling comes from CSS and behaviour from scripts, which are separate concerns.",
+   "tags": [
+    "HTML",
+    "web pages"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Internet and its Applications"
+  },
+  {
+   "id": "ict-u05-d01",
+   "topic": "databases",
+   "difficulty": "easy",
+   "question": "In a database table, one record is:",
+   "options": [
+    "A. One row, for example the details of one student",
+    "B. One column name only",
+    "C. The software that manages the database",
+    "D. One index entry for the whole table"
+   ],
+   "answer": "A",
+   "explanation": "A table holds records as rows and fields as columns. Each record describes one entity, such as one student, and its fields are the attributes of that entity.",
+   "tags": [
+    "record",
+    "table"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ict-u05-d02",
+   "topic": "databases",
+   "difficulty": "easy",
+   "question": "A primary key uniquely:",
+   "options": [
+    "A. Identifies each record in the table",
+    "B. Duplicates every row in the table",
+    "C. Stores only image files",
+    "D. Sorts the records automatically by date"
+   ],
+   "answer": "A",
+   "explanation": "A primary key gives each record a unique identifier with no repeats and no blanks, which is what allows a record to be located and related to others safely.",
+   "tags": [
+    "primary key",
+    "database design"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ict-u05-d03",
+   "topic": "databases",
+   "difficulty": "medium",
+   "question": "Validation checks that data entered into a database is:",
+   "options": [
+    "A. Reasonable in form, for example the right type, within range and not missing",
+    "B. Copied identically a second time",
+    "C. Always collected ethically",
+    "D. Encrypted before it is stored"
+   ],
+   "answer": "A",
+   "explanation": "Validation applies rules to the form of the data, such as a date format or a range. Copying a value a second time to catch mistakes is verification, which checks for transcription errors rather than plausibility.",
+   "tags": [
+    "validation",
+    "data integrity"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ict-u05-d04",
+   "topic": "databases",
+   "difficulty": "hard",
+   "question": "Entering each mark twice and comparing the two entries is an example of:",
+   "options": [
+    "A. Verification",
+    "B. Range validation",
+    "C. A primary key",
+    "D. Encryption of the mark"
+   ],
+   "answer": "A",
+   "explanation": "Verification checks that data was entered or copied correctly, often by re-entering it. Validation checks whether the value is sensible in form; the two are complements, not alternatives.",
+   "tags": [
+    "verification",
+    "validation"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "School-level databases"
+  },
+  {
+   "id": "ict-u06-d01",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "Lossy compression:",
+   "options": [
+    "A. Discards some detail in order to reduce file size",
+    "B. Keeps every bit of the original identical",
+    "C. Applies only to plain text files",
+    "D. Always produces a file larger than the original"
+   ],
+   "answer": "A",
+   "explanation": "Lossy methods such as JPEG for images or MP3 for audio throw away information the ear or eye is unlikely to notice, giving a much smaller file. The original cannot be rebuilt exactly.",
+   "tags": [
+    "lossy compression",
+    "file size"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ict-u06-d02",
+   "topic": "multimedia",
+   "difficulty": "hard",
+   "question": "The size in bytes of an uncompressed bitmap is approximately:",
+   "options": [
+    "A. width x height x colour depth in bits, divided by 8",
+    "B. width + height",
+    "C. colour depth on its own",
+    "D. width x height divided by 8, ignoring colour depth"
+   ],
+   "answer": "A",
+   "explanation": "Each pixel stores colour depth in bits, so total bits = width x height x depth, and dividing by 8 converts bits to bytes. Forgetting the colour depth or the division by 8 is the usual error.",
+   "tags": [
+    "file size",
+    "bitmap"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ict-u06-d03",
+   "topic": "multimedia",
+   "difficulty": "medium",
+   "question": "JPEG is typically chosen for:",
+   "options": [
+    "A. Photographs, where some loss of quality is acceptable",
+    "B. Line-art logos that need perfectly sharp edges only",
+    "C. Program source code that must stay exact",
+    "D. Uncompressed audio recording"
+   ],
+   "answer": "A",
+   "explanation": "JPEG suits photographs because its loss is hard to notice on natural images. Diagrams, text and code keep sharp edges that show artefacts, so lossless formats such as PNG are preferred there.",
+   "tags": [
+    "JPEG",
+    "format choice"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ict-u06-d04",
+   "topic": "multimedia",
+   "difficulty": "easy",
+   "question": "Lossless compression:",
+   "options": [
+    "A. Allows the original file to be rebuilt exactly",
+    "B. Is always smaller than lossy compression for photographs",
+    "C. Removes the need to back up files",
+    "D. Can only be applied to text files"
+   ],
+   "answer": "A",
+   "explanation": "Lossless methods such as PNG and ZIP rebuild the original bits exactly, which is why they are used where exactness matters. For photographs a lossy method usually achieves a far greater reduction in size.",
+   "tags": [
+    "lossless compression",
+    "file formats"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Information Processing / multimedia"
+  },
+  {
+   "id": "ict-u07-d01",
+   "topic": "algorithms",
+   "difficulty": "easy",
+   "question": "In course pseudocode, the symbol <- means:",
+   "options": [
+    "A. Assignment, storing a value in a variable",
+    "B. Testing whether two values are equal",
+    "C. A network connection between two computers",
+    "D. A comment that the program ignores"
+   ],
+   "answer": "A",
+   "explanation": "An assignment statement writes a value into a variable, so total <- 0 stores zero. Tests are written with a comparison such as = or >, which is why the two symbols must not be confused in a trace.",
+   "tags": [
+    "pseudocode",
+    "assignment"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ict-u07-d02",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "For an algorithm that accepts marks from 0 to 100 inclusive, suitable boundary test data includes:",
+   "options": [
+    "A. 0 and 100",
+    "B. 50 only",
+    "C. A letter grade only",
+    "D. -5 and 50"
+   ],
+   "answer": "A",
+   "explanation": "Boundary values sit at the edges of the valid range, including both endpoints because the range is inclusive. Boundary and abnormal data catch errors that ordinary test data misses.",
+   "tags": [
+    "test data",
+    "boundary values"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ict-u07-d03",
+   "topic": "algorithms",
+   "difficulty": "medium",
+   "question": "A dry run of an algorithm means:",
+   "options": [
+    "A. Tracing it on paper with a column for each variable and one for output",
+    "B. Compiling it without a processor",
+    "C. Uploading it to a cloud service",
+    "D. Running it only on abnormal data"
+   ],
+   "answer": "A",
+   "explanation": "A dry run, or trace, executes the algorithm by hand. Write a column per variable, update a cell only when the algorithm assigns to it, and record each output, which is what a question asking for the output expects you to show.",
+   "tags": [
+    "dry run",
+    "trace table"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ict-u07-d04",
+   "topic": "algorithms",
+   "difficulty": "hard",
+   "question": "In an algorithm with IF mark >= 50 THEN ... ELSE ... ENDIF, the statements:",
+   "options": [
+    "A. Run as exactly one branch, depending on whether the condition holds",
+    "B. Always run both branches",
+    "C. Never run either branch",
+    "D. Run the ELSE branch first and then the THEN branch"
+   ],
+   "answer": "A",
+   "explanation": "Selection runs one branch only: the THEN branch when the condition is true, otherwise the ELSE branch. Running both would be iteration and would repeat the work.",
+   "tags": [
+    "selection",
+    "IF THEN ELSE"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Computational Thinking and Programming"
+  },
+  {
+   "id": "ict-u08-d01",
+   "topic": "security",
+   "difficulty": "hard",
+   "question": "One school computer is held by ransomware. The best first set of actions is:",
+   "options": [
+    "A. Disconnect the machine from the network, then restore from a clean backup rather than relying on paying",
+    "B. Pay the ransom and post the administrator password online",
+    "C. Disable every backup so the attacker cannot find them",
+    "D. Reuse one strong password across all school accounts"
+   ],
+   "answer": "A",
+   "explanation": "Isolating the machine stops the spread. Restoring from a known clean backup recovers the data, whereas paying funds the attacker and does not guarantee recovery or deletion of the stolen data. Patching the entry point afterwards prevents a repeat.",
+   "tags": [
+    "ransomware",
+    "incident response"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ict-u08-d02",
+   "topic": "security",
+   "difficulty": "easy",
+   "question": "Which practice is the strongest password habit?",
+   "options": [
+    "A. Use long, unique passwords, kept in a password manager, with two-factor authentication where available",
+    "B. Use the school name followed by 123 so it is memorable",
+    "C. Share one strong password with the whole class",
+    "D. Reuse the same password on every account for convenience"
+   ],
+   "answer": "A",
+   "explanation": "Length matters more than complexity, and unique passwords stop one breached site exposing the others. A password manager makes uniqueness practical, and a second factor adds protection even if the password leaks.",
+   "tags": [
+    "password",
+    "authentication"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ict-u08-d03",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "A firewall mainly:",
+   "options": [
+    "A. Filters network traffic according to a set of rules",
+    "B. Compresses image files to save bandwidth",
+    "C. Replaces the need for antivirus signatures",
+    "D. Decides which video format a file should use"
+   ],
+   "answer": "A",
+   "explanation": "A firewall applies rules about which connections are allowed, denied or logged, at the boundary of a network. It is one layer of protection and does not remove the need for patching, backups or user awareness.",
+   "tags": [
+    "firewall",
+    "network security"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ict-u08-d04",
+   "topic": "security",
+   "difficulty": "medium",
+   "question": "Phishing messages typically:",
+   "options": [
+    "A. Create a sense of urgency and use links that lead to fake sign-in pages",
+    "B. Install operating system updates automatically",
+    "C. Increase the amount of RAM in the device",
+    "D. Speed up the network connection"
+   ],
+   "answer": "A",
+   "explanation": "Phishing is social engineering: it manufactures urgency and mimics a trusted sender to harvest credentials. Check the sender address and the spelling of the domain, and never enter a one-time code into a page you reached from an unexpected message.",
+   "tags": [
+    "phishing",
+    "social engineering"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: threats, security and safe use"
+  },
+  {
+   "id": "ict-u09-d01",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "In Hong Kong, copyright in an original photograph or piece of music:",
+   "options": [
+    "A. Arises automatically without any registration formality",
+    "B. Must be re-filed every day to stay valid",
+    "C. Applies only to printed books",
+    "D. Only covers computer programs"
+   ],
+   "answer": "A",
+   "explanation": "Copyright arises automatically when the work is created and fixed in a tangible form, so registration is not a condition of existence. Permission to copy, adapt or publish still needs to come from the rights holder or a licence.",
+   "tags": [
+    "copyright",
+    "licensing"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ict-u09-d02",
+   "topic": "social-issues",
+   "difficulty": "easy",
+   "question": "Examples of personal data include:",
+   "options": [
+    "A. A name together with a class, a phone number or an identifiable photograph",
+    "B. The word 'computer' on its own",
+    "C. The public weather temperature",
+    "D. A list of shop prices"
+   ],
+   "answer": "A",
+   "explanation": "Personal data identifies a living person, directly or indirectly. A name alone may or may not do so, but combined with a class or a photograph it does, which is why school projects need care over what they collect and publish.",
+   "tags": [
+    "personal data",
+    "privacy"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ict-u09-d03",
+   "topic": "social-issues",
+   "difficulty": "medium",
+   "question": "Ergonomics in a computer room is concerned with:",
+   "options": [
+    "A. Reducing strain through posture, regular breaks and suitable equipment setup",
+    "B. Increasing the graphics performance of the machines",
+    "C. Sending more phishing tests to users",
+    "D. Buying faster network switches"
+   ],
+   "answer": "A",
+   "explanation": "Ergonomics looks at how the workstation is arranged and used to limit repetitive strain and eye discomfort. Screen height, chair support and short breaks all matter more than raw computing power.",
+   "tags": [
+    "ergonomics",
+    "health and safety"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ict-u09-d04",
+   "topic": "social-issues",
+   "difficulty": "hard",
+   "question": "Collecting only what a task actually needs reflects:",
+   "options": [
+    "A. Data minimisation and purpose limitation",
+    "B. Keeping every contact detail permanently in case it is useful",
+    "C. Publishing account details to show transparency",
+    "D. Collecting everything first and filtering later"
+   ],
+   "answer": "A",
+   "explanation": "Collecting the minimum limits the harm if the data is lost or misused and keeps the task proportionate. Holding more than necessary increases breach exposure and weakens the justification for any later reuse.",
+   "tags": [
+    "data minimisation",
+    "privacy"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "Compulsory: Social Implications"
+  },
+  {
+   "id": "ict-u10-d01",
+   "topic": "exam-skills",
+   "difficulty": "easy",
+   "question": "A question using the command word 'explain' expects:",
+   "options": [
+    "A. A reason, linked to the case, introduced by because or which means",
+    "B. A one-word label only",
+    "C. A diagram with no written words",
+    "D. A quotation from a textbook"
+   ],
+   "answer": "A",
+   "explanation": "Explain means give the reason. A device name or a definition is enough for state or name, but for explain the because clause carries the marks, tied to the specific situation in the question.",
+   "tags": [
+    "command word",
+    "exam technique"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ict-u10-d02",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A 'compare' question should include:",
+   "options": [
+    "A. Similarities and/or differences covering both items being compared",
+    "B. Praise of one item only",
+    "C. Definitions of both items with no link drawn between them",
+    "D. An opinion about which item is better without evidence"
+   ],
+   "answer": "A",
+   "explanation": "Compare requires both sides of the comparison and an explicit linking word such as both, whereas or unlike. Describing one item alone cannot score the comparison marks.",
+   "tags": [
+    "compare",
+    "command word"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ict-u10-d03",
+   "topic": "exam-skills",
+   "difficulty": "medium",
+   "question": "A question asking you to design part of a school network usually needs:",
+   "options": [
+    "A. A choice of device together with a reason that fits the scenario",
+    "B. A list of every cable brand on the market",
+    "C. An answer that ignores the size and layout of the site",
+    "D. A single device name with no justification"
+   ],
+   "answer": "A",
+   "explanation": "Applied design questions score the fit between the choice and the case: room size, number of users, budget, distance and reliability all justify the device. State the choice, then the reason.",
+   "tags": [
+    "applied question",
+    "network design"
+   ],
+   "subject": "ict",
+   "syllabus_ref": "HKDSE ICT assessment"
+  },
+  {
+   "id": "ict-u10-d04",
+   "topic": "exam-skills",
+   "difficulty": "hard",
+   "question": "Showing working for a file-size calculation earns method credit when you:",
+   "options": [
+    "A. Substitute the figures into the formula with the units visible at each step",
+    "B. Circle a final guess without showing the substitution",
+    "C. Omit the division by 8 without comment",
+    "D. Give only the answer with no units"
+   ],
+   "answer": "A",
+   "explanation": "Method marks come from the substitution and the steps, so write width x height x depth, then the division by 8, then the answer in bytes or kilobytes. A correct number with no working can still lose the method marks.",
+   "tags": [
+    "method marks",
+    "file size"
    ],
    "subject": "ict",
    "syllabus_ref": "HKDSE ICT assessment"

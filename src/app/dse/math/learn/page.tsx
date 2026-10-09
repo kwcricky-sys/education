@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import MathUnitMap from "@/components/dse/math-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
+import videoChecks from "@/data/dse/math-video-checks.json";
 import { MATH_UNITS } from "@/lib/dse/math-path";
+import { LearnCrossLinks } from "@/components/dse/learn-cross-links";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
   buildBreadcrumbJsonLd,
@@ -126,6 +128,54 @@ export default function MathLearnPage() {
       <div className="mt-8">
         <MathUnitMap />
       </div>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          片後 5 題（示範）
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+          睇完{" "}
+          <Link href="/dse/videos/math" className="font-semibold text-navy underline underline-offset-2">
+            數學科溫習片
+          </Link>{" "}
+          之後可以用呢 {videoChecks.checks.length} 組題自查（{videoChecks.checks
+            .map((c) => c.unitLabel)
+            .join("、")}
+          ）。{videoChecks.meta.note}
+        </p>
+        <div className="mt-4 space-y-4">
+          {videoChecks.checks.map((check) => (
+            <details
+              key={check.id}
+              className="rounded-2xl border border-line bg-white p-5"
+            >
+              <summary className="cursor-pointer font-semibold text-ink">
+                {check.title}
+                <span className="ml-2 text-sm font-normal text-ink-faint">
+                  {check.unitLabel} · {check.items.length} 題
+                </span>
+              </summary>
+              <ol className="mt-3 space-y-3">
+                {check.items.map((item) => (
+                  <li
+                    key={item.n}
+                    className="rounded-xl border border-line bg-cream/50 px-4 py-3"
+                  >
+                    <p className="text-xs font-semibold tracking-wide text-gold-ink">
+                      {item.n}. {item.focus}
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed text-ink">{item.prompt}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-ink-muted">{item.answer}</p>
+                  </li>
+                ))}
+              </ol>
+              <p className="mt-3 text-xs text-ink-faint">{check.note}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <LearnCrossLinks current="/dse/math/learn" />
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
