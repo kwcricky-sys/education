@@ -24,7 +24,7 @@ export const DSE_SUBJECTS: DseSubject[] = [
     nameEn: "Chinese Language",
     href: "/dse/chinese",
     open: true,
-    desc: "指定範文閃卡、AI 診斷室、錯題本與溫習片",
+    desc: "指定範文閃卡、U01–U12 自學路徑、AI 診斷室、錯題本與溫習片",
   },
   {
     id: "english",

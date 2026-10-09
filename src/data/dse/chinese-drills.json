@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "DSE 中文科 Learn 自編練習",
+    "subject": "CHI",
+    "language": "zh-HK",
+    "total": 48,
+    "version": "chi-learn-1",
+    "reviewed": true,
+    "authorship": "自編（非 HKEAA 真題／非指定範文原文）",
+    "note": "chi-learn-U01–U12，每單元 4 題。合格線為答對 3／4。不是考評局試題，亦不收錄指定範文原文。"
+  },
+  "questions": [
+    {"id": "chi-learn-U01-Q1", "unitId": "chi-learn-U01", "topic": "chi-vocab", "prompt": "讀字詞卡時，最穩妥的第一步是？", "choices": ["先圈出生詞再看語境句", "先背整篇原文", "只查網絡流行義"], "answerIndex": 0, "hint": "由詞到語境。", "explain": "先標生詞，再用語境鎖定文中義。", "tag": "自編"},
+    {"id": "chi-learn-U01-Q2", "unitId": "chi-learn-U01", "topic": "chi-vocab", "prompt": "「文中意思」與「字典第一義」不同時，應優先？", "choices": ["文中語境義", "隨便選一個", "只記英文譯名"], "answerIndex": 0, "hint": "範文導讀以文為準。", "explain": "閱讀題考的是文中用法。", "tag": "自編"},
+    {"id": "chi-learn-U01-Q3", "unitId": "chi-learn-U01", "topic": "chi-vocab", "prompt": "以站內範文 X 字詞卡為例，複習時較有效的是？", "choices": ["用自己的話重說詞義", "整段默寫指定範文", "跳過語境只背單字"], "answerIndex": 0, "hint": "理解優於默寫全文。", "explain": "重說＝檢查是否真懂。", "tag": "自編"},
+    {"id": "chi-learn-U01-Q4", "unitId": "chi-learn-U01", "topic": "chi-vocab", "prompt": "哪個做法不符合本單元？", "choices": ["鏡像官方 PDF 全文背誦", "對照站內字詞卡", "做自編語境選擇題"], "answerIndex": 0, "hint": "紅線。", "explain": "唔鏡像官方全文；用站內卡＋自編題。", "tag": "自編"},
+
+    {"id": "chi-learn-U02-Q1", "unitId": "chi-learn-U02", "topic": "chi-sentence", "prompt": "「她並非不想加入，只是時間衝突。」句意最接近？", "choices": ["她想加入，但時間不行", "她完全不想加入", "她沒有時間觀念這個詞"], "answerIndex": 0, "hint": "「並非不」＝其實想。", "explain": "雙重否定＋轉折：想加入但時間衝突。", "tag": "自編"},
+    {"id": "chi-learn-U02-Q2", "unitId": "chi-learn-U02", "topic": "chi-sentence", "prompt": "拆難句時，優先保留的是？", "choices": ["主語＋主要動詞", "所有形容詞", "標點符號數量"], "answerIndex": 0, "hint": "先抓骨幹。", "explain": "骨幹先出來，修飾後補。", "tag": "自編"},
+    {"id": "chi-learn-U02-Q3", "unitId": "chi-learn-U02", "topic": "chi-sentence", "prompt": "以站內範文 X 難句卡為例，複述句意應？", "choices": ["用白話說清誰做甚麼", "逐字抄原文", "只翻譯成英文"], "answerIndex": 0, "hint": "理解檢查。", "explain": "白話複述＝懂句意。", "tag": "自編"},
+    {"id": "chi-learn-U02-Q4", "unitId": "chi-learn-U02", "topic": "chi-sentence", "prompt": "句意題若出現轉折詞「卻／只是／然而」，應？", "choices": ["留意前後重點可能在後半", "忽略後半", "只看第一個名詞"], "answerIndex": 0, "hint": "轉折常改重點。", "explain": "轉折後往往是真正重點。", "tag": "自編"},
+
+    {"id": "chi-learn-U03-Q1", "unitId": "chi-learn-U03", "topic": "chi-para", "prompt": "一段列舉「減少螢幕、規律作息、適量運動」，段旨較接近？", "choices": ["改善睡眠的生活習慣", "螢幕品牌比較", "運動會規則"], "answerIndex": 0, "hint": "例子服務哪個主張？", "explain": "三項都指向助眠／健康作息。", "tag": "自編"},
+    {"id": "chi-learn-U03-Q2", "unitId": "chi-learn-U03", "topic": "chi-para", "prompt": "「例如昨天走了三千步」在段中多半是？", "choices": ["支撐細節", "全文主題標題", "無關廣告"], "answerIndex": 0, "hint": "「例如」＝細節。", "explain": "例子支持段旨。", "tag": "自編"},
+    {"id": "chi-learn-U03-Q3", "unitId": "chi-learn-U03", "topic": "chi-para", "prompt": "選段旨時，哪個較合理？", "choices": ["能概括整段的句子", "段中最長的專有名詞", "隨機一句對話"], "answerIndex": 0, "hint": "概括性。", "explain": "段旨要罩得住全段。", "tag": "自編"},
+    {"id": "chi-learn-U03-Q4", "unitId": "chi-learn-U03", "topic": "chi-para", "prompt": "以站內範文 X 段旨卡為例，先做哪步？", "choices": ["略讀全段再找主題句", "只背段中第一個字", "跳去下一篇"], "answerIndex": 0, "hint": "規則步驟。", "explain": "略讀→主題句→刪細節。", "tag": "自編"},
+
+    {"id": "chi-learn-U04-Q1", "unitId": "chi-learn-U04", "topic": "chi-device", "prompt": "把「焦慮」寫成「胸口壓着一塊濕棉」，主要是？", "choices": ["比喻，使感受具體", "純粹列舉數字", "無關的書名號用法"], "answerIndex": 0, "hint": "用一物寫另一感受。", "explain": "濕棉喻壓迫感＝比喻。", "tag": "自編"},
+    {"id": "chi-learn-U04-Q2", "unitId": "chi-learn-U04", "topic": "chi-device", "prompt": "先寫「失敗三次」，再寫「終於成功」，結構效果較像？", "choices": ["前後對比，突出堅持", "隨機堆砌無關句", "只要標點漂亮"], "answerIndex": 0, "hint": "失敗↔成功。", "explain": "對比強化轉變。", "tag": "自編"},
+    {"id": "chi-learn-U04-Q3", "unitId": "chi-learn-U04", "topic": "chi-device", "prompt": "手法題最應先回答的是？", "choices": ["這安排想達到甚麼效果", "作者身高", "印刷字體"], "answerIndex": 0, "hint": "手法服務主題。", "explain": "效果先於名稱。", "tag": "自編"},
+    {"id": "chi-learn-U04-Q4", "unitId": "chi-learn-U04", "topic": "chi-device", "prompt": "以站內範文 X 手法卡為例，哪個做法正確？", "choices": ["先描述安排再對名稱", "只背手法名詞表", "抄錄官方評卷報告全文"], "answerIndex": 0, "hint": "理解優先。", "explain": "描述→效果→名稱。", "tag": "自編"},
+
+    {"id": "chi-learn-U05-Q1", "unitId": "chi-learn-U05", "topic": "chi-theme", "prompt": "一篇寫「社區圖書館志工」的文章，主旨較可能是？", "choices": ["肯定互助與閱讀文化", "圖書館冷氣溫度數據", "志工工時表格式"], "answerIndex": 0, "hint": "看法／情意。", "explain": "主旨落在價值與情意。", "tag": "自編"},
+    {"id": "chi-learn-U05-Q2", "unitId": "chi-learn-U05", "topic": "chi-theme", "prompt": "「主題」與「主旨」的分別，較準的是？", "choices": ["主題偏題材；主旨偏看法／寄託", "兩者完全相同", "主題＝標點"], "answerIndex": 0, "hint": "定義。", "explain": "題材 vs 寄託。", "tag": "自編"},
+    {"id": "chi-learn-U05-Q3", "unitId": "chi-learn-U05", "topic": "chi-theme", "prompt": "概括主旨時應避免？", "choices": ["只重述一個細節事件", "統合多段共同方向", "對照開頭結尾"], "answerIndex": 0, "hint": "細節≠全文。", "explain": "細節不能取代主旨。", "tag": "自編"},
+    {"id": "chi-learn-U05-Q4", "unitId": "chi-learn-U05", "topic": "chi-theme", "prompt": "以站內範文 X 為例，檢驗主旨句是否成立，可問？", "choices": ["能否貫穿關鍵段與結尾", "字數是否剛好 7 字", "有沒有英文翻譯"], "answerIndex": 0, "hint": "貫穿性。", "explain": "主旨要罩得住全文。", "tag": "自編"},
+
+    {"id": "chi-learn-U06-Q1", "unitId": "chi-learn-U06", "topic": "chi-compare", "prompt": "跨篇比較時，較穩妥的起手是？", "choices": ["各用一句寫清主題／態度再比", "隨機抄兩句對調", "只比較字數"], "answerIndex": 0, "hint": "先立座標。", "explain": "有座標才能比異同。", "tag": "自編"},
+    {"id": "chi-learn-U06-Q2", "unitId": "chi-learn-U06", "topic": "chi-compare", "prompt": "短答框架「兩者皆…；甲…，乙…」主要幫助？", "choices": ["先同後異，層次清楚", "增加無關成語", "省略審題"], "answerIndex": 0, "hint": "結構。", "explain": "同→異＝清晰。", "tag": "自編"},
+    {"id": "chi-learn-U06-Q3", "unitId": "chi-learn-U06", "topic": "chi-compare", "prompt": "引用觀點時應避免？", "choices": ["整段貼上指定範文原文", "概括作者態度", "指出手法效果"], "answerIndex": 0, "hint": "紅線。", "explain": "唔整段貼原文。", "tag": "自編"},
+    {"id": "chi-learn-U06-Q4", "unitId": "chi-learn-U06", "topic": "chi-compare", "prompt": "比較「手法」時，較有用的表述是？", "choices": ["甲用對比突出反差，乙用比喻使抽象具體", "甲比較長乙比較短（僅字數）", "兩者都有句號"], "answerIndex": 0, "hint": "手法＋效果。", "explain": "點名手法與效果。", "tag": "自編"},
+
+    {"id": "chi-learn-U07-Q1", "unitId": "chi-learn-U07", "topic": "chi-stem", "prompt": "題幹「文中『它』指的是？」較像哪類？", "choices": ["指代／詞義定位", "寫作審題立綱", "說話儀態評分"], "answerIndex": 0, "hint": "「指」。", "explain": "指代題。", "tag": "自編"},
+    {"id": "chi-learn-U07-Q2", "unitId": "chi-learn-U07", "topic": "chi-stem", "prompt": "題幹「本段主要想說明」優先找？", "choices": ["段旨／主題句", "標點數量", "作者簽名"], "answerIndex": 0, "hint": "主要說明。", "explain": "段旨題。", "tag": "自編"},
+    {"id": "chi-learn-U07-Q3", "unitId": "chi-learn-U07", "topic": "chi-stem", "prompt": "拆題幹後下一步應？", "choices": ["回文定位相關句段", "直接選最長選項", "跳過文章"], "answerIndex": 0, "hint": "策略。", "explain": "定位再比對選項。", "tag": "自編"},
+    {"id": "chi-learn-U07-Q4", "unitId": "chi-learn-U07", "topic": "chi-stem", "prompt": "選項「過寬」是指？", "choices": ["說得太大，文中未支持那麼廣", "字數太少", "沒有標點"], "answerIndex": 0, "hint": "無據擴張。", "explain": "過寬＝超出文意。", "tag": "自編"},
+
+    {"id": "chi-learn-U08-Q1", "unitId": "chi-learn-U08", "topic": "chi-infer", "prompt": "文說「小組開會前人人先交大綱」，較合理推論是？", "choices": ["他們重視準備與效率", "他們從不開會", "大綱紙一定是紅色"], "answerIndex": 0, "hint": "由行為推態度。", "explain": "先交大綱→重準備。", "tag": "自編"},
+    {"id": "chi-learn-U08-Q2", "unitId": "chi-learn-U08", "topic": "chi-infer", "prompt": "哪項屬於「過度推論」？", "choices": ["由一次遲到斷定對方永不守時", "由反覆校對推重視準確", "由列舉例子推段旨"], "answerIndex": 0, "hint": "以偏概全。", "explain": "一次≠永遠。", "tag": "自編"},
+    {"id": "chi-learn-U08-Q3", "unitId": "chi-learn-U08", "topic": "chi-infer", "prompt": "主旨選項若只複述一個例子，問題是？", "choices": ["細節替代主旨", "例子愈多愈好", "必須用英文"], "answerIndex": 0, "hint": "概括不足。", "explain": "主旨要概括。", "tag": "自編"},
+    {"id": "chi-learn-U08-Q4", "unitId": "chi-learn-U08", "topic": "chi-infer", "prompt": "自編短文主旨練習時應？", "choices": ["先找貫穿全文的看法", "只數逗號", "抄錄考試報告"], "answerIndex": 0, "hint": "貫穿。", "explain": "看法貫穿全文。", "tag": "自編"},
+
+    {"id": "chi-learn-U09-Q1", "unitId": "chi-learn-U09", "topic": "chi-prompt", "prompt": "題目要求「記述一次…經歷」，立綱時應優先有？", "choices": ["具體事件時間線＋體會", "只有名人名句堆砌", "無關產品廣告文案"], "answerIndex": 0, "hint": "記述＝經歷。", "explain": "要有事件與體會。", "tag": "自編"},
+    {"id": "chi-learn-U09-Q2", "unitId": "chi-learn-U09", "topic": "chi-prompt", "prompt": "審題時漏看「致某對象的信」，風險是？", "choices": ["文體／稱謂不合", "一定加分", "不用分段"], "answerIndex": 0, "hint": "形式限制。", "explain": "書信體有稱謂結尾。", "tag": "自編"},
+    {"id": "chi-learn-U09-Q3", "unitId": "chi-learn-U09", "topic": "chi-prompt", "prompt": "中心句的作用是？", "choices": ["鎖定全文主張，方便分點支撐", "取代所有例子", "取消審題"], "answerIndex": 0, "hint": "綱領。", "explain": "中心句＝綱。", "tag": "自編"},
+    {"id": "chi-learn-U09-Q4", "unitId": "chi-learn-U09", "topic": "chi-prompt", "prompt": "哪個立綱較易偏題？", "choices": ["題要「合作」，綱只寫「個人獲獎過程」", "每點扣合作分工", "結尾回扣題旨"], "answerIndex": 0, "hint": "題旨＝合作。", "explain": "缺合作＝偏題。", "tag": "自編"},
+
+    {"id": "chi-learn-U10-Q1", "unitId": "chi-learn-U10", "topic": "chi-cohere", "prompt": "段首寫「合作需要清楚分工」，段中應優先補？", "choices": ["分工例子與效果", "無關天氣描寫很長一段", "廣告標語"], "answerIndex": 0, "hint": "細節服務主題句。", "explain": "例子扣分工。", "tag": "自編"},
+    {"id": "chi-learn-U10-Q2", "unitId": "chi-learn-U10", "topic": "chi-cohere", "prompt": "前後兩段分別寫「問題」與「解決」，銜接較合適？", "choices": ["因此／於是", "例如（僅舉例無關）", "無所謂隨便"], "answerIndex": 0, "hint": "因果。", "explain": "問題→解決用因果銜接。", "tag": "自編"},
+    {"id": "chi-learn-U10-Q3", "unitId": "chi-learn-U10", "topic": "chi-cohere", "prompt": "發現段內有兩箇互不相關的重點，應？", "choices": ["拆成兩段或删其一", "用更多成語掩蓋", "取消標點"], "answerIndex": 0, "hint": "一段一點。", "explain": "一段一主點。", "tag": "自編"},
+    {"id": "chi-learn-U10-Q4", "unitId": "chi-learn-U10", "topic": "chi-cohere", "prompt": "「然而」適用於？", "choices": ["前後意思轉折", "完全相同意思的兩句", "標題編號"], "answerIndex": 0, "hint": "轉折。", "explain": "有轉折才用「然而」。", "tag": "自編"},
+
+    {"id": "chi-learn-U11-Q1", "unitId": "chi-learn-U11", "topic": "chi-speak", "prompt": "小組有人提出不同方案，你較合適的開場是？", "choices": ["先複述對方重點再提補充", "直接否定並嘲諷", "無視繼續自說"], "answerIndex": 0, "hint": "禮貌澄清。", "explain": "先理解再補充。", "tag": "自編"},
+    {"id": "chi-learn-U11-Q2", "unitId": "chi-learn-U11", "topic": "chi-speak", "prompt": "一分鐘匯報開場最應先講？", "choices": ["題目與你的立場一句", "無關長故事", "產品推銷"], "answerIndex": 0, "hint": "先定位。", "explain": "立場先行。", "tag": "自編"},
+    {"id": "chi-learn-U11-Q3", "unitId": "chi-learn-U11", "topic": "chi-speak", "prompt": "口語骨架「因為…例如…」作用是？", "choices": ["讓理由可檢驗", "增加攻擊性", "省略立場"], "answerIndex": 0, "hint": "理據。", "explain": "理由＋例子＝可跟。", "tag": "自編"},
+    {"id": "chi-learn-U11-Q4", "unitId": "chi-learn-U11", "topic": "chi-speak", "prompt": "本單元明確不做的是？", "choices": ["名校面試真題庫", "教育情境短卡", "禮貌回應練習"], "answerIndex": 0, "hint": "邊界。", "explain": "唔編名校題庫。", "tag": "自編"},
+
+    {"id": "chi-learn-U12-Q1", "unitId": "chi-learn-U12", "topic": "chi-review", "prompt": "因「未圈題幹指令詞」而錯，應回練？", "choices": ["U07 題幹拆解", "U11 說話儀態長訓", "公民科新頁"], "answerIndex": 0, "hint": "對應策略 unit。", "explain": "回 U07。", "tag": "自編"},
+    {"id": "chi-learn-U12-Q2", "unitId": "chi-learn-U12", "topic": "chi-review", "prompt": "打開錯題後，哪項最有助避免重犯？", "choices": ["標錯因並回對應 unit 重做", "只看答案不思考", "删除所有舊資源"], "answerIndex": 0, "hint": "閉環＝標因＋回練。", "explain": "標錯因並回對應 unit，比只看答案更有效。", "tag": "自編"},
+    {"id": "chi-learn-U12-Q3", "unitId": "chi-learn-U12", "topic": "chi-review", "prompt": "綜合單元與 CAT／錯題本關係應是？", "choices": ["深鏈互通，不刪舊資源", "取代並删除 CAT", "搬去 learn-play 第二地圖"], "answerIndex": 0, "hint": "ACCEPTANCE B3。", "explain": "深鏈唔斷；唔做第二地圖。", "tag": "自編"},
+    {"id": "chi-learn-U12-Q4", "unitId": "chi-learn-U12", "topic": "chi-review", "prompt": "本拍產品紅線仍包括？", "choices": ["唔開公民／無廣告／自編非真題", "上架公民科", "接入廣告 SDK"], "answerIndex": 0, "hint": "紅線。", "explain": "維持紅線。", "tag": "自編"}
+  ]
+}

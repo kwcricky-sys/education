@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Activity, ArrowLeft, ArrowRight } from "lucide-react";
+import { Activity, ArrowLeft, ArrowRight, Route } from "lucide-react";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getQuiz } from "@/lib/dse/quizzes";
 import { CHINESE_PRESCRIBED_TEXTS, textHref } from "@/lib/dse/texts";
@@ -56,6 +56,24 @@ export default function DseChinesePage() {
       </div>
 
       <Link
+        href="/dse/chinese/learn"
+        className="panel-lift flex items-center gap-4 rounded-xl border border-slate-200 bg-white px-5 py-5 shadow-lg transition-all duration-300 hover:border-blue-800/40 hover:bg-slate-200"
+      >
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-blue-700/10 text-blue-700 ring-1 ring-blue-700/20">
+          <Route className="size-5" />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-semibold text-slate-900">
+            中文科自學路徑 · U01–U12
+          </span>
+          <span className="mt-1 block text-sm leading-relaxed text-slate-600">
+            由字詞導讀走到錯題回練。每單元先讀課，再做 4 題，答對 3 題過關。自編練習，非考評局試題。
+          </span>
+        </span>
+        <ArrowRight className="size-4 shrink-0 text-blue-700" />
+      </Link>
+
+      <Link
         href="/dse/chinese/cat"
         className="panel-lift flex items-center gap-4 rounded-xl border border-slate-200 bg-white px-5 py-5 shadow-lg transition-all duration-300 hover:border-blue-800/40 hover:bg-slate-200"
       >
@@ -72,6 +90,14 @@ export default function DseChinesePage() {
         </span>
         <ArrowRight className="size-4 shrink-0 text-blue-700" />
       </Link>
+
+      <p className="text-sm text-slate-600">
+        練習紀錄可以在
+        <Link href="/dse/chinese/error-notebook" className="mx-1 font-semibold text-blue-700 underline">
+          錯題本
+        </Link>
+        重測。診斷室與十二篇範文都留在這頁，不會被自學路徑取代。
+      </p>
 
       <ol className="space-y-2">
         {CHINESE_PRESCRIBED_TEXTS.map((text, i) => {

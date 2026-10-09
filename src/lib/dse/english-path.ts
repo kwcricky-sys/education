@@ -9,7 +9,14 @@
 import englishDrills from "@/data/dse/english-drills.json";
 import englishLearnDrills from "@/data/dse/english-learn-drills.json";
 import englishLessons from "@/data/dse/english-lessons.json";
+import { ENGLISH_PAPER_BATCH, ENGLISH_PAPER_BATCH_META } from "@/lib/dse/english-paper-batch";
 import type { DrillQuestion } from "./drills";
+
+/**
+ * Aggregate learn-bank review flag stays false. This string is the locked
+ * sampling rule (also stored on the Paper Batch 1 file).
+ */
+export const ENGLISH_LEARN_REVIEW_STRATEGY = ENGLISH_PAPER_BATCH_META.reviewStrategy;
 
 /**
  * Size of the original Learn Mode bank (learn-mode-1) before paper-skill
@@ -78,7 +85,7 @@ export function getEnglishPracticeSet(topicKey: string, n = 10): DrillQuestion[]
   const learn = (englishLearnDrills as { questions: DrillQuestion[] }).questions;
   const published = (englishDrills as { questions: DrillQuestion[] }).questions;
   const seen = new Set<string>();
-  const qs = [...learn, ...published].filter((q) => {
+  const qs = [...learn, ...published, ...ENGLISH_PAPER_BATCH].filter((q) => {
     if (q.topic !== topicKey || seen.has(q.id)) return false;
     seen.add(q.id);
     return true;
@@ -113,6 +120,25 @@ function assertEnglishPathConsistency(): void {
     questions: DrillQuestion[];
   };
   const published = englishDrills as { questions: DrillQuestion[] };
+  if (ENGLISH_PAPER_BATCH_META.reviewStrategy !== ENGLISH_LEARN_REVIEW_STRATEGY) {
+    throw new Error("English review strategy drifted from the paper batch file");
+  }
+  if (ENGLISH_PAPER_BATCH.length !== 32) {
+    throw new Error(`English paper batch has ${ENGLISH_PAPER_BATCH.length} items; expected 32`);
+  }
+  const paperCounts = { Paper1: 0, Paper2: 0, Paper3: 0, Paper4: 0 };
+  for (const question of ENGLISH_PAPER_BATCH) {
+    if (question.paper !== "Paper1" && question.paper !== "Paper2" && question.paper !== "Paper3" && question.paper !== "Paper4") {
+      throw new Error(`English paper batch item ${question.id} has no paper`);
+    }
+    paperCounts[question.paper] += 1;
+    if (question.batchReviewed !== true) {
+      throw new Error(`English paper batch item ${question.id} must be batchReviewed`);
+    }
+  }
+  if (paperCounts.Paper1 !== 12 || paperCounts.Paper2 !== 8 || paperCounts.Paper3 !== 6 || paperCounts.Paper4 !== 6) {
+    throw new Error(`English paper batch counts drifted: ${JSON.stringify(paperCounts)}`);
+  }
   if (learn.meta.total !== learn.questions.length) {
     throw new Error(
       `English learn meta.total ${learn.meta.total} does not match ${learn.questions.length} questions`,
@@ -124,12 +150,17 @@ function assertEnglishPathConsistency(): void {
     );
   }
   const ids = new Set<string>();
-  for (const question of [...learn.questions, ...published.questions]) {
+  for (const question of [...learn.questions, ...published.questions, ...ENGLISH_PAPER_BATCH]) {
     if (ids.has(question.id)) {
       throw new Error(`Duplicate English drill id ${question.id}`);
     }
     ids.add(question.id);
-    if (question.options.length !== 4 || !["A", "B", "C", "D"].includes(question.answer)) {
+    const letters = question.options.map((option) => option.trim().charAt(0));
+    if (
+      question.options.length < 3 ||
+      question.options.length > 4 ||
+      !letters.includes(question.answer)
+    ) {
       throw new Error(`Malformed English drill ${question.id}`);
     }
   }
@@ -148,7 +179,7 @@ function assertEnglishPathConsistency(): void {
       }
       lessonIds.add(lessonId);
     }
-    const available = [...learn.questions, ...published.questions].filter(
+    const available = [...learn.questions, ...published.questions, ...ENGLISH_PAPER_BATCH].filter(
       (question) => question.topic === unit.topicKey,
     );
     if (available.length < 10) {
