@@ -129,7 +129,7 @@ const SUBJECT_ENTRIES = [
     name: "中文",
     nameEn: "Chinese Language",
     icon: BookOpen,
-    desc: `${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡，字詞、通假、句譯、章旨三階遞進；配 AI 診斷室同錯題本。`,
+    desc: `${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡，另有 U01–U12 自學路徑；配 AI 診斷室同錯題本。`,
     cta: "開始刷範文",
   },
   {

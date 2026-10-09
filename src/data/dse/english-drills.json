@@ -4,9 +4,55 @@
   "subject": "DSE english",
   "language": "en",
   "total": 19,
-  "version": "1.1",
+  "version": "1.2",
   "reviewed": true,
-  "note": "Original grammar drills for tense and conditional accuracy. Full explanations name the rule and the distractor error. Not HKEAA past-paper material."
+  "note": "Original grammar drills for tense and conditional accuracy. Full explanations name the rule and the distractor error. Not HKEAA past-paper material.",
+  "sampleDisposition": {
+   "mappedByFileOrder": "SAMPLE-01 through SAMPLE-19 follow this file's question order",
+   "keep": {
+    "slots": "SAMPLE-01..05",
+    "ids": [
+     "ENGL-TENS-001",
+     "ENGL-TENS-002",
+     "ENGL-TENS-003",
+     "ENGL-TENS-004",
+     "ENGL-TENS-005"
+    ],
+    "action": "Unchanged. Clear stem and explanation."
+   },
+   "keepLightEdit": {
+    "slots": "SAMPLE-06..10",
+    "ids": [
+     "ENGL-TENS-006",
+     "ENGL-TENS-007",
+     "ENGL-TENS-008",
+     "ENGL-TENS-010",
+     "ENGL-COND-001"
+    ],
+    "action": "Added hint from the first sentence of the existing explanation. Choices already use A-D. Difficulty already easy or medium, except ENGL-TENS-010 which stays hard (third conditional)."
+   },
+   "retainWithHint": {
+    "slots": "SAMPLE-11..15",
+    "ids": [
+     "ENGL-COND-002",
+     "ENGL-COND-003",
+     "ENGL-COND-004",
+     "ENGL-COND-005",
+     "ENGL-COND-006"
+    ],
+    "action": "Not dropped. These items already name the conditional and explain each distractor, so they do not match the placeholder defect. Hint added from the existing explanation. URLs stay on /dse/english/conditionals/{id}."
+   },
+   "paperStrategySupport": {
+    "slots": "SAMPLE-16..19",
+    "ids": [
+     "ENGL-COND-007",
+     "ENGL-COND-008",
+     "ENGL-COND-009",
+     "ENGL-COND-010"
+    ],
+    "action": "Kept on topic conditionals (no second paper track, no URL change). Tagged paper-strategy-support. Task-decision drills are Batch EN-1 en-p2, en-p3, and en-p4."
+   }
+  }
  },
  "questions": [
   {
@@ -122,6 +168,7 @@
    ],
    "answer": "B",
    "explanation": "For three hours plus a present result (feels exhausted now) is the typical setting for the present perfect continuous: has been studying. The continuous form stresses the duration. Has studied is possible in some contexts but presents the study as a completed quantity, not as three hours of activity leading to tiredness. Studied needs a finished past time and separates the action from now. Studies is a habit and ignores both the duration and the result.",
+   "hint": "For three hours plus a present result (feels exhausted now) is the typical setting for the present perfect continuous: has been studying.",
    "tags": [
     "present perfect continuous",
     "duration"
@@ -142,6 +189,7 @@
    ],
    "answer": "A",
    "explanation": "After plus a past main verb (went out) needs the homework to be complete before that past moment. Had finished supplies that earlier past. Was finishing means the homework was still in progress, so he would not yet have gone out. Has finished is present perfect and cannot be the first half of a past-time after clause. Finishes is present simple. The sequence is the whole point of the item.",
+   "hint": "After plus a past main verb (went out) needs the homework to be complete before that past moment.",
    "tags": [
     "past perfect",
     "past simple sequence"
@@ -162,6 +210,7 @@
    ],
    "answer": "D",
    "explanation": "By next month sets a deadline before which the project must be finished. That is the future perfect: will have completed. Will complete only says the completion happens at some future time, not that it is done by the deadline. Am completing is a present arrangement and does not look back from a future point. Have completed claims the project is already finished now, which makes by next month unnecessary.",
+   "hint": "By next month sets a deadline before which the project must be finished.",
    "tags": [
     "future perfect",
     "deadline"
@@ -182,6 +231,7 @@
    ],
    "answer": "D",
    "explanation": "Would have rearranged is a past unreal result, so the if-clause needs the past perfect: had known. This is the third conditional, used for a past chance that was missed. Knew would build a second conditional and should be followed by would rearrange, not would have rearranged. Know is present. Have known is present perfect and does not form this conditional. Earlier confirms that the missing knowledge is in the past.",
+   "hint": "Would have rearranged is a past unreal result, so the if-clause needs the past perfect: had known.",
    "tags": [
     "third conditional",
     "past perfect"
@@ -202,6 +252,7 @@
    ],
    "answer": "A",
    "explanation": "A zero conditional states a scientific fact or a habit that is always true. Both clauses use the present simple: if water reaches, it boils. Will boil is the first conditional and frames a real future event, not a law of nature. Reached / would boil is the second conditional, for an unreal present or future. Has reached / boiled mixes a perfect if-clause with a past result and does not describe a general rule.",
+   "hint": "A zero conditional states a scientific fact or a habit that is always true.",
    "tags": [
     "zero conditional",
     "present simple"
@@ -222,6 +273,7 @@
    ],
    "answer": "B",
    "explanation": "A real future possibility uses if + present simple, and will + base verb in the result: if it rains, we will cancel. Will does not belong in the if-clause in standard first conditionals. Rained / would cancel is the second conditional and treats the rain as hypothetical rather than a live forecast. Had rained / would have cancelled is the third conditional and cannot point at tomorrow.",
+   "hint": "A real future possibility uses if + present simple, and will + base verb in the result: if it rains, we will cancel.",
    "tags": [
     "first conditional",
     "future possibility"
@@ -242,6 +294,7 @@
    ],
    "answer": "C",
    "explanation": "The second conditional imagines a present or future that is not true now: if + past simple, would + base verb. Had more time / would help is that pattern. Have / will help is the first conditional, a real possibility. Had had / would have helped is the third conditional, about a past that cannot be changed. Would in the if-clause is a common error; would belongs in the result clause.",
+   "hint": "The second conditional imagines a present or future that is not true now: if + past simple, would + base verb.",
    "tags": [
     "second conditional",
     "hypothetical"
@@ -262,6 +315,7 @@
    ],
    "answer": "B",
    "explanation": "The third conditional is a past unreal: if + past perfect, would have + past participle. Had studied / would have passed means she did not study and did not pass. Studied / will pass mixes a past if-clause with a first-conditional result. Had studied / would pass is a mixed conditional: a past condition with a present result, so it is grammatical but it is not the third conditional the question asks for. Studied / would have passed mixes a second-conditional if-clause with a third-conditional result.",
+   "hint": "The third conditional is a past unreal: if + past perfect, would have + past participle.",
    "tags": [
     "third conditional",
     "past unreal"
@@ -282,6 +336,7 @@
    ],
    "answer": "D",
    "explanation": "The past condition is if + past perfect (had taken). The present result is would + base verb (would be rich now). Now is the clue that the result is not locked in the past. Took / would be is a straight second conditional about an unreal present. Had taken / would have been is a third conditional and places the riches in the past as well, which fights with now. Take / will be is a first conditional about a real future.",
+   "hint": "The past condition is if + past perfect (had taken).",
    "tags": [
     "mixed conditional",
     "past condition",
@@ -303,6 +358,7 @@
    ],
    "answer": "A",
    "explanation": "Unless means if not. In a first conditional it is followed by the present simple, and the result uses will: unless it rains, we will go. That means we will go if it does not rain. Will after unless is the same error as will in an if-clause. Rained / would go is a second-conditional shape. Had rained / would have gone is a third-conditional shape. The item tests both unless and the first-conditional tense pair.",
+   "hint": "Unless means if not.",
    "tags": [
     "first conditional",
     "unless"
@@ -326,6 +382,8 @@
    "tags": [
     "second conditional",
     "subjunctive were"
+,
+    "paper-strategy-support"
    ],
    "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
@@ -346,6 +404,8 @@
    "tags": [
     "third conditional",
     "negative"
+,
+    "paper-strategy-support"
    ],
    "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
@@ -367,6 +427,8 @@
     "mixed conditional",
     "present condition",
     "past result"
+,
+    "paper-strategy-support"
    ],
    "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"
@@ -387,6 +449,8 @@
    "tags": [
     "inversion",
     "third conditional"
+,
+    "paper-strategy-support"
    ],
    "syllabus_ref": "HKDSE English — grammar for writing and integrated tasks",
    "subject": "english"

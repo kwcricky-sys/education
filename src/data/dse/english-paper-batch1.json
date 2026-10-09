@@ -1,0 +1,789 @@
+{
+ "meta": {
+  "title": "DSE English Paper Drills Batch 1",
+  "subject": "DSE english",
+  "language": "en",
+  "total": 32,
+  "version": "en-paper-batch1",
+  "reviewed": false,
+  "batchReviewed": true,
+  "counts": {
+   "Paper1": 12,
+   "Paper2": 8,
+   "Paper3": 6,
+   "Paper4": 6
+  },
+  "reviewStrategy": "Gate1 does not mark the aggregate English learn bank reviewed:true. (1) Published SAMPLE in english-drills.json stays reviewed:true. File order maps SAMPLE-01 through SAMPLE-19; disposition is on that file's meta.sampleDisposition. (2) These 32 Batch EN-1 items are curriculum-locked and each has batchReviewed:true. They are self-authored and are not HKEAA text. (3) The pre-existing learn-mode bank in english-learn-drills.json stays reviewed:false. Sampling rule for a later pass, not a flag flip: an item is in the sample when the trailing integer of its id modulo 5 is 0 or 1 (two residue classes out of five, 40%), or when explanation.trim().length < 40.",
+  "note": "Self-authored Paper 1–4 drills (12/8/6/6). Not HKEAA past-paper text. Merged into the English drill bank beside the 19-item SAMPLE. Aggregate learn bank stays reviewed:false; see reviewStrategy."
+ },
+ "questions": [
+  {
+   "id": "en-p1-e01",
+   "topic": "reading-locating",
+   "paper": "Paper1",
+   "difficulty": "easy",
+   "question": "A short notice says: \"Lab closed 3–5 p.m. for safety drill.\" What should a student do?",
+   "options": [
+    "A. Avoid the lab during 3–5 p.m.",
+    "B. Enter only at 4 p.m.",
+    "C. Ignore the notice"
+   ],
+   "answer": "A",
+   "hint": "Check the time window.",
+   "explanation": "The notice blocks 3–5 p.m.（提示：Check the time window.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-e02",
+   "topic": "reading-locating",
+   "paper": "Paper1",
+   "difficulty": "easy",
+   "question": "In a leaflet, the heading is usually meant to…",
+   "options": [
+    "A. Tell the main topic quickly",
+    "B. Hide the topic",
+    "C. List every footnote"
+   ],
+   "answer": "A",
+   "hint": "Headings guide readers.",
+   "explanation": "Headings flag the topic.（提示：Headings guide readers.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-e03",
+   "topic": "reading-locating",
+   "paper": "Paper1",
+   "difficulty": "easy",
+   "question": "\"Please RSVP by Friday\" most nearly means…",
+   "options": [
+    "A. Reply whether you will attend by Friday",
+    "B. Pay a fee every Friday",
+    "C. Rewrite the essay by Friday"
+   ],
+   "answer": "A",
+   "hint": "RSVP = reply.",
+   "explanation": "Confirm attendance by Friday.（提示：RSVP = reply.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-e04",
+   "topic": "reading-locating",
+   "paper": "Paper1",
+   "difficulty": "easy",
+   "question": "Which question checks vocabulary-in-context?",
+   "options": [
+    "A. What does \"drain\" mean in this sentence?",
+    "B. Who is the author of HKEAA papers?",
+    "C. How many ads are on the page?"
+   ],
+   "answer": "A",
+   "hint": "Meaning in context.",
+   "explanation": "Asks word meaning in the sentence.（提示：Meaning in context.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-m01",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "medium",
+   "question": "Passage (self-written, 42 words): \"Maya checked her notes twice before the group call. She wanted every figure to match the spreadsheet.\" What can we infer?",
+   "options": [
+    "A. Maya cares about accuracy",
+    "B. Maya never uses spreadsheets",
+    "C. Maya cancelled the call"
+   ],
+   "answer": "A",
+   "hint": "Clues: checked twice; match.",
+   "explanation": "Careful checking → accuracy.（提示：Clues: checked twice; match.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-m02",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "medium",
+   "question": "Same passage: the writer's main purpose is closest to…",
+   "options": [
+    "A. Showing Maya's careful preparation",
+    "B. Teaching spreadsheet shortcuts",
+    "C. Selling phones"
+   ],
+   "answer": "A",
+   "hint": "What is emphasised?",
+   "explanation": "Preparation/accuracy focus.（提示：What is emphasised?）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-m03",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "medium",
+   "question": "A comment says the writer's tone is \"cautious\". Which detail best supports that?",
+   "options": [
+    "A. She checked notes twice before speaking",
+    "B. She shouted at teammates",
+    "C. She ignored all data"
+   ],
+   "answer": "A",
+   "hint": "Tone needs evidence.",
+   "explanation": "Double-checking = cautious.（提示：Tone needs evidence.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-m04",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "medium",
+   "question": "Which option is too broad for a paragraph that only describes one library rule?",
+   "options": [
+    "A. All city policies are perfect forever",
+    "B. Bags must be in lockers",
+    "C. Quiet zones are marked"
+   ],
+   "answer": "A",
+   "hint": "Over-generalisation.",
+   "explanation": "\"All city policies…\" is unsupported.（提示：Over-generalisation.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-h01",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "hard",
+   "question": "Passage (98 words, self-written): \"When the museum delayed the exhibit, volunteers rewrote floor maps, emailed schools, and posted a calm FAQ. Visitors still came—just with clearer expectations.\" Which statement is best supported?",
+   "options": [
+    "A. Clear communication reduced confusion after the delay",
+    "B. The museum cancelled all education programmes",
+    "C. Volunteers refused to help"
+   ],
+   "answer": "A",
+   "hint": "Maps + FAQ + clearer expectations.",
+   "explanation": "Communication → clearer expectations.（提示：Maps + FAQ + clearer expectations.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-h02",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "hard",
+   "question": "In that passage, \"calm FAQ\" most nearly suggests the team wanted to…",
+   "options": [
+    "A. Reduce panic by answering likely questions steadily",
+    "B. Hide the delay",
+    "C. Replace the exhibit with ads"
+   ],
+   "answer": "A",
+   "hint": "Tone of FAQ.",
+   "explanation": "Calm + FAQ = steady answers.（提示：Tone of FAQ.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-h03",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "hard",
+   "question": "Which inference is NOT justified by the passage?",
+   "options": [
+    "A. Every visitor preferred the delay to the original plan",
+    "B. Schools were informed by email",
+    "C. Floor maps were updated"
+   ],
+   "answer": "A",
+   "hint": "Find the leap.",
+   "explanation": "\"Every visitor preferred…\" is not supported.（提示：Find the leap.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p1-h04",
+   "topic": "reading-inference",
+   "paper": "Paper1",
+   "difficulty": "hard",
+   "question": "A question asks for the writer's attitude toward the volunteers. Best evidence-based answer?",
+   "options": [
+    "A. Appreciative—actions solved practical problems",
+    "B. Hostile—mocks their FAQ",
+    "C. Indifferent—never mentions them"
+   ],
+   "answer": "A",
+   "hint": "Look at verbs: rewrote/emailed/posted; result: clearer expectations.",
+   "explanation": "Positive practical framing.（提示：Look at verbs: rewrote/emailed/posted; result: clearer expectations.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper1"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-01",
+   "topic": "writing-argument",
+   "paper": "Paper2",
+   "difficulty": "medium",
+   "question": "Task: article for school magazine on reducing food waste. Best thesis focus?",
+   "options": [
+    "A. Practical steps students can take on campus",
+    "B. Unrelated celebrity gossip",
+    "C. Product ad copy"
+   ],
+   "answer": "A",
+   "hint": "Audience = school.",
+   "explanation": "Campus steps fit audience.（提示：Audience = school.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-02",
+   "topic": "writing-formats",
+   "paper": "Paper2",
+   "difficulty": "medium",
+   "question": "Letter of complaint about a broken lab fan. Tone should be…",
+   "options": [
+    "A. Polite but clear about the problem and request",
+    "B. Insulting staff names",
+    "C. All emojis"
+   ],
+   "answer": "A",
+   "hint": "Formal request.",
+   "explanation": "Polite + clear.（提示：Formal request.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-03",
+   "topic": "writing-formats",
+   "paper": "Paper2",
+   "difficulty": "easy",
+   "question": "Before writing, the most useful first move is…",
+   "options": [
+    "A. Underline purpose, audience, and format",
+    "B. Start with a random joke only",
+    "C. Skip the question words"
+   ],
+   "answer": "A",
+   "hint": "Task analysis.",
+   "explanation": "Purpose/audience/format.（提示：Task analysis.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-04",
+   "topic": "writing-formats",
+   "paper": "Paper2",
+   "difficulty": "medium",
+   "question": "If the task is a speech to juniors, which opening fits best?",
+   "options": [
+    "A. A short greeting + why the topic matters to them",
+    "B. A legal contract clause",
+    "C. A shopping receipt"
+   ],
+   "answer": "A",
+   "hint": "Speech + juniors.",
+   "explanation": "Greeting + relevance.（提示：Speech + juniors.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-05",
+   "topic": "writing-argument",
+   "paper": "Paper2",
+   "difficulty": "hard",
+   "question": "Which plan least fits \"discuss both views and give your opinion\"?",
+   "options": [
+    "A. Only attack one side with no opinion stated",
+    "B. View A → View B → own stance",
+    "C. Balanced points then conclusion"
+   ],
+   "answer": "A",
+   "hint": "Must discuss both + opinion.",
+   "explanation": "Missing opinion/both views.（提示：Must discuss both + opinion.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-06",
+   "topic": "writing-argument",
+   "paper": "Paper2",
+   "difficulty": "medium",
+   "question": "A paragraph should usually…",
+   "options": [
+    "A. Develop one clear point with support",
+    "B. Mix five unrelated points",
+    "C. Be only one word"
+   ],
+   "answer": "A",
+   "hint": "Unity.",
+   "explanation": "One point + support.（提示：Unity.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-07",
+   "topic": "writing-formats",
+   "paper": "Paper2",
+   "difficulty": "easy",
+   "question": "Ending a formal email to a teacher, prefer…",
+   "options": [
+    "A. A polite closing + name",
+    "B. All caps insults",
+    "C. No sign-off ever"
+   ],
+   "answer": "A",
+   "hint": "Register.",
+   "explanation": "Polite closing.（提示：Register.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p2-08",
+   "topic": "writing-argument",
+   "paper": "Paper2",
+   "difficulty": "hard",
+   "question": "Prompt asks for advantages AND disadvantages of group projects. A one-sided essay mainly…",
+   "options": [
+    "A. Misses part of the task",
+    "B. Always scores higher",
+    "C. Needs more ads"
+   ],
+   "answer": "A",
+   "hint": "Coverage.",
+   "explanation": "Must cover both sides.（提示：Coverage.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper2"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p3-01",
+   "topic": "listening-integrated",
+   "paper": "Paper3",
+   "difficulty": "easy",
+   "question": "Before listening, the best use of prep time is…",
+   "options": [
+    "A. Preview questions and predict key words",
+    "B. Write a full essay",
+    "C. Mute all thinking"
+   ],
+   "answer": "A",
+   "hint": "Prep strategy.",
+   "explanation": "Preview + predict.（提示：Prep strategy.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper3"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p3-02",
+   "topic": "listening-integrated",
+   "paper": "Paper3",
+   "difficulty": "medium",
+   "question": "If you miss one answer, you should…",
+   "options": [
+    "A. Move on and stay aligned with the recording",
+    "B. Replay by shouting",
+    "C. Leave the exam hall"
+   ],
+   "answer": "A",
+   "hint": "Time alignment.",
+   "explanation": "Don't freeze.（提示：Time alignment.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper3"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p3-03",
+   "topic": "listening-integrated",
+   "paper": "Paper3",
+   "difficulty": "medium",
+   "question": "Integrated task: when transferring data to a report, prioritise…",
+   "options": [
+    "A. Accuracy of figures and clear headings",
+    "B. Fancy fonts only",
+    "C. Random ads"
+   ],
+   "answer": "A",
+   "hint": "Data fidelity.",
+   "explanation": "Accurate + clear.（提示：Data fidelity.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper3"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p3-04",
+   "topic": "listening-integrated",
+   "paper": "Paper3",
+   "difficulty": "hard",
+   "question": "Two sources disagree on a number. Best student move in notes?",
+   "options": [
+    "A. Flag the conflict and check task instructions for which source rules",
+    "B. Pick the larger number always",
+    "C. Delete both"
+   ],
+   "answer": "A",
+   "hint": "Source conflict.",
+   "explanation": "Follow task hierarchy.（提示：Source conflict.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper3"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p3-05",
+   "topic": "listening-integrated",
+   "paper": "Paper3",
+   "difficulty": "easy",
+   "question": "Abbreviations in notes are useful when they…",
+   "options": [
+    "A. Stay consistent and readable to you later",
+    "B. Are invented differently each line",
+    "C. Replace all verbs forever"
+   ],
+   "answer": "A",
+   "hint": "Usable notes.",
+   "explanation": "Consistent abbreviations.（提示：Usable notes.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper3"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p3-06",
+   "topic": "listening-integrated",
+   "paper": "Paper3",
+   "difficulty": "medium",
+   "question": "A table in the Data File is most helpful for…",
+   "options": [
+    "A. Locating facts quickly under headings",
+    "B. Ignoring the question",
+    "C. Writing poems only"
+   ],
+   "answer": "A",
+   "hint": "DF navigation.",
+   "explanation": "Headings → facts.（提示：DF navigation.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper3"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p4-01",
+   "topic": "speaking",
+   "paper": "Paper4",
+   "difficulty": "easy",
+   "question": "Group discussion opening that works well:",
+   "options": [
+    "A. State your view in one line, then invite others",
+    "B. Speak for five minutes nonstop alone",
+    "C. Refuse to talk"
+   ],
+   "answer": "A",
+   "hint": "Interaction.",
+   "explanation": "View + invite.（提示：Interaction.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper4"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p4-02",
+   "topic": "speaking",
+   "paper": "Paper4",
+   "difficulty": "medium",
+   "question": "A teammate interrupts. A constructive response is…",
+   "options": [
+    "A. \"Good point—may I finish this reason, then your turn?\"",
+    "B. Personal insult",
+    "C. Walk away silently forever"
+   ],
+   "answer": "A",
+   "hint": "Turn-taking.",
+   "explanation": "Polite reclaim + yield.（提示：Turn-taking.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper4"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p4-03",
+   "topic": "speaking",
+   "paper": "Paper4",
+   "difficulty": "medium",
+   "question": "When you disagree, better phrasing is…",
+   "options": [
+    "A. \"I see it differently because…\" + reason",
+    "B. \"You're wrong and silly\"",
+    "C. Ignore the topic"
+   ],
+   "answer": "A",
+   "hint": "Polite dissent.",
+   "explanation": "Reasoned difference.（提示：Polite dissent.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper4"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p4-04",
+   "topic": "speaking",
+   "paper": "Paper4",
+   "difficulty": "hard",
+   "question": "Individual response: 1 minute. Best structure?",
+   "options": [
+    "A. Stance → 2 reasons → brief example → close",
+    "B. Only list movie titles",
+    "C. Read a shopping list"
+   ],
+   "answer": "A",
+   "hint": "Time-boxed structure.",
+   "explanation": "Clear mini-speech.（提示：Time-boxed structure.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper4"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p4-05",
+   "topic": "speaking",
+   "paper": "Paper4",
+   "difficulty": "easy",
+   "question": "If you don't understand a prompt word, you may…",
+   "options": [
+    "A. Ask for clarification politely",
+    "B. Guess wildly and attack others",
+    "C. Switch to another subject silently"
+   ],
+   "answer": "A",
+   "hint": "Clarification OK.",
+   "explanation": "Ask politely.（提示：Clarification OK.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper4"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  },
+  {
+   "id": "en-p4-06",
+   "topic": "speaking",
+   "paper": "Paper4",
+   "difficulty": "medium",
+   "question": "Keeping discussion balanced means…",
+   "options": [
+    "A. Invite quieter members and share time",
+    "B. Dominate every turn",
+    "C. Only talk about ads"
+   ],
+   "answer": "A",
+   "hint": "Inclusion.",
+   "explanation": "Share floor.（提示：Inclusion.）",
+   "tags": [
+    "自編",
+    "非 HKEAA",
+    "EN-1",
+    "Paper4"
+   ],
+   "subject": "english",
+   "batchReviewed": true,
+   "authorship": "自編（非 HKEAA）"
+  }
+ ]
+}

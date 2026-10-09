@@ -3,6 +3,11 @@ import Link from "next/link";
 import EnglishUnitMap from "@/components/dse/english-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
+import {
+  ENGLISH_PAPER_BATCH_META,
+  englishPaperBatchGroups,
+} from "@/lib/dse/english-paper-batch";
+import { questionHref } from "@/lib/dse/drills";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
   buildBreadcrumbJsonLd,
@@ -148,6 +153,45 @@ export default function EnglishLearnPage() {
       <div className="mt-8">
         <EnglishUnitMap />
       </div>
+
+      <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">
+          Paper drills · Batch 1
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">
+          本批 {ENGLISH_PAPER_BATCH_META.total} 題為自編卷別練習（Paper 1：
+          {ENGLISH_PAPER_BATCH_META.counts.Paper1}、Paper 2：
+          {ENGLISH_PAPER_BATCH_META.counts.Paper2}、Paper 3：
+          {ENGLISH_PAPER_BATCH_META.counts.Paper3}、Paper 4：
+          {ENGLISH_PAPER_BATCH_META.counts.Paper4}），不是考評局試題。題幹與選項跟課程稿一致，正確項維持稿內 answerIndex 0（選項 A）。
+        </p>
+        <p className="mt-3 text-sm leading-relaxed text-slate-600">
+          19 題 SAMPLE（時態／條件句，檔案順序即 SAMPLE-01 至 SAMPLE-19）維持 reviewed:true：01–05 保留；06–10 補上 hint、選項維持 A–D；11–15 題幹已清楚，故保留並補 hint，不汰走；16–19 仍屬條件句，並標為寫作準確度支援，卷別決策題就是上面的 en-p2／en-p3／en-p4。既有 Learn Mode 題庫未整庫標成 reviewed:true。抽樣規則：題號尾數除以 5 餘 0 或 1，或解說短於 40 字，先入抽樣，今次不因此把全庫改成已覆核。本批 32 題則逐題 batchReviewed。
+        </p>
+        <div className="mt-4 space-y-4">
+          {englishPaperBatchGroups().map((group) => (
+            <div key={group.paper}>
+              <h3 className="text-sm font-semibold text-slate-900">
+                {group.label}
+                <span className="ml-2 font-normal text-slate-500">{group.questions.length} 題</span>
+              </h3>
+              <ul className="mt-2 space-y-1">
+                {group.questions.map((question) => (
+                  <li key={question.id}>
+                    <Link
+                      href={questionHref("english", question)}
+                      className="text-sm text-blue-700 underline"
+                    >
+                      {question.id}
+                    </Link>
+                    <span className="text-sm text-slate-600"> · {question.question}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-10 rounded-2xl border border-slate-200 bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-slate-900">

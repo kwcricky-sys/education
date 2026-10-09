@@ -25,6 +25,7 @@ import { Eyebrow, SectionHeading, TrustChips } from "@/components/site/trust-ui"
 import { getDrillBank } from "@/lib/dse/drills";
 import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import { ECON_UNITS } from "@/lib/dse/econ-path";
+import { CHINESE_PASS_MARK, CHINESE_SET_SIZE, CHINESE_UNITS } from "@/lib/dse/chinese-path";
 import { ENGLISH_UNITS } from "@/lib/dse/english-path";
 import { ICT_UNITS } from "@/lib/dse/ict-path";
 import { MATH_UNITS } from "@/lib/dse/math-path";
@@ -46,6 +47,11 @@ const TEXT_COUNT = CHINESE_PRESCRIBED_TEXTS.length;
 
 const CHINESE_CARD_COUNT = getAllQuizSlugs().reduce(
   (n, slug) => n + (getQuiz(slug)?.meta.total ?? 0),
+  0,
+);
+
+const CHINESE_LESSON_COUNT = CHINESE_UNITS.reduce(
+  (n, u) => n + u.lessonIds.length,
   0,
 );
 
@@ -78,7 +84,7 @@ const TITLE = `DSE 學習與備考專區｜中文範文閃卡、English／ECON�
 
 export const metadata = createPageMetadata({
   title: TITLE,
-  description: `${SITE_NAME} DSE 備考專區：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片同 ${PROGRAMMES.length} 個聯招課程收生數據。全部免費、免登入。`,
+  description: `${SITE_NAME} DSE 備考專區：中文 ${TEXT_COUNT} 篇指定範文 ${CHINESE_CARD_COUNT} 題閃卡同 ${CHINESE_LESSON_COUNT} 課自學路徑、English ${ENGLISH_LESSON_COUNT} 課、ECON ${ECON_LESSON_COUNT} 課、數學 ${MATH_LESSON_COUNT} 課、BAFS ${BAFS_LESSON_COUNT} 課、ICT ${ICT_LESSON_COUNT} 課自學路徑、${VIDEO_SUBJECTS.length} 科 ${TOTAL_VIDEO_COUNT} 條溫習片同 ${PROGRAMMES.length} 個聯招課程收生數據。全部免費、免登入。`,
   path: "/dse",
   keywords: [
     "DSE",
@@ -130,6 +136,12 @@ type Resource = {
  */
 const SUBJECT_RESOURCES: Record<string, Resource[]> = {
   chinese: [
+    {
+      href: "/dse/chinese/learn",
+      label: "中文科自學路徑",
+      detail: `U01–U12：字詞、句意、段旨、手法、主題、跨篇、閱讀、寫作、說話，再到錯題回練。每單元 ${CHINESE_SET_SIZE} 題，答對 ${CHINESE_PASS_MARK} 題過關。`,
+      count: `${CHINESE_UNITS.length} 單元`,
+    },
     {
       href: "/dse/chinese",
       label: `${TEXT_COUNT} 篇指定範文閃卡`,
@@ -329,7 +341,8 @@ export default function DseHomePage() {
             DSE 學習與備考專區
           </h1>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ink-muted sm:text-base">
-            中文 {TEXT_COUNT} 篇指定範文 {CHINESE_CARD_COUNT} 題閃卡、English{" "}
+            中文 {TEXT_COUNT} 篇指定範文 {CHINESE_CARD_COUNT} 題閃卡、{CHINESE_UNITS.length}{" "}
+            單元自學路徑、English{" "}
             {ENGLISH_LESSON_COUNT} 課、ECON {ECON_LESSON_COUNT} 課、數學 {MATH_LESSON_COUNT}{" "}
             課、BAFS {BAFS_LESSON_COUNT} 課、ICT {ICT_LESSON_COUNT} 課自學路徑、
             {VIDEO_SUBJECTS.length} 科 {TOTAL_VIDEO_COUNT} 條溫習片，再加{" "}

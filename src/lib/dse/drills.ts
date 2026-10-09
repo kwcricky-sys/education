@@ -2,6 +2,7 @@ import bafsDrills from "@/data/dse/bafs-drills.json";
 import econDrills from "@/data/dse/econ-drills.json";
 import englishDrills from "@/data/dse/english-drills.json";
 import englishLearnDrills from "@/data/dse/english-learn-drills.json";
+import englishPaperBatch from "@/data/dse/english-paper-batch1.json";
 import ictDrills from "@/data/dse/ict-drills.json";
 import mathDrills from "@/data/dse/math-drills.json";
 
@@ -16,6 +17,11 @@ export type DrillQuestion = {
   explanation: string;
   tags?: string[];
   syllabus_ref?: string;
+  hint?: string;
+  /** Paper 1–4 batch items only. */
+  paper?: string;
+  batchReviewed?: boolean;
+  authorship?: string;
 };
 
 export type DrillBank = {
@@ -26,24 +32,36 @@ export type DrillBank = {
     total: number;
     version: string;
     reviewed?: boolean;
+    reviewStrategy?: string;
   };
   questions: DrillQuestion[];
 };
 
 const PUBLISHED_ENGLISH = englishDrills as DrillBank;
 const LEARN_ENGLISH = englishLearnDrills as DrillBank;
+const PAPER_BATCH_ENGLISH = englishPaperBatch as DrillBank;
 
 /**
- * The English bank = published drills + Learn Mode practice questions, so the
- * topic and question pages resolve for the /dse/english/learn course too.
+ * The English bank = published SAMPLE drills + Learn Mode practice + Paper
+ * Batch 1, so topic and question pages resolve for /dse/english/learn too.
+ * Aggregate reviewed stays false: the learn-mode bank is not fully signed off.
+ * See PAPER_BATCH_ENGLISH.meta.reviewStrategy.
  */
 const ENGLISH_BANK: DrillBank = {
   meta: {
-    ...PUBLISHED_ENGLISH.meta,
-    total: PUBLISHED_ENGLISH.questions.length + LEARN_ENGLISH.questions.length,
-    reviewed: PUBLISHED_ENGLISH.meta.reviewed ?? false,
+    ...LEARN_ENGLISH.meta,
+    total:
+      PUBLISHED_ENGLISH.questions.length +
+      LEARN_ENGLISH.questions.length +
+      PAPER_BATCH_ENGLISH.questions.length,
+    reviewed: false,
+    reviewStrategy: PAPER_BATCH_ENGLISH.meta.reviewStrategy,
   },
-  questions: [...PUBLISHED_ENGLISH.questions, ...LEARN_ENGLISH.questions],
+  questions: [
+    ...PUBLISHED_ENGLISH.questions,
+    ...LEARN_ENGLISH.questions,
+    ...PAPER_BATCH_ENGLISH.questions,
+  ],
 };
 
 const BANKS: Record<string, DrillBank> = {
