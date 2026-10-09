@@ -3,7 +3,7 @@
   "title": "DSE 經濟科答題骨架",
   "subject": "DSE econ",
   "language": "zh-HK",
-  "total": 10,
+  "total": 20,
   "note": "原創答題步驟，不是考評局評卷參考的原文。"
  },
  "skeletons": [
@@ -156,6 +156,175 @@
     "名義 GDP 上升 6%、平減指數也上升 6%，實質產量大致不變。老人現金津貼是轉移支付，不是額外 GDP。"
    ],
    "trap": "把名義升幅全部寫成產量上升，或把轉移支付加進政府開支。"
+  },
+  {
+   "id": "econ-skel-01",
+   "title": "Demand and supply shift essay",
+   "unitId": 1,
+   "whenToUse": "A question gives a new circumstance and asks for a new equilibrium.",
+   "steps": [
+    "Define the market and state the original equilibrium price and quantity.",
+    "Identify the shock and say which curve shifts, and why, naming the determinant.",
+    "Draw a labelled demand-supply diagram with the original equilibrium marked.",
+    "Show the new curve and the new equilibrium, with P and Q compared to before.",
+    "Comment on any surplus or shortage that appears as the price adjusts.",
+    "Add a short elasticity comment if the question asks for evaluation."
+   ],
+   "sentenceFrames": [
+    "因為只有 {determinant} 改變，所以 {curve} 由 {位置} 移向 {位置}，新均衡價格由 {P1} 變為 {P2}。"
+   ],
+   "trap": "Forgetting ceteris paribus, or mixing a slide along a curve with a shift of the curve."
+  },
+  {
+   "id": "econ-skel-02",
+   "title": "Elasticity application",
+   "unitId": 2,
+   "whenToUse": "A question gives two prices and quantities, or asks whether a good is elastic.",
+   "steps": [
+    "Name the elasticity and write the formula with the right variables.",
+    "State the percentage base, or say that you are using the midpoint method.",
+    "Compute the value and interpret the sign and the size against 1.",
+    "Link it to total revenue, or to who bears a tax, depending on the question.",
+    "State any assumption about the time period or the availability of substitutes."
+   ],
+   "sentenceFrames": [
+    "PED = (%ΔQd)/(%ΔP) = {值}，所以需求屬於{彈性}，因為 |PED| {大於／小於} 1。"
+   ],
+   "trap": "Treating the slope as elasticity, or dropping the sign when the question is about YED or XED."
+  },
+  {
+   "id": "econ-skel-03",
+   "title": "Price control evaluation",
+   "unitId": 3,
+   "whenToUse": "A question asks you to assess a ceiling, a floor or a minimum wage.",
+   "steps": [
+    "Decide whether the control is binding by comparing it with the equilibrium price.",
+    "Draw the ceiling or floor line and label the shortage or surplus it creates.",
+    "Name the winners and the losers, including how non-price rationing appears.",
+    "Add side effects such as queues, black markets, quality cuts or lower investment.",
+    "Briefly offer an alternative such as a targeted subsidy or a direct transfer."
+   ],
+   "sentenceFrames": [
+    "因為上限設於均衡價格{以下／以上}，所以{具約束力／不具約束力}，市場出現{短缺／過剩}。"
+   ],
+   "trap": "Describing a control as binding without checking which side of equilibrium it sits on."
+  },
+  {
+   "id": "econ-skel-04",
+   "title": "Tax incidence and deadweight loss",
+   "unitId": 4,
+   "whenToUse": "A question gives a per-unit tax and asks who pays, or asks about the welfare loss.",
+   "steps": [
+    "Shift supply up by the tax, or draw the wedge, and mark the new quantity.",
+    "Label the price buyers pay, the price sellers keep, and the tax rectangle.",
+    "Compare consumer and producer surplus before and after the tax.",
+    "Identify the deadweight loss triangle between the old and new quantities.",
+    "Use relative elasticities to say which side bears more of the burden."
+   ],
+   "sentenceFrames": [
+    "稅由買方與賣方分擔，買方承擔約 {比例}，因為需求較缺乏彈性。"
+   ],
+   "trap": "Assuming the statutory payer bears the whole tax, or shading the surplus on the wrong side."
+  },
+  {
+   "id": "econ-skel-05",
+   "title": "Externality and the policy response",
+   "unitId": 5,
+   "whenToUse": "A question describes pollution, congestion or a positive spillover and asks what to do.",
+   "steps": [
+    "Classify the externality as negative or positive in production or consumption.",
+    "Show the private curve and the social curve, and mark market and social output.",
+    "Choose the instrument: a per-unit tax or regulation for a negative externality, a subsidy for a positive one.",
+    "Explain that the ideal tax equals the external cost at the socially efficient quantity.",
+    "Note practical limits such as measurement difficulty and administrative cost."
+   ],
+   "sentenceFrames": [
+    "由於生產外部成本存在，MSC 大於 MPC，所以市場產量高於社會最有效率產量 {Q*}。"
+   ],
+   "trap": "Forgetting to say which type of externality applies before proposing a policy."
+  },
+  {
+   "id": "econ-skel-06",
+   "title": "Cost curves short answer",
+   "unitId": 6,
+   "whenToUse": "A question asks you to complete or interpret a set of short-run and long-run cost curves.",
+   "steps": [
+    "Define total cost, total variable cost and total fixed cost for the period.",
+    "Derive AVC, ATC and MC from the totals, showing the division and the difference.",
+    "Sketch the curves with MC cutting AVC and ATC at their minima.",
+    "If asked, add the shutdown and break-even conditions using P against AVC and ATC."
+   ],
+   "sentenceFrames": [
+    "MC 由 {Q−1} 增至 {Q} 時的總成本變化，故 MC = {數值}，並在 AVC 與 ATC 的最低點與之交。"
+   ],
+   "trap": "Claiming MC equals ATC, or drawing AFC rising with output."
+  },
+  {
+   "id": "econ-skel-07",
+   "title": "Market structure comparison",
+   "unitId": 7,
+   "whenToUse": "A question asks you to compare two or more market structures.",
+   "steps": [
+    "Use fixed criteria: number of sellers, product type, barriers to entry, information.",
+    "Draw the firm demand and note whether MR equals price or sits below it.",
+    "Explain the short-run position where MR = MC and read price from demand.",
+    "State the long-run profit outcome given free entry or blocked entry.",
+    "Comment on efficiency, comparing price with marginal cost and on product variety."
+   ],
+   "sentenceFrames": [
+    "在完全競爭下，個別廠商面對水平的需求曲線，故 P = MR；而壟斷下 MR 低於 P。"
+   ],
+   "trap": "Setting P = MC as the monopoly optimum, or forgetting to mention entry barriers."
+  },
+  {
+   "id": "econ-skel-08",
+   "title": "GDP measurement critique",
+   "unitId": 8,
+   "whenToUse": "A question asks how GDP is measured and what it leaves out.",
+   "steps": [
+    "Define GDP as the market value of final goods and services produced domestically in a period.",
+    "Explain nominal against real GDP and the role of the deflator.",
+    "List what is omitted, such as unpaid household work, informal activity and many environmental costs.",
+    "Warn against equating GDP with welfare, and mention that distribution is ignored."
+   ],
+   "sentenceFrames": [
+    "由於未付酬的家庭勞動沒有市場價格，因此 GDP 低估了部分創造福利的活動。"
+   ],
+   "trap": "Treating a rise in nominal GDP as proof that output or living standards rose."
+  },
+  {
+   "id": "econ-skel-09",
+   "title": "AD and AS shock",
+   "unitId": 9,
+   "whenToUse": "A question gives a macro shock and asks for the effect on prices and output.",
+   "steps": [
+    "Write out the aggregate demand components, C + I + G + (X - M).",
+    "Say which curve shifts and which determinant caused it.",
+    "Trace the short-run effect on the price level and real output.",
+    "Name the type of inflation, distinguishing demand-pull from cost-push.",
+    "If asked, add a policy comment, noting lags and the difficulty of offsetting cost-push shocks."
+   ],
+   "sentenceFrames": [
+    "由於 {原因}，{AD／SRAS} 由 {位置} 移向 {位置}，短期內物價{上升／下降}，實質產出{上升／下降}。"
+   ],
+   "trap": "Naming the inflation type without tying it to which curve shifted."
+  },
+  {
+   "id": "econ-skel-10",
+   "title": "Trade and intervention mini essay",
+   "unitId": 10,
+   "whenToUse": "A question asks about a tariff or another protection measure.",
+   "steps": [
+    "Explain the comparative advantage idea behind trade.",
+    "Show the tariff raising the domestic price and reducing imports.",
+    "Mark government revenue, the change in consumer and producer surplus, and the loss.",
+    "Give one argument for and one against, in terms of the case given.",
+    "Avoid slogans: link every argument to a diagram effect or a stated cost."
+   ],
+   "sentenceFrames": [
+    "關稅使國內價格由 {P1} 升至 {P2}，進口量下降，政府取得關稅收入，但消費者剩餘下降。"
+   ],
+   "trap": "Relying on slogans instead of the diagram, or ignoring the government's revenue rectangle."
   }
  ]
 }

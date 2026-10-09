@@ -3,7 +3,7 @@
   "title": "DSE BAFS Drill Bank",
   "subject": "DSE bafs",
   "language": "en",
-  "total": 144,
+  "total": 180,
   "version": "1.0",
   "reviewed": true
  },
@@ -2632,6 +2632,725 @@
    "explanation": "The problem is a personal benefit that may pull the decision away from the employer’s interest. Following a code is the control, not the conflict.",
    "tags": [
     "personal-finance-ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u01-d01",
+   "topic": "business-environment",
+   "difficulty": "easy",
+   "question": "A stakeholder of a business is best defined as:",
+   "options": [
+    "A. Anyone affected by, or interested in, the business's decisions",
+    "B. Only the owners of the business",
+    "C. Only the employees of the business",
+    "D. Only the government regulator"
+   ],
+   "answer": "A",
+   "explanation": "Stakeholders are internal and external groups with an interest in the firm: owners, employees, customers, suppliers, lenders and government. The definition is wider than any single group.",
+   "tags": [
+    "stakeholders"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u01-d02",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "In a PEST analysis, a change in the profits tax rate is classified mainly as:",
+   "options": [
+    "A. A political and legal-policy factor",
+    "B. A technological factor",
+    "C. A social factor",
+    "D. Only an economic factor"
+   ],
+   "answer": "A",
+   "explanation": "Taxation policy is set by government, so it belongs in the Political (or Legal) part of PEST. It also has an economic effect on costs, but the policy source is what places it in PEST.",
+   "tags": [
+    "PEST",
+    "business environment"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u01-d03",
+   "topic": "business-environment",
+   "difficulty": "medium",
+   "question": "Corporate social responsibility means that a business:",
+   "options": [
+    "A. Takes responsibility for social and environmental impacts beyond the legal minimum",
+    "B. Must maximise pollution to create jobs",
+    "C. Replaces the need to comply with the law",
+    "D. Guarantees a higher profit every year"
+   ],
+   "answer": "A",
+   "explanation": "CSR is voluntary action beyond legal compliance, such as reducing emissions or community programmes. It cannot override the law, and it does not guarantee higher profit in the short run.",
+   "tags": [
+    "CSR",
+    "ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u01-d04",
+   "topic": "business-environment",
+   "difficulty": "hard",
+   "question": "Ethical behaviour differs from legal behaviour because:",
+   "options": [
+    "A. An action can be legal and still be unethical",
+    "B. Law and ethics are always identical",
+    "C. Ethics applies only to non-governmental organisations",
+    "D. Anything unethical must be illegal"
+   ],
+   "answer": "A",
+   "explanation": "The law sets minimum standards that can be met without any ethical judgement. Lying to a customer or exploiting staff may be unlawful in some cases but is unethical regardless, so the two standards do not coincide.",
+   "tags": [
+    "ethics",
+    "corporate governance"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u02-d01",
+   "topic": "forms-of-business",
+   "difficulty": "easy",
+   "question": "A weakness of a sole proprietorship is that:",
+   "options": [
+    "A. The owner has unlimited liability and raising large capital is difficult",
+    "B. The owner has limited liability for business debts",
+    "C. The business is a separate legal entity",
+    "D. The owner can issue shares on the stock exchange"
+   ],
+   "answer": "A",
+   "explanation": "The owner's personal assets are at risk, and without share capital the firm usually grows more slowly. Limited liability and separate legal personality are features of a company, not a sole trader.",
+   "tags": [
+    "sole proprietorship",
+    "unlimited liability"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u02-d02",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "A company is described as a separate legal entity. This means the company:",
+   "options": [
+    "A. Can own assets and sue or be sued in its own name",
+    "B. Makes all shareholders personally liable for every debt",
+    "C. Does not need to keep accounting records",
+    "D. Cannot enter into contracts with customers"
+   ],
+   "answer": "A",
+   "explanation": "Separate legal personality lets the company hold property and take on obligations in its own name. Accounting records are still required, and shareholders are generally not personally liable for company debts.",
+   "tags": [
+    "legal entity",
+    "company"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u02-d03",
+   "topic": "forms-of-business",
+   "difficulty": "medium",
+   "question": "Shareholders of a limited company generally enjoy:",
+   "options": [
+    "A. Limited liability, limited to the unpaid amount on their shares",
+    "B. Unlimited personal liability for all company debts",
+    "C. No voting rights in any circumstances",
+    "D. A guaranteed return on their investment"
+   ],
+   "answer": "A",
+   "explanation": "Limited liability normally caps a shareholder's exposure at what they still owe on the shares. It does not remove voting rights, and it does not protect against personal guarantees given for the company's debts.",
+   "tags": [
+    "limited liability",
+    "shareholders"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u02-d04",
+   "topic": "forms-of-business",
+   "difficulty": "hard",
+   "question": "Compared with a public company, a private company typically:",
+   "options": [
+    "A. Restricts the transfer of its shares and does not invite the public to subscribe",
+    "B. Must be listed on a stock exchange",
+    "C. Can have unlimited partners and no share capital",
+    "D. Has no requirement to publish any information"
+   ],
+   "answer": "A",
+   "explanation": "Private companies limit share transfers and generally do not offer shares to the public, which is why detailed statutory rules on public offers are written for public companies. The exact statutory wording should be read from the current Companies Ordinance if a question needs it.",
+   "tags": [
+    "private company",
+    "share transfer"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u03-d01",
+   "topic": "management",
+   "difficulty": "easy",
+   "question": "POLC stands for:",
+   "options": [
+    "A. Planning, Organising, Leading and Controlling",
+    "B. Pricing, Ordering, Listing and Costing",
+    "C. Posting, Opening, Lending and Counting",
+    "D. Producing, Operating, Leading and Costing"
+   ],
+   "answer": "A",
+   "explanation": "The four classical management functions are planning, organising, leading and controlling. They are often shown as a continuous cycle rather than a single sequence.",
+   "tags": [
+    "POLC",
+    "management functions"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u03-d02",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "In Herzberg's two-factor theory, hygiene factors mainly:",
+   "options": [
+    "A. Prevent dissatisfaction but do not by themselves create strong motivation",
+    "B. Are the only factors that motivate staff",
+    "C. Replace the need for training and development",
+    "D. Apply only to senior management"
+   ],
+   "answer": "A",
+   "explanation": "Hygiene factors such as pay, working conditions and job security stop staff being dissatisfied. Motivation comes from the motivators, such as achievement, recognition and responsibility.",
+   "tags": [
+    "Herzberg",
+    "motivation theory"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u03-d03",
+   "topic": "management",
+   "difficulty": "medium",
+   "question": "The controlling function begins with:",
+   "options": [
+    "A. Setting standards, then measuring performance and correcting deviations",
+    "B. Firing staff who performed badly",
+    "C. Ignoring variance between actual and target",
+    "D. Raising the selling price to hit the target"
+   ],
+   "answer": "A",
+   "explanation": "Control is a cycle: set standards, measure actual performance, compare, identify variance, take corrective action. Skipping the standard makes later comparison impossible.",
+   "tags": [
+    "controlling",
+    "variance"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u03-d04",
+   "topic": "management",
+   "difficulty": "hard",
+   "question": "Strategic planning is typically:",
+   "options": [
+    "A. Long-term and covering the whole organisation",
+    "B. A list of day-to-day tasks for one department",
+    "C. The same as processing a single invoice",
+    "D. Limited to cash-flow forecasting each month"
+   ],
+   "answer": "A",
+   "explanation": "Strategy sets long-run objectives and the broad means of achieving them, which distinguishes it from operational or tactical planning. Cash forecasting is one supporting activity, not the strategy itself.",
+   "tags": [
+    "strategic planning",
+    "management"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u04-d01",
+   "topic": "marketing",
+   "difficulty": "easy",
+   "question": "The marketing mix of 4Ps covers:",
+   "options": [
+    "A. Product, Price, Place and Promotion",
+    "B. Profit, Plan, People and Patent",
+    "C. Process, Plant, Product and Price",
+    "D. Post, Pack, Pay and Print"
+   ],
+   "answer": "A",
+   "explanation": "The original 4Ps are product, price, place and promotion. Modern versions add people, process and physical evidence, but the core four still describe how a firm reaches customers.",
+   "tags": [
+    "marketing mix",
+    "4Ps"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u04-d02",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Market segmentation means:",
+   "options": [
+    "A. Dividing a market into groups with similar needs or characteristics",
+    "B. Selling one identical product to everyone in the same way",
+    "C. Reducing prices across the whole market",
+    "D. Merging two competitors into one company"
+   ],
+   "answer": "A",
+   "explanation": "Segmentation groups customers by demographic, geographic, psychographic or behavioural factors so the firm can target them more precisely. It is a basis for targeting and positioning, not simply a price cut.",
+   "tags": [
+    "segmentation",
+    "STP"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u04-d03",
+   "topic": "marketing",
+   "difficulty": "medium",
+   "question": "Brand equity is best described as:",
+   "options": [
+    "A. The value a brand name adds beyond the physical product itself",
+    "B. The construction cost of the factory building",
+    "C. A government tax credit for the brand",
+    "D. The annual sales revenue of the company"
+   ],
+   "answer": "A",
+   "explanation": "Brand equity is the intangible value from recognition, reputation and customer loyalty. It is not an asset that appears at cost on the balance sheet, which is why acquisitions may record goodwill separately.",
+   "tags": [
+    "brand equity",
+    "branding"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u04-d04",
+   "topic": "marketing",
+   "difficulty": "hard",
+   "question": "Positioning refers to:",
+   "options": [
+    "A. How a brand is perceived by customers relative to competing brands",
+    "B. The location of the company's warehouse",
+    "C. The grade of staff in the marketing department",
+    "D. The delivery route used for finished goods"
+   ],
+   "answer": "A",
+   "explanation": "Positioning is perceptual: it is the place a product occupies in customers' minds against alternatives, often expressed as a perceptual map. Physical location and staffing are operational matters.",
+   "tags": [
+    "positioning",
+    "STP"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u05-d01",
+   "topic": "human-resources",
+   "difficulty": "easy",
+   "question": "Piece-rate pay is calculated on the basis of:",
+   "options": [
+    "A. Units of output produced",
+    "B. Hours worked only",
+    "C. Years of service only",
+    "D. Profit made only"
+   ],
+   "answer": "A",
+   "explanation": "Piece rate pays per unit produced, which rewards output directly. It suits work where output is easily counted, but it can encourage staff to rush and it ignores quality or attendance.",
+   "tags": [
+    "pay",
+    "piece rate"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u05-d02",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "Training, compared with development, mainly improves:",
+   "options": [
+    "A. Skills needed for the employee's current role",
+    "B. Skills for a future senior role only",
+    "C. The employee's investment portfolio",
+    "D. The firm's share price"
+   ],
+   "answer": "A",
+   "explanation": "Training is job-specific and usually short-term, addressing current performance. Development prepares people for future responsibilities and career growth, and is typically longer-term.",
+   "tags": [
+    "training",
+    "development"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u05-d03",
+   "topic": "human-resources",
+   "difficulty": "medium",
+   "question": "In Hong Kong, an employer's MPF contributions are best classified as:",
+   "options": [
+    "A. Part of staff cost, within the employer's compensation package",
+    "B. Optional tips paid to staff",
+    "C. A dividend paid to shareholders",
+    "D. A loan repayable by the employee"
+   ],
+   "answer": "A",
+   "explanation": "Employer MPF contributions form part of the cost of employing staff alongside wages and other benefits. The exact statutory percentages change over time and should be read from the latest scheme documents rather than quoted from memory.",
+   "tags": [
+    "MPF",
+    "compensation"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u05-d04",
+   "topic": "human-resources",
+   "difficulty": "hard",
+   "question": "When choosing between MPF funds, a prudent employee focuses mainly on:",
+   "options": [
+    "A. Risk tolerance, fees and investment time horizon",
+    "B. The single highest return over the past month only",
+    "C. Sharing login details with a friend for convenience",
+    "D. Copying the choice of the most popular fund"
+   ],
+   "answer": "A",
+   "explanation": "Suitability depends on risk tolerance, costs and how long the money will be invested. Recent performance is a weak guide to future returns, and sharing credentials breaches account security.",
+   "tags": [
+    "MPF",
+    "investment choice"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u06-d01",
+   "topic": "accounting-equation",
+   "difficulty": "easy",
+   "question": "The accounting equation is:",
+   "options": [
+    "A. Assets = Liabilities + Capital",
+    "B. Assets = Revenue - Expenses",
+    "C. Cash = Profit",
+    "D. Capital = Liabilities"
+   ],
+   "answer": "A",
+   "explanation": "The accounting equation must hold at all times. Assets are resources controlled by the entity; liabilities are outside claims; capital is the owners' residual interest.",
+   "tags": [
+    "accounting equation"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u06-d02",
+   "topic": "accounting-equation",
+   "difficulty": "easy",
+   "question": "Double entry bookkeeping means:",
+   "options": [
+    "A. Every transaction has equal debit and credit entries",
+    "B. Only the cash account is debited",
+    "C. Ledger accounts are not needed",
+    "D. Each transaction is recorded twice in the same account"
+   ],
+   "answer": "A",
+   "explanation": "Debits must equal credits, which is what makes a trial balance check possible. Recording only one side breaks the equation and makes the accounts unreliable.",
+   "tags": [
+    "double entry",
+    "debit and credit"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u06-d03",
+   "topic": "accounting-equation",
+   "difficulty": "medium",
+   "question": "Increases in asset and expense accounts are normally recorded on the:",
+   "options": [
+    "A. Debit side",
+    "B. Credit side",
+    "C. Neither side",
+    "D. Both sides equally"
+   ],
+   "answer": "A",
+   "explanation": "Assets and expenses increase on the debit side and decrease on the credit side. Liabilities, capital and income do the opposite, which is why the equation stays in balance.",
+   "tags": [
+    "debit",
+    "credit",
+    "accounts"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u06-d04",
+   "topic": "accounting-equation",
+   "difficulty": "hard",
+   "question": "Under the accrual concept, transactions are recorded when:",
+   "options": [
+    "A. Revenue is earned and expenses are incurred, whether or not cash has moved",
+    "B. Cash is received or paid only",
+    "C. The owner's drawings are made",
+    "D. The bank statement is issued"
+   ],
+   "answer": "A",
+   "explanation": "Accrual accounting matches income and costs to the period in which they occur. Cash-basis recording would report a different profit in the same period, which is why adjustments are needed at the period end.",
+   "tags": [
+    "accrual",
+    "adjustments"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u07-d01",
+   "topic": "financial-statements",
+   "difficulty": "easy",
+   "question": "Gross profit is calculated as:",
+   "options": [
+    "A. Sales revenue minus cost of sales",
+    "B. Sales revenue minus all operating expenses",
+    "C. Cash at bank minus overdraft",
+    "D. Capital minus drawings"
+   ],
+   "answer": "A",
+   "explanation": "Gross profit is the trading result: what is left from sales after the direct cost of the goods sold. Operating expenses come later, before arriving at net profit.",
+   "tags": [
+    "gross profit",
+    "income statement"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u07-d02",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "A statement of financial position reports:",
+   "options": [
+    "A. Assets, liabilities and equity at a particular date",
+    "B. Revenue and expenses for one month only",
+    "C. Customer complaints during the period",
+    "D. Only the company's cash balance"
+   ],
+   "answer": "A",
+   "explanation": "The statement of financial position is a position statement: assets, liabilities and equity at a date, and it must satisfy assets = liabilities + equity. The income statement covers a period instead.",
+   "tags": [
+    "statement of financial position",
+    "balance sheet"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u07-d03",
+   "topic": "financial-statements",
+   "difficulty": "hard",
+   "question": "A mark-up calculated on cost uses which figure as its denominator?",
+   "options": [
+    "A. Cost of sales",
+    "B. Sales revenue",
+    "C. Share capital",
+    "D. Gross profit"
+   ],
+   "answer": "A",
+   "explanation": "Mark-up on cost is gross profit divided by cost of sales. Margin uses sales revenue in the denominator instead, so the two give different percentages for the same figures.",
+   "tags": [
+    "mark-up",
+    "margin"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u07-d04",
+   "topic": "financial-statements",
+   "difficulty": "medium",
+   "question": "At the period end a prepaid expense, such as insurance paid in advance, is normally reported as:",
+   "options": [
+    "A. A current asset",
+    "B. Revenue of the period",
+    "C. A non-current liability",
+    "D. An expense of the period in full"
+   ],
+   "answer": "A",
+   "explanation": "Cash paid in advance is a prepayment: part of it is used up in the period, and the unused part stays on the statement of financial position as an asset. Treating the whole amount as an expense overstates the cost.",
+   "tags": [
+    "prepayment",
+    "adjustments"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u08-d01",
+   "topic": "financial-ratios",
+   "difficulty": "easy",
+   "question": "The gross profit margin is calculated as:",
+   "options": [
+    "A. Gross profit divided by sales revenue",
+    "B. Net profit divided by capital",
+    "C. Current assets divided by sales revenue",
+    "D. Gross profit divided by cost of sales"
+   ],
+   "answer": "A",
+   "explanation": "Profitability ratios use sales revenue as the common denominator: gross margin measures the trading result, net margin the result after all expenses. Gross profit over cost of sales is a mark-up, not a margin.",
+   "tags": [
+    "gross profit margin",
+    "profitability"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u08-d02",
+   "topic": "financial-ratios",
+   "difficulty": "easy",
+   "question": "The current ratio is calculated as:",
+   "options": [
+    "A. Current assets divided by current liabilities",
+    "B. Total assets divided by capital",
+    "C. Sales revenue divided by inventory",
+    "D. Cash divided by total assets"
+   ],
+   "answer": "A",
+   "explanation": "The current ratio measures the ability to meet short-term obligations from short-term resources. A value well above 1 may suggest idle resources rather than strength.",
+   "tags": [
+    "current ratio",
+    "liquidity"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u08-d03",
+   "topic": "financial-ratios",
+   "difficulty": "medium",
+   "question": "The quick ratio is normally calculated by:",
+   "options": [
+    "A. Taking current assets, excluding inventory, then dividing by current liabilities",
+    "B. Dividing current assets by total assets",
+    "C. Adding inventory to current liabilities",
+    "D. Dividing net profit by inventory"
+   ],
+   "answer": "A",
+   "explanation": "The quick ratio, sometimes called the acid-test ratio, removes inventory because stock may not be quickly converted into cash. It is a stricter test of short-term solvency than the current ratio.",
+   "tags": [
+    "quick ratio",
+    "liquidity"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u08-d04",
+   "topic": "financial-ratios",
+   "difficulty": "hard",
+   "question": "A firm with a higher gearing ratio than last year:",
+   "options": [
+    "A. Relies more heavily on debt finance relative to equity or assets",
+    "B. Has automatically lower financial risk",
+    "C. Must hold more cash as a result",
+    "D. Is guaranteed a lower interest rate"
+   ],
+   "answer": "A",
+   "explanation": "Gearing measures the proportion of finance from debt. Higher gearing magnifies both the return to shareholders and the financial risk, because interest is payable regardless of profit. Interest cover is the usual companion measure.",
+   "tags": [
+    "gearing",
+    "solvency"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u09-d01",
+   "topic": "personal-finance-ethics",
+   "difficulty": "easy",
+   "question": "A personal budget mainly compares:",
+   "options": [
+    "A. Expected income with expected expenditure",
+    "B. Share prices of unrelated companies",
+    "C. Competitors' advertising spend",
+    "D. Only one month's utility bills"
+   ],
+   "answer": "A",
+   "explanation": "A budget lists expected inflows and outflows over a period and shows the surplus or shortfall. Its value comes from planning and monitoring, not from matching a share portfolio.",
+   "tags": [
+    "personal budget",
+    "financial planning"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u09-d02",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Which of the following is a conflict of interest in the workplace?",
+   "options": [
+    "A. A manager awarding a contract to a relative's firm without disclosure",
+    "B. Paying MPF contributions on time",
+    "C. Issuing an accurate receipt to a customer",
+    "D. Recording the transaction in the correct ledger account"
+   ],
+   "answer": "A",
+   "explanation": "A conflict of interest arises where a private interest could bias a decision made for the employer. Disclosure and approval procedures, and sometimes recusal, are the usual controls. Paying contributions on time, issuing an accurate receipt and correct bookkeeping are all proper controls, not conflicts.",
+   "tags": [
+    "conflict of interest",
+    "ethics"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u09-d03",
+   "topic": "personal-finance-ethics",
+   "difficulty": "medium",
+   "question": "Corporate governance structures such as a board and an audit function mainly help:",
+   "options": [
+    "A. Improve accountability and oversight of management",
+    "B. Eliminate all business risk",
+    "C. Replace the need for financial statements",
+    "D. Guarantee that dividends are paid"
+   ],
+   "answer": "A",
+   "explanation": "Governance is about oversight, accountability and assurance. It reduces the risk of misuse of resources; it does not remove operating risk or the obligation to prepare accounts.",
+   "tags": [
+    "corporate governance",
+    "accountability"
+   ],
+   "subject": "bafs",
+   "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"
+  },
+  {
+   "id": "bafs-u09-d04",
+   "topic": "personal-finance-ethics",
+   "difficulty": "hard",
+   "question": "Sound personal financial planning usually gives priority to:",
+   "options": [
+    "A. Liquidity and low risk before speculative investments",
+    "B. Concentrating everything in one speculative asset",
+    "C. Ignoring insurance altogether to save cost",
+    "D. Borrowing to fund higher-risk investments"
+   ],
+   "answer": "A",
+   "explanation": "Prudent planning builds a buffer and adequate cover first, because unexpected expenses can otherwise force sales at a bad time. Product-specific details and current percentages should be taken from up-to-date official sources.",
+   "tags": [
+    "financial planning",
+    "risk"
    ],
    "subject": "bafs",
    "syllabus_ref": "HKDSE BAFS — original drill, not an HKEAA paper"

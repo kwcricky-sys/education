@@ -1154,5 +1154,197 @@
   "practice": "exam-skills",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "ict-l-algo-01": {
+  "id": "ict-l-algo-01",
+  "title": "Algorithms+: nested loops and trace tables",
+  "concept": "A nested loop places one loop inside the body of another, so the inner loop runs once for every pass of the outer one. Each loop needs its own counter, and a trace table needs a column per variable plus one for output. Update a cell only at the step where the algorithm assigns to that variable, and keep the original values until the assignment is reached. Practise with both boundary values, including zero and the maximum, because off-by-one errors appear exactly there.",
+  "example": {
+   "scenario": "An algorithm sets count to 0, then loops n from 1 to 3, and inside the loop adds n to count before outputting count each pass.",
+   "walkthrough": "Trace with columns for n and count. Pass 1: n = 1, then count = 0 + 1 = 1, output 1. Pass 2: n = 2, count = 1 + 2 = 3, output 3. Pass 3: n = 3, count = 3 + 3 = 6, output 6. The order matters: if count were output before the addition, the outputs would be 0, 1 and 3 instead."
+  },
+  "traps": [
+   "Updating a variable in the trace before the algorithm assigns to it.",
+   "Reading the arrow as a comparison rather than an assignment.",
+   "Testing only mid-range values and missing the boundaries at 0 and the maximum."
+  ],
+  "terms": [
+   {
+    "term": "Nested loop",
+    "definition": "One loop placed inside the body of another loop."
+   },
+   {
+    "term": "Trace table",
+    "definition": "A grid with a column per variable and one for output, filled step by step."
+   },
+   {
+    "term": "Boundary test data",
+    "definition": "Values at the edges of the valid range, including both endpoints."
+   }
+  ],
+  "unit": 7,
+  "practice": "algorithms",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "ict-l-algo-02": {
+  "id": "ict-l-algo-02",
+  "title": "Algorithms+: searching versus sorting, and why",
+  "concept": "A search looks for a target: a linear search checks each item in turn until it matches or runs out, which needs no particular order, while a binary search halves the range each step but requires the data to be sorted. Sorting is a separate task that rearranges records so that later searches or reports become easier. Sorting first costs time and is worthwhile only when the data will be searched or presented repeatedly, or when a report needs an ordered list. Explain errors and logic errors differently: an explanation describes why an answer is wrong, while a logic error means the algorithm does not do what was intended.",
+  "example": {
+   "scenario": "A student searches 4,000 unsorted student records by scanning one by one, then sorts them and repeats the search many times a day.",
+   "walkthrough": "The linear search works on unsorted data but may need up to 4,000 checks. Once the records are sorted, a binary search needs about 12 checks because each step halves the range. Paying the cost of one sort is justified only because the search is repeated; for a single lookup on unsorted data, sorting first would be wasted effort."
+  },
+  "traps": [
+   "Claiming sorting is always faster than any search.",
+   "Confusing an explanation of a wrong answer with a logic error in the algorithm.",
+   "Testing with abnormal data only and never checking the ordinary case."
+  ],
+  "terms": [
+   {
+    "term": "Linear search",
+    "definition": "Checking items one after another until the target is found or the data ends."
+   },
+   {
+    "term": "Binary search",
+    "definition": "Halving a sorted range each step to locate a target quickly."
+   },
+   {
+    "term": "Logic error",
+    "definition": "An algorithm that runs without erroring but does not perform the intended task."
+   }
+  ],
+  "unit": 7,
+  "practice": "algorithms",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "ict-l-sec-01": {
+  "id": "ict-l-sec-01",
+  "title": "Security+: defence in depth for a school LAN",
+  "concept": "No single control protects a system, so layer them: unique long passwords with two-factor authentication where offered, an operating system and applications kept patched, firewall rules that allow only necessary traffic, accounts with the least privilege needed for the job, encryption for sensitive data in transit, and backups that have actually been restored to confirm they work. Match each control to the threat it addresses. Ransomware shows why backups and isolation matter: paying does not undo the harm, whereas isolation plus a tested restore recovers the system.",
+  "example": {
+   "scenario": "A school laptop is infected with ransomware during a term, and the IT team discovers that the last backup was written eight months ago and had never been tested.",
+   "walkthrough": "The immediate steps are to isolate the machine from the network and assess the backup. An untested backup is a risk, because a restore can fail; recovering from an eight-month-old backup would also lose the term's work. The longer-term controls are patching the entry point, unique accounts, multi-factor authentication for administrators, and scheduled restore testing recorded in a log."
+  },
+  "traps": [
+   "Treating payment as the recovery plan for ransomware.",
+   "Reusing one strong password across every account.",
+   "Assuming antivirus software alone makes a system secure."
+  ],
+  "terms": [
+   {
+    "term": "Defence in depth",
+    "definition": "Using several independent layers so one failure is not enough to cause harm."
+   },
+   {
+    "term": "Least privilege",
+    "definition": "Giving each account only the access its job requires."
+   },
+   {
+    "term": "Restore testing",
+    "definition": "Periodically recovering a backup to confirm it can actually be used."
+   }
+  ],
+  "unit": 8,
+  "practice": "security",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "ict-l-sec-02": {
+  "id": "ict-l-sec-02",
+  "title": "Security+: phishing and judging links",
+  "concept": "Phishing builds pressure: an unexpected invoice, a locked account, a prize, a message from a senior. It then asks you to act, usually by opening a link to a convincing copy of a sign-in page or by sending credentials. Check the sender address, spell the domain carefully, and prefer navigating to a site by typing the address yourself. Never paste a one-time code into a form you reached from a message, and treat unexpected attachments as unsafe. HTTPS encrypts the channel so others cannot read the traffic, but a secure connection does not certify that the page content is honest.",
+  "example": {
+   "scenario": "A student receives a message claiming the library account will be closed today, with a link to 'hklib-secure-login.example' asking for the student number and a one-time code.",
+   "walkthrough": "Several signals point to phishing: urgency, an unexpected message about an account, a look-alike domain with an extra word, and a request for a one-time code. The safe action is to ignore the link, open the library site independently, and check the account there. Even if the page uses HTTPS, that only proves the channel is encrypted, not that the request is genuine."
+  },
+  "traps": [
+   "Treating the padlock in the address bar as proof that a site is honest.",
+   "Sharing a one-time code in a chat or a form reached from a message.",
+   "Opening an unexpected attachment because the sender name looks familiar."
+  ],
+  "terms": [
+   {
+    "term": "Phishing",
+    "definition": "Fraudulent messages that pressure a user into surrendering credentials or opening something unsafe."
+   },
+   {
+    "term": "Look-alike domain",
+    "definition": "An address built to resemble a genuine site while belonging to someone else."
+   },
+   {
+    "term": "One-time code",
+    "definition": "A single-use code that should never be entered into a site reached from a link."
+   }
+  ],
+  "unit": 8,
+  "practice": "security",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "ict-l-exam-01": {
+  "id": "ict-l-exam-01",
+  "title": "Exam+: state, describe, explain, compare",
+  "concept": "The command word sets the depth. State or name needs a short label. Describe needs features or characteristics, so several points. Explain needs a reason, linked to the case, which is where most marks are lost by naming a device without the because. Compare needs both items addressed, with linking words such as both, whereas and unlike. Marks follow the verb: an essay-length answer to a state question wastes time and can still miss the point.",
+  "example": {
+   "scenario": "A question asks: 'Explain why a school would use a wireless access point rather than connecting each computer by cable to a switch.'",
+   "walkthrough": "A weak answer names the device and stops. A strong answer gives the reason tied to the case: the classrooms are re-furnished regularly, so cabling would need repeating each time, whereas an access point needs only one cable to the switch, and adding a further room means adding an access point rather than running new cable. The verb asked for explanation, so the reasons are the marks."
+  },
+  "traps": [
+   "Naming a device for an explain question without giving the reason.",
+   "Writing several paragraphs for a state question.",
+   "Comparing only one of the two items being asked about."
+  ],
+  "terms": [
+   {
+    "term": "Command word",
+    "definition": "The verb at the start of a question that sets the required depth of answer."
+   },
+   {
+    "term": "Because clause",
+    "definition": "The linked reason that turns a name into an explanation."
+   },
+   {
+    "term": "Linking word",
+    "definition": "A word such as both, whereas or unlike that makes a comparison explicit."
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-skills",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "ict-l-exam-02": {
+  "id": "ict-l-exam-02",
+  "title": "Exam+: the file-size working template",
+  "concept": "For an uncompressed bitmap, bytes is approximately width x height x colour depth in bits, divided by 8. Write the substitution with the units visible at each line, convert to kilobytes or megabytes only if the question uses them, and round only when instructed. Then say whether a compression method would help and whether it is lossy or lossless. This template also converts sampling rates to audio size: duration in seconds x sampling rate in hertz x bit depth, divided by 8.",
+  "example": {
+   "scenario": "An image is 1,600 pixels wide by 900 pixels high with 24 bits per pixel. Find the uncompressed size in megabytes to 2 decimal places, using 1 MB = 1,048,576 bytes.",
+   "walkthrough": "Bits = 1,600 x 900 x 24 = 34,560,000 bits. Bytes = 34,560,000 / 8 = 4,320,000 bytes. Megabytes = 4,320,000 / 1,048,576 = 4.12 MB. State that JPEG would reduce this considerably and is lossy, while PNG is lossless and would preserve the edges of any line art."
+  },
+  "traps": [
+   "Forgetting to divide the total bits by 8.",
+   "Mixing bits and bytes part-way through the calculation.",
+   "Claiming that JPEG is a lossless format."
+  ],
+  "terms": [
+   {
+    "term": "Colour depth",
+    "definition": "Bits stored per pixel, giving the number of possible colours."
+   },
+   {
+    "term": "Uncompressed size",
+    "definition": "Width x height x colour depth in bits, divided by 8 to give bytes."
+   },
+   {
+    "term": "Lossy format",
+    "definition": "A format that discards detail to reduce size, such as JPEG."
+   }
+  ],
+  "unit": 10,
+  "practice": "exam-skills",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }

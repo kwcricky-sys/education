@@ -3,7 +3,9 @@ import Link from "next/link";
 import IctUnitMap from "@/components/dse/ict-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
 import conceptCards from "@/data/dse/ict-concept-cards.json";
+import phraseCards from "@/data/dse/ict-phrase-cards.json";
 import { ICT_UNITS } from "@/lib/dse/ict-path";
+import { LearnCrossLinks } from "@/components/dse/learn-cross-links";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
   buildBreadcrumbJsonLd,
@@ -142,6 +144,32 @@ export default function IctLearnPage() {
           ))}
         </div>
       </section>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          Explain／compare 句式卡
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+          {phraseCards.cards.length} 條原編句式，答 explain 同 compare 題時照樣填返個案例。
+          括號入面換成題目自己嘅細節，分數先會穩陣。
+        </p>
+        <div className="mt-4 space-y-3">
+          {phraseCards.cards.map((card) => (
+            <details key={card.id} className="rounded-2xl border border-line bg-white p-5">
+              <summary className="cursor-pointer font-semibold text-ink">
+                {card.title}
+                <span className="ml-2 text-sm font-normal text-ink-faint">{card.focus}</span>
+              </summary>
+              <p className="mt-3 rounded-lg bg-cream/70 p-3 text-sm leading-relaxed text-ink">
+                {card.phrase}
+              </p>
+              <p className="mt-2 text-sm text-amber-900">用嘅時候：{card.tips}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <LearnCrossLinks current="/dse/ict/learn" />
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">

@@ -289,6 +289,55 @@ const SUBJECT_RESOURCES: Record<string, Resource[]> = {
   ],
 };
 
+/**
+ * The six learn paths, listed up front so a student does not have to hunt for
+ * them. Counts are read from the unit tables, never typed in.
+ */
+const LEARN_PATHS = [
+  {
+    subjectId: "chinese",
+    href: "/dse/chinese/learn",
+    label: "中文科自學路徑",
+    count: `${CHINESE_UNITS.length} 單元`,
+    detail: `範文導讀、閱讀策略、寫作審題同說話；每單元 ${CHINESE_SET_SIZE} 題，答啱 ${CHINESE_PASS_MARK} 題過關。`,
+  },
+  {
+    subjectId: "english",
+    href: "/dse/english/learn",
+    label: "English 自學路徑",
+    count: `${ENGLISH_LESSON_COUNT} 課`,
+    detail: "卷一閱讀、卷二寫作、卷三聆聽綜合、卷四說話同語法詞彙。",
+  },
+  {
+    subjectId: "econ",
+    href: "/dse/econ/learn",
+    label: "經濟（ECON）自學路徑",
+    count: `${ECON_LESSON_COUNT} 課 · ${ECON_DRILL_COUNT} 題`,
+    detail: `需求與供應、彈性、市場干預、生產與成本、市場結構、GDP 等 ${ECON_UNITS.length} 單元，另有圖表陷阱課同答題骨架。`,
+  },
+  {
+    subjectId: "math",
+    href: "/dse/math/learn",
+    label: "數學（必修）自學路徑",
+    count: `${MATH_LESSON_COUNT} 課 · ${MATH_DRILL_COUNT} 題`,
+    detail: `必修部分 ${MATH_UNITS.length} 單元加 worked example 示範；不混 M1／M2。`,
+  },
+  {
+    subjectId: "bafs",
+    href: "/dse/bafs/learn",
+    label: "BAFS 自學路徑",
+    count: `${BAFS_LESSON_COUNT} 課 · ${BAFS_DRILL_COUNT} 題`,
+    detail: `商管同會計財務 ${BAFS_UNITS.length} 單元，另有會計／商管弱項課同答題格式卡。`,
+  },
+  {
+    subjectId: "ict",
+    href: "/dse/ict/learn",
+    label: "ICT 自學路徑",
+    count: `${ICT_LESSON_COUNT} 課 · ${ICT_DRILL_COUNT} 題`,
+    detail: `系統、數據、網絡、互聯網、數據庫、多媒體、演算法、保安同應試 ${ICT_UNITS.length} 單元。`,
+  },
+] as const;
+
 const START_STEPS = [
   {
     href: "/dse/chinese/cat",
@@ -386,6 +435,51 @@ export default function DseHomePage() {
             })}
           </ol>
         </div>
+      </section>
+
+      {/* 自學路徑入口 — 六科一格即跳 */}
+      <section aria-labelledby="learn-heading" className="space-y-4">
+        <SectionHeading
+          id="learn-heading"
+          eyebrow="自學路徑入口"
+          title="揀科即刻開始：課 → 練習 → 過關解鎖"
+        />
+        <p className="-mt-2 max-w-3xl text-sm leading-relaxed text-ink-muted">
+          六科都有完整自學路徑：先讀課文，再做 10 題練習，答啱合格線就解鎖下一個單元。
+          進度只存喺你部機，唔使帳號，冇廣告。
+        </p>
+        <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+          {LEARN_PATHS.map((path) => {
+            const Icon = SUBJECT_ICON[path.subjectId] ?? Globe2;
+            return (
+              <li key={path.href}>
+                <Link
+                  href={path.href}
+                  className="group flex h-full items-start gap-3.5 rounded-2xl border border-line bg-white px-4 py-4 shadow-[var(--shadow-card)] transition-colors hover:border-navy/40"
+                >
+                  <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-navy text-gold">
+                    <Icon className="size-5" aria-hidden />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                      <span className="text-sm font-bold text-navy">{path.label}</span>
+                      <span className="rounded-full bg-cream px-2 py-0.5 text-[11px] font-bold text-gold-ink ring-1 ring-line">
+                        {path.count}
+                      </span>
+                    </span>
+                    <span className="mt-1 block text-xs leading-relaxed text-ink-muted">
+                      {path.detail}
+                    </span>
+                  </span>
+                  <ArrowRight
+                    className="mt-1 size-4 shrink-0 text-ink-faint transition-transform group-hover:translate-x-0.5 group-hover:text-navy"
+                    aria-hidden
+                  />
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       {/* 完整學習路徑 */}

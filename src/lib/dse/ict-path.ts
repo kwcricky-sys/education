@@ -106,7 +106,7 @@ export const ICT_UNITS: Unit[] = [
     titleZh: "演算法與偽代碼",
     topicKey: "algorithms",
     prerequisites: [],
-    lessonIds: ["L7.1", "L7.2", "L7.3"],
+    lessonIds: ["L7.1", "L7.2", "L7.3", "ict-l-algo-01", "ict-l-algo-02"],
     passThreshold: 7,
   },
   {
@@ -115,7 +115,7 @@ export const ICT_UNITS: Unit[] = [
     titleZh: "網絡保安",
     topicKey: "security",
     prerequisites: [4],
-    lessonIds: ["L8.1", "L8.2", "L8.3"],
+    lessonIds: ["L8.1", "L8.2", "L8.3", "ict-l-sec-01", "ict-l-sec-02"],
     passThreshold: 7,
   },
   {
@@ -133,7 +133,7 @@ export const ICT_UNITS: Unit[] = [
     titleZh: "應試技巧",
     topicKey: "exam-skills",
     prerequisites: [1, 7],
-    lessonIds: ["L10.1", "L10.2", "L10.3"],
+    lessonIds: ["L10.1", "L10.2", "L10.3", "ict-l-exam-01", "ict-l-exam-02"],
     passThreshold: 7,
   },
 ];

@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "title": "ICT explain／compare 句式卡",
+  "subject": "DSE ict",
+  "language": "zh-HK",
+  "total": 8,
+  "note": "原編答題句式，不是考評局評卷參考的原文。"
+ },
+ "cards": [
+  {
+   "id": "ict-phrase-01",
+   "title": "Explaining a device choice",
+   "focus": "系統／網絡設計",
+   "phrase": "[Device] suits this case because [need from the question]. It [function], so [outcome for the users or the school].",
+   "tips": "Quote the numbers or distances in the question so the reason is tied to the case, not to a generic list."
+  },
+  {
+   "id": "ict-phrase-02",
+   "title": "Comparing LAN and WAN",
+   "focus": "電腦網絡",
+   "phrase": "Both connect hosts and allow sharing; a LAN covers one site over a short distance, whereas a WAN links separate sites over long distances.",
+   "tips": "Give one similarity and one difference at least, and use both / whereas to make the comparison explicit."
+  },
+  {
+   "id": "ict-phrase-03",
+   "title": "Validation and verification",
+   "focus": "數據庫",
+   "phrase": "Validation checks that data is sensible in form, for example a valid date format; verification checks that the data was entered or copied correctly.",
+   "tips": "Give one concrete example of each, such as rejecting an impossible age and re-entering a mark twice."
+  },
+  {
+   "id": "ict-phrase-04",
+   "title": "Lossy and lossless compression",
+   "focus": "多媒體",
+   "phrase": "Lossy compression discards detail so the file is smaller but cannot be restored exactly; lossless compression rebuilds the original bits exactly.",
+   "tips": "Name a typical format for each, such as JPEG for lossy and PNG or ZIP for lossless."
+  },
+  {
+   "id": "ict-phrase-05",
+   "title": "Threat and control",
+   "focus": "網絡保安",
+   "phrase": "The threat is [X]; a suitable control is [Y] because it [mechanism that reduces the risk].",
+   "tips": "Cover more than one layer, a technical control and a habit, so the answer shows defence in depth."
+  },
+  {
+   "id": "ict-phrase-06",
+   "title": "Describing a dry run",
+   "focus": "演算法",
+   "phrase": "Trace: columns for [variables]; at step n, [variable] becomes [value]; the output is [value or text].",
+   "tips": "Update a cell only on the step that assigns to it, and state the output the algorithm actually produces."
+  },
+  {
+   "id": "ict-phrase-07",
+   "title": "Personal data and purpose limitation",
+   "focus": "社會議題",
+   "phrase": "Collect only [fields] that the task needs for [purpose], store them securely, and do not reuse them for another purpose without a basis.",
+   "tips": "Keep the wording conservative and general, and refer to the purpose rather than to a specific statute."
+  },
+  {
+   "id": "ict-phrase-08",
+   "title": "Planning exam time",
+   "focus": "應試技巧",
+   "phrase": "Read the command word, underline the facts in the case, plan one point per mark, then check the units, formula and rounding.",
+   "tips": "The verb decides the depth; check units and any required rounding before moving on."
+  }
+ ]
+}

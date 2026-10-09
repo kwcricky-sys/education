@@ -4,7 +4,9 @@ import BafsUnitMap from "@/components/dse/bafs-unit-map";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BAFS_UNITS } from "@/lib/dse/bafs-path";
 import statementCards from "@/data/dse/bafs-statement-cards.json";
+import formatCards from "@/data/dse/bafs-format-cards.json";
 import { getDrillBank } from "@/lib/dse/drills";
+import { LearnCrossLinks } from "@/components/dse/learn-cross-links";
 import { createPageMetadata } from "@/lib/page-metadata";
 import {
   buildBreadcrumbJsonLd,
@@ -141,6 +143,34 @@ export default function BafsLearnPage() {
           ))}
         </div>
       </section>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">
+          答題格式卡
+        </h2>
+        <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+          {formatCards.cards.length} 張原創格式卡，寫報表同比率題之前照住砌次序。
+          公司條例細節同 MPF 法定百分率以最新官方文件為準，卡內唔會寫死數字。
+        </p>
+        <div className="mt-4 space-y-3">
+          {formatCards.cards.map((card) => (
+            <details key={card.id} className="rounded-2xl border border-line bg-white p-5">
+              <summary className="cursor-pointer font-semibold text-ink">
+                {card.title}
+                <span className="ml-2 text-sm font-normal text-ink-faint">{card.focus}</span>
+              </summary>
+              <ol className="mt-3 list-decimal space-y-1 pl-5 text-sm leading-relaxed text-ink">
+                {card.steps.map((step) => (
+                  <li key={step}>{step}</li>
+                ))}
+              </ol>
+              <p className="mt-2 text-sm text-amber-900">常見失分：{card.trap}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <LearnCrossLinks current="/dse/bafs/learn" />
 
       <section className="mt-10 rounded-2xl border border-line bg-white p-6">
         <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-navy">

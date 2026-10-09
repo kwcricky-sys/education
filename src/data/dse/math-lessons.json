@@ -926,5 +926,165 @@
   "practice": "exam-skills",
   "passThreshold": 7,
   "reviewed": true
+ },
+ "math-u02-worked": {
+  "id": "math-u02-worked",
+  "title": "Worked: quadratic formula with a discriminant check",
+  "concept": "For ax^2 + bx + c = 0, first try to factor by inspection if the roots look like whole numbers or simple fractions, because factoring is faster and easier to mark. Otherwise compute the discriminant Delta = b^2 - 4ac and read off the number of roots before solving: Delta > 0 gives two distinct real roots, Delta = 0 one repeated root, Delta < 0 no real roots. Then x = (-b +/- sqrt(Delta)) / (2a), where the whole 2a sits under the fraction, and substitute back to check.",
+  "example": {
+   "scenario": "Solve 2x^2 - 7x + 3 = 0 and state how many real roots there are.",
+   "walkthrough": "Delta = (-7)^2 - 4(2)(3) = 49 - 24 = 25, which is positive, so there are two distinct real roots. Then x = (7 +/- 5)/4, giving x = 3 or x = 1/2. Checking in the original: 2(9) - 21 + 3 = 0 and 2(0.25) - 3.5 + 3 = 0, so both are correct."
+  },
+  "traps": [
+   "Dropping the plus-minus sign so only one root appears.",
+   "Writing 2a in the numerator as well as the denominator.",
+   "Reading Delta < 0 as two real roots."
+  ],
+  "terms": [
+   {
+    "term": "Discriminant",
+    "definition": "The expression b^2 - 4ac that determines the number of real roots."
+   },
+   {
+    "term": "Repeated root",
+    "definition": "A single root that the graph touches without crossing, arising when Delta = 0."
+   },
+   {
+    "term": "Substitution check",
+    "definition": "Replacing the answer in the original equation to confirm it satisfies it."
+   }
+  ],
+  "unit": 2,
+  "practice": "algebra",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "math-u04-worked": {
+  "id": "math-u04-worked",
+  "title": "Worked: the sum of an arithmetic progression",
+  "concept": "Read off a, d and n first. The n-th term is T_n = a + (n - 1)d, so the bracket is (n - 1), not n. For the sum use S_n = n/2 [2a + (n - 1)d], or the paired form S_n = n/2 (first term + last term). Substitute with the brackets closed, then check that the arithmetic makes sense: if d is positive the sum must exceed n times the first term.",
+  "example": {
+   "scenario": "An arithmetic progression starts at 4 with common difference 3. Find the 20th term and the sum of the first 20 terms.",
+   "walkthrough": "T_20 = 4 + 19 x 3 = 4 + 57 = 61. For the sum, S_20 = 20/2 [2(4) + 19 x 3] = 10 [8 + 57] = 650. The paired form agrees: 20/2 x (4 + 61) = 10 x 65 = 650. The average of the first and last terms is 32.5, which times 20 is 650."
+  },
+  "traps": [
+   "Using n instead of (n - 1) in the n-th term.",
+   "Forgetting the factor of one half.",
+   "Applying the geometric-series formula to an arithmetic progression."
+  ],
+  "terms": [
+   {
+    "term": "Common difference",
+    "definition": "The constant amount added to each term in an arithmetic progression."
+   },
+   {
+    "term": "Sum of an AP",
+    "definition": "S_n = n/2 [2a + (n - 1)d], equal to n times the average of the first and last terms."
+   },
+   {
+    "term": "Paired form",
+    "definition": "S_n = n/2 (first term + last term), a useful cross-check."
+   }
+  ],
+  "unit": 4,
+  "practice": "exp-log-sequences",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "math-u05-worked": {
+  "id": "math-u05-worked",
+  "title": "Worked: inequality reversal and linear programming corners",
+  "concept": "Solve a linear inequality exactly as you would an equation, but remember that multiplying or dividing by a negative number reverses the sign. For a quadratic inequality use a sign chart with the critical values as boundaries, and include the roots when the sign is non-strict. In linear programming, sketch each constraint line, shade the feasible side, find the vertices of the shaded region, and evaluate the objective function at each vertex before stating which one is best.",
+  "example": {
+   "scenario": "Solve -2x > 6. Then a shop maximises profit P = 3x + 2y subject to 2x + y <= 12 and x + 3y <= 15 with x, y >= 0.",
+   "walkthrough": "Dividing by -2 reverses the sign, so x < -3. For the programme, the corner points of the feasible region are (0, 0), (0, 5), (4, 4) and (6, 0). Evaluating P gives 0, 10, 20 and 18. The maximum is 20 at (4, 4), which lies on both constraint lines."
+  },
+  "traps": [
+   "Not reversing the sign after multiplying by a negative.",
+   "Naming an interior point as the optimum instead of a corner.",
+   "Using a strict inequality on a boundary where the line itself is allowed."
+  ],
+  "terms": [
+   {
+    "term": "Feasible region",
+    "definition": "The set of points satisfying all the constraints at once."
+   },
+   {
+    "term": "Objective function",
+    "definition": "The linear expression to be maximised or minimised over the region."
+   },
+   {
+    "term": "Vertex",
+    "definition": "A corner point of the feasible region where the optimum of a linear objective lies."
+   }
+  ],
+  "unit": 5,
+  "practice": "inequalities-lp",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "math-u06-worked": {
+  "id": "math-u06-worked",
+  "title": "Worked: moving between centre-radius form and general form",
+  "concept": "Start from (x - h)^2 + (y - k)^2 = r^2. The centre is (h, k) with the opposite signs of the bracket terms, and the radius is the square root of the value on the right, not the value itself. To reach general form, expand the squares and collect terms into x^2 + y^2 + Dx + Ey + F = 0. To go back, complete the square on x and on y separately, then read the centre and radius off the completed form.",
+  "example": {
+   "scenario": "Find the centre and radius of x^2 + y^2 + 2x - 4y - 11 = 0, and check it lies on the circle.",
+   "walkthrough": "Complete the square: (x^2 + 2x) + (y^2 - 4y) = 11, so (x + 1)^2 - 1 + (y - 2)^2 - 4 = 11, giving (x + 1)^2 + (y - 2)^2 = 16. The centre is (-1, 2) and the radius is 4, because 16 must be square-rooted. Substituting the centre back in the general form gives 1 + 4 - 2 - 8 - 11 = -16, which equals minus r squared, as it should."
+  },
+  "traps": [
+   "Sign errors when reading the centre from the bracket terms.",
+   "Using r instead of r squared for the radius.",
+   "Inventing a term in x and y that the equation does not have."
+  ],
+  "terms": [
+   {
+    "term": "Centre-radius form",
+    "definition": "(x - h)^2 + (y - k)^2 = r^2, which states the centre and radius directly."
+   },
+   {
+    "term": "General form",
+    "definition": "x^2 + y^2 + Dx + Ey + F = 0, with no completed squares."
+   },
+   {
+    "term": "Completing the square",
+    "definition": "Adding and subtracting the same quantity to rewrite a quadratic as a perfect square."
+   }
+  ],
+  "unit": 6,
+  "practice": "coordinate-geometry",
+  "passThreshold": 7,
+  "reviewed": true
+ },
+ "math-u07-worked": {
+  "id": "math-u07-worked",
+  "title": "Worked: cosine rule and area on a non-right-angled triangle",
+  "concept": "Label the sides opposite the angles you are given, then decide what you have. With two sides and the included angle (SAS), the third side comes from the cosine rule and the area from 1/2 bc sin A. With all three sides (SSS), rearrange the cosine rule to cos A = (b^2 + c^2 - a^2)/(2bc) and then find A. The sine rule, a/sin A = b/sin B = c/sin C, applies when you have an opposite pair and one further angle or side, and it can give two possible angles when only a side and one angle are known.",
+  "example": {
+   "scenario": "Two sides of a triangle are 5 cm and 7 cm with an included angle of 60 degrees. Find the third side and the area.",
+   "walkthrough": "Third side: a^2 = 25 + 49 - 2(5)(7) cos 60 degrees = 74 - 35 = 39, so a = sqrt(39) cm, about 6.24 cm. Area = 1/2 x 5 x 7 x sin 60 degrees = 17.5 x 0.866 = 15.16 square cm, about 15.2 square cm."
+  },
+  "traps": [
+   "Using a plus sign before 2bc cos A.",
+   "Ignoring the ambiguous case where the sine rule gives two possible angles.",
+   "Mixing degrees and radians part-way through a calculation."
+  ],
+  "terms": [
+   {
+    "term": "Included angle",
+    "definition": "The angle between two known sides, the angle needed for the cosine rule in SAS form."
+   },
+   {
+    "term": "Sine rule",
+    "definition": "a/sin A = b/sin B = c/sin C, used with an opposite pair of values."
+   },
+   {
+    "term": "Ambiguous case",
+    "definition": "When SSA data can produce two different triangles, so two angles are possible."
+   }
+  ],
+  "unit": 7,
+  "practice": "trigonometry",
+  "passThreshold": 7,
+  "reviewed": true
  }
 }
