@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "selftest:math-katex": "node --experimental-strip-types scripts/math-ascii-to-katex.selftest.mts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "katex": "^0.19.0",
     "lucide-react": "^1.28.0",
     "next": "16.2.12",
     "react": "19.2.4",
