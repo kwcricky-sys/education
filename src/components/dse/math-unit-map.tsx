@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { MATH_UNITS } from "@/lib/dse/math-path";
 import MathPracticeGate, { MATH_PROGRESS_KEY } from "@/components/dse/math-practice-gate";
+import MathText from "@/components/dse/MathText";
 import lessons from "@/data/dse/math-lessons.json";
 import {
   isUnitUnlocked,
@@ -143,20 +144,26 @@ export default function MathUnitMap() {
                     <summary className="cursor-pointer font-medium text-navy">
                       {l.id} — {l.title}
                     </summary>
-                    <p className="mt-3 whitespace-pre-line leading-relaxed text-ink-muted">
-                      {l.concept}
+                    <p className="mt-3 max-w-full overflow-x-auto leading-relaxed text-ink-muted">
+                      <MathText className="whitespace-pre-line" text={l.concept} />
                     </p>
-                    <div className="mt-3 rounded-lg border border-line bg-white p-3 text-sm">
+                    <div className="mt-3 max-w-full overflow-x-auto rounded-lg border border-line bg-white p-3 text-sm">
                       <p className="font-semibold text-navy">示範例子</p>
-                      <p className="mt-1 text-ink">{l.example.scenario}</p>
-                      <p className="mt-2 text-ink-muted">{l.example.walkthrough}</p>
+                      <p className="mt-1 text-ink">
+                        <MathText text={l.example.scenario} />
+                      </p>
+                      <p className="mt-2 text-ink-muted">
+                        <MathText text={l.example.walkthrough} />
+                      </p>
                     </div>
                     {l.traps.length > 0 && (
-                      <div className="mt-3 rounded-lg border border-gold/40 bg-cream p-3 text-sm text-ink">
+                      <div className="mt-3 max-w-full overflow-x-auto rounded-lg border border-gold/40 bg-cream p-3 text-sm text-ink">
                         <p className="font-semibold text-gold-ink">常見陷阱</p>
                         <ul className="mt-1 list-disc pl-5 text-ink-muted">
                           {l.traps.map((t, i) => (
-                            <li key={i}>{t}</li>
+                            <li key={i}>
+                              <MathText text={t} />
+                            </li>
                           ))}
                         </ul>
                       </div>

@@ -21,6 +21,8 @@ import {
   LockedNotice,
   type UnitRef,
 } from "@/components/dse/practice-gate-parts";
+import MathText from "@/components/dse/MathText";
+import { splitChoicePrefix } from "@/lib/dse/math-ascii-to-katex";
 import Link from "next/link";
 
 type Props = {
@@ -138,17 +140,18 @@ export default function MathPracticeGate({
           return (
             <div
               key={q.id}
-              className="rounded-2xl border border-line bg-white p-5 shadow-sm"
+              className="max-w-full rounded-2xl border border-line bg-white p-5 shadow-sm"
             >
               <p className="text-xs text-ink-faint">
                 {DIFFICULTY_LABEL[q.difficulty].zh} · {q.id}
               </p>
-              <p className="mt-2 font-medium text-ink">
-                {qi + 1}. {q.question}
+              <p className="mt-2 max-w-full overflow-x-auto font-medium text-ink">
+                {qi + 1}. <MathText text={q.question} />
               </p>
               <div className="mt-3 space-y-2">
                 {q.options.map((o) => {
                   const letter = o.charAt(0);
+                  const { prefix, body } = splitChoicePrefix(o);
                   const picked = a?.picked === letter;
                   const isAns = letter === q.answer;
                   let cls =
@@ -163,9 +166,10 @@ export default function MathPracticeGate({
                     <button
                       key={letter}
                       onClick={() => pick(q, letter)}
-                      className={`block w-full rounded-xl border p-3 text-left transition ${cls}`}
+                      className={`block w-full max-w-full overflow-x-auto rounded-xl border p-3 text-left transition ${cls}`}
                     >
-                      {o}
+                      {prefix}
+                      <MathText text={body} />
                       {submitted && isAns && (
                         <span className="ml-2 text-sm text-emerald-700">✓</span>
                       )}
@@ -179,8 +183,8 @@ export default function MathPracticeGate({
                 })}
               </div>
               {submitted && (
-                <p className="mt-3 rounded-lg bg-cream p-3 text-sm leading-relaxed text-ink-muted">
-                  {q.explanation}
+                <p className="mt-3 max-w-full overflow-x-auto rounded-lg bg-cream p-3 text-sm leading-relaxed text-ink-muted">
+                  <MathText text={q.explanation} />
                   <Link
                     href={questionHref("math", q)}
                     className="ml-2 font-semibold text-navy underline underline-offset-2"

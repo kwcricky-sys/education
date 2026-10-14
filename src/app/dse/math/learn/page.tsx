@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import MathUnitMap from "@/components/dse/math-unit-map";
+import MathText from "@/components/dse/MathText";
 import { JsonLd } from "@/components/seo/json-ld";
 import videoChecks from "@/data/dse/math-video-checks.json";
 import { MATH_UNITS } from "@/lib/dse/math-path";
@@ -164,8 +165,12 @@ export default function MathLearnPage() {
                     <p className="text-xs font-semibold tracking-wide text-gold-ink">
                       {item.n}. {item.focus}
                     </p>
-                    <p className="mt-1 text-sm leading-relaxed text-ink">{item.prompt}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-ink-muted">{item.answer}</p>
+                    <p className="mt-1 max-w-full overflow-x-auto text-sm leading-relaxed text-ink">
+                      <MathText text={item.prompt} />
+                    </p>
+                    <p className="mt-2 max-w-full overflow-x-auto text-sm leading-relaxed text-ink-muted">
+                      <MathText text={item.answer} />
+                    </p>
                   </li>
                 ))}
               </ol>
